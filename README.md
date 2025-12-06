@@ -80,3 +80,4 @@ See `IBCSHL.md` for detailed AI prompting guidelines and conventions.
 ---
 
 **Note**: The `pamojaLessons/` folder is archived and gitignored. It contains backup HTML files and lesson mappings from the original course export.
+
