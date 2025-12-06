@@ -1,0 +1,458 @@
+<div tabindex="0" id="dpPanel0Content" role="tabpanel" aria-labelledby="dpPanel0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show active">
+    <h3 class="sr-only m-0 p-0 border-0">Introduction</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives</h4>
+            <p>By the end of this lesson you will be able to:</p>
+            <ul id="" class="dp-more-space">
+                <li><span data-contrast="auto">Explain the concept of pipelining and its stages (fetch, decode, execute,
+                        and write-back).</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+                <li><span data-contrast="auto">Describe how pipelining improves system performance in multi-core
+                        architectures.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+                <li><span data-contrast="auto">Understand how multiple cores in a processor function independently and
+                        in parallel.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+    </div>
+</div>
+
+
+
+<div tabindex="0" id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block">
+        <h4>Introduction to Pipelining&nbsp;</h4>
+        <p>Pipelining is a key concept in modern processors that enhances computational efficiency by allowing multiple
+            instruction stages to be processed simultaneously, increasing throughput. Instead of executing one
+            instruction at a time from start to finish, pipelining enables different instructions to be at different
+            stages of execution concurrently. &nbsp;</p>
+        <p>Think of it like an assembly line in a factory. Instead of a single worker assembling an entire product from
+            scratch before starting the next one, different workers handle specific tasks in a sequence. This way,
+            multiple products are being worked on at the same time in different stages of production.&nbsp;</p>
+    </div>
+    <div class="dp-content-block">
+        <h4>Stages of Pipelining</h4>
+    </div>
+    <div class="dp-content-block">
+        <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;"
+            data-active-table="true">
+            <thead>
+                <tr>
+                    <td style="width: 10%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        colspan="2" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><strong>Pipelining consists of four main stages:&nbsp;</strong></p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 10%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">Fetch</td>
+                    <td style="width: 47%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">The processor
+                        retrieves an instruction from memory.&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width: 10%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">Decode</td>
+                    <td style="width: 47%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">The instruction is
+                        interpreted to determine the required operations.&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width: 10%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">Execute</td>
+                    <td style="width: 47%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">The Arithmetic
+                        Logic Unit (ALU) or other processing units perform computations.&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="width: 10%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">Write-back</td>
+                    <td style="width: 47%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">The computed
+                        result is stored back into memory or registers. Since multiple instructions are processed
+                        simultaneously at different stages, this significantly improves processing efficiency</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block">
+        <h4>Pipelining in Multi-Core Architectures&nbsp;</h4>
+        <p><span data-contrast="auto">Modern processors use multiple cores, where each core executes its own pipeline,
+                allowing parallel execution of multiple instructions. This enhances performance by increasing
+                instruction throughput.</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+        <ul class="dp-more-space">
+            <li data-leveltext="" data-font="Symbol" data-listid="45"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">Instruction-level parallelism (ILP): Enables multiple
+                instructions to be processed concurrently.</li>
+            <li data-leveltext="" data-font="Symbol" data-listid="45"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span
+                    style="font-family: inherit; font-size: 1rem;">Superscalar processing:</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> Allows multiple instructions
+                    per cycle.</span><span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span></li>
+            <li data-leveltext="" data-font="Symbol" data-listid="45"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span
+                    style="font-family: inherit; font-size: 1rem;">Out-of-order execution:</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> Enables execution of
+                    instructions as soon as required resources become available, rather than in sequential
+                    order.</span><span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+    </div>
+    <div class="dp-content-block">
+        <h4>Overview of How Cores in Multi-Core Processors Work Independently and in Parallel&nbsp;</h4>
+        <p><span data-contrast="auto">Modern multi-core processors enhance performance by distributing tasks across
+                multiple cores, allowing for independent and parallel execution of instructions. Each core within a
+                processor has its own pipeline, meaning it can fetch, decode, execute, and write back instructions
+                independently. This leads to significant improvements in multitasking, computational speed, and overall
+                efficiency.&nbsp;</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel2"><a href="#dpPanel2" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel2Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Independent Execution:&nbsp;</a></h3>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel2Content" style="display: none;"
+                aria-labelledby="dpPanel2" role="region">
+                <p><span data-contrast="auto">Each core in a multi-core processor functions as an independent processing
+                        unit. This means that different cores can handle separate applications, reducing congestion on a
+                        single core and improving overall system responsiveness. The ability to distribute tasks among
+                        different cores helps optimize multitasking performance, as each core can handle a different
+                        process simultaneously.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559685&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                </p>
+                <ul class="dp-more-space">
+                    <li data-leveltext="" data-font="Symbol" data-listid="46"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="1">Task Distribution: The operating system assigns
+                        different tasks to separate cores, ensuring workload balancing.</li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="46"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="1"><span
+                            style="font-family: inherit; font-size: 1rem;">Reduced Bottlenecks:</span><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> Since instructions are
+                            handled separately, cores do not have to wait for one another, enhancing
+                            efficiency.</span><span style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="46"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="1"><span
+                            style="font-family: inherit; font-size: 1rem;">Example:</span><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> A web browser using one
+                            core for rendering a webpage while another core processes background downloads, allowing for
+                            smoother performance even when multiple processes are running.</span><span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel3"><a href="#dpPanel3" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel3Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Parallel Execution:</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel3Content" style="display: none;"
+                aria-labelledby="dpPanel3" role="region">
+                <p><span data-contrast="auto">Parallel execution allows multiple cores to work on a single task by
+                        breaking it into smaller sub-tasks that can be processed simultaneously. This significantly
+                        accelerates computational workloads that require high processing power. Applications that
+                        involve large-scale computations, such as AI training, data analysis, and simulations, benefit
+                        greatly from parallel execution.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559685&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                </p>
+                <ul class="dp-more-space">
+                    <li data-leveltext="" data-font="Symbol" data-listid="46"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="5" data-aria-level="1">Task Segmentation: A large task is divided into
+                        multiple sub-tasks that different cores process at the same time.</li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="46"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="5" data-aria-level="1"><span
+                            style="font-family: inherit; font-size: 1rem;">Increased Efficiency:</span><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> Reduces the time
+                            required to complete complex calculations by utilizing the full capability of all available
+                            cores.</span><span style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="46"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="5" data-aria-level="1"><span
+                            style="font-family: inherit; font-size: 1rem;">Example:</span><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> A video editing
+                            software using multiple cores to process different frames of a video simultaneously,
+                            reducing the rendering time and improving workflow efficiency.</span><span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <p><strong>&nbsp;Additional Key Features:&nbsp;</strong></p>
+        <ul class="dp-more-space">
+            <li data-leveltext="" data-font="Symbol" data-listid="46"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="8" data-aria-level="1">Task Scheduling: The operating system and processor
+                scheduling algorithms optimize core usage by dynamically assigning tasks based on workload demands.</li>
+            <li data-leveltext="" data-font="Symbol" data-listid="46"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="8" data-aria-level="1"><span style="font-family: inherit; font-size: 1rem;">Cache
+                    Sharing:</span><span style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> Some
+                    processor architectures allow cores to share cache memory, reducing redundancy and improving access
+                    speed.</span><span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span></li>
+            <li data-leveltext="" data-font="Symbol" data-listid="46"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="8" data-aria-level="1"><span style="font-family: inherit; font-size: 1rem;">Energy
+                    Efficiency:</span><span style="font-family: inherit; font-size: 1rem;" data-contrast="auto">
+                    Multi-core processors distribute workloads efficiently, often reducing overall power consumption by
+                    preventing a single core from overloading.</span><span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <p><span data-contrast="auto">These capabilities make multi-core processors essential for high-performance
+                computing environments, improving both responsiveness and computational power.</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559685&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+    </div>
+    <div class="dp-content-block">
+        <h4>Benefits and Challenges of Pipelining&nbsp;</h4>
+    </div>
+    <div class="dp-content-block">
+        <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;"
+            data-active-table="true">
+            <thead>
+                <tr>
+                    <td class="align-top text-start"
+                        style="width: 50%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <strong>Benefits</strong></td>
+                    <td class="align-top text-start"
+                        style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <strong>Challenges</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="align-top text-start"
+                        style="width: 50%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><span data-contrast="auto">✔ Faster execution due to overlapping stages.</span><span
+                                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                        </p>
+                        <p><span data-contrast="auto">✔ Better utilization of CPU resources.</span><span
+                                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                        </p>
+                        <p><span data-contrast="auto">✔ Reduced instruction cycle time.</span><span
+                                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td class="align-top text-start"
+                        style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><span data-contrast="auto">⚠ Pipeline hazards: Occur when dependencies cause delays in
+                                execution.</span><span
+                                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                        </p>
+                        <p><span data-contrast="auto">⚠ Managing instruction dependencies: Requires complex handling
+                                techniques.&nbsp;</span><span
+                                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                        </p>
+                        <p><span data-contrast="auto">⚠ Increased power consumption and heat dissipation.</span><span
+                                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+<div class="dp-panel-content tab-pane fade show" tabindex="0" id="dpPanel4Content" role="tabpanel"
+    aria-labelledby="dpPanel4">
+    <h3 class="sr-only m-0 p-0 border-0">Summary</h3>
+    <div class="dp-content-block">
+        <h4>Summary and Self-Check Questions&nbsp;</h4>
+        <ul class="dp-more-space">
+            <li data-leveltext="o" data-font="Courier New" data-listid="47"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Pipelining divides instruction
+                    execution into separate stages, improving efficiency.</span></li>
+            <li data-leveltext="o" data-font="Courier New" data-listid="47"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="2"><span style="font-family: inherit; font-size: 1rem;"
+                    data-contrast="auto">Multi-core architectures allow independent and parallel execution of
+                    pipelines.</span><span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span></li>
+            <li data-leveltext="o" data-font="Courier New" data-listid="47"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="2"><span style="font-family: inherit; font-size: 1rem;"
+                    data-contrast="auto">Techniques like ILP, superscalar processing, and out-of-order execution further
+                    optimize performance.</span><span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+    </div>
+    <div class="dp-content-block">
+        <h4 aria-level="3">Interactive Formative Assessment&nbsp;</h4>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52813/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52813"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity 1: Match the Following </strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <div class="dp-embed-wrapper"
+                        style="color: rgb(224, 62, 45); --darkreader-inline-color: var(--darkreader-text-e03e2d, #e34f40);"
+                        data-darkreader-inline-color=""><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=786b56d2-a5dc-4bb3-aaf4-867e5121bffa"
+                            height="819px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52813/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52813"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity 2: Fill in the Blanks&nbsp;</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <p>&nbsp;</p>
+                    <div class="dp-embed-wrapper"><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=78d062a0-4c85-47b9-9455-3792d4561951"
+                            height="599px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Reading Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52819/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52819"
+                    data-api-returntype="File" data-name="book-open-page-variant-64.png" data-size="760 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1739"
+                    data-filename="book-open-page-variant-64.png" data-locked="false" loading="lazy" data-width="32">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Additional Learning Resources:</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_box_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_box_container">
+                <p>Video: Introduction to Pipelining in CPUs <a class="inline_disabled external"
+                        href="https://www.youtube.com/watch?v=1U4v_2J0Qwk" target="_blank"
+                        rel="noreferrer noopener"><span>Video 1</span><span class="external_link_icon"
+                            style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                            role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                data-darkreader-inline-fill="">
+                                <path
+                                    d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                            <span class="screenreader-only">Links to an external site.</span></span></a> <a
+                        class="inline_disabled external" href="https://www.youtube.com/watch?v=E5qacBU1XjQ"
+                        target="_blank" rel="noreferrer noopener"><span>Video 2</span><span class="external_link_icon"
+                            style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                            role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                data-darkreader-inline-fill="">
+                                <path
+                                    d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                            <span class="screenreader-only">Links to an external site.</span></span></a>&nbsp;</p>
+                <p>Article: How Multi-Core Processors Improve Performance <a class="inline_disabled external"
+                        title="Link"
+                        href="https://www.tutorchase.com/answers/a-level/computer-science/how-does-a-multi-core-processor-improve-performance"
+                        target="_blank" rel="noreferrer noopener"><span>Read here</span><span class="external_link_icon"
+                            style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                            role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                data-darkreader-inline-fill="">
+                                <path
+                                    d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                            <span class="screenreader-only">Links to an external site.</span></span></a></p>
+                <p>Interactive Simulation: Visualizing CPU Pipelining <a class="inline_disabled external" title="Link"
+                        href="https://teach-sim.com/cpu-2/" target="_blank" rel="noreferrer noopener"><span>Try
+                            here</span><span class="external_link_icon"
+                            style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                            role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                data-darkreader-inline-fill="">
+                                <path
+                                    d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                    fill-rule="evenodd"></path>
+                            </svg>
+                            <span class="screenreader-only">Links to an external site.</span></span></a></p>
+            </div>
+        </div>
+    </div>
+</div>

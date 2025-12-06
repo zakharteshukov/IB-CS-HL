@@ -1,0 +1,533 @@
+<div id="dpPanel0Content" role="tabpanel" aria-labelledby="dpPanel0" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show active">
+    <h3 class="sr-only m-0 p-0 border-0">Introduction</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives</h4>
+            <p>By the end of this lesson you will be able to:</p>
+            <ul id="" class="dp-more-space">
+                <li><span data-contrast="auto">Describe the purpose and characteristics of different types of primary
+                        memory: RAM, ROM, cache (L1, L2, L3), and registers.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+                <li><span data-contrast="auto">Explain how the CPU interacts with different types of memory to optimize
+                        performance.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+                <li><span data-contrast="auto">Define and illustrate the concepts of cache hit and cache miss.</span>
+                </li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><span>This section explores the different types of primary memory, how the CPU interacts with them, and why
+                concepts like cache hits and misses are critical for performance. </span></p>
+    </div>
+</div>
+
+
+
+<div id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block">
+        <h4>Introduction to Primary Memory&nbsp;</h4>
+        <p>Primary memory, also known as main memory, is a critical component of a computer's architecture. It
+            temporarily stores data and instructions that the CPU needs for processing, allowing the system to operate
+            efficiently. This type of memory is designed for high-speed access, making it significantly faster than
+            secondary storage. However, it generally has a lower storage capacity and is volatile, meaning that the data
+            is lost when the power is turned off. The efficiency of primary memory directly impacts system performance,
+            as it dictates how quickly the CPU can retrieve and process information. Different types of primary memory
+            serve specialized functions in optimizing the overall computing experience.&nbsp;</p>
+    </div>
+    <div class="dp-content-block">
+        <h4>Types of Primary Memory:</h4>
+        <ul>
+            <li aria-level="3"><strong><span data-contrast="none"> Random-Access Memory (RAM)</span></strong><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;134245418&quot;:true,&quot;134245529&quot;:true,&quot;335559738&quot;:281,&quot;335559739&quot;:281}">&nbsp;</span>
+                <ul>
+                    <li data-leveltext="" data-font="Symbol" data-listid="25"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1"><strong><span
+                                data-contrast="auto">Purpose:</span></strong>
+                        <ul>
+                            <li data-leveltext="" data-font="Symbol" data-listid="25"
+                                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                data-aria-posinset="1" data-aria-level="1"><span data-contrast="auto">RAM stores data
+                                    and instructions that the CPU actively uses, enabling fast access and
+                                    manipulation.</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="" data-font="Symbol" data-listid="25"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="1"><strong><span
+                                data-contrast="auto">Characteristics:</span></strong><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li data-leveltext="o" data-font="Courier New" data-listid="25"
+                                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Volatile memory
+                                    (data is lost when power is turned off).</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li data-leveltext="o" data-font="Courier New" data-listid="25"
+                                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Fast access speed
+                                    compared to secondary storage.</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li data-leveltext="o" data-font="Courier New" data-listid="25"
+                                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                data-aria-posinset="3" data-aria-level="2"><span data-contrast="auto">Two
+                                    types:</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li style="list-style-type: none;">
+                                <ul>
+                                    <li data-leveltext="" data-font="Wingdings" data-listid="25"
+                                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:2160,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                        data-aria-posinset="1" data-aria-level="3"><strong><span
+                                                data-contrast="auto">Static RAM (SRAM):</span></strong><span
+                                            data-contrast="auto"> Faster and used for cache.</span><span
+                                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="dp-more-space">
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li style="list-style-type: none;">
+                                <ul>
+                                    <li data-leveltext="" data-font="Wingdings" data-listid="25"
+                                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:2160,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Wingdings&quot;,&quot;469769242&quot;:[9642],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                        data-aria-posinset="2" data-aria-level="3"><strong><span
+                                                data-contrast="auto">Dynamic RAM (DRAM):</span></strong><span
+                                            data-contrast="auto"> Slower but more cost-effective and commonly used for
+                                            system memory.</span><span
+                                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="dp-more-space">
+            <li><strong><span data-contrast="none">Read-Only Memory (ROM)</span></strong>
+                <ul class="dp-more-space">
+                    <li><strong><span data-contrast="auto">Purpose:</span></strong>
+                        <ul class="dp-more-space">
+                            <li><span data-contrast="auto">Stores permanent instructions essential for booting the
+                                    system (BIOS or firmware).</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="" data-font="Symbol" data-listid="26"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="1"><strong><span
+                                data-contrast="auto">Characteristics:</span></strong><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li data-leveltext="o" data-font="Courier New" data-listid="26"
+                                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Non-volatile
+                                    memory (retains data even when power is off).</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <ul>
+                            <li data-leveltext="o" data-font="Courier New" data-listid="26"
+                                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Courier New&quot;,&quot;469769242&quot;:[9675],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;o&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                                data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Typically
+                                    read-only (but can be updated in some cases, such as EEPROM or flash memory used for
+                                    firmware updates).</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p>&nbsp;</p>
+    </div>
+    <div class="dp-content-block">
+        <h4 aria-level="3">Types of ROM:&nbsp;</h4>
+        <ul>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="27"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><strong><span data-contrast="auto">Mask ROM or just ROM
+                        (MROM):</span></strong><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Pre-programmed at the time
+                            of manufacturing.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Cannot be modified after
+                            production.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="3" data-aria-level="2"><span data-contrast="auto">Used in embedded systems
+                            and older devices.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="27"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="2" data-aria-level="1"><strong><span data-contrast="auto">Programmable ROM
+                        (PROM):</span></strong><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Initially blank and can be
+                            programmed once by the user.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Uses a special device
+                            called a PROM burner.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="3" data-aria-level="2"><span data-contrast="auto">Non-erasable after
+                            programming.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="27"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="3" data-aria-level="1"><strong><span data-contrast="auto">Erasable Programmable ROM
+                        (EPROM):</span></strong><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Can be erased and
+                            reprogrammed using ultraviolet (UV) light.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Requires a special device
+                            for reprogramming.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="3" data-aria-level="2"><span data-contrast="auto">Used in older firmware
+                            applications.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="27"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="4" data-aria-level="1"><strong><span data-contrast="auto">Electrically Erasable
+                        Programmable ROM (EEPROM):</span></strong><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">Can be erased and
+                            reprogrammed electrically.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Supports multiple
+                            write/erase cycles.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="3" data-aria-level="2"><span data-contrast="auto">Used in modern BIOS
+                            firmware and microcontrollers.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="27"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="5" data-aria-level="1"><strong><span data-contrast="auto">Flash
+                        Memory:</span></strong><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="2"><span data-contrast="auto">A type of EEPROM that
+                            allows for faster erasing and rewriting.</span><span
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul class="dp-more-space">
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="2"><span data-contrast="auto">Commonly used in USB
+                            drives, SSDs, and memory cards.</span></li>
+                    <li data-leveltext="%2." data-font="Times New Roman" data-listid="27"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:1440,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,4],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%2.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="2" data-aria-level="2">Provides high-speed storage and durability.<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <p>&nbsp;</p>
+    <div class="dp-content-block">
+        <h4 aria-level="2">Interaction of the CPU with Different Types of Memory&nbsp;</h4>
+        <p>The CPU interacts with memory in a hierarchical manner to optimize performance, ensuring a balance between
+            speed and capacity. The hierarchy is structured to minimize latency and maximize efficiency, with each level
+            serving a distinct purpose:</p>
+        <ol class="dp-more-space">
+            <li>Registers provide the fastest access to data.</li>
+            <li>L1, L2, and L3 caches store frequently accessed data to reduce memory fetch time.</li>
+            <li>RAM serves as the main working memory, holding data and program instructions.</li>
+            <li>ROM provides essential startup information when the computer boots.</li>
+        </ol>
+        <p>Efficient interaction among these memory types ensures that the CPU spends minimal time waiting for data,
+            improving system performance.</p>
+    </div>
+    <div class="dp-content-block">
+        <h4 aria-level="2">Cache Hits and Cache Misses&nbsp;</h4>
+        <p aria-level="3"><strong>Definition of Cache Hits and Cache Misses</strong></p>
+        <ul class="dp-more-space">
+            <li>Cache Hit: A cache hit occurs when the processor finds the required data in cache memory, avoiding the
+                need to fetch it from slower RAM or secondary storage. This leads to faster execution and improved
+                system performance.</li>
+            <li>Cache Miss: A cache miss occurs when the required data is not found in the cache, forcing the CPU to
+                retrieve it from RAM or even slower storage devices. This increases latency and reduces processing
+                efficiency.</li>
+        </ul>
+        <p aria-level="3"><strong>Relevance of Cache Hits and Cache Misses</strong></p>
+        <p>Cache hits and cache misses are crucial factors in determining CPU performance. A high cache hit rate leads
+            to improved processing speed and efficiency, as the processor can quickly retrieve the necessary data
+            without resorting to slower RAM. On the other hand, frequent cache misses slow down computation, as the CPU
+            must fetch data from lower levels of memory, leading to increased latency and potential performance
+            bottlenecks. Optimizing cache utilization is essential in high-performance computing, gaming, and server
+            environments where rapid data access is critical.</p>
+    </div>
+</div>
+
+
+
+<div class="dp-panel-content tab-pane fade show" id="dpPanel2Content" role="tabpanel" aria-labelledby="dpPanel2"
+    tabindex="0">
+    <h3 class="sr-only m-0 p-0 border-0">Summary and Practice</h3>
+    <div class="dp-content-block">
+        <h4>Conclusion and Recap</h4>
+        <ul class="dp-more-space">
+            <li><strong>RAM </strong>and <strong>ROM</strong> serve different roles in storing temporary and permanent
+                data.</li>
+            <li><strong>Cache memory and registers</strong> help speed up CPU operations by providing fast access to
+                frequently used data.</li>
+            <li>The <strong>hierarchical memory structure</strong> ensures efficient processing.</li>
+            <li>Understanding <strong>cache hits and misses</strong> is essential for optimizing performance.</li>
+        </ul>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52805/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52805"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity: Fill in the Blanks: Complete the following sentences with the correct type of
+                        memory.&nbsp;</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <div class="dp-embed-wrapper"
+                        style="color: rgb(224, 62, 45); --darkreader-inline-color: var(--darkreader-text-e03e2d, #e34f40);"
+                        data-darkreader-inline-color=""><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=2f621613-c65e-449a-ac21-62e2d08a7022"
+                            height="791px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Discussion</h4>
+        <p><span data-contrast="auto">Analyze real-world scenarios where cache performance impacts computing efficiency
+                (e.g., gaming, video rendering, server performance).</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+    </div>
+</div>

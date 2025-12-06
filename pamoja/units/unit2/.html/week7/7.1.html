@@ -1,0 +1,306 @@
+<div id="dpPanel0Content" role="tabpanel" aria-labelledby="dpPanel0" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show active">
+    <h3 class="sr-only m-0 p-0 border-0">Introduction</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives:</h4>
+            <p><span>By the end of this lesson, you will be able to:</span></p>
+            <ul id="" class="dp-more-space">
+                <li><span>Explain how the operating system manages multitasking.</span></li>
+                <li><span>Describe the role of the OS in resource allocation.</span></li>
+                <li><span>Identify and discuss the challenges of multitasking, including task scheduling, resource
+                        contention, and deadlock.</span></li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p>An operating system (OS) plays a crucial role in managing multitasking and resource allocation, ensuring that
+            multiple processes can run efficiently without interfering with each other. It does this by dynamically
+            allocating CPU time, memory, and I/O devices among different tasks based on their priority and execution
+            requirements. This involves sophisticated scheduling algorithms that balance system performance and
+            responsiveness. Additionally, the OS prevents conflicts through resource management techniques, ensuring
+            fair distribution while avoiding bottlenecks. This lesson explores how the OS facilitates multitasking,
+            manages system resources effectively, and addresses key challenges such as task scheduling, resource
+            contention, and deadlock prevention to maintain overall system stability.</p>
+    </div>
+</div>
+
+
+
+<div id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block">
+        <h4>Multitasking and Resource Allocation</h4>
+        <p>Multitasking refers to the OS's ability to execute multiple processes simultaneously, allowing users to run
+            different applications at the same time. To achieve this, the OS must efficiently allocate resources such as
+            CPU time, memory, and input/output devices.</p>
+        <p>The OS ensures fair and efficient resource distribution by implementing scheduling algorithms, memory
+            management techniques, and input/output management strategies. Without effective resource allocation, system
+            performance can degrade due to process conflicts, excessive waiting times, or even system crashes.</p>
+    </div>
+    <div class="dp-content-block">
+        <h4>Task Scheduling</h4>
+        <p>To manage multitasking, the OS employs process scheduling, which determines the execution order of processes.
+            Various scheduling algorithms are used, including:</p>
+        <ul class="dp-more-space">
+            <li><strong>First-Come, First-Served (FCFS):</strong> Processes are executed in the order they arrive,
+                meaning that the first process in the queue is given CPU time until completion. While simple, this
+                method can lead to long waiting times for processes that arrive later.</li>
+            <li><strong>Shortest Job Next (SJN):</strong> Processes with shorter execution times are given priority.
+                This minimizes the average waiting time but requires knowledge of process execution times beforehand,
+                making it less practical in real-time systems.</li>
+            <li><strong>Round Robin (RR):</strong> Time slices (or quantum) are allocated to processes in a cyclic
+                manner, ensuring fair CPU distribution. If a process does not complete within its assigned time slice,
+                it moves to the back of the queue, reducing starvation but increasing context switching overhead.</li>
+            <li><strong>Priority Scheduling:</strong> Higher-priority processes are executed before lower-priority ones.
+                Priorities can be assigned dynamically based on factors like process urgency, resource availability, or
+                system requirements. However, this can lead to starvation for low-priority processes unless mechanisms
+                like aging are implemented.</li>
+        </ul>
+        <p>These scheduling methods ensure that processes receive the necessary CPU time while preventing any single
+            process from monopolizing system resources.</p>
+    </div>
+    <div class="dp-content-block">
+        <h4>Resource Contention</h4>
+        <p>When multiple processes require the same resource at the same time, resource contention occurs. The OS
+            handles this by:</p>
+        <ul class="dp-more-space">
+            <li>Implementing mutual exclusion mechanisms, ensuring that only one process accesses a resource at a time
+                by using critical sections and ensuring proper synchronization to avoid data inconsistency and race
+                conditions.</li>
+            <li>Using semaphores and locking techniques to coordinate resource access, including binary semaphores for
+                mutual exclusion and counting semaphores for managing resource pools efficiently.</li>
+            <li>Managing input/output devices to distribute usage fairly among processes by implementing buffering
+                techniques, spooling mechanisms, and prioritization strategies to minimize bottlenecks and ensure smooth
+                data transfer between processes and hardware components.</li>
+        </ul>
+        <p>Without proper contention management, resource conflicts can lead to inefficient system performance and
+            process delays.</p>
+    </div>
+    <div class="dp-content-block">
+        <h4>Deadlock and Its Management</h4>
+        <p>Deadlock occurs when two or more processes are stuck in a cyclic dependency, each waiting indefinitely for a
+            resource held by another process, preventing any further execution. This happens when resource allocation
+            conditions such as mutual exclusion, hold and wait, no preemption, and circular wait are simultaneously met.
+            Without intervention, deadlock can cause severe performance degradation or complete system halt. This
+            situation arises when four conditions are met:</p>
+        <ul class="dp-more-space">
+            <li><strong>Mutual Exclusion:</strong> A resource cannot be shared among multiple processes at the same
+                time. For example, a printer being used by one process cannot be accessed by another process until it is
+                released.</li>
+            <li><strong>Hold and Wait:</strong> Processes hold allocated resources while waiting for others. For
+                instance, a process holding a file lock may need access to another locked resource, leading to a
+                dependency.</li>
+            <li><strong>No Preemption:</strong> Resources cannot be forcibly taken from a process. If a process has
+                control of a hardware device like a scanner, the OS cannot reallocate it to another process until it is
+                voluntarily released.</li>
+            <li><strong>Circular Wait:</strong> A cycle of processes is waiting for resources from one another, forming
+                a chain. For example, Process A holds Resource 1 and waits for Resource 2, while Process B holds
+                Resource 2 and waits for Resource 1, resulting in deadlock.</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>To manage deadlocks, the OS employs strategies such as:</p>
+        <ul class="dp-more-space">
+            <li><strong>Deadlock Prevention:</strong> Avoiding at least one of the four necessary conditions by
+                implementing strategies such as resource ordering, where processes must request resources in a
+                predefined order to avoid circular waits, or by limiting the maximum hold time for a resource.</li>
+            <li><strong>Deadlock Detection:</strong> Identifying and resolving deadlocks when they occur by using
+                algorithms such as the Wait-for Graph, which represents process dependencies to detect cycles, or the
+                Banker's Algorithm, which helps assess safe states before resource allocation.</li>
+            <li><strong>Deadlock Recovery:</strong> Terminating or rolling back processes to break the cycle, either by
+                selecting the least critical process to terminate or by preempting resources from certain processes and
+                rolling back their execution to a previous safe state.</li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="dp-panel-content tab-pane fade show" id="dpPanel2Content" role="tabpanel" aria-labelledby="dpPanel2"
+    tabindex="0">
+    <h3 class="sr-only m-0 p-0 border-0">Summary</h3>
+    <div class="dp-content-block">
+        <h4>Conclusion</h4>
+        <p>The operating system is responsible for managing multitasking and resource allocation to ensure efficient
+            system performance. Through scheduling algorithms, resource management techniques, and deadlock prevention
+            strategies, the OS ensures that processes execute smoothly without conflicts or inefficiencies.
+            Understanding these concepts helps in optimizing system performance and preventing issues related to
+            resource allocation and process execution.</p>
+    </div>
+    <div class="dp-content-block">
+        <h3><i><span class="dp-icon-content" style="display: none;">&nbsp;</span></i></h3>
+        <h4 aria-level="4">Activity 1: Simulated Process Scheduling&nbsp;</h4>
+        <p><strong>Objective</strong>: To help you understand different scheduling algorithms by manually executing a
+            given set of processes.&nbsp;</p>
+        <p><strong>Instructions</strong>:&nbsp;</p>
+        <ol class="dp-more-space">
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span data-contrast="auto">You are given a set of five
+                    processes with the following attributes:</span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Process A: Arrival time = 0ms, Burst time = 8ms<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Process B: Arrival time = 2ms, Burst time = 4ms<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Process C: Arrival time = 4ms, Burst time = 9ms<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Process D: Arrival time = 6ms, Burst time = 5ms<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Process E: Arrival time = 8ms, Burst time = 3ms<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                </ol>
+            </li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">Apply the following scheduling algorithms to determine the
+                order of execution and turnaround time for each process:<span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">First-Come, First-Served (FCFS)<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Shortest Job Next (SJN)<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Round Robin (time quantum = 4ms)<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                </ol>
+            </li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">Create Gantt charts for each algorithm and compare the
+                average waiting time.<span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span></li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="90"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span style="font-family: inherit; font-size: 1rem;">Reflect
+                    on which scheduling method was most efficient and why.</span><span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ol>
+    </div>
+    <div class="dp-content-block">
+        <h3><i><span class="dp-icon-content" style="display: none;">&nbsp;</span></i></h3>
+        <h4 aria-level="4">Activity 2: Resource Allocation Simulation&nbsp;</h4>
+        <p><strong>Objective</strong>: To give you hands-on experience in allocating resources effectively while
+            avoiding contention.&nbsp;</p>
+        <p><strong>Instructions</strong>:<strong>&nbsp;</strong></p>
+        <ol class="dp-more-space">
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span data-contrast="none">You are managing an OS that needs
+                    to allocate three types of resources (CPU, memory, I/O devices) to four running processes (P1, P2,
+                    P3, and P4).</span></li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">Each process has different resource requirements:<span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">P1: Needs 2 CPUs, 4GB RAM, 1 I/O device<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">P2: Needs 1 CPU, 2GB RAM, 2 I/O devices<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">P3: Needs 3 CPUs, 3GB RAM, 1 I/O device<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">P4: Needs 2 CPUs, 1GB RAM, 3 I/O devices<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                </ol>
+            </li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">The available resources are:<span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">CPUs: 4<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">RAM: 8GB<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">I/O devices: 4<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                        </span></li>
+                </ol>
+            </li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">Allocate resources using the Banker's Algorithm to determine
+                whether the system is in a safe state.<span style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">
+                </span></li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="91"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">Identify if resource contention occurs and suggest an
+                alternative resource allocation plan to optimize efficiency and avoid deadlock.<span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ol>
+    </div>
+</div>

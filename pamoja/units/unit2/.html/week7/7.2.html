@@ -1,0 +1,345 @@
+<div id="dpPanel0Content" role="tabpanel" aria-labelledby="dpPanel0" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show active">
+    <h3 class="sr-only m-0 p-0 border-0">Introduction</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives:</h4>
+            <p><span>By the end of this lesson, you will be able to:</span></p>
+            <ul id="" class="dp-more-space">
+                <li><span>Explain the fundamental components of a control system: input, process, output, and feedback
+                        mechanism.</span></li>
+                <li><span>Differentiate between open-loop and closed-loop control systems.</span></li>
+                <li><span>Describe the roles of controllers, sensors, actuators, and transducers in a control
+                        system.</span></li>
+                <li><span>Understand the concept of a control algorithm and its function in automation.</span></li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Introduction to Control Systems</h4>
+        <p>A control system is a framework that manages, commands, directs, or regulates the behavior of devices or
+            systems to achieve a desired outcome. These systems function by processing inputs, executing control logic,
+            and producing outputs that influence external devices. Control systems are essential in industrial
+            automation for manufacturing processes, robotics for precision movement, home automation for energy
+            efficiency, and various engineering applications such as aerospace and automotive systems. They ensure
+            safety, efficiency, and accuracy by maintaining desired conditions through automated decision-making and
+            corrective actions.</p>
+    </div>
+</div>
+
+
+
+<div id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block">
+        <h4>Fundamental Components of a Control System</h4>
+        <p>Control systems consist of four primary components:</p>
+        <ol class="dp-more-space">
+            <li><strong>Input:</strong> Represents the information or signal provided to the system to initiate a
+                process. This input can come from various sensors or external sources, such as temperature readings from
+                a thermometer, pressure sensors in industrial systems, or motion detectors in security systems. The
+                quality and accuracy of input signals determine the effectiveness of the control system.</li>
+            <li><strong>Process:</strong> The internal mechanism or logic that processes the input signal. This often
+                includes computations and decision-making through control algorithms, such as
+                Proportional-Integral-Derivative (PID) controllers or machine learning models. The process step ensures
+                that the input signal is interpreted correctly and the necessary response is generated.</li>
+            <li><strong>Output:</strong> The resulting action or signal from the system, which influences or controls an
+                external device. This could be an electrical signal sent to an actuator, a mechanical movement in a
+                robotic system, or the triggering of an alarm in a security application. Outputs can be analog or
+                digital, depending on the nature of the system.</li>
+            <li><strong>Feedback Mechanism:</strong> Determines whether the output matches the desired result and makes
+                adjustments if necessary. In a closed-loop system, sensors continuously monitor the output and provide
+                data back to the controller, enabling the system to make corrections and maintain optimal performance.
+                Feedback loops are critical in systems like thermostats, self-balancing robots, and autonomous vehicles,
+                ensuring precision and adaptability in changing conditions.</li>
+        </ol>
+    </div>
+    <div class="dp-content-block">
+        <h4>Open-Loop vs. Closed-Loop Control Systems</h4>
+        <p>Control systems can be categorized based on whether they incorporate feedback:</p>
+        <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;"
+            data-active-table="true">
+            <thead>
+                <tr>
+                    <td style="width: 41%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><strong>Open-Loop
+                            System</strong></td>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <strong>Closed-Loop System</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 41%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>An open-loop system operates solely based on the initial input without any feedback to adjust
+                            its behavior. These systems are simple, cost-effective, and easy to implement, but they lack
+                            adaptability and precision. Since they do not monitor or respond to changes in external
+                            conditions, their performance remains consistent regardless of variations in input or
+                            environmental factors. Examples of open-loop systems include washing machines that follow
+                            preset cycles without considering the level of dirt, microwaves with fixed timers that do
+                            not assess the food's temperature, irrigation systems that water crops based on a schedule
+                            rather than soil moisture levels, and traffic light timers that function independently of
+                            actual traffic flow.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>A closed-loop system continuously adjusts its output by utilizing feedback, making it more
+                            accurate and adaptive to real-time conditions. These systems offer greater efficiency and
+                            responsiveness to external factors by dynamically modifying their behavior based on
+                            environmental inputs. Examples of closed-loop systems include air conditioners that adjust
+                            temperature based on thermostat readings, autopilot systems in aircraft that maintain
+                            altitude and course, robotic arms that modify grip strength based on sensor feedback, and
+                            automatic braking systems in vehicles that detect obstacles and apply appropriate force. By
+                            incorporating feedback mechanisms, closed-loop systems enhance control and accuracy, making
+                            them ideal for applications requiring precision and adaptability.</p>
+                        <p>Closed-loop systems provide enhanced control and accuracy compared to open-loop systems, as
+                            they can detect and correct deviations from the desired output. This feature is crucial in
+                            applications requiring high precision, such as medical devices (e.g., insulin pumps),
+                            industrial automation, and self-driving vehicles.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52926/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52926"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity: Control System Categorization</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <div class="dp-embed-wrapper"
+                        style="color: rgb(224, 62, 45); --darkreader-inline-color: var(--darkreader-text-e03e2d, #e34f40);"
+                        data-darkreader-inline-color=""><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=0683450d-7713-46d6-a89e-50b236735c08"
+                            height="192px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Key Components of Control Systems</h4>
+        <ol>
+            <li><strong> </strong><strong>Controller:</strong></li>
+        </ol>
+        <p>The controller is the central unit responsible for processing inputs and determining the necessary action
+            within a control system. It implements control algorithms to regulate system behavior, ensuring the desired
+            response is achieved based on real-time data. Controllers vary in complexity, from simple logic circuits to
+            sophisticated computing devices. Common examples include microcontrollers used in embedded systems,
+            Programmable Logic Controllers (PLCs) applied in industrial automation, and Proportional-Integral-Derivative
+            (PID) controllers, which provide precise control over dynamic systems by continuously adjusting output based
+            on feedback. These controllers play a crucial role in ensuring efficiency, stability, and reliability in
+            automated processes.</p>
+        <ol start="2">
+            <li><strong> </strong><strong>Sensors:</strong></li>
+        </ol>
+        <p>Sensors detect environmental changes and convert them into signals that can be processed by the control
+            system. Various types of sensors serve different purposes, such as temperature sensors like thermistors and
+            RTDs that measure heat variations, motion sensors including infrared and ultrasonic detectors that track
+            movement, and pressure sensors like barometers that gauge atmospheric pressure. These sensors play a crucial
+            role in collecting data and ensuring accurate system responses in automated processes.</p>
+        <ol start="3">
+            <li><strong> </strong><strong>Actuators:</strong></li>
+        </ol>
+        <p>Actuators are responsible for converting electrical signals from the controller into physical motion or
+            action, allowing control systems to interact with the physical world. These components receive commands from
+            the controller and execute the required movement or operation. Examples of actuators include motors, such as
+            servo motors and stepper motors, which provide rotational or linear motion, hydraulic and pneumatic
+            actuators that use fluid power for heavy-duty applications, and solenoids, which create linear motion by
+            using electromagnetic fields. Actuators are crucial in automation, robotics, and industrial processes,
+            enabling precise and controlled mechanical actions.</p>
+        <ol start="4">
+            <li><strong> </strong><strong>Transducers:</strong></li>
+        </ol>
+        <p>Transducers are essential components in control systems as they convert one form of energy into another,
+            often acting as a bridge between sensors and controllers. These devices facilitate the transmission and
+            processing of signals to ensure accurate system responses. For example, microphones convert sound waves into
+            electrical signals, enabling audio processing in communication systems. Similarly, piezoelectric transducers
+            transform mechanical stress into electrical charges, which are widely used in pressure-sensing applications.
+            Transducers play a crucial role in various automated and industrial processes by enhancing system
+            functionality and accuracy.</p>
+        <ol start="5">
+            <li><strong> </strong><strong>Control Algorithm:</strong></li>
+        </ol>
+        <p>The control algorithm is the set of programmed instructions that define how a control system responds to
+            inputs. These algorithms play a critical role in determining system behavior and ensuring precise control.
+            Common types include Proportional-Integral-Derivative (PID) Control, which continuously adjusts outputs
+            based on proportional, integral, and derivative terms to maintain system stability; Fuzzy Logic Control,
+            which makes decisions based on approximate reasoning rather than fixed binary conditions, making it useful
+            for complex or uncertain environments; and On-Off Control, a simple yet effective method where the system
+            switches between fully on and fully off states, commonly used in thermostats and lighting systems. Each of
+            these control methods serves specific applications and is chosen based on system requirements and
+            operational complexity.</p>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52926/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52926"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity: Sensor and Actuator Matching Exercise</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <div class="dp-embed-wrapper"
+                        style="color: rgb(224, 62, 45); --darkreader-inline-color: var(--darkreader-text-e03e2d, #e34f40);"
+                        data-darkreader-inline-color=""><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=850d3ba2-938b-42ef-9838-c04a7c1ce40c"
+                            height="952px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Practical Examples of Control Systems</h4>
+        <ul class="dp-more-space">
+            <li>Home Automation: Smart thermostats adjusting temperature based on sensor feedback.</li>
+            <li>Industrial Automation: Conveyor belts with speed control based on sensor-detected object weight.</li>
+            <li>Automotive Systems: Cruise control systems maintaining vehicle speed.</li>
+            <li>Medical Devices: Pacemakers regulating heartbeats based on real-time monitoring.</li>
+            <li>Agriculture: Smart irrigation systems adjusting water supply based on soil moisture levels.</li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="dp-panel-content tab-pane fade show" id="dpPanel2Content" role="tabpanel" aria-labelledby="dpPanel2"
+    tabindex="0">
+    <h3 class="sr-only m-0 p-0 border-0">Summary</h3>
+    <div class="dp-content-block">
+        <h4>Key Points to Remember</h4>
+        <ul class="dp-more-space">
+            <li>Control systems regulate devices using input, processing, output, and feedback mechanisms.</li>
+            <li>Open-loop systems lack feedback, whereas closed-loop systems use feedback to improve accuracy.</li>
+            <li>Controllers, sensors, actuators, and transducers play crucial roles in automation.</li>
+            <li>Control algorithms determine how the system behaves and reacts to inputs.</li>
+            <li>Closed-loop systems provide superior performance by continuously adjusting to external conditions.</li>
+        </ul>
+    </div>
+    <div class="dp-content-block">
+        <h4 aria-level="3">Activity 3: Design a Simple Control System&nbsp;</h4>
+        <p><strong><span data-contrast="auto">Objective:</span></strong><span data-contrast="auto"> To help you
+                visualize and construct control system diagrams.</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+        <p><strong><span data-contrast="auto">Instructions:</span></strong><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+        <ol class="dp-more-space">
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span data-contrast="auto">You choose a real-world scenario
+                    where a control system is used, such as:</span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">An automatic door system<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">A smart lighting system<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">A temperature-controlled fan<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">An elevator control system<span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                </ol>
+            </li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">You will sketch a <strong
+                    style="font-family: inherit; font-size: 1rem;"><span data-contrast="auto">block
+                        diagram</span></strong><span style="font-family: inherit; font-size: 1rem;"
+                    data-contrast="auto"> of the system, clearly labeling:</span><span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                </span>
+                <ol style="list-style-type: lower-alpha;">
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1"><strong
+                            style="font-family: inherit; font-size: 1rem;"><span
+                                data-contrast="auto">Input:</span></strong><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> The signals or data the
+                            system receives.</span><span style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1"><strong
+                            style="font-family: inherit; font-size: 1rem;"><span
+                                data-contrast="auto">Process:</span></strong><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> The controller or logic
+                            that processes the input.</span><span style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1"><strong
+                            style="font-family: inherit; font-size: 1rem;"><span
+                                data-contrast="auto">Output:</span></strong><span
+                            style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> The response or action
+                            performed by the system.</span><span style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                    <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                        data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1"><strong
+                            style="font-family: inherit; font-size: 1rem;"><span data-contrast="auto">Feedback mechanism
+                                (if applicable):</span></strong><span style="font-family: inherit; font-size: 1rem;"
+                            data-contrast="auto"> How the system self-adjusts.</span><span
+                            style="font-family: inherit; font-size: 1rem;"
+                            data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">
+                        </span></li>
+                </ol>
+            </li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="102"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1">You must provide a brief explanation of how your system
+                functions and why it is categorized as open-loop or closed-loop.<span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:0,&quot;335559739&quot;:0}">&nbsp;</span>
+            </li>
+        </ol>
+    </div>
+</div>

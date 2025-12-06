@@ -1,0 +1,260 @@
+<div id="dpPanel0Content" role="tabpanel" aria-labelledby="dpPanel0" tabindex="0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show active">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives</h4>
+            <p>By the end of this lesson you will be able to:</p>
+            <ul id="" class="dp-more-space">
+                <li><span data-contrast="auto">Understand the fundamental operations a CPU performs to execute a
+                        machine-language instruction.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+                <li><span data-contrast="auto">Describe the interaction between memory and registers via the three
+                        buses: address, data, and control.</span><span
+                        data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:360,&quot;335559737&quot;:0,&quot;335559738&quot;:240,&quot;335559739&quot;:240,&quot;335559740&quot;:276,&quot;335559991&quot;:360}">&nbsp;</span>
+                </li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Introduction to the Fetch-Decode-Execute Cycle&nbsp;</h4>
+        <p><span data-contrast="auto">The fetch-decode-execute cycle is the fundamental process by which a CPU carries
+                out instructions in a program. This cycle consists of three main steps:</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+        <ol class="dp-more-space">
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="34"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><strong>Fetch </strong>– The CPU retrieves an instruction
+                from memory by sending the address stored in the Program Counter (PC) to the memory unit via the Address
+                Bus. The instruction is then transferred to the Instruction Register (IR) through the Data Bus.</li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="34"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><strong><span
+                        style="font-family: inherit; font-size: 1rem;">Decode</span></strong><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"><strong> </strong>– The
+                    instruction in the </span><span style="font-family: inherit; font-size: 1rem;">IR</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> is analyzed by the </span><span
+                    style="font-family: inherit; font-size: 1rem;">Control Unit (CU)</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto">, which interprets its meaning
+                    by extracting the </span><span style="font-family: inherit; font-size: 1rem;">opcode</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> and </span><span
+                    style="font-family: inherit; font-size: 1rem;">operand</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto">. The </span><span
+                    style="font-family: inherit; font-size: 1rem;">CU</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> determines the necessary
+                    control signals needed for execution.</span></li>
+            <li data-leveltext="%1." data-font="Times New Roman" data-listid="34"
+                data-list-defn-props="{&quot;335552541&quot;:0,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[65533,0],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;%1.&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><strong><span
+                        style="font-family: inherit; font-size: 1rem;">Execute</span></strong><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"><strong> </strong>– The CPU
+                    carries out the instruction by performing the required operation. If arithmetic or logical
+                    operations are needed, the </span><span style="font-family: inherit; font-size: 1rem;">Arithmetic
+                    Logic Unit (ALU)</span><span style="font-family: inherit; font-size: 1rem;" data-contrast="auto">
+                    processes them. The results are then stored in the appropriate </span><span
+                    style="font-family: inherit; font-size: 1rem;">register</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> or </span><span
+                    style="font-family: inherit; font-size: 1rem;">memory location</span><span
+                    style="font-family: inherit; font-size: 1rem;" data-contrast="auto"> as required.</span><span
+                    style="font-family: inherit; font-size: 1rem;"
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ol>
+        <p>This cycle repeats continuously while a program is running, ensuring smooth and sequential execution of
+            instructions.&nbsp;</p>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Picture Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52783/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52783"
+                    data-api-returntype="File" data-name="image-area-64.png" data-size="623 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1746"
+                    data-filename="image-area-64.png" data-locked="false" loading="lazy" data-width="32"></div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Diagram: Fetch-Decode-Execute Cycle</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_box_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_box_container"><img class="dp-full-width dp-overlap-dark"
+                    style="width: 360px; height: auto;" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/24229/download" alt=""
+                    height="568.1875" data-name="image.png" data-size="513 KB" data-available-range="false"
+                    data-hidden="true" data-file-id="7779" data-filename="image.png" data-locked="false"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24229"
+                    data-api-returntype="File" loading="lazy" data-width="829.567"></div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Step-by-Step Breakdown of the Cycle</h4>
+        <p><i><span class="dp-icon-content" style="display: none;">&nbsp;</span></i></p>
+        <ol style="list-style-type: lower-alpha;">
+            <li aria-level="4"><strong>Fetch Stage</strong>&nbsp;</li>
+        </ol>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li>The <strong>Program Counter (PC) </strong>holds the address of the next instruction.&nbsp;</li>
+                    <li>The <strong>Address Bus</strong> carries this address to <strong>RAM (Memory)</strong>.&nbsp;
+                    </li>
+                    <li>The <strong>Instruction Register (IR)</strong> stores the retrieved instruction.&nbsp;</li>
+                    <li>The <strong>PC</strong> is incremented to point to the next instruction.&nbsp;</li>
+                </ul>
+            </li>
+        </ul>
+        <ol style="list-style-type: lower-alpha;" start="2">
+            <li aria-level="4"><strong>Decode Stage</strong>
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li data-leveltext="" data-font="Symbol" data-listid="36"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">The <strong>Control Unit (CU)</strong> reads the
+                        instruction stored in the IR.&nbsp;</li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="36"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">The instruction is broken down into its
+                        <strong>opcode</strong> (operation) and <strong>operands</strong> (data or memory
+                        location).&nbsp;</li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="36"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">The CU determines the necessary actions and signals
+                        required to execute the instruction.</li>
+                </ul>
+            </li>
+            <li data-leveltext="" data-font="Symbol" data-listid="36"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><strong>Execute Stage</strong>
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li data-leveltext="" data-font="Symbol" data-listid="36"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">The <strong>Arithmetic Logic Unit (ALU)</strong> or
+                        other CPU components perform the required operation.&nbsp;</li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="36"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">Data may be fetched from memory if needed.&nbsp;</li>
+                    <li data-leveltext="" data-font="Symbol" data-listid="36"
+                        data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                        data-aria-posinset="1" data-aria-level="1">The result may be stored in a register or written
+                        back to memory.&nbsp;</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div class="dp-content-block">
+        <h4>Interaction Between Memory and Registers via Three Buses&nbsp;</h4>
+        <p>The communication between the CPU and memory involves three main buses, each playing a crucial role in
+            transferring data and control signals between memory and CPU registers:&nbsp;</p>
+        <ol class="dp-more-space">
+            <li><strong>Address Bus</strong> – The CPU uses the <strong>Program Counter (PC)</strong> to hold the memory
+                address of the instruction or data to be accessed. This address is placed on the address bus and sent to
+                <strong>RAM</strong> or an I/O device. The <strong>Memory Address Register (MAR)</strong> temporarily
+                holds this address before data retrieval.&nbsp;</li>
+            <li><strong>Data Bus</strong> – Once the memory location is identified, the<strong> Memory Data Register
+                    (MDR)</strong> fetches the required instruction or data and transfers it to the <strong>Instruction
+                    Register (IR)</strong> or a general-purpose register in the CPU. If a result from an operation needs
+                to be written back, the data bus carries it from the Accumulator (ACC) or another register to the
+                specified memory location.&nbsp;</li>
+            <li><strong>Control Bus</strong> – The <strong>Control Unit (CU)</strong> sends control signals, such as
+                read or write commands, to coordinate data transfers. For example, a 'Memory Read' signal ensures that
+                data from a specified memory address is loaded into the <strong>MDR</strong>, while a 'Memory Write'
+                signal ensures that processed data is stored back in memory.&nbsp;</li>
+        </ol>
+        <p>These buses work together to facilitate efficient instruction execution, ensuring seamless interaction
+            between memory and the CPU registers for high-speed processing.</p>
+    </div>
+</div>
+
+
+
+<div class="dp-panel-content tab-pane fade show" id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1"
+    tabindex="0">
+    <h3 class="sr-only m-0 p-0 border-0">Summary</h3>
+    <div class="dp-content-block">
+        <h4>Summary</h4>
+        <ul id="" class="dp-more-space">
+            <li class="">The fetch-decode-execute cycle allows a CPU to process instructions sequentially.&nbsp;</li>
+            <li class="">The CPU interacts with memory and registers using the address, data, and control buses.&nbsp;
+            </li>
+            <li class="">The cycle is continuous and essential for program execution.</li>
+        </ul>
+    </div>
+    <div class="dp-content-block">
+        <h4>Further Exploration</h4>
+        <ul>
+            <li data-leveltext="" data-font="Symbol" data-listid="40"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="1" data-aria-level="1"><span data-contrast="auto">Research how pipelining enhances
+                    the fetch-decode-execute cycle.</span><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <ul>
+            <li data-leveltext="" data-font="Symbol" data-listid="40"
+                data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}"
+                data-aria-posinset="2" data-aria-level="1"><span data-contrast="auto">Compare this cycle in a simple CPU
+                    with modern multi-core processors.</span><span
+                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+            </li>
+        </ul>
+        <p><span data-contrast="auto">After above exploration, please make a note of the findings in your learning
+                journal.</span><span
+                data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span>
+        </p>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52808/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52808"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity: Fetch-Decode-Execute Digital Sorting Game</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <div class="dp-embed-wrapper"
+                        style="color: rgb(224, 62, 45); --darkreader-inline-color: var(--darkreader-text-e03e2d, #e34f40);"
+                        data-darkreader-inline-color=""><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=bfbcb6a8-6923-412d-939b-d2d3f2abf91c"
+                            height="992px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="H5P Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52808/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52808"
+                    data-api-returntype="File" data-name="cursor-default-click-64m.png" data-size="963 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1743"
+                    data-filename="cursor-default-click-64m.png" data-locked="false" data-width="32" loading="lazy">
+            </div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Activity 2: Register and Bus Identification</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_h5p_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_h5p_container">
+                <div style="position: relative; width: 100%; overflow: hidden;">
+                    <div class="dp-embed-wrapper"
+                        style="color: rgb(224, 62, 45); --darkreader-inline-color: var(--darkreader-text-e03e2d, #e34f40);"
+                        data-darkreader-inline-color=""><iframe style="width: 779px; height: 600px;" title=""
+                            src="https://pamojaeducation.instructure.com/courses/339/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=87a19378-dceb-4c27-8863-57c53d99047d"
+                            height="875px" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *; clipboard-write *; display-capture *"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

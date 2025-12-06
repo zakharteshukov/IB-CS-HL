@@ -1,0 +1,778 @@
+<div class="dp-panel-content tab-pane fade show active" tabindex="0" id="dpPanel0Content" role="tabpanel"
+    aria-labelledby="dpPanel0">
+    <h3 class="sr-only m-0 p-0 border-0">Introduction</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives:</h4>
+            <ul id="" class="dp-more-space">
+                <li>Compare different CPU scheduling approaches and their impact on system performance.</li>
+                <li>Explain how process scheduling optimizes execution by allocating CPU time efficiently.</li>
+                <li>Describe the characteristics of First-Come-First-Served (FCFS), Round Robin, Multilevel Queue, and
+                    Priority Scheduling.</li>
+                <li class="">Analyze the advantages and disadvantages of each scheduling method in different computing
+                    environments</li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <div class="dp-content-block" data-category="Pamoja Education" data-title="Video Block - Large">
+            <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+                <div class="pamoja_container_logo"><img class="" role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/52911/download" alt="" width="32"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52911"
+                        data-api-returntype="File" data-name="youtube-64.png" data-size="720 bytes"
+                        data-available-range="false" data-hidden="false" data-file-id="1748"
+                        data-filename="youtube-64.png" data-locked="false" loading="lazy" data-width="32"></div>
+                <div class="pamoja_container_header" style="width: 100%;">
+                    <p><strong><span>Watch: CPU Scheduling Explained | How Operating Systems Allocate CPU Time
+                                Efficiently</span></strong></p>
+                </div>
+            </div>
+            <div class="content-box pamoja_box_container pamoja_container_width"
+                style="margin: 0 0 20px 0; padding: 0;">
+                <div class="pamoja_box_container">
+                    <p><span style="background-color: rgb(247, 247, 247); font-family: inherit; font-size: 1rem; --darkreader-inline-bgcolor: var(--darkreader-background-f7f7f7, #1d1f20);"
+                            data-darkreader-inline-bgcolor="">This video explains </span><span
+                            style="background-color: rgb(247, 247, 247); font-family: inherit; font-size: 1rem; --darkreader-inline-bgcolor: var(--darkreader-background-f7f7f7, #1d1f20);"
+                            data-darkreader-inline-bgcolor="">how CPU scheduling optimizes system performance using
+                            different scheduling algorithms</span><span
+                            style="background-color: rgb(247, 247, 247); font-family: inherit; font-size: 1rem; --darkreader-inline-bgcolor: var(--darkreader-background-f7f7f7, #1d1f20);"
+                            data-darkreader-inline-bgcolor="">.</span></p>
+                    <div class="dp-embed-wrapper dp-embed-fill-width dp-embed-scale-proportionally"
+                        style="height: 467px;" data-ratio-w="30.4" data-ratio-h="0.03"><iframe
+                            class="youtube-video dp-embed-refreshed" style="width: 100%; height: 467px;"
+                            src="https://www.youtube.com/embed/Jkmy2YLUbUY?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer"
+                            width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            data-ratio="0.5625" data-mce-fragment="1"></iframe></div>
+                </div>
+            </div>
+        </div>
+        <h4>Different CPU Scheduling Approaches and Their Impact on System Performance</h4>
+        <p>CPU scheduling is a crucial function of an operating system that determines how processes are assigned CPU
+            time to optimize system performance, responsiveness, and resource utilization. Since multiple processes
+            often compete for CPU time, the OS employs scheduling algorithms to allocate time efficiently and fairly.
+            Different scheduling approaches impact system performance in terms of speed, efficiency, process fairness,
+            and user experience. The choice of scheduling algorithm depends on factors such as process priority,
+            execution time, and system workload.</p>
+        <p>Common CPU scheduling approaches include First-Come-First-Served (FCFS), Round Robin (RR), Multilevel Queue
+            Scheduling, and Priority Scheduling. Each has distinct advantages and disadvantages, making them suitable
+            for different types of computing environments such as real-time systems, interactive applications, and batch
+            processing systems.</p>
+    </div>
+    <div class="dp-content-block">
+        <h4>How Process Scheduling Optimizes Execution by Allocating CPU Time Efficiently</h4>
+        <p>In a multitasking computing environment, multiple processes compete for CPU time. Since the CPU can only
+            execute one process at a time per core, the operating system (OS) employs process scheduling to determine
+            the order and duration for which each process receives CPU access. Process scheduling optimizes execution by
+            ensuring fair allocation, efficient resource utilization, and minimal waiting time, leading to an improved
+            user experience, system responsiveness, and overall efficiency.</p>
+        <p>Without effective process scheduling, certain tasks may experience long delays, leading to system slowdowns,
+            high latency, or even unresponsive applications. By managing CPU allocation using scheduling algorithms,
+            modern operating systems maintain seamless multitasking, prevent resource starvation, and prioritize
+            time-sensitive processes.</p>
+    </div>
+</div>
+
+
+
+<div tabindex="0" id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block">
+        <h4>Different CPU Scheduling Approaches</h4>
+        <p><strong>1.&nbsp; First-Come-First-Served (FCFS) Scheduling</strong></p>
+        <p>FCFS scheduling follows a simple rule: the process that arrives first gets executed first. It operates like a
+            queue, where the first process to enter is the first to use the CPU. However, this method can lead to
+            inefficiencies due to the convoy effect, where short tasks get stuck behind long ones.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel2"><a href="#dpPanel2" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel2Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Algorithm: First-Come-First-Serve
+                    (FCFS) Scheduling using Stack</a></h3>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel2Content" style="display: none;"
+                aria-labelledby="dpPanel2" role="region">
+                <p><strong>Assumptions:</strong></p>
+                <ul class="dp-more-space">
+                    <li>Each process has:</li>
+                    <ul>
+                        <li>Process ID (PID)</li>
+                        <li>Arrival Time</li>
+                        <li>Burst Time</li>
+                    </ul>
+                    <li>Input is given in a stack named InputStack, with the last process on top.</li>
+                    <li>To simulate FCFS using stack (LIFO), we reverse the stack into ReverseStack.</li>
+                </ul>
+                <p><strong>Step 1: Initialization</strong></p>
+                <ul class="dp-more-space">
+                    <li>InputStack ← stack of processes (each with PID, ArrivalTime, BurstTime)</li>
+                    <li>ReverseStack ← empty stack</li>
+                    <li>CurrentTime ← 0</li>
+                    <li>Output ← empty list</li>
+                </ul>
+                <p><strong>Step 2: Reverse the Input Stack</strong></p>
+                <p>While InputStack is not empty:<br> process ← InputStack.pop()<br> ReverseStack.push(process)</p>
+                <p><strong>Step 3: Simulate FCFS Execution</strong></p>
+                <p>While ReverseStack is not empty:<br> process ← ReverseStack.pop()<br> If CurrentTime &lt;
+                    process.ArrivalTime:<br>  CurrentTime ← process.ArrivalTime<br> StartTime ←
+                    CurrentTime<br> CompletionTime ← StartTime + process.BurstTime<br> TurnaroundTime ← CompletionTime -
+                    process.ArrivalTime<br> WaitingTime ← TurnaroundTime - process.BurstTime<br> Add (process.PID,
+                    StartTime, CompletionTime, TurnaroundTime, WaitingTime) to Output<br> CurrentTime ← CompletionTime
+                </p>
+                <p><strong>Step 4: Display Output</strong></p>
+                <p>For each record in Output:<br> Print PID, StartTime, CompletionTime, TurnaroundTime, WaitingTime</p>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel3"><a href="#dpPanel3" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel3Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Bank Teller
+                    Service</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel3Content" style="display: none;"
+                aria-labelledby="dpPanel3" role="region">
+                <p>In a bank, customers are served in the order they arrive. If one customer has a complex request,
+                    others must wait longer, leading to inefficiencies. Similarly, in FCFS scheduling, long processes
+                    delay shorter processes, increasing the average wait time.</p>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel4"><a href="#dpPanel4" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel4Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Impact on Performance</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel4Content" style="display: none;"
+                aria-labelledby="dpPanel4" role="region">
+                <ul class="dp-more-space">
+                    <li>Simple and easy to implement but inefficient for interactive systems.</li>
+                    <li>Longer average waiting time, especially if a long process arrives first.</li>
+                    <li>No prioritization, making it unsuitable for time-sensitive applications.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>2.&nbsp; Round Robin (RR) Scheduling</strong></p>
+        <p>Round Robin scheduling allocates equal CPU time (time quantum) to each process in a cyclic order. If a
+            process does not finish within the given time slice, it is moved to the back of the queue, and the next
+            process gets CPU access.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel5"><a href="#dpPanel5" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel5Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Algorithm: Round Robin Scheduling</a>
+            </h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel5Content" style="display: none;"
+                aria-labelledby="dpPanel5" role="region">
+                <p><strong>Input:</strong></p>
+                <ul class="dp-more-space">
+                    <li>List of processes with: Process ID, Arrival Time, Burst Time</li>
+                    <li>Time Quantum (Q)</li>
+                </ul>
+                <p><strong>Steps:</strong></p>
+                <ol class="dp-more-space">
+                    <li>Initialize a queue Q</li>
+                    <li>Set current time T = 0</li>
+                    <li>Create an empty list called Completed</li>
+                    <li>Sort the processes by Arrival Time</li>
+                    <li>Set index = 0</li>
+                    <li>While index is less than the number of processes and process[index].arrival_time &lt;= T:</li>
+                </ol>
+                <ol>
+                    <ul>
+                        <li>Add process[index] to queue Q</li>
+                        <li>Increment index</li>
+                    </ul>
+                </ol>
+                <ol start="7">
+                    <li>While the queue Q is not empty:</li>
+                </ol>
+                <ol>
+                    <ul class="dp-more-space">
+                        <li>Remove the first process P from the queue</li>
+                        <li>If P.remaining_time &gt; Q:</li>
+                        <ul>
+                            <li>Run P for Q time units</li>
+                            <li>Increment T by Q</li>
+                            <li>Subtract Q from P.remaining_time</li>
+                        </ul>
+                        <li>Else:</li>
+                        <ul class="dp-more-space">
+                            <li>Run P for its remaining time</li>
+                            <li>Increment T by P.remaining_time</li>
+                            <li>Set P.remaining_time = 0</li>
+                            <li>Set P.completion_time = T</li>
+                            <li>Add P to Completed list</li>
+                        </ul>
+                        <li>Add any newly arrived processes (arrival_time &lt;= T) to queue Q</li>
+                        <li>If P.remaining_time &gt; 0, add P back to the queue</li>
+                    </ul>
+                </ol>
+                <ol start="8">
+                    <li>After all processes are complete, for each process:</li>
+                </ol>
+                <ol>
+                    <ul class="dp-more-space">
+                        <li>Turnaround Time = Completion Time - Arrival Time</li>
+                        <li>Waiting Time = Turnaround Time - Burst Time</li>
+                        <li>Display the process info and metrics</li>
+                    </ul>
+                </ol>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel6"><a href="#dpPanel6" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel6Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Time-Sharing in
+                    Multiplayer Online Games</a></h3>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel6Content" style="display: none;"
+                aria-labelledby="dpPanel6" role="region">
+                <p>In online multiplayer games, the server allocates a fixed time slice to each player’s actions to
+                    ensure smooth gameplay. No single player can dominate the server, allowing fair access to game
+                    resources.</p>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel7"><a href="#dpPanel7" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel7Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Impact on Performance</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel7Content" style="display: none;"
+                aria-labelledby="dpPanel7" role="region">
+                <ul class="dp-more-space">
+                    <li>Ensures fairness as each process gets CPU time in equal intervals.</li>
+                    <li>Ideal for interactive systems such as time-sharing environments and real-time applications.</li>
+                    <li>May cause overhead due to frequent context switching, reducing overall efficiency.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>3.&nbsp; Multilevel Queue Scheduling</strong></p>
+        <p>Multilevel queue scheduling categorizes processes into different queues based on their priority, type, or
+            resource needs. Each queue follows its own scheduling algorithm, and the OS determines how to allocate CPU
+            time between queues.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel8"><a href="#dpPanel8" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel8Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Algorithm: Multilevel Queue
+                    Scheduling</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel8Content" style="display: none;"
+                aria-labelledby="dpPanel8" role="region">
+                <p><strong>Assumptions:</strong></p>
+                <ul class="dp-more-space">
+                    <li>There are multiple queues for different types of processes (e.g., system processes, interactive
+                        processes, batch processes).</li>
+                    <li>Each queue has its own scheduling algorithm (e.g., Round Robin for one, FCFS for another).</li>
+                    <li>A fixed priority is assigned to each queue; no process moves between queues.</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p><strong>Steps:</strong></p>
+                <ol>
+                    <li>Define the number of queues, e.g., 3 queues:</li>
+                </ol>
+                <ol>
+                    <ul class="dp-more-space">
+                        <li>Queue 1: System Processes (Highest Priority)</li>
+                        <li>Queue 2: Interactive Processes</li>
+                        <li>Queue 3: Background/Batch Processes (Lowest Priority)</li>
+                    </ul>
+                </ol>
+                <ol class="dp-more-space" start="2">
+                    <li>Assign each incoming process to a specific queue based on its type or priority.</li>
+                    <li>Use a scheduling algorithm within each queue:</li>
+                </ol>
+                <ol>
+                    <ul class="dp-more-space">
+                        <li>Queue 1: Round Robin with quantum = 4</li>
+                        <li>Queue 2: FCFS (First-Come, First-Served)</li>
+                        <li>Queue 3: Shortest Job First (SJF), or another policy</li>
+                    </ul>
+                </ol>
+                <ol start="4">
+                    <li>At each scheduling cycle:</li>
+                </ol>
+                <ol start="5">
+                    <ul class="dp-more-space">
+                        <li>Start checking from the highest priority queue (Queue 1).</li>
+                        <li>If Queue 1 has processes, schedule based on its algorithm.</li>
+                        <li>Only if Queue 1 is empty, move to Queue 2.</li>
+                        <li>If Queue 2 is also empty, schedule from Queue 3.</li>
+                    </ul>
+                    <li>Repeat the cycle until all queues are empty and all processes are completed.</li>
+                </ol>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel9"><a href="#dpPanel9" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel9Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Air Traffic
+                    Control System</a></h3>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel9Content" style="display: none;"
+                aria-labelledby="dpPanel9" role="region">
+                <p>In air traffic control, flights are categorized into emergency landings, commercial flights, and
+                    cargo flights. Emergency landings always get top priority, while commercial and cargo flights follow
+                    different scheduling rules.</p>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel10"><a href="#dpPanel10" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel10Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Impact on Performance</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel10Content" style="display: none;"
+                aria-labelledby="dpPanel10" role="region">
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li>Separates high-priority tasks from low-priority tasks, improving responsiveness.</li>
+                    <li>Best suited for multitasking environments where different types of tasks need CPU access.</li>
+                    <li>Can lead to starvation if lower-priority processes are never given CPU time.</li>
+                </ul>
+            </div>
+
+        </div>
+        <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <td style="width: 99.9369%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        colspan="2" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">Key Points:</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 99.9369%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        colspan="2" rowspan="2" data-darkreader-inline-border-top=""
+                        data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom=""
+                        data-darkreader-inline-border-left="">
+                        <ul class="dp-more-space">
+                            <li>No starvation protection unless aging is introduced.</li>
+                            <li>Processes are permanently assigned to one queue.</li>
+                            <li>Different policies allow flexibility based on process behavior.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>4. Priority Scheduling</strong></p>
+        <p>Priority scheduling assigns a priority level to each process, and the CPU executes the highest priority
+            process first. If multiple processes have the same priority, they are scheduled using FCFS.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel11"><a href="#dpPanel11" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel11Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Algorithm: Priority Scheduling</a>
+            </h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel11Content" style="display: none;"
+                aria-labelledby="dpPanel11" role="region">
+                <p><strong>Assumptions:</strong></p>
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li>Each process is assigned a priority number.</li>
+                    <li>Lower numbers can represent higher priority (or vice versa, depending on the convention).</li>
+                    <li>In case of equal priority, a tie-breaker like FCFS (First-Come, First-Served) is used.</li>
+                    <li>Preemptive or non-preemptive versions may be used.</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p><strong>Steps (Non-Preemptive Priority Scheduling):</strong></p>
+                <ol>
+                    <li>
+                        <p>Start with a list of processes, each with:</p>
+                    </li>
+                </ol>
+                <ol>
+                    <ul>
+                        <li>
+                            <p>Process ID</p>
+                        </li>
+                        <li>
+                            <p>Arrival Time</p>
+                        </li>
+                        <li>
+                            <p>Burst Time</p>
+                        </li>
+                        <li>
+                            <p>Priority</p>
+                        </li>
+                    </ul>
+                </ol>
+                <ol start="2">
+                    <li>
+                        <p>Sort the list of processes by Arrival Time.</p>
+                    </li>
+                    <li>
+                        <p>From the list of arrived processes (at current time):</p>
+                    </li>
+                </ol>
+                <ol>
+                    <ul>
+                        <li>
+                            <p>Select the process with the highest priority (lowest priority number if using ascending
+                                order).</p>
+                        </li>
+                        <li>
+                            <p>If multiple processes have the same priority, use First-Come-First-Served to break the
+                                tie.</p>
+                        </li>
+                    </ul>
+                </ol>
+                <ol start="4">
+                    <li>
+                        <p>Execute the selected process completely (non-preemptive).</p>
+                    </li>
+                    <li>
+                        <p>Update the current time after the process finishes.</p>
+                    </li>
+                    <li>
+                        <p>Repeat steps 3–5 until all processes are completed.</p>
+                    </li>
+                </ol>
+                <p>&nbsp;</p>
+                <p><strong>Steps (Preemptive Priority Scheduling):</strong></p>
+                <ol>
+                    <li>
+                        <p>At every unit of time, check for newly arrived processes.</p>
+                    </li>
+                    <li>
+                        <p>From the ready queue, select the process with the highest priority.</p>
+                    </li>
+                    <li>
+                        <p>If a newly arrived process has higher priority than the currently running one:</p>
+                    </li>
+                </ol>
+                <ol>
+                    <ul>
+                        <li>
+                            <p>Preempt the current process.</p>
+                        </li>
+                        <li>
+                            <p>Start executing the higher-priority process.</p>
+                        </li>
+                    </ul>
+                </ol>
+                <ol start="4">
+                    <li>
+                        <p>Continue until all processes are completed.</p>
+                    </li>
+                </ol>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel12"><a href="#dpPanel12" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel12Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Hospital Emergency
+                    Room</a></h3>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel12Content" style="display: none;"
+                aria-labelledby="dpPanel12" role="region">
+                <p>In a hospital emergency room, patients with life-threatening conditions are treated first, while
+                    those with minor injuries wait longer. Similarly, in priority scheduling, higher-priority processes
+                    are executed before lower-priority ones.</p>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel13"><a href="#dpPanel13" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel13Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Impact on Performance</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel13Content" style="display: none;"
+                aria-labelledby="dpPanel13" role="region">
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li>Ensures critical tasks are executed first, improving response time for important processes.</li>
+                    <li>Can lead to starvation, where low-priority tasks never get executed.</li>
+                    <li>Aging techniques can be used to gradually increase the priority of long-waiting processes to
+                        prevent starvation.</li>
+                </ul>
+            </div>
+
+        </div>
+        <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <td style="width: 99.9369%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        colspan="2" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">Key Points:</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 99.9369%; border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        colspan="2" rowspan="2" data-darkreader-inline-border-top=""
+                        data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom=""
+                        data-darkreader-inline-border-left="">
+                        <ul class="dp-more-space" style="list-style-type: disc;">
+                            <li>Can lead to starvation if low-priority processes never get CPU time.</li>
+                            <li>Aging can be implemented to gradually increase the priority of waiting processes.</li>
+                            <li>Preemptive version is more responsive but more complex to manage.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block">
+        <h4>Comparison of CPU Scheduling Approaches</h4>
+    </div>
+    <div class="dp-content-block">
+        <table style="width: 100%;" width="783" data-active-table="true">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid rgb(149, 165, 166); width: 108.656px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        scope="col" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Scheduling Algorithm</p>
+                    </th>
+                    <th style="border: 1px solid rgb(149, 165, 166); width: 30%; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        scope="col" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Characteristics</p>
+                    </th>
+                    <th style="border: 1px solid rgb(149, 165, 166); width: 196.359px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        scope="col" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Advantages</p>
+                    </th>
+                    <th style="border: 1px solid rgb(149, 165, 166); width: 238.813px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        scope="col" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Disadvantages</p>
+                    </th>
+                    <th style="border: 1px solid rgb(149, 165, 166); width: 242.547px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        scope="col" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Best Applied In</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 108.656px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><strong>FCFS</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 30%; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Non-preemptive. Executes processes in order of arrival.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 196.359px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="185" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Simple to implement. <span>No starvation</span></p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 238.813px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="226" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>High waiting time if long processes arrive first</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 242.547px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="229" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Batch processing systems</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 108.656px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><strong>Round Robin</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 30%; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Preemptive. Fixed time slice (quantum) per process in a cyclic queue.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 196.359px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="185" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Fair and responsive</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 238.813px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="226" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Frequent context switching can slow performance</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 242.547px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="229" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Time-sharing and interactive systems</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 108.656px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><strong>Multilevel Queue</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 30%; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Divides processes into separate queues by type or priority.<br>Each queue has its own
+                            algorithm.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 196.359px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="185" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Separates critical and non-critical tasks</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 238.813px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="226" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Risk of lower-priority starvation</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 242.547px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="229" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Multitasking and real-time environments</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 108.656px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p><strong>Priority Scheduling</strong></p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 30%; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Preemptive or non-preemptive.<br>Processes assigned priority levels.</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 196.359px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="185" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Ensures important tasks run first</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 238.813px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="226" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Starvation of low-priority tasks</p>
+                    </td>
+                    <td style="border: 1px solid rgb(149, 165, 166); width: 242.547px; --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        width="229" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <p>Critical system processes and embedded systems</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block">
+        <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;">
+            <thead>
+                <tr>
+                    <th style="width: 99.9369%;" colspan="2" scope="colgroup">Key Points to Remember</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 99.9369%;" colspan="2" rowspan="2">
+                        <ul class="dp-more-space">
+                            <li>CPU scheduling optimizes performance by deciding how processes share CPU time.</li>
+                            <li>FCFS is simple but inefficient for real-time systems due to long wait times.</li>
+                            <li>Round Robin is best for interactive systems, ensuring fair access but increasing
+                                context-switching overhead.</li>
+                            <li>Multilevel Queue Scheduling classifies processes into different queues, optimizing
+                                multitasking environments.</li>
+                            <li>Priority Scheduling prioritizes critical tasks but requires starvation prevention
+                                techniques like aging.</li>
+                            <li>Different scheduling algorithms are chosen based on system requirements and workload
+                                types.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Reading Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><strong><img class="" role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/52915/download" alt="" width="32"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52915"
+                        data-api-returntype="File" data-name="book-open-page-variant-64.png" data-size="760 bytes"
+                        data-available-range="false" data-hidden="false" data-file-id="1739"
+                        data-filename="book-open-page-variant-64.png" data-locked="false" loading="lazy"
+                        data-width="32"></strong></div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong>Additional Reading Materials from Authentic Sources:</strong></p>
+            </div>
+        </div>
+        <div class="content-box pamoja_box_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_box_container">
+                <ol class="dp-more-space">
+                    <li><a class="inline_disabled dp-ext-ignore"
+                            href="https://pamojaeducation.instructure.com/1.%09CPU%20Scheduling%20and%20Performance%20Optimization"
+                            target="_blank">CPU Scheduling and Performance Optimization</a></li>
+                    <li><a class="inline_disabled external"
+                            href="https://www.geeksforgeeks.org/process-schedulers-in-operating-system/" target="_blank"
+                            rel="noreferrer noopener"><span>Process Scheduling in Operating Systems</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external"
+                            href="https://muabusalah.medium.com/process-scheduling-in-operating-system-3726b2d3edcd"
+                            target="_blank" rel="noreferrer noopener"><span>Operating System Process
+                                Scheduling</span><span class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external"
+                            href="https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/5_CPU_Scheduling.html"
+                            target="_blank" rel="noreferrer noopener"><span>Efficient CPU Scheduling Techniques in
+                                Modern Computing</span><span class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Video Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52911/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52911"
+                    data-api-returntype="File" data-name="youtube-64.png" data-size="720 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1748" data-filename="youtube-64.png"
+                    data-locked="false" loading="lazy" data-width="32"></div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong><span>Watch: CPU Scheduling Algorithms Explained | Operating System Concepts</span></strong>
+                </p>
+            </div>
+        </div>
+        <div class="content-box pamoja_box_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_box_container">
+                <p>This video explains how CPU scheduling works, compares different scheduling methods, and discusses
+                    their impact on performance.</p>
+                <div class="dp-embed-wrapper dp-embed-fill-width dp-embed-scale-proportionally" style="height: 315px;"
+                    data-ratio-w="30.4" data-ratio-h="0.03"><iframe class="youtube-video dp-embed-refreshed"
+                        style="width: 100%; height: 315px;"
+                        src="https://www.youtube.com/embed/AiVKIdGheEU?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer"
+                        width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        data-ratio="0.5625"></iframe></div>
+            </div>
+        </div>
+    </div>
+</div>

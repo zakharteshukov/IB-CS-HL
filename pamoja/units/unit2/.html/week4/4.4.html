@@ -1,0 +1,1600 @@
+<div tabindex="0" id="dpPanel0Content" role="tabpanel" aria-labelledby="dpPanel0" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show active">
+    <h3 class="sr-only m-0 p-0 border-0">Introduction</h3>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Learning Objectives - Large">
+        <div class="dp-content-block">
+            <h4 class="">Learning Objectives</h4>
+            <p>By the end of this lesson you will be able to:</p>
+            <ul id="" class="dp-more-space">
+                <li class="">Understand the role of logic gates in binary computing and how they process data.&nbsp;
+                </li>
+                <li data-leveltext="●" data-font="Times New Roman" data-listid="20"
+                    data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;●&quot;,&quot;469777815&quot;:&quot;multilevel&quot;}"
+                    data-aria-posinset="2" data-aria-level="1">Define and apply Boolean operators such as AND, OR, NOT,
+                    NAND, NOR, XOR, and XNOR<span data-contrast="none"> in logic circuits</span></li>
+            </ul>
+            <hr class="dp-hr-solid-light w-100 dp-hr-color-mid">
+        </div>
+        <div class="dp-content-block" data-category="Pamoja Education" data-title="Video Block - Large">
+            <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+                <div class="pamoja_container_logo"><img class="" role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/52861/download" alt="" width="32"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52861"
+                        data-api-returntype="File" data-name="youtube-64.png" data-size="720 bytes"
+                        data-available-range="false" data-hidden="false" data-file-id="1748"
+                        data-filename="youtube-64.png" data-locked="false" loading="lazy" data-width="32"></div>
+                <div class="pamoja_container_header" style="width: 100%;">
+                    <p><strong><span>Watch:</span></strong></p>
+                </div>
+            </div>
+            <div class="content-box pamoja_box_container pamoja_container_width"
+                style="margin: 0 0 20px 0; padding: 0;">
+                <div class="pamoja_box_container">
+                    <div class="dp-embed-wrapper dp-embed-fill-width dp-embed-scale-proportionally"
+                        style="height: 467px;" data-ratio-w="30.4" data-ratio-h="0.03"><iframe
+                            class="youtube-video dp-embed-refreshed" style="width: 100%; height: 467px;"
+                            src="https://www.youtube.com/embed/WII9HWnf3V4?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer"
+                            width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            data-ratio="0.5625"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div tabindex="0" id="dpPanel1Content" role="tabpanel" aria-labelledby="dpPanel1" data-panel-classes=" "
+    class="tab-pane dp-panel-content fade show">
+    <h3 class="sr-only m-0 p-0 border-0">Lesson</h3>
+    <div class="dp-content-block">
+        <h4>The Role of Logic Gates in Binary Computing</h4>
+        <p>Computers function using binary (0s and 1s), where logic gates help includes:</p>
+        <ol class="dp-more-space">
+            <li><strong>Basic Computation</strong>: Addition, subtraction, and multiplication use AND, OR, and XOR gates
+                in digital circuits like adders and ALUs (Arithmetic Logic Units).</li>
+            <li><strong>Data Storage</strong>: Flip-flops (memory elements) use logic gates to store 0s and 1s in RAM
+                and cache memory.</li>
+            <li><strong>Signal Processing</strong>: Microprocessors use logic gates to process video, audio, and text
+                data efficiently.</li>
+            <li><strong>Control Units in CPU</strong>s: Logic gates decipher binary instructions for executing software
+                programs.</li>
+        </ol>
+        <p>Every single decision, calculation, or storage operation in a computer happens using logic gate circuits
+            working at the microsecond level.</p>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Table with header - Large">
+        <table data-active-table="true">
+            <thead>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><strong>Points to
+                            Remember</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <ul class="dp-more-space">
+                            <li>Logic gates are the foundation of digital electronics, enabling computers to process and
+                                store data.</li>
+                            <li>Each logic gate follows Boolean logic, determining output based on binary inputs (0s and
+                                1s).</li>
+                            <li>Real-world applications include digital clocks, traffic signals, elevators, and security
+                                systems.</li>
+                            <li>All computing operations rely on logic gates, from simple calculations to complex
+                                encryption.</li>
+                            <li>Logic gates are implemented using transistors, found in microprocessors, memory chips,
+                                and embedded systems.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Reading Block - Small">
+        <div class="pamoja_content_container">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52864/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52864"
+                    data-api-returntype="File" data-name="book-open-page-variant-64.png" data-size="760 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1739"
+                    data-filename="book-open-page-variant-64.png" data-locked="false" loading="lazy" data-width="32">
+            </div>
+            <div class="pamoja_container_header" style="width: auto;">
+                <p><strong>Additional Reading Resources:</strong></p>
+                <p>Here are some additional sources to deepen your understanding of logic gates:</p>
+                <br>
+                <ol class="dp-more-space">
+                    <li><a class="inline_disabled external"
+                            href="https://www.electronics-tutorials.ws/logic/logic_1.html" target="_blank"
+                            rel="noreferrer noopener"><span>Basic Digital Logic Gates – Electronics
+                                Tutorials</span><span class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external" href="https://www.explainthatstuff.com/logicgates.html"
+                            target="_blank" rel="noreferrer noopener"><span>How Logic Gates Work</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external" href="http://intrologic.stanford.edu/extras/circuits.html"
+                            target="_blank" rel="noreferrer noopener"><span>Digital Circuits and Logic Gates</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>The Functions and Applications of Logic Gates in Computer Systems</h4>
+        <p><span data-contrast="auto">Logic gates are the essential components that form the foundation of digital
+                computing. They perform fundamental logical operations on binary inputs (0s and 1s) and produce specific
+                outputs that guide how computers process information. These gates are implemented using electronic
+                switches, typically transistors, and are combined to create complex digital circuits. Every digital
+                device, from microprocessors to memory storage and communication systems, relies on logic gates for data
+                processing and control operations. Without logic gates, modern computing and automation would not be
+                possible.</span><span
+                data-ccp-props="{&quot;335559738&quot;:240,&quot;335559739&quot;:240}">&nbsp;</span></p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel2"><a href="#dpPanel2" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel2Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Functions of Logic Gates in Computer
+                    Systems</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel2Content" style="display: none;"
+                aria-labelledby="dpPanel2" role="region">
+                <p>Logic gates serve a crucial role in processing and controlling data in computing devices. Their main
+                    function is to perform logical operations based on Boolean algebra, which allows computers to
+                    execute decisions and mathematical computations. The AND, OR, NOT, NAND, NOR, XOR, and XNOR gates
+                    form the basis of all logical computations in digital systems. These gates are used in combination
+                    to create more complex logic circuits, including adders, multiplexers, decoders, memory storage
+                    units, and microprocessors.</p>
+                <figure class="mx-auto d-block default dp-float-fix" style="width: 450px; height: auto;"><img class=""
+                        role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/24276/download" alt=""
+                        width="400" height="370.344" data-name="Half-Adder.png" data-size="30 KB"
+                        data-available-range="false" data-hidden="false" data-file-id="7839"
+                        data-filename="Half-Adder.png" data-locked="false"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24276"
+                        data-api-returntype="File" loading="lazy" style="max-width: 100%;" data-width="0">
+                    <figcaption>Image source: <a class="inline_disabled external"
+                            href="https://www.geeksforgeeks.org/digital-logic/binary-adder-with-logic-gates/"
+                            target="_blank"
+                            rel="noreferrer noopener"><span>https://www.geeksforgeeks.org/binary-adder-with-logic-gates/</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a> (Use this
+                        link for further reading)</figcaption>
+                </figure>
+                <p>In a computer’s Arithmetic Logic Unit (ALU), logic gates are used to perform mathematical operations
+                    such as addition, subtraction, multiplication, and division. For example, a half-adder circuit,
+                    which is used to add two binary numbers, is constructed using XOR and AND gates. More advanced
+                    computational functions, such as comparisons and bitwise operations, also depend on logic gates
+                    within the processor.</p>
+                <p>Logic gates are also responsible for data storage and memory operations. In flip-flop circuits, NAND
+                    and NOR gates are used to store data in registers and memory cells. These memory circuits hold
+                    binary data, allowing processors to retrieve and manipulate stored information efficiently. This
+                    functionality is crucial in RAM (Random Access Memory), cache memory, and solid-state storage
+                    devices.</p>
+                <p><img class="dp-overlap-dark mx-auto d-block" style="width: 450px; height: auto;" role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/24334/download" alt=""
+                        width="450" height="247.5" data-name="storage-nand_nor_gates-f.png" data-size="13 KB"
+                        data-available-range="false" data-hidden="false" data-file-id="7840"
+                        data-filename="storage-nand_nor_gates-f.png" data-locked="false"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24334"
+                        data-api-returntype="File" loading="lazy" data-width="450"></p>
+                <p>Beyond data processing and storage, logic gates are essential in decision-making circuits. For
+                    example, a microcontroller in a washing machine determines the correct washing cycle based on sensor
+                    inputs and programmed logic. Similarly, an automatic irrigation system can decide when to water
+                    plants by analyzing temperature and soil moisture readings, using logic gates to trigger the correct
+                    response.</p>
+                <p>Security and encryption systems also leverage logic gates to ensure data protection. Many encryption
+                    algorithms use XOR logic to encode and decode messages, making it difficult for unauthorized users
+                    to access sensitive data. Cryptographic protocols such as the Advanced Encryption Standard (AES)
+                    implement logic gate circuits to process secure transactions, including online banking and
+                    communication encryption.</p>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel3"><a href="#dpPanel3" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel3Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Applications of Logic Gates in the
+                    Real World</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel3Content" style="display: none;"
+                aria-labelledby="dpPanel3" role="region">
+                <p>Logic gates are used in almost every aspect of modern technology, enabling automation and
+                    decision-making across industries.</p>
+                <p>In<strong> </strong>microprocessors and CPUs, logic gates are used to execute instructions and
+                    perform calculations at high speeds. Every instruction executed by a processor—whether retrieving
+                    data from memory, performing arithmetic operations, or controlling hardware components—is processed
+                    through an intricate network of logic gate circuits. A simple command, such as displaying an image
+                    on a screen, involves millions of logic gate operations happening within milliseconds.</p>
+                <p>Another significant application of logic gates is in traffic light control systems. Traffic signals
+                    operate based on sensor data and predefined conditions. For instance, an AND gate can be used to
+                    ensure that a pedestrian crossing light only turns on when both the pedestrian button is pressed and
+                    the traffic light is red. Similarly, an OR gate can be used to trigger a green light when vehicles
+                    are detected on specific lanes, ensuring smooth traffic flow.</p>
+                <p>&nbsp;</p>
+                <figure class="mx-auto d-block default dp-float-fix" style="width: 450px; height: auto;"><img class=""
+                        style="width: 450px; height: auto; max-width: 100%;" role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/24319/download" alt=""
+                        width="450" height="217.336" data-name="Picture 1.png" data-size="65 KB"
+                        data-available-range="false" data-hidden="false" data-file-id="7856"
+                        data-filename="Picture+1.png" data-locked="false"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24319"
+                        data-api-returntype="File" loading="lazy" data-width="450">
+                    <figcaption>Image source: http://www.technoblogy.com/show?4FO5</figcaption>
+                </figure>
+                <p>&nbsp;</p>
+                <ul class="dp-more-space" style="list-style-type: disc;">
+                    <li>The red LED is on whenever S1 is '0', so we can connect it directly to S1 via a NOT gate.</li>
+                    <li>The orange LED is on whenever S2 is '0', so we can connect it directly to S2.</li>
+                    <li>The green LED is on only when S1 is '1' and S2 is '0', so we can connect it to the output of a
+                        NOR gate driven by NOT S1 and S2.</li>
+                </ul>
+                <p>Smartphones and digital devices rely on logic gates for various functions, including touch screen
+                    processing, face recognition, and wireless communication. In mobile phones, logic gates control how
+                    signals are processed to establish a connection between the user and the network. For example, when
+                    making a call, NAND gates help manage signal routing, ensuring clear and uninterrupted
+                    communication.</p>
+                <p>In digital security systems, fingerprint and facial recognition systems use logic gates to compare
+                    stored biometric data with live scans. If the input matches stored values based on an XNOR
+                    operation, access is granted. This technology is widely used in smartphones, laptops, and access
+                    control systems in high-security areas such as airports and corporate offices.</p>
+                <p>Robotics and artificial intelligence systems are also built on logic gate functions. A robotic arm in
+                    a factory, for example, uses sensors and logic gates to determine when to pick up an object. If an
+                    AND gate circuit receives signals indicating that an object is detected and positioned correctly,
+                    the robotic arm proceeds to complete the task. Similarly, in self-driving cars, complex logic gate
+                    circuits process sensor data to make real-time driving decisions, such as avoiding obstacles or
+                    following traffic rules.</p>
+                <p>Logic gates are also widely used in household appliances. Microwave ovens use logic circuits to
+                    determine when to stop heating food based on user input and temperature sensors. Refrigerators use
+                    logic gates to regulate temperature settings based on environmental conditions. Even digital clocks
+                    and alarm systems function using logic gate-based oscillators and counters to measure time and
+                    trigger alarms.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Table with header - Large">
+        <table data-active-table="true">
+            <thead>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><strong>Key Points
+                            to Remember</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <ul class="dp-more-space">
+                            <li>Logic gates are the building blocks of all digital circuits, performing Boolean logic
+                                operations.</li>
+                            <li>The Arithmetic Logic Unit (ALU) in CPUs uses logic gates for calculations and
+                                decision-making.</li>
+                            <li>Memory storage devices such as RAM, cache, and SSDs rely on logic gates to store and
+                                retrieve data.</li>
+                            <li>Security systems, encryption algorithms, and cryptographic protocols use XOR gates for
+                                encoding and decoding sensitive information.</li>
+                            <li>Traffic light controllers, robotics, and self-driving cars use logic gates to process
+                                real-time sensor inputs and execute commands.</li>
+                            <li>Logic gates are present in smartphones, digital security systems, household appliances,
+                                and industrial automation systems.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Reading Block - Small">
+        <div class="pamoja_content_container">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52864/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52864"
+                    data-api-returntype="File" data-name="book-open-page-variant-64.png" data-size="760 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1739"
+                    data-filename="book-open-page-variant-64.png" data-locked="false" loading="lazy" data-width="32">
+            </div>
+            <div class="pamoja_container_header" style="width: auto;">
+                <p><strong>Additional Reading Material:</strong></p>
+                <p>To explore more about logic gates and their applications in computing, refer to the following
+                    authentic sources:</p>
+                <ol class="dp-more-space">
+                    <li><a class="inline_disabled external"
+                            href="https://www.geeksforgeeks.org/digital-electronics-logic-design-tutorials/"
+                            target="_blank" rel="noreferrer noopener"><span>Digital Circuits and Computer
+                                Logic</span><span class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><span class="instructure_file_holder link_holder instructure_file_link_holder"><a id="47585"
+                                class="inline_disabled preview_in_overlay"
+                                href="https://pamojaeducation.instructure.com/courses/339/files/52870?wrap=1"
+                                target="_blank"
+                                data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52870"
+                                data-canvas-previewable="true" data-api-returntype="File"
+                                data-external-source-origin="python4csip.com">Boolean Logic in Digital Systems</a><a
+                                class="file_download_btn" role="button" download=""
+                                style="margin-inline-start: 5px; text-decoration: none;"
+                                href="https://pamojaeducation.instructure.com/courses/339/files/52870/download?download_frd=1"><span
+                                    role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                        style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                        data-darkreader-inline-fill="">
+                                        <path
+                                            d="m1807.093 1482.477 79.736 79.963-355.313 355.312H355.346L.035 1562.44l79.85-79.963 322.22 322.334H1484.76l322.334-322.334ZM997.677-.033v1167.02l355.313-355.313 79.962 79.85-491.858 491.633L449.46 891.524l79.962-79.85 355.313 355.313V-.033h112.941Z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                </span><span class="screenreader-only">Download Boolean Logic in Digital
+                                    Systems</span></a></span></li>
+                    <li><a class="inline_disabled external"
+                            href="https://www.whalesbot.ai/blog/logic-gates-in-computer-science-building-blocks-of-digital-thinking"
+                            target="_blank" rel="noreferrer noopener"><span>How Computers Use Logic Gates</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external"
+                            href="https://www.researchgate.net/publication/2574457_The_Roles_of_Logic_in_Artificial_Intelligence"
+                            target="_blank" rel="noreferrer noopener"><span>The Role of Logic Circuits in AI and
+                                Computing</span><span class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>The Role of Logic Gates in Binary Computing</h4>
+        <p>Binary computing is the foundation of all modern digital technology. At its core, computers function using
+            binary numbers—0s and 1s—where every piece of data, every instruction, and every operation is represented in
+            this simple yet powerful system. However, binary numbers alone cannot perform computations without a
+            mechanism to process them. This is where logic gates play a crucial role. Logic gates are the fundamental
+            components that allow computers to manipulate binary values through Boolean logic operations. They are the
+            building blocks of arithmetic calculations, decision-making processes, and data storage in computing
+            systems. By controlling the flow of electrical signals, logic gates enable computers to execute programs,
+            store information, and perform complex tasks in microseconds.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus dp-panel-heading-text-start">
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel4"><a href="#dpPanel4" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel4Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> The Function of Logic Gates in Binary
+                    Computing</a></h3>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel4Content" style="display: none;"
+                aria-labelledby="dpPanel4" role="region">
+                <p>Logic gates operate using Boolean logic, a mathematical system that processes binary values (0s and
+                    1s). Each logic gate receives one or more binary inputs and produces a specific binary output based
+                    on predefined logical rules. This makes it possible for computers to carry out calculations,
+                    comparisons, and decision-making tasks without human intervention.</p>
+                <p><img class="dp-full-width dp-overlap-dark" style="height: auto;" role="presentation"
+                        src="https://pamojaeducation.instructure.com/courses/339/files/24289/download" alt=""
+                        width="715.375" height="627.640625"
+                        data-name="symbols-truth-tables-of-common-logic-gates.jpg.webp" data-size="370 KB"
+                        data-available-range="false" data-hidden="false" data-file-id="7843"
+                        data-filename="symbols-truth-tables-of-common-logic-gates.jpg.webp" data-locked="false"
+                        data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24289"
+                        data-api-returntype="File" loading="lazy" data-width="0"></p>
+                <p>For instance, a computer’s central processing unit (CPU) uses millions of logic gates to process
+                    data. Each time you type a key on a keyboard, click a button on a mouse, or execute a command, logic
+                    gates within the processor interpret the input and generate the appropriate response. These gates
+                    are combined in arithmetic logic units (ALUs) to perform basic mathematical operations such as
+                    addition, subtraction, multiplication, and division, all of which are essential for computing tasks.
+                </p>
+                <p>Logic gates also play a fundamental role in memory storage and data retrieval. In devices such as RAM
+                    (Random Access Memory) and solid-state drives (SSDs), binary values are stored in logic circuits
+                    that use flip-flops—combinations of NAND and NOR gates—to retain information. When a user opens a
+                    file, the system retrieves the stored binary data using logic gates and reconstructs it into
+                    readable text, images, or videos. This seamless operation happens within microseconds, enabling
+                    real-time computing experiences.</p>
+            </div>
+
+
+            <h3 class="dp-panel-heading dp-panels-built" id="dpPanel5"><a href="#dpPanel5" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel5Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Applications of Logic Gates
+                    in Binary Computing</a></h3>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel5Content" style="display: none;"
+                aria-labelledby="dpPanel5" role="region">
+                <p>One of the most common applications of logic gates in binary computing is digital arithmetic
+                    operations. Computers perform all calculations in binary using circuits made from logic gates. A
+                    binary adder, for example, is a logic circuit that adds two binary numbers and produces a sum along
+                    with a carry bit. The half-adder and full-adder circuits, built using XOR and AND gates, enable
+                    computers to perform rapid addition operations, which form the basis of all arithmetic processing in
+                    microprocessors.</p>
+                <table class="table-bordered default-base-style" style="border-collapse: collapse; width: 100%;"
+                    data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td class="align-top text-center"
+                                style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <strong>Half Adder</strong></td>
+                            <td class="align-top text-center"
+                                style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <strong>Full Adder</strong></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-top text-center"
+                                style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    class="dp-full-width dp-overlap-dark" style="width: 360px; height: auto;"
+                                    role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24287/download"
+                                    alt="" height="257" data-name="Screenshot 2025-05-19 at 13.08.43.png"
+                                    data-size="121 KB" data-available-range="false" data-hidden="false"
+                                    data-file-id="7844" data-filename="Screenshot+2025-05-19+at+13.08.43.png"
+                                    data-locked="false"
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24287"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                            <td class="align-top text-center"
+                                style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    class="dp-full-width dp-overlap-dark" style="width: 250px; height: 148px;"
+                                    role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24319/download"
+                                    alt="" height="345.5" data-name="Picture 1.png" data-size="65 KB"
+                                    data-available-range="false" data-hidden="false" data-file-id="7856"
+                                    data-filename="Picture+1.png" data-locked="false"
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24319"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>In automation and decision-making systems, logic gates allow machines to make real-time choices based
+                    on sensor inputs. For instance, self-driving cars rely on logic gate circuits to process sensor data
+                    and determine whether to stop, slow down, or accelerate. If a pedestrian is detected within a
+                    certain range, a logic circuit using AND gates may decide to apply the brakes only if multiple
+                    conditions are met (e.g., pedestrian detected AND red traffic light is ON).</p>
+                <p>Another practical use of logic gates in binary computing is in cryptography and data security.
+                    Encryption algorithms use binary logic to encode and decode sensitive information. XOR gates play a
+                    significant role in cryptographic techniques such as the One-Time Pad cipher, which ensures secure
+                    communication. In online banking transactions, binary logic is used to verify user authentication by
+                    comparing stored passwords with user-inputted data before granting access.</p>
+                <p>In industrial automation, logic gates control complex manufacturing processes by automating
+                    workflows. Assembly line robots use logic gate-based circuits to ensure that operations occur in the
+                    correct sequence. For example, in an automated bottling plant, a sensor detects whether a bottle is
+                    correctly positioned before filling. If two conditions are met—a bottle is present AND the cap is
+                    ready—the filling process begins, ensuring smooth and efficient production.</p>
+                <p>Even everyday household appliances rely on binary computing powered by logic gates. In digital
+                    clocks, for example, logic gates are used to count and regulate time. Flip-flops act as timers that
+                    measure electrical pulses and translate them into time units displayed on the clock screen.
+                    Similarly, washing machines, air conditioners, and microwave ovens use logic gate circuits to
+                    operate timers, sensors, and control panels, allowing users to customize settings based on input
+                    conditions.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Video Block - Large">
+        <div class="pamoja_content_container pamoja_container_width" style="padding-bottom: 0;">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52861/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52861"
+                    data-api-returntype="File" data-name="youtube-64.png" data-size="720 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1748" data-filename="youtube-64.png"
+                    data-locked="false" loading="lazy" data-width="32"></div>
+            <div class="pamoja_container_header" style="width: 100%;">
+                <p><strong><span>Watch: Understanding How Logic Gates Work in Computing | Crash Course</span></strong>
+                </p>
+            </div>
+        </div>
+        <div class="content-box pamoja_box_container pamoja_container_width" style="margin: 0 0 20px 0; padding: 0;">
+            <div class="pamoja_box_container">
+                <p>This video explains how logic gates function in CPUs, memory storage, and AI systems.</p>
+                <div class="dp-embed-wrapper dp-embed-fill-width dp-embed-scale-proportionally" style="height: 315px;"
+                    data-ratio-w="30.4" data-ratio-h="0.03"><iframe class="youtube-video dp-embed-refreshed"
+                        style="width: 100%; height: 315px;"
+                        src="https://www.youtube.com/embed/gI-qXk7XojA?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer"
+                        width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        data-ratio="0.5625"></iframe></div>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>How Logic Gates Enable Binary Computing</h4>
+        <p>Logic gates serve as the foundation of binary computation, allowing computers to execute a wide range of
+            operations using simple Boolean logic. Every modern computing device is essentially a vast collection of
+            millions, even billions, of logic gates working together to process data and execute commands.</p>
+        <ol class="dp-more-space">
+            <li>Processing Binary Data: The CPU relies on logic gates to manipulate binary numbers, execute
+                calculations, and process logical conditions in programming instructions.</li>
+            <li>Making Decisions: Logical comparisons such as IF-THEN conditions in software programming depend on logic
+                gate circuits. If a certain condition is met, the system proceeds with one action; otherwise, it follows
+                an alternative path.</li>
+            <li>Storing Information: Logic gate-based memory elements hold binary data for quick access, ensuring that
+                computers retain information even when switched off.</li>
+            <li>Optimizing Efficiency: Binary computing allows computers to perform trillions of operations per second
+                with near-perfect accuracy, making modern high-speed processing possible.</li>
+        </ol>
+        <p>Without logic gates, computers would not be able to interpret and process binary data, meaning no software
+            applications, no operating systems, and no digital communication. Logic gates are truly the foundation of
+            all computational processes in digital systems.</p>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Table with header - Large">
+        <table data-active-table="true">
+            <thead>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><strong>Key Points
+                            to Remember</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <ul class="dp-more-space">
+                            <li>Logic gates enable computers to process binary data (0s and 1s) using Boolean logic.
+                            </li>
+                            <li>CPUs use millions of logic gates to perform calculations, execute instructions, and
+                                process user inputs.</li>
+                            <li>Memory storage systems, including RAM and SSDs, rely on NAND and NOR gates to store and
+                                retrieve data efficiently.</li>
+                            <li>Digital arithmetic operations (addition, subtraction, multiplication) are performed
+                                using XOR, AND, and OR gates in binary computing.</li>
+                            <li>Industrial automation, self-driving cars, and encryption technologies use logic gates to
+                                process binary logic conditions and make real-time decisions.</li>
+                            <li>Everyday devices, including digital clocks, washing machines, and microwave ovens, rely
+                                on logic gates for automation and control functions.</li>
+                            <li>The ability of logic gates to manipulate, store, and execute binary instructions makes
+                                them the backbone of modern computing.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Reading Block - Small">
+        <div class="pamoja_content_container">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52864/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52864"
+                    data-api-returntype="File" data-name="book-open-page-variant-64.png" data-size="760 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1739"
+                    data-filename="book-open-page-variant-64.png" data-locked="false" loading="lazy" data-width="32">
+            </div>
+            <div class="pamoja_container_header" style="width: auto;">
+                <p><strong>Additional Reading Material from Authentic Sources:</strong></p>
+                <p>To explore more about the role of logic gates in binary computing, refer to the following authentic
+                    sources:</p>
+                <ol class="dp-more-space">
+                    <li><a class="inline_disabled external"
+                            href="https://www.sciencedirect.com/topics/engineering/logic-circuit" target="_blank"
+                            rel="noreferrer noopener"><span>The Role of Logic Circuits in Computing</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external"
+                            href="https://www.khanacademy.org/computing/computer-science/logic-gates" target="_blank"
+                            rel="noreferrer noopener"><span>Khan Academy - Boolean Logic and Digital
+                                Circuits</span><span class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <h4>Boolean Operators: AND, OR, NOT, NAND, NOR, XOR, XNOR</h4>
+        <p>Boolean operators are fundamental to digital computing and logic circuits, as they allow computers and
+            electronic devices to process binary data (0s and 1s). Each Boolean operator follows a specific logical rule
+            that determines how multiple inputs are combined to generate a single output. These operations form the
+            basis of decision-making, computation, encryption, and automation in modern technology. Logic gates, which
+            are implemented using Boolean logic, power the CPU, memory storage, AI algorithms, robotics, and
+            communication systems.</p>
+        <p>This section explores the seven key Boolean operators—AND, OR, NOT, NAND, NOR, XOR, and XNOR—individually,
+            highlighting their functionality, truth tables, and real-world applications.</p>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>AND Gate</strong>: The AND gate is a basic Boolean operator that outputs 1 (true) only when both
+            inputs are 1; otherwise, it outputs 0 (false). This operation is useful in conditions where multiple
+            requirements must be met before an action is executed.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel6"><a href="#dpPanel6" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel6Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for AND Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel6Content" style="display: none;"
+                aria-labelledby="dpPanel6" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input A</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input B</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Output (A AND B)</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="484" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    id="7861" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24348/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24348"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="143" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel7"><a href="#dpPanel7" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel7Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Security
+                    Systems</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel7Content" style="display: none;"
+                aria-labelledby="dpPanel7" role="region">
+                <p>In biometric authentication, a security door opens only if both fingerprint and facial recognition
+                    scans are successful. If one fails, access is denied. This is an example of an AND gate in
+                    operation.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>OR Gate</strong>: The<strong> </strong>OR gate outputs 1 (true) if at least one input is 1;
+            otherwise, it outputs 0 (false). OR gates are used in systems where multiple triggers can activate an event.
+        </p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel8"><a href="#dpPanel8" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel8Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for OR Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel8Content" style="display: none;"
+                aria-labelledby="dpPanel8" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input A</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input B</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="133" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Output (A OR B)</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="495" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="133" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    id="7862" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24328/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24328"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="133" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="133" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="133" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel9"><a href="#dpPanel9" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel9Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Alarm Systems</a>
+            </h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel9Content" style="display: none;"
+                aria-labelledby="dpPanel9" role="region">
+                <p>In a home security system, the alarm is triggered if either a window is broken OR motion is detected
+                    inside the house. This ensures that any one of multiple inputs can activate the system.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>NOT Gate</strong>: The NOT gate is a unary operation, meaning it operates on a single input. It
+            simply inverts the binary value—if the input is 1, the output becomes 0, and vice versa.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel10"><a href="#dpPanel10" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel10Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for NOT Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel10Content" style="display: none;"
+                aria-labelledby="dpPanel10" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input A</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="129" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Output (NOT A)</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="562" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="129" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" width="0" data-darkreader-inline-border-top=""
+                                data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom=""
+                                data-darkreader-inline-border-left=""><img id="7863" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24354/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24354"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="3" width="68" data-darkreader-inline-border-top=""
+                                data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom=""
+                                data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="3" width="129" data-darkreader-inline-border-top=""
+                                data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom=""
+                                data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel11"><a href="#dpPanel11" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel11Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Smart
+                    Thermostats</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel11Content" style="display: none;"
+                aria-labelledby="dpPanel11" role="region">
+                <p>In a heating system, the heater is turned on if the temperature is NOT within the set range. This
+                    means the NOT operation negates the condition, ensuring the system only activates when needed.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>NAND Gate: </strong>The NAND (NOT AND) gate is the inverse of the AND gate. It outputs 0 only if both
+            inputs are 1; otherwise, the output is 1. The NAND gate is known as a universal gate because it can be
+            combined to create any other logic function.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel12"><a href="#dpPanel12" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel12Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for NAND Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel12Content" style="display: none;"
+                aria-labelledby="dpPanel12" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input A</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input B</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="155" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Output (A NAND B)</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="471" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="155" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    id="7864" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24291/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24291"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="155" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="155" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="155" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel13"><a href="#dpPanel13" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel13Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Biometric Access
+                    Control</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel13Content" style="display: none;"
+                aria-labelledby="dpPanel13" role="region">
+                <p>In<strong> </strong>high-security authentication, an employee may be denied access if both
+                    fingerprint and PIN verification fail. This is an example of a NAND gate ensuring at least one
+                    condition must fail to prevent access.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>NOR Gate</strong>: The NOR (NOT OR) gate is the inverse of the OR gate. It produces 1 only when both
+            inputs are 0; otherwise, the output is 0. NOR gates are widely used in signal processing and data storage
+            systems.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel14"><a href="#dpPanel14" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel14Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for NOR Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel14Content" style="display: none;"
+                aria-labelledby="dpPanel14" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>Input A</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>Input B</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>Output (A NOR B)</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="500" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    id="7865" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24356/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24356"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel15"><a href="#dpPanel15" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel15Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Automatic
+                    Streetlights</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel15Content" style="display: none;"
+                aria-labelledby="dpPanel15" role="region">
+                <p>In an automated streetlight system, a NOR gate can be used to ensure that the lights turn on only
+                    when there is no daylight AND no movement detected.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>XOR Gate:</strong> The XOR (Exclusive OR) gate outputs 1 only when the inputs are different (one is 1
+            and the other is 0); otherwise, the output is 0. XOR is essential in arithmetic operations and encryption.
+        </p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel16"><a href="#dpPanel16" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel16Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for XOR Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel16Content" style="display: none;"
+                aria-labelledby="dpPanel16" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input A</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input B</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Output (A XOR B)</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="515" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    id="7866" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24340/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24340"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="144" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel17"><a href="#dpPanel17" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel17Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Cryptography and
+                    Encryption</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel17Content" style="display: none;"
+                aria-labelledby="dpPanel17" role="region">
+                <p>XOR gates are used in<strong> </strong>data encryption to secure online transactions and messages.
+                    The data is encoded using XOR operations, ensuring that only authorized users can decrypt the
+                    message.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block">
+        <p><strong>XNOR Gate</strong>: The XNOR (Exclusive NOR) gate is the inverse of XOR. It produces 1 when the
+            inputs are the same (both 0 or both 1); otherwise, the output is 0. XNOR gates are used in parity checking
+            and data verification.</p>
+        <div class="dp-panels-wrapper dp-accordion-plus">
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel18"><a href="#dpPanel18" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel18Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Truth Table for XNOR Gate</a></h4>
+            <div class="dp-panel-content" tabindex="0" id="dpPanel18Content" style="display: none;"
+                aria-labelledby="dpPanel18" role="region">
+                <table data-active-table="true">
+                    <thead>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input A</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Input B</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="156" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Output (A XNOR B)</strong></p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="519" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p><strong>Shape</strong></p>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="156" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                rowspan="4" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><img
+                                    id="7867" class="" role="presentation"
+                                    src="https://pamojaeducation.instructure.com/courses/339/files/24338/preview" alt=""
+                                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/24338"
+                                    data-api-returntype="File" loading="lazy" data-width="0"></td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="156" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="156" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>0</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="68" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                            <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                                width="156" data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                                data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <p>1</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <h4 class="dp-panel-heading dp-panels-built" id="dpPanel19"><a href="#dpPanel19" role="button"
+                    class="dp-panel-toggler " aria-controls="dpPanel19Content" aria-expanded="false"><i
+                        class="dp-panel-icon fas fa-plus" aria-hidden="true"></i> Real-World Example: Error Detection in
+                    Data Transmission</a></h4>
+            <div class="dp-panel-content " tabindex="0" id="dpPanel19Content" style="display: none;"
+                aria-labelledby="dpPanel19" role="region">
+                <p>In network communication, XNOR gates are used to verify whether transmitted data is identical to the
+                    original data, ensuring that no errors have occurred during transmission.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Table with header - Large">
+        <table data-active-table="true">
+            <thead>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""><strong>Key Points
+                            to Remember</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 1px solid rgb(149, 165, 166); --darkreader-inline-border-top: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-right: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-bottom: var(--darkreader-border-95a5a6, #4c5255); --darkreader-inline-border-left: var(--darkreader-border-95a5a6, #4c5255);"
+                        data-darkreader-inline-border-top="" data-darkreader-inline-border-right=""
+                        data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                        <ul class="dp-more-space">
+                            <li>AND gates require both inputs to be 1 for a true output, used in security systems.</li>
+                            <li>OR gates output true when at least one input is 1, used in alarm triggers.</li>
+                            <li>NOT gates invert input values, used in thermostats and logic circuits.</li>
+                            <li>NAND and NOR gates are universal gates, meaning they can be used to build any other
+                                logic function.</li>
+                            <li>XOR gates produce a true output only when inputs are different, used in encryption and
+                                binary addition.</li>
+                            <li>XNOR gates output true when inputs are the same, used in error detection and
+                                verification systems.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="dp-content-block" data-category="Pamoja Education" data-title="Reading Block - Small">
+        <div class="pamoja_content_container">
+            <div class="pamoja_container_logo"><img class="" role="presentation"
+                    src="https://pamojaeducation.instructure.com/courses/339/files/52864/download" alt="" width="32"
+                    data-api-endpoint="https://pamojaeducation.instructure.com/api/v1/courses/339/files/52864"
+                    data-api-returntype="File" data-name="book-open-page-variant-64.png" data-size="760 bytes"
+                    data-available-range="false" data-hidden="false" data-file-id="1739"
+                    data-filename="book-open-page-variant-64.png" data-locked="false" loading="lazy" data-width="32">
+            </div>
+            <div class="pamoja_container_header" style="width: auto;">
+                <p><strong>Additional Reading Material:</strong></p>
+                <ol class="dp-more-space">
+                    <li><a class="inline_disabled external"
+                            href="https://learn.adafruit.com/binary-boolean-and-logic/boolean-logic" target="_blank"
+                            rel="noreferrer noopener"><span>Boolean Logic and Digital Circuits</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                    <li><a class="inline_disabled external"
+                            href="https://www.techtarget.com/whatis/definition/logic-gate-AND-OR-XOR-NOT-NAND-NOR-and-XNOR"
+                            target="_blank" rel="noreferrer noopener"><span>Boolean Algebra and Logic Gates</span><span
+                                class="external_link_icon"
+                                style="margin-inline-start: 5px; display: inline-block; text-indent: initial; "
+                                role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 1em; height: 1em; vertical-align: middle; fill: currentcolor; --darkreader-inline-fill: currentcolor;"
+                                    data-darkreader-inline-fill="">
+                                    <path
+                                        d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <span class="screenreader-only">Links to an external site.</span></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>

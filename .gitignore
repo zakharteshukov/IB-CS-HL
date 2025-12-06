@@ -1,0 +1,18 @@
+# Exclude files over 50MB
+# Video recordings
+pamoja/recordings/*.mp4
+
+# Large PDF files
+general/resources/IBCSHLCoursebook.pdf
+
+# Exclude nested git repository (can be added as submodule later if needed)
+pamojaLessons/
+
+# Other common exclusions
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
