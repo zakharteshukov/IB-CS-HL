@@ -1,21 +1,3 @@
-/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
-  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
-Detecting language using up to the first 30 seconds. Use `--language` to specify the language
-Detected language: English
-[00:00.000 --> 00:02.000]  You
-[00:30.000 --> 00:32.000]  You
-[01:00.000 --> 01:02.000]  You
-[01:30.000 --> 01:32.000]  You
-[02:00.000 --> 02:02.000]  You
-[02:30.000 --> 02:32.000]  You
-[03:00.000 --> 03:02.000]  You
-[03:30.000 --> 03:32.000]  You
-[04:01.000 --> 04:03.000]  You
-[04:03.000 --> 04:07.000]  You
-[04:07.000 --> 04:11.000]  You
-[04:11.000 --> 04:15.000]  You
-[04:15.000 --> 04:18.000]  You
-[04:18.000 --> 04:19.000]  You
 [04:19.000 --> 04:21.780]  one announcement to both the channel and SL,
 [04:21.780 --> 04:23.280]  a quick reminder.
 [04:23.280 --> 04:24.360]  Okay, sure.

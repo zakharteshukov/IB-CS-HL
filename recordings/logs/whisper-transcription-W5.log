@@ -1,0 +1,750 @@
+/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:02.000]  You
+[00:30.000 --> 00:32.000]  You
+[01:00.000 --> 01:02.000]  You
+[01:30.000 --> 01:32.000]  You
+[02:00.000 --> 02:02.000]  You
+[02:31.000 --> 02:33.000]  How are you?
+[02:33.000 --> 02:37.000]  I'm good. I'm glad you were able to join.
+[02:37.000 --> 02:43.000]  Yeah, I really like the earlier time now.
+[02:43.000 --> 02:47.000]  Okay, yeah, you will help everybody too.
+[02:47.000 --> 02:49.000]  Get things done earlier during the day.
+[02:49.000 --> 02:53.000]  Have more time for other activities.
+[03:00.000 --> 03:03.000]  Thank you very much.
+[03:03.000 --> 03:06.000]  You
+[03:06.000 --> 03:07.000]  You
+[03:07.000 --> 03:11.000]  You
+[03:11.000 --> 03:14.000]  You
+[03:14.000 --> 03:17.000]  You
+[03:17.000 --> 03:19.000]  You
+[03:19.000 --> 03:22.000]  You
+[03:22.000 --> 03:25.000]  You
+[03:25.000 --> 03:27.000]  You
+[03:27.000 --> 03:29.000]  You
+[03:29.000 --> 03:31.000]  You
+[03:33.000 --> 03:34.000]  You
+[03:34.000 --> 03:39.000]  You
+[03:39.000 --> 03:42.000]  You
+[03:42.000 --> 03:45.000]  You
+[03:45.000 --> 03:46.000]  You
+[03:46.000 --> 03:48.000]  You
+[03:48.000 --> 03:49.000]  You
+[03:51.000 --> 03:53.000]  You
+[03:53.000 --> 03:55.000]  You
+[03:55.000 --> 03:57.000]  You
+[04:25.000 --> 04:27.000]  You
+[04:55.000 --> 04:57.000]  You
+[05:25.000 --> 05:27.000]  You
+[05:55.000 --> 05:57.000]  You
+[06:19.000 --> 06:21.000]  Hello, everyone
+[06:22.000 --> 06:24.000]  Hello
+[06:24.000 --> 06:26.000]  Hi
+[06:26.000 --> 06:28.000]  Everybody
+[06:28.000 --> 06:31.000]  Yeah, I thought you were not coming
+[06:31.000 --> 06:33.000]  I sent you a text
+[06:33.000 --> 06:35.000]  Just now
+[06:35.000 --> 06:37.000]  Yeah
+[06:41.000 --> 06:45.000]  Yeah, thanks thanks for joining in sure
+[06:45.000 --> 06:49.000]  So we have so far
+[06:50.000 --> 06:52.000]  13 participants
+[06:55.000 --> 07:00.000]  I have a student that has been emailing me that he's not able to join
+[07:00.000 --> 07:02.000]  I don't know
+[07:02.000 --> 07:04.000]  I don't know why
+[07:04.000 --> 07:08.000]  Actually, there may be one problem
+[07:08.000 --> 07:14.000]  I did not give the I give the start and end time as same
+[07:15.000 --> 07:18.000]  So it may not be showing under the running classes
+[07:18.000 --> 07:20.000]  But it should be showing
+[07:20.000 --> 07:24.000]  Let me see if I can change the time
+[07:24.000 --> 07:28.000]  No, I don't think we can change anything in the running class
+[07:28.000 --> 07:34.000]  Because the start and end time I gave as 12 GMT
+[07:34.000 --> 07:39.000]  So probably we may have to send one message to all the students
+[07:40.000 --> 07:44.000]  Is anyone who I can see a few more students are joining in
+[07:44.000 --> 07:46.000]  So this that mean they are able to see
+[07:46.000 --> 07:51.000]  Martin, can you check if you go to the online classes?
+[07:51.000 --> 07:58.000]  Is it showing the class under running or has it gone to the completed classes?
+[07:58.000 --> 08:02.000]  Yeah
+[08:03.000 --> 08:06.000]  Is it still there?
+[08:06.000 --> 08:10.000]  Is it listed as upcoming?
+[08:10.000 --> 08:12.000]  It is showing as upcoming?
+[08:12.000 --> 08:17.000]  Yeah, showing as upcoming right now
+[08:17.000 --> 08:20.000]  Because for me, it is showing as
+[08:20.000 --> 08:23.000]  Let me see, I'm refreshing to see what
+[08:23.000 --> 08:25.000]  Just refresh
+[08:25.000 --> 08:29.000]  For me, it is showing under previous
+[08:30.000 --> 08:35.000]  Yes, right now, it's on the previous
+[08:35.000 --> 08:46.000]  So, okay, it's giving me the opportunity to adjust the start time but not the end time
+[08:46.000 --> 08:50.000]  Is it giving the option to set the start time?
+[08:50.000 --> 08:55.000]  Yes, if I click on edit, it allows me to
+[08:55.000 --> 09:00.000]  It says ignore attendance for this session or just adjust the start time
+[09:00.000 --> 09:01.000]  But there is no end time
+[09:01.000 --> 09:12.000]  Okay, just adjust the start time something like maybe 6.45 that means 12.45
+[09:12.000 --> 09:15.000]  Oh, no, sorry, 12.15
+[09:15.000 --> 09:18.000]  12.15
+[09:18.000 --> 09:21.000]  Oh, but it's just, okay, well
+[09:21.000 --> 09:24.000]  Let me see, 12.15
+[09:24.000 --> 09:29.000]  Otherwise, otherwise, what we can do is just copy the guest link
+[09:29.000 --> 09:38.000]  And share it with both SLNHL class that if they're not able to find it, they can join you using that link
+[09:38.000 --> 09:41.000]  Okay, 12.15
+[09:41.000 --> 09:44.000]  It's not letting me change that time
+[09:44.000 --> 09:47.000]  Yeah, it won't because the session is ongoing
+[09:47.000 --> 09:53.000]  So, I'm putting the link in the chat so probably you can share this with SLNHL class
+[09:53.000 --> 09:54.000]  Let me do that
+[09:54.000 --> 09:58.000]  That if they're unable to, yeah, just copy to them
+[09:58.000 --> 10:04.000]  Okay, fine, so we'll start because last time also we started quite late and it was not online
+[10:04.000 --> 10:06.000]  Okay, all right, yeah sure
+[10:06.000 --> 10:13.000]  Okay, so welcome everyone, I can see that we are total how many?
+[10:13.000 --> 10:22.000]  I can see the number now where it's gone
+[10:22.000 --> 10:27.000]  Okay, we are 21 minus two that is 19 people so that's okay
+[10:27.000 --> 10:31.000]  So, let us quickly get on to the task
+[10:31.000 --> 10:35.000]  Let me first open the content that we are going to cover today
+[10:35.000 --> 10:40.000]  But before that in the meantime, can somebody like to share about week five experience so far?
+[10:40.000 --> 10:43.000]  How is it going and week four also?
+[10:43.000 --> 10:51.000]  Anyone?
+[10:51.000 --> 10:56.000]  How was week four because we were not able to complete everything during the week four
+[10:56.000 --> 10:59.000]  Especially the logic gates part
+[10:59.000 --> 11:05.000]  So, anybody would like to share if they happen to go through the videos that we shared?
+[11:05.000 --> 11:07.000]  Yes
+[11:07.000 --> 11:12.000]  So, I was first confused about the logic gate structure
+[11:12.000 --> 11:15.000]  But now I understand then
+[11:15.000 --> 11:18.000]  Okay, okay, fine
+[11:18.000 --> 11:22.000]  Did you see the videos that we shared?
+[11:22.000 --> 11:24.000]  I saw some
+[11:24.000 --> 11:28.000]  I read instructions
+[11:28.000 --> 11:30.000]  All right, perfect
+[11:30.000 --> 11:36.000]  So, just for the benefit of all, let me show one of the documents that we shared with you last time
+[11:36.000 --> 11:39.000]  So, let me share my screen first
+[11:48.000 --> 11:56.000]  So, since we were not able to finish everything during the last class
+[11:56.000 --> 12:01.000]  So, we compiled a set of few videos
+[12:01.000 --> 12:05.000]  Which I'm sure you'll be able to find very useful if you go through them
+[12:05.000 --> 12:07.000]  And that is there in the shared folder
+[12:07.000 --> 12:09.000]  So, if you go to
+[12:09.000 --> 12:13.000]  May 27 folder
+[12:13.000 --> 12:16.000]  In the folder, in the content folder
+[12:16.000 --> 12:20.000]  We have this document, topic 2.1.2 to 2.1.3
+[12:20.000 --> 12:24.000]  Which has a list of several videos
+[12:24.000 --> 12:28.000]  Which you may find very useful, for example
+[12:28.000 --> 12:30.000]  Binary to decimal conversion
+[12:30.000 --> 12:33.000]  So, this video will be helpful, then decimal to binary
+[12:33.000 --> 12:40.000]  Decimal to hexadecimal, hexadecimal to decimal, hexadecimal to binary and binary to hexadecimal
+[12:40.000 --> 12:45.000]  And then negative number representation, binary addition and binary subtraction
+[12:45.000 --> 12:51.000]  Okay, these are the topics which are there in the video they are self-explanatory
+[12:51.000 --> 12:56.000]  I would suggest that since these are very important from the examinations point of view
+[12:56.000 --> 12:59.000]  So, please watch through these videos
+[12:59.000 --> 13:03.000]  And maybe probably next week when we meet
+[13:03.000 --> 13:08.000]  If you have already gone through the videos, it will be better if we go next week through them
+[13:08.000 --> 13:12.000]  So that everybody can understand if there are any missing elements
+[13:12.000 --> 13:17.000]  Okay, could you confirm in the chat if you went through these videos
+[13:17.000 --> 13:20.000]  And if you are able to understand different kinds of conversion
+[13:20.000 --> 13:26.000]  Say yes, in the chat if you have already gone through, otherwise say no
+[13:26.000 --> 13:29.000]  All of you, so that we get an idea
+[13:29.000 --> 13:32.000]  Okay, all right
+[13:32.000 --> 13:37.000]  Rush, can you share or put in the chat
+[13:37.000 --> 13:42.000]  The attendance link
+[13:42.000 --> 13:45.000]  Yeah, sure, sure
+[13:45.000 --> 13:49.000]  I was just waiting for a few more to join, now we have 19 still
+[13:49.000 --> 13:54.000]  But anyway, we can share the document, so let me share
+[13:54.000 --> 13:59.000]  I share the guest link with the email
+[13:59.000 --> 14:03.000]  They still have issues to join
+[14:03.000 --> 14:06.000]  Has anybody responded that they are not able to join?
+[14:06.000 --> 14:11.000]  Uh-huh, Mambi, Dantla and Pobillas
+[14:11.000 --> 14:16.000]  Just reply that they haven't been able to join
+[14:16.000 --> 14:19.000]  If I go to, I don't know why they are not able to join
+[14:19.000 --> 14:22.000]  See, I'm checking it on different browser, that same link
+[14:22.000 --> 14:30.000]  Where I'm not logged in yet, but still it should be able to let me join
+[14:31.000 --> 14:36.000]  You see, I'm trying to see if they are able to join
+[14:36.000 --> 14:41.000]  Are they all from SL class?
+[14:41.000 --> 14:50.000]  Pobillas is, and Mambi, yes, both of them are for SL
+[14:50.000 --> 14:54.000]  I think this is something to do with the timing, probably
+[14:54.000 --> 14:58.000]  Yeah, one of them mentioned that one of the links sent them to a class
+[14:58.000 --> 15:02.000]  Where he and somebody else was there only
+[15:02.000 --> 15:06.000]  So, I don't know what that is, let me check
+[15:06.000 --> 15:12.000]  Because right now, the only one that is listed in the online class
+[15:12.000 --> 15:16.000]  Is the previous, which is this one, nothing on comments
+[15:16.000 --> 15:20.000]  I don't know where they want
+[15:20.000 --> 15:24.000]  Are you able to open this link?
+[15:24.000 --> 15:31.000]  Which I've just shared, because on my computer also is not working
+[15:31.000 --> 15:34.000]  We have one more somebody has joined, I don't know through link or how
+[15:34.000 --> 15:39.000]  But somebody else has joined
+[15:39.000 --> 15:42.000]  Can I open the link, let me check
+[15:42.000 --> 15:46.000]  Check on a different browser, where you are not logged in already
+[15:46.000 --> 15:51.000]  Okay, let me copy that
+[15:51.000 --> 15:54.000]  In fact, just click directly from the
+[15:54.000 --> 15:56.000]  Yeah, from Safari
+[15:56.000 --> 16:00.000]  I'm going to use Safari, because I was in Google
+[16:00.000 --> 16:05.000]  Yes, I'm able to join using that link
+[16:22.000 --> 16:29.000]  Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah
+[16:31.000 --> 16:35.000]  So, Ruby
+[16:35.000 --> 16:37.000]  Yeah, so I was able to log in through the other browser
+[16:37.000 --> 16:43.000]  How did you, do you heard that sound, unpleasant sound
+[16:43.000 --> 16:49.000]  Well, as you don't wrote me that, um, well, the link
+[16:49.000 --> 16:57.500]  It addresses him to the canvas, but it says that he's not in the class, he's not enrolled in this class.
+[16:57.500 --> 17:05.000]  He's SL, so maybe the link is for those who are HR, and that's the problem.
+[17:05.000 --> 17:10.000]  Because it verifies whether a person is in the class.
+[17:10.000 --> 17:15.000]  But there are some SL students here, aren't they? Yeah.
+[17:15.000 --> 17:21.000]  Could you please? Yes, they are themselves.
+[17:21.000 --> 17:24.000]  And no idea why we're having this.
+[17:24.000 --> 17:31.000]  I think it's possible that they try to join into the meeting before the meeting started.
+[17:31.000 --> 17:36.000]  So they join the meeting, try to join the meeting before the meeting starts.
+[17:36.000 --> 17:38.000]  It automatically creates a new meeting.
+[17:38.000 --> 17:55.000]  So we did like, they join the meeting to early before the meeting started.
+[17:55.000 --> 18:01.000]  Hello.
+[18:01.000 --> 18:05.000]  I think that Raj was kicked out of the class.
+[18:05.000 --> 18:10.000]  So give me a second. We're trying to find a solution to this.
+[19:01.000 --> 19:12.000]  Okay, I'm back.
+[19:12.000 --> 19:16.000]  I'm sure they might be more because just 19 through international.
+[19:16.000 --> 19:19.000]  So what should we do, Martin, what do you suggest?
+[19:19.000 --> 19:22.000]  I don't know, I just text.
+[19:22.000 --> 19:29.000]  Send an email to the students and that we, we need to look into it because some of the SL students are here.
+[19:29.000 --> 19:35.000]  He's an SL student and he's able, he was a, he's not able to join, but others are.
+[19:35.000 --> 19:40.000]  So I really don't know what the issue might be.
+[19:40.000 --> 19:47.000]  Otherwise tell the, I mean, the link is working. It's not that the link is not working.
+[19:47.000 --> 19:51.000]  Maybe a, maybe they set up or their email.
+[19:51.000 --> 19:54.000]  I don't know.
+[19:54.000 --> 19:58.000]  Have you shared that full link? Has anybody joined using link here?
+[19:58.000 --> 20:00.000]  What Mr. Martin has shared?
+[20:00.000 --> 20:07.000]  Okay, so let me see, I'm reading something from Thomas.
+[20:07.000 --> 20:09.000]  Let me send them.
+[20:09.000 --> 20:16.000]  If you, Thomas, Thomas, if you can do that with Pavilion, that would be very helpful.
+[20:16.000 --> 20:24.000]  Thomas is, he can share his screen with our Pobillas.
+[20:24.000 --> 20:30.000]  So he's going to be here in class, but it's not directly connected.
+[20:30.000 --> 20:33.000]  I mean, it's not through his own device.
+[20:33.000 --> 20:37.000]  I think he's just Thomas sharing his link with him.
+[20:37.000 --> 20:46.000]  Okay.
+[20:46.000 --> 20:55.000]  But every three is an issue that some can and so others cannot see.
+[20:55.000 --> 20:57.000]  See the link is working. I've just emailed it to the actual group.
+[20:57.000 --> 20:59.000]  They should be able to join.
+[20:59.000 --> 21:02.000]  I will also send it to SL group quickly.
+[21:02.000 --> 21:03.000]  Okay.
+[21:03.000 --> 21:08.000]  I did the same thing, but anyway.
+[21:08.000 --> 21:13.000]  Just check if the number goes beyond 23 right now it's showing 23.
+[21:13.000 --> 21:33.000]  Uh-huh, minus 23.
+[21:33.000 --> 21:38.000]  It's okay. We'll share with them the recording up there not able to join.
+[21:38.000 --> 21:39.000]  That's fine.
+[21:39.000 --> 21:40.000]  23.
+[21:41.000 --> 21:45.000]  Okay. So guys, today we are going to discuss some important topics.
+[21:45.000 --> 21:50.000]  So regarding the video, I strongly recommend that you should watch through those conversion videos.
+[21:50.000 --> 21:52.000]  They're pretty straightforward.
+[21:52.000 --> 21:58.000]  And next week, we won't have so much of content to cover because this unit is almost coming to an end.
+[21:58.000 --> 22:00.000]  So we won't have much to cover.
+[22:00.000 --> 22:06.000]  So maybe we will just go through everything that we have covered as a part of 1.1 to 1.2.5.
+[22:06.000 --> 22:08.000]  But that is what we will do.
+[22:08.000 --> 22:12.000]  And then you will have a unit test based on all these topics in the coming weeks.
+[22:12.000 --> 22:16.000]  So I would strongly recommend that you should start preparing on those topics.
+[22:16.000 --> 22:17.000]  Okay.
+[22:17.000 --> 22:25.000]  So today we are going to cover some of the important stuff, which may be slightly little more difficult or complex than what we have done so far.
+[22:25.000 --> 22:27.000]  So let me reshare my screen.
+[22:27.000 --> 22:30.000]  First, we'll have a look at what we are going to cover today.
+[22:30.000 --> 22:32.000]  And then we will have a look at them.
+[22:32.000 --> 22:36.000]  So I hope you can see my screen.
+[22:36.000 --> 22:40.000]  So today we are going to look at describe the purpose and use of logic gates.
+[22:40.000 --> 22:42.000]  This we partly discussed last time.
+[22:42.000 --> 22:48.000]  So we'll directly jump to this one, Julian operators and or not, NAN or XORN XNOR.
+[22:48.000 --> 22:53.000]  These are the logic gates, which basically are part of your syllabus.
+[22:53.000 --> 22:55.000]  So you need to know what these gates are.
+[22:55.000 --> 23:00.000]  First of all, you should be able to draw the truth table for each one of them.
+[23:00.000 --> 23:06.000]  And after having done that, then we will get on to a little more complex things, the truth table.
+[23:06.000 --> 23:11.000]  And from truth table, how can we develop the Boolean expressions and from Boolean expressions?
+[23:11.000 --> 23:14.000]  How can we develop the truth table?
+[23:14.000 --> 23:22.000]  Then we will also talk one very important topic that is K maps and algebraic simplification to simplify output expressions.
+[23:22.000 --> 23:28.000]  And then use of standard gate symbols for and or not NAN or XORN XNOR gates.
+[23:28.000 --> 23:38.000]  And to use them to draw diagrammatically to produce the outputs combination of these gates to perform more complex logical operations.
+[23:38.000 --> 23:43.000]  And Boolean algebra rules to simplify complex logic diagrams and expressions.
+[23:43.000 --> 23:45.000]  This is what we are planning to cover today.
+[23:45.000 --> 23:51.000]  Now, from your reading, can would somebody like to share what you mean by logic gates?
+[23:51.000 --> 23:55.000]  What are logic gates used for?
+[23:55.000 --> 24:02.000]  Are they created by connecting transistors in a way?
+[24:02.000 --> 24:06.000]  So let's say follow or adhere to logical rules?
+[24:06.000 --> 24:07.000]  Yeah.
+[24:07.000 --> 24:08.000]  Right.
+[24:08.000 --> 24:17.000]  And they use to simplify thinking and kind of just being connected to do more complex tasks.
+[24:17.000 --> 24:18.000]  Yeah, correct.
+[24:18.000 --> 24:25.000]  So any digital circuitry comprises of the logic gates, which actually takes the electrical pulses either in the on state or off state.
+[24:25.000 --> 24:30.000]  And based on the nature of logic gates, it delivers certain kind of output.
+[24:30.000 --> 24:37.000]  And with those several combinations of logic gates is the computer able to perform any kind of data that we send it to it.
+[24:37.000 --> 24:44.000]  Whether it's a mathematical arithmetic operations or it's a logical decision making or any kind of operations.
+[24:44.000 --> 24:48.000]  So logic gates are the building blocks for any digital circuitry.
+[24:48.000 --> 24:49.000]  Right.
+[24:49.000 --> 24:59.000]  So this document we have prepared for today's lesson, which is there in the content lesson with the title 1.2.3 to 1.1.5.
+[24:59.000 --> 25:05.000]  So it will be good for you that in addition to what you study on the palm of your platform.
+[25:05.000 --> 25:08.000]  It will be good if you can just go through this also.
+[25:08.000 --> 25:15.000]  So logic gates are the basic building blocks of digital circuitry found in all computers and electronic systems.
+[25:15.000 --> 25:21.000]  Like for example, a security door opens only when both the passwords and key key cards are verified.
+[25:21.000 --> 25:23.000]  This uses AND gate.
+[25:23.000 --> 25:34.000]  So think about a scenario where you have a security alarm system, which will turn on on the basis of two inputs and both the inputs have to be true.
+[25:34.000 --> 25:40.000]  That means in order to make that alarm system work, you will be needing an AND gate that there are two inputs.
+[25:40.000 --> 25:47.000]  There are two possible inputs only when both the inputs are true is that the alarm will produce sound.
+[25:47.000 --> 25:48.000]  Right.
+[25:48.000 --> 25:53.000]  So similarly depending on the nature of what is the outcome that you want to get from the digital circuitry.
+[25:53.000 --> 26:00.000]  There could be one single logic gate which could be doing the work for example on and off switch for your electrical appliances.
+[26:00.000 --> 26:06.000]  So it is basically using a simple not gate which just inverses the incoming signal.
+[26:06.000 --> 26:14.000]  So if the incoming signal is true or on and when you turn that switch off, it just reverses that so it turns into off.
+[26:14.000 --> 26:18.000]  And if it is off and you turn it on, it gets into on.
+[26:18.000 --> 26:25.000]  So it depends largely on the purpose as to what your inputs are and what kind of outputs you are going to get out of it.
+[26:25.000 --> 26:27.000]  That is what makes a logic gate.
+[26:27.000 --> 26:38.000]  Now logic the basic logic gates as you can see here we have AND gate right we have OR gate which is here OR gate.
+[26:38.000 --> 26:45.000]  Then we have the not gate these three are called the basic gates and or and not these are called basic gates.
+[26:45.000 --> 26:48.000]  What's the purpose of OR gate?
+[26:48.000 --> 26:52.000]  How does the OR gate work?
+[26:52.000 --> 27:01.000]  It just says the output of one is one or two of inputs are one.
+[27:01.000 --> 27:02.000]  Absolutely.
+[27:02.000 --> 27:13.000]  So if you look at the OR gate structure the OR gate will actually give the output as one when any of the two inputs is one or both the inputs are one.
+[27:13.000 --> 27:17.000]  It will give an off when both the inputs are false.
+[27:17.000 --> 27:33.000]  Okay, let me try share my another screen.
+[27:33.000 --> 27:38.000]  Can you see a whiteboard on your screen?
+[27:38.000 --> 27:40.000]  Can somebody confirm if you can see a whiteboard?
+[27:40.000 --> 27:41.000]  Yes, I see.
+[27:41.000 --> 27:42.000]  Okay, fine.
+[27:42.000 --> 27:57.000]  So OR gate basically as you saw the symbol it's this kind of shape which is taking two inputs A and B and the output from an OR gate is A plus B plus is used for representing an OR gate.
+[27:57.000 --> 27:59.000]  Now how it works we have two inputs A and B.
+[27:59.000 --> 28:10.000]  The possible combinations of zeros and once in two variables is 0 0 1 1 0 1 0 1 and when you look at the output of this gate.
+[28:10.000 --> 28:17.000]  As somebody said sorry I could not see who it was that the output is one when either of the two inputs is one or both the inputs is one.
+[28:17.000 --> 28:22.000]  So what will be the output for the first combination?
+[28:22.000 --> 28:25.000]  We are passing 0 and 0 0.
+[28:25.000 --> 28:31.000]  The second one says the second input is one so any one input needs to be one so it becomes one.
+[28:31.000 --> 28:35.000]  Third one is also one and the fourth one is obviously one because both are one.
+[28:35.000 --> 28:37.000]  This is the functionality of an OR gate.
+[28:37.000 --> 28:46.000]  Now coming to the next gate which is and so again we have two inputs A and B which is passing through an AND gate.
+[28:46.000 --> 28:50.000]  So AND gate symbol is this a straight line here.
+[28:50.000 --> 28:56.000]  Unlike OR where we had a little curved line and this gives the output A dot B.
+[28:56.000 --> 29:03.000]  We represent and with a dot so many different ways we can represent it as we can say A and B.
+[29:03.000 --> 29:06.000]  Sorry A and B we can say A dot B.
+[29:06.000 --> 29:13.000]  You can also say A cross B so any which ways it is and sometimes you will also see A B but I don't recommend that.
+[29:13.000 --> 29:16.000]  You should always have some separator in between.
+[29:16.000 --> 29:21.000]  Now if you look at the truth table 0 0 1 1 0 1 0 1.
+[29:21.000 --> 29:27.000]  The output for A dot B is one only when both the inputs are one.
+[29:27.000 --> 29:29.000]  It's like a multiplication.
+[29:29.000 --> 29:35.000]  So 0 times 0 is 0 0 times 1 is 0 1 times 0 is 0 and 1 times 1 is 1.
+[29:35.000 --> 29:39.000]  So this is the only time when the output is one.
+[29:39.000 --> 29:42.000]  That's the OR that's the AND gate.
+[29:42.000 --> 29:46.000]  The next gate is not which just takes one input.
+[29:46.000 --> 29:48.000]  It is represented by this.
+[29:48.000 --> 29:50.000]  This is the symbol for not gate.
+[29:50.000 --> 29:54.000]  If you input a ray the output will be just the opposite of that A bar.
+[29:54.000 --> 29:58.000]  And if the input itself is A bar the output will be A.
+[29:58.000 --> 30:01.000]  So it just reverses it and since there is only one variable.
+[30:01.000 --> 30:07.000]  So it can take maximum two values 0 and 1 and the output will be opposite of that which is 1 and 0.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+[01:42:33.000 --> 01:43:01.000]  So adjacent cells are not that your I see as adjacent it's any two cell combinations where the change in number of bits between the two is one that makes it adjacent cell that is the universal definition for adjacent cell likewise as we move from the same map and in this video what we will do whatever mean terms are present in and also be given as a bar dot B bar plus a bar dot B bar.
+[01:43:03.000 --> 01:43:32.000]  Okay now this is one sample one this is one example where since I said it's a sum of product form so you can see here sigma sum of product SOP we will do POS also in the next lesson but right now we are just focusing on a SOP and I have to check that you have I think only SOP in your syllabus but I'll confirm and I'll let you know so some of product you can see here that the question will be given either in this form F1 equal to sigma zero one three.
+[01:43:33.000 --> 01:43:52.000]  What is zero one three signify this signifies that the momentum values of this to variable K math is one at these momentum values so zero one and three so zero is turned into one one is turned into one and three is turned into one what is left is zero that zero has been kept aside.
+[01:43:53.000 --> 01:44:09.000]  Please try to see this and ask me question if you are not clear one form of K map which is given to you in the exams or in the questions would be sigma zero one three where zero one three represents the momentum cells or indexes where the value is one.
+[01:44:09.000 --> 01:44:18.000]  So look at zero four plus one plus three yeah correct so zero so that mean the momentum value is
+[01:44:39.000 --> 01:44:46.000]  0.5.
+[01:44:46.000 --> 01:44:53.000]  0.5.
+[01:44:53.000 --> 01:45:01.000]  0.5.
+[01:45:02.000 --> 01:45:07.000]  Do you guys also have this interference like the repeating sound?
+[01:45:07.000 --> 01:45:10.000]  Yeah, I have them too.
+[01:45:10.000 --> 01:45:14.000]  I think it's just because he was screaming and showing his screen.
+[01:45:14.000 --> 01:45:17.000]  Probably with Wi-Fi or something.
+[01:45:17.000 --> 01:45:19.000]  Maybe.
+[01:45:19.000 --> 01:45:22.000]  Yeah, but it's complicated.
+[01:45:22.000 --> 01:45:30.000]  Let's see.
+[01:45:30.000 --> 01:45:52.000]  Yeah, I think when he was sharing his screen, he was sharing his audio too.
+[01:45:53.000 --> 01:45:58.000]  I can take over.
+[01:45:58.000 --> 01:46:05.000]  I can see you guys.
+[01:46:05.000 --> 01:46:19.000]  So we're talking about K maps so K maps it's like a great thingy I guess it's like ones and zeros on top or something.
+[01:46:19.000 --> 01:46:24.000]  Wait, where is Mr. Martin is he's also gone?
+[01:46:24.000 --> 01:46:26.000]  I'm Mr. Martin now.
+[01:46:26.000 --> 01:46:29.000]  I think so yeah.
+[01:46:29.000 --> 01:46:33.000]  No, wait, this new Mr. Martin.
+[01:46:33.000 --> 01:46:36.000]  Okay, proceed.
+[01:46:36.000 --> 01:46:38.000]  Proceed we need.
+[01:46:38.000 --> 01:46:42.000]  Yeah, please proceed.
+[01:46:43.000 --> 01:46:48.000]  So K.
+[01:46:48.000 --> 01:46:50.000]  Wait, can I tell me K.
+[01:46:50.000 --> 01:46:52.000]  What is it?
+[01:46:52.000 --> 01:46:53.000]  K.
+[01:46:53.000 --> 01:46:55.000]  K something K.
+[01:46:55.000 --> 01:46:56.000]  Exactly.
+[01:46:56.000 --> 01:47:01.000]  Yeah, K maps is derived from the word K pop right.
+[01:47:01.000 --> 01:47:07.000]  So K pops up like long history of K pop and like.
+[01:47:08.000 --> 01:47:13.000]  So if you watch like, you know, shows like K pop demon amtus K maps come out all the time.
+[01:47:13.000 --> 01:47:19.000]  You know, where like the ones and zeros they represent like the characters, you know, and they.
+[01:47:19.000 --> 01:47:24.000]  And then you hear you have like one character and then like this another character.
+[01:47:24.000 --> 01:47:28.000]  And yeah, K maps basically big.
+[01:47:28.000 --> 01:47:30.000]  That's so smart.
+[01:47:30.000 --> 01:47:32.000]  That's so interesting.
+[01:47:32.000 --> 01:47:33.000]  It's deep.
+[01:47:33.000 --> 01:47:34.000]  It's deep.
+[01:47:34.000 --> 01:47:35.000]  K maps.
+[01:47:35.000 --> 01:47:43.000]  It's it's just a deep topic.
+[01:47:43.000 --> 01:47:47.000]  This is going to be on the class recording as well.
+[01:47:47.000 --> 01:47:48.000]  Yeah.
+[01:47:48.000 --> 01:47:49.000]  This is technical.
+[01:47:49.000 --> 01:47:51.000]  Whatever I be curriculum.
+[01:47:51.000 --> 01:47:54.000]  All the people who couldn't join this class.
+[01:47:54.000 --> 01:47:57.000]  Well, it's beyond the itself.
+[01:47:58.000 --> 01:47:59.000]  Okay.
+[01:47:59.000 --> 01:48:00.000]  So what's actually going on?
+[01:48:00.000 --> 01:48:02.000]  Because like.
+[01:48:02.000 --> 01:48:03.000]  It's not in the.
+[01:48:03.000 --> 01:48:04.000]  It was like.
+[01:48:04.000 --> 01:48:05.000]  I don't know.
+[01:48:05.000 --> 01:48:06.000]  I went out.
+[01:48:06.000 --> 01:48:07.000]  Yeah.
+[01:48:07.000 --> 01:48:08.000]  It's the worst.
+[01:48:08.000 --> 01:48:09.000]  I don't know.
+[01:48:09.000 --> 01:48:18.000]  Do you just wait?
+[01:48:18.000 --> 01:48:20.000]  We just can go.
+[01:48:20.000 --> 01:48:22.000]  I want to go to see man.
+[01:48:22.000 --> 01:48:23.000]  It's way too early.
+[01:48:23.000 --> 01:48:25.000]  Way too late.
+[01:48:25.000 --> 01:48:28.000]  We can't wait until like five minutes.
+[01:48:28.000 --> 01:48:32.000]  Okay.
+[01:48:32.000 --> 01:48:43.000]  Overall, how are you guys?
+[01:48:43.000 --> 01:48:45.000]  How are you taking CS?
+[01:48:45.000 --> 01:48:48.000]  I mean,
+[01:48:48.000 --> 01:48:53.000]  it's not as my physics or math.
+[01:48:53.000 --> 01:48:55.000]  I mean, it's okay.
+[01:48:55.000 --> 01:48:58.000]  At least it's not as hard as my physics and my math.
+[01:48:58.000 --> 01:48:59.000]  Because I'm taking math,
+[01:48:59.000 --> 01:49:01.000]  a chill and physics,
+[01:49:01.000 --> 01:49:02.000]  a chill.
+[01:49:02.000 --> 01:49:03.000]  See you.
+[01:49:03.000 --> 01:49:04.000]  Me too.
+[01:49:04.000 --> 01:49:07.000]  We got tested on three topics.
+[01:49:07.000 --> 01:49:09.000]  We never learned.
+[01:49:09.000 --> 01:49:10.000]  Oh, my God.
+[01:49:10.000 --> 01:49:12.000]  For me, my math teacher is good.
+[01:49:12.000 --> 01:49:13.000]  He teaches my physics each other.
+[01:49:13.000 --> 01:49:14.000]  Yeah.
+[01:49:14.000 --> 01:49:15.000]  Like.
+[01:49:15.000 --> 01:49:17.000]  I think it's physics teams as a whole.
+[01:49:17.000 --> 01:49:18.000]  My math teacher is great.
+[01:49:18.000 --> 01:49:19.000]  It's just keeping up.
+[01:49:19.000 --> 01:49:22.000]  It's physics teachers as a whole that struggle.
+[01:49:22.000 --> 01:49:24.000]  Like teaching.
+[01:49:24.000 --> 01:49:25.000]  We say.
+[01:49:25.000 --> 01:49:28.000]  Is everybody here that you're taking physics and maps?
+[01:49:28.000 --> 01:49:33.000]  Any visual art students?
+[01:49:33.000 --> 01:49:34.000]  No.
+[01:49:34.000 --> 01:49:35.000]  Okay.
+[01:49:35.000 --> 01:49:39.000]  I mean, I would have loves to take visual art by a kind of visual art.
+[01:49:39.000 --> 01:49:41.000]  I take visual art as well.
+[01:49:41.000 --> 01:49:43.000]  What do you do?
+[01:49:43.000 --> 01:49:44.000]  Yeah.
+[01:49:44.000 --> 01:49:45.000]  School.
+[01:49:45.000 --> 01:49:49.000]  I want to start it with your art.
+[01:49:49.000 --> 01:49:54.140]  do we study? Uh, we just like, in like the new service, they gave us a new service. They
+[01:49:54.140 --> 01:50:00.380]  put it for, uh, 27 graduates. Yeah, they changed the syllabus. And then like, you can basically
+[01:50:00.380 --> 01:50:05.300]  do anything you want. And like, in my case, I'm doing a lot of like 3D artworks and
+[01:50:05.300 --> 01:50:16.740]  like that kind of stuff. But like, yeah, it's just. Yes, I am a designer. Yeah, I've seen
+[01:50:16.740 --> 01:50:25.020]  your comments. Can you show you? Hello, hello. Hi, no problem. Just continue, continue
+[01:50:25.020 --> 01:50:33.060]  documents. Sorry, I got disconnected. All right. So, okay, let me share my screen again.
+[01:50:33.060 --> 01:50:48.540]  Is Mr Martin also not there? Yeah, he's also not here. He's not here. Okay. Fine. Okay, so
+[01:50:48.540 --> 01:50:58.660]  we were here. Uh, so somebody's a microphone is on. Could you turn it off? Okay. Now we were
+[01:50:58.660 --> 01:51:04.100]  here. So you can see here that we, uh, one of the formats that you may get is F1 equal
+[01:51:04.100 --> 01:51:10.100]  to sigma 013. So what you will do is you will just plot the cells, which whose values
+[01:51:10.100 --> 01:51:15.420]  are are given there. So 013 is given. So look at the minterm value, which contributes to,
+[01:51:15.420 --> 01:51:22.460]  uh, 013. The first one is 0, the second one. I can ask this screen share. It's
+[01:51:22.460 --> 01:51:27.100]  in loading. Okay, one second. One second.
+[01:51:27.100 --> 01:51:56.660]  Can you see now? I just got back. Yeah, yes, sure. Can you see the screen now? No. No.
+[01:51:56.660 --> 01:52:12.660]  Perhaps we need to refine the page. It will help. Still not visible? No.
+[01:52:26.660 --> 01:52:42.260]  Now I can see. Now I can see. Okay. I don't know if I turned on the sound also not. Let me check
+[01:52:42.260 --> 01:53:05.980]  again. Share the time. I can see, right? I can. Sorry. Nothing on. Not yet. I think you need
+[01:53:05.980 --> 01:53:13.540]  to rejoin me. So, yeah, after I rejoined, I could see it. How many of you can't see,
+[01:53:13.540 --> 01:53:24.940]  uh, like, is it majority or just one or two? I also can see. Yeah, I can see. It's a work
+[01:53:24.940 --> 01:53:31.740]  if you refresh the page. Yes, after I refresh the page, it worked. Okay, just refresh
+[01:53:31.740 --> 01:53:47.740]  your page. Maybe it will work then. Please confirm so that I will continue them.
+[01:53:47.740 --> 01:54:00.060]  Nice. It's Sean. Yeah. Is it showing for all now? Yeah, after I refresh is waking up.
+[01:54:00.060 --> 01:54:06.940]  I also refresh my page and I can see it. Okay, perfect. Okay. So these are the two different formats
+[01:54:06.940 --> 01:54:10.940]  that you may get question on, but most likely it will be on the second format where you will be given
+[01:54:10.940 --> 01:54:18.060]  the expression, which is a bar dot b bar plus a bar dot b plus a dot b. Now as the first step,
+[01:54:18.060 --> 01:54:25.500]  what you need to do is you have to mark all those, uh, may term cells whose expressions are given
+[01:54:25.580 --> 01:54:33.260]  to you. For example, uh, when a is zero, that would be actually be a bar and when b is zero,
+[01:54:33.260 --> 01:54:39.900]  that is considered as b bar, when b is one, that is b and when a is one, that is taken as one.
+[01:54:39.900 --> 01:54:44.540]  Now, when I say a bar dot b bar, which of these min term values do you think is most applicable?
+[01:54:46.220 --> 01:54:52.140]  Hey, bar and b bar. Yeah, a bar and b bar, which, uh, min term value will you index as one?
+[01:54:52.940 --> 01:55:01.020]  index zero. The index zero, the index zero, the first, uh, top left that cell will be marked as one
+[01:55:01.020 --> 01:55:07.580]  because a zero, that means a bar and b zero, which is b bar. That is the first step. Then comes a bar
+[01:55:07.580 --> 01:55:15.500]  dot b, which cell do you think is a bar dot b? What is the value of a index one zero and the value
+[01:55:15.500 --> 01:55:21.020]  of b is one, that means index one. So that is greater as one. Then we have a and b, that means a
+[01:55:21.020 --> 01:55:25.900]  should also be one and b should also be one, which is this, uh, uh, the third index value.
+[01:55:26.380 --> 01:55:32.460]  So as a first step, you have to mark all the cells which are one, one, one, right? So either you
+[01:55:32.460 --> 01:55:37.740]  can be directly given those min term values like sigma zero, one, three, which is straightforward,
+[01:55:37.740 --> 01:55:42.380]  or otherwise they may give you the Boolean expression with either bar or without bar. So you see
+[01:55:42.380 --> 01:55:47.020]  which cells would be applicable. That is the first step. If you have done this correctly,
+[01:55:47.100 --> 01:55:51.980]  that means the chances are that you will be able to simplify the expression in the most convenient
+[01:55:51.980 --> 01:55:58.140]  way. Now what is the objective here? The objective is to simplify a bar dot b bar plus a bar dot b
+[01:55:58.140 --> 01:56:03.980]  plus a dot b to the simplest form possible. One of the methods could be using the Boolean laws.
+[01:56:04.540 --> 01:56:08.860]  But right now we are doing using the came up where you don't have to use any of the Boolean laws.
+[01:56:09.500 --> 01:56:13.500]  So this is the first step that you have plotted all the index values wherever applicable.
+[01:56:14.140 --> 01:56:21.260]  The next one is to make a pair of ones of the adjacent cells. That is the second step.
+[01:56:21.900 --> 01:56:28.140]  Okay. Now I'm saying that you have to pair all the ones which are adjacent to one another.
+[01:56:28.140 --> 01:56:37.820]  So which will be the pairs you can recreate from index zero from index zero to one and one correct.
+[01:56:37.900 --> 01:56:43.100]  So the first index will be zero and one because they are adjacent cells and both are one one.
+[01:56:43.100 --> 01:56:47.020]  So we will index that first. What is the second pair that you can make?
+[01:56:49.660 --> 01:56:54.540]  In the one index three. Very good index one and index three. Yes.
+[01:56:55.260 --> 01:56:59.900]  So first index. So you have to only pick up the ones just disregard zero.
+[01:57:00.860 --> 01:57:06.300]  So when we are picking up the ones, we will make the pair of zero and one. That is first pair.
+[01:57:06.380 --> 01:57:12.380]  And the second pair is one and three. As you can see, let me scroll further.
+[01:57:15.100 --> 01:57:21.260]  Yeah. So this is the first pair which is one index zero and index one.
+[01:57:21.260 --> 01:57:25.740]  So which means A bar dot B bar plus A bar dot B.
+[01:57:26.860 --> 01:57:33.660]  B is equal to one. That means this A bar dot B bar plus A bar dot B is equal to A bar.
+[01:57:34.460 --> 01:57:38.220]  So by grouping these two ones, equivalently, we will get A bar.
+[01:57:39.020 --> 01:57:42.620]  So now let us see how to get the same result from the A map.
+[01:57:43.260 --> 01:57:48.780]  Now on the left side, you can see that they have used the loss of Boolean algebra to simplify.
+[01:57:48.780 --> 01:57:55.500]  So A bar dot B bar plus A bar dot B, they have used one law A. A bar has been common B bar plus B.
+[01:57:55.500 --> 01:58:01.580]  What is B bar plus B? That is always one. One of the laws said that if we are B plus B bar,
+[01:58:01.580 --> 01:58:06.700]  that will always be one and one dot any value is always that value.
+[01:58:06.700 --> 01:58:12.140]  So we are left with A bar. That is through the simplification using the Boolean laws.
+[01:58:12.140 --> 01:58:16.780]  Now let's see how we can get the same output using the K map.
+[01:58:17.420 --> 01:58:22.220]  So from the first pair that we have created, where we have made a pair of
+[01:58:23.260 --> 01:58:28.060]  minimum value zero and minimum value one. Now we will get the values in such a way
+[01:58:28.780 --> 01:58:32.700]  that we will be left with only the value A bar and how that happens.
+[01:58:33.820 --> 01:58:38.380]  You when you do the pairing, whether it's a two variable K map or three variable K map.
+[01:58:39.020 --> 01:58:44.380]  When you do the pairing, you have to see that which value is remaining constant and which
+[01:58:44.380 --> 01:58:48.460]  values are changing. So we have two variables here. One is A and one is B.
+[01:58:49.340 --> 01:58:56.780]  For both these for both these values of the pair is A changing or A remaining zero for both of them.
+[01:58:57.340 --> 01:59:04.540]  A is zero for both of them because it is horizontal. So whether you look at A from the zero
+[01:59:04.540 --> 01:59:10.780]  min term or you look at A from one min term, the value of A stays zero. That means the A is
+[01:59:10.780 --> 01:59:18.540]  constant, isn't it? Now what is A actually? A is zero and if A is zero, that means it will be
+[01:59:18.540 --> 01:59:25.340]  represented by the variable A bar, isn't it? If A is zero, that means A will be represented as A bar.
+[01:59:26.860 --> 01:59:31.180]  How about is B staying same in both the cells or is it changing?
+[01:59:31.180 --> 01:59:37.260]  It's changing. B is zero in the first one and B is becoming one in the second one.
+[01:59:37.260 --> 01:59:43.340]  So if any variable whose value is changing between the given two, we just completely disregard that.
+[01:59:44.300 --> 01:59:49.980]  So which means when you have done the pairing, we are looking for the two variables as to which
+[01:59:49.980 --> 01:59:56.220]  is changing and which is not changing. If something is not changing, that is retained and something
+[01:59:56.220 --> 02:00:02.780]  which is changing, that will be disregarded. Since A is remaining zero in both these, so A will remain
+[02:00:02.780 --> 02:00:08.620]  as zero because it's not changing. So we will retain A but B is zero here and it becomes one
+[02:00:08.620 --> 02:00:14.300]  there. So it is changing. So we will completely disregard B. Now we will not write A because the value
+[02:00:14.300 --> 02:00:21.260]  of A is actually zero, which is a representation of A bar. So therefore from this pair, we just get A bar.
+[02:00:21.580 --> 02:00:27.500]  Have you got this? Have you understood how we are getting A bar?
+[02:00:28.620 --> 02:00:37.020]  Yes, first, here that we created which is index zero and index one, A remains same because we
+[02:00:37.020 --> 02:00:42.060]  are talking about this horizontal line for both the cells A is zero. It's not changing. Anything
+[02:00:42.060 --> 02:00:46.300]  which is not changing, we will retain that. So therefore A will be written as A bar because it's
+[02:00:46.300 --> 02:00:51.900]  a zero. If it was one, if we were on the lower row, then it would be A because A is one there.
+[02:00:51.900 --> 02:00:57.820]  But since we are in the upper row, which is zero, so it will be taken as A bar. But B is changing
+[02:00:57.820 --> 02:01:02.620]  in the first cell it is zero, in the second cell it is one, which is changing. So we will not take B,
+[02:01:02.620 --> 02:01:07.180]  we will remove it. So the only thing we are left with in the first case is A bar.
+[02:01:08.140 --> 02:01:12.460]  Now based on this, what is the second pair we can make?
+[02:01:15.660 --> 02:01:21.900]  Index number one and three. Now if we make one and three, can you tell me what will be the
+[02:01:22.540 --> 02:01:27.020]  simplified Boolean expression for between one and three? What is changing and what is remaining
+[02:01:27.020 --> 02:01:38.380]  constant? P is A remaining constant? No. Because in the first row, A is zero, in the second row,
+[02:01:38.380 --> 02:01:47.260]  A is one. So we will completely disregard A. What are we left with? B, B. Now will B, B, B,
+[02:01:47.260 --> 02:01:54.380]  or B bar? Plus B. Plus B because B is represented by the value one. So which means the B will be
+[02:01:54.380 --> 02:02:02.540]  taken as one. So the simplified expression will be A bar plus B. And that is the simplified expression
+[02:02:02.540 --> 02:02:07.820]  for this whole expression, which is given here. So let's see that. So if you see this group,
+[02:02:07.820 --> 02:02:13.740]  then this dot B and A B. So if you simplify this expression using the Boolean laws,
+[02:02:13.740 --> 02:02:19.340]  then we will get the B. And the same result, we can also get directly from the A map.
+[02:02:20.140 --> 02:02:25.980]  So if you see this group, then in this group, the variable A is changing while the variable B is
+[02:02:25.980 --> 02:02:32.300]  constant. So in this group, we will keep this variable B and we will ignore this variable A.
+[02:02:33.180 --> 02:02:40.540]  And here since the value of B is equal to one, so this group represents B. That means this group
+[02:02:40.540 --> 02:02:47.580]  represents A bar while this group represents B. And the overall function is the summation of A bar
+[02:02:48.060 --> 02:02:54.620]  B. So in this way, using the K map, we can simplify the Boolean expression without using any
+[02:02:54.620 --> 02:03:04.220]  Boolean laws. You saw how much simplification we did from use of two gates for A bar,
+[02:03:04.220 --> 02:03:10.860]  sorry, A bar one gate, B bar one gate, A bar and B two other gates and A and B. So a Boolean
+[02:03:10.860 --> 02:03:15.500]  expression, which comprise of six different variables, is now six different combinations,
+[02:03:15.500 --> 02:03:21.020]  is now turn to just A bar plus B. And if you draw the true table for this longer version of the
+[02:03:21.020 --> 02:03:26.700]  Boolean expression, which is given in F one there and this shorter version, which is A bar plus B,
+[02:03:26.700 --> 02:03:30.940]  they both will actually exactly be the same in terms of the output. So when you're making a
+[02:03:30.940 --> 02:03:37.260]  digital circuitry and you derive an expression that this expression will give you the desired
+[02:03:37.260 --> 02:03:43.020]  output, which is through A bar dot B bar plus A bar dot B plus A dot B. Your next target should
+[02:03:43.260 --> 02:03:48.780]  simplify this to see look at the possibility of reducing this expression to a least possible way
+[02:03:48.780 --> 02:03:54.700]  still to get the same output. So if your expectation was this output, the same can be achieved
+[02:03:54.700 --> 02:04:00.540]  using the smaller version which is A bar plus B. And you see how so simply we were able to simplify
+[02:04:00.540 --> 02:04:07.020]  the Boolean expression without using any laws of the Boolean algebra. So again to repeat first of
+[02:04:07.660 --> 02:04:14.060]  whichever format is given to you, whether sigma 013 or A bar B bar A bar B AB, you have to first come
+[02:04:14.060 --> 02:04:19.340]  up with the indexes whose value will be one. Next step you have to look at the possible combinations
+[02:04:19.340 --> 02:04:25.900]  of the pairs of the edges and cells. Once you have done these two things, then keep the variable,
+[02:04:25.900 --> 02:04:32.220]  which is remaining constant for the two indexes of the pair and disregard the one which is changing.
+[02:04:32.300 --> 02:04:37.180]  Like in the first case, A bar in the second case B and then add them together because it is
+[02:04:37.180 --> 02:04:42.140]  sum of products SOP. So it will be A bar plus B that is the reduced expression.
+[02:04:44.300 --> 02:04:45.980]  Let's have a look at the next example.
+[02:04:50.380 --> 02:04:57.340]  Okay in this case, the expression is A bar dot B plus A dot B bar. Can this be simplified further?
+[02:05:02.540 --> 02:05:09.500]  Am I still connected?
+[02:05:11.500 --> 02:05:13.660]  And I think you can be simplified further.
+[02:05:14.460 --> 02:05:17.660]  Yeah, it cannot be. Do we have any adjacent cells where the pairing can be done?
+[02:05:19.660 --> 02:05:25.260]  No, no. So if that is the scenario, when you don't see any possibility of a pairing because
+[02:05:25.820 --> 02:05:30.060]  there are no two adjacent cells which can be paired in such a scenario, the
+[02:05:31.420 --> 02:05:36.140]  further simplification cannot be done, which means the Boolean expression which is given to you,
+[02:05:36.140 --> 02:05:39.340]  that is the simplest form. You cannot go anything beyond that.
+[02:05:40.220 --> 02:05:41.660]  Isn't that XOR gate?
+[02:05:45.020 --> 02:05:48.940]  A bar dot B plus A B bar, yes, that is an XOR gate correct.
+[02:05:49.100 --> 02:05:59.340]  Okay, but in case of this, you cannot further simplify. So you have to get this A bar dot B plus A dot B bar.
+[02:06:01.900 --> 02:06:07.340]  Now let's have a look at the three variable K map. The concept is exactly the same.
+[02:06:07.340 --> 02:06:11.660]  It will be just the plotting of values which will slightly change. So the values which are given
+[02:06:11.660 --> 02:06:17.980]  to us here is sigma 015. Okay, so as a part of this, what we have done is we have marked all
+[02:06:17.980 --> 02:06:22.460]  those min term values as one whose values are given here. For example, 0.
+[02:06:22.460 --> 02:06:31.580]  This min term 1, M5, M5 and now let us try to minimize this function. So as I have discussed
+[02:06:31.580 --> 02:06:37.260]  earlier to minimize this function, we need to make the group of ones which are adjacent to each
+[02:06:37.260 --> 02:06:43.420]  other and the group should be in the power of 2. So in this case, this is the first group
+[02:06:44.060 --> 02:06:49.580]  and by comparing these two ones, we will get the second group and with these two groups,
+[02:06:49.580 --> 02:06:55.180]  all the ones in the map gets covered. So first of all, let us consider this group.
+[02:06:56.140 --> 02:07:02.460]  So in this group, if you see, then this variable C is changing while the variable A and B are fixed.
+[02:07:03.180 --> 02:07:09.180]  Therefore, for this particular group, we will consider this variable A and B and we will ignore
+[02:07:09.180 --> 02:07:14.780]  the variable C. Now see the difference here because we have three variables here, A, B and C.
+[02:07:15.740 --> 02:07:20.780]  Unlike the previous case, where we were just looking at the values of A or B in isolation,
+[02:07:20.780 --> 02:07:27.100]  now we are also looking at the value of C. Now if we see the first pair which is between
+[02:07:27.100 --> 02:07:33.660]  index 0 and index 1, the only value which is remaining same between A, B and C is 0.
+[02:07:34.620 --> 02:07:41.660]  So sorry, between A and B, because A is 0, B is 0 in both the cases. So that means A and B
+[02:07:41.660 --> 02:07:47.340]  will be retained and C will be disregarded because C is changing from 0 to 1. In the first case,
+[02:07:47.340 --> 02:07:54.300]  we have the value of C 0 and the value of, in the first case, the value of C 0 and in the second
+[02:07:54.300 --> 02:07:59.980]  case, value of C is 1. So that needs to be disregarded. What are we left with for this pair?
+[02:07:59.980 --> 02:08:03.100]  What do you think will be the Boolean expression for this one? A bar.
+[02:08:04.940 --> 02:08:13.740]  Is it A bar and what about B? B is also not changing, right? Yes, because B is also not changing,
+[02:08:13.740 --> 02:08:19.420]  so it will be A bar dot B bar. The actual expression for this would have been the previously,
+[02:08:19.420 --> 02:08:23.020]  can you tell me what was the original expression for this which we are trying to reduce?
+[02:08:23.180 --> 02:08:36.140]  What was the original expression? A bar, B bar, C bar, A bar, B bar, C bar, C. The original
+[02:08:36.140 --> 02:08:42.860]  expression was A bar, B bar, C bar, because all 0, 0, 0 and for the second cell, it was A bar,
+[02:08:42.860 --> 02:08:50.860]  B bar, C, which is now being reduced to A bar dot B bar. Because we are considering the values
+[02:08:50.860 --> 02:08:57.020]  which are staying constant, which is A, B, C is changing, so we will disregard C. Moreover,
+[02:08:57.020 --> 02:09:03.500]  since the value of A and B is 0, that means this group represents A bar dot B bar.
+[02:09:04.380 --> 02:09:09.500]  Similarly, let us see the second group. What do you think will be the expression for this one?
+[02:09:09.580 --> 02:09:16.140]  Second one. What is changing and what is, is A changing or not?
+[02:09:18.940 --> 02:09:23.820]  A is changing and? No, A is not changing, it will be B bar dot C.
+[02:09:24.620 --> 02:09:27.900]  Wait, but A is changing now? A is changing from 0 to 1.
+[02:09:27.980 --> 02:09:41.500]  0, 0, 1 and 1, 0, 1. So it is not A changing because A is 0 here and A is 1 here.
+[02:09:45.660 --> 02:09:56.780]  Think about it. See, the first expression is 0, 0, 1 and the second one is 1, 1.
+[02:09:58.460 --> 02:10:04.460]  0, 1. So A is changing. How about B?
+[02:10:06.140 --> 02:10:10.620]  Not changing. B is not changing and C.
+[02:10:11.500 --> 02:10:14.300]  Not changing. If you see, correct.
+[02:10:14.300 --> 02:10:19.020]  In the variable A is changing, while the variable B and C are same.
+[02:10:19.820 --> 02:10:26.060]  So for a column, for a column, the 0 and 1 stays the same. Like in the previous case,
+[02:10:26.060 --> 02:10:30.940]  the row was same, so A was not changing. But when you make a pairing of a column,
+[02:10:30.940 --> 02:10:36.220]  both the values of column remains 0, 1 for both the pairs. Like when you look at index 1,
+[02:10:36.220 --> 02:10:42.140]  then also BC is 0, 1. When you look at index 5, then also BC is 0, 1. So BC is not changing,
+[02:10:42.140 --> 02:10:49.500]  but A is changing between the two. And therefore, the expression for this will be B bar C.
+[02:10:50.140 --> 02:10:57.900]  So here, the B is 0, while C is 1. Therefore, this group represents B bar dot C.
+[02:10:58.700 --> 02:11:03.500]  And if you see the oral function, and the oral function is equal to A bar dot B bar,
+[02:11:03.500 --> 02:11:07.500]  plus B bar dot C. So the expression which was earlier,
+[02:11:07.500 --> 02:11:12.140]  four different expressions is now turned down to two, which is the most simplest form
+[02:11:12.140 --> 02:11:17.740]  without using any Boolean expression. This is the second case. Let's look at one more case.
+[02:11:17.820 --> 02:11:26.300]  This one. Now, here you will learn one thing new. How many pairs do you think can be made here,
+[02:11:26.300 --> 02:11:36.700]  can be made here of the adjacent cells? Three. Three. Okay. Anyone else?
+[02:11:36.700 --> 02:11:47.660]  Anyone else? How many pairs can we make of the adjacent cells to zero?
+[02:11:47.660 --> 02:11:53.820]  Two pairs. Okay. So we have two answers so far. One is three and one is two.
+[02:11:55.740 --> 02:12:01.020]  It's quite easy to see that why three came up, because yes, three pairs can be made 0,
+[02:12:01.020 --> 02:12:08.220]  1, 1, 5 and 5, 7. And there's a reason why there can be only two. Can you tell me it's observe why two?
+[02:12:11.580 --> 02:12:17.980]  Well, yeah, why would we overlap? There is no need to overlap. We can create two pairs and they
+[02:12:17.980 --> 02:12:25.900]  will suffice correctly. When you make the pair, you have to also see that have we covered all the
+[02:12:25.900 --> 02:12:32.140]  ones. If we have already covered the ones, then you don't have to redo that. Like for example,
+[02:12:32.140 --> 02:12:36.860]  when you do the pairing of zero and one and next you do the pairing of five and seven,
+[02:12:37.580 --> 02:12:44.220]  have we covered all four ones at least once? Yes. If that is done, then you don't really have to
+[02:12:44.220 --> 02:12:51.500]  overlap once again. Although if you overlap, you will have one extra expression. It will still be
+[02:12:51.500 --> 02:12:57.500]  simplified, but not to the lowest level. If you apply Boolean law into that new expression,
+[02:12:57.500 --> 02:13:01.420]  you will still be able to further reduce it. But if you are doing it from K-MAP,
+[02:13:01.420 --> 02:13:05.740]  our effort should be that without using any laws of Boolean algebra, we should be able to get
+[02:13:05.740 --> 02:13:11.580]  the minimum possible expression, which could give the same output. So therefore, always remember
+[02:13:11.580 --> 02:13:16.940]  that if all the ones are already covered, then you don't have to overlap anything, which means
+[02:13:17.420 --> 02:13:23.020]  zero one can be one pair and five and seven could be another pair. In that sentence, you will be
+[02:13:23.020 --> 02:13:27.260]  able to get the expression, which will be the most simplest one, which represents this main
+[02:13:27.260 --> 02:13:33.580]  term thing. So in this group, the value of EN. Okay, let's derive this. What do you think will be
+[02:13:33.580 --> 02:13:37.820]  the output for the first pair, which is index zero and one? What is changing and what is the
+[02:13:37.820 --> 02:13:46.380]  main constant? A is not changing. A is not changing and C is changing. So what will be the
+[02:13:46.380 --> 02:13:53.100]  expression for the first one? A bar B bar. A bar and B bar. Perfect. And how about the second pair?
+[02:13:54.700 --> 02:14:07.580]  So A bar C. A C. What is changing? A is not changing and C is not changing.
+[02:14:07.580 --> 02:14:15.740]  So which means since A is one, so it will be A and C is one, which will be C. So A bar dot B bar
+[02:14:15.740 --> 02:14:23.260]  plus A dot C. Well, the variable C is changing. Sorry, A bar dot B bar. The value of ENB is zero.
+[02:14:23.900 --> 02:14:30.140]  That means this group represents A bar dot D bar. Similarly, in this second group,
+[02:14:30.700 --> 02:14:36.940]  the variable A and C is not changing, while this variable B is changing. So in this group,
+[02:14:36.940 --> 02:14:43.100]  the value of A and C is equal to one. Therefore, this group represents A dot C.
+[02:14:44.060 --> 02:14:50.460]  So if you see the overall minimized function and that is equal to A bar dot B bar plus A C.
+[02:14:51.340 --> 02:14:56.140]  Now, some of you might have a question that can we combine this and then map?
+[02:14:59.980 --> 02:15:05.900]  Okay, can you try solving one problem now? Let's say we have the value sigma zero to
+[02:15:07.660 --> 02:15:16.860]  five seven. Can you solve that? Just use a pen and a paper and take the sigma value as
+[02:15:17.740 --> 02:15:22.220]  zero to five seven. Tell me the simplified Boolean expression.
+[02:15:22.700 --> 02:15:29.740]  Zero to five seven.
+[02:15:29.740 --> 02:15:56.620]  You can write your answers in the chat. Zero to five seven is the sigma value.
+[02:15:59.740 --> 02:16:28.700]  The class will end in just about five minutes.
+[02:16:28.700 --> 02:16:33.980]  So this is the last problem that I'm giving. After this, we will create one assignment
+[02:16:33.980 --> 02:16:39.100]  sheet for you based on KMAP, because I don't think in far more assignments, we have anything to do
+[02:16:39.100 --> 02:16:44.220]  with KMAPs there. So we'll create a problem statement, which you can solve and we'll let you know
+[02:16:44.220 --> 02:16:55.980]  how to submit that. Well, for some reason, the chat is disabled for me, but I can sell, yes,
+[02:16:55.980 --> 02:17:07.900]  for me at the very least. Can you try now? It's still disabled. That's very surprising.
+[02:17:09.180 --> 02:17:24.140]  Okay, tell me the answer. Well, for me, it was a c a a dot c plus a bar dot c bar plus a bar
+[02:17:24.940 --> 02:17:31.420]  dot c bar dot not c. Okay, I put it in the chat. Can you see the chat at least?
+[02:17:34.620 --> 02:17:39.340]  Can you all see the chat or not? Yes, yes, yes. Okay, so I have it. Please check your answers with
+[02:17:39.340 --> 02:17:46.860]  this. So what software got was a a dot c plus a bar dot c bar. Is it all of you get it?
+[02:17:47.580 --> 02:17:59.740]  I got three terms. You got three three different expressions. So three terms. Tell me your answer
+[02:18:00.540 --> 02:18:14.860]  namu. So a bar b bar plus a bar plus b bar. So a bar b bar plus b bar s b bar s b bar s b bar
+[02:18:16.300 --> 02:18:22.860]  how did you get class in between a bar plus b bar? No, just a bar times b bar.
+[02:18:23.580 --> 02:18:33.980]  So the first one is a bar dot b bar then plus b bar dot c bar plus b bar dot c bar then
+[02:18:35.660 --> 02:18:42.620]  plus a b c bar a b c bar.
+[02:18:43.420 --> 02:18:53.740]  This is what you have got. No, that's not correct. No, that's not correct.
+[02:18:55.740 --> 02:19:03.660]  So number was zero two five seven. The number was zero two. That mean two adjacent
+[02:19:03.660 --> 02:19:12.220]  corners else. So if you wrap them together, that will make one pair, right? So zero or two was
+[02:19:12.220 --> 02:19:19.180]  one and five seven. So five so only two pairs will be there. One is two extreme ends and one is
+[02:19:19.180 --> 02:19:26.940]  five and seven. I did say indexing wrong. I think you did the indexing wrong. That's why we are
+[02:19:26.940 --> 02:19:32.380]  I'm emphasizing that your first step is indexing and if you make a mistake in the indexing that
+[02:19:32.380 --> 02:19:38.140]  definitely you're going to be getting a zero marks in this question. So it's always zero one three
+[02:19:38.220 --> 02:19:46.140]  two zero one three two. How about others? Ricardo, you got an answer?
+[02:19:50.940 --> 02:19:54.540]  Ricardo, Thomas, Sarah.
+[02:20:00.780 --> 02:20:06.620]  Did anyone try and got any answer? It's okay, even if you did a mistake, no problem. But let me know
+[02:20:06.620 --> 02:20:22.060]  if you got the answer. Okay, is the chart still not accessible to you?
+[02:20:25.100 --> 02:20:29.820]  Can you still not access the chart? Yeah, I do kind of access the charts.
+[02:20:30.620 --> 02:20:38.540]  But why? Students can chat with teachers. Do you want me to reset all the charts?
+[02:20:40.220 --> 02:20:43.820]  One second, I have just, can you try now?
+[02:20:48.860 --> 02:20:56.060]  Is it working for you? Yeah, no, it's working. Okay, so now I'm not asking for the answer right now,
+[02:20:56.060 --> 02:21:02.700]  can you just say whether you have understood how we are simplifying Boolean expression using KMAP
+[02:21:02.700 --> 02:21:08.860]  or not? So say yes, if you have understood or say no, if you have not understood.
+[02:21:13.740 --> 02:21:19.180]  It's okay. I mean, it's a complex thing as both Mr Martin and I said, we are also learning
+[02:21:19.180 --> 02:21:28.220]  with you, so it's not easy. But at least did you learn the concept? Yes, somewhat, not really.
+[02:21:28.220 --> 02:21:35.580]  Okay, now I got the correct answer. Sarah got no, okay, somewhat. Fine, so we will do one thing.
+[02:21:35.580 --> 02:21:40.460]  I mean, this recording will be available to you and that YouTube video which I just played,
+[02:21:40.460 --> 02:21:46.460]  I will share that, let me share that right now, Rao. In fact, I will link that to the document
+[02:21:46.460 --> 02:21:52.140]  which is there in the PDF format. But let me also share it here so that you can keep this
+[02:21:54.060 --> 02:21:58.620]  for yourself and watch it once again. It's a very good video because I also learned from this
+[02:21:58.620 --> 02:22:05.100]  only today. So you can use this video to just go through it once again and our recording is also
+[02:22:05.100 --> 02:22:09.900]  available. I mean, it will be available in the same folder. So watch through this and next week,
+[02:22:09.900 --> 02:22:16.220]  we will start with a few assignments on KMAP just to look at what we learned today and then we will
+[02:22:16.460 --> 02:22:22.220]  continue from there. But just before you live, just let's have a look at what is covered in the
+[02:22:22.220 --> 02:22:29.020]  week number six so that we can actually start working on that as well. And one more important
+[02:22:29.020 --> 02:22:35.420]  thing I wanted to share with you, just give me a moment. So essentially, we are done with a 1.2.5
+[02:22:36.060 --> 02:22:50.460]  up to a 1.2.5. Can you see my screen? Yes, yes. Okay. So essentially, we have done up to a 1.2.5.
+[02:22:51.180 --> 02:22:57.820]  Now next week is operating system and control systems which is again very, very theoretical topic.
+[02:22:57.900 --> 02:23:09.820]  So this should take one lesson and then this translation only is for HL and then we are done with
+[02:23:09.820 --> 02:23:16.700]  this topic. So next week, we will finish this a 1.3 which is operating systems. But before that,
+[02:23:16.700 --> 02:23:20.940]  we will have a look at the KMAP again and maybe we will take up some examples of Boolean
+[02:23:20.940 --> 02:23:25.420]  simplification. What we will do is I will create a worksheet for you where I'll give you some
+[02:23:25.420 --> 02:23:31.740]  Boolean expression simplification, few logic get diagrams and few truth table problems.
+[02:23:31.740 --> 02:23:36.700]  So try to solve that over the week time. Next week, when we come, we will just start with that
+[02:23:36.700 --> 02:23:44.700]  discussion and then we will get onto this. I also shared with you one of the links of one website
+[02:23:44.700 --> 02:23:49.580]  for the programming practice. So if you look into your email that you may have received or the
+[02:23:49.580 --> 02:23:55.420]  announcements I think, you will see that I have shared one link with you which is actually a
+[02:23:55.420 --> 02:24:01.020]  self-taught tutorial for the programming. So for those who are new to Java programming,
+[02:24:01.820 --> 02:24:07.660]  because very soon we'll be starting with the theme B computational thinkin. I strongly recommend
+[02:24:07.660 --> 02:24:13.020]  that you start learning a little bit of programming using that link. It has step-by-step lessons
+[02:24:13.020 --> 02:24:17.820]  like starting from most fundamental concepts of what variables are, what literals are,
+[02:24:18.460 --> 02:24:25.020]  what is decision-making statement, what is looping statement. It's a very good tutorial and there
+[02:24:25.020 --> 02:24:29.980]  is a space where you can actually type your program and execute it on the same page. Okay.
+[02:24:30.540 --> 02:24:34.460]  So start learning that for those especially who are new to programming because once we start the
+[02:24:34.460 --> 02:24:39.740]  programming, we will have to follow a certain pace and if you don't know programming at all,
+[02:24:39.740 --> 02:24:44.620]  then you will be struggling a little bit. So it's my stronger advice that please start learning
+[02:24:44.620 --> 02:24:49.340]  programming right from now so that by the time we start, you will already be familiar with it.
+[02:24:50.060 --> 02:24:58.380]  Okay. Yes, Sarah, have a question. Where can I find the topic list that you had opened?
+[02:25:00.860 --> 02:25:04.380]  Have you recently joined Sarah? Yeah, I joined yesterday.
+[02:25:05.180 --> 02:25:09.420]  Yeah, I know. So you're new. So, Mr. Martin will be meeting you. Martin, have you fixed up
+[02:25:09.420 --> 02:25:16.460]  appointment with Sarah already? I scheduled some meetings for today earlier before
+[02:25:16.460 --> 02:25:24.700]  our meeting and for tomorrow. So, Sarah, you can look at the announcements. I saw the link,
+[02:25:24.700 --> 02:25:29.900]  but my name isn't on there and there's no option for me to put like, my name isn't listed,
+[02:25:30.460 --> 02:25:39.260]  so I can't really... Okay, so we need to add her name today. Okay, let me add you to that
+[02:25:39.260 --> 02:25:45.500]  list. Yeah, yeah. Okay. I've already added Sarah to the attendance list, so probably that's
+[02:25:45.500 --> 02:25:51.580]  why it's easier, but you're one meeting maybe you can add it there or maybe you'll have to meet Sarah
+[02:25:52.140 --> 02:25:57.820]  individually because she may have to be explained the catch-up plan for everything that we have done so
+[02:25:57.820 --> 02:26:10.540]  far. So Sarah, we have a folder whose link will be shared with you. I think Thomas,
+[02:26:10.540 --> 02:26:15.420]  you also Thomas is left, I think. So, Sarah, you will share... Sorry, Thomas is here. Thomas,
+[02:26:15.420 --> 02:26:22.140]  you all wrote that you need a link, right? Yeah, that was what I was going to ask about.
+[02:26:23.260 --> 02:26:26.700]  Yeah, so Thomas, I will share that link with you. Don't worry about that. And Sarah, you will
+[02:26:26.700 --> 02:26:30.700]  meet Mr. Martin, who will tell you what all we have covered and where you can find that content
+[02:26:30.700 --> 02:26:35.420]  list. Okay, he will also create a weekly plan for you so that week one you can cover
+[02:26:36.060 --> 02:26:40.140]  during the next week, then week two, then week three and week four, and simultaneously,
+[02:26:40.140 --> 02:26:43.900]  you will also be covering with whatever is going on with the current classes.
+[02:26:46.140 --> 02:26:50.380]  Okay, and is there any like assignments I have to submit now?
+[02:26:51.100 --> 02:26:55.100]  Yeah, there are some assignments, so you will do that week by week. So week one assignment,
+[02:26:55.100 --> 02:27:00.460]  you will finish over the next one week. So week five plus week one, you will finish together.
+[02:27:01.180 --> 02:27:04.460]  The next week, you will finish week two and week six like that.
+[02:27:06.220 --> 02:27:14.460]  Okay. All right, guys, thank you so much for staying here. I know it's a little confusing topic,
+[02:27:14.460 --> 02:27:18.460]  but by next week, I'm sure that we will have a lot more clarity. So just practice a few
+[02:27:19.020 --> 02:27:21.660]  example. It's not difficult. Namo, is it difficult?
+[02:27:25.020 --> 02:27:28.940]  No, I now understand it all. Yeah, software is it difficult?
+[02:27:31.660 --> 02:27:37.500]  No, it's not difficult. Okay, so this is just to motivate others that yes, it is doable.
+[02:27:37.500 --> 02:27:42.780]  It's quite possible. So it's quite simple actually. You know, if you just try to understand that
+[02:27:42.780 --> 02:27:49.340]  concept of pairing and disregarding the changing values, that's it. It's a just two step rule
+[02:27:49.340 --> 02:27:55.420]  that needs to be applied. So just try practicing a few problems and next week when we meet,
+[02:27:55.420 --> 02:28:00.940]  we will start with this game app and then we'll get under the operating systems. So thank you so
+[02:28:00.940 --> 02:28:08.300]  much. Thanks, Martin. I know you're not well, but thanks that you still stayed here also the class.
+[02:28:08.300 --> 02:28:19.260]  We'll meet next week. Bye, everyone. Thank you. Thank you, Mr. Martin. Yeah,
+[02:28:19.260 --> 02:28:22.540]  Mr. Bye. Bye.
