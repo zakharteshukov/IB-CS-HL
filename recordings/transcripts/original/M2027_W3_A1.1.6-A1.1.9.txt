@@ -1,0 +1,692 @@
+Let me let's say you have a CPU where initially you had 10 different cores.
+Each core now starts working as a single CPU.
+Now that single CPU can also be split into 10 or 15 different cores.
+That depends on the architecture and the nature of work you are doing.
+And therefore, anything which requires high level of execution, that is where the concept
+of multiple core comes into picture, like you studied about in the previous chapter,
+you studied about artificial intelligence, image rendering, etc.
+The more number of cores you have, the higher possibility of increase in the efficiency
+of the computer comes.
+So that's about the non-pipeline and pipeline core confidence.
+When you talk about the findings, some of the CPUs are split into different cores.
+They of course work as a single CPU, so that you are seeing that like, they of course
+do each core does fetch, they could execute at the same time, that way you are seeing.
+Okay, so thanks for Alexander for that question, see, it totally depends on how the architecture
+of CPU has gone into production.
+Now it could be both ways, like as I said, at the top level, one CPU can be split into
+one task at a time, that is at the top level, okay.
+Like one person doing registration, same person doing fee collection, distribution of kits
+and sending them to the field, that is the most fundamental way of using the CPU.
+Second level is, each CPU is divided into certain number of cores, like you may have heard
+the term, dual core computer, quad core computer, octa computer, that actually is number of
+cores that CPU has.
+Now in an ideal situation, each core will have its dedicated task, like the first core
+will only fetch.
+Second core will only decode, third core will only execute and fourth core will only store,
+that could be one form of architecture, okay, where first core fetches and then gives
+it to the decode.
+In the meantime, the first core fetches the next instruction, decode is over, it passes
+on to decode, that is an ideal situation, but that is not mandatory that it has to be
+done like that.
+As a computer engineer, you can actually define how do you want to use each core?
+Do you want each core to be doing all the work, like fetch decode execute, so that different
+cores are independently fetching new set of instructions and completing the entire cycle,
+right?
+So in that way, each core becomes that old traditional CPU, where each core is doing one
+work, but then if there are four cores, four cores can actually take care of four different
+applications simultaneously, right?
+So it totally depends on how you want to deal with the cores of the CPU and you can actually
+make your own architecture as to how efficiently they need to work, right?
+So that was the HL part, now I would like to request Martin to take up the next section
+which is storage devices.
+So Martin, you can use that same PDF or that we have, the PDF, by the time the document
+loads, did you study about the different storage devices that we have secondary storage devices?
+What's your understanding about that?
+This is for SLNHL, this is for SLNHL, both.
+I would say my knowledge is limited to, or not limited to three, but at least encapsulate
+what was stated in the unit.
+Okay, right.
+So you may have studied about different types of secondary storage devices.
+In the last lecture, we studied about primary storage devices, primary memory, for example,
+RAM, ROM, etc.
+Now in this unit, we are going to study about the secondary storage devices.
+So what is the core objective of having a secondary storage device?
+Why do we use them?
+To store data permanently.
+To store data permanently until we need them, right?
+How is ROM different from secondary storage device?
+ROM cannot be modified.
+ROM cannot be modified.
+Correct.
+So ROM contains system specific documents, sorry, system specific instructions, which are
+meant for the systems, smooth functionality, for example, BIOS, basic input output system.
+How hard disk or any other secondary storage device, on the other hand, is all about storing
+data, which is personal to the user, permanently, so that even when the computer is not turned
+off, it still stays there.
+And now, over to Martin, to take it further.
+Martin, you are mute, I think.
+All right.
+So let's look at what the topics are for secondary storage.
+So we want to be able to identify the different types of secondary storage internal storage
+and external storage.
+And how they are related, what are some similarities, what are some differences.
+Right.
+So we're going to look into the types, the characteristics in terms of speed, cost, capacity, and durability.
+And also compare use cases where is more beneficial to use what type of storage.
+And then we look at the internal and external types of secondary memory.
+Again, we're going to distinguish between which one is used in which cases.
+And we're going to look at the advantage of this advantage of using one over the other.
+And lastly, we're going to go into compression solidity.
+Let me share another document that I prepare for for this.
+Give me one second.
+And then we will look into that.
+All right.
+So let me.
+So the first thing is that secondary memory memory storage on last lesson we discussed of a volatile memory.
+And volatile memory is just data that is going to be lost in case we either turn off the machine without saving our documents or the work that we're doing or we lose the power.
+So that data will be lost in terms of internal and external memory.
+So this is not volatile, which means we are going to be able to retain that information after we lose we lose power or once is saved on our system.
+Right.
+So internal storage is devices that are permanently in our computer or in our mobile device.
+So they're there.
+They're part of the hardware of the machine.
+Right. So different types of internal storage are the SSDs.
+Solid state drives, the hard drives and the embedded multimedia cards, all those are types of internal storage devices.
+Solid state drives use flash memory and they don't have any moving parts, they're faster and they're more durable than the hard drives.
+However, hard drives depending on the use, they're usually cheaper.
+And they have high capacity of storage.
+The technology is still is an old technology, but it's still in use, especially to backup large amounts of data.
+They have magnetic moving parts, they have a right and right head.
+And because they have mechanical parts, they're prone to damage.
+If we don't take care of the machine in the appropriate way, then that can that can be damaged and data may be maybe lost, right.
+So they're prone to to favors.
+And the embedded multimedia cars, they use the same storage mechanism that is this flash memory.
+They're less powerful than the SSDs, but they have advantages because there usually are four devices that are we can are portable devices.
+External storage, they offer portability, you can take your data and you can expand the capacity of your machine using external drives.
+And you can use similarly as before, you can use SSDs of hard drives, it depends on the they need.
+Now, there are others like the optical drives, which is basically an old technology, but this is still used today, especially to store information that.
+Require just to be to be safe for you should use now we have flash drives and flash drives, you probably.
+Have used those or are using this US drives, tone drives and pen drives and those offer a lot of flexibility just to have.
+A small information, portable information that you can take from school to home, so on and so forth.
+But there have now days we have a lot of capacity on those small flash drives, so there's more portable, they're durable.
+They allow us transfer of data and we can actually put the operating system in portable applications, we can have that there.
+So limited storage, depending on the size of the hard drive or the SSD that you are attaching to your computer right in terms of memory cards.
+Then we have SD cards and micro SD cards, which are usually for small devices at tablets, cell phones, that kind of of devices.
+And then here we have a several use cases where you can see where and each type of memory is used, depending on the need.
+So hard drives, HDs, we are usually used when we need a large capacity and lower cost, so that means for example that if a company needs to store a lot of data and wants to save some money,
+then that might be one way to go, right, use hard drives because they're relatively low in cost.
+And then you have solid state drives that is going to have a faster access time that they hard drives and they're more durable.
+So a common use case is they are used to boot drives for fast operating system loading and gaming pieces and also for high performance database and application.
+So companies that need to access the database fast and rely in a reliable way, they might go into using SSDs instead of hard drives.
+The flash drives, as I mentioned earlier, they're portable, right, they can transfer quickly and they allow us to do quick offline backups.
+There is no internet need to be to for them to be used, so that's definitely an advantage of that.
+And then we have external hard drives and SSDs, one of the application for that is that we need to or the company needs large backup solutions.
+And that is the advantage is because there is high capacity and portability, right, so think of maybe an startup that is just going into the market.
+They might have that particular need, okay, and memory cards, memory cards, they use is for storage for cameras, phone, drones and expandable memory devices.
+The advantage is that there is more, they're removable, they're compatible with many devices.
+Now sometimes one of these disadvantages is that some memory cards are just a device base.
+So the size only fits one particular device, so that might be a disadvantage, right.
+The optical, these mostly are used to store multimedia, music videos, so but the use is because they are for long-term storage.
+It's cheap, now the only disadvantage is that they have to be stored properly, so they don't be a scratch or anything, because otherwise the data might be lost.
+But again, it's an advantage for long-term storage especially for multimedia.
+And then we're coming into the cloud storage, which we will discuss a little bit further later today.
+But the advantage of this is that it's flexible, you can increase or decrease the amount of storage that you might purchase.
+Some of you might actually right now have maybe some type of cloud service where you can store your information.
+But an advantage is that it's accessible anywhere, scalable, meaning you can increase or reduce the size, and it's very secure if the information there is encrypted.
+And then we go into the network attach storage and the advantage of that is for mostly big companies where they have to store information that needs to be centralized and access for different parts of the company.
+The advantage of it is that it's always available and it supports multiple users, so different people can access the information at different times.
+So that's an advantage.
+I have a couple of questions and I want you to answer on the chat those questions.
+Okay, so we're ready for these practice questions, right? So go ahead and answer that question there on the chat please.
+You cannot see Valeria.
+You're not able to see the screen that I'm sharing.
+Oh, no, so I have several people that are not able to see the screen.
+Rush, are you sharing, did you stop sharing your screen?
+I haven't shared my screen.
+Okay, because I don't know what they're looking at.
+I think it's a I think it's a refresh problem, so maybe they can.
+Those who are not able to see Mr Martin's screen.
+Maybe maybe, maybe once I'm share Martin at.
+Let me stop sharing again.
+Yeah, yeah, yeah.
+I think it's a different issue.
+Are you still seeing my screen?
+Anyone of you?
+All right, I just so.
+Okay, you just say the question works.
+Okay.
+All right, can you see it now?
+Cool. All right.
+So those of you that could see it, could you please respond?
+I think everybody's saying that they can see now.
+So yeah, let's continue.
+So question one.
+Question one will be what would be the answer?
+Okay, Thomas.
+Yes.
+Everybody said cash memory.
+I think everybody says cash memory.
+Yeah, yeah.
+This cash cash is a part.
+I said internal memory, right?
+So that's correct.
+Cash will be the credence.
+All right, so what about the next question there?
+What would be the main advantage of SSDs over HDDs?
+Right.
+Correct.
+This is the correct answer.
+Good job, everybody.
+Right.
+Their faster speed and not at those and happy parts.
+So they're more reliable because of it.
+All right.
+So let's try to do look at the next question.
+So which external memory device is best suited for long term archival of storage?
+All right.
+Pretty good job.
+Pretty good job.
+Since that you guys have a good knowledge of that part.
+Good.
+Baby is correct.
+All right.
+Let's look at a couple more.
+Right.
+So students want to click and transfer two gigabytes of storage.
+Right.
+So students want to click and transfer two gigabytes of a project from a school computer to his laptop.
+The best option should be to use a USB.
+Right.
+Good job, everybody.
+All right.
+One more.
+So we have a couple more and then we would continue with the topic.
+All right.
+Correct.
+Good job, everybody.
+I see that everybody is answering CC the correct answer.
+Good job.
+That shows me that you read your material.
+Okay.
+So that's pretty good.
+Good job, everybody.
+Yeah.
+So the answer would be see external memory is not volatile and use a long term storage.
+All right.
+I think I showed you the answer already, but we'll see.
+So the answer again will be right.
+He's because cloud storage is a storage that is considered outside the local machine.
+Right.
+All right.
+Good.
+Excellent.
+All right.
+Which of the following has the fastest access time?
+HDDs, optical ds, SSDs, or USB flash.
+Access time.
+All right.
+Some of you are saying see most of you.
+Some of you are.
+I think somebody said all right.
+Good job.
+As this has the fastest access field.
+All right.
+We have three more and then we move forward.
+One more.
+Why do the computers need both external and internal?
+All right.
+Most of you are answering B.
+Internal memory is volatile, external memory provides permanent storage.
+So we need both.
+Right.
+We need the internal memory for the use of the computer, the operating system, the current application that we're using.
+So on and so forth, external to save all the data that we that we might need later on.
+Right.
+All right.
+One more.
+All right.
+Most of you are answering C.
+Portable SSDs.
+Correct.
+Pretty good job.
+Either all of you are having really good understanding of this particular topic or I need to come up with more challenging questions.
+One of the two.
+We'll see.
+Right.
+All right.
+The last one for this section.
+The most portable external memory device.
+It says portable portable external device is portable and is highlighted portable.
+So the answer will be D because.
+And you can take the whole cloud with you from school to I don't know to to home.
+Then that will be the cloud stores.
+But that will be the micro SD card.
+Okay.
+All right.
+Good job.
+I don't know if you guys might have any particular comment or question on this section about internal external memory.
+Okay.
+So that was an interesting activity.
+I would like one of you to share that when we know that SSDs is the fastest memory and long lasting.
+Then why do we not always install SSD?
+Why do we also use a magnetic desk?
+What's the reason?
+This is being more cost effective.
+Yeah, because it's very, very expensive.
+If you compare the prices between SSD storage and the magnetic desk, probably.
+If you buy a 512 mb SSD card.
+Maybe that will be much more expensive than a two TV hard disk in the magnetic form.
+So it only depends on your necessity as to what is more important for you storage or speed.
+That you can decide between the two different types of storage devices.
+And the cloud on the other hand is totally different option.
+When you need your data to be stored in a remote location so that there is no accidental damage to the data.
+Or you want to be able to access the data even when you are not within your office.
+Just with the help of internet that you can access the data that is when cloud is needed.
+So as a part of this topic, you need to be aware about how different technologies work.
+So you may go, you may like to go little details into how the magnetic disk works.
+For example, if you break open the hard disk, you will see a magnetic roll and there will be a head which and that roll rotates at a very high speed.
+And when you try to read or write data that it will actually touch the surface and it will try to read the data from there.
+And as Martin mentioned that because it's a mechanical device where there are movable parts.
+So if you don't take good care of your hard disk chances are there that it may get corrupt and you may end up losing the data.
+So the lifespan of anything which is which has a movable part is less than non movable and SSD is that technology where there is no movable parts.
+So you may like to read about how these devices store and process data.
+Okay, anybody else any comment.
+So we can move into the compression piece of the lesson today.
+Yeah, with this, bring your terms up on the screen there if you you can move up.
+All right, excellent.
+So let me. So the concept of compression. So what is compression right compression is just the process of reducing the size of data.
+The idea is that it takes it will take the data it will take less storage right and if it's less has a smaller size, then we can transmit that information more efficiently and faster right.
+So where is compression use compression is used in images or your video and in general data storage.
+Now, there are two approaches to compression of information one can be lossless and lossless as the name suggests there is no loss of data.
+And the other one is lossy compression where some data is actually removed.
+So let's we can think of a lossless and lossy compression in this way, right.
+On the lossless compression, we have the original data can be an image, it can be audio.
+And then we compress it we change the size and we change the size by using different algorithms.
+But we're able to restore the whole original image or data on the lossless compression.
+We do reduce the size of the data or image, but we when we restore it, we don't get the original one.
+We get a different version of what we have, but with a quality good enough that is not distinguishable for the actual use of that particular data.
+So we just take just eliminate data that is relevant for the message that we want to transmit.
+So here are some of the features of lossly and lossy compression.
+So lossless is reducing the size without losing any data.
+The original file can be restored completely while with lossly compression, we actually permanently delete son of the data.
+And usually if it's a picture is something that we probably wouldn't be able to notice or if it's on sound, then it might take some data that is there that is not needed.
+Think of maybe I don't know a song that has on background knowledge that is not part of the song.
+So that can be removed and I have a better.
+A better sound to it, right.
+The restoration of the file in lossless compression is 100% we get the original file on lossly compressor is irreversible.
+Once is once is is done, then you don't get the original file.
+Okay, you don't get the exact data.
+So there are some methods to do this.
+The wrong land encoding are le the half man coding, which is the LZW use to zip files and png.
+And what happens is it transform also on this.
+Okay, let's say that you have a lot of text with reparative information and then what that reparative information the way is compressed using this strategy is that we basically take as a statistical analysis of what data repeats.
+And we encoded based on that.
+We'll talk about that in a second.
+For example, in lossless compression, transforming coding.
+Quantization it and this is used mostly on MP3 and JPEG and MP4 files.
+Because again, the quality might if you're streaming, you know, you might not need high quality streaming for a video.
+You just need the important information to be transmitted.
+So you don't necessarily need the quality of the image itself to be the best.
+You just need the message to come across.
+So in that case, we'll be easy to use.
+I have a question about the streaming.
+Yes.
+So let's say.
+If I'm, let's say I'm streaming at 340 pixels, the YouTube, you know, that that mean that that one like the compression is more than let's say one one hundred and one thousand and 80 pixels.
+And then is there a quality that you can stream where all the pixels come and none of them is lost.
+Oh, let's.
+If if none of them is lost, then we will have to make sure that it's a lot of lossless compression, which means that you will be able to get the whole file again, right without lose of data.
+We do a loosely compression.
+Some quality of the images on the video are going to be are going to be lost.
+So it might not be as bright as the original video.
+It might have some maybe color.
+Disarray that here and there.
+But again, the idea of doing a loosely compression on a video is to.
+Remove some of the data that is not needed because we're not concerned about the quality of the video.
+We are more concerned about the message of the video.
+Think about, for example, news broadcasting, right.
+If somebody wants to send a video from one end to the world to the next and what's more important is what is what happened of the message in the video, then we're not necessarily concerned about the quality of the image itself.
+I don't know if I may sense on did I answer your question, Alexandra?
+Yes, please.
+Okay, awesome.
+So the next.
+So use cases.
+When do we use lossless compression and when do we use a loose compression, right?
+So lossless compression usually is using text files, source code,
+and medical images and a PNG images.
+That's where we use lossless compression because if you have, for example, a contract, right.
+That you need to transfer for one end to another due.
+You want that text to come on the other end, a complete.
+So the contract is clear and we don't we didn't lose any any information on that particular contract.
+But lossless compression as we were discussing is use a lot in a strange video on audio on photos and sometimes YouTube is 45 and JPEG images.
+Once again, because we're not concerned about the quality itself of the image or the sound, okay.
+Why do we use lossless compression for PNG images?
+Say that again, I'm sorry.
+Why do you use lossless compression for PNG images?
+Why is use lossless compression used for PNG images?
+Let me answer that.
+I mean more than the format of the file, it's actually the purpose for which you want to use the compression.
+Now let's imagine, let's think about a scenario that you clicked some pictures on your DSLR camera or on your high definition mobile phone camera,
+which is giving you the files in the PNG format or JPEG format or any other format for that purpose.
+Now let's say your purpose of clicking the pictures from your camera is to share with your friends or uploaded to your social networking website.
+Now in such scenarios, since you have many different pictures that you want to share and those pictures will mainly be viewed on the mobile phone or at the most on a laptop or on a TV screen.
+Where the display size is relatively smaller.
+In such scenarios, there will be no harm if you use the lossless compression to reduce it to a maximum extent so that you can easily post it to the social networking website.
+So it will consume less bandwidth for you.
+It will consume less storage space on your social networking website.
+And at the same time, it will be convenient for your friends and family to watch them because it's smaller image size.
+As compared to uploading those images in the original format where each image may be 10 to 12 mbs of size,
+which will make it very inconvenient for you to upload and also for them to watch it.
+So whether it's a PNG format or it's a tape format or it's a JPEG format, it's more about the purpose.
+Now let's think about another scenario that you click the pictures for a publication company where they want you to
+click some pictures for them, which they want to include in their magazine.
+Now such images need to be very high definition. They need to be not pixelated.
+So in such a scenario, you would like to use a lossless compression where no data is lost so that when the publisher opens your document after decoding it,
+they should be able to get back your original picture, which will be full definition without the loss of any content.
+Right. So that is where that is how we decide between lossy and lossless.
+Now, Alexandra asked about streaming that how do we decide that what is the quality that can be related,
+whether it's high definition or it's less. It depends on what kind of audience you are going to
+to share your content with. For example, you may have seen that when you watch the YouTube videos,
+there is an option where you can actually change the resolution quality.
+You can make it 1024, you can make it 768, you can make it 540,
+and there is also an auto. If you set it to auto, your computer will analyze what bandwidth it is getting,
+what is the quality of video, which is on the YouTube server,
+and then accordingly, it will adjust the quality so that you get an uninterrupted way of viewing it on your computer.
+Right. So let's say you have very low speed internet connectivity in a remote area,
+and you're trying to watch a YouTube video. If you play it in full definition mode,
+it's not that it will not play, but it will have several lags in between.
+So it will show for a while, and then we'll start buffering,
+which will not give you a pleasant watching experience rather than playing it on a lower quality like for 540 pixels,
+which will at least have little poor quality, not very well noticeable on a small screen,
+but at least it will run uninterrupted.
+So the whole concept of lossy and losslet depends on the nature of the objectivity that you want to achieve out of it.
+Like it's very important, like in the case scenarios here, you can see that for the coding for the programming,
+we will never use lossy compression. Can you tell the reason why?
+If you want to share your code of an application with your teacher,
+we would recommend that never make it lossy compression. If you are compressing it,
+we want you to come back. Why would you not prefer using lossy?
+Because if one letter missing will create a never.
+Absolutely, even if it is a 10,000 lines of code,
+and even if it is semicolon is removed as a redundant data,
+because lossy won't understand. It will see some redundancy and it will remove it.
+That will completely spoil your program. It will not execute until you correct those errors.
+However, if you compress an image, which you can actually try,
+there are a lot of online tools using which you can compress the data.
+Take an image, a good high definition image from Google,
+reduce it to even 90%. And then keep both the images side by side.
+You will hardly see any difference.
+The difference will come when you try to zoom the image.
+The original image will not get pixelated,
+but the compressed image, which you compress by 90%,
+maybe 10 and B file you made 1 and B, which is 90% compression.
+When you zoom them together, you will be able to see that the original image is less fixated than the compressed one.
+So if you are creating a video for a display on a big holding, let's say,
+there's a holding digital holding on the street,
+and you are developing a film for them,
+you cannot afford to compress it too much with the lossy compression,
+because when it goes to the larger display, it will get very pixelated.
+So the display won't be good.
+So depending on the nature that we decide which compression technique that we use,
+now the question may be, why not we always use loss lossless compression,
+when that gives us the ability to regain the original format back.
+Why do we not always use lossless? Why does lossy even exist?
+Can you answer that?
+Anyone?
+Because lossless can free our play space then.
+Yes.
+Yes.
+Why lossy can be compressed to any level?
+It depends on how much quality do you want.
+You can compress even to 1%, I mean from 102, you can make it even 1%.
+Like 100 and B file can become 1 and B file.
+You can compress to that level.
+Quality will be deteriorated, but that's okay, it's doable.
+But in lossless compression, it is not in our hands,
+because the algorithm which is used in lossless,
+that will compress only depending on certain algorithms, for example,
+RLE, where it finds the repeated patterns and clubs them together through a certain code.
+So let's say you have a text running text,
+5 times A, 2 times B and 3 times C.
+Now considering that each letter,
+let's say takes 1 byte of space,
+5 A's, 3 B's and 2 C's will take 5 plus 3, 8 plus 2, 10.
+10 bytes of data.
+But when it is compressing, instead of 5 A's through RLE technique,
+it will make it 5 number 5 A.
+So something which could have taken 5 bytes for 5 A's is now taking 2 bytes as 5 A.
+Now when you decompress that, the technique will change 5 A into 5 single A's.
+Now there we don't have anything in our hand,
+because that algorithm has to get that data back into the original format.
+So we have to go by what it offers.
+Like when you zip a file, when you have a folder with let's say 100 photographs
+and you zip it or archive it.
+And when you unzip it, you guess the original data,
+but the amount of compression will be very limited.
+Maybe 100 MB may become 95 MB, 90 MB at the most.
+Right, which is not too much of compression,
+but the benefit is that you can get back the original data back.
+So you can see here the example which is on the screen.
+We have three images with 650 KB.
+Lawsless is hardly 625.
+So just a difference of 25 KBs.
+And the lossy is 100 KB.
+And tell me honestly, if you look at the screen of this size,
+and if we remove that size on the top,
+will you be able to differentiate if they are different from each other?
+Can you see any noticeable difference?
+Can anyone see the noticeable difference?
+No, not really.
+Not really, right?
+In fact, to me, the lossy one looks more brighter than the other two.
+What do you think?
+I'm saying to me, it looks better than the lossy.
+Exactly.
+So when you look at the images in a small screen,
+you can barely make any difference.
+And see the amount of compression which has happened in lossy from 650 to 100,
+which is 6 more than 6 times less than the original size.
+But in the lossy, the problem is if you expand this image,
+if you zoom in this image,
+then you will be able to see a noticeable difference between lossy and lossless.
+It totally depends on the objective as to why you are compressing,
+and whether you want to get the original data back,
+or you are fine with compressed data.
+Like in the audio files,
+if you're compiling music to be played on larger speakers for several,
+let's say, 100 audience,
+you don't want distortion in the sound quality.
+So then you would like to use the lossless compression.
+But if you're using it just to play on the laptop or on your mobile phone,
+then even lossy compression would be good enough.
+So it totally depends on the nature or the objectivity which using which you can determine
+as to which compression technique you have to use.
+Now in the exam, they may ask you about how RLE technique works.
+So they may give you a string of characters,
+and they may ask you that after RLE,
+what would be the new size needed?
+You need to learn that from the platform or even the additional resources.
+They may even give you the case scenario as Mr. Martin just demonstrated to us
+that they will give you some scenario that a person wants to send images that they took
+as an evidence of their experiment in the chemistry lab to the teacher,
+which compression technique would be preferred.
+So those kind of scenarios,
+now that can be a lossy compression because it's just an image of the experiment being done,
+which is to be shared with the teacher,
+the teacher will get frustrated if you end up sending them 700 mbs of data,
+rather than something which can be done in 7 mbs,
+where they just want to see an evidence of what you have done.
+So depending on the nature of tasks,
+you should be able to make a decision about whether you want to go for lossy or lossless compression.
+Sorry, Martin, I jumped in.
+Thank you. Thank you for the examples and clarify.
+So here are a couple of additional examples.
+So lossless, you want to use those with text,
+maybe sometimes they're used for CSV files and zip files,
+because again, you don't lose any of the information, right?
+Lossy, reduce the quality of the photo.
+It's going to make it look faster on our website.
+But again, as we saw here,
+the difference is going to be when you zoom in into the image and then you can establish some difference.
+So for I be also what some of the key points is that you should be able to establish advantages of this advantage of both methods.
+And the other is that on the standard that lossless is required for critical data.
+Mr. Rajas mentioned something like code, legal documents, medical scans,
+where every single bit of the image matter, right?
+Or every single bit of information is important to be able to have the original data to make an analysis of its own and so forth.
+And lossless prefer for when it's more size files.
+And speed are more important that the actual accuracy, right?
+And we want to transfer that information from one end to the other.
+All right, so here we have a couple of questions again.
+Let's see we can answer those.
+The best the best we can, right?
+Yes, you have a question go ahead.
+It's not really a question, just I have to go soon to catch a bus and the lessons already.
+Pretty longer than I expected and on the schedule and I have to catch a bus.
+We'll have to go soon.
+I remember that you will have access to the recording so later on you can go over and check what you mean.
+But if you have a commitment and you need to leave feel free to do so.
+Okay, thank you.
+You're welcome.
+So let's look over a couple of the questions here.
+So based on what we just mentioned, what would be an example of
+lossless compression?
+Anybody?
+PNG.
+PNG.
+Correct.
+PNG because we on PNG we need to preserve the quality of the of the image.
+Okay.
+All right.
+So what about here?
+Why MP3 only files are much faster than what files?
+What would be the reason?
+What compression?
+If it's more faster, right?
+What would be the reason for it?
+So MP3 are compressed with a lossy technique.
+So the file size of the file is smaller than the wav file.
+Correct.
+Because it's compressed to lossy.
+That's correct.
+Good job.
+Right.
+So what would be two differences there between lossless and lossy compression and try to give an example of it?
+The main differences are that the lossless doesn't lose any data or data.
+Whereas lossy does lose a redundant data and an example of a user for lossless would be a string of codes where
+lossy would be a image you're sending to a friend or don't have a family.
+All right.
+Good job Thomas.
+Thank you so much.
+Here I have.
+Right.
+So here is just an example that one mb image is compressed using lossless compression can be reduced to 700 kb and a lossy compression can be reduced to kb.
+Right.
+So once again, just to end, what would be an advantage of this advantage of using either one here?
+Very similar as before.
+What would be an advantage of this advantage for this X and R?
+Using lossy can make the file smaller and make it more faster to send.
+We just need the independence on the intent.
+Correct.
+If we just need to transfer that information faster and saves on space or when we're storing the image, then we will use lossy.
+Otherwise, we will keep the image in the original size.
+Okay.
+All right.
+So we're going to move into the different types of iCloud computing or iCloud services.
+And what cloud computer is a way to define what that is is using somebody else's computer.
+Right. And if you use somebody else's computer, then you can use it in different ways.
+Right. So it's just using some computer resources.
+And those computer resources could be the servers.
+You can use just this storage.
+You can use the databases or the network, the software.
+So it depends on what you're using and these services are through the internet.
+So instead of owning and maintaining all this equipment, hardware and software,
+you suggest rent what they need when they need it.
+Right.
+So you don't have to rent all the time stuff that you don't use or occupied at the moment.
+All right. So the biggest providers of cloud services at this moment are Amazon with services,
+a shoe that is for Microsoft and then Google Cloud.
+Those are the top three competitors on the cloud computing services.
+So there are three basic types of services that are offered at this point.
+Actually, there are more than that, but those are the basic ones.
+The infrastructure as a service.
+The platform as a service and the software as a service.
+Let's let's start from the bottom up. Right.
+So the software as a service.
+So when you when we use Microsoft 365 and when we use all the applications that Google has,
+we are using software as a service because it's ready to use.
+It's delivered through the browser or through an app and.
+Are you are responsibility just to use the applications, right.
+There is no other responsibility is just going to use what is provider.
+There are some limitations because we can we just use it.
+We don't have any way to change or modify or doing any of that, right.
+Now, if we use the platform as a service, then now we are.
+One we have a little bit more responsibility because the responsibility is going to be to develop and deploy applications.
+So what is that we are going to to use right.
+We use the platform and the tools to build applications and software or me mean where right.
+One disadvantage is that depends on the platform that we use in.
+We might be vendor locked, which means we are restricted by what they provide and what we develop may not be compatible in other platforms.
+Right, so that that's a disadvantage that we might need to look into that.
+So examples are Google apps.
+Google app engine and Heruch, which allows to develop and deploy applications.
+And then the instructor infrastructure as a service is when now we're going to use virtual machines, storage and networking.
+So what is the responsibility from the user is to install and manage the operator system software and security.
+Everything else is taken care by the by the service, right.
+So a company that is just stirring up made don't have either the space in the building to have all these equipment or they might not have a.
+Money to actually do it, the finance is to start with everything that they need that they just might need to grow their business as their customer base grows on and so forth and as this their gate no.
+So an example of use case is a start apps hosting their own apps on virtual servers, right.
+So they don't have to spend money on their own servers.
+The examples is the AWS Amazon Web Services easy to which is just a virtual machine is a virtual computer that you can use right.
+And in terms of Google the Google compute engine which again is just a virtual machine is a virtual computer right.
+So an analogy that helps to understand this is is like renting housing right so in infrastructure as a service you basically are renting the whole apartment but it's empty.
+So you get just a space the utilities right water, light gas on and so forth but you must furnish and maintain the apartment right.
+You can be infrastructure as a service in platform as a service then you do rent the apartment but you have a basic setup right you might have a some furniture right maybe something to cook a meal or something like that but you must bring your personal belongings right everything else that you need.
+And the software as a service is that you go to a hotel and everything is there all you got to do is take yourself use what you need to use and live right so that that will be an analogy between these three.
+Cloud computing services that we have now there are some advantages so what will be before we go into that what will be an advantage of renting this type of services.
+Can I answer that yes of course go ahead yeah.
+So it will be cheaper and then it will be hands off so they will update if you have the server running or something and it gets more crowded for instance the company that you.
+Just providing a server would increase the server amount or something like and then you don't need to manually do that yourself so this that's physical like labor and then that you can like make sure your service is always like up and running so that's like pretty good.
+And this advantage is like security for instance where companies like fail to keep the security of the service so the data will maybe get leaked but yeah.
+Okay, thank you, thank you so much yeah that's that that's pretty good description of some of the advantages of using this type of cloud computer service anybody wants to add something else.
+We're good.
+Just just once so whenever you say the benefits or drawbacks as it is cheaper or it is more expensive or it is faster or it is slower.
+Please add an additional line of justification as to why do you say that because if you just end up saying that the infrastructure as a service is cheaper okay it's very subjective because somebody may say that how can it be cheaper because we have to pay every month or every year for the subscription.
+If you buy our own stuff then probably it's a one time cost so maybe that will turn out to be cheaper in the long run so I'm not saying that saying it is cheaper is wrong but then give a justification that the organization can save.
+One time cost which may be very expensive for the company to manage rather than splitting that cost into many different months right so make it a habit that whenever you make this kind of point it is more secured it is less secured and it is faster it is slower it is cheaper it is expensive.
+Please add an additional line as a justification.
+Thank you so here you have some of the advantages that maybe we talk about is that this scalability right you can add and remove services as you need right if your business is growing and you need another point of contact for your for your client tell for you users then maybe you my.
+Want to have another server and that you don't have to to lose any of your potential customer right it's called efficient you pay as you go you only pay for what you need accessible if you have an internet then you're going to have access to everything that you you're having in your company or the services that you're offering and the maintenance is handled by the provider right so.
+Obviously you do have to have your responsibilities cover but most of the responsibility of the maintenance is foreign from the provider alright so let's try to really quick go over these questions so what is the infrastructure as a service provides and if you can just give us an example
+it provides servers and storage which one which of the three services provides that
+for example somebody help us out well the company for instance when it's starting it doesn't have to purchase the hardware the servers as
+mentioned it doesn't have to invest in servers it can well rant it and pay only for the resources that it is using so it streamlines the process of well developing some product or interest infrastructure in terms of the infrastructure as a service yeah without the need to build everything or purchase everything from scratch.
+Okay thank you thank you so much all right so again as Raj suggested less expansion times on the reasons why right the something is the way it is what will be for this to question to what will be the scenario that is appropriate for it so using Microsoft teams for online minutes what which one will that be what type of services will that be.
+There which one software service right SAS software as a service which is using the software we're not doing anything deploying an app on Amazon Web Services in a virtual machine which one will that.
+service yeah correct correct good job and building apps on Google app engine that will be okay all right so so these are a couple of reflection questions on depending on the services that we are renting or using
+with service give you the most control with service is easier for a not non technical users somebody that you know doesn't have a lot of technical use sorry knowledge and with my why might I start up choose the infrastructure as a service over the software as a service so let's hear if or which one which service give you the most control.
+infrastructure as service.
+If a structure as a service because you have to bring everything that's correct it's just renting the space which service is the is the easiest for a non technical user.
+So for just using the software like we use Google documents or Microsoft apps on and so forth right and why might start up choose infrastructure over SAS.
+Well if it needs a scalable virtual machines maybe or if it needs some hard stars which is scalable.
+Exactly I'm because because size will be just using the software and I can start up my might actually be developing some type of software or applications correct so they do want to have control over how the product that they are producing should be developed.
+Right so that that's why they will choose one over over the other well that's rush that's what I have for for the class I don't know you want to add anything else.
+I think I think that's all respecting everybody's time because that system is running for almost an hour and a half so probably there may be a few things left so we can cover that in next lesson in fact I have prepared a code is also but I think we will do it next week okay.
+So thank you so much everyone for being here in the class and you may have realized that it's important for you to go through the content once again because everything that we discussed may not have been understood completely if you did not go through the content beforehand so we strongly recommend that utilizing today's lessons whatever we discussed both of us.
+It would be great if for the remaining three days for this week you can go through the whole content because it's a very theoretical topic and unless you try to go through the content.
+In a detailed way you will tend to forget everything that you learned so try to go through the text on the palm of your website also go through the additional resources if you have the text book go through them.
+Go through the PDFs that we have uploaded to the shade folder and once you have everything together I think you will be in a very good position to be able to complete the lesson requirements.
+The next topic is eight to two is less theoretical it is more interesting because we'll be learning about how the logic gate works about the truth table and all those things which is little more interesting than purely theoretical topics that we have done in in the last two lessons.
+But we strongly recommend that you must go through everything and in the corresponding weeks we will have some written assignments like right now in the initial phase you just have the quizzes etc and the discussion which is slightly on the lighter side but as we progress with the curriculum you will see that you will have more and more written tasks coming up.
+So stay tuned and thank you for for being here we see almost 50% students joining every week and we have to see that how best we can make other students also realize the importance of these classes.
+Okay, so I have another student meeting now with few students as individual meeting with the teacher so unless you have any questions that you would like us to answer.
+We are done Thomas do you have a question I see your answer is that a clap is clapping.
+Yeah sure.
+All right then okay so it's it's a good night for me 9 30 pm it may be start of the day for some of you so enjoy your weekend and we'll see you next week.
+Okay.
+Hi everyone. Thank you everybody.
+Thank you for joining my next session please join the link for my own class.
+Take care.
+All right.
+Rush talk to you later then okay.
+Yeah sure I'll talk to you.
+Thanks Martin.
+Bye everybody.
+Thank you.

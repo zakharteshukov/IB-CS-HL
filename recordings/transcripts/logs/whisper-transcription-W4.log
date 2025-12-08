@@ -1,0 +1,898 @@
+[13:48.000 --> 14:05.300]  Great. How's everything? How's studies going on? I think the recent topic has been more
+[14:05.300 --> 14:15.700]  difficult. Yeah, I totally understand that. Yes, the week 4 topic is a little more complicated
+[14:15.700 --> 14:21.700]  if you haven't studied number systems in the past. So that's what we are going to discuss
+[14:21.700 --> 14:32.700]  today during this next hour and a half. I thought we're going to be talking about last
+[14:32.700 --> 14:38.260]  week's topic. We're going to finish that. Oh, are we going to talk about week 4? Are we
+[14:38.260 --> 14:45.260]  going to move on week 4? Because in that case, I think it'll be better. So we only did week,
+[14:45.260 --> 14:51.260]  we only finished week 3, right? Was there anything left? We discussed about how we didn't
+[14:51.260 --> 14:57.260]  finish it in time because we didn't have time or something, but I think it was like, we
+[14:57.260 --> 15:04.260]  probably didn't have. If I remember correctly, we finished until cloud storage and that's
+[15:04.260 --> 15:14.260]  one point, one point nine, which is the last topic. Okay, it's worth going through the subject
+[15:14.260 --> 15:18.260]  guide before we start the class so that we can see that if there is anything left, we can
+[15:18.260 --> 15:24.260]  cover that. So are you saying that you found some difficulty in the previous class or this
+[15:24.260 --> 15:41.260]  one week 4? Good morning. How week 4? So this ongoing week is week 4, isn't it? We are
+[15:41.260 --> 15:51.260]  currently in week 4, correct? Martin, am I wrong? No, we are in week 4. This is with 4,
+[15:51.260 --> 15:59.260]  this is week 4, correct? Yes. Okay, guys, we see that three of you have turned on the camera.
+[15:59.260 --> 16:08.260]  Thank you so much for that and I request other members also to keep camera on during this lesson.
+[16:08.260 --> 16:22.260]  Yes, it's Tyler, Gabriel, software, Alma. I'm not sure because I generally don't see all
+[16:22.260 --> 16:28.260]  the cameras on, but I think that's a problem from my end. I need to figure out why. Martin, I can just see three
+[16:28.260 --> 16:38.260]  students. How many can you see with the cameras on? Two, four, eight on my end. Okay, so I don't
+[16:38.260 --> 16:46.260]  know what's the reason that it shows me. It doesn't show me all the cameras on. Got no
+[16:46.260 --> 16:55.260]  answers for the reason. Right. And right now we have 17 students with us. Yeah, we have 17
+[16:55.260 --> 17:05.260]  hours of now. Okay, by the time everybody joins in. So it's one, one or one. So we are just one
+[17:05.260 --> 17:11.260]  minute ahead of it. So we can spend next three to four minutes talking to each other about how things are
+[17:11.260 --> 17:17.260]  going. Anyone would like to just share any quick reflection about how you start is going.
+[17:17.260 --> 17:28.260]  Are there any areas of concern or is there anything else that you would like to discuss?
+[17:28.260 --> 17:32.260]  Please feel free to share whatever your thoughts are because we are completing one month now.
+[17:32.260 --> 17:37.260]  This is the fourth week. So we are almost completing one month. So how has everything?
+[17:37.260 --> 17:54.260]  How is everything going with you? Anyone? So most of the material. Understandable? Okay.
+[17:55.260 --> 18:02.260]  I found that circuit is difficult. Which one? The circuit.
+[18:02.260 --> 18:11.260]  The circuit is difficult. Okay. All right. Okay.
+[18:11.260 --> 18:19.260]  Yes, it does. Okay. I mean, if there is some technical issues, that's fine. But if your camera is working,
+[18:19.260 --> 18:26.260]  then I would expect that you should keep it on.
+[18:26.260 --> 18:32.260]  So we now have how many 20 students probably will have fewer more joining in.
+[18:32.260 --> 18:40.260]  So it's a good idea to go through the subject guide once so that we can see that how we are progressing with the course.
+[18:40.260 --> 18:47.260]  So I will just share my screen quickly and we'll have a look at the subject guide.
+[18:47.260 --> 18:57.260]  Because as we have been saying that even though you can have any number of resources to help you explore the topics or revise the topics.
+[18:57.260 --> 19:08.260]  But the most authentic document which is used by the IV for curriculum delivery guidelines and also for assessments is this subject guide.
+[19:09.260 --> 19:27.260]  So going from the beginning in the second class, second class of our course, we did 1.1.1 to 1.1.5, which is described the functions and interactions of main CPU components.
+[19:27.260 --> 19:31.260]  Arithmetic logical unit control unit and all that.
+[19:31.260 --> 19:39.260]  And as I mentioned during the previous class that these command terms actually define the level of depth that you need to prepare yourself for.
+[19:39.260 --> 19:42.260]  Like describe this assessment objective to.
+[19:42.260 --> 19:52.260]  And assessment objective to says that you need to know the concept and you need to know the reason what why and how of that that is assessment objective to.
+[19:52.260 --> 20:01.260]  So when you are when you are preparing for these topics from the assessments point of view, always keep in mind the sub command term, which is for these topics.
+[20:01.260 --> 20:08.260]  So unless it is explained for example, this is explain you need to go for these topics into more depth.
+[20:08.260 --> 20:16.260]  From the assessments point of view, so you can have questions such as discuss or explain or to what extent.
+[20:17.260 --> 20:29.260]  Any question which requires you to have critical thinking skills, which may require depth of understanding that will apply to the command term explain or any command term, which is for assessment objective 3.
+[20:29.260 --> 20:37.260]  Like 1.1.4 also is for assessment objective 3 and 1.1.5 describe that is assessment objective to.
+[20:37.260 --> 20:47.260]  But you can decide on I mean you can get a very clear indication of how much depth of understanding is needed for each of these topics.
+[20:47.260 --> 20:52.260]  So when you're when you're revising these topics, please go into little additional depth.
+[20:52.260 --> 21:03.260]  As to what it is how it works and then further details as to what are the applications in what areas is it used.
+[21:03.260 --> 21:12.260]  Listening for whatever you study why it happens how it happens so that you will be fully prepared for questions that may come from these topics.
+[21:12.260 --> 21:15.260]  Okay, so describe the role of GPU we learned about GPU.
+[21:15.260 --> 21:21.260]  Then we talked about the difference between CPU and GPU, which was just for HL course.
+[21:21.260 --> 21:24.260]  Then we had explained the purpose of different types of primary memory.
+[21:24.260 --> 21:28.260]  We learned about RAM ROM or cache memory and all that.
+[21:28.260 --> 21:33.260]  We also learned about cache miss and cache hit.
+[21:33.260 --> 21:38.260]  Does anyone remember what cache miss and cache hit means?
+[21:38.260 --> 21:45.260]  This means when this CPU is able to retrieve the data from it.
+[21:45.260 --> 21:48.260]  Yeah, and this is something.
+[21:48.260 --> 21:50.260]  Yeah, absolutely.
+[21:50.260 --> 22:02.260]  So since the command term is explained, so what you have just mentioned is actually the bare minimum description of what cache miss and cache hit is.
+[22:02.260 --> 22:11.260]  But when you revise in this topic, you have to also think in terms of how does it impact the CPU's overall functionality because it is explained.
+[22:11.260 --> 22:18.260]  So what you said is absolutely correct that when CPU is trying to fetch information or data from the cache memory.
+[22:18.260 --> 22:21.260]  If it finds information, that is a cache hit.
+[22:21.260 --> 22:30.260]  That means according to the clock speed of CPU, if it is getting the sufficient amount of data, it will be able to fetch it without any waiting period.
+[22:30.260 --> 22:32.260]  That is cache cache hit.
+[22:32.260 --> 22:37.260]  But if it is trying to fetch the data, but cache doesn't have anything that is called cache miss.
+[22:37.260 --> 22:44.260]  And in such a scenario, the CPU will have to wait, which results in idle time CPU idle time, which will slow down the process.
+[22:44.260 --> 22:55.260]  So this is what explain is, you don't just have to know what it is, but you also have to link it to further understanding as to how it impacts the overall functionality of the system.
+[22:55.260 --> 23:00.260]  Then we learned about fetch decode execution cycle, which is a very important topic.
+[23:00.260 --> 23:05.260]  But since it is described, so you just need to go at the middle level of understanding.
+[23:05.260 --> 23:09.260]  Describe the process of pipelining. This is only for HL. We discussed it last time.
+[23:09.260 --> 23:27.260]  What pipelining is and how it is significant from the CPU's point of view in terms of multiple core and how each code performs its responsibilities so that the overall processing of the CPU can be increased or enhanced internal external type of secondary memory storage.
+[23:27.260 --> 23:42.260]  We talked about many different ways that data is stored. For example, SSD, HDD optical drives, flash drives, memory cards, network attached storage, NAS, the scenarios in which various types of drive drives are used.
+[23:42.260 --> 23:48.260]  So again, for the assessment objective to you need to know what these storage devices are.
+[23:48.260 --> 23:54.260]  What are their unique characteristics? How they are different from each other? Under what circumstances do we use them?
+[23:54.260 --> 24:05.260]  For example, where do we use SSD? When do we use HDD? When do we use optical drives, flash drives? That will be enough for you to learn in terms of meeting the requirements for this topic.
+[24:05.260 --> 24:10.260]  Then we discussed about concepts of compression. What compression is all about?
+[24:10.260 --> 24:19.260]  Difference between lossy compression and lossless compression. And you need to be aware of run length encoding and transform coding.
+[24:19.260 --> 24:25.260]  These are the two different ways of encoding. So you should have understanding of how they work.
+[24:25.260 --> 24:34.260]  So you may be given an example of an image or sequence of alphabets and they may ask you how would run length encoding work.
+[24:34.260 --> 24:36.260]  So you should be clear about that.
+[24:36.260 --> 24:42.260]  They describe different types of services in cloud computing. This is what Martin covered last time.
+[24:43.260 --> 24:49.260]  That what cloud computing is and what are the different types of services that are offered as a part of remote computing.
+[24:49.260 --> 24:59.260]  For example, software as a service. A good example. Any example of software as a service, which you use.
+[24:59.260 --> 25:05.260]  Google workspace. Google workspace.
+[25:05.260 --> 25:11.260]  Okay.
+[25:11.260 --> 25:27.260]  There's a difference between I wouldn't say that Google Drive is the best example for software as a service because software as a service is basically an application, which is running from a remote server, which gives you the flexibility to do some work.
+[25:27.260 --> 25:34.260]  So I would say Google docs may still be software as a service, but Google Drive is more of a cloud storage.
+[25:34.260 --> 25:41.260]  It's you are keeping your storing your personal information or personal data onto a drive that is just a cloud storage.
+[25:41.260 --> 25:46.260]  It's not a software. It's just giving you some remote space for you to keep the data.
+[25:46.260 --> 25:56.260]  But software as a service is an online application, which can be used remotely by many different people across the globe with the help of internet.
+[25:56.260 --> 26:01.260]  Now keeping that in mind, can you tell some example of software as a service.
+[26:01.260 --> 26:03.260]  Zoom.
+[26:03.260 --> 26:10.260]  Yeah, zoom can be good example of software as a service. Yes. Any other example.
+[26:10.260 --> 26:14.260]  Come on and this classroom service.
+[26:14.260 --> 26:19.260]  Absolutely. The canvas classroom that we are using. This is a very good example of software as a service.
+[26:19.260 --> 26:25.260]  So this platform is actually hosted remotely, which is on some remote server.
+[26:25.260 --> 26:29.260]  And we are using it from different parts of the world. So this is a software.
+[26:29.260 --> 26:33.260]  It's an application which we are using. It can be it can be canvas.
+[26:33.260 --> 26:36.260]  It can be managed back if you use in your school.
+[26:36.260 --> 26:39.260]  It can be total that you use in your school.
+[26:39.260 --> 26:48.260]  So any application, which is stored remotely somewhere and we use it through by using the internet.
+[26:48.260 --> 26:55.260]  So please use the word internet whenever there's a question about cloud. That's that's important.
+[26:55.260 --> 27:05.260]  Okay, so next is platform as a service infrastructure as what is platform as a service.
+[27:05.260 --> 27:13.260]  I think we had a question last time what Miss Martin had compiled a few questions or any example of platform as a service.
+[27:13.260 --> 27:20.260]  It's a pre build infrastructure that the developers can use to create their own.
+[27:21.260 --> 27:26.260]  So as an example, it's it's Google app engine.
+[27:26.260 --> 27:31.260]  Yeah, thank you for that. I think that's the perfect definition of platform as a service.
+[27:31.260 --> 27:36.260]  So it's it's kind of using the computing power remotely.
+[27:36.260 --> 27:39.260]  For example,
+[27:40.260 --> 27:48.260]  there's no firebase also counts as platform as a service or a service software as a service.
+[27:48.260 --> 27:51.260]  So what does it do exactly?
+[27:51.260 --> 27:55.260]  I think you can.
+[27:55.260 --> 27:59.260]  It helps like create like apps. That's what I will see.
+[27:59.260 --> 28:00.260]  Okay.
+[28:00.260 --> 28:06.260]  This more of like AI software that used to make your app.
+[28:07.260 --> 28:18.260]  So it will totally different see the easiest way to differentiate between software as a service and so platform as a service is that if you have written some code on your computer, for example.
+[28:18.260 --> 28:26.260]  And you are your computer is sending that code to a remote server for the execution to get the results back on your computer.
+[28:26.260 --> 28:28.260]  That is platform as a service.
+[28:28.260 --> 28:36.260]  So you're writing the code here, but just because the compilation is not happening here because of the the amount of power that your CPU needs.
+[28:36.260 --> 28:38.260]  Maybe you don't have on your laptop.
+[28:38.260 --> 28:40.260]  So that mean that code will go to the remote server.
+[28:40.260 --> 28:43.260]  It will get executed there and results will be brought back to your system.
+[28:43.260 --> 28:46.260]  That is platform as a service.
+[28:46.260 --> 28:50.260]  Where a software as a service is, which is a program which is running application, which is running.
+[28:50.260 --> 28:52.260]  And you're just using that as an end user.
+[28:52.260 --> 28:56.260]  That is a service that is a software as a service.
+[28:56.260 --> 29:08.260]  Now, depending on the nature of software that you use, you ask yourself, are we the end users for that software or we are using that software to run our programs that computing is happening elsewhere.
+[29:08.260 --> 29:12.260]  If the computing is happening elsewhere, then it is a platform as a service.
+[29:12.260 --> 29:20.260]  But if you're just using it as an end user that we log into the system and we are just attending the online classes, we are submitting the assignments.
+[29:20.260 --> 29:29.260]  So we are kind of using a software, which is remotely based and we are just trying to use that for the for the as an end user.
+[29:29.260 --> 29:33.260]  So that is software as a service.
+[29:33.260 --> 29:35.260]  There's a very thin difference between these.
+[29:35.260 --> 29:48.260]  If you look at a few examples, I mean, this is where you can use AI to just say that give me the examples of software as a service platform as a service and infrastructure as a service, you will easily be able to see the difference between them through the examples.
+[29:48.260 --> 29:56.260]  And then the difference between them and different scenarios where they are used.
+[29:56.260 --> 30:03.260]  So as I said, just list on few examples using AI and you'll be able to see the difference between them.
+[30:03.260 --> 30:07.260]  Martin, did I miss anything because you covered that topic. So just feel free.
+[30:07.260 --> 30:15.260]  No, I think you did an excellent job there unless they have any other question.
+[30:15.260 --> 30:30.260]  Okay, so we'll move on and maybe last couple of because one thing more I wanted to check with you because we have a few participants for whom the time now should be about 12 midnight, especially in the Japan reason and all that.
+[30:30.260 --> 30:50.260]  So I wanted to also check with you and Martin to you also that what if we prepone our time by one or will it be fine with you like for example instead of one PM GMT what if we do it at 12 noon GMT will that work for everyone.
+[30:50.260 --> 30:56.260]  Martin, I know it will be too early for you, but I can make that work don't have an issue.
+[30:56.260 --> 31:03.260]  Because I felt bad that some students who are in towards the midnight and for them the lesson ends at 1 a.m.
+[31:03.260 --> 31:10.260]  That's that's not something that we really want anybody to you know to have.
+[31:10.260 --> 31:19.260]  So what's the earliest time right now for anyone could you put in the chat like is there anybody who is between 5 a.m. and 7 a.m.
+[31:19.260 --> 31:26.260]  Could you just put in the chat time zone is right if your time right now is between 5 to 7 a.m.
+[31:26.260 --> 31:29.260]  Do we have anyone.
+[31:29.260 --> 31:33.260]  Anyone between 7 to 9 a.m.
+[31:33.260 --> 31:39.260]  Is your time between 7 to 9 a.m. anyone right now.
+[31:39.260 --> 31:46.260]  Okay, anyone between 9 to 11 a.m.
+[31:46.260 --> 31:50.260]  5 a.m. oh wow that's a lot.
+[31:50.260 --> 31:52.260]  We have 5 a.m.
+[31:52.260 --> 32:03.260]  Yeah, I think if I'm reading correctly, you you you you you I don't think she's saying that I've been here since 5 5 a.m.
+[32:03.260 --> 32:07.260]  5 p.m. 5 p.m. 5 p.m. 5 p.m.
+[32:07.260 --> 32:17.260]  So I think we don't have anyone from 5 to 7 right 9 to 11.
+[32:17.260 --> 32:28.260]  How many do we have could you put on your names if you're between 9 to 11 right now.
+[32:28.260 --> 32:32.260]  8 a.m. 10 a.m. Okay, it will be good if you all can write down your names.
+[32:32.260 --> 32:39.260]  Sorry, your time current time in the chat so that we can just quickly scroll through that and see what time it is for you.
+[32:39.260 --> 32:43.260]  Because we really want to help everyone to have a convenient time.
+[32:43.260 --> 32:51.260]  So if we push by one or before that will help a few participants 10 a.m. 5 p.m.
+[32:51.260 --> 32:52.260]  Right.
+[32:52.260 --> 32:53.260]  3 p.m.
+[32:53.260 --> 32:55.260]  3 p.m. 5 p.m.
+[32:55.260 --> 32:59.260]  117 p.m. 3 p.m. 18 p.m. 4.
+[32:59.260 --> 33:06.260]  So I think it's quite manageable that we can you know actually schedule the class at 12 noon.
+[33:06.260 --> 33:11.260]  Can you say yes or no in the chat if we schedule it for 12 noon.
+[33:11.260 --> 33:17.260]  Will it still be fine? I mean see we have to accommodate at times keeping in mind that it should be comfortable for all.
+[33:17.260 --> 33:22.260]  So unless you have some other engagement during that time, I think it should be manageable.
+[33:22.260 --> 33:26.260]  So I think most of you are saying yes. Yeah, perfect.
+[33:26.260 --> 33:33.260]  Because you know that is what is needed from us as empathy for all those who are making an effort to attend the class.
+[33:33.260 --> 33:38.260]  But it's too late for them. I mean imagine somebody is getting free from this class at 1 a.m.
+[33:38.260 --> 33:41.260]  So it's almost all night gone.
+[33:41.260 --> 33:50.260]  Sure, so we will have the next class scheduled at 12 noon so that it will be a little bit of relief for our students from Japan.
+[33:50.260 --> 33:53.260]  All right, so let's move on. Thank you for that accommodation guys.
+[33:53.260 --> 34:02.260]  This is really excellent. I mean, this shows your I be learned a profile of being caring and we really appreciate that.
+[34:02.260 --> 34:12.260]  So today we are going to focus on a 1.2 and we are going to cover 1.2.1 1.2.2 and 1.2.3, which is about number system.
+[34:12.260 --> 34:21.260]  So so far we have learned in a 1.1.1 to 1.1.9 as to how different parts of the computer work together in order to process data.
+[34:21.260 --> 34:33.260]  That is the whole objective of a 1.1. Now 1.2 is little more technical in terms of how this data is processed by the computer system, especially the CPU.
+[34:33.260 --> 34:39.260]  Right, because we all know that computer cannot understand any language other than 1 language.
+[34:39.260 --> 34:46.260]  What is that language which computer understands binary binary.
+[34:46.260 --> 34:59.260]  So the so the language that we use in our day to day life that is English language or your regional language that you speak in your area, but computer can not understand any of that language.
+[34:59.260 --> 35:11.260]  So which means we need to have some systems in place which could help us to actually convert the information in a in a in a format which computers can understand.
+[35:11.260 --> 35:18.260]  And that is what we are going to cover as a part of a 2 a 2. Okay.
+[35:18.260 --> 35:24.260]  Um, where is my camera gone?
+[35:24.260 --> 35:42.260]  One second.
+[35:42.260 --> 36:01.260]  Okay, I can say it now. Okay. So so today we are going to cover together a 2.1.1 to a 2.1.3, which is actually all about how the computer system understands the binary number system in the form of bits and bytes.
+[36:01.260 --> 36:14.260]  Okay, so I have prepared a document which I have put in the content folder. So for all those who still don't have the access to the content folder may write to us, I can just show you once again where all the information is.
+[36:14.260 --> 36:21.260]  So for you, you don't have to go through all this because this is for me and Martin, but I can show you the folder where we have all these resources.
+[36:21.260 --> 36:25.260]  So we have them here in the.
+[36:25.260 --> 36:30.260]  What you will be able to see is this folder M 2027.
+[36:30.260 --> 36:39.260]  Okay, say yes in the chat or no in the chat if you have access to this, if you have access, say yes, otherwise say no.
+[36:39.260 --> 36:46.260]  And Martin, you can just take down the names for those who are saying no, who don't have this access so that we'll send it to them again.
+[36:46.260 --> 36:56.260]  So when we go into this folder, especially the SL students, we know that SL students are kind of little bit struggling with the forms and these folder.
+[36:56.260 --> 36:59.260]  So we really want to help each one of you.
+[36:59.260 --> 37:04.260]  So if you don't already have the access to this folder, please let us know and we'll share that with you once again.
+[37:04.260 --> 37:11.260]  Now here you can see that in this folder M 2027, which is shared with you, all of you we have shared already, but we can share again.
+[37:11.260 --> 37:13.260]  We have these three video files.
+[37:13.260 --> 37:16.260]  The first one is meet your teacher.
+[37:16.260 --> 37:24.260]  The second one is our I think one file is missing, which is week two week three no sorry it's correct.
+[37:24.260 --> 37:26.260]  So we currently we are in a week forward.
+[37:26.260 --> 37:28.260]  So this week's recording will again go.
+[37:28.260 --> 37:38.260]  So we have week two recording where we covered a 1.1 to 1.1.5 and we have a week three recording, which is 1.1.5 to 1.1.9.
+[37:38.260 --> 37:45.260]  And this could be very beneficial for those who were not able to attend the class for any reason.
+[37:45.260 --> 37:52.260]  Although we we strongly recommend that you should attend life so that you can ask questions.
+[37:52.260 --> 37:57.260]  And we know that you are showing good engagement because we wouldn't know whether you have seen the recording or not.
+[37:57.260 --> 38:01.260]  The only way we can estimate your engagement is when you attend the online classes.
+[38:01.260 --> 38:05.260]  So we strongly recommend that keep some time reserved for these classes.
+[38:05.260 --> 38:10.260]  So these are the two recordings which are already available and today's recording I'll put it tomorrow.
+[38:10.260 --> 38:14.260]  So this is one thing which that you can see here and second is in the content folder.
+[38:14.260 --> 38:18.260]  You will have weak wise content that we are preparing for these online classes.
+[38:18.260 --> 38:23.260]  So this is in addition to what you already have on the Pamoja platform.
+[38:23.260 --> 38:27.260]  So week after week we will just compile the information.
+[38:27.260 --> 38:31.260]  Obviously we are taking some good use of for AI in order to consolidate this information.
+[38:31.260 --> 38:34.260]  Otherwise it's not easy to prepare such long documents.
+[38:34.260 --> 38:41.260]  But we are making sure that all the information that we put here is thoroughly checked before we release it to you.
+[38:41.260 --> 38:46.260]  So week four content PDF file is already here so you can access them.
+[38:46.260 --> 38:48.260]  All right.
+[38:48.260 --> 38:53.260]  I hope you have put the.
+[38:53.260 --> 38:58.260]  Yes and no so Mr Martin will take the.
+[38:58.260 --> 39:03.260]  I'm taking and creating a document with their answer so as we perfect.
+[39:03.260 --> 39:10.260]  Yeah, you can just copy this whole thing and take it to Excel file so that we'll know.
+[39:10.260 --> 39:19.260]  Missile actually you don't really require a Microsoft account in order to access that folder.
+[39:19.260 --> 39:27.260]  Can we do a live testing quickly if they can miss a can you type your your email ID there in the chat.
+[39:27.260 --> 39:32.260]  I will try and share it with you right away and see if you can access it.
+[39:32.260 --> 39:38.260]  One of you just for the testing purpose if you could put your.
+[39:38.260 --> 39:43.260]  Email ID here I will will have a quick check if you need a Microsoft account or not.
+[39:43.260 --> 39:45.260]  Okay, Mr. Thanks.
+[39:45.260 --> 39:52.260]  No need for anybody else to share the email ID because we just want to try it with someone.
+[39:52.260 --> 39:57.260]  So if I go to will that.
+[39:57.260 --> 40:05.260]  If I go to this folder and I share it with Misha.
+[40:05.260 --> 40:09.260]  So I'm sharing it with Misha.
+[40:09.260 --> 40:14.260]  I don't think you need a Microsoft account to access this but will still try so.
+[40:14.260 --> 40:18.260]  I've added Misha's name outside organization.
+[40:18.260 --> 40:25.260]  Okay, that's fine. Continue and then I copy the link.
+[40:25.260 --> 40:31.260]  And I will send it so you will receive an email.
+[40:31.260 --> 40:38.260]  But along with that I will also share with you this link which I have just created to see if you can access that.
+[40:38.260 --> 40:41.260]  So let me.
+[40:41.260 --> 40:45.260]  Share that link with you in the chat.
+[40:45.260 --> 40:48.260]  Misha you can look at the email later.
+[40:48.260 --> 40:52.260]  Can you try others may not try this because it will lock her account.
+[40:52.260 --> 40:59.260]  Only Misha can you click on this link and see if you are able to access that folder.
+[40:59.260 --> 41:07.260]  No you may have received Misha but I want you to try this link to see if you can access the folder.
+[41:07.260 --> 41:11.260]  Okay Benjamin I'll give it to you as well although we will send it to everybody who have said no.
+[41:11.260 --> 41:20.260]  Right now what I'm trying to test is that do you actually need a Microsoft account to access this or you can access it without Microsoft account.
+[41:20.260 --> 41:24.260]  So okay Benjamin I'm sending it to you.
+[41:24.260 --> 41:28.260]  So I share with.
+[41:28.260 --> 41:33.260]  Benjamin.
+[41:33.260 --> 41:39.260]  Sorry not Benjamin it's.
+[41:39.260 --> 41:42.260]  New copy the link send.
+[41:42.260 --> 41:51.260]  So you will get a mail and also I'm sharing with you the direct link which you should be sorry.
+[41:51.260 --> 41:54.260]  I need to do it again.
+[41:54.260 --> 41:58.260]  So I copy it here.
+[41:58.260 --> 42:01.260]  Copy the link.
+[42:01.260 --> 42:03.260]  Send.
+[42:03.260 --> 42:09.260]  I want you to try using this link which I have copied in the chat to see if you can access.
+[42:09.260 --> 42:17.260]  Misha did you try going to the folder using the link I shared.
+[42:17.260 --> 42:24.260]  And Benjamin can you try this.
+[42:24.260 --> 42:34.260]  Benjamin just click on the link which I have just shared in the chat.
+[42:34.260 --> 42:41.260]  Yes but the code I keep getting do not work okay.
+[42:41.260 --> 42:49.260]  What is the what is the error Misha you're getting.
+[42:49.260 --> 43:01.260]  Benjamin have you tried we really want to sort out this issue so that you know everybody gets access to the folder.
+[43:01.260 --> 43:13.260]  Yeah I know Benjamin you got it but could you please let me know if you're able to access the folder.
+[43:13.260 --> 43:22.260]  Misha if I ask you to share your screen and show what exact because we want to identify the code issue so that we can help all others.
+[43:22.260 --> 43:26.260]  Benjamin can you come.
+[43:26.260 --> 43:39.260]  Okay you can access did you have to put any code Benjamin can you unmute yourself Benjamin.
+[43:39.260 --> 43:45.260]  Benjamin can you unmute yourself and tell us how did you access the folder.
+[43:45.260 --> 43:49.260]  I received code in the email okay.
+[43:49.260 --> 43:57.260]  Misha can you share your screen once.
+[43:57.260 --> 44:11.260]  Yeah that's fine Benjamin Misha can you share your screen once.
+[44:11.260 --> 44:18.260]  All right Misha you can try it home but I really wanted to see that what the issue exactly is.
+[44:18.260 --> 44:35.260]  Would anyone else like to volunteer who is not able to access or that will share it with you and you can share the screen with us to see what issue you face.
+[44:35.260 --> 44:44.260]  All right Dmit Dmitri wait I'll just share it with you.
+[44:44.260 --> 44:51.260]  Dmitri I'm sharing it with you but you will have to share your screen to show us how you do it so that it can benefit others as well.
+[44:51.260 --> 44:59.260]  So let me share my screen first I will share the folder sorry guys it may take a little time but it is for the benefit of everyone because we don't want.
+[44:59.260 --> 45:06.260]  We don't want others to be struggling in accessing the folder we want to have same access for everyone.
+[45:06.260 --> 45:24.260]  All right so I'm sharing this folder with this email Dmitri continue copy the link and send so Dmitri you should be getting this email.
+[45:24.260 --> 45:32.260]  Could you share your screen so that we can see together how you are accessing the folder.
+[45:32.260 --> 45:40.260]  Let me share so that you can share it.
+[45:40.260 --> 45:47.260]  Okay Misha says she gained the access now so I don't think the Microsoft account is needed to access this folder.
+[45:47.260 --> 45:52.260]  Dmitri could you share your screen.
+[45:52.260 --> 45:57.260]  Second let me find it.
+[45:57.260 --> 46:03.260]  It's on the top right where you have the leave button in red color.
+[46:03.260 --> 46:12.260]  It's just okay wait I think I have to give you the access okay I've given the access now so just near the leave button you can see a share.
+[46:12.260 --> 46:21.260]  Yeah just share share your screen and guys please pay attention to how we are accessing the folder.
+[46:21.260 --> 46:31.260]  Soon after this class we will share the link with everybody who have said no towards the access so that you all can configure it.
+[46:31.260 --> 46:37.260]  All right so thanks for sharing your screen so let's see.
+[46:37.260 --> 46:46.260]  Okay so you got an email from me when I shared the folder can you go into that email the first one.
+[46:46.260 --> 46:53.260]  Okay so yeah so there's a folder can you click that open.
+[46:53.260 --> 46:59.260]  So it's saying that you received a code so can you go back to your email there should be a code.
+[46:59.260 --> 47:05.260]  Or is it asking something else I don't know what is it asking to insert my email.
+[47:05.260 --> 47:15.260]  Okay just insert your email yeah okay.
+[47:15.260 --> 47:20.260]  Yeah now the code.
+[47:20.260 --> 47:26.260]  Okay so just see if you got a code yeah.
+[47:26.260 --> 47:37.260]  Here it is okay so just copy this code and put it there.
+[47:37.260 --> 47:42.260]  Yep it works yeah absolutely yeah so thank you you can answer now.
+[47:42.260 --> 47:55.260]  So I don't think that you need a Microsoft account to access these folders because we have made it open access to everyone provided you have your code that you get from the Microsoft portal.
+[47:55.260 --> 48:09.260]  So we will once again share with everyone but make sure that you configure your folder as soon as possible so that you and the email doesn't going to you know unknown part of your email account.
+[48:09.260 --> 48:22.260]  So as soon as you get the Microsoft account folder access and also the code please configure it and keep this email saved some way so that whenever you have to access you can just go to that folder link and you can open.
+[48:22.260 --> 48:29.260]  This code thing is required only for the first time later on you don't need that code you can just click on the folder and it will take you there.
+[48:29.260 --> 48:38.260]  Okay so what this folder is concerning I was having connection issues and.
+[48:38.260 --> 48:47.260]  Okay so Misha this folder is about all the resources that we cover for example the recording of the online classes like today's recording will go into this folder.
+[48:47.260 --> 48:58.260]  We also have the recording for the past couple of lessons that we have had and it will also have the content in the PDF form related to all the topics that we are covering.
+[48:58.260 --> 49:03.260]  So every week that content folder will be updated with the content of ongoing week.
+[49:03.260 --> 49:08.260]  This is in addition to what is already there on the premature.
+[49:08.260 --> 49:13.260]  Okay now let's also quickly do the attendance.
+[49:13.260 --> 49:23.260]  So I'm sharing with you the link for this week's attendance.
+[49:23.260 --> 49:29.260]  It's here in the chat so we have total 25 students.
+[49:29.260 --> 49:47.260]  If you go to go to that link and mark your attendance.
+[49:47.260 --> 50:05.260]  13 so far 14 17 19 22 I think we have three more students.
+[50:05.260 --> 50:13.260]  If you don't see your name put it in the my name is not in the list and we'll add it later to the list 24.
+[50:13.260 --> 50:30.260]  One more I think is anyone missing who has not entered the name.
+[50:30.260 --> 50:35.260]  So you can see one against your name if you have already marked attendance.
+[50:35.260 --> 50:42.260]  If it is still showing zero and if you are here then please mark it into the form.
+[50:42.260 --> 50:50.260]  This is from section B HL and this is from SL.
+[50:50.260 --> 50:55.260]  SL we have three students or three students saying my name is not in the list.
+[50:55.260 --> 51:04.260]  Okay Martin just take down the and in fact it will be recorded so we will add it to the list 3 plus 5 6.
+[51:04.260 --> 51:08.260]  So good to see that we have six students from SL that's lovely.
+[51:08.260 --> 51:11.260]  And we look forward to seeing you more often going forward.
+[51:11.260 --> 51:15.260]  Okay so we have done with the logistics work.
+[51:15.260 --> 51:21.260]  Now let's get on to the lesson because I know it's already more than half an hour that we have spent on this.
+[51:21.260 --> 51:28.260]  But this is important because we wanted to resolve your issues about folder access and other issues that you may have.
+[51:28.260 --> 51:38.260]  Okay so as I said that in this lesson we are going to learn about the number systems as to how computer understands different ways or forms of numbers in the binary format.
+[51:38.260 --> 51:42.260]  And how do we convert numbers from one type to another.
+[51:42.260 --> 51:56.260]  So let me go to the document that we have shared in the folder.
+[51:56.260 --> 52:03.260]  Okay so principles and methods of representing numbers so as we said in the beginning that computers can.
+[52:03.260 --> 52:10.260]  Although computer can process any kind of information which can be audio video images text numbers.
+[52:10.260 --> 52:16.260]  But then all these this information is for us to see the see them in a different form.
+[52:16.260 --> 52:20.260]  Like it's for the human being to look at the information in many different formats.
+[52:20.260 --> 52:27.260]  But at the code level the computer can only understand two values which is zero or one.
+[52:27.260 --> 52:37.260]  So anything that you see on the computer anything that you see on the screen or any activity that you perform on the computer that is always converted into the binary form which is zeros and months.
+[52:37.260 --> 52:42.260]  So right now we are having a virtual class where I'm speaking something your listening something.
+[52:42.260 --> 52:49.260]  I'm displaying something on the screen but in the background the CPU must be processing all this information in the binary in the series of zeros and months.
+[52:49.260 --> 52:57.260]  Right so as a part of this chapter we are going to learn about how this different forms of information is actually perceived by the computer system.
+[52:57.260 --> 53:04.260]  Now binary system zero and one actually represents low voltage and one is high voltage.
+[53:04.260 --> 53:15.260]  And every byte which stores the information comprises of number of bits and each bit is actually register which can hold the current.
+[53:15.260 --> 53:22.260]  So when the current is available it marks that as one and when the current is absent that that is treated as zero.
+[53:22.260 --> 53:30.260]  So with the registers charging whether it's charged or it is not charged it actually makes out whether it is one or zero.
+[53:30.260 --> 53:36.260]  So when there is electrical flow it considers considers that register value or the bit value to be one.
+[53:36.260 --> 53:41.260]  And if there is absence of pulse or absence of electricity then that is called a zero.
+[53:41.260 --> 53:51.260]  And with those several combinations of zeros and once the computer understands whether it's a it's on or it's off.
+[53:51.260 --> 54:02.260]  A byte you may have heard the term byte so a byte comprises of total eight bits and a bit is the smallest unit which can store a value as zero and one.
+[54:02.260 --> 54:11.260]  Eight bits together makes one byte okay and one byte can represent 256 possible values.
+[54:11.260 --> 54:17.260]  Can somebody explain why two two hundred and fifty six values.
+[54:17.260 --> 54:26.260]  It has it has it has it has it has it can represent the values and their.
+[54:26.260 --> 54:33.260]  The number of possible values depends on the number of bits by the formula two raised to power number of bits.
+[54:33.260 --> 54:37.260]  So if it is two raised to power eight which makes it two hundred and fifty six.
+[54:37.260 --> 54:43.260]  So that means in a byte total two hundred and fifty six different values can be stored.
+[54:43.260 --> 54:49.260]  If it is a sixteen bits which is two byte then the number of values which can be stored as two raised to power sixteen.
+[54:49.260 --> 54:55.260]  And you can calculate that will go to about sixty five thousand some some or value okay.
+[54:55.260 --> 55:01.260]  Now the question is it's fine that we can think about a numeric value in the binary format which is easy to calculate.
+[55:01.260 --> 55:05.260]  But how does computer understand alphabets or any letters.
+[55:05.260 --> 55:10.260]  Does answer is simple that any symbol that you see on your keyboard.
+[55:10.260 --> 55:15.260]  That is that has a unique numeric value.
+[55:15.260 --> 55:20.260]  Every alphabet or every symbol or every character that you see on your keyboard.
+[55:20.260 --> 55:22.260]  That has a unique value.
+[55:22.260 --> 55:28.260]  Okay, unique numeric value and what is that value called.
+[55:28.260 --> 55:30.260]  What do we call it?
+[55:30.260 --> 55:32.260]  Ask you.
+[55:32.260 --> 55:36.260]  Ask you value and what does it ask you stand for.
+[55:36.260 --> 55:40.260]  American standard.
+[55:40.260 --> 55:42.260]  It's cool.
+[55:42.260 --> 55:44.260]  Yeah, correct.
+[55:44.260 --> 55:56.260]  So absolutely American standard code for information interchange and this is a global recognition of unique values which are given to different alphabets and different characters.
+[55:56.260 --> 56:02.260]  So that across the globe any computer can understand this particular unique value.
+[56:02.260 --> 56:08.260]  So if you look at the ASCII values for different alphabets you will see you can see this table here.
+[56:08.260 --> 56:12.260]  You will see that every letter has a unique value.
+[56:12.260 --> 56:17.260]  For example, if you look at capital A.
+[56:17.260 --> 56:20.260]  Capital A starts from nine.
+[56:20.260 --> 56:26.260]  No, sorry, 65 in decimal capital A ASCII value is 65.
+[56:26.260 --> 56:37.260]  So when you actually type capital A on the computer it will look for its numeric value that what is a numeric value and that numeric value will be converted into binary format.
+[56:37.260 --> 56:42.260]  And then the system will know that the letter we are talking about is capital A.
+[56:42.260 --> 56:47.260]  So all these letters have you can see different ASCII values starting from capital A to capital Z.
+[56:47.260 --> 56:49.260]  Z is 90.
+[56:49.260 --> 57:01.260]  You don't have to remember all of them but it will be beneficial if you remember the starting and ending ASCII value for uppercase A to Z lowercase A to Z and digits 0 to 9.
+[57:01.260 --> 57:06.260]  Even the digits 0 to 9 is actually not treated in the numeric form.
+[57:06.260 --> 57:11.260]  0 is not a number one is not a number two is not a number for system.
+[57:11.260 --> 57:14.260]  They are also treated as characters just like ABC.
+[57:14.260 --> 57:22.260]  So they also have the unique ASCII value for example the unique ASCII value for 0 is 48.
+[57:22.260 --> 57:30.260]  So when you actually type 0 the system will find the relevant ASCII value which is 48 that 48 will be converted into binary.
+[57:30.260 --> 57:34.260]  And then system will know that we are talking about 0.
+[57:34.260 --> 57:37.260]  Similarly 1 is 49 and 9 is 57.
+[57:37.260 --> 57:43.260]  So the range that you need to remember is capital A to Z which is 65 to 90.
+[57:43.260 --> 57:50.260]  Lowercase A to Z which is 97 to 122 and digits 0 to 9 which is from 48 to 57.
+[57:50.260 --> 57:57.260]  If you remember them sometimes you will need them for a programming purpose or for theoretical questions also.
+[57:57.260 --> 58:00.260]  Alright so that's about ASCII values.
+[58:00.260 --> 58:06.260]  Now moving on.
+[58:06.260 --> 58:12.260]  So computers use three main systems to represent numbers binary decimal and hexadecimal.
+[58:12.260 --> 58:20.260]  So binary is for the computer decimal number system is something that we use in our day to day life for all kind of mathematical and numerical calculations.
+[58:20.260 --> 58:32.260]  And hexadecimal is a form of data representation which is basically used by the programmers as a shorter form of numbers which is not actually decimal and is not actually even binary.
+[58:32.260 --> 58:41.260]  So it is used for certain type of information representation which is generally used by the programmers especially when they are writing the codes in the in the assembly language.
+[58:41.260 --> 58:49.260]  So binary is for computers decimal is for human being and hexadecimal is for for the programmers.
+[58:49.260 --> 58:53.260]  Now every number system has some recognized values.
+[58:53.260 --> 58:59.260]  For example binary since it has only two bits so the possible values are 0 and 1.
+[58:59.260 --> 59:04.260]  0 is absence of pulse and 1 is presence of pulse.
+[59:04.260 --> 59:13.260]  Then we have decimal which has total 10 values which are recognized under decimal which goes from 0 to 9 and that is the number systems that we use for our mathematical purposes.
+[59:13.260 --> 59:25.260]  And then comes hexadecimal which comprises of total 16 characters which is 0 to 9 as like decimal and then letters a to f which goes from 10 to 15.
+[59:25.260 --> 59:35.260]  So if you have to represent 10 in hexadecimal we don't write 1 0 we write a a represents 10 be represents 11 and finally f represents 15.
+[59:35.260 --> 59:41.260]  So total we have 16 letters or 16 characters using hexadecimal number system.
+[59:41.260 --> 59:46.260]  Okay we will learn about these conversions little later.
+[59:46.260 --> 59:51.260]  Okay now simplest way a computer stores numbers for example 101.
+[59:51.260 --> 59:55.260]  What is the format of this number?
+[59:55.260 --> 59:56.260]  Binary.
+[59:56.260 --> 59:57.260]  Binary.
+[59:57.260 --> 01:00:00.260]  What if I remove this tool?
+[01:00:00.260 --> 01:00:04.260]  Now what is the format of this number?
+[01:00:04.260 --> 01:00:19.260]  It could be binary or it could be decimal both ways right because just because the tool is there as the base for 101 so we can be pretty sure that this is a binary number.
+[01:00:19.260 --> 01:00:31.260]  But if we remove the base then it can be a decimal or it can be it can even be hexadecimal like one because 101 is part of binary it is part of decimal it is part of hexadecimal so it could be any number.
+[01:00:31.260 --> 01:00:39.260]  So it's important for us to indicate what the base of the number is right now how do we convert it into a decimal number system.
+[01:00:39.260 --> 01:00:47.260]  It is entirely done on the basis of the place value of different bits in a particular sequence of once and zeros.
+[01:00:47.260 --> 01:00:50.260]  So we'll come to that little later.
+[01:00:50.260 --> 01:01:04.260]  Hexadecimal number system is used to shorten the long binary numbers because you think about a programmer who is writing a code in to solve some problem and if they have to deal only with the binary number system it will be so difficult for them to remember such big sequence of values.
+[01:01:04.260 --> 01:01:10.260]  Like if it is 8 bit or 16 bit it will be next to impossible to remember so many codes.
+[01:01:10.260 --> 01:01:18.260]  So to simplify that they use the hexadecimal number system which is a shorter version of binary number system.
+[01:01:18.260 --> 01:01:29.260]  So it's not that the computers can directly understand hexadecimal number system but it's for the programmers to write the programs more efficiently, especially when they are dealing with the assembly language.
+[01:01:29.260 --> 01:01:33.260]  The memory addresses are generally represented in the hexadecimal format.
+[01:01:33.260 --> 01:01:43.260]  So if you write a program you can actually display the memory address of different variables which is storing the data which will learn when we'll get on to theme B.
+[01:01:43.260 --> 01:01:48.260]  But any value which starts with 0x that represents a hexadecimal value.
+[01:01:48.260 --> 01:01:56.260]  So if you have preceding two characters 0x followed by certain values that will be called a hexadecimal number system.
+[01:01:56.260 --> 01:02:03.260]  Now what does 7FF mean? What is F here?
+[01:02:03.260 --> 01:02:05.260]  15.
+[01:02:05.260 --> 01:02:11.260]  So this number is actually 7, 15, 15, 3, 10, 9. That's the actual number.
+[01:02:11.260 --> 01:02:23.260]  But if we write like that if we write 0x, 7, 15, 15, 3, 10, 9 can you actually say that this is 15?
+[01:02:23.260 --> 01:02:26.260]  We cannot say because this says fixed into the number.
+[01:02:26.260 --> 01:02:32.260]  So this may look like hexadecimal number 715153109.
+[01:02:32.260 --> 01:02:41.260]  So in order to have two digits number represented as one single value we use the hex codes 310 which is A and 9.
+[01:02:41.260 --> 01:02:45.260]  So this is why hexadecimal number systems have these letters.
+[01:02:45.260 --> 01:02:50.260]  These are generally used for the representation of web colors.
+[01:02:50.260 --> 01:02:57.260]  So if you're making a website and you want to have a specific type of color as a background color for your page,
+[01:02:57.260 --> 01:03:00.260]  you will be using the hex codes for different colors.
+[01:03:00.260 --> 01:03:11.260]  For example, for example, let's say we want to try different colors and see what their code is.
+[01:03:11.260 --> 01:03:15.260]  So you see here this is a hex value because it starts with a hash.
+[01:03:15.260 --> 01:03:21.260]  Now every color is made up of three bytes.
+[01:03:21.260 --> 01:03:24.260]  Each byte represents one single color.
+[01:03:24.260 --> 01:03:28.260]  Three bytes together makes one color.
+[01:03:28.260 --> 01:03:36.260]  So every byte will hold a component of red, a component of green and a component of blue.
+[01:03:36.260 --> 01:03:44.260]  So with the combination of red, green, blue because of which we call it RGB, RGB color that we formulate one single color.
+[01:03:44.260 --> 01:03:52.260]  So for example, if you want to make a full red, right, can you tell me what will be the code if you want to have a full red.
+[01:03:52.260 --> 01:03:57.260]  Considering that the color code is RGB.
+[01:03:57.260 --> 01:04:10.260]  So full component of red because the first two for the first byte FF which is four bits each and four bits collectively is called a nibble.
+[01:04:10.260 --> 01:04:16.260]  So we have eight bits which is called a byte, four bits is called a nibble and one bit is one bit.
+[01:04:16.260 --> 01:04:21.260]  So every color is made up of two nibbles where each nibble is one hex value.
+[01:04:21.260 --> 01:04:32.260]  Now if we say FF that means we are taking full color red FF and remaining two colors we want to make zero so that it's a full red color.
+[01:04:32.260 --> 01:04:38.260]  FF zero zero.
+[01:04:38.260 --> 01:04:47.260]  And FM zero zero zero zero zero so you can see on the right side it's full red color and that is when the hexadecimal courts are used.
+[01:04:47.260 --> 01:04:52.260]  How do we make a full green.
+[01:04:52.260 --> 01:05:01.260]  What if you want to be zero zero zero zero zero zero zero zero.
+[01:05:01.260 --> 01:05:11.260]  Zero zero FF zero zero gives us a full green and obviously for full blue we have zero zero zero zero FF that makes a full blue.
+[01:05:11.260 --> 01:05:17.260]  But it's not always that we always need the full contrast color for each color mode for example RGB.
+[01:05:17.260 --> 01:05:26.260]  It could be a mix of all let's say you want to get your walls painted in your house and you have a very specific color that you have painted the walls with.
+[01:05:26.260 --> 01:05:30.260]  And next time you want to go to the paint paint shop and you want to get exactly same color.
+[01:05:30.260 --> 01:05:47.260]  It will be good if you remember what hex code the paint was created with so that if you go to the paint shop and you tell them that I need a paint which is zero zero zero zero zero zero zero zero zero
+[01:05:47.260 --> 01:05:57.260]  three and eight nine so let's say this is the color which came up so next time when you go to the color shop and you say that I want this particular color.
+[01:05:57.260 --> 01:06:05.260]  They will mix this color on their machine and they will get you exactly same shade and you can see here as I move this circle left and right.
+[01:06:05.260 --> 01:06:15.260]  It will the hex color code will change right so this is where the significance of color code is the other use of color hexadecimal number system is.
+[01:06:15.260 --> 01:06:41.260]  The hardware code of your machine like every machine has its own mac address and that mac address is represented by the hex hexadecimal value so if you if I go into my network settings which you can also try you can see here that my Wi-Fi address is this now this is a unique code which is given to each manufacturer.
+[01:06:41.260 --> 01:06:48.260]  So if I'm using a math machine the first two letters actually represent which company it belongs to and followed by different series.
+[01:06:48.260 --> 01:07:00.260]  I don't know exactly what each part means you can research that that in a mac address what is the meaning of each part of the hexadecimal code but these codes are given to each company in a different format.
+[01:07:00.260 --> 01:07:17.260]  Now this number is hexadecimal and this is unique for every computer so basically whenever we send or receive any emails etc it also sends with it the mac address so that if somebody has sent an email which is to be traced back these mac addresses are useful.
+[01:07:17.260 --> 01:07:29.260]  This is where the hexadecimal code is used now it can be done in binary but imagine how big that number will be if actually you convert that hexadecimal number into a binary number system.
+[01:07:29.260 --> 01:07:34.260]  So that's about the hexadecimal number system.
+[01:07:34.260 --> 01:07:55.260]  So this we already discussed capital A is 65 small A is 97 and 0 is 48 the starting numbers if you remember you can find out the values for other characters and when we'll start doing the programming you will learn how we can actually write a program to see the ASCII value for each value each character.
+[01:07:55.260 --> 01:08:13.260]  So ASCII uses seven bits which is 0 to 127 and one bit is used for the sign so we'll again study about that later but seven bits are essentially used for information so that's why there are total 0 to 127 characters which is for English letters numbers and symbols.
+[01:08:13.260 --> 01:08:34.260]  The limitation of ASCII is this year we had a question in the ID exam which talked about ASCII and another character format which is unique code now one of the limitations for ASCII is that it cannot represent characters from non English language can you tell the reason why why can it not represent other languages.
+[01:08:34.260 --> 01:09:02.260]  Because it only has 256 characters yes essentially it can have maximum 127 characters starting from 0 to 127 and that actually can only hold English language if you think about other languages then possibly you need more space to accommodate them so ASCII has that limitation because when the number system came into picture that time computers were only working in English language.
+[01:09:02.260 --> 01:09:22.260]  It was much later that computer started to event process information in many different languages so in the initial days those English letters were good enough for the computer to hold and that's why nobody thought about having more space than 127 because 127 can literally store all possible characters that we use on an English alphabet.
+[01:09:22.260 --> 01:09:44.260]  It's only with the development of computers that they felt the need for other languages and that is when they brought in more characters from many different languages across the globe which was not able to be to be accommodated in 8 bits of space because 8 bits can store maximum 127 because only 7 bits can be used out of 8.
+[01:09:44.260 --> 01:09:54.260]  So they felt the need for all characters and then they increased the size from 8 bits to 16 bits and in 16 bits you can actually have 65,000 characters.
+[01:09:54.260 --> 01:10:02.260]  So with 65,000 characters they solved the problem of having the computer work for many different languages and that is what unique code is all about.
+[01:10:02.260 --> 01:10:20.260]  So this was a question of I think three or four months in the last exam to basically it was more on it was not directly about the number system but they twisted the question saying that how does the modern computers support internationalism?
+[01:10:20.260 --> 01:10:26.260]  How does the modern computer supports the concept of internationalism?
+[01:10:26.260 --> 01:10:48.260]  Now when you talk about internationalism it means that supporting every language across the globe and that is where the students have to think about that now the programmers have the flexibility to use unique code in their program to accommodate any program any characters from across the globe which is actually helping us in terms of internationalism.
+[01:10:48.260 --> 01:11:06.260]  So it includes all global characters including Chinese are Arabic emojis and mathematical symbols like for example the Chinese character I don't know if we have any Chinese students in our group but this is looks like a Chinese symbol and the unique code character for this is this.
+[01:11:06.260 --> 01:11:20.260]  Even though we have two characters character formats ASCII and unique code but in both in unique code also all the ASCII characters have exactly the same numbers it's not that you unique code is different and ASCII is different.
+[01:11:20.260 --> 01:11:30.260]  It's just that unique code is the extended form of ASCII so even in unique code capital A has the same unique value 65.
+[01:11:30.260 --> 01:11:38.260]  So everything of ASCII is exactly same in unique code and additionally unique code has lot more characters.
+[01:11:38.260 --> 01:11:51.260]  So we have ASCII which is 7 bits total 128 characters for example a equal to 0 1 triple 0 triple 0 double 0 1 which is the binary equivalent for 65.
+[01:11:51.260 --> 01:12:03.260]  UTF 8 which is 8 to 32 bits total it can store is 1.1 million characters for example this emoji has also an ASCII value which is this.
+[01:12:03.260 --> 01:12:13.260]  Similarly we have UTF 16 16 to 32 bits which can store 65,000 plus characters for example this Chinese character has this code.
+[01:12:13.260 --> 01:12:25.260]  Real word examples unique code ensures that your name written in Hindi Arabic or Chinese displays correctly on any device and that's what brings internationalism concept.
+[01:12:25.260 --> 01:12:37.260]  So that's about the text representation of values in different numeric formats now we are coming on to the next section which is image representation.
+[01:12:37.260 --> 01:13:01.260]  How is image actually stored like when you see some image on your computer for example let's display some image let's say let's have a look at this image what do you see here what's the difference between these two images.
+[01:13:01.260 --> 01:13:27.260]  Which has better pixels left or right the left one has better pixels right now you can see here in both these images right is actually the different pixels which have a certain color now if you look at the right image you can see these square boxes.
+[01:13:27.260 --> 01:13:37.260]  So every square box is actually one pixel and every pixel is capable of holding one value one color value.
+[01:13:37.260 --> 01:13:53.260]  If it is black and white it just needs one bit but if it is a color pixel then it would require minimum 8 bits depending on what kind of image it is it will require either one bit which can store black or white or it can require 8 bits.
+[01:13:53.260 --> 01:14:01.260]  Not sorry not 8 bits it can require total 8 plus 8 plus 8 24 bits to represent one color.
+[01:14:01.260 --> 01:14:15.260]  Here even though the picture is looking much clear right it's much more crisp but even here every pixel has a certain color is just that those pixels are very condensed they are very close to each other.
+[01:14:15.260 --> 01:14:25.260]  So when you are looking at this image it looks like a real image of a person here the same image has been pixelated it has been enlarged to an extent that where you can see every pixel.
+[01:14:25.260 --> 01:14:35.260]  So when you are looking at this image in the larger size then you will be able to feel the difference as you continue to make it smaller and smaller the picture will start to get more clearer.
+[01:14:35.260 --> 01:15:04.260]  So this is all about how the images are stored so on your computer even though we can't see those pixels on your mobile phone or your laptop screen but there are very tiny pixels which makes a complete matrix and every pixel can have one single color and when those colors are combined together it forms a shape but for computer it's not actually an image computer cannot understand that this is the image of Barack Obama what it can see is that if this is one single pixel what is the color of that pixel.
+[01:15:04.260 --> 01:15:18.260]  So it's many different pixels which have many different colors which is making it look like an image of a person in front of us but computer doesn't know what this image is because for computer it is just pixels with certain colors as you can see on the right side image.
+[01:15:18.260 --> 01:15:47.260]  So monochrome 1 bits per pixel which can be black or white simple icons grade scale which is 8 now monochrome is the image which is completely in black or white it's full black or full white so you just need 1 bit where on on would mean white and off would mean black so you can represent 0 or 1 to represent 1 color which is monochrome.
+[01:15:47.260 --> 01:16:16.260]  But gray scale gives you the flexibility to have different shades of whites and whites and blacks making it a gray kind of color so you need more bits for that because you have many different shades of black and white so it requires 8 bits where you can create total 250 shades of gray but for that it won't be possible in one bit because that can only store 0 or 1 so you need 8 bits to have 250 shades of black and white.
+[01:16:17.260 --> 01:16:32.260]  Which is basically used for the medical imaging so you may have seen that the x-rays and all the all the medical reports which are black and white they are kind of gray scale and for storing them you need to have 8 bits per pixel.
+[01:16:32.260 --> 01:16:59.260]  If you want if you're thinking about a color image something like this then this cannot be completed within 1 bit or 8 bits because as you saw for for a true color to reflect on your screen you have 3 different bytes for each color so red green and blue and with those combinations of RGB we are able to get different shades of colors and that would require minimum 3 minimum 3 bytes.
+[01:16:59.260 --> 01:17:12.260]  And that's why we have to treat 24 bits to store an 8 bit for red 8 bit for green and 8 bit for blue and that is used for the digital photos so this is how basically the image formation is done in different forms.
+[01:17:14.260 --> 01:17:28.260]  So pure red as we saw red is 255 green is 0 and blue is 0 that's RBG and when you convert that into hexadecimal binary code this is all once and when you convert this into hexadecimal.
+[01:17:29.260 --> 01:17:39.260]  This will turn out to be F this is all 0's that means 0 0 and this is again 0 0 so F F 0 0 0 that will give you pure red.
+[01:17:40.260 --> 01:17:53.260]  Now you will get the questions in the exams in fact you have this in the assignment also this week to find out the size of color now how do we estimate the size of the color that how much size will it take.
+[01:17:53.260 --> 01:18:09.260]  So let's have a look at this example there's a there's an image which is 1920 by 1080 that means the width of the images 1920 pixels so we have 1920 pixels in the bit and height is 180.
+[01:18:10.260 --> 01:18:20.260]  So the dimension of images 1920 times 1080 how many pixels do we have in this total can you tell me how many pixels will we have total in this image.
+[01:18:20.260 --> 01:18:29.260]  I don't need the definite answer that it will be certain value just tell me what will be a total number of pixels here from this.
+[01:18:30.260 --> 01:18:31.260]  1920 time.
+[01:18:32.260 --> 01:18:45.260]  Absolutely so the total pixels that this image is comprising of is 1920 times 1080 that is the total number of pixels now how much size each pixel is taking is a 24 bit color.
+[01:18:46.260 --> 01:19:13.260]  Right so how much size each picture each pixel is taking 20 bits correct that means 3 bytes so the total size that this image will take is number of pixels times 24 which makes it 497640 bits and when you divide it by number of bytes you will get 6 megabytes so the total size that this image will take is 6 megabytes.
+[01:19:13.260 --> 01:19:22.260]  So you will have questions like this in the exam where they will give you the dimensions of the image they will give you the color depth and you will have to find out the total size it will take.
+[01:19:23.260 --> 01:19:30.260]  That's a pretty straightforward question the question may also be little more twisted that they may ask you that this is the image this is the dimension of the image.
+[01:19:31.260 --> 01:19:39.260]  The person is using one MVP as internet connection on his laptop how much time will it take for the computer to upload that image into the Google Drive.
+[01:19:40.260 --> 01:20:00.260]  So you have the dimensions of the image you have the internet speed what what is the bandwidth of your computer network what the internet speed how much time will it take for the image to be uploaded so it's a simple mathematical calculation find out the size find out what is your bandwidth and then find out how much time will it take to upload to the web worldwide web.
+[01:20:00.260 --> 01:20:15.260]  So these are some examples smartphone cameras use RGB color depth so to produce realistic photos and MRI scans use gray scale to show subtle difference in tissue density but not necessarily nowadays you have MRI scans which are even full color.
+[01:20:15.260 --> 01:20:30.260]  So if it is a gray scale that must be old technology that uses to see the differences in the tissues density for the doctors to get an idea as if there are any any unusual patterns.
+[01:20:31.260 --> 01:20:35.260]  Any questions about images before we move to the sound.
+[01:20:35.260 --> 01:20:58.260]  Okay, so we we have learned how the images are identified by the computer we have learned about how the alphabets are recognized by the computers now the next is how does it process sound because what I'm talking to you through this microphone is actually getting converted into zeros and wants.
+[01:20:58.260 --> 01:21:12.260]  Okay and once it is converted into zeros and wants at the delivery point at your end it is converting that zeros and wants back into the sound format so how is that process happening now that is something which happens through the sound sampling.
+[01:21:13.260 --> 01:21:26.260]  There's a concept of sound sampling which is calculated through the amplitude of the sound and the sampling rate is actually the amount of reading which is taken in the sound waves within the given amount of time.
+[01:21:28.260 --> 01:21:56.260]  The sound which is perceived by the computer is analog in nature so when I'm talking to this microphone it is going into the computer in the analog form but computer cannot process analog data so it needs to be converted into digital format and that digital format is in the form of zeros and wants right so we'll see some examples as to how this modulation of sound which is in the analog curve is converted into digital so that you get the voice in the same way as I'm speaking from here.
+[01:21:57.260 --> 01:22:16.260]  So these are a couple of terms which are used in the sound sampling rate bit depth and channel channel you may have heard 2.1 channel 5.1 channel 8.1 channel as to how many different layers are there in your sound recording so that you can differentiate each channel from one another.
+[01:22:17.260 --> 01:22:24.260]  There can be one channel where you can't see any difference if you have two speakers both will work together. There is no way that the sounds will go into different channels.
+[01:22:25.260 --> 01:22:34.260]  Second you can have 2.1 channel so that means you are recording the sound for both the channels independently so if there is something which is recorded for left speaker that will only play on left.
+[01:22:35.260 --> 01:22:39.260]  If you are recording something for the right speaker it will play on right and if you have merged them together it will play on both.
+[01:22:39.260 --> 01:22:46.260]  So that means it will consume double the size because you are you are now recording for 2 different channels.
+[01:22:47.260 --> 01:23:02.260]  You will get better quality but then the size will double same goes for 5.1 so that means you are recording your sound into 5 different layers and it will activate one particular speaker at a given point of time and that is how you hear it in the home period system.
+[01:23:03.260 --> 01:23:13.260]  How sound is stored so each samples amplitude is stored as binary the higher the sampling rate and bit depth the better the quality.
+[01:23:14.260 --> 01:23:25.260]  Let's have a quick look at one video I found very interesting on the YouTube so I'm not sure if you will get the sound but let me know if you can hear this.
+[01:23:25.260 --> 01:23:32.260]  Is it audible?
+[01:23:33.260 --> 01:23:34.260]  Yes.
+[01:23:35.260 --> 01:23:36.260]  Okay.
+[01:23:37.260 --> 01:23:53.260]  Alright so let's watch this 4 minute video this very clearly clarifies as to what is sampling rate is what the what is the bit depth and how the sound is converted from analog form to signal is a very interesting video.
+[01:23:53.260 --> 01:24:00.260]  Whose link I will share with you but let's watch it together.
+[01:24:09.260 --> 01:24:16.260]  If you say something I found here is at least sorry.
+[01:24:16.260 --> 01:24:18.260]  I can hear it.
+[01:24:18.260 --> 01:24:20.260]  You can hear.
+[01:24:20.260 --> 01:24:22.260]  I can hear it.
+[01:24:22.260 --> 01:24:25.260]  Martin you are able to hear.
+[01:24:25.260 --> 01:24:27.260]  Play it.
+[01:24:27.260 --> 01:24:31.260]  Let me let me unshare and see if there is some option to share the voice.
+[01:24:31.260 --> 01:24:34.260]  It says share the tab audio.
+[01:24:34.260 --> 01:24:41.260]  I think I need to play this another tab so let me do that and I will share just this tab.
+[01:24:47.260 --> 01:24:53.260]  Now this should be audible I believe.
+[01:24:59.260 --> 01:25:01.260]  And then it will take the sound.
+[01:25:01.260 --> 01:25:02.260]  Is it audible now?
+[01:25:02.260 --> 01:25:03.260]  Turned it.
+[01:25:03.260 --> 01:25:04.260]  I don't love digital.
+[01:25:04.260 --> 01:25:05.260]  Proces call.
+[01:25:05.260 --> 01:25:06.260]  Yes.
+[01:25:06.260 --> 01:25:07.260]  Okay.
+[01:25:07.260 --> 01:25:08.260]  Okay.
+[01:25:08.260 --> 01:25:09.260]  Let's just sound them.
+[01:25:09.260 --> 01:25:14.260]  So you listen to me now and then you listen to a digital recording of my voice.
+[01:25:14.260 --> 01:25:18.260]  When I'm speaking to this in a room here it's in an analog form.
+[01:25:18.260 --> 01:25:23.260]  So when you're actually speaking to somebody right next to you, the sound will be travelling to you in an analog form.
+[01:25:23.260 --> 01:25:27.260]  And what a computer needs to do is convert that into a digital form.
+[01:25:27.260 --> 01:25:33.260]  Usually with the use of a microphone and it will take the sound and it turns it from analog to digital.
+[01:25:33.260 --> 01:25:35.260]  The process called sampling.
+[01:25:35.260 --> 01:25:36.260]  Okay.
+[01:25:36.260 --> 01:25:39.260]  That's something that's an important word to remember.
+[01:25:39.260 --> 01:25:47.260]  And what it does is this at regular intervals, it measures the height of the amplitude of a sound wave.
+[01:25:47.260 --> 01:25:49.260]  And I'll show you what I mean by that.
+[01:25:49.260 --> 01:25:52.260]  So let's pop the graph of a sound wave on the right hand side.
+[01:25:52.260 --> 01:25:55.260]  So what I'm going to do is draw a kind of a sound graph.
+[01:25:55.260 --> 01:25:58.260]  The likes of the problem team and sort of like it physics lesson.
+[01:25:58.260 --> 01:26:01.260]  Let's do like a wavy one like this.
+[01:26:01.260 --> 01:26:04.260]  And because I'm doing a graph, I should do two things.
+[01:26:04.260 --> 01:26:06.260]  I'm going to label the axes.
+[01:26:06.260 --> 01:26:09.260]  So one here is the sound wave over time.
+[01:26:09.260 --> 01:26:12.260]  And you're wondering what this or the y-axis is.
+[01:26:12.260 --> 01:26:14.260]  Well, that's in called amplitude.
+[01:26:14.260 --> 01:26:17.260]  So that's the height of sort of the sound wave.
+[01:26:17.260 --> 01:26:21.260]  And I've got two things that I need to consider when I'm capturing the sound,
+[01:26:21.260 --> 01:26:23.260]  verting it from analog to digital.
+[01:26:23.260 --> 01:26:27.260]  The first is how often I take a measurement of the height of that wave.
+[01:26:27.260 --> 01:26:30.260]  And that will be called the sampling rate.
+[01:26:30.260 --> 01:26:32.260]  Just like that here.
+[01:26:32.260 --> 01:26:37.260]  And the other thing is how many options I have to measure the height of that.
+[01:26:37.260 --> 01:26:41.260]  And that will come a bit clearer in a little bit when I talk about the bit rate.
+[01:26:41.260 --> 01:26:44.260]  So how accurate I can get the height of that sound wave at any given point.
+[01:26:44.260 --> 01:26:48.260]  And what I'm going to do is just start off with a fairly low sampling rate.
+[01:26:48.260 --> 01:26:49.260]  So I'm going to draw.
+[01:26:49.260 --> 01:26:52.260]  And we'll say every thing of something.
+[01:26:52.260 --> 01:26:55.260]  And draw five things on the bottom there.
+[01:26:55.260 --> 01:26:59.260]  And let's say I haven't got very many options to choose for the height of my sound wave.
+[01:26:59.260 --> 01:27:02.260]  So I've got quite a little bit rate as well.
+[01:27:02.260 --> 01:27:05.260]  And something works like this every time I take a sample.
+[01:27:05.260 --> 01:27:09.260]  I look for when I can next take a sample according to my sampling rate.
+[01:27:09.260 --> 01:27:15.260]  And I match the height of the sound wave to the closest bit rate that I've got.
+[01:27:15.260 --> 01:27:17.260]  So that's going to be here.
+[01:27:17.260 --> 01:27:19.260]  That's going to be probably here.
+[01:27:19.260 --> 01:27:22.260]  Here is much stuff over there.
+[01:27:22.260 --> 01:27:25.260]  This one matches up to this one here.
+[01:27:25.260 --> 01:27:28.260]  And then this one will probably about that one there.
+[01:27:28.260 --> 01:27:31.260]  So that's the samples that I've taken.
+[01:27:31.260 --> 01:27:34.260]  But if I draw a line between these dots, if I join the dots up,
+[01:27:34.260 --> 01:27:38.260]  you'll see I haven't really got a very accurate representation of my sound wave.
+[01:27:38.260 --> 01:27:43.260]  Every time that line is not matching what's on my sound wave,
+[01:27:43.260 --> 01:27:44.260]  you're going to hear it.
+[01:27:44.260 --> 01:27:46.260]  Your ears will pick up that it's not exact.
+[01:27:46.260 --> 01:27:47.260]  Okay.
+[01:27:47.260 --> 01:27:50.260]  So that's what we're going to do with to start with going to take this sound wave.
+[01:27:50.260 --> 01:27:52.260]  I'm going to just save it for a little bit later.
+[01:27:52.260 --> 01:27:55.260]  And I'm going to show you how we can get a slightly more accurate sound wave.
+[01:27:55.260 --> 01:27:59.260]  And the first thing that I can do is increase the sampling rate.
+[01:27:59.260 --> 01:28:02.260]  So instead of taking samples every second, maybe I change it.
+[01:28:02.260 --> 01:28:05.260]  So I'm taking samples every half second.
+[01:28:05.260 --> 01:28:06.260]  So let's do the dots for that.
+[01:28:06.260 --> 01:28:08.260]  I'm still restricted with my bit rate here.
+[01:28:08.260 --> 01:28:13.260]  So I still have to match up to one of these four different options along the left hand side.
+[01:28:13.260 --> 01:28:14.260]  But let's see how we do.
+[01:28:14.260 --> 01:28:16.260]  So I'll speed this up a bit so you don't have to hang around.
+[01:28:16.260 --> 01:28:17.260]  Here we go.
+[01:28:17.260 --> 01:28:19.260]  And let's join these dots up.
+[01:28:19.260 --> 01:28:23.260]  And as you can see, I'm still fair way off my sound wave here.
+[01:28:23.260 --> 01:28:27.260]  But I'm probably got a better representation of the sound than I did originally.
+[01:28:27.260 --> 01:28:29.260]  So compare these two here.
+[01:28:29.260 --> 01:28:30.260]  I'm doing a little bit better.
+[01:28:30.260 --> 01:28:35.260]  So by increasing the sampling rate, I've got a slightly better representation of my sound.
+[01:28:35.260 --> 01:28:38.260]  The other thing that I can do is increase the bit rate.
+[01:28:38.260 --> 01:28:44.260]  So I can give myself more options to choose from when I'm recording the amplitude of the sound.
+[01:28:44.260 --> 01:28:49.260]  So let's do this once more with a higher bit rate and sampling rate and see if we get any closer.
+[01:28:49.260 --> 01:28:51.260]  Let's join up these dots.
+[01:28:51.260 --> 01:28:52.260]  Whoops, forgot one.
+[01:28:52.260 --> 01:28:54.260]  Let's do that one there probably.
+[01:28:54.260 --> 01:28:56.260]  So again, it's not perfect.
+[01:28:56.260 --> 01:28:57.260]  It never is going to be.
+[01:28:57.260 --> 01:28:59.260]  It's never going to be as good as analog sound.
+[01:28:59.260 --> 01:29:02.260]  But we're much closer to the original sound wave.
+[01:29:02.260 --> 01:29:08.260]  If we compare this one to the original one with a low with a low bit rate and a low sampling rate.
+[01:29:08.260 --> 01:29:13.260]  To increasing our sampling rate and then eventually increasing our bit rate as well.
+[01:29:13.260 --> 01:29:14.260]  We get much closer to it.
+[01:29:14.260 --> 01:29:20.260]  So you might ask, well, why don't we just have the biggest possible sampling rate and bit rate.
+[01:29:20.260 --> 01:29:25.260]  It's not as simple as that because every time we increase the bit rate or the sampling rate,
+[01:29:25.260 --> 01:29:27.260]  it increases the file size as well.
+[01:29:27.260 --> 01:29:34.260]  So the trade off for quality if we ever want higher quality for sound is that you're always going to end up with a higher file size too.
+[01:29:34.260 --> 01:29:37.260]  And that sampling of sound.
+[01:29:37.260 --> 01:29:40.260]  If you found that video useful.
+[01:29:40.260 --> 01:29:45.260]  I think that's an interesting video which actually clarifies the concept of sound waves.
+[01:29:45.260 --> 01:29:49.260]  As you can see that the when we record some sound, it never goes in the digital format.
+[01:29:49.260 --> 01:29:53.260]  It goes in the form of many different curves with different intensity.
+[01:29:53.260 --> 01:30:00.260]  And then depending on how many bits you are recording in the digital format out of that curve,
+[01:30:00.260 --> 01:30:08.260]  depending on how frequently you want to capture that at a difference of 0.1 seconds or milliseconds or whatever.
+[01:30:08.260 --> 01:30:13.260]  The more number of sampling rates, the higher will be the size of the sound.
+[01:30:13.260 --> 01:30:16.260]  But it will be more closer to the curve, right?
+[01:30:16.260 --> 01:30:22.260]  In the very first example, you saw that the recording of bits was at one second sampling.
+[01:30:22.260 --> 01:30:29.260]  So even though it was matching the curve, but then it was not accurately aligning with the intensity.
+[01:30:29.260 --> 01:30:34.260]  And as they dropped it to half the second, it was much more closer, but then the size would be doubled.
+[01:30:34.260 --> 01:30:37.260]  And if you make it a quarter second, then obviously more bits recording.
+[01:30:37.260 --> 01:30:40.260]  So that will be four times more than the original.
+[01:30:40.260 --> 01:30:45.260]  So it largely depends on your requirements as to how much of quality is important to you.
+[01:30:45.260 --> 01:30:47.260]  More is the sampling rate.
+[01:30:47.260 --> 01:30:49.260]  Higher will be the size of the image.
+[01:30:49.260 --> 01:30:52.260]  And there's one more.
+[01:30:52.260 --> 01:30:56.260]  There's a python program, which I found on one of the websites.
+[01:30:56.260 --> 01:31:02.260]  And eventually you will writing programs like this to play around with these kind of problems.
+[01:31:02.260 --> 01:31:12.260]  So you can see here we have two examples in the first one, which of which of these two do you think will produce better sound quality?
+[01:31:12.260 --> 01:31:15.260]  15 ms or 40 ms.
+[01:31:15.260 --> 01:31:23.260]  Sorry, sorry, sorry, sorry, sorry, and let me share once.
+[01:31:23.260 --> 01:31:30.260]  Okay, so.
+[01:31:30.260 --> 01:31:36.260]  If you look at these two images, which one do you think will produce a better sound quality?
+[01:31:36.260 --> 01:31:40.260]  15 ms or 40 ms?
+[01:31:40.260 --> 01:31:42.260]  15 milliseconds.
+[01:31:42.260 --> 01:31:48.260]  That means we are recording the amplitude every 15 milliseconds.
+[01:31:48.260 --> 01:31:54.260]  So that means the bit rate is higher in the first image as compared to the second image, right?
+[01:31:54.260 --> 01:32:06.260]  So there's a very nice program which you can try in Python or rather in Java, where they have written a code to plot this graph based on the sample rate that you want to give.
+[01:32:06.260 --> 01:32:13.260]  So if I run this code, it will ask me enter sampling interval between 10 to 16 ms.
+[01:32:13.260 --> 01:32:15.260]  Let's first do 50.
+[01:32:15.260 --> 01:32:21.260]  So that means the recording of sound wave is done every 50 milliseconds.
+[01:32:21.260 --> 01:32:25.260]  Let's see what kind of output it plots.
+[01:32:25.260 --> 01:32:31.260]  So this is the sound wave analog analog form and then it will plot.
+[01:32:31.260 --> 01:32:33.260]  See, this is how it is recording.
+[01:32:33.260 --> 01:32:40.260]  So every 50 milliseconds, it is plotting one point on the curve.
+[01:32:40.260 --> 01:32:48.260]  Now this will give you a sound which will be close to what you are talking, but it will not be.
+[01:32:48.260 --> 01:32:51.260]  You know, it will be little.
+[01:32:51.260 --> 01:32:55.260]  I don't know how to say, but it will be little different than actual voice because it's recording.
+[01:32:55.260 --> 01:33:02.260]  It's it's on the same amplitude that it is recording, but then the quality will be poor because it's recording at 50 millisecond each.
+[01:33:02.260 --> 01:33:08.260]  So when you will play it in a faster way, it will try to replicate what you said, but in a very distorted manner.
+[01:33:08.260 --> 01:33:14.260]  Now let's try and do it for let's say 10.
+[01:33:14.260 --> 01:33:18.260]  Let's do it for 10 milliseconds.
+[01:33:18.260 --> 01:33:27.260]  So now again, it is plotting that amplitude and that it will take the sample rates at every 10 millisecond and now you can see how close it is.
+[01:33:27.260 --> 01:33:35.260]  So every crossover that you see in that pink line that is actually the recording of bit at that particular point.
+[01:33:35.260 --> 01:33:38.260]  And you can see here that this is going much in alignment with the sound waves.
+[01:33:38.260 --> 01:33:45.260]  So when you play this digital voice into analog back again on the speaker, it will build more realistic.
+[01:33:45.260 --> 01:33:51.260]  So the more is the bit rate, more is the sampling rate better will be the quality of the sound.
+[01:33:51.260 --> 01:33:57.260]  This is a good program when we'll start with the theme B, probably you can try creating something similar in Java.
+[01:33:57.260 --> 01:34:02.260]  It's very easy to do in Python, but since we are doing Java, it may require little more efforts.
+[01:34:03.260 --> 01:34:07.260]  So you may try this. I put this link into the document so you can play around with this.
+[01:34:07.260 --> 01:34:09.260]  It's here simulation.
+[01:34:09.260 --> 01:34:12.260]  So if you go into this, you can play around with this.
+[01:34:12.260 --> 01:34:15.260]  So that's that's about the images.
+[01:34:15.260 --> 01:34:17.260]  Then comes the video.
+[01:34:17.260 --> 01:34:21.260]  So a video is nothing, but it's a series of many different.
+[01:34:21.260 --> 01:34:27.260]  I have a question was the difference between bit rate and beat depth.
+[01:34:27.260 --> 01:34:31.260]  Bit rate and beat depth.
+[01:34:31.260 --> 01:34:36.260]  See, bit rate is the.
+[01:34:36.260 --> 01:34:44.260]  Bit rate is the time interval at which you are recording the sampling, you know, positioning.
+[01:34:44.260 --> 01:34:58.260]  For example, if you look at this curve in the image, the bit rate is actually every millisecond every 10 milliseconds that you are recording the wavelength of the sound.
+[01:34:58.260 --> 01:35:05.260]  If I can put it that way, so first bit rate was recorded here, the next bit rate was recorded here, the third bit rate was recorded here.
+[01:35:05.260 --> 01:35:15.260]  Now, when you convert this, so that means it's taking the pixel position of the bit at that particular point and converting that into binary value.
+[01:35:15.260 --> 01:35:20.260]  Now, when you play that back, that bit rate will be converted from digital format to the analog format.
+[01:35:20.260 --> 01:35:27.260]  So it will know exactly where on the curve of the line does it fall and it will decide is going up or it's going down.
+[01:35:27.260 --> 01:35:37.260]  So depending on the conversion from bits into analog form, it will be able to produce exactly the same sound, right.
+[01:35:37.260 --> 01:35:41.260]  Now, talking about this bit depth, I'll have to check.
+[01:35:41.260 --> 01:35:45.260]  Let's go to the bit depth bits used per sample.
+[01:35:45.260 --> 01:35:56.260]  So Martin, what do you see from here, the bit depth bits used per sample.
+[01:35:56.260 --> 01:36:06.260]  So number of bits that are used in per sample, which is if it is 16, it's 65,536 levels.
+[01:36:07.260 --> 01:36:19.260]  I have an image that my help explains a little bit more in detail what you just explained.
+[01:36:19.260 --> 01:36:37.260]  So, yeah, yeah, you can share your share.
+[01:36:37.260 --> 01:36:42.260]  Can everybody see that image there?
+[01:36:42.260 --> 01:36:47.260]  So the idea is the following, right.
+[01:36:47.260 --> 01:36:54.260]  How or what type of information you gather from the way and basically you gather into types of information.
+[01:36:54.260 --> 01:36:59.260]  One is in the horizontal axis, the x axis is your sampling rate.
+[01:36:59.260 --> 01:37:07.260]  How often you are measuring the amplitude of the wave, right, which is the height of the volume.
+[01:37:07.260 --> 01:37:17.260]  That is, you see a higher sample rate, then it's going to produce a better quality wave.
+[01:37:17.260 --> 01:37:22.260]  So the sound is going to be more clear, more crispy, correct.
+[01:37:22.260 --> 01:37:34.260]  However, if so, the bit depth is the number of bits that you're going to use to represent that particular height.
+[01:37:34.260 --> 01:37:56.260]  And that's where the quantization comes into place because quantization is going to, if you have this value here, you're gathering data right here at this point, then to which of these horizontal lines will you get that value close to which one is the closest, right.
+[01:37:56.260 --> 01:38:09.260]  So the bit depth here is the number of bits that you're going to use to put up or down or to approximate up or down the actual value to plot the two coordinates.
+[01:38:09.260 --> 01:38:20.260]  So if you look at these or you think in terms of mathematics here, the sample rate is your x coordinate and the bit depth is your white coordinate, right.
+[01:38:20.260 --> 01:38:40.260]  And each one of those points is what is going to make the way obviously the more the higher the sample rate and the bigger the bit rate, then you have more points, right, think of in terms of I guess an analogy with images with the resolution of an image.
+[01:38:40.260 --> 01:38:50.260]  So it's kind of a similar idea, right, and that's what allows us for the for the sound to be better.
+[01:38:50.260 --> 01:38:54.260]  Did that help.
+[01:38:54.260 --> 01:39:03.260]  Yes, but we had on the y axis, we had bit rates on the video.
+[01:39:03.260 --> 01:39:18.260]  So look at this, right, so the sampling, the sampling, which is the horizontal axis, right, is going to help me capture the shape of the weight, correct, because I'm going to measure at different heights.
+[01:39:18.260 --> 01:39:25.260]  So the more I have, I'm going to have more points that are going to kind of match the shape, correct.
+[01:39:25.260 --> 01:39:40.260]  That's that's just the horizontal axis, they are and then the conclusion is going to precisely take those samples and represents the amplitude, because now we're talking about this particular.
+[01:39:40.260 --> 01:40:04.260]  This particular form of of this greed that I can match or not, all right, so those two, then one is the quality of the sound, because it's going to try to match the shape of the weight and the conversation is going to actually determine the quality of it.
+[01:40:04.260 --> 01:40:11.260]  Okay, but and the bit rate is.
+[01:40:11.260 --> 01:40:23.260]  All right, so give me one second, all right, so the bit that so what is the idea, right, is the bit that refers to the number of bits used to represent the amplitude.
+[01:40:23.260 --> 01:40:44.260]  So how many bits we're going to use to represent that height, right, so for example, in this image here, we have 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 bits, right, so because each one of those horizontal lines is represented one of those bits.
+[01:40:44.260 --> 01:40:57.260]  So the more we have them, then the bearer is going to be the quality, right, and that's going to help in the precision with the original sound.
+[01:40:57.260 --> 01:41:05.260]  Yeah, that's clear, but the bit rate, what does it represent in regards to big depth?
+[01:41:06.260 --> 01:41:11.260]  The bit depth is understandable, but how is it differs from the bit rate?
+[01:41:11.260 --> 01:41:15.260]  Oh, because real rate is how often do you are taking something?
+[01:41:15.260 --> 01:41:18.260]  But sampling rate, isn't it sampling rate?
+[01:41:18.260 --> 01:41:33.260]  Right, the real rate is with the sampling is how many times how often you're going to get a sample of the data in order to try to match or create that weight.
+[01:41:33.260 --> 01:41:44.260]  So, for example, here, you see sampling rate is how often per second you actually record the weight.
+[01:41:44.260 --> 01:41:51.260]  And there is how many bits you're going to use to represent that amplitude, that height.
+[01:41:51.260 --> 01:41:59.260]  So one is how often I take data and the other is how or how much bits am I going to use to represent that data?
+[01:41:59.260 --> 01:42:02.260]  So the bit rate is how often?
+[01:42:02.260 --> 01:42:15.260]  The bit rate is how often I take information from the way or how do you remember from the video how many points I'm going to plot depends on how often I'm going to get those points.
+[01:42:15.260 --> 01:42:17.260]  Okay, thank you.
+[01:42:17.260 --> 01:42:20.260]  I'm sorry for the interruptions.
+[01:42:20.260 --> 01:42:22.260]  Yes, absolutely fine.
+[01:42:22.260 --> 01:42:25.260]  No, this is very, yeah, this is very helpful.
+[01:42:25.260 --> 01:42:31.260]  And probably as a computer science students probably you can do a little more research on this to get more clarity.
+[01:42:31.260 --> 01:42:36.260]  And we have the discussion forum so just to make a reflection so that it is beneficial to all.
+[01:42:36.260 --> 01:42:42.260]  If you can find out some good videos or if you can find out some good examples, but please share that with the whole group.
+[01:42:42.260 --> 01:42:44.260]  And I can share with you.
+[01:42:44.260 --> 01:42:47.260]  Yeah, you can share.
+[01:42:47.260 --> 01:42:57.260]  Right, so that's about how the sound is stored from analog form to the digital so that when it is converted back into analog.
+[01:42:57.260 --> 01:43:06.260]  It just does the reverse engineering the way it is stored in the digital format that is just reversed back into the original analog format and we are able to hear that voice.
+[01:43:06.260 --> 01:43:15.260]  So that means when I'm talking over this microphone, it is going into the computer in the same process as we just saw in that sampling.
+[01:43:15.260 --> 01:43:22.260]  So it stores it in the digital format and then before relaying it back to you, it is again converting that back into the analog form.
+[01:43:22.260 --> 01:43:26.260]  So this conversion is basically done in the real time by the computer system.
+[01:43:26.260 --> 01:43:29.260]  It's not that what I'm talking is going in the original format to you.
+[01:43:29.260 --> 01:43:37.260]  A lot of conversion is happening in between as per the description that we just saw in the in the examples.
+[01:43:37.260 --> 01:43:45.260]  And you can actually try this, you know, there are some free to use tools wherein you can actually record your voice.
+[01:43:45.260 --> 01:43:53.260]  For example, in 40, 40,100 megahertz and then you can convert it into the lower sound quality.
+[01:43:53.260 --> 01:44:09.260]  That means your sampling rate is reduced. That means every bit that you're reading in your system or storing in the system is reduced to more or milliseconds, which would mean that that the frequency of that curve will actually be more of a straight line rather than going along with the curve.
+[01:44:09.260 --> 01:44:16.260]  So even though you will be able to hear that voice, but then that will not be as clear as when you have the higher sampling rates.
+[01:44:16.260 --> 01:44:23.260]  So one of the applications that I generally drive with my students is called sound forge.
+[01:44:23.260 --> 01:44:29.260]  I don't know if some of you have used it. Have you used sound forge for audio editing?
+[01:44:29.260 --> 01:44:36.260]  That is something which you can try for the practical purposes.
+[01:44:36.260 --> 01:44:45.260]  It's a free application wherein you can just install it on Mac or windows, record your voice and then you can save it with different sampling rates.
+[01:44:45.260 --> 01:44:52.260]  From 44,100 to lower down. You will see a substantial amount of reduction in the size.
+[01:44:52.260 --> 01:44:59.260]  So 44,100 because it's taking the sample bit rate at a much faster rate as compared to lower.
+[01:44:59.260 --> 01:45:02.260]  So you will be able to differentiate between the sound.
+[01:45:02.260 --> 01:45:07.260]  Not to the extent that when you hear it on a laptop speaker, you can't probably differentiate it.
+[01:45:07.260 --> 01:45:16.260]  But when you listen to it on a on a 5.1 channel speakers or bigger speakers, you will be able to see the difference between in the sound quality between the two.
+[01:45:16.260 --> 01:45:26.260]  So please try this download it. It's free and you can just try a few sound recordings or existing sounds.
+[01:45:26.260 --> 01:45:38.260]  Next comes is the video representation. Now just like how we talked about images which are still images non-movable.
+[01:45:38.260 --> 01:45:44.260]  A video is nothing but it's a collection of many different still images which are called the frames.
+[01:45:44.260 --> 01:45:53.260]  So if you actually have many different images in a sequence where there's a little bit of change happening between those images, you will see that movement happening.
+[01:45:53.260 --> 01:45:57.260]  You can actually click a few pictures where your hand is here. Then you take the next picture and your hand goes up.
+[01:45:57.260 --> 01:46:03.260]  Next picture handles it slightly goes up and when you fast play it, you will see that as if your hand is moving.
+[01:46:03.260 --> 01:46:11.260]  So and a video is nothing but it's a collection of many different still images which are stitched together which are called the frames.
+[01:46:11.260 --> 01:46:22.260]  So again frame rate frames per second FPS which we call it how many frames your image how many frames do you have in a given amount of time.
+[01:46:22.260 --> 01:46:31.260]  That is what defines the frame rate. Obviously larger is the frame rate. Higher will be the size. No sorry.
+[01:46:31.260 --> 01:46:39.260]  Higher is the frame rate. That means you have less number of images in a given amount of time so your image quality won't be good.
+[01:46:39.260 --> 01:46:47.260]  Like if you look at the old videos of Charlie Chaplin or any tennis match being played let's say in 1970s or 1980s.
+[01:46:47.260 --> 01:46:53.260]  You will see those images going very fast why because the frames per second is less.
+[01:46:53.260 --> 01:46:59.260]  You have very few images within the given amount of time so obviously you will be able to see the difference between them.
+[01:46:59.260 --> 01:47:06.260]  It will become fast one of the good examples to capture a video in the time lapse mode.
+[01:47:06.260 --> 01:47:11.260]  So just put your no not time lapse mode but in the slow motion mode.
+[01:47:11.260 --> 01:47:16.260]  Slow motion or time lapse mode will it be where you have time lapse mode.
+[01:47:16.260 --> 01:47:25.260]  So you take one image then your camera stops for a while and takes the second image then takes the third image and when you play them together it will go very fast.
+[01:47:25.260 --> 01:47:31.260]  So you have less number of images per frame second. So which means your video will run faster.
+[01:47:31.260 --> 01:47:43.260]  Right so it's actually the number of images in the given amount of time stored that is actually what defines our videos size and video speed.
+[01:47:43.260 --> 01:47:51.260]  Resolution number of pixels per frame now within the normal video also a video which is running with the normal flow.
+[01:47:51.260 --> 01:48:00.260]  You can have different types of resolutions for example each frame what is the resolution just like the concept of images more or the pixels in each image.
+[01:48:00.260 --> 01:48:06.260]  Obviously the quality will be better but at the same time the size will be more.
+[01:48:06.260 --> 01:48:21.260]  Color depth bits per pixel again what is the color size like is it 24 bit color or it's a 32 bit color or 64 bit color higher is the bit color more will be the size each pixel and that will raise the size of your video.
+[01:48:21.260 --> 01:48:28.260]  And then the compression obviously when we talk about the videos compression is something which is always talked about that what is the purpose of that video.
+[01:48:28.260 --> 01:48:43.260]  Is it for a play in a movie hall obviously you need higher bits per pixel you need more number of pixels and you know need better frame rates so that your quality is optimum even on the big screen.
+[01:48:43.260 --> 01:48:49.260]  But if your purpose is to watch it on a mobile phone or you want to stream it live on YouTube or any other channel.
+[01:48:49.260 --> 01:49:02.260]  Then obviously you need to have lower bit first bits first pixel you need to have lower resolution so that the transmission of frames on the video channel can be faster.
+[01:49:02.260 --> 01:49:12.260]  And these are different you don't have to go into the details of this but these are the different compression techniques which are used in the videos to compress the video.
+[01:49:12.260 --> 01:49:22.260]  So that it can be optimum for the display for which it is planned for example netflix YouTube they all use these kind of products for their platform.
+[01:49:22.260 --> 01:49:33.260]  So that they estimate the size which would be optimum for a display that people generally use at homes so that streaming can be useful.
+[01:49:33.260 --> 01:49:53.260]  There's a trade off how much size they can reduce so that it looks good on your screen but at the same time it doesn't consume too much of bandwidth right so that trade off is generally measured by these companies who relay the videos for streaming so that you get the best quality video without any interruptions or delays.
+[01:49:53.260 --> 01:50:21.260]  Okay now how compression works instead of storing every frame completely only changes between frame or saved now that is something which is being used as a part of these codecs algorithm as to whether you are changing the entire image every frame which will obviously require more bandwidth more storage because you are changing the entire image from one image to another right.
+[01:50:21.260 --> 01:50:33.260]  And there's another way that only the changing parts of the image will be in the next frame rest of the rest of the frame remains intact I mean rest of the pixels remain intact.
+[01:50:33.260 --> 01:50:46.260]  So think about this screen that is right in front of us if I'm moving the if I'm moving across the document vertically there are some areas which are still the same.
+[01:50:46.260 --> 01:51:12.260]  So which would mean that if we are following this process of compression where the unchanged frames or unchanged pixels are copied as it is onto the next frame that will obviously consume less bandwidth and less size because the system is only using some part of the screen for the next image so obviously it will take less less space and the speed will be faster.
+[01:51:12.260 --> 01:51:31.260]  So however it doesn't mean that it cannot be done for the whole screen so every millisecond let's say it has taken a frame and then it copies the entire frame to the next one capturing the whole screen that would mean that it is taking more pixels and making more copies next copies of the of the frame of the entire screen.
+[01:51:31.260 --> 01:51:40.260]  So depending on what kind of codec or algorithm you have you are using it will determine how the frames are stored and relate over the communication channel.
+[01:51:41.260 --> 01:51:48.260]  Like YouTube and Netflix uses advanced compression h.265 to stream 4k videos efficiently.
+[01:51:48.260 --> 01:52:02.260]  Now imagine it's a 4k video which must be very huge in size but still we are able to see them on the TV in the best possible quality not because it is able to download that much of information.
+[01:52:02.260 --> 01:52:16.260]  Like if you create a 4k video of even 1 minute right it will take almost I think 1 GB of size for 1 minute video in 4k would be almost 1 GB size.
+[01:52:16.260 --> 01:52:30.260]  Now does it mean that every program that we watch on Netflix which is 4k is actually downloading so much of data no it is not so because it is using advanced compression techniques like h.265 which is compressing the 4k video.
+[01:52:30.260 --> 01:52:38.260]  Keeping the quality more or less intact but in a much lower bandwidth or much lower relay size.
+[01:52:38.260 --> 01:52:46.260]  And that is what is the importance of compression especially when you are actually using it for streaming purpose.
+[01:52:46.260 --> 01:52:56.260]  The smartphones record videos are 60 FPS that mean your smartphone is capable of taking 60 different images every cycle of time.
+[01:52:56.260 --> 01:53:06.260]  So when you press the record button on your mobile phone it is actually taking 60 different images every millisecond or whatever is the unit of measurement for each frame.
+[01:53:06.260 --> 01:53:16.260]  Rash could you check the teacher chat please for a session.
+[01:53:16.260 --> 01:53:30.260]  I don't hear is it just me are you not able to hear me or no no couple of students are wondering about what time we are ending today when a student has a doctor appointment.
+[01:53:30.260 --> 01:53:42.260]  Yeah I think it's already let me let me see what all is left so we have something important which cannot be covered I'm sure in today's lesson because now we have the conversions after this.
+[01:53:42.260 --> 01:53:50.260]  For example number system conversion which will take one full lesson so I don't think we can club this one for today's lesson.
+[01:53:50.260 --> 01:54:13.260]  So maybe next week how should we do Martin because I don't think that we can cover one 1.2.1 today because it is quite a lot to be covered because it's all about conversion so we have to take each example.
+[01:54:13.260 --> 01:54:18.260]  So we can end this lesson today but when should we do this second part of this lesson.
+[01:54:19.260 --> 01:54:22.260]  Next Saturday.
+[01:54:22.260 --> 01:54:33.260]  Well how about if we maybe maybe put together a video, share it with them.
+[01:54:33.260 --> 01:54:35.260]  Yeah yeah we can do that yes.
+[01:54:35.260 --> 01:54:41.260]  So we'll create a video for the second part of this topic which is 1.2.2 to 1.2.3.
+[01:54:41.260 --> 01:54:56.260]  We'll prepare a video explaining how each conversion is done and I'm sure if you watch that in your free time you will be able to understand that and just note down the questions that you may have which we will take up next week.
+[01:54:56.260 --> 01:55:05.260]  Okay is that fine with everyone because we don't know you with you with so much of information.
+[01:55:06.260 --> 01:55:10.260]  Whatever we have covered today that also in itself a lot.
+[01:55:10.260 --> 01:55:14.260]  Is it okay if we record a video and share with you or their number systems.
+[01:55:14.260 --> 01:55:20.260]  Thumbs up everybody in this screen or an emoji or something if you're okay with that.
+[01:55:20.260 --> 01:55:22.260]  All right yeah perfect.
+[01:55:22.260 --> 01:55:23.260]  Okay guys.
+[01:55:23.260 --> 01:55:32.260]  Okay so so so we'll prepare a video and share that video including this one but this is a very important chapter guys and it's not purely theoretical.
+[01:55:32.260 --> 01:55:41.260]  It involves a lot of mathematical calculations and it also involves understanding of how pixels work how number system work how welfare gets recognized.
+[01:55:41.260 --> 01:55:46.260]  So we would strongly recommend that please go through the content carefully watch this video again.
+[01:55:46.260 --> 01:55:57.260]  We'll put it in the recording folder so watch this again so that you develop a good understanding of how computer system interprets data for the processing.
+[01:55:57.260 --> 01:56:03.260]  Do we have anyone who has not marked the attendance or everybody has done that.
+[01:56:03.260 --> 01:56:06.260]  What else were filling now.
+[01:56:06.260 --> 01:56:09.260]  Do we have anyone who hasn't marked.
+[01:56:09.260 --> 01:56:16.260]  I'm putting the link again just in case if you missed it I can see total we have 29 students who are marked attendance.
+[01:56:16.260 --> 01:56:23.260]  So if anybody is left please use this link to mark your attendance.
+[01:56:23.260 --> 01:56:29.260]  Rest of you who are already done may kindly leave we don't want to hold you back.
+[01:56:29.260 --> 01:56:33.260]  So we'll wait to educate next week.
+[01:56:33.260 --> 01:56:38.260]  Next week we will have the class 12 known or GMT.
+[01:56:38.260 --> 01:56:42.260]  Okay so we learn and will educate next week.
+[01:56:42.260 --> 01:56:48.260]  Yeah yeah yeah we'll learn logic it will start with the question answer session.
+[01:56:48.260 --> 01:56:54.260]  We'll start with the questions if you have anything from this lesson including the number system for which we'll record the video.
+[01:56:54.260 --> 01:56:58.260]  That will keep about 15 minutes and then we'll get on to logic gates.
+[01:56:58.260 --> 01:57:03.260]  So we're ready to answer a couple of questions of converting numbers.
+[01:57:03.260 --> 01:57:06.260]  Yeah correct.
+[01:57:06.260 --> 01:57:13.260]  Do we have anyone who has not marked the attendance.
+[01:57:13.260 --> 01:57:19.260]  Can you share the attendance sheet already or not yet.
+[01:57:19.260 --> 01:57:21.260]  Yeah I have.
+[01:57:21.260 --> 01:57:31.260]  So we have we did so we have 29 students who have marked that and anybody who is left can you put down your name in the chat if you haven't marked attendance.
+[01:57:43.260 --> 01:57:58.260]  I'm putting the link in the chat so if you could kindly mark it if you haven't already done.
+[01:57:58.260 --> 01:58:12.260]  So rest of you you may leave now and please make sure that you revise all these topics because they are extremely important and if you don't revise with the ongoing classes.
+[01:58:12.260 --> 01:58:22.260]  It will become more and more difficult for you so we really want to make things simpler for you so that you don't struggle much and please go through.
+[01:58:22.260 --> 01:58:29.260]  I'm glad that we had some wonderful questions so coming in so please do a little more research on how the sound works.
+[01:58:29.260 --> 01:58:37.260]  We'll try and find some good YouTube videos and we'll include that into the document which will actually help you understand comprehensively how the sound is recorded.
+[01:58:37.260 --> 01:58:48.260]  How it is stored how images are stored so that you don't struggle with answering questions related to these storage or file calculations.
+[01:58:48.260 --> 01:58:59.260]  Okay thank you everyone for being here I know these classes are turning out to be quite long but I think it's worth it because otherwise if you just read it it will not help you much.
+[01:58:59.260 --> 01:59:09.260]  So anyone who is not attending is actually missing a lot and I strongly recommend that you should if not already start attending these classes.
+[01:59:09.260 --> 01:59:20.260]  Thank you so much you may leave now and although very best for next one week we'll see you at 12 GMT next Saturday.
+[01:59:20.260 --> 01:59:40.260]  I have a question but it doesn't connect to the material learned for some reason I'm not in the list of the students who have not their teachers as well as several other students I was in a group with so and I cannot really mark the assignment as done.
+[01:59:40.260 --> 01:59:54.260]  Okay so let me have a look at the assignment tomorrow so is it that is it a group assignment.
+[01:59:54.260 --> 02:00:09.260]  No it's not a group is the individual meeting and I was I attended the individual meeting but we had four or five participants and we talked about each other so that's it.
+[02:00:09.260 --> 02:00:14.260]  Yes that's fine as good as individual meeting so you can mark it as done.
+[02:00:14.260 --> 02:00:18.260]  I cannot mark it really because I think it's up to the teacher to.
+[02:00:18.260 --> 02:00:24.260]  Okay okay okay okay okay I've taken a record of all those I have met so I will mark it sure.
+[02:00:24.260 --> 02:00:36.260]  Okay thank you very much because it's time's in and yeah thank you very much and also the link for the new session for the individual meeting there.
+[02:00:36.260 --> 02:00:46.260]  It's done much like the available times and the phone the phone this don't much available times.
+[02:00:46.260 --> 02:00:50.260]  Alexander I'll give you a big section.
+[02:00:50.260 --> 02:00:52.260]  Pardon?
+[02:00:52.260 --> 02:00:57.260]  You're in HL section A or B. Yes section B.
+[02:00:57.260 --> 02:01:01.260]  So I think Martin you will share with them the link.
+[02:01:01.260 --> 02:01:13.260]  Yeah I'll go in today later on and check who has completed that okay and then update.
+[02:01:13.260 --> 02:01:20.260]  Okay well the dates don't much I think the dates are using previous dates I think it isn't 26 or something.
+[02:01:20.260 --> 02:01:25.260]  It's not using future dates it isn't previous dates.
+[02:01:25.260 --> 02:01:33.260]  So the latest link that you send for Monday on the 6th that uses the previous week states.
+[02:01:33.260 --> 02:01:37.260]  So I am unable to reserve your 1 p.m. 2 p.m. 3 p.m.
+[02:01:37.260 --> 02:01:41.260]  Because it uses the Tuesday and Wednesday of last week.
+[02:01:41.260 --> 02:01:45.260]  Oh really Martin maybe you can just update the dates and they can use the same form.
+[02:01:45.260 --> 02:01:53.260]  Yeah let me so let me create new forms and send them right away okay.
+[02:01:53.260 --> 02:01:59.260]  I think Martin same form will work you just change the dates otherwise they will get confused with many forms.
+[02:01:59.260 --> 02:02:04.260]  I mean within the same form you can just change the dates they can access.
+[02:02:04.260 --> 02:02:06.260]  Oh I see I see I see I see.
+[02:02:06.260 --> 02:02:09.260]  Okay same update the forms today.
+[02:02:09.260 --> 02:02:15.260]  As soon as we end here I'll update those forms okay everybody.
+[02:02:15.260 --> 02:02:20.260]  And for HL section 1 who are with me I've shared the form with you for tomorrow's meeting.
+[02:02:20.260 --> 02:02:24.260]  If you're free no not tomorrow I think Monday for Monday.
+[02:02:24.260 --> 02:02:29.260]  So if you're free and Monday please attend otherwise I will share one more set of climates.
+[02:02:29.260 --> 02:02:39.260]  But make sure that you complete the meeting with me as soon as possible.
+[02:02:39.260 --> 02:02:42.260]  Wait is that HL meeting?
+[02:02:42.260 --> 02:02:45.260]  Yeah for HL section 8.
+[02:02:45.260 --> 02:02:51.260]  I will send I will I will I will share the details on the email with section 8.
+[02:02:51.260 --> 02:02:54.260]  Okay.
+[02:02:54.260 --> 02:03:03.260]  Okay.
+[02:03:03.260 --> 02:03:07.260]  Martin shall we meet on teams for a little while after this?
+[02:03:07.260 --> 02:03:10.260]  Yeah yeah let's let's do that.
+[02:03:10.260 --> 02:03:14.260]  Okay guys see you again next week take care everyone.
+[02:03:14.260 --> 02:03:16.260]  Thank you.
+[02:03:16.260 --> 02:03:18.260]  Thank you.

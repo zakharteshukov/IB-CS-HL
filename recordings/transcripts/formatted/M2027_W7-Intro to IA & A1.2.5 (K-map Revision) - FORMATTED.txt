@@ -3,6 +3,20 @@ Introduction to IA & A1.2.5 (K-map Revision)
 Transcription - Formatted
 
 ================================================================================
+LESSON OUTLINE
+================================================================================
+
+1. CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+2. TOPIC A1.2.4 - K-MAP REVISION & BOOLEAN ALGEBRA
+3. INTERNAL ASSESSMENT (IA) INTRODUCTION
+4. BOOLEAN ALGEBRA SIMPLIFICATION
+5. K-MAP (KARNAUGH MAP) SIMPLIFICATION
+6. CLASS CONCLUSION
+
+================================================================================
+
+
+================================================================================
 CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
 ================================================================================
 

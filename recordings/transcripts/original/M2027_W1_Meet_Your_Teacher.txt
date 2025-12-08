@@ -1,0 +1,346 @@
+How strictly I be takes in terms of usage of AI.
+I be doesn't discourage students from using AI because it's a powerful tool for you in the learning process.
+But there are some terms and conditions which we have to abide by to see that we are not using AI in appropriately.
+So AI should not be used to writing assessments essays or assignments on your behalf.
+And unlike your face to face school where all your assessments are done in presence of your teacher.
+Here except for few, most of the assessments will have to be done by you under your own supervision.
+So that is where the academic integrity and academic honesty plays a major role.
+And let me tell you, I know that you will not be using it, but this learning platform is already embedded with the AI detection tools.
+So if there are any submissions which shows a good amount of AI usage, students generally get one written warning.
+And after that matter is escalated to the higher authorities and that will be a problematic and we don't want you to be getting into that.
+So please don't use AI for any purpose, which is outlined here under the second category.
+Generating citations, references or data without verification, replacing your own critical thinking analysis or creativity.
+That is the most important part because the more you start using AI, the more difficulty you are making for yourself in terms of developing critical thinking skills, skills of analysis and your creativity skills.
+So it's good for you if you are less dependent on AI and more dependent on your own personal thoughts.
+Remember, using AI responsibly means applying it as a support tool, not substituting your own work, misuse can result in an academic dishonesty and lead to serious consequences.
+So this is just a warning and I know that you all are responsible students and that's when we have a declaration submission from you to say that you will never use any such thing which will lead to academic dishonesty.
+Okay, so we have essentially four assessment objectives, but I think this is not the right time to talk about them right now.
+We just want to talk to you about the curriculum structure as the water is going to be covered and then in further sessions will talk more about what assessment objectives are and about the internal assessment.
+So this is anyways will cover this little later.
+This also will come later. Okay, so this is something important for you.
+So as a part of computer science course for SL and national both we have two written papers paper one which carries 50% weightage overall paper.
+Sorry, not weightage paper one 50% for assessment objective one and two and 50% for assessment objective three and paper two same thing 50% plus 50%.
+And I a covers four assessment objectives, but we'll come to this assessment objective business a little later.
+So as it was mentioned by one of you that the syllabus is organized into two main themes one is team A and one is team B.
+So Martin, you would like to talk a little about team A and team B.
+I'm being charged of theme B correct. I both.
+Yeah, so yeah, so essentially the computer science courses divided into teams theme A is basically the theoretical concept about the computer science and that includes four topics.
+So I think it will be covered in the next slide, but there are four topics which are going to be studied as part of theme A and theme B is all about programming.
+So paper one will be based on theme A and paper two will be based on theme B for both SL and HL they will share the same core content, but for HL they will be some additional topics for the greater depth.
+And for that very reason the total hours allocated for SL is 150 hours and HL is 240 and this is where it comes theme A and theme B.
+You can see in theme A we have four topics which is computer fundamentals where you will be learning about different components of computer system.
+For example, CPU GPU RAM ROM registers and then also it includes the number system binary number system exit a simple number system logic gates.
+So all those things are covered in theme A and if you have looked at week two content.
+I don't know if you have the access to week two content, but in week two you will see that we will begin with theme A computer fundamentals.
+Second topic is computer networks, which is essentially everything about computer network in many different forms like LAN, man, van, VPN OSI layer model.
+So everything related to network will be covered as a part of a two or the third topic is databases.
+So that is also part of theme A. Now this databases chapter will be very important from you from the for you from the internal assessment point of view.
+So we'll be talking about internal assessment in greater depth, but this is a topic which will be very helpful to you.
+And the last topic in theme A is machine learning, which will be beneficial to you in terms of knowing about the latest trends in the field of technology.
+And it will also be good topic for the students who are willing to do the extended essay in computer science, because we see that many students choose machine learning as one of the topics for their e.
+So if you're planning to do e in computer science, then I would say that keep a close eye on machine learning topic.
+So these are four topics from the from the theme A point of view.
+Now these four topics will be tested as a part of paper one.
+Now in paper one, there is also one more thing that is the case study.
+So if you look at paper one, which will share with you some sample papers.
+This paper one is divided into two different parts. One is section A. So section A will contain that these four topics and section B will be based on a case study, which will be released one year before your final examinations.
+It will be based on some technological development or technological field. For example, it can be based on autonomous technologies.
+It can based on cryptocurrency. It can be based on robotics. So any of the latest trends in technology, I becomes up with a case study every year.
+So for your assessments, it will be released on time in the month of August next year.
+And then you will be doing some personal research on that topic and that will cover your section B of paper one.
+So just to summarize paper one will have two parts.
+Section A, which will be based on a one a two a three and a four and section B will be based on case study.
+So that completes our paper one topics theme B, as I said is about programming.
+So you can see it starts with computational thinking B1 B2 is programming and you can see the highest number of hours is allocated for programming because that's the thing which requires a lot of practice.
+So that's why we have 40 and 42 hours allocated for programming and I can tell you honestly that these hours are just nothing in front of what actually you need to spend you need to spend much more hours than what's indicated here.
+This is the actual classroom teaching time, but you have to spend many more hours to get proficient with the programming B3 is object oriented programming, which is just an extension of B2.
+Which is more for HL as compared to SL so you can see HL has 23 hours and SL has just seven hours so the content for SL is very little HL is more.
+Then we have B4 which is only for HL SL doesn't have abstract data structures or abstract data types, but SL have HL have that in good length.
+And then I say as I said case study for SL 15 hours and for HL 30 hours.
+Now the computational solution is basically the internal assessment which you will be working on.
+We will talk more about this, but I in computer science is essentially a solution being developed using the programming.
+So you are developing some computational solution with showcasing your understanding of the coding that is what computational solution is all about.
+And then there is a collaborative science project which will be a collaborative collaboration between all science subjects physics chemistry biology, ESS and computer science.
+So you will be working on some common objective which will be in year two.
+So that makes it total hours for 150 for SL and 244 HL.
+So we just talked about that theme A and theme B.
+This is a table which shows them just the main topics which is talked about computer fundamentals network databases machine learning and in HL in theme B we have the topics covered for computer thinking paper one we will have a separate session for this, but as of now you should just know that paper one is based on just for.
+Themes in themes or in just for topics in theme a case study I just told you that it will be a pre released material which will be released in the month of August next year, which will be based on some recent technological trends and then you will have section B with some questions based on those case study.
+It's relatively an easier part of paper one because you will already have the case study which will be about two to three a four pages of text and you will do some research on that and based on that there will be questions in the exam paper two computational thinking where you will have the questions related to programming in the theoretical form.
+For example, what is object oriented programming, what is a class, what is an object, what is inheritance, what is construct so those kind of theoretical questions, but based on programming plus the coding that will be tested in paper two.
+Two external papers and one internal assessment paper one and I so these are the three parts which will be assessed for your paper one paper two and I the weightage is paper one 35% paper to 35% and internal assessment is 30% that is for SL so SL although there is no difference in the quality of internal assessment or the solution that you are developing.
+The quality should be I mean quality is same for SL and HL in fact the examiner will not even know whether the work being submitted is of SL student or HL student so that mean the complexity needs to be same between the two.
+The only difference comes is in that overall weightage so for SL the IA weightage is 30% whereas for HL it is 20%.
+So paper one 35 paper to 35 and internal assessment is 30% whereas it is of HL it is paper one 40% paper to 40% and IA is 20%.
+This is about HL more depth and time in external assessments than SL IA is the same project as SL but weightage is 20%.
+That is what I told you for HL 40% 40% and 20%.
+So internal assessment we are not looking right now it is just a solution which you need to develop and we will be starting IA's little early so that you can finish them in time.
+Most likely we will introduce the IA's to you in the month of January after the December break so that you can start a little early to be able to finish it in time.
+But we will be talking about IA in more depth so I am not going into these slides right now because it is a full session in itself and we don't want to overburden you with all these information.
+So that is about the presentation.
+So we are trying to keep it light as of now we don't want to make it too complicated because we know that you know it will take a lot of time for you to understand the curriculum structure.
+So as long as you have understood what all is going to be assessed as a part of your paper one paper to I think that would be a good understanding for you at this stage.
+Okay Martin you want to add anything before we ask students to ask any questions that they may have.
+No I think just wanted to say that is important for us to be familiar with the structure and what is expected to us throughout the course.
+So as again as I mentioned earlier to be proactive and plan according to all that we is required for the course.
+Thank you yeah absolutely yeah absolutely okay so we'll give you a little time to ask your question but let me quickly take you through the canvas platform although it's new for us as well and we'll be learning along with you.
+But from whatever we have understood so far I think it's worth showing you different sections so that you don't struggle much now my screen and Martin screen will be slightly different than your screen because we are teachers and we have lot more options here.
+But the sections which are common between us I just want to show you.
+Okay so essentially you should be able to see all these options like home announcements units assignments, discussion and feedback will not be available to you probably I don't know because this is something which we will give you the feedback but obviously you will have to see the feedback so probably you may also have feedback.
+Online classroom nine online classroom we have three different classes one is the main class.
+This is what we are using right now so any lesson created under main class will be visible to both HL sections not to SL but both HL sections and the other two will be when I or Martin will be meeting you as a class individually not as a combined.
+But I don't see much chances of that because all our classes will be combined so I don't think we'll be using this ever but when Martin is meeting you one by one to one or I'm meeting my class one to one then probably will create it under our class but all the weekend classes would be created under the main class.
+So it will be available here that's our online class now the list of units can be seen here so if you go to the units you can see all the units for week one until the end of the semester is available although the platform is still getting developed.
+So these weeks may still be empty some of these weeks may be empty if I go here I'm sure there will be no content yeah you can see this is just a template.
+But we have completed the course authoring for semester one so until December everything is ready but I'm not sure as a student if you can go to the next weeks until you are in that particular week but anyway even if you can't go that's perfectly fine because it should be focusing more on the current week so when you go to the unit which option we are in if you go to the.
+Which option we were in units here units when we are in units and if you go to unit one so getting started so when you click on this link it will show you couple of tabs and each tab will have their individual content now what is important for you to do is after you have read this part then instead of jumping to lesson one next tab go next within the same time because we are still under introduction and there's.
+What to be covered within the introduction so if you go to the next it will take you to the next time.
+Is it that way or no now let me let me yeah show you the next step at the top of the lesson so you need to go if you're introduction then you click on the lesson because if you click on next it will take you to the following section so.
+The discussion of 1.2 oh yeah got it got it got it thanks Martin for clarifying that I think you have you have explored the platform already a little bit yeah yeah okay so yeah thanks for that so after having read about introduction so everything related to introduction will be available on this page and then when you go to the lesson everything related to the lesson would be here and then you have these further expansions like discussions in box so this is more.
+So this is more about canvas as how to use canvas as a platform then we have the practice so there's a video which you can play on your browser.
+I will learn a profile can be downloaded from here so anything which is available for download will be shared as a link which when you click will be downloaded to your computer these are the I will learn a profiles and then you have a quiz for that particular section and once you have done all this.
+1.1 how do they go to 1.2 then so then then you get heads at the bottom okay or you can go back to the units yeah exactly so I went back to the units does the easiest way to do and then you go to 1.2 and when you click on 1.2 it will show you the content for 1.2 so now we are on 1.2.
+Frequently ask questions and all that right so this is how you have to cover each and every tab for the lesson and this platform records your access records that if you have gone to the lessons it will mark you as completed for that particular tab right and it also records how much time you have spent so that is some sort of monitoring reports for us to know which all modules you have covered which are yet not covered.
+So there is something called engagement rating which we give to the students after every term and while giving the engagement rating which is like engaged one category is engaged second category is in sufficiently engaged and the last category is not engaged so it's serious if somebody is not engaged or even in sufficiently engaged because you have chosen a course which is self based but at the same time it requires a lot of commitment.
+So I think if you started on the weekly basis inventory to 35 minutes each day I think that will be that will contribute to put engagement from your end.
+So this is about units so after having completed all then there will be some assignments each week for example during this week you have a discussion assignment about I will earn a profile.
+So week one has I will earn a profile similarly week two has something else now see this is about theme a 1.1 CPU GPU which is from the topic computer fundamentals and week the next discussion is in week six then week seven so every week you will have certain assignments not necessarily the discussion will be there in every week but you have to keep an eye on which weeks have the discussion forum.
+Now within the discussion forum we can see that there is already a lot of discussion about the learner profile so you can see here and you will also be able to see everybody's post and that is for a simple reason that discussion needs to be collaborative.
+So if you have read somebody's post first you have to post make your own reflection you have to contribute and then you have to reply to minimum two other participants and that reply should not be very brief.
+You have to add little more to what they have already said and possibly you can ask some follow up question and we as teachers will also keep an eye on the discussion and we will be taking part in that from time to time.
+Like for example I like your reflection ideas online will you draw notes in a journal or type them in digital digitally after lessons.
+So we will add some follow up questions so if you come back to this probably you can just reply to any of the comments made by your teacher.
+Okay so that's about discussion feedback is the section where we will be providing you with the feedback so all the assignments which you will submit will require feedback from the teacher unless you have done that you will be able to see that report on your own dashboard we can see all the students here but you will be able to see just yourself.
+Online classroom we talked about people is the section where you see the list of all the students I don't know if you have this report but we have this added to our tab where we can see every student's details and if you want to get in touch with somebody we have the emails over here and different all other information resources is the section where we will be uploading from time to time documents for example if you have created some presentation for example.
+So I can show you so for example as I said that we have a week will be doing the online lessons so we have started working on the presentation so this is one of them so we will put this copy of presentation in the in that folder which will be accessible to you.
+So you will have your content plus you will come these presentations and finally you're recording for all the sessions so they will be very helpful to you when you're doing your personal revision or you want to go through the content again after the teacher has covered so all that will be available in this resources pages.
+Another thing is about getting in touch with the teacher so how do you contact the teacher for that you have to go to the inbox and then you have to go to compose and see for us it is showing different options because we have to select which course we want to send a message to but for you I think it will be slightly different and you'll be able to select your teacher within this drop down list.
+So if ever you have to write to us we discourage use of emails in fact I will never reply if you email me directly but if you write it over here we will be replying back to you so please use this as a mode of communication between yourself and for us as teachers.
+That's about in box then there is this calendar which I was talking about what can you remember where the calendar is.
+Yeah give me one second I think is that it's right there on the courses on the left navigation panel.
+Yeah yeah yeah on the left yeah so if you go to the calendar this will give you a summary of everything that is being covered during each week any of the deadlines that are coming or any of the submissions to be made all will be here in one place so for example on 17th of this month you have couple of things deal.
+So you can easily see in one place as to what are the things to be done there's a discussion and there is a academic integrity contract form right and why it's coming many times but it's only one submission from each one of you.
+Okay so essentially there are only two submissions one is discussion forum about the learner profile and one is the academic integrity policy now in the next week you will have a quiz.
+On the CPU components so there will be a quiz embedded into the system which you will take and you will be auto graded out of 10 marks so that is one assignment then you have apart from that no you don't have anything else it's just the weekly quiz that you have next week.
+Week after next we have another quiz so this is one place where you can see all your assignments in one place but that will also be visible under the assignments tab.
+So if you go to the assignments tab this will also show you different assignments which are embedded into the system week after week for example in week one we have two assignments the other profile plus academic integrity week two we have coins on CPU components.
+And week three we have another quiz week four we have quiz on data representation and we have numbers conversions so you will you will have some assignments to convert the numbers from one form to another so this is how you can see in one place different assignments but you don't really have to worry about the corresponding weeks you should just be particular about the current week which is running.
+At any point if you think that your school schedule is not giving you enough time to complete the assignments during a certain week please inform your teacher well in advance that we have sports day coming up and I'll be busy so I will not be able to finish my assignments in time for that week number four.
+So if you inform us beforehand that will be better rather than not submitting anything and then when the report goes to your school then you come back and say that oh I was busy so use an active way of informing rather than a passive way that will be good on your part.
+So that is all about the platform and I'm sure that you will get more familiar as you continue to use it week after week.
+That's all from my end.
+Now it's over to you please ask any questions that you may have about the course about the timeline about the platform anything that you wish to ask please unmute yourself and ask any questions.
+Come on okay, sugar please ask your question.
+Yeah, can you please tell us what will impact the ID predicted grades for promotion?
+Yeah, that's a good question and actually it's too early to talk about predicted grades but then it's your continuous profile that leads to a certain grade.
+So the first set of grades that you will get as a predicted is in the month of December after the end of semester which will largely be based on IP grade.
+Discriptors IP has a great descriptors for level seven six five four three two one and based on the outcome of your assessment during the semester based on your contributions to the discussion based on the way you have shown your engagement.
+The teachers will make a professional judgment in alignment with ID great descriptors to decide which grade you are actually getting into.
+Now I'm sure that the quizzes will let you score seven on seven all the small assignments will show that you have scored seven so there may be too many sevens reflected on your grade book but that necessarily that doesn't necessarily give a clear indication that you will be on seven point scale.
+So these predicted grades would be mainly based on written assessments which will be like end of semester exam the practice tests the coding assignments which are which are detailed work submission from your end that is what will contribute more than those small assignments such as quizzes etc.
+So I mean just to simplify predicted grade would be based on the IB descriptors for different grade boundaries and how well you have performed in the summative assessments as well as the semester exam.
+Does that answer your question.
+Yes, thank you.
+All right.
+Okay, any other question about the curriculum or anything else please feel free to ask this is an opportunity for you to know more about the subject.
+Hello.
+Yeah.
+Yeah, I was just wondering if the engagement system you guys had is summative or this is like failed averages so let's say I practice two hours just eat in three days throughout the week with that award me.
+Yeah, that's fine.
+So add half an hour.
+Yeah.
+Yeah.
+So more than more than our honestly it will be more about your coverage of content and also how timely you have submitted all your assignments.
+If your submissions of assignments are happening within the deadline, then it is very highly likely that you will be given the engagement reading as fully engaged.
+Yes, Alma.
+I was wondering how like how long should we open Pajama per week, like how long do you think is a good amount.
+I mean, see, I wish there was a direct answer to this.
+I mean, it will largely depend on how much time would you take in order to cover the entire content.
+Like if I ask you how much time would you spend on mathematics every week, will you have a fixed answer for that.
+Alma, if I ask you how many hours will you spend every day on math.
+Yeah, there is not like direct answer, but like approximately how much do you think?
+So see, as I said that it will largely depend on how much time you take to understand.
+For example, if you are within you to programming, when I said you doesn't mean you, I mean anybody.
+If somebody is within you to programming, probably they may have to spend two to three hours initial in the initial phase when they are learning the programming concepts.
+But if you already have done programming, then probably half an hour a day is more than enough.
+So it will depend on what topic you are learning and how much time do you think you need to cover that topic.
+So it will vary from once to into another.
+But my only point is that rather than the time limit, it would be good if you say that, have I spent about 45 minutes on my CS?
+Because if it was in your school, you would have got 45 to 50 minute lesson every day.
+So we would expect that since you don't have a direct lesson in your classroom.
+So if you spend that 45 to 50 minutes every day, that will be good for you.
+I mean, that will be enough to cover the computer science curriculum.
+Okay. Okay. Thank you.
+Yeah.
+Okay. Thanks for those questions. Anyone else with any other question?
+It's an opportunity for you to ask.
+Go ahead Thomas.
+Thomas.
+Yeah.
+I think I forgot it.
+It was.
+Yeah. Okay.
+So after this meeting is over, what would you kind of recommend with and they are prepared?
+Okay.
+So our next meeting will be held on next Saturday or Sunday.
+We'll confirm that to you.
+So this week was very light because we didn't give you any reading assignments for week one.
+It was just about learner profile and academic integrity policy.
+But for the for the next week, you will have introduction to the computer fundamentals, which includes theoretical topics such as CPU GPU and all that.
+So what I would recommend is can you check and let me know if you only have the access to week to content.
+Because as a student, I'm not sure if you are given access beforehand or it's only during the running week.
+Could you check once unit one of you and tell me if you have access to week to content?
+Can you see this computer fundamentals?
+It must be.
+Yeah.
+Okay.
+Okay. So if it works for you, it will work for everybody else.
+So what I would suggest is that you can go to 2.1 and start reading about this topic.
+It's a very interesting topic because it will let you know what all components are there within the computer system.
+And it's a little technical topic.
+You know where you have to learn some of the concepts.
+There are definitions.
+There is conceptual understanding.
+So I would say that you can start learning.
+It's quite a lengthy chapter.
+There are a lot of things which haven't covered in this.
+So try to learn this.
+That would be enough.
+And then next Saturday or Sunday when we meet.
+We will discuss this topic through the presentation, which I just shared.
+As soon as the presentation is complete, we will share that with you in the folder so that you will have this beforehand.
+And you can prepare.
+You can go through the slides and then we will discuss it during the classroom.
+That will be helpful.
+Rather than you having an access to this on the spot, it will be good if we can share this with you beforehand so that you will know what we are going to study.
+But the content part is definitely more detailed in the lessons that we have developed.
+So my recommendation is go through this content.
+And prepare on notes that's always beneficial.
+Okay.
+Okay, Thomas is done.
+Who else who is the next question?
+I have a question.
+What are like the resources to other artists?
+Only the Pomodra curses or.
+Okay, that's that's a that's a very good question.
+So see.
+I mean, there could be a lot of external resources.
+But what I would recommend is.
+If you can buy a textbook, we will share the details with you.
+So there are officially two textbooks, which are endorsed by the IB.
+One is published by Oxford University Press OUP.
+And one is published by order publication.
+So we will share the names of both the books.
+But honestly, I've seen both and I find order to be very good.
+So it used to be called order, but now it's mutton.
+Do you know what it is called now?
+Order publication is some H a publication or something.
+Yeah, it's actually.
+Yes, yes, I have it actually here.
+Okay, you have that book.
+Can you show? Yeah, perfect. Yeah.
+So, so this is, I think I think your virtual background is.
+I think it is.
+So they can.
+So this is a very good textbook as an additional resource.
+And if you can buy this, see, we are not promoting the book.
+But since you asked about a base, this will be the book.
+Can you see that?
+And yes, he's by hatchet.
+Yeah, this is by hatchet. Right.
+So this will be a very good book because this has every topic covered in a very systematic way.
+Topic after topic, which is also there on the parmoja.
+But then having text book is always beneficial because it has a lot of exercises and it has a lot of.
+End of chapter questions and everything is covered in a very systematic way.
+And you don't really have to do the screen time all the time.
+So if you go to the book, you will develop the habit of reading the book.
+So we will share with you the ISBN number and the exact name of the book so that you can you can ask your school to procure one for you.
+But having said that, it is just optional as an added resource.
+Otherwise, parmoja content is also quite well developed.
+And that can be enough for you to score high marks and you write the exams.
+But that was a good question. Thanks for asking.
+Anyone else?
+Valeria.
+In any case, I'm not able to attend the meeting with the meetings.
+We like to be recorded. Yes.
+Yes, all the meetings will be recorded and it will be put into see there are two ways to access them are recording.
+If you're part of HL group, then if you go to the main class.
+Under the online classroom, you will be able to access it from there, but to make it easier.
+And accessible to all students.
+We are thinking about creating a folder and put all the recordings there in a very systematic way so that it doesn't take you much time to locate the recordings.
+So not only that it will be available on canvas platform, but it will also be available on SharePoint folder whose accessibility will be given to each one of you.
+But then having said that, I would really recommend that if you attend it online.
+When it is happening, that will have its own advantage because we honestly don't generally go back and look at the recording for the sessions which are already done.
+I mean, that's something I mean, it's it's not good, but it does happen.
+So if you can attend online, that is always beneficial.
+And also there might you might have a question that is not answered during the recording.
+So that's what the advantage is, you know, and yeah.
+And as we said that these sessions are more about interactions.
+So it will be good if you can attend and talk to each other about the topics clarity.
+Yeah, because my time zone is kind of weird, so that's why.
+What's your what's your time?
+I'm in Saudi Arabia, so right now it's like 5.30.
+5.30 evening.
+Yeah, but I usually like to stay after school.
+So I will be arriving home at like seven. So that's why.
+So you have school on Saturdays?
+No, we have school from Sunday to Thursday, but I usually have activities on Saturday as well.
+So we will have the lessons only on either on Saturday or Sunday.
+We will never have them on the weekdays.
+And we'll take your choice as to what would be the best time because we thought 1 p.m.
+GMT will be accessible to everyone starting from US all the way to Japan.
+So we thought 1 p.m. GMT would be good.
+But if you have other priorities as a larger group, we are open to discussing that.
+But yes, the recording will be available for you.
+Any other question?
+Yeah, in the chat, since the name of a course, but I have will this course, but by Oxford for persons.
+2027 work.
+Yeah, yeah, that's also a good book. Yeah, it's it's a good book.
+I mean, see anything which is coming from OUP or HACHA publication.
+That is fully endorsed by IB.
+So you can definitely trust the authenticity and credibility of the book.
+So you can buy data as well.
+Any other questions, Swathi, you have been quite.
+Do you have any questions, Swathi?
+I don't.
+Thank you.
+All right, then, is there anybody who could not mark their attendance?
+Everybody is smart.
+All right, then, thank you so very much for your time today.
+And I hope that you found the session useful.
+And let's let's work together because we will be successful if you are successful.
+We want to work with you so that we can become a partner in education for you for your own benefit.
+So you can always count on us.
+Any question, anytime, just feel free to drop.
+Don't hesitate.
+And you will see that will be very prompt in responding to your questions, even though it is online mode of learning.
+But we want to give you a different kind of experience where we will be available for you for interactions for meetings.
+And if you want to meet us, one to one point discussing anything, just drop us a message and we'll be happy to come and meet you.
+So thank you so very much.
+Thanks, Martin.
+Thanks to everyone.
+And we'll see you soon next week.
+Have a great rest of the weekend.
+All right, bye, everyone.
+Take care.
+All right, Martin.
+So this is the start of your weekend. So enjoy the day for me.
+It's now.
+Mine of blocks. So I'll just have dinner and then go to sleep.
+Go to sleep.
+All right. Well, thank you, rash.
+I.
+I guess we can talk later.
+Maybe.
+Yeah, we can talk later because.
+Right.
+About how we fix what happened with my class.
+I don't know.
+Okay, sure.
+Sure.
+But I know it's for you.
+So have a good dinner rest.
+Okay.
+See you.
+Bye.
+Bye.

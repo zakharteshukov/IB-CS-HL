@@ -3,6 +3,25 @@ B1.1.2 to B1.1.4 - Computational Thinking (Part 2)
 Transcription - Formatted
 
 ================================================================================
+LESSON OUTLINE
+================================================================================
+
+1. CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+2. REFLECTION ON WEEK 8 ACTIVITY
+3. TOPIC B1.1.2 TO B1.1.4 - COMPUTATIONAL THINKING (PART 2)
+4. ABSTRACTION
+5. ALGORITHMIC DESIGN
+6. DECOMPOSITION
+7. PATTERN RECOGNITION
+8. FLOWCHARTS
+9. INTERNAL ASSESSMENT (IA) PROPOSAL DISCUSSION
+10. JAVA INSTALLATION CHECK
+11. CLASS CONCLUSION
+
+================================================================================
+
+
+================================================================================
 CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
 ================================================================================
 

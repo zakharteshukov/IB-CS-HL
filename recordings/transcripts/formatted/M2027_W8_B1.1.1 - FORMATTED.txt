@@ -3,6 +3,27 @@ B1.1.1 - Problem Specification & Computational Thinking
 Transcription - Formatted
 
 ================================================================================
+LESSON OUTLINE
+================================================================================
+
+1. CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+2. CURRICULUM OVERVIEW & TERM TWO INTRODUCTION
+3. TOPIC B1.1.1 - PROBLEM SPECIFICATION
+4. REQUIREMENTS GATHERING METHODS
+5. STAKEHOLDERS, CONSTRAINTS & OBJECTIVES
+6. CONSTRAINTS AND LIMITATIONS
+7. INPUT/OUTPUT SPECIFICATION
+8. EVALUATION CRITERIA
+9. EVALUATION CRITERIA & SUCCESS CRITERIA
+10. COMPUTATIONAL THINKING CONNECTION
+11. INTERNAL ASSESSMENT (IA) DISCUSSION & BREAKOUT ROOM ACTIVITY
+12. JAVA INSTALLATION INSTRUCTIONS
+13. CLASS CONCLUSION
+
+================================================================================
+
+
+================================================================================
 CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
 ================================================================================
 
