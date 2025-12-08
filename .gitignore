@@ -1,9 +1,18 @@
 # Exclude files over 50MB
-# Video recordings
-pamoja/recordings/*.mp4
+# Video recordings - all video files
+recordings/videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
 
 # Large PDF files
 general/resources/IBCSHLCoursebook.pdf
+static/resources/*.pdf
+static/resources/**/*.pdf
+units/**/*.pdf
 
 # Exclude nested git repository (can be added as submodule later if needed)
 pamojaLessons/
@@ -15,4 +24,12 @@ pamojaLessons/
 *~
 .vscode/
 .idea/
+
+# Large binary files
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.7z
+*.rar
 
