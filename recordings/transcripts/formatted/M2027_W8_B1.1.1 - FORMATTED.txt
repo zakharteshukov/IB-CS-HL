@@ -1,0 +1,677 @@
+IB COMPUTER SCIENCE HL - WEEK 8
+B1.1.1 - Problem Specification & Computational Thinking
+Transcription - Formatted
+
+================================================================================
+CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+================================================================================
+
+Good morning from me, maybe it's good evening or good night for some of you. Yeah, that's true. For me it's 6.30 p.m. So here is about to be 6 a.m.
+
+Good evening. Good evening, everyone. Do we have anyone from SL class here?
+
+Martin, I got an email from Misha and she's saying that she's already in some room. Could you just drop her the correct link?
+
+Probably she has gone into some other room. Misha. She usually emails me, she has troubles. Yeah, she may have connecting.
+
+Do we have anyone from SL class here? I just want to be sure that we have shared the correct link for SL. Okay, yeah, fine. So at least we have one person so that means the link is correct.
+
+All right, she, she mail us. She says that if she can get a new canvas account because she's always using having issues with. I don't think it's up. If she can log into the canvas, so that means she can access.
+
+And she's also mentioning she has issues of accessing the recordings. I don't know what the issue might be. Does anybody else have any problems accessing the recorded recordings?
+
+No. So for actual, it is straightforward. You don't even have to go into the shared folder. You can look into the online classes and then select.
+
+Main class and recording tab so you can find all the recordings there. For SL, yes, it's required that they must go to the shared folder. Access to recording from there. So we have 11 students so far, which is far less than what we expect.
+
+And could everyone please turn on the camera? Yeah, we were reaching around 27 or so students last time. If possible, you could turn on the camera guys so that we can have an interactive talk. All right, guys, so welcome to second term.
+
+So we are starting. In fact, we have already started term two. And this term is going to be more focused on theme B. So in the first term, we mainly focus on theme a 1.1 computer fundamental chapter,
+
+which is very content heavy. You may have realized that there are so many things which are covered in that chapter. But I could say with confidence that the kind of responses that you gave during the online webinars. And also the way you took the discussion and assignments that shows that you have understood the concepts.
+
+But that is one of the chapters where you need to keep revising. Otherwise, if you look at it after six months, probably you may have forgotten everything already. So since we have covered everything at least once. So it would be a good idea for you to keep revising.
+
+I mean, just glance through the content once in a while. So that you know, you still remember everything that's in that chapter. So chapter one that we have covered contributes to 14 marks in your paper one. So you will have questions but 14 from that first chapter.
+
+And while there will be some theoretical concepts which will be tested. But you will also be tested on the Boolean algebra and logic gates and so table, etc. So keeping a check on what's been covered during term one would really be beneficial for you. To see that you don't forget things.
+
+Now this term is going to be as I said more focus around theme B. So we are starting off with the theme B topics, which is paper two. And as a part of this theme, we will be learning computational thinking skills and program development in Java language. So you may you may have seen in the content for this week.
+
+In fact, for the next couple of weeks that we are also introducing the IA in this very week. So even though there is no written curriculum or there is no written assignment for the IA, but it's a good starting point for you to get start getting familiar with the IA requirements. Right. So just before we move, let's have a look at the subject guide once as to what all is coming up in the next couple of weeks.
+
+And this. The term in particular is very, very important because since you're studying computer science at SL or HL level. So some of you may be likely pursuing computer science as majors in your university and. Having a good grasp on the programming skills is something which every university expects you to do.
+
+So it will be an opportunity for you to understand basic programming concepts and then later move on to the complex developments. So let's have a look at the subject guide first just to get familiar with what's coming up during this term. And by the time I do that, let's do a quick reflection about the first term. So I would like each one of you to at least say something about how you found the first term to be in particular chapter one, which is a computer fundamentals.
+
+I think that that would be good if they can actually just put something on the chat so we can. Yeah, sure. Right. Yeah. So just add onto the sentence or something there. Okay.
+
+I mean, you don't have to say just the good things. We would be mainly interested in any difficulties that you faced or any other support that you are looking forward to because we are here to support you in your learning process. So anything that you have, I mean, I'm not saying that don't write good things because that's a point of motivation for us as teachers. But then in particular, we would be interested in reading your comments with regard to how things are going.
+
+How do you find the content? How do you find the online webinars? Is there any scope of improvement? Yes. The mistakes we're making or how to rule your experience through the course, you know, right, right. Because even though this is a completely urgent, cronest course, but we are trying our best to make it a good learning experience for you.
+
+And that's why we have brought the concept of weekly lessons, which is not a routine concept of parmaja curriculum delivery. So it's something beyond that we are doing that we want to help you really with proper understanding of everything that you do. So you just never feel that you're doing an online course, but you should feel that you're doing a face to face. You know, curriculum as you do in your face to face school.
+
+So you'll free to write. Okay. So Martin, maybe you can read through and start answering some of them in the meantime. I'll just look for the subject guide. Sure, no problem.
+
+So I see Alexander already gave us some information. I say that she stands out to us. And the other process of the presentation. Alexander, I didn't mean that you have each.
+
+Visualization distinguish production. Are you referring the ray and. Well, um. Thinking, thinking.
+
+It's breaking. So, it is specific to the topics that we have already covered or something which is coming up or she is going to refresh, in the mean time somebody else can share the reflection It wasn't bad the webinars did help quite a lot although it was a bit challenging at times I felt a bit overwhelmed at times and I felt like there was a lot to know and something it was confusing Yeah, I totally understand Ima we as teachers also felt that the sessions were kind of very overwhelming but then we don't have the flexibility like a face-to-face school where you will have a block lesson and teachers would be meeting you four to five times in a week and divide the content we have that limitation because even if we want to do more than one lesson a week that would be too much for the students because you are spending your personal time out of the school hours so it will be kind of challenging so that is why we have been organizing all the recordings so that you I mean it's it's it's completely fine I mean you have been attending the sessions which are going on for almost two hours and we are bringing in a lot of concepts into each lesson which may be very overwhelming if we were students obviously we would have exactly the similar you know feedback so we we will say we want we just want to say that we are trying to cover as much as possible within the limited time that we get but having said that you have the content ready for you you have the content on the Pamoja canvas platform you have the content in the straight folder and some of you are also using the textbooks and then over and above you have the recordings available so if you can just take this one sessions content which is on during the Saturdays and use that for the next whole week that will be very useful for you because I'm sure that most of the schools have timetables computer science in their regular practice so during that time you can just revise through that content and then if you have any questions which you have not which you're not clear about feel free to write to us and we'll be happy to help you yeah yeah I just want to repeat that repeat that you guys you guys will come on the Saturdays with the material over and over and over because cause we will we will be easier easier up to all day each other we're trying to remember we're trying to we're trying to try it all week all week study study into our into hours so so we and so we understand become confused if you should and remember that you through the through the you read the material and understand and then I can reach to reach to the one of us and that's the question that's the question that's the question so when we come in the space and then a you are the voice at the moment at the moment the screen Let me start stop sharing this one second, yeah maybe because of that reason.
+
+Is it better? Yeah, right now, I think that is better, right? Somebody raise hand. Sobsha is on you?
+
+Yeah, it was about the audio loop back, but it's all right. Okay, thank you. Yeah, I like this, that the honesty that is one of you or what's the worst scare getting into the class, you know, the unknown HL is they usually very rigorous class and the online platform can be a little bit scary because we have so many things moving parts to manage, right?
+
+But I'm glad to to read that that fear is not what you expected, right? It's just something new, but the weekly lessons really help you a lot and and structure, you know, your learning. So that's that's something very positive for us. Thank you. So we'll do one thing. I think we already had a reflection, did we have a
+
+reflections in your quarter one? Yes, as one of the assignments? Fine, okay. So we'll go through that and if there are any areas that needs to be addressed from our and we'll try and try and address them. But overall, I mean, I think what experimentation we are doing with your first class of computer science, I think to me it looks like working fine considering that we have made it very content oriented through these webinars.
+
+So I mean, those who are not attending because of any reasons, I mean, if it's a time zone issue like if it's midnight or very early morning, then we can understand, but if somebody is not attending just because they don't want to attend it, then I would say that it's a major loss to them because watching recording without attending the classes doesn't help much because when you are here, you can ask questions, you can discuss with each other and so many dynamic, you know, so much comes out from the interactions that we have with one another.
+
+And nobody watches the recording to be honest. I mean, from my experience, I can tell you, I say human tendency even when, I mean, if I attend some online sessions for my own purpose during a workshop or something, then I attend it thoroughly, but if somebody says that this is the recording, please watch it. Generally, we tend not to watch them. So if possible, then make
+
+it a habit of attending these classes because this is what will determine your overall performance in your course. And we have very high expectations from you because this is the first patch of online computer science course because I be as permitted, for the first time, or any agency for that reason, Pamanja is the first one to have got the license to offer this as an online course. Otherwise, group four subjects were not allowed
+
+by the IB like group three or other groups. So you're the first batch, you're the brand investors, and we have very high hopes from you. Martin, can you take up the next one?
+
+Yes. Yeah, I think that the meter says that there was a lot of work in Boolean Expenses. I think that the reason for that, and I'm not making an excuse, obviously, it was a lot of work on that. And the reason for that is because the IB emphasized those topics when it comes to the assessment. Okay, so maybe we need to think
+
+is how to distribute that load a little bit better for the next time around. But that was the reason for that. You know, I know the week five, I'm sure this is a reference to week five assignments. I think we realized that it was a bit too much. I mean, that's something, I take the blame for that because I authored the course, and we were two authors, and we both ended up making assignments for different classes, we should not have been the case. So I take that blame.
+
+But I'm glad that I mean, whatever you did, at least, that may have brought you some learning, but we have already instructed the course developer, not the course developer, the one who manages the canvas to remove it for the next batch. So they won't have so much of content assignments on any of the weeks. Yeah, and that feedback is important for us because again, what we want is to
+
+improve right now only for you guys, but for future students. Okay, Alma, you had your hand rise, I believe? Yes, thank you guys so much for your help. But I wanted to ask as well, if you had the link to the IB textbook for computer science, because I feel like that would be useful a lot. So I must see, since it is a copyrighted material, so there is no online link available for the textbook. So your school can actually subscribe to the online version that comes at certain
+
+cost. Or otherwise, you can procure a textbook in your library, which will stay with the school forever, because the online link works only for one cohort. So it will work only for you and then the license will expire. So I suggest that you can ask your DP coordinator that you need a textbook and they will procure you procure it for you. Okay, thank you. Yeah. Yeah.
+
+Anybody else? So Alexander, coming back to your question about computational thinking, yes, the first chapter is very theoretical. It relates to computer computational thinking, what all it involves and the significance of computational thinking. So honestly, there won't be many questions from that chapter, except for the four or five different characteristics of computational thinking, for example, decomposition abstract and all that. And so we will try and cover that in
+
+today's lesson. I mean, now the lessons are going to be much smoother in terms of the content that we cover. So even 1.32.1.1, which is one topic is now split into two classes today and the next class. So you will see that the content will not be as much as how we did in term one, because that was very content heavy chapter. But now going forward, it won't be so much. So it will be less. However,
+
+having said that, it will be a lot of practice which will be required from your end because we are now starting to get into the programming. So programming is just like mathematics where the more you practice, the better you will become with the skills related to the coding, because coding is not something that you can memorize. It is something which you have to develop. And for that development,
+
+you need to be clear with the programming concepts. So in today's lesson, we'll kick start with the B1.1.1, which is computational thinking first part. Next week, it will be the next part of B1.1.2. So that will be next week. But in the meantime, because the content is very light for these two weeks, we will also focus on the IA, because your proposal will be submitted next week.
+
+I mean, you have to start looking at the ideas related to the IA. So a large part of today's lesson is going to be dedicated to the IA talk. That's why we have kept the content for first week very little, because computer science IA requires you to learn certain skills in terms of development. So we are there to support you, but there'll be a lot of work which needs to be done from your end.
+
+So without any further delay, I mean, thanks for posting all your reflections. We will read on the canvas also where you have posted as a part of your assignment. So let's quickly have a look at the subject guide first so that you are clear what all topics we are going to cover as a part of this term. Do you guys have access to that guide? Have you been able to download it?
+
+Please respond, let me know, because otherwise we can maybe share a link to that. Have we kept the guide in the in the straight folder or not yet? I think we have kept it in the, I will post it in the content folder just in case if it is not there. Let me show you where you can find all the information. So for us, it is all embedded into Microsoft Teams, but then we have
+
+given you the direct access so that you can easily access them. In case if somebody still does not have access to this folder, please let us know and we will make sure that you get it. So we have shared this particular folder with each one of you, May 2027. Here we have, okay, so this is one new tab I have added,
+
+which is IA samples. So IB has released seven different examples, which are not actually students work. It is developed by some of the IB teachers and most of them, because they were just asked to create a standard for what kind of IA is required. So you will see that most of the IAs are created using AI, including the product development, but this will be a good way for you to understand what all different sections are there in the IA. What is needed for each criteria? How does the
+
+product video look like and many other things? And then we have shared this IB time tables IA with you over the canvas platform. I will show you where you can find that and a lot of your discussion will revolve around this particular IA. So as a part of your requirement, you will have to go through this IA, which is here, which is the actual work created by somebody for you to understand what is needed for each of the criteria. So there's a title page, there's a title page, then there is a
+
+table of contents, and then there's criteria A, which comprises of problem scenario and computational context, and we'll be talking about each one of them. So I'm just glancing through the whole IA document. So up to here is criteria A, which comprises of three sections, problem scenario, computational context, and the criteria for success CFS. Then comes criteria B, which is a planning,
+
+which comprises of first decomposition. That is one of the computational thinking, you can now start making a connection between what's there in the IA and how that links to the curriculum for computer science. So decomposition is one of the computational thinking characteristics. So when we will be dealing with that chapter, you will know what exactly decomposition is.
+
+So this is part of criteria B decomposition. That means breaking up your large problem into many different small sections for a better understanding. And this is all part of decomposition where you draw the flow chart for the major program functionality. Then you have the test plan, and that test plan will be based on your criteria for success points. So these are your criteria for success.
+
+And in order to test them, you will create a test plan as to how you're going to test each one of them. Not sorry, not test plan, the plan of the whole IA journey. So this is kind of timeline that what part of the IA will be done when. So we have the system models. So these are all designs. So we'll be talking about that. Then the algorithms in the pseudo code. And then finally the test plan.
+
+And this is what I was talking about that the test plan is related to the criteria for success that you have created. So that was criteria C. Then comes criteria D which is the program development. So this is where after you have developed the program up to criteria C is all about theoretical aspects in terms of your planning and design, what the system is, what were the problems, what are the computational context of that problem. Then the design in the form of decomposition
+
+and then the actual design through the UI design, how the interface will look like, what will be the front end, what will be the backend, what will your database look like, what will be the screens in your project. So those things will be part of design. And up to criteria C, there is no coding required. It's all about design aspect.
+
+Then comes criteria D which is actually your project after it is being developed. So you will bring your actual source code and you will explain what each part of this code is doing. That is criteria D. And as a part of criteria D, you will also create a video screencast which will demonstrate what the project, how the project works.
+
+And then criteria E is evaluation of the success criteria. So you can see this is about 22 page IA which is much smaller than what it used to be in the previous curriculum. So the IA expectations are actually lower down to a great extent. And IB is now emphasizing that the students should use the skills that they have learned as a part of IB diploma program, rather than picking up something which is very ambitious and which may require a lot of time and efforts. But having said that, you are free to choose any platform for the IA. You may be good at
+
+something. For example, you may be good at web development, you may be good at game development, you may be good at mobile app development and you may not be good at anything. So if you are not good at anything, then you have to learn little bit of skills in order to develop the IA product. So development of product will come much later. I think it starts towards the end of year one.
+
+But before that, you have to work with the planning. So this we have shared with you in the Thermoja Canvas which you can download and lead your discussions. And there are many other IA. So it will be good idea for you to go through each one of them. Try to see what is good, what is not so good. There is also teachers comments given
+
+in each of the IA. So if you for example go to IB timetable, there is moderators comment. See the examiner comment. So if you go into this, you will see that the examiner has given score for each criteria with a justification of why they think that this score is the best. So I wouldn't say that you should look at that in the initial phase. First you see the IA.
+
+Go through it. Make up your make up your mind with regard to what that IA looks like. How much would be the score for each criteria. And once you have a clear idea about it, then you look at the examiners or the moderators scores. So these are some good examples which you can have a look at. Okay, what I was talking to you about was the availability of recordings.
+
+So in May 2027, if you go to the recordings folder, this has term one recording, all the lessons. Meet your teacher, week two, week three, week four, week five, week seven, six and seven. So all the recordings are available here. For the HL students, you don't have to access recording from here. You can directly go to your own class and then online recordings. And in the main class,
+
+you will see one tab with the name recordings. And when you go to recording, you will see all the recordings in the sequential order and you can access them. And then we have the content folder which has all the PDFs that we have been using week after week. So just now I have added B 1.1.1 which we are going to cover today. And also I have added one more file which is Java installation
+
+which we will talk about today because you need to be ready with the installation of Java on your computers because we'll soon be starting with the programming. So this has guidelines for both windows. In fact, three categories are there. One is for windows. So those who are using windows will use the windows guidelines. And then those who are using Mac machines. If you are using Intel
+
+a based system, which is the old Mac probably before 2018, which is Intel based. Then you can follow the instructions for Intel based Mac. And if you're using the recent Mac machines starting from M1, M2, M3, M4 processor which is Apple based, Apple chipset. Then you have to follow the guidelines for you have to follow the guidelines for the Apple based system. So three categories are
+
+there. You have to see which category you fall into. And accordingly you will pick up a installation. So we'll we'll also explain this to you so that you don't suffer. Okay. So any questions about access to these resources?
+
+Any questions about these resources or the Abdullah's asking how to get in access. I'm just asking him if he have access before them before at any point. If not, maybe he doesn't have access to it. Okay. So Abdullah will share the
+
+if you do. If you don't have access, Abdullah please share your email to me on a private chat. So I can can provide access to you. Okay. Yeah. Okay. So let's begin with the attendance first because this is the first class for us during this term. So I'm sharing with you the link to attendance form.
+
+We we have had a couple of new students. Do we have any student who is attending for the first time who has joined quite recently? It will be good for you to introduce yourself to the class. We have had we have had about seven to eight students who joined quite recently. Okay. Anyone who is new although I all the names look familiar to me so I don't think any new student
+
+is attending the class. Yes, it's okay. Yes, it's your new. Could you introduce yourself quickly? Yes, it's okay. Yes, it is. Can she hear us?
+
+Yes, it is. If you can hear us, maybe quick introduction. Otherwise it's okay. If you can type in the chat also that's fine. Where you are from. I'm not sure if she's able to hear me. Yes, it's already there. Yeah, hi. Yes, it is.
+
+Yeah, no issues. Yes, it is. If you can just mention where you are from, that should be okay for now. Maybe we'll talk to you later when you have better connectivity. Okay. Martin, were you able to connect with the Misha?
+
+I just look, no, really, no, really. Maybe you can drop her a message. Let me see if I can. And the link. Yeah. All right, let me see. Okay, from India where you are currently starting in you a good, good to know that I think we have many students from UAE. So probably you all can make a small group and interact with each other. All right, so guys, so let's get on to task now.
+
+================================================================================
+CURRICULUM OVERVIEW & TERM TWO INTRODUCTION
+================================================================================
+
+================================================================================
+CURRICULUM OVERVIEW & TERM TWO INTRODUCTION
+================================================================================
+
+So I will reshare my screen and have a look at the things that we are going to cover during this term. So over to the subject guide. So we are officially starting with, okay, let me go to the first page where we have the distribution of topics. Theme A and theme B. Okay, so as you can see here that we have syllabus component divided into two different themes.
+
+One is concepts of computer science, which is mainly the theoretical aspects related to computer science, which has essentially four different units. One is A1 computer fundamentals, which we have just completed in the first term. And then we have A2, which is computer networks, A3, which is databases and A4 machine learning. So these three units are going to come later.
+
+So we are starting with, we started with computer fundamentals. The next theoretical chapter that we are going to cover is databases, because we think that database knowledge and programming knowledge would be essential for you to work on your IA. So sequence would be computational computer fundamentals, which is already done. Then we'll do A3 databases.
+
+And then side by side, we will also be covering theme B topics. So the idea is that you should learn enough skills so that you can start working on your IA. And then after that we will have networks and finally machine learning. So machine learning will be taught in the second year. These three we will cover in the first year. Then if you look at theme B, which contributes
+
+to paper two, by the way, this theme A is for paper one. Then theme B, which is computational thinking and problem solving, which comprises of four different units, B1 computational thinking, which is theoretical aspect related to the programming. B2 is programming where you will be learning basic concepts of programming and also program development using basic core Java features. For example, simple variables, constants, arithmetic operators, relational operators,
+
+decision making statements, looping statements, functions, although that will be covered under B2. So the core Java language is going to take 40 hours for SL and 42 hours for excel, which is more or less the same content. Then comes B3 object oriented programming. So all the skills that you develop as a part of B2 general programming, where the focus will also be on the skills development, will be tried and tested using a difference approach, which is object oriented programming, where we will bring in the concepts of classes and objects. So while the solutions will
+
+the scope to or the approaches to solution will be same what we have studied in B2, but here we will learn it to apply those skills in a slightly different way. Here you can see a major difference between SL and excel. So, excel will go into more details because for SL it is a single class concept. So one class, everything within one class,
+
+but for excel it is multiple classes. So you will learn about inheritance and encapsulation, polymorphism and many different characteristics of object oriented programming. So that's why the number of hours for excel is more. And then we have B4, which is abstract data structure, which is only for excel. And that will include a lot of complex
+
+complex things related to the programming. For example, binary search tree, stack, skews and all those things, linked list, that will be covered as a part of B4, abstract data structure. Now in the whole curriculum, this is the only topic which SL will not study. This is the only topic in the whole curriculum. Apart from this topic,
+
+SL will also have everything covered, but slightly in a little lower level as compared to excel, but they have everything common between excel and excel. This is the only topic with an exception, which is only for excel. And that is theme B. And this theme we will continue at least until November next year. So we will do in phases. So we will continue to learn about programming right
+
+from now until the next year's November. And then we have case study, which is tested as a part of paper one. Last time I think I have shown you the sample paper one. In paper one, we have topics from these four topics plus the case study. So case study is section B of paper one. This case study is released in the month of in the month of July next year. So once once you are in the next year,
+
+you will have access to the case study, which is 15 hours for excel and 30 hours for excel, because in the case study there is one specific section, which is only to be studied by the excel students, not by the excel, but the case study will be same for both. And then we have the fourth component, which is the internal assessment. The number of hours for excel and excel is exactly
+
+the same, because there is no difference between excel and excel when it comes to internal assessment. And the examinism will not even now, if the internal assessment work is from the excel students or from the excel students. So the level of complexity is going to be same for both of them. And then there is this collaborative science project, which your DPC will talk to you
+
+about. So all the group four sciences, they work towards a common objective, which is in the interest of the community. Okay, so your DPC coordinator will come up with some idea. In fact, it's a student driven project. The theme will be provided by your DPC coordinator, and then you will, all the students of group four physics chemistry, biology, ESS, computer science, they will come together to find a solution to the problem which your DPC coordinator will give. This is not assist. This is just a requirement to be fulfilled,
+
+but this is you don't, you are not tested for this. So total teaching hours 150 and 240 for excel and excel. Okay, any questions in particular about the curriculum overview?
+
+Between theme A, theme B, case study, IA, in general, we haven't gone into the depth of what is included in H, but in general, do you have any questions? If you ask questions, that will give me a little break. So feel free to please ask questions. Why are you also quiet today, as if we are meeting for the first time? Come on, we have met seven times before.
+
+I mean, as of now, it's clear. It's clear, I guess it's a nice structure to be available here, so thank you very much for sharing. I think it's important to understand the milestones that we have to abide by, so thank you again. So now it's clear. I agree, because once you know the overall curriculum structure, then you know what are the things coming up and what are the things we are going to cover over the next 15 or 16 months of time that we are left with.
+
+So it's going to be not so difficult, because we have planned the lessons in such a way that we slowly take up one topic at a time, make you completely understand that, and then we move on to the next one, right? 
+
+================================================================================
+TOPIC B1.1.1 - PROBLEM SPECIFICATION
+================================================================================
+
+Okay, so let's spend next 30 minutes over the first chapter of B1, B1.1, which is about the computational thinking. So let me open the document all first,
+
+and then we will go through the content so that we understand what computational thinking is all about, and let me share my screen as well. Martin, you ought to add something before I share my screen. Yes, I remind you, we're going to talk about the installation of the software they need, netbeens and the JDK. Okay, somebody was asking and just making sure that he knows.
+
+Yeah, okay. So B1.1 refers to the problem specification as to what actually it means to what actually the problem means? How do we define a problem? Because that is the very starting point for any computational thinking that you look at the problem and you try to devise a solution, but the solution can be devised only when you have thoroughly understood what the problem is, especially for computer science, which does not give you scope to keep changing the problems and keep changing the solutions. So if you are a software developer or if you are a system architect,
+
+it is one of the most important skills that is needed for somebody to totally understand with all possible details and all possible exceptions about the problem because the software changes are not made frequently. Once you have released the software to the customer, you have to see that all their requirements are fulfilled and that would be possible only if you have completely understood the nature of the problem that the client is facing. Right? Because
+
+if you have missed even one aspect of it, it would definitely mean that at some point of time, the client will struggle with meeting those objectives. So if you're working as a system architect, which is the most crucial and most important jobs in the software development field, is to find out each and every aspect of the problems that they are facing and what are their expectations with the solution that they are going to develop. Right? Sometimes the client may not
+
+be very tech savvy. So they may say, oh, I don't know much. You are a software developer. You decide how it is to be done, which is fair. I mean, not everybody can explain the problem specification in the most organized way. So it is your role as a software architect to find out each and every minute details about how that the system within their organization is working so that when you complete the development, the client never feels that I wanted this feature, but it is not available.
+
+Obviously, you will have to have details about what client wants at least at a superficial level. But then a lot of other minute details, you have to identify yourself and that is what is called problem specification. Right? It's a very important part. I mean, in the software development field, this is one of the most highly paid jobs, which is the software architects who go to the organizations and using many different data collection tools, they try to identify the problems, which comprises of four major different ways, four different ways which they use. One is interviews with the interview,
+
+================================================================================
+REQUIREMENTS GATHERING METHODS
+================================================================================
+
+the top management, middle management and the employees to identify what are the requirements. The other one is questionnaires. So they prepare a questionnaire with all possible questions and distribute it to the employees and other stakeholders for them to fill in to gain a deeper understanding of what the requirements are. Third is referring to the existing documents. So they go to the organization
+
+and they look at their other reports, like what kind of reports they are generating. If the company is still paper based, then they look at the recipe books, they look at the reports, they look at the log file, how the records are being maintained, just to gain a deeper understanding of how the organization is working. And the fourth one is minute observation. So they do disturb people working.
+
+They will just go and stand in one corner and see how each employee within the organization is working, just to understand the workflow and what kind of operations are happening and how they are dealing with those operations. So these are the four different ways that the employees, the software developer architect actually goes and collects the information. And once they have done this,
+
+then they pass on that information to the developers that, okay, these are the requirements. They prepare a blueprint and then they get the agreement signed from the client that these are the features we are going to include. If there is anything more, please let us know otherwise we sign off the start of the work. So this is the process which starts much before actual
+
+production of the product starts. And this is what is going to be included in your internal assessment. Criteria A, B and C is all about this problem specification. Then what the problem is, what are the computational think computational context in that problem, like how the technology can help you overcome that problem and then design of the system. So even before you start coding,
+
+you have to prepare a design layout as to this is what your software will look like. So that when when the client looks at those designs, they may give some advises that, okay, this can be like this, that can be like that so that you can make changes at the design level. It becomes very difficult after creating the product that the client is coming with the requirements that, oh, can you move the logo here? Can you change the color of the screen to this? Can you change the font size?
+
+That will be extremely difficult for the company to go back and make all the changes in the actual product. So that's why all these decisions are made during the design process so that everything is clear between the two parties, the service provider and the main stakeholder, which is the company for which the problem is getting developed, okay.
+
+================================================================================
+REQUIREMENTS GATHERING METHODS
+================================================================================
+
+================================================================================
+STAKEHOLDERS, CONSTRAINTS & OBJECTIVES
+================================================================================
+
+Take a little time to read through this first paragraph and tell me what you understand from here, especially the overview and the significance of problem statement. Okay, over to you, who would like to talk about what's the significance of problem specification?
+
+I like to answer. I must say, problem specification helps identify what the problem is and also other factors that will help shape what the solution can be so that maybe they're constraints and the rules and what we want to achieve from the problem.
+
+Absolutely. Yeah, I'll come back to that, Alexandra. Next, uh, uh, RIOC. You raised your hand?
+
+Yeah, uh, I was just saying, it's kind of similar to what Alex and Georgia said, uh, problem solving makes it so we can easily understand the problem the client is facing and then easily identify the possible solutions to take to, uh, solve that problem. They're in the most effective and efficient way possible.
+
+Yeah, perfect. I would say that it, like, um, it gives the things that you're making a direction, because if you haven't identified a problem to solve, then you're kind of just making things without a purpose, but it gives you a part of the purpose.
+
+Right. So it may still be, uh, to meet a purpose, but that purpose is not clearly defined. So that means the whole objective cannot be met. So you have understood the problem that the client is facing, but probably you have not understood fully, which means after the product development, the client will come back to you, say, oh, come on, you developed a product for me, but I'm not able to do this.
+
+And that will be possible only when, as you three of you said, and thanks for your inputs, which is perfect. Uh, it's very important for you to understand what the, what the problem is so that the product can, uh, can take care of all those. So it ensures clarity. It helps determine constraints and limitations before development.
+
+What kind of constraints and limitations do you think could be, uh, encountered while developing the product? What constraints and limitations?
+
+Yes, officer. Well, uh, there may be technical constraints or budget constraints, which is usually the case. Um, well, there may also be, um, like if we design a particular solution and the users are not very, um, how would I say, tax savvy. Uh, we need to, um, there is actually specific
+
+term, uh, user training, perhaps an user, um, experience, I think, which is a part of the overall design. Yeah, so we have to take these also into the accounts. Yeah, I agree. And thanks for those inputs, uh, software. Uh, so there could be many different challenges, uh, that the developer may encounter and it's always a good idea to get a clarity on those, uh, challenges or those limitations.
+
+For example, number one, what is the budget? Because the developer may propose a system which may be very expensive for the organization to be here. So which means if they start developing, it would definitely result in a disaster because the company will know where, be close to paying what the, uh, developer is actually proposing that there has to be a clarity about the budget constraint that the company may have, right? Uh, that, that, that needs to be clarified. Second
+
+is, uh, what, uh, I would like to add further to what's obvious that could be the timeline. The company may be in need for, let's say, uh, start of the product, let the company is launching a product and they want operations to go live within a month from now. And, uh, when they discuss that with the, with the developer, they say there is no way that the product can be made within one month. So that could be another constraint which could actually impact the designing of
+
+the system, uh, employ a preparedness to take up the, uh, new system which is coming up because most of the employees, they get used to the ongoing way of handling operations, whether it's a paper-based system or it's a existing, uh, uh, technological solution. They're quite used to it, but when you try to bring a new system, they would be kind of, uh, they will be reluctant to move because they have to learn, uh, new skills. They have to spend time learning. It may bring a lot
+
+of frustration because they may not be able to do something because it's an entirely new system. So that may be another constraint which the company has to think about in order to train the employees so that they start using it. So, um, these could be some of the possible challenges which, uh, basically may pop up when the new system is planned. So it will be very important for
+
+the companies who are developing, uh, the software needs to get a clear picture about, uh, budget constraints, employee training, timeline, etc. So that once the agreement is signed, there are no conflicts between what's been agreed upon upon. Define objective and success criteria for evaluation, that whenever you start developing a software, you create your own success criteria that when would you consider your, uh, project to be successfully completed.
+
+So you come up with your success own success criteria and later you do the evaluation of those success criteria and then ensures that the final product meets those stakeholders need. Like for example, a school attendant system, if the specification does not include how teaches input data or how parents access reports, the system may not serve all the users efficiently. So these, these all should be the part of planning after the problem specification
+
+has been identified to be able to, to, it's properly. So this is a short, the description of each of the things, what each component means, uh, stakeholders. Could you tell me, um, who all will be the stakeholders if you are developing a school-based system?
+
+Um, who will be the stakeholders? Yes, Alexandra? Um, so maybe the administrative staff of the school, okay. Okay, so one, one from each student. Next is the teacher. Students themselves. Who? The students themselves. Okay, students, okay, okay, the end users, uh, which are the
+
+students. Okay, so we talked about the school administration. We talked about the student. Next, anybody else? Because it's important to involve all the stakeholders' inputs while developing a software. So as a, as a, as somebody who is looking at the problem specification, it will be your role to also identify the stakeholders within that system because everybody is input is needed. So we have talked about two. Who's the third one? Parents, uh, of students,
+
+yeah, perfect. Uh, yes. So parents of students, up them, the teachers, yes, the teaching staff. So we have covered teaching staff, non-teaching staff. We have covered students. We have covered parents. Who else could be the possible stakeholder?
+
+So non-teaching would include everybody from admin to cleaning staff, everybody in one go. Teachers would be all the teachers. Parents, students, who else could be the stakeholders?
+
+Feel free to type in the chat. Let's say you are developing a software for a company or school. Who are the other state stakeholders?
+
+Any other? You're missing one major stakeholder in this whole process. Because of whom, successful development of product cannot be done. 
+
+================================================================================
+CONSTRAINTS AND LIMITATIONS
+================================================================================
+
+The government, if it's a public funded year, of course, uh, yeah. So we'll keep government also
+
+on the non-academic side, that initiative, that includes government also, let's say. Perhaps the school is backed up by the government. Okay, yeah, it's not a bad, uh, input. The government, yeah. But that can be taken as school administration in a way. Any other?
+
+You yourself, what does that mean? Who is you here? Me?
+
+Very good, Andrew, yes. Uh, I was looking for that developer. The developer is also one of the most major stakeholders. So stakeholders doesn't mean that people who are getting the services. People who are providing the services are also part of stakeholders, that entire ecosystem. So when you're talking about a school management system, it's not just
+
+the school-related people, but it's also the company, which is actually helping in development of the system. So that is what stakeholders means. People or group of people affected or interested in the solution. Teachers, students, school, admin, parents, I can add here, developers also. Constraints and limitations. What could be the possible constraints? We also already talked about
+
+objectives and goals. So that needs to be very clearly defined as to what the solution aims to achieve input specification. ================================================================================
+INPUT/OUTPUT SPECIFICATION
+================================================================================
+
+Now, this is a new thing coming up. What are the different ways that the inputs will be provided into the system? It could be, uh, the input could be in many different ways. It could be through, uh, automated sensors. It could be from the keyboard. It could be from a
+
+joystick. There could be many different ways that the input can be provided. So how the input is going to be fitted into the system? Then output specification expected results. So what input is going using different input devices and what kind of output is expected in the form of reports?
+
+And then finally, evaluation criteria standards used to judge the success. Like we had a test plan in the internal assessment document, which you saw. So you need to have some sort of evaluation criteria to judge the success of the product overall. So we'll be studying about what kind of different evaluation are done like alpha test beta test user agreement test user acceptance text test. So there are many different ways that the evaluation is done. So we'll study about them
+
+in details. Now, stakeholders and their roles. So that is basically we just discussed about that everybody has some role to play within the system. It can either be end users. It can be those who make the decisions. It could be the developers. So everybody has certain roles. For example, in hospital management system, it could be doctors, nurses, patients, IT support, online stores, could be customers, developers, delivery partners, etc. And we discussed already why stakeholders
+
+are important because they ensure that the product addresses real word needs, not just technical requirements. Then we talked about constraints and limitations. There could be technical constraint, hardware or software limitation that the company is not in a position to buy a new hardware. So they have to deal with the existing hardware, which may not support very high end systems.
+
+So if you're running a company where you only have old machines and you want to get a new software developed, the developer has to be mindful about what technical support you have or what kind of hardware your company has. And accordingly, they have to develop the software. If the company says that we don't have the budget to go in for another set of hardware, it could be economical constraint that company doesn't have enough budget. So you have to see that what best can be done
+
+in order to meet those budget constraints. Legal requirements. Sometimes you also have to get the approvals from the local government or the governing body so that the software that you are developing does not, okay, you tell me what could be possible legal challenges for a company which is in the process of getting a new system developed. So there's one legal constraint,
+
+software. You're in Europe, so you should know this well. Collection data. Collection on managing data. It's a big issue, usually. Yes. So one of the legal constraints could be to make sure that you are adhering to the policies set in by the local government where the data is stored.
+
+Like in Europe, there is a GDPR, right? GDPR, right? So you have to make sure that if you are storing the data within that region, then you have to adhere to those requirements that the data cannot be kept in the database once the work is completed. For example, if the patient is gone from the hospital, there is no reason why their data needs to be retained in the hospital. So it needs to be freed up,
+
+right? For will, yeah. For will us, you have some input? Can we mention something? I think he just joined the meeting, actually. Okay, okay, all right. Just share the attendance link once again so that if anybody has joined recently, you could fill the attendance. Okay, so that is a legal aspect because as a developer,
+
+you have to be mindful about the policies which are in place and you have to adhere by that. Otherwise, the company, not only the company which has developed the system, but also the company for which you have developed the system could actually get into the legal implications and you would like to avoid that, right? So privacy of the data, anonymity of the data,
+
+data sharing policies, they are all well to be well defined so that the data privacy can be maintained. Operational, for example, as the software said that the staff training could be one of the important factors, which could be a constraint and then the timeline, the deadline for the delivery. So this is all in one place constraints and limitations. So you may have a possible
+
+question in the exam that identify three constraints in the software development process, right? So if it is identified, you can just name them like technical, economical and legal. If they say explain three constraints or limitations in the process of software development, then possibly you have to find this, you have to name it description and then example, that will complete your answer. So remember, some of these constraints so that you can easily answer it, there's a question
+
+like that. Now, input and output identification, the data that enters into the system and how it is entered into the system. So there can be many different ways that the data is entered. As I said, it could be sensors, it could be keyboard, it could be joystick, it could be input from some online sources, which becomes the source of your information for the further processing.
+
+So there can be many different ways, but most importantly, what kind of data is actually entering into the system? Process how the data is handled and finally the output, the information which is produced. Some of the input methods in the new system or the system that you develop, it could be manual entry. So there is a operator which is actually typing the data to enter it, keyboard, mouse,
+
+touchscreen, etc. Then there could be a direct entry. For example, it could be you may have seen in the shops that they read the information using barcodes, QR code, etc. So that's a direct entry, where after reading the barcode, it goes to the database, picks the details of that product, and then that pops up on your screen. That's a direct entry where keyboard is not needed.
+
+And then automatic entry, for example, sensor-based entries. So these are the three different input methods which are basically used in any system that you are using. Can you think of any other input method other than these three? I can think of it. Can you think of something?
+
+Other than manual entry, direct input and automatic entry, is there anything else that comes to your mind? No? All right, output types. Now when you have entered the data into the system, for example, let's say it's an attendance-based system. What would be the input? Let's talk about that. Let's say you have created your creating an attendance-based attendance system for our school.
+
+What would be the data that will be entered into the system? I'm throwing these questions so that you can start thinking beyond the basic level. There is something which is on the top of the mind and there is something which requires little more critical thinking to go beyond that. So to develop that, I'm throwing these questions
+
+to you. Name of the students. Okay, so that will be one input. So for the attendance system, we need to have the name of the students, their class and all that. So let's say all the personal information about the students, that is one input. Then you are the developer for the attendance system. So what else will you enter into the system? So that it works perfectly.
+
+First is all the details about the student, their name, data birth, class, they are in, what subjects they are studying, that becomes one input. What else will be the input?
+
+Come on, we fast. It's something that you experience every day. Okay, their actual attendance like present or absent, yes, that's correct. So on a day to day basis, the input will be their actual attendance, whether they are present or they are absent. What else? You are developing the attendance system. What are the things you will
+
+consider in the problem? Okay, so name is already done. Probably you would disconnect it for a while. Name and other personal details is already done. The day of the attendance, okay, the date is important that the attendance is forward date. Okay, you are a developer for the attendance system and you are thinking about what all things you will consider. What else?
+
+What's the next thing that comes to your mind? Martin, I believe one more student has joined. So probably you can share the attendance in the main chat. Anybody who has joined?
+
+Please mark the attendance. Yeah, what else? Their grade. In the attendance, will you give the grades?
+
+Wait, am I attendance? I need to give out my grade before I can select my name. Oh, grade you mean to say which class you are in, right?
+
+Okay, so that all is in one category. Let's say name of the student and all their personal details, their subject choices, their grade level, everything is one thing. Second is the date for which the attendance has been marked. Martin has just shared the attendance link. So although we have just joined, please mark your attendance. Can anyone think? Can anyone think about
+
+any other thing, any other input to the attendance system? You're missing one very important thing. Can you think of? I want you to think like a software developer. This is what is problem specification that you need to identify all possible inputs so that no exceptions are left, which are not well defined. Can somebody think of anything?
+
+Alexander, can you think of any other field that we have missed? Anyone? Software? Other than present and action, we could also have others like excused or something else. Yeah, perfect. Yes, that's a good input. So it's not just present or absent, but you need to have the exception for somebody who may be absent, but they are excused from the class because of some reason. Fine. It could also be late coming. Somebody came late,
+
+so there is a checkbox. They they are present, but they are they came late. Anything else that comes to your mind, which you will input in your system? Maybe parents can also participate because they they can provide and they will be some data for the students being excused moreover they can see. Yes, the attendance. Yeah, so visibility is one thing that is output,
+
+that is part of output that the reports can be made visible to the parents, but yes, from your input, I can make out one thing that there could be a field for description, short description, that if somebody has been excused, then what is the reason for that excuse or if somebody's absent, then what could be the reason for absentism? Right. Yeah, so that could be input. Anything else?
+
+Think about it. I mean, you are developing the software, so you want to make sure that everything that is needed for us, attendance system is actually their part of it. While building a system, you will provide a few other inputs. There is one of them, which is very important.
+
+Anyone? Okay. Maybe it's nice for these staff members. I mean, the login information and the dashboard for for staff. Yeah, so that is so we are assuming that we are already on the dashboard of a tenant system, right? We are already there. A login system for a teacher. Yeah, that's okay.
+
+I mean, but that is not exclusively part of our tenant system. The login is a different module altogether. It's giving you the accessibility. I'm assuming that we are already on the tenant system and we talked about everything, which is related to the attendance dashboard. So, one of the since we have to move to the next topic, so I'll just if I was a developer, I would also feed in the list of holidays in the attendance system so that none of the days within a particular week or month goes as attendance not taken by the teacher. So for the weekends,
+
+like Saturday and Sunday, I will already mark that these are the off days or if there are some local festivals, then I will mark that already as I'll give an input that those days are not to be counted towards the attendance. So it will be how it will be helpful. It will be helpful in calculating the percent of attendance for the students because if you haven't marked some days as off weekly off or some festival off, then your calculation of percentage would be wrong.
+
+Your number of days will come out to be 30 even though the school did not work for 30. So these are very minute details which you have to be very mindful about in order to have meaningful input for meaningful output. Otherwise it becomes garbage input, garbage output. We call it GIGO, garbage input for garbage output. So when you will start developing your product
+
+and when you will make your proposal and then you will start designing, you have to think about each module as to what could be the possibilities within that module. So the better is the design, the more effective will be your development. So you have to be mindful about all that and that's why I'm spending little extra time here for you to be to understand the importance and significance of problem specification. Martin, you would like to add something here? I was just thinking in terms
+
+for this particular example that have the ability to make changes to the attendance. If let's say you mark a teacher marker student absent during the first period and he came late later on and that ability should be there or also if this absent is an excuse absent or is an excuse absent, that's part of the specifications for these particular examples.
+
+Absolutely and thanks for that's a very good input from Martin and this is where comes the level of accessibility. Like in some of the schools, like in my school, if I have marked somebody absent for the day, then I don't have the rights to change it because then it will be problematic to maintain a standard approach across the school because the teachers may be marking and then unmarking and all that. So it would not be clear as to which student came, if the attendance is changing
+
+dynamically in every lesson. So once I have marked somebody as absent and somebody has come late, then I pass on that information to the admin, the middle school high school admin and they have the rights to change the attendance. So that one person at least is aware of who came late or why somebody was marked absent and later they are to be marked as present and that is where the level of accessibility comes into picture. So I as a teacher lose the rights to change the attendance
+
+but once I have submitted it, then it goes to the second level which is the admin manager. So admin manager wouldn't make the changes and when you are thinking about the development of your solution, you will also have to make different levels of access. That if you are developing I'm sorry, I cannot hear you, there is an interference, huge one.
+
+There is only the features that are prescribed for that. We will ask you for a minute there, there was some background noise that interferes with your sound. So you might want to say that. Yeah, so I was talking about different levels of accessibility. For example, if you are developing a system, you will have different types of users within that system. For
+
+example, it may be an end user who will have limited rights. Let's say for example from a hospital's point of view, one of the users would be let's say the nurses, okay, nurse or I don't know in different region, they are called something else, some places they are called sisters, some are called nurses. So they will have the minimum level of rights where they will only be able to view
+
+the data. So doctor has entered some reports about the patient, they can only view it, they cannot change anything. So their accessibility is restricted. Then goes the next level which is the doctors. So doctors may be able to add the reports into the system, they may be able to upload the patient reports, but they may not have the rights to delete anything. As a doctor, they will
+
+not have the rights to delete anything. Then comes the next level, let's say the hospitals admin staff, those who are managers or administrators, they will have more rights in order to add new records, delete records, modify records, right. So this level of accessibility makes sure that your system is stable and it maintains the data integrity and data security that if I'm at a certain level, I will only have the rights which are limited to myself, right. So when you're thinking about your
+
+IR project, please think from different levels point of view as to how many levels you are granting. So as soon as somebody logs in with their user credentials, they should be able to only access the information which is prescribed for them so that you will be sure that the data integrity could be maintained, right. And that is what I was talking about with regard to different
+
+levels of accessibility. ================================================================================
+EVALUATION CRITERIA
+================================================================================
+
+================================================================================
+EVALUATION CRITERIA & SUCCESS CRITERIA
+================================================================================
+
+Then comes the evaluation criteria. So as a software developer, not only that you're responsible for developing a full-proof system to meet the objectives of the organization, but you should also have the evaluation criteria in place so that before the product is released to the customers, you have to make sure that all the testing with regard to the functionality has been completed. Because it doesn't give a good picture to the company which has developed
+
+the software. If you have developed something with some limitations, that will be a very bad name to the company. That this company was trusted to develop something but they were not able to meet all the objectives. So you want to make sure that your credibility remains intact in the market and that will require you to make sure that you have all the evaluations done, okay.
+
+And there are different types of testings which to even the companies like Microsoft and Oracle and Apple, even after releasing the product, they first release the beta version. They give the product free of cost to some customers. They ask them to try it and then if there are any errors, then report that back to the company so that they can modify those mistakes so that when the product is all set for release, then it should go with minimum possible errors in it. It is not that somebody
+
+can say that my product is 100% accurate. Even Microsoft never claims that. And that is why you may have seen that sometimes you get a pop-up message that an error is encountered. Would you like to report it to the developers? And when you click it, it's a contribution to the community because you are making the company aware of some problems which they did not notice while testing it. But when you started using it, you encountered that problem and you noticed it.
+
+So it's an ongoing process but the effort is always that those problems should be minimized to the best extent possible. And that's why you need to have a good evaluation criteria in place. Now from your IS point of view, this contributes to criteria E. So criteria E is all about evaluating your product based on the success criteria that you made in criteria A. I'm trying to link
+
+this chapter with the actual IA because this has a great significance from the IS point of view. You need to identify the problem first. You need to look at the technical aspects in terms of computational connections. You have to come up with a success criteria which is criteria A altogether. Then you have to come up with a design overview which is about decomposition, abstraction, polymorphism, encapsulation and all that which will study later next week. That is criteria B.
+
+And then you come to the development where you have the input, process and output. So this topic that we are starting currently has great significance. Not just from paper two point of view but more importantly from the IA's point of view. So your evaluation should be very specific, clear and precise. If I write this, let's say my first success criteria is my dashboard should be
+
+well designed with attractive color combinations. What do you think about this success criteria? Is it specific, measurable, relevant, achievable and time bound? Let me have your views. This is one of my success criteria for the product. My dashboard should be well designed with attractive color combination. Is this a good success
+
+criteria? Not really. Okay. And what's the reason that it's not a very good success criteria? That's not really specific. Not really measurable. I mean yes, it is achievable but it's not constrained by time again. So to make it perhaps more the bad batter, let's say we may specify at the very least we may specify the timelines, we may specify the perhaps this style if we don't want to be extremely precise or we can even mention colors. The entire
+
+comments as to the layout. It's actually interesting because the design can go very deep. I mean do we need to mention like the specific fonts in this success criteria?
+
+Yes. I think that it's more about if the product that we are developing actually does what we are seek out to do. Because in this case just is in terms of the layout and colors and the font is more what is it will make the product user friendly or not. And I think that that's
+
+more measurable, right? It's easier to interact with it. Does the user have to scroll all the way down to choose an option or not? So it has to be more to that the actual peak of colors. Obviously that is important because you don't want a screen that is too VC or too bright or whatever that is actually not inviting to use.
+
+Absolutely. Yeah. So as the software said that your success criteria should be measurable. That means you should be able to demonstrate that okay this is my success criteria and see I can demonstrate this as a part of the evaluation. If I just end up saying that my dashboard should be well designed with an attractive color combination, this is very, very subjective. This is subjective because something which is attractive color for you may not
+
+necessarily be attractive color for others. So how do you measure it? You may say that I have used this color combination because to me it looks very attractive but examiner will say come on this looks yuck. It doesn't look good at all. I don't like it, right? So it's very subjective. So this is one of the common mistakes which students do they end up with the success criteria in criteria A which are not measurable. They are very subjective and you should avoid
+
+any such thing when you are coming up with the success criteria. So this is one of the key requirements for any product problem specification phase that you must come up with the evaluation criteria which could be tested. You should be able to show that on the screen and the person who is looking at it should be convinced with what you are saying. So the same thing I have
+
+written here with some measurable aspects. For example, my dashboard should be well designed in terms of placement of text boxes and labels. Now this may also be subjective. So you may go a little further into the details that it should be placed in the center of the screen or on the top of the screen. Is that measurable? Yes, that is measurable. So that you can show. Color should match with the
+
+company theme which is green and orange. So is this measurable? Yes, it is measurable that the company follows a color code which is green and orange as a part of their company policy and that you are showcasing in the product. So can you show green and orange combination? Yes, you can show it. Text boxes should be small in size. Now this is to an extent subjective that
+
+what do you mean by small? So you can be more precise here as to what you mean by small. Logos should be on the top right. So instead of just saying that well designed with attractive color, you are telling what do you mean by well designed. So logo should be on the top right. These are mostly measurable. So this should be a point for you to remember always that when you
+
+are coming with the success criteria, you will not get the score in criteria A. If even couple of your couple of your success criteria are subjective and they are non-mancerable. So when you pick up a success criteria, ask yourself, can I test this? Can I demonstrate this?
+
+Which is universally true? If that is a case, that is okay. But if it is your opinion that I think it should look like good like in this particular combination, that is subjective. That may not be the true case for others as well. So this is very important. This is one of the common mistakes which many students do when they are writing the success criteria. So it should be specific. Yeah, I'm sorry.
+
+Has a question to you? Yeah, please go ahead. So yeah, I was just like about to like make the comment about like user friendliness, but then Mr. Martin just said it. Bye. I forgot to take it over my hand. Yeah. So user friendliness should not be the correct success criteria because in user friendliness,
+
+you have to be very specific about what makes user friendly, right? Like larger fonts or click clickable items or clear distinction between the text boxes and the labels. So you have to be very precise, which you can showcase to make it user friendly. It should not be too cluttered. That means there should be gaps between each text boxes, which you can showcase. If you just use a
+
+friendly, that is not enough because what do you mean by user friendly? So that has to be very clearly specified. And that is why we have eight example, eight example IAs in the folder. It would be good to go through each one of them, read the success criteria and you will see that those scoring low will have very generic success criteria. So if you read the success criteria of
+
+each of the eight samples, you will get a better understanding. Most importantly, it should be measurable. It should be relevant, not that something which you are not developing, you have made that as a part of success criteria. It should be achievable, not that you end up writing something which is a very ambitious to impress the moderator, but actually it is not achievable.
+
+So you don't have to show like you are a professional software developer. The main objective of IA is to show your understanding of the entire design cycle even through a small project that you develop. It's not that you're developing something at a professional level. You have your life, whole life available for that. At this stage, you're just showing your computational
+
+thinking skills through the IA. So it should be achievable. I should be time bound because you have 30 hours, 35 hours for the IA. If you end up making something very, very ambitious, which unfortunately some students do, they end up spending too much time on the IA. You are actually penalized for that. They say that it is not possible to complete this IA in 35 hours. So you get
+
+penalized for all that extra efforts that you put in. And then the tennis system should mark attendance within 10 seconds first class with 99% accuracy. 
+
+================================================================================
+COMPUTATIONAL THINKING CONNECTION
+================================================================================
+
+Okay. Then computational thinking connection. So this is something which we have been talking about decomposition, which is breaking down the problem into several achievable smaller steps. You may be looking at school management
+
+system as a whole. That is the whole software. Now you have to decompose that within the school management software. First, you find out what are the different modules. For example, one could be attendance, one could be library, one could be transport, one could be state department, one could be academics, one could be its payroll. So that is called decomposition. So you have this
+
+many different components in that larger system. And then within each feature also, you have to further decompose that what does attendance comprise of? What are the different sections of attendance? What are the different components of HR payroll, right? Now you as a student don't have to make all the modules. It will be too much of an expectation. So find out what a problem
+
+area, which probably is Martin will share with us some of the examples of the IA as to what could be possible IA ideas for understanding purpose. So think about a small area for which you can develop something, which is meaningful and which has its relevance. That is what decomposition means breaking down your larger problems into smaller problems. Extraction. So this is something
+
+which is very much talked about in the object oriented programming. Extraction is the process of hiding on essential parts and showcasing only the things that you are supposed to be seeing. Like for example, when you drive the car, you don't see how the engines work, how the fueling is done. You don't see the digital circuits which are running within the bonnet of the car, right?
+
+What you'll see is just a steering gear in case if you have the gear system and the brake and the escalator, etc. You only see those parts. You see the meter. How the meter is working?
+
+How the pulley is working in the meter to make it work? All those things you don't see, right? That is called extraction. Similarly, in a software development field, what user see is only the end result on the screen. Like right now, I'm only seeing the Google Doc on my screen. I don't see that how these are stored in bits and bytes in the background,
+
+what registers are doing, what RAM is doing, what processor is doing, what operating system is doing. All those components are hidden from me because as a user, I just want to see my screen, which is just the Google Doc input of me, right? That is called abstraction. That means hiding all the unessential components, which are not directly helping us for the knowledge domain, but only looking at those things which are relevant to me. That is abstraction.
+
+Pattern recognition. Now, this is something very important in the computer science and you studied in the first chapter also that like in the processing, processing time when you were studying different kinds of talent processing and pipeline and all that, that this is a pattern which is recognized during the processing of the information. We will study more about the pattern
+
+recognition when we will actually go into the details of object oriented concepts, but pattern recognition is basically identifying the patterns which could actually help you to avoid repetitive task. And this is quite relevant to the functions. We will study about the functions in the programming, wherein you will not only do the decomposition, but you will also create different modules for the tasks which are repeated in your software again and again, so that you don't have to repeat writing the whole instructions again and again. Whenever you are in need of that particular section
+
+of the programming, for example, let's say finding the square root of a number. Now, you may be developing a mathematical problem where you have to find out the square root many times. Now, one way is that wherever you need to write the square root function, you just repeat the code again and again. Another way could be that because it's a pattern which is repeating again and
+
+again in your project. So, you make one module as square root where you will pass a parameter of the number which for which square root is needed and that module will reactivate it will calculate the square root and give you the square root back to you. So, pattern recognition is basically identifying the repeated elements within your development of the software, which instead of writing again and again, you can actually make a module for it and then make it work whenever needed. Rash, I would like to give an example of that. For example,
+
+you want to validate data. You want to make sure that whatever the input of the user is provided is the correct input, right? So, you probably are going to develop a method because that is going to validate that data and you're going to use that method in different places of your program. You don't want to rewrite the code every single time you want to validate if the input of the user is is appropriately for the application or not. Absolutely. Yeah, correct. Yeah, that's
+
+a very good example that you know very very user authentication is happening. That may be repeated at many different places and you don't want to repeat that whole set of instructions again and again. So, you just make up a module which is responsible for checking the authenticity of the information and it will return you true or false. If it is true, that means the information
+
+is correct and if it is false, then you ask the user to reenter. So, which is going to be repeated many times and by making a module, you can take care of that easily. Algorithmic design, developing a clear step-by-step process in the development process. So, as you saw pseudo code in the sample example that I showed you of the eye, there was a pseudo code section and pseudo code is quite important from the technical documentation point of view. So, that let's say you are a
+
+software developer in a company and after a while you leave the company and you may have developed a lot of modules, right, which is obvious. When the new person joins, they want to understand, let's say there's a troubleshooting to be done in part of the system. By looking at the code alone, they will not be able to understand what each part of the code is doing because it's very technical. I mean, it's written in syntaxes using a programming language and they may not be
+
+able to actually understand what's going on. But if you have the pseudo code or the algorithm written where you have made description of each module in simple English language, which is not language dependent. So, somebody frets it, they will be easily be able to understand what the application is doing and how it is developed. That is what is algorithmic design. So, these are the
+
+four different components of the computational thinking, decomposition, abstraction, pattern recognition, and algorithmic design. And this could be a possible question in your exam with regard to computational thinking that what are the different components or elements of of the computational thinking and what they mean or they may ask you very specifically that explain the decomposition process in the computational thinking process. So, this is something which
+
+will be covered in more details in the next class. This is just for the listing purpose. Designing a global online learning platform requires abstraction of details like regional settings, for example, language, currency, date format, legal compliance, GDPR in Europe, cultural adaptation, for example, UI direction, color, meaning and all that.
+
+And then we have these IB style quotients, which you might find useful to address in order to use it as a revision. So, this is the first part of B1.1.1. The second part will be covered in the next class, next Saturday. I wanted to keep it a little light. It's 8.6. So, technically we have spent an hour and a half. So, we still have about half an hour where we want to talk a little
+
+================================================================================
+INTERNAL ASSESSMENT (IA) DISCUSSION & BREAKOUT ROOM ACTIVITY
+================================================================================
+
+more about the IA. So, Martin, would you like to take over? Yes. Actually, I prepare a couple of scenarios. And I would like to go and exercise in, I'm going to present these to you guys and going to use breakout rooms. And I want you just through, I want you on your breakout room to discuss the scenarios. And then I want you to go to the processes trying to develop the problem
+
+statement. So, I'll give you the X scenario. I'm going to give you some guiding questions. And then you discuss in your group. And then I want you to come up with an specific, or not an specific, but with a problem statement for that X scenario. And if we have time, we'll discuss your solution approach. And if not, then we can try to do that next class like
+
+at the beginning of class. Okay. So, how much time do they have in the breakout room? I'm going to give them around five minutes. So, you will be that much. Okay. Okay. It's just an exercise because we need you to start thinking about, okay, I have this X scenario, what things do I need to take into account to try to establish and proper problem statement. Okay. So, let me share my screen. And then I'll tell you exactly what
+
+the X scenarios are. Okay. So, give me one second here. Share. Please, let me know if you're able to see it. Do you see it? Yes. You see my camera, everybody?
+
+Yes. Slightly enlarged us. All right. You can take a screenshot of this so that you may be needing it in your breakout room. All right. So, here is the what the tags at hand, right? So, you're going to select one of the X scenarios. I'm going to present them. And then I'm going to provide some guided questions,
+
+as I said. And you're going to try to come up with the problem statement, right? If we have time, then we can go into the describing the users and the partners. All right. So, we'll see how that goes with everybody. All right. Here is the first X scenario. The guiding questions are similar for every X scenario, right? So, the context is as follows.
+
+As students often struggle to manage multiple assignments leading to misled lines and disorganization, a program that helps prioritize and schedule tasks based on urgency. And today's can improve the time management, right? Is the first time I'm going to use the breakout? So, just take a screenshot of every X scenario presented. I'm just going to present
+
+four. And then once you are on the breakout, then just decide what X scenario you want to tackle. Okay. So, that's the first X scenario. And those are the guiding questions for it. Let me know if I can move out of it. So, I can present the second X scenario. Okay. So, second X scenario.
+
+Will you have access to this document, Martin? I can, yeah, I can give you access to this. I can share it with you in a second. All right. So, X scenario number two, keyword density analysis for easy writing, students writing essays often over use certain words or lose focus on the main topic, a keyword analysis of mental focus and coherence in the writing. So, some of the guiding
+
+questions is those that you see there, how can the computer help write improves the focus of under essays, what kind of feedback would you make this program most useful? So, what output you will receive? How might you define important words mathematically or statistically? So, basically, how are we going to measure those questions that are repeated throughout the essay? All right. So,
+
+make sure you take a screenshot of that. The third X scenario is a simple expense structure and budget analyzer. Students or journals often lose track of how you guys are spending your money, or you're spending habits. A program that records expenses and analyzes where the money is spent can help promote financial awareness. Awareness. So, here are the questions for that
+
+personal social needs. What makes this solution meaningful to you, to your peers? So, again, just take a screenshot of that. And the fourth X scenario is a Sudoku solver using backtracking. This is a little bit more specific. Many puzzle enthusiasts enjoy Sudoku, but find complex puzzles time-consuming and automatic solver could check solutions or help players learn problems or bring the skills. And once again, here are the guiding questions for this X scenario.
+
+So, once again, it's going to be the first time I use the breakout rooms here. Probably I'm going to use you're going to be split up automatically. All right. So, that's why I need you to have the the history shots of the X scenario. Take real try to choose one of them as quick as you can. And let's see how this this works. Is there any particular question in terms of what is the
+
+purpose of this activity? Okay. So, somebody needs to get a screenshot of... I think you can share the document just in the chat. Let me get read only for everyone and share the link. So, they have to as a group, they have to pick up one scenario, right? Yes. So, you can choose the scenario that best suits you. And come up with a plan.
+
+Let me see. I'm trying to... Yeah, we were all put it in the chat. Let's go to the chat here. So, when you go to the breakout room, probably one of you can actually share the screen with this document on so that you can discuss on a common scenario. You guys are... So, how many groups are you making? Five or four? I'm making four.
+
+Okay. I'm making four. So, there'll be five each. Yeah. Let me try to go to the breakout rooms for you. I'm going to allow you to... All right. Let's see how this works. Do you probably are going to be assigned to the scenarios? Raj, I just realized that I was not in my personal account. I was in my school account. So, I don't know if they're going to have access to the...
+
+Let me try. I think it should work. No, it's not. It's asking for access. So, I'm going to try to make a copy. But then how will we share it with them now?
+
+Okay, let me see. I mean, I'm going to try to... Is there a way that I could create a file really quick, a Word document file and upload it here?
+
+Let's do one thing. First, let's close the breakout rooms first. Let them come back here. Okay. And then, because otherwise... So, everybody is typing. We need access to the document. So... All right. All right. They're coming back. Let me... So, you don't have personal account right now. So, you can open a new Google Doc in your personal
+
+account. Yeah. And copy the content there. Yeah. Give me one check. And I change. I change what the account. Sorry, guys. I realized I was in my school account. And then, obviously, is... You will not have access. I'm going to try to copy the same problems into a document that I can share. So, it can be open. Sure, but...
+
+Let's see. I detail. All right. So, let me now share this. I want to say. And by the time this is happening, I just want to remind you that in week on canvas, there's a tab with the name IA introduction to IA. Please don't forget to go through that information in that. And there are some things available for downloads. So, please do that.
+
+And next week, you will have to submit a proposal. All right. I'm going to... Sorry. I just put the link on the document. Before you go to the breakout, go ahead and try to access that link. Just make sure that it works. And then, I'm going to do the breakout rooms again. Yeah. This is working, Martin. I can ask. Let me get the breakout rooms.
+
+All right. Here we go. So, before you go to the breakout, please open this document in the chat. I don't know if they will have access to chat once they go to the breakout room. I think they can... Well, I don't know. We're going to find out in a second. Because I thought that that was a very good activity if we were able to make it so they can have the opportunity to discuss among themselves. Absolutely.
+
+So, let's take the timer. So, let's give them five minutes. And even if we don't... If they're not able to finish the exercise at least, they can start thinking about it. Because that's the first thing they're going to do. Absolutely. Get out of here. Get the finder problem and then...
+
+Yeah, that's fine. Yeah, that's fine. I say yes. I see only 12 students have marked their tenants, but we had 22. So, two of them have not entered. Okay, because some people join later. Yeah, that's okay, but we again shared the link, right? Okay. Yeah.
+
+Yeah, we still have access to the chat. That's good. I didn't know that the feature will stay there during their breakout. Okay, that's good. Yeah. All right. Next week, we will dedicate some more time on the IA. And we'll go through some examples. Because I think the proposal is due
+
+in the next week or week after next, let me check. Yeah, I think that going over the examples that you placed on the folder, I was wondering, did they obtain different marks, like that we have a big one. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Those are all different levels. Okay. The IB timetable, which is embedded now into the canvas,
+
+is the highest that scored 26 on, I think it's scored 26 on 30. Others are kind of some are mediocre, some are very low scored. So, they are all mixed. That Michelle could not join, right? I really feel bad because she has been trying every week. Yes, I wonder what the issue is because, you know, there are other kids when they say that are able to join, but can you do one quick one to one meeting with her? And then on the spot, you can
+
+create a lesson and see if she is able to join that. Okay. I'll do that. You know, this particular week, man, I have so many issues with canvas, the online classroom, it took so much to load. And then to create the lessons, I will lose connection. I mean, to create the meetings, I will lose connections on as far as it was really not. Yeah. Sometimes it happens even in
+
+Myanmar, if you Google last one week has been terrible. I mean, the whole nation's internet was disrupted because of some reason. So, today it is still working, thankfully. Otherwise, last three days, it wasn't working at all, people without internet, last three days. They're sharing some things on the chat.
+
+That they are discussing within themselves. Yeah. We have just posted the Ex scenario one. And then the urgency system can be similar to the priority thing. So, so we'll do one thing considering the time because it's already two hours. More or less. So, we will we will give them some more time to maybe work within the same group
+
+with each other. Okay. But they cannot contact each other. That's a problem. Well, we have 57 minutes. I'm sorry, 55 seconds. Unless at least tell them that of these, we're going to start the next lesson kind of with this activity. Yeah, we'll start the next lesson with this activity.
+
+Right. And at least have the feedback with it. Okay. Yeah. Yeah. Yeah. And so, I'm going to close the the bridge. Okay. How much time is left? 31 seconds. Yeah, so let it finish on its own.
+
+Yeah, because we will be right there at the two hour mark of the meeting today. And that's a lot for students to be honest. It is. But at least this will make it a little bit. Yeah, you're right. You know, there will keep some time for the breakout room every session
+
+so that they get to talk to each other. Yeah. All right. My time is up. So, let me let me show the break our rooms. All right. Okay. They should be coming back. I'm going to stop sharing. Okay. Yeah.
+
+All right, everybody. I know that was not like a lot of time. Right. But at least I hope that you have a little bit of a good discussion on the scenario that you pick. This is what we're going to do because we don't want to go over the two hour mark. But what we're going to do is next class, we're going to start with this exercise.
+
+And we are going to try to at the beginning gather who was in which breakout room. So we can organize it. And then the same people can be in that group. And then you can revisit the X scenario, put your ideas together, and then kind of present those ideas back to us or to the whole group. And then we can discuss how you came up with your problem statement.
+
+Okay. That sounds like a plan. All right. Excellent. And well, rash, anything else?
+
+Yes. I think that's it. So I mean, let me quickly just two to three minutes more. Let me share my screen once again and share with you the IA plan that we have in place. So in the canvas, if you go to your lesson, this is the units units. Okay. If you go to the units within the unit, we are currently in week eight.
+
+So problem specification part one. That's what we are doing today. And here, here you can see the last time, the IA. This is something we want you to be start looking at. So this is very basic information about what IA is, why it matters and all that. What you should submit IA example ideas. Activities this week.
+
+Analyze the IB timetable IA. Watch the sample video and skim the PDF. Identify where each part of the same sample aligns with the rubric criteria A to E. And for the new break, you can go to the subject guide. Let me show you that also. So in the subject guide, if you go to internal assessment, here, it starts from page number 51 and goes all the way to page number 67. It will be good if you
+
+can read through these pages because that provides all necessary information about the IA. And we are interested in looking at each of the criteria, what their requirements are and what the rubric looks like. For example, if you look at criteria A, the recommended word count for this criteria is 300 words and for somebody to reach to level 3 to 4, the response describes the problem scenario in terms of its measurable solution requirements. So if your measurable solution
+
+requirements is generic, you cannot go to 3 to 4 marks because it says states limited success criteria. So if it is not measurable, you will be stuck with one to two. So when you are looking at the IV timetable document, see that which particular mark band does that work of student goes into. Because for you to be able to justify the needs of each criteria, you have to look at
+
+the top band states appropriate success criteria, explains the choice of computational context for the solution. So the keyword is explain, which means you have identified and you have given a justification of what you have chosen and why you have chosen. And then there is a further detail about this. Similarly, criteria B, planning for you to go to the 3 to 4, the response constructs
+
+a reasonable decomposition of the problem scenario. It constructs a plan that addresses the success criteria of the solution. Then for criteria C, D and E. So this provides meaningful information about what the IA requirements are. So you can go to page number 51 of the subject guide page 51 to 59. That is what talks about the IA, right. Then this week you don't have any submissions from
+
+the IA point of view. So here it is timetable. So you can download from here or you can go to the shared folder where you can find this. This is one thing. Now next week, let me have a look at the calendar for IA. So this week is the introduction to IA. Then so this is 5 November week. In 12 November week, you have the IA project proposal. So this is where by that time you have to be clear with
+
+what kind of IA you are going to make. We will share with you some example IAs just for the information purpose, but you can think about what IA you are going to make. And on farmer jar canvas, we have added a proposal form for you. So let's go to week 8.2, problem specification part 2. This also has an IA tab added.
+
+Sorry, I don't see that. Okay, I will check this. So we have created a, this would have been here, the IA thing. So I will get that added. So we have created a proposal form for you wherein you will type about title of your project, what problem you have identified, what would be the possible solution, what will be the front end, what will be the back end. So that will require some sort of research
+
+for you. As of now, we are mainly interested on your major idea as to what kind of solution you are making. Like for example, it could be an inventory management system for your school library. Or for your school clinic, right, or something like that. So we will share with you 15 to 20 project ideas, which will give you some good idea about what kind of projects are expected in comparison, IA. So you come up with a major plan about what your proposal is, then we will take some time to
+
+go through your proposals and then we'll give you the feedback whether we are fine with your proposal or we have some suggestions to be made. And then next week, I mean, this week, next week, week after next, that is when we will categorically introduce IA criteria A and B to you. Right. And this will be your official start of it of the IA.
+
+And next submission would be 12th of October, sorry, 10th of December, your criteria A first draft will be you. So we are going to follow this calendar for your IA thing. I'm sure I have already shared this calendar with you. If not, I will download this as a PDF and share with you so that you have everything in one place. We are aiming to finish your IA in by 24th of February, 2027.
+
+So still there is a lot of time. But then let me tell you, if you don't go in a systematic way, it becomes very difficult to meet the IA requirements of computer science because a lot of time will be taken in criteria C and D. C and D will take the maximum time, almost six to seven months. Right. So you have to be very, very alert and active with the IA requirements. And that's why we
+
+have spread it over long period of time. Right. All right. Then that's all for today. It's exactly two hours since we started. So just work on the problem statement activity that Martina shared with you. Yeah. Before you guys go, sorry, before you go, please on the chat, just type the number of the group that you were in. So next time I cannot put you in the same group. And since you have
+
+access to the to the document, if you want to work on it during the week, that will be great if you have the time and you can, you know, just work on some ideas. Martin, I think we can also do that since we have only shared the Google Doc with them. So for each problem specification, they can mention the names who are a part of yeah. I'm collecting the group names right now
+
+on on on a document. So when we come back next time, we can set the same groups. Okay. Yeah. Okay. Okay. Sure. I believe that's all for us, correct?
+
+Hello. One again, did you say the deadline for the AI proposal? What?
+
+AI proposal deadline would be next week. So, uh, so this week we'll end on next Wednesday. So next to next Wednesday, the date is, let me check once again. And you can start thinking about what would be the, uh, the idea ideas that you have. So the deadline for submission of project proposal is in week that
+
+is starting on 12th of November. So 18th November will be your deadline. No, not 18th November, sorry. 12th November it is starting. So 12 plus seven. Your 19th November is the deadline for your project proposal submission. All right, guys. So thank you so much for being here for last two hours. I hope that you found the session useful. Uh, Alexandra, you had a comment that
+
+you found some difficulty in understanding the digital thinking. Is it somewhat clear now from what it was before? Yes, please. All right. Okay. We are glad that you found it useful. So, uh, I'll see you, we'll see you next week. And please do some research about the IA. Go through the subject guide page 50 to 59 to gain a deeper understanding.
+
+Uh, by tomorrow, we'll share with you a list of about 15 to 20 IA ideas. Just for the reference purpose, we are not saying that you have to choose one from them, but that will give you some fair idea. 
+
+================================================================================
+JAVA INSTALLATION INSTRUCTIONS
+================================================================================
+
+Okay, before I go, I mean, just one last thing. Sorry, I keep saying last thing, which never ends, but that's very important because before we meet next week, it's important for you to understand this aspect. That is about the installation of Java. So I'll just take two more
+
+minutes to let you know where you can find the details of Java. So if you go to the content, I have added this file with the name, uh, javainstallation.pdf. And this has three different categories, one for Windows, one for old Mac, and one for new Mac. So if you are using Windows platform, then if you're using Windows platform, then this is the process, how you have to do.
+
+Okay, if you're using old Mac, so this is all about Windows, Windows, and then install Apache. So two, you're essentially you're installing two different applications. One is JDK, which is called Java development kit, which is a compiler for Java. And one is Apache netbeans, which is the front end, or we call it IDE, interactive development environment, where you can type the programs and all that. And it looks like, uh, I'm sure some
+
+of you may have used it before. So it looks like this. So you can see, this is the Java development environment, GDE, where you can type the programs, and then you can run it to see the output. And for this to work perfectly, you need to have Java installed on your computer. So you see, I've run this program, and this is the output for the program. And for you to check,
+
+if Java is installed or not on your computer, sometimes it is pre-installed. So you can go to terminal window, if you're using, uh, uh, Mac, say Java, there's a command to check that. Let me see what it is. The command is Java hyphen version. So if you type on the terminal screen, sorry, Java, Java hyphen version. So it is telling me what Java is installed on my computer,
+
+right? If it is coming not installed, then you may have to install it. Okay. Uh, sometimes what happens that the Java that is installed on your Mac is not compatible with the Apache netbeens that you have. So you can delete all the existing Java installations by copying these four lines and copy pasting it on to the terminal press Enter key. All the existing
+
+Java will be removed. And then to confirm the removal, you have to type this. And then when you type this command, Java hyphen version, it will show no Java installed. Now there's one catch about Windows is straightforward. There's no difficulty. But for the, for the Mac, new machines, there's a compatibility issue. And you have to be careful about what version of JDK you are installing.
+
+I put a table here somewhere which talks about which Java version works with here. So if you are planning to install netbeens 12 to 13, then JDK 11 or 17 can be installed. So when you go to the Java sorry JDK download page, which is here. If you go to this page, it will show you many different versions of Java. So if you're installing netbeens 12 or 13 version, then you have to install JDK 11
+
+or 17. If you're trying to, if you're planning to install netbeens 14 to 19, then you have to install JDK 17. And if you're installing netbeens 20 to 22, then JDK 21. So if your laptop is quite new, then I would recommend that you go for this one. Install JDK 21 and netbeens any version 20 to 22. This will work fine. If your laptop is slightly older, for example, three years old or something,
+
+then go for this one. But all the Java features are more or less same as per our needs. So anything would work. Even this would work. There is no problem with this. So try to install following this document, which is in the shared folder. If you have any issues, you can ask your school's IT manager to help you with the installation. You may share this PDF with them that this is how our
+
+teachers have instructed us to install the Java. Take their help. If it still does not work, then probably we'll take up case to case basis on the next during the next class. But try during this week, if you can install JDK and Java. First, you have to install JDK, then you have to install netbeens, Apache netbeets. That's all. I would not say one more minute.
+
+I'm done for my end for this class. Okay. All right, guys. Thank you so much for today. Thank you. Yeah, please ask your question. Do we all need to install the different time
+
+environments separately? No, no, no. Just JDK and netbeens is good enough. You don't have to install any runtime environment. It is automatically installed with it. Question for the IA proposal. Yeah. Yeah. So like the question, where do we need to take submitter? Or are we going to find specifics
+
+for like the question that we need to make? So I haven't. So I had asked the developer to add that into the week eight point next week, but I don't see that there. So I will remind them. So in the next lesson, you will be able to say it. But separately, we will also share a Google Doc with you, where there'll be questions and you will have to fill that questionnaire.
+
+Okay. That'll be sent through email through the email through the announcement. Okay. Thank you. Yeah. Yes, Ima. I had a question for the proposals for the IA. If we have more than one idea, is it fine if we submit more than one proposal? It's perfectly fine. In fact, in the document, we have three ideas
+
+from you. You're supposed to come up with three different ideas. Yeah, you're welcome. Thank you so much. Bye. Bye. Bye. Yes, sorry, Elma is done. Elma, do you have a question for us? I know. No, no, go on. Okay.
+
+================================================================================
+CLASS CONCLUSION
+================================================================================
+
+All right, Martin, thank you so much. So it's start of the day for you and for me, it's time to go to the bed to go to to rest. I know. I know. Yeah. Yeah. So all right. So we'll talk during the week, I guess. Sure. Yeah. We'll talk about it because we need to finalize how we are going to deal with the IA so that students don't suffer. And we also need
+
+to look at which students are frequently missing the classes. Probably, we have to get in touch with the SBC to let them know that they are missing the classes. Right? Yes. All right, then. All right. Have a good day. Bye. Bye. Bye.
+
+================================================================================
+END OF TRANSCRIPTION
+================================================================================

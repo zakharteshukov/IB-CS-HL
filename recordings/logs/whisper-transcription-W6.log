@@ -1,0 +1,1659 @@
+/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:02.000]  You
+[00:30.000 --> 00:32.000]  You
+[01:00.000 --> 01:02.000]  You
+[01:30.000 --> 01:32.000]  You
+[02:00.000 --> 02:02.000]  You
+[02:30.000 --> 02:32.000]  You
+[03:00.000 --> 03:02.000]  You
+[03:30.000 --> 03:32.000]  You
+[04:01.000 --> 04:03.000]  You
+[04:03.000 --> 04:07.000]  You
+[04:07.000 --> 04:11.000]  You
+[04:11.000 --> 04:15.000]  You
+[04:15.000 --> 04:18.000]  You
+[04:18.000 --> 04:19.000]  You
+[04:19.000 --> 04:21.780]  one announcement to both the channel and SL,
+[04:21.780 --> 04:23.280]  a quick reminder.
+[04:23.280 --> 04:24.360]  Okay, sure.
+[05:49.360 --> 05:50.640]  Well,
+[06:14.980 --> 06:15.840]  Hello?
+[06:16.740 --> 06:17.900]  Hi...
+[06:19.000 --> 06:21.000]  I just want to make sure why I'm like it's working.
+[06:49.000 --> 06:59.000]  All right, I posted the reminder.
+[07:19.000 --> 07:27.000]  By the way, I think Poverla is still having some troubles connecting to the meetings.
+[07:27.000 --> 07:30.000]  Who has issues connecting?
+[07:30.000 --> 07:36.000]  I think it's in SL class.
+[07:36.000 --> 07:40.000]  Okay.
+[07:40.000 --> 07:45.000]  Is it joining with the link or how is it joining the joint?
+[07:45.000 --> 07:47.000]  I can ask him.
+[07:47.000 --> 07:52.000]  Yeah, just ask him.
+[07:52.000 --> 07:55.000]  Let me give you the link in the chat.
+[07:55.000 --> 08:00.000]  Could you share that link with him and ask him if he's able to join using that?
+[08:00.000 --> 08:03.000]  So you can just.
+[08:03.000 --> 08:06.000]  Here in the chat, we have the link.
+[08:06.000 --> 08:13.000]  So just share share with that student.
+[08:13.000 --> 08:20.000]  It must be a local problem with the computer because I can see that there are a lot of SL students joining you just leaving the link.
+[08:20.000 --> 08:22.000]  Yeah.
+[08:22.000 --> 08:26.000]  Last time he got an message saying he was enrolled in this class.
+[08:26.000 --> 08:30.000]  I don't know if we were able to fix yours in this chat.
+[08:30.000 --> 08:38.000]  I don't think they said unable to join in the class and you are not enrolled in this class.
+[08:38.000 --> 08:44.000]  That could be a different reason because the link may have been wrong, but just share this link with the maybe he's referring to some old link.
+[08:44.000 --> 08:49.000]  So just share this link and ask if he's able to join using every time.
+[08:49.000 --> 08:51.000]  The link changes every week.
+[08:51.000 --> 08:56.000]  It's not the same link every time.
+[09:08.000 --> 09:18.000]  Martin, do you remember who was that student who said his name was not there in the list?
+[09:18.000 --> 09:22.000]  There was one student from SL.
+[09:22.000 --> 09:26.000]  From last, from last meetings.
+[09:26.000 --> 09:32.000]  Yeah, from last meeting, I remember that there was one student who mentioned that his name is not there.
+[09:33.000 --> 09:36.000]  In the attendance list.
+[09:36.000 --> 09:38.000]  In the registration list.
+[09:38.000 --> 09:40.000]  Yeah.
+[09:40.000 --> 09:43.000]  I think he added his name, didn't he?
+[09:43.000 --> 09:52.000]  No, he can just do the attendance by saying that my name is not in the list, but he cannot add so we have to add that.
+[09:52.000 --> 09:56.000]  It was something to start with a if I remember correctly.
+[09:56.000 --> 09:58.000]  Yeah, let me.
+[09:58.000 --> 10:00.000]  I don't.
+[10:00.000 --> 10:03.000]  Adam, you're right.
+[10:03.000 --> 10:05.000]  I think it's Adam.
+[10:05.000 --> 10:10.000]  He's in, I mean, he's in the list of the class and everything.
+[10:10.000 --> 10:17.000]  No, he's there in the list of class, but I think he's not there in the.
+[10:17.000 --> 10:19.000]  Let me add his name.
+[10:19.000 --> 10:22.000]  How do you spell ADAM and then.
+[10:22.000 --> 10:26.000]  Yeah, and I think he's bus.
+[10:26.000 --> 10:28.000]  And then his last name.
+[10:28.000 --> 10:31.000]  Let me check his last name.
+[10:31.000 --> 10:33.000]  Check, check in the peoples.
+[10:33.000 --> 10:34.000]  Right.
+[10:34.000 --> 10:36.000]  I'm going to, I'm going to check.
+[10:36.000 --> 10:39.000]  Let me double check his last name.
+[10:53.000 --> 10:59.000]  Is that student able to join the one who wanted a link?
+[10:59.000 --> 11:01.000]  I'm calling him now.
+[11:01.000 --> 11:03.000]  He's testing it.
+[11:03.000 --> 11:18.000]  Okay, great.
+[11:18.000 --> 11:33.000]  Thank you.
+[11:33.000 --> 11:35.000]  All those were fully joined.
+[11:35.000 --> 11:37.000]  Lorenzo, thank you for turning on your camera.
+[11:37.000 --> 11:40.000]  Could others also turn on the camera, please.
+[11:40.000 --> 11:41.000]  It's 6.30 now.
+[11:41.000 --> 11:43.000]  We'll start the class shortly.
+[11:43.000 --> 11:52.000]  Hi, software.
+[11:52.000 --> 12:01.000]  Hi, Thomas.
+[12:02.000 --> 12:03.000]  JST.
+[12:03.000 --> 12:05.000]  Is a.
+[12:05.000 --> 12:09.000]  For obvious.
+[12:09.000 --> 12:13.000]  Future Alexandra.
+[12:13.000 --> 12:17.000]  Yeah, could you all turn on your camera, please.
+[12:17.000 --> 12:20.000]  So, Raj, Adam.
+[12:20.000 --> 12:24.000]  Bus B. Yes, B U S B Y.
+[12:24.000 --> 12:27.000]  But he's in a, he's an a child student.
+[12:27.000 --> 12:29.000]  He's a child.
+[12:29.000 --> 12:30.000]  He's a child.
+[12:30.000 --> 12:31.000]  Yes.
+[12:31.000 --> 12:33.000]  Oh, I just added him to a cell.
+[12:33.000 --> 12:37.000]  Yeah, he's an a child student of mine.
+[12:37.000 --> 12:38.000]  Okay.
+[12:38.000 --> 12:40.000]  I'll just add him here.
+[12:40.000 --> 12:41.000]  Yeah.
+[12:41.000 --> 12:43.000]  I.
+[12:43.000 --> 12:47.000]  Adam, what's the spelling you said?
+[12:47.000 --> 12:49.000]  Bus B, B U S B Y.
+[12:49.000 --> 12:51.000]  Correct.
+[12:51.000 --> 12:52.000]  Okay.
+[13:00.000 --> 13:04.000]  Those two students, which Amanda mentioned,
+[13:04.000 --> 13:05.000]  have the joint already?
+[13:05.000 --> 13:08.000]  I get to join.
+[13:08.000 --> 13:13.000]  Yeah.
+[13:13.000 --> 13:18.000]  Sorry, we'll stand somebody said something.
+[13:18.000 --> 13:23.000]  I'll join the guy I talked about.
+[13:23.000 --> 13:25.000]  Not allowed.
+[13:25.000 --> 13:26.000]  Let me see.
+[13:26.000 --> 13:28.000]  I'm trying to see why you see the names.
+[13:28.000 --> 13:31.000]  They don't see it.
+[13:31.000 --> 13:33.000]  Yeah, the guy I mentioned.
+[13:33.000 --> 13:34.000]  Meeting the link.
+[13:34.000 --> 13:35.000]  Amanda is to join up.
+[13:35.000 --> 13:36.000]  Avila.
+[13:36.000 --> 13:37.000]  She's here.
+[13:37.000 --> 13:38.000]  He cannot.
+[13:38.000 --> 13:39.000]  He cannot join with the link.
+[13:39.000 --> 13:40.000]  Androin.
+[13:40.000 --> 13:41.000]  He can.
+[13:41.000 --> 13:42.000]  He managed.
+[13:42.000 --> 13:43.000]  He's in the phone now.
+[13:43.000 --> 13:44.000]  Okay.
+[13:44.000 --> 13:45.000]  Great.
+[13:45.000 --> 13:46.000]  Who's that student?
+[13:46.000 --> 13:47.000]  Can I talk to that?
+[13:47.000 --> 13:50.000]  What's the name?
+[13:50.000 --> 13:51.000]  What's your name?
+[13:51.000 --> 13:52.000]  Pavila.
+[13:52.000 --> 13:53.000]  Pavila.
+[13:53.000 --> 14:00.000]  Could you turn on your camera, please?
+[14:00.000 --> 14:02.000]  So guys, for every week,
+[14:02.000 --> 14:04.000]  there will be a new meeting link,
+[14:04.000 --> 14:06.000]  which we share in the announcement.
+[14:06.000 --> 14:10.000]  So if you try to access the meeting using any of the old links,
+[14:10.000 --> 14:13.000]  it will not work because that class is already over.
+[14:13.000 --> 14:16.000]  So please keep an eye on the announcements.
+[14:16.000 --> 14:20.000]  And so as I mentioned that anytime between Monday to Friday,
+[14:20.000 --> 14:23.000]  we will be sharing the link for the upcoming lesson.
+[14:23.000 --> 14:25.000]  It's not an issue for the actual class,
+[14:25.000 --> 14:28.000]  because HL can join through the main class.
+[14:28.000 --> 14:30.000]  But for the SL,
+[14:30.000 --> 14:33.000]  they need to join using the current link.
+[14:33.000 --> 14:35.000]  So please keep that in mind.
+[14:35.000 --> 14:37.000]  We have tried and tested the system.
+[14:37.000 --> 14:40.000]  There is absolutely no problem joining using the link.
+[14:40.000 --> 14:46.000]  You will not be able to join only if you are not using the correct link.
+[14:46.000 --> 14:49.000]  So that's just a piece of advice and reminder.
+[14:49.000 --> 14:54.000]  So please have just about 14 students joined so far.
+[14:54.000 --> 14:59.000]  I'm not sure what's the reason.
+[14:59.000 --> 15:03.000]  Anyways, I'm sharing the attendance link to you in the chat.
+[15:03.000 --> 15:12.000]  If you could go there and mark your attendance.
+[15:12.000 --> 15:22.000]  Okay.
+[15:22.000 --> 15:39.000]  Okay.
+[15:40.000 --> 15:42.000]  Those who have just joined,
+[15:42.000 --> 15:44.000]  there is that attendance list.
+[15:44.000 --> 15:47.000]  I shared in the chat if you could go there and mark.
+[15:47.000 --> 15:49.000]  I hope you can see those who have joined late.
+[15:49.000 --> 15:53.000]  Can you see the attendance link?
+[15:53.000 --> 15:57.000]  Or do I need to share that again?
+[16:09.000 --> 16:30.000]  Okay.
+[16:30.000 --> 16:32.000]  Guys,
+[16:32.000 --> 16:35.000]  Martin, maybe we'll discuss this again later.
+[16:35.000 --> 16:40.000]  I'm thinking that we also want to give you a chance to interact with each other
+[16:40.000 --> 16:43.000]  because you are part of the same group and you're going to study together.
+[16:43.000 --> 16:45.000]  And as we progress,
+[16:45.000 --> 16:48.000]  you will start with the little more complex topics,
+[16:48.000 --> 16:51.000]  including the IAs and many different things.
+[16:51.000 --> 16:54.000]  And I'm sure that if you were in a physical classroom,
+[16:54.000 --> 16:58.000]  you would be talking to each other on the daily basis, right?
+[16:58.000 --> 17:06.000]  So what we are thinking is that probably maybe once in a week,
+[17:06.000 --> 17:10.000]  we will create a link for you just for interaction.
+[17:10.000 --> 17:12.000]  So we won't be there within the class,
+[17:12.000 --> 17:15.000]  but you can meet as a group during that time.
+[17:15.000 --> 17:21.000]  It's not mandatory, but just in case if you think that it will be good for you to have interaction
+[17:21.000 --> 17:23.000]  with other members of the class,
+[17:23.000 --> 17:26.000]  probably on Sunday during the same time,
+[17:26.000 --> 17:28.000]  like 12 PMGMT,
+[17:28.000 --> 17:31.000]  we'll create a room for two hours.
+[17:31.000 --> 17:34.000]  And if you wish,
+[17:34.000 --> 17:37.000]  you can come and talk to each other, right?
+[17:37.000 --> 17:39.000]  Because last time,
+[17:39.000 --> 17:44.000]  this came to my mind last time when both me and Martin were disconnected from the class.
+[17:44.000 --> 17:45.000]  And we returned.
+[17:45.000 --> 17:51.000]  We saw some good conversation going on within yourself.
+[17:51.000 --> 17:53.000]  And you kept quiet as soon as we entered.
+[17:53.000 --> 17:55.000]  So we don't want that to happen.
+[17:55.000 --> 17:56.000]  So we will not be there.
+[17:56.000 --> 17:59.000]  You can just utilize that room to talk to each other.
+[17:59.000 --> 18:00.000]  What do you think?
+[18:00.000 --> 18:04.000]  Is that a good idea?
+[18:04.000 --> 18:05.000]  Yes.
+[18:05.000 --> 18:06.000]  Yes.
+[18:06.000 --> 18:07.000]  Because as a group.
+[18:07.000 --> 18:08.000]  Yeah, so as a group,
+[18:08.000 --> 18:09.000]  it will be good for you.
+[18:09.000 --> 18:10.000]  I mean,
+[18:10.000 --> 18:11.000]  you don't have to extend it for two hours,
+[18:11.000 --> 18:13.000]  like even if you meet for 15 minutes,
+[18:13.000 --> 18:15.000]  just talk about what's going on in the class.
+[18:15.000 --> 18:17.000]  How is your studies going on?
+[18:17.000 --> 18:21.000]  Are there any areas that you would like to discuss with other members?
+[18:22.000 --> 18:26.000]  It will definitely benefit those who are kind of new to computer science,
+[18:26.000 --> 18:27.000]  because for them,
+[18:27.000 --> 18:31.000]  it will be very useful since they will get to talk to those who are already experienced,
+[18:31.000 --> 18:33.000]  especially when we'll start with the programming,
+[18:33.000 --> 18:36.000]  which is going to be happening very soon.
+[18:36.000 --> 18:39.000]  So we'll leave the room open.
+[18:39.000 --> 18:40.000]  I mean, your wish,
+[18:40.000 --> 18:43.000]  if you want to come and chat with others, you can do that.
+[18:43.000 --> 18:44.000]  Unfortunately,
+[18:44.000 --> 18:46.000]  after the palm of your policy,
+[18:46.000 --> 18:50.000]  we cannot share the email addresses of students with one another.
+[18:51.000 --> 18:55.000]  That's the policy for the privacy and security of all the students.
+[18:55.000 --> 18:59.000]  But then we can have a room link created,
+[18:59.000 --> 19:05.000]  where you can come and kind of talk to one another and share your ideas.
+[19:05.000 --> 19:07.000]  So we will announce that whenever we have a class,
+[19:07.000 --> 19:08.000]  I mean,
+[19:08.000 --> 19:10.000]  that also we won't do it every week,
+[19:10.000 --> 19:11.000]  maybe once in a while,
+[19:11.000 --> 19:14.000]  so that the interest stays there.
+[19:14.000 --> 19:15.000]  Right?
+[19:16.000 --> 19:18.000]  Rash, can we,
+[19:18.000 --> 19:22.000]  maybe you can share some light on the grading system,
+[19:22.000 --> 19:28.000]  how the grading system in Parmoja affects the grades in this school,
+[19:28.000 --> 19:31.000]  because I have a couple of students who ask those questions.
+[19:31.000 --> 19:34.000]  And I guess they need clarification on that.
+[19:34.000 --> 19:37.000]  And also they predicted grades.
+[19:37.000 --> 19:39.000]  So no, this didn't ask me about that.
+[19:39.000 --> 19:41.000]  And I don't have an answer for it.
+[19:41.000 --> 19:42.000]  That's a good question.
+[19:43.000 --> 19:47.000]  So basically during the weekly lessons,
+[19:47.000 --> 19:49.000]  which you cover every week,
+[19:49.000 --> 19:53.000]  the fixed number of topics that we publish on the Parmoja platform,
+[19:53.000 --> 19:54.000]  which you study,
+[19:54.000 --> 19:56.000]  and then we have the online webinars.
+[19:56.000 --> 19:58.000]  And then you have some sort of assignments.
+[19:58.000 --> 20:00.000]  I'm sorry for week five.
+[20:00.000 --> 20:01.000]  I mean, there were too many assignments,
+[20:01.000 --> 20:03.000]  which we realized later while grading,
+[20:03.000 --> 20:07.000]  because that is actually too much to be expected from you during single week.
+[20:07.000 --> 20:13.000]  It was kind of a mess from the content creators.
+[20:13.000 --> 20:15.000]  Two people were involved,
+[20:15.000 --> 20:18.000]  and we both ended up making assignments.
+[20:18.000 --> 20:22.000]  So we are going to definitely remove most part of it for the next year.
+[20:22.000 --> 20:24.000]  We'll just keep one assignment,
+[20:24.000 --> 20:26.000]  the first one, which has pretty much everything.
+[20:26.000 --> 20:29.000]  Okay, so now coming back to the question about the grading.
+[20:29.000 --> 20:31.000]  So every week you will have some practice tests,
+[20:31.000 --> 20:33.000]  like the way you are at in week five.
+[20:33.000 --> 20:34.000]  So similarly going forward,
+[20:34.000 --> 20:36.000]  you will have those kind of assessments.
+[20:36.000 --> 20:38.000]  Which are kind of unmonitored,
+[20:38.000 --> 20:41.000]  because you have signed a contract with us
+[20:41.000 --> 20:43.000]  that you will maintain academic integrity policy.
+[20:43.000 --> 20:46.000]  And we trust you when you say that.
+[20:46.000 --> 20:48.000]  Not because we want to do some policing,
+[20:48.000 --> 20:51.000]  but we want you to be responsible digital citizens,
+[20:51.000 --> 20:54.000]  where you are responsible for your own learning.
+[20:54.000 --> 20:57.000]  So we trust you that what you submit is your own work.
+[20:57.000 --> 21:00.000]  And on the basis of which you will get the scores.
+[21:00.000 --> 21:04.000]  However, these practice tests won't.
+[21:04.000 --> 21:07.000]  I mean, even though they are important for your learning point of view.
+[21:07.000 --> 21:08.000]  And they would be a part of it,
+[21:08.000 --> 21:13.000]  which will be taken into account for give us an idea as to make a professional judgment
+[21:13.000 --> 21:15.000]  to give you the predicted grades later.
+[21:15.000 --> 21:19.000]  But these will not be majorly counted towards actual calculation of PGs.
+[21:19.000 --> 21:23.000]  So your PGs would mainly be based on the proctored examinations,
+[21:23.000 --> 21:27.000]  which will happen twice during a year,
+[21:27.000 --> 21:30.000]  one in the month of December.
+[21:30.000 --> 21:33.000]  And one in the month of I think March or April.
+[21:33.000 --> 21:35.000]  So there will be two proctored exams,
+[21:35.000 --> 21:38.000]  which will be conducted in the exam condition.
+[21:38.000 --> 21:41.000]  So we will send the question papers to your SBC,
+[21:41.000 --> 21:44.000]  who will take the print of those and give it to you.
+[21:44.000 --> 21:48.000]  And you will write the exam just like the way you do for other DP exams.
+[21:48.000 --> 21:52.000]  Those will give us a realistic view of what your knowledge and understanding is,
+[21:52.000 --> 21:56.000]  because that will be completely proctored.
+[21:56.000 --> 22:00.000]  And using that, we will make the judgment about where you stand
+[22:00.000 --> 22:03.000]  with regard to IB expectations.
+[22:03.000 --> 22:05.000]  But that is not all.
+[22:05.000 --> 22:07.000]  I mean, if it was a bad day for someone,
+[22:07.000 --> 22:09.000]  and suppose they performed bad in that exam,
+[22:09.000 --> 22:11.000]  but they have been consistently,
+[22:11.000 --> 22:18.000]  consistently performing well in the weekly assignments and other practice tests,
+[22:18.000 --> 22:22.000]  we will take that also into account to make a judgment.
+[22:22.000 --> 22:28.000]  So the key idea is that you don't have to get into all those technicalities,
+[22:28.000 --> 22:31.000]  as long as you are performing well in your assessments.
+[22:31.000 --> 22:33.000]  Just leave rest of the things on us.
+[22:33.000 --> 22:35.000]  You will get good predicted rates.
+[22:35.000 --> 22:38.000]  However, if you see you struggling not submitting the assignments,
+[22:38.000 --> 22:41.000]  not joining the webinars, not completing the assignments in time,
+[22:41.000 --> 22:45.000]  performing poorly in the term end of your exams,
+[22:45.000 --> 22:50.000]  then obviously you cannot get good predicted score.
+[22:50.000 --> 22:52.000]  Now, if you miss any assignment,
+[22:52.000 --> 22:53.000]  for example, in week five,
+[22:53.000 --> 22:54.000]  we had quite a lot of assignments.
+[22:54.000 --> 22:57.000]  And if you think that it was pretty too much
+[22:57.000 --> 22:59.000]  for you to cover during one week,
+[22:59.000 --> 23:01.000]  we are open to giving you deadlines.
+[23:01.000 --> 23:02.000]  I mean, extensions.
+[23:02.000 --> 23:04.000]  So you can just make a request to us.
+[23:04.000 --> 23:06.000]  In fact, we are thinking Martin,
+[23:06.000 --> 23:10.000]  what we will do is we will open those week five all assignments
+[23:10.000 --> 23:12.000]  for another 15 days,
+[23:12.000 --> 23:14.000]  so that all those who have missed,
+[23:14.000 --> 23:16.000]  they can continue working on that,
+[23:16.000 --> 23:18.000]  along with the ongoing assignments,
+[23:18.000 --> 23:20.000]  which they have week after week.
+[23:20.000 --> 23:23.000]  So it's not going to be so content heavy,
+[23:23.000 --> 23:25.000]  like the way we had in week five,
+[23:25.000 --> 23:26.000]  most of the weeks,
+[23:26.000 --> 23:29.000]  we are going to have pretty much less amount of work.
+[23:29.000 --> 23:33.000]  So we will open those deadlines for next 15 days for everyone.
+[23:33.000 --> 23:35.000]  So just in case those who missed because of time constraint,
+[23:35.000 --> 23:36.000]  which is quite understandable,
+[23:36.000 --> 23:38.000]  you have a chance to complete them.
+[23:38.000 --> 23:40.000]  If you miss something,
+[23:40.000 --> 23:41.000]  for example,
+[23:41.000 --> 23:45.000]  the calculation of your grades in Canvas would be impacted,
+[23:45.000 --> 23:49.000]  because it calculates the total divided by number of assignments.
+[23:49.000 --> 23:50.000]  So if you miss something,
+[23:50.000 --> 23:52.000]  your total will stay the same,
+[23:53.000 --> 23:56.000]  like it will not include this particular assignment,
+[23:56.000 --> 23:59.000]  and the number of assignments will be counted.
+[23:59.000 --> 24:03.000]  So it will impact your overall grade,
+[24:03.000 --> 24:05.000]  which I'm not sure if you can see in the grade book,
+[24:05.000 --> 24:07.000]  but we are able to see for the predictions.
+[24:07.000 --> 24:09.000]  So that will be impacted badly.
+[24:09.000 --> 24:12.000]  So I would strongly recommend that you must continue finishing
+[24:12.000 --> 24:15.000]  all your assignments week after week.
+[24:15.000 --> 24:17.000]  Quizzis are there.
+[24:17.000 --> 24:20.000]  Again, I would say that they don't contribute much in terms of judgment
+[24:21.000 --> 24:22.000]  for the predicted grades,
+[24:22.000 --> 24:24.000]  but it may contribute towards the term grade.
+[24:24.000 --> 24:27.000]  So we have term grades every term,
+[24:27.000 --> 24:29.000]  like towards the end of term one,
+[24:29.000 --> 24:31.000]  based on all the assessments that you have done,
+[24:31.000 --> 24:33.000]  we will give you a term grade,
+[24:33.000 --> 24:37.000]  which will largely depend on all the assignments which are there during that term.
+[24:37.000 --> 24:42.000]  Then there will be one semester grade.
+[24:42.000 --> 24:45.000]  It will be largely based on the end of semester exam,
+[24:45.000 --> 24:46.000]  which is the proctor one.
+[24:46.000 --> 24:47.000]  And then finally,
+[24:47.000 --> 24:48.000]  you will have the predicted grades,
+[24:48.000 --> 24:50.000]  which goes to the universities and the IB,
+[24:50.000 --> 24:52.000]  that will be based on the end of year.
+[24:52.000 --> 24:55.000]  In the year one, as well as year two.
+[24:55.000 --> 24:57.000]  Okay.
+[24:57.000 --> 25:02.000]  So that's the that's the point that you have to always remember
+[25:02.000 --> 25:06.000]  when you think about how best you can do to get good predicted grades.
+[25:06.000 --> 25:07.000]  We are there to support you.
+[25:07.000 --> 25:09.000]  We don't want to complicate things for you,
+[25:09.000 --> 25:11.000]  as long as because see,
+[25:11.000 --> 25:13.000]  it's just been seven.
+[25:13.000 --> 25:15.000]  This is sixth week, right?
+[25:15.000 --> 25:17.000]  In six weeks, I have,
+[25:17.000 --> 25:21.000]  and I'm sure Martin also has pretty much made up the mind about
+[25:21.000 --> 25:26.000]  which out of you are actually expected to get a predicted grade of seven.
+[25:26.000 --> 25:28.000]  That's a teacher's judgment.
+[25:28.000 --> 25:30.000]  We very closely monitor your work,
+[25:30.000 --> 25:31.000]  the way you communicate,
+[25:31.000 --> 25:33.000]  the way you take part in the webinars,
+[25:33.000 --> 25:35.000]  the way you submit your assignments.
+[25:35.000 --> 25:40.000]  So we have pretty much good idea about how many of you we are going to give seven
+[25:40.000 --> 25:41.000]  at this early stage,
+[25:41.000 --> 25:43.000]  even though we have not seen any proctor.
+[25:44.000 --> 25:46.000]  For example, from your responses,
+[25:46.000 --> 25:50.000]  from the way you take part in all the assignments and webinars,
+[25:50.000 --> 25:55.000]  we get a pretty much good idea about which students are eligible to get a seven.
+[25:55.000 --> 25:57.000]  So it's completely reflection from your end,
+[25:57.000 --> 26:00.000]  which would determine how much you would get.
+[26:00.000 --> 26:02.000]  Don't expect that, you know,
+[26:02.000 --> 26:03.000]  you will not do much,
+[26:03.000 --> 26:04.000]  and then you will say,
+[26:04.000 --> 26:09.000]  oh, the university plan to go expects a six or a seven in computer science.
+[26:09.000 --> 26:10.000]  So could you give us?
+[26:10.000 --> 26:12.000]  No, that will not happen.
+[26:12.000 --> 26:19.000]  You have to show online lessons have both advantages and also challenges.
+[26:19.000 --> 26:21.000]  So we have to know you without meeting you personally,
+[26:21.000 --> 26:23.000]  and that is why I keep requesting that keep your cameras on,
+[26:23.000 --> 26:26.000]  that at least we can know you by face after a while,
+[26:26.000 --> 26:30.000]  we will be able to recognize you when we see you.
+[26:30.000 --> 26:32.000]  So it will be completely on,
+[26:32.000 --> 26:34.000]  depend on your reflections,
+[26:34.000 --> 26:37.000]  your commitments, your efforts,
+[26:37.000 --> 26:41.000]  that will actually give us a fair idea about where you stand and how much you will get.
+[26:42.000 --> 26:44.000]  Right.
+[26:44.000 --> 26:52.000]  Any, but do you have any specific questions we are ready to answer?
+[26:52.000 --> 26:55.000]  Any specific questions?
+[26:55.000 --> 26:59.000]  If we done like the unit five questions,
+[26:59.000 --> 27:00.000]  yeah,
+[27:00.000 --> 27:01.000]  like everything,
+[27:01.000 --> 27:03.000]  like would that be counted positively,
+[27:03.000 --> 27:04.000]  positively for our grade,
+[27:04.000 --> 27:08.000]  or like would you still when you count like the first assignments?
+[27:08.000 --> 27:11.000]  Because I felt like I did better on the other fork,
+[27:11.000 --> 27:14.000]  assignments in the first one.
+[27:14.000 --> 27:17.000]  So see, it's a collective,
+[27:17.000 --> 27:20.000]  it's a collective response all through the term,
+[27:20.000 --> 27:23.000]  which will contribute towards the term grade, right?
+[27:23.000 --> 27:25.000]  So as I said previously,
+[27:25.000 --> 27:30.000]  that not performing well in one of many different assessments
+[27:30.000 --> 27:32.000]  would not make much of difference.
+[27:32.000 --> 27:37.000]  And considering that week five was too many assignments,
+[27:37.000 --> 27:39.000]  I think you had three or four assignments,
+[27:39.000 --> 27:42.000]  and probably each assignment took about 15 to 20 pages,
+[27:42.000 --> 27:44.000]  which is actually pretty too much.
+[27:44.000 --> 27:48.000]  So we are not going to base too much of our judgment on that, right?
+[27:48.000 --> 27:51.000]  So even if you have not done very well in those assignments,
+[27:51.000 --> 27:53.000]  don't worry much about the term grade,
+[27:53.000 --> 27:58.000]  because we are mindful about the fact that it was a lot of assignments there, right?
+[27:58.000 --> 27:59.000]  However,
+[27:59.000 --> 28:04.000]  if somebody did not attempt or just submitted one page or two pages,
+[28:04.000 --> 28:06.000]  definitely they are going to be penalized,
+[28:06.000 --> 28:08.000]  because then there was lack of commitment.
+[28:08.000 --> 28:13.000]  So that's why we are giving you a chance for next 15 days.
+[28:13.000 --> 28:15.000]  If you have missed it majorly,
+[28:15.000 --> 28:18.000]  or if you have just submitted it for the sake of it,
+[28:18.000 --> 28:21.000]  without much of content to all the questions,
+[28:21.000 --> 28:23.000]  you have a chance to improve on your work.
+[28:23.000 --> 28:25.000]  So redo the work,
+[28:25.000 --> 28:28.000]  just in case not looking at the score.
+[28:28.000 --> 28:31.000]  If you have only attempted all the questions and you have scored less,
+[28:31.000 --> 28:33.000]  then probably that will continue to stay there.
+[28:33.000 --> 28:35.000]  But if you could not submit,
+[28:35.000 --> 28:37.000]  because of your prior engagements,
+[28:37.000 --> 28:40.000]  you have submitted just very few questions,
+[28:40.000 --> 28:44.000]  then you have a chance to improve for the next 15 days.
+[28:44.000 --> 28:47.000]  Yes, Thomas?
+[28:47.000 --> 28:52.000]  The engagement raising effects are great compared to the assessment.
+[28:52.000 --> 28:57.000]  Definitely, because engagement rating is something which shows your commitment towards the courts.
+[28:57.000 --> 29:03.000]  It seemed like you missing your math class in your face to face quite frequently, right?
+[29:03.000 --> 29:06.000]  It would mean that you are not only missing the classes,
+[29:06.000 --> 29:08.000]  but you're also missing on the assignments.
+[29:08.000 --> 29:12.000]  So we take a lot of things into consideration when we are giving the engagement ratings.
+[29:12.000 --> 29:16.000]  So if somebody is insufficiently engaged or not engaged at all,
+[29:16.000 --> 29:20.000]  it will definitely impact the predicted grades or the term grade,
+[29:20.000 --> 29:24.000]  considering that you may have missed many assignments and the webinars.
+[29:24.000 --> 29:28.000]  So it will have a direct correlation.
+[29:28.000 --> 29:29.000]  Yes, isa?
+[29:30.000 --> 29:32.000]  And also, it's technically important,
+[29:32.000 --> 29:33.000]  because as per the ID,
+[29:33.000 --> 29:36.000]  you need to have a certain percentage of attendance
+[29:36.000 --> 29:38.000]  in order to be able to write the exams,
+[29:38.000 --> 29:42.000]  and if it's not there, that will be a problem.
+[29:42.000 --> 29:45.000]  Okay, Isa?
+[29:45.000 --> 29:47.000]  Hi, sir.
+[29:47.000 --> 29:50.000]  I think I speak for everyone when I say it's a bit hard to,
+[29:50.000 --> 29:54.000]  like, join every single webinar every Saturday,
+[29:54.000 --> 29:57.000]  because to keep my schedule clear all the time,
+[29:57.000 --> 30:00.000]  also, like, when I'm doing things for a cast, I'm not always home.
+[30:00.000 --> 30:03.000]  So that's fine.
+[30:03.000 --> 30:06.000]  It's absolutely.
+[30:06.000 --> 30:10.000]  Yeah, it's absolutely fine to not join every single time,
+[30:10.000 --> 30:12.000]  provided you have a good justification of why you miss,
+[30:12.000 --> 30:17.000]  because we will be sharing these reports with the site-based coordinator.
+[30:17.000 --> 30:20.000]  So this would be aware the reason why you are not attending, right?
+[30:20.000 --> 30:21.000]  So once in a while,
+[30:21.000 --> 30:22.000]  it's perfectly fine.
+[30:22.000 --> 30:23.000]  We totally understand,
+[30:23.000 --> 30:26.000]  but then it should not become a regular habit
+[30:26.000 --> 30:28.000]  that you're missing the cloud.
+[30:28.000 --> 30:29.000]  I mean, you doesn't mean you,
+[30:29.000 --> 30:32.000]  but anybody is missing the classes just for the sake of it.
+[30:32.000 --> 30:34.000]  If you have a genuine problem, we totally understand.
+[30:34.000 --> 30:35.000]  There could be times on differences.
+[30:35.000 --> 30:37.000]  There could be other commitments,
+[30:37.000 --> 30:40.000]  but consider this as one of the mandatory lessons,
+[30:40.000 --> 30:44.000]  which if you had to be assigned in your face-to-face school,
+[30:44.000 --> 30:46.000]  you would find time to attend the class, right?
+[30:46.000 --> 30:48.000]  So consider this as that,
+[30:48.000 --> 30:51.000]  but if you have any prior commitments,
+[30:51.000 --> 30:52.000]  which you cannot skip,
+[30:52.000 --> 30:54.000]  then feel free to not join,
+[30:54.000 --> 30:56.000]  but you must watch the recording later.
+[30:56.000 --> 30:58.000]  Yes. Okay, thank you.
+[30:58.000 --> 31:00.000]  Ella, Alexandra.
+[31:02.000 --> 31:04.000]  I was wondering if you could like share
+[31:04.000 --> 31:08.000]  like a mark scheme for the week five assignment.
+[31:08.000 --> 31:09.000]  Yeah, sure. Okay.
+[31:09.000 --> 31:12.000]  Yeah, I will share the mark scheme with you.
+[31:12.000 --> 31:13.000]  Sure.
+[31:13.000 --> 31:14.000]  Okay.
+[31:14.000 --> 31:15.000]  Solve share.
+[31:17.000 --> 31:19.000]  Yes, hello.
+[31:19.000 --> 31:23.000]  I wanted to ask how the proctorin will be implemented.
+[31:23.000 --> 31:29.000]  Do we need to have like a separate camera or a separate device?
+[31:29.000 --> 31:31.000]  No, no, no.
+[31:31.000 --> 31:33.000]  Okay, so let me answer that.
+[31:33.000 --> 31:38.000]  So see what happens is whenever there's an exam week for the for the palm of your exams,
+[31:38.000 --> 31:41.000]  it's for all the subjects together during that week.
+[31:41.000 --> 31:45.000]  In fact, there's an exam window of 15 days, right?
+[31:45.000 --> 31:48.000]  So let's say your exam week is from first March to 15 March.
+[31:48.000 --> 31:52.000]  Your side base coordinator can decide when they want to conduct that exam for you.
+[31:52.000 --> 31:55.000]  We just give the window of two weeks, right?
+[31:55.000 --> 31:58.000]  Now, let's say they decide that it will be done on the third of March.
+[31:58.000 --> 32:04.000]  So that day they will make you sit in a place which will be proctored or supervised by an examiner.
+[32:04.000 --> 32:08.000]  So you will be writing the exam without the use of laptop,
+[32:08.000 --> 32:12.000]  but on a piece of paper like the way you will do for the DP exams.
+[32:12.000 --> 32:17.000]  And then that will be scanned and returned back to us by the side base coordinator.
+[32:17.000 --> 32:20.000]  And then we'll grade it and straight up scores with you.
+[32:21.000 --> 32:28.000]  So it may it may it may be during your school's mock exam or your school's end of your exam,
+[32:28.000 --> 32:32.000]  but it may even be independently done, but it will be proctored.
+[32:32.000 --> 32:38.000]  So may be during your computer science class, somebody will monitor you and you will write answers.
+[32:38.000 --> 32:39.000]  Okay.
+[32:39.000 --> 32:41.000]  I might you have another question.
+[32:41.000 --> 32:43.000]  Thank you.
+[32:43.000 --> 32:47.000]  I have a question for the term like great.
+[32:47.000 --> 32:49.000]  When is the last day for this term?
+[32:49.000 --> 32:54.000]  And do you know when the grades are going to come out for this term?
+[32:54.000 --> 32:59.000]  The last day of this term is week number.
+[32:59.000 --> 33:01.000]  Let me check.
+[33:01.000 --> 33:04.000]  Let me check.
+[33:04.000 --> 33:08.000]  Let me see.
+[33:08.000 --> 33:15.000]  We are.
+[33:16.000 --> 33:18.000]  Meet.
+[33:18.000 --> 33:19.000]  Meet.
+[33:19.000 --> 33:24.000]  Is this term not a break right now that not a semester, but this term?
+[33:24.000 --> 33:25.000]  Okay.
+[33:25.000 --> 33:30.000]  Let me share once my screen and I'll show you what your dates are.
+[33:30.000 --> 33:32.000]  This is this is also there in the calendar.
+[33:32.000 --> 33:37.000]  I think if you go on the canvas and if you see the calendar, you should be able to see that.
+[33:37.000 --> 33:38.000]  Okay.
+[33:38.000 --> 33:40.000]  So.
+[33:40.000 --> 33:43.000]  This is pretty much the.
+[33:43.000 --> 33:44.000]  Calendar.
+[33:44.000 --> 33:46.000]  So.
+[33:46.000 --> 33:50.000]  We started from 10th of September.
+[33:50.000 --> 33:54.000]  And 15 10 engagement rating.
+[33:54.000 --> 33:59.000]  Week 1 to 5 was due, which we have entered already.
+[33:59.000 --> 34:02.000]  That was our deadline.
+[34:02.000 --> 34:03.000]  SBC's dashboard.
+[34:03.000 --> 34:05.000]  It will be visible on 21st October.
+[34:05.000 --> 34:09.000]  So your SBC will be able to see the engagement rating on 21st October.
+[34:09.000 --> 34:12.000]  And it will be published to you also on 21st October.
+[34:12.000 --> 34:19.000]  So if you look at canvas on 21st October, you'll be able to see the engagement rating.
+[34:19.000 --> 34:27.000]  Then on 22nd 10, this is an assignment called student self reflection, where you will write about your overall experience during the first term.
+[34:27.000 --> 34:31.000]  And then 29th October, that is a mid semester break.
+[34:31.000 --> 34:35.000]  So 29th October to 4th of November, you will have the term break.
+[34:35.000 --> 34:39.000]  So which mean essentially the week will end.
+[34:39.000 --> 34:44.000]  I mean the first quarter ends on 28th of October.
+[34:44.000 --> 34:45.000]  Right.
+[34:45.000 --> 34:49.000]  So we have 15 more days for this term to end.
+[34:49.000 --> 34:56.000]  Then next term to will begin on 5th of November and will go on until 23rd of December.
+[34:56.000 --> 34:59.000]  And before this time, you will have one.
+[34:59.000 --> 35:04.000]  Proctored exam, which we haven't mentioned here, but we will find out a date and mention.
+[35:04.000 --> 35:15.000]  So that starts from November 5th and goes on until 23rd of December.
+[35:15.000 --> 35:20.000]  And the engagement ratings will be due on 26th of 11 and you will be able to see that on 2nd of December.
+[35:20.000 --> 35:25.000]  So 2nd term ends on 23rd of December.
+[35:25.000 --> 35:32.000]  Then after the Christmas break, we meet on 14th of January.
+[35:32.000 --> 35:39.000]  The semester 1 report, including term grade 2 and engagement rating week 1 to 11 to 14.
+[35:39.000 --> 35:41.000]  So this is the time when you will get the term.
+[35:41.000 --> 35:45.000]  In fact, you will get the term grade.
+[35:45.000 --> 35:53.000]  No, you are getting the first term grade on 14th of January.
+[35:53.000 --> 35:58.000]  No, but you should be getting a term grade even after term 1.
+[35:58.000 --> 36:00.000]  Is there a term grade somewhere?
+[36:00.000 --> 36:03.000]  No, so maybe I will have to reach that.
+[36:03.000 --> 36:07.000]  But one thing for sure that you will be getting your term grades.
+[36:07.000 --> 36:09.000]  I think it's after every semester.
+[36:09.000 --> 36:12.000]  Yeah, it is after every semester that you get.
+[36:12.000 --> 36:17.000]  So that means after one will be December, one will be in June, again December and again June.
+[36:17.000 --> 36:22.000]  So your third quarter begins on 14th of January.
+[36:22.000 --> 36:27.000]  By that time, you will get your semester report.
+[36:28.000 --> 36:30.000]  And your engagement rating for weeks, 11 to 14.
+[36:30.000 --> 36:33.000]  And that you will be able to see on 3rd of February.
+[36:33.000 --> 36:40.000]  So this is the first time when you will be able to see your term grade and the semester reports.
+[36:40.000 --> 36:44.000]  And then this term will go on until 24th of March.
+[36:44.000 --> 36:47.000]  And 24th March, we will have the term rate.
+[36:47.000 --> 36:51.000]  That is the term 3 break until 31st of March.
+[36:51.000 --> 36:55.000]  And then we have semester 2, which is term 4.
+[36:55.000 --> 37:02.000]  It starts on 1st of April and goes on until 26th of May.
+[37:02.000 --> 37:09.000]  And then you have the end of year break and 3rd June, 26 to 9 September, 26.
+[37:09.000 --> 37:11.000]  This is the end of year one.
+[37:11.000 --> 37:14.000]  And there is this end of year one exam.
+[37:14.000 --> 37:16.000]  Sorry.
+[37:16.000 --> 37:19.000]  So see, I was telling you about the exam window.
+[37:19.000 --> 37:24.000]  So the exam window is from 13th May until.
+[37:25.000 --> 37:26.000]  Sorry.
+[37:26.000 --> 37:30.000]  It starts from 29th April and it is until 13th of May.
+[37:30.000 --> 37:33.000]  So you get two weeks time for the exam to take place.
+[37:33.000 --> 37:41.000]  And you will get the feedback and score of your exams by 27th of May.
+[37:41.000 --> 37:42.000]  Okay.
+[37:42.000 --> 37:49.000]  Then comes next year, year two.
+[37:49.000 --> 37:52.000]  This should be there in the calendar rolls.
+[37:52.000 --> 37:59.000]  If you see the can work calendar, you will be able to see all this.
+[37:59.000 --> 38:06.000]  Then this is this is 13th January, 20th, 27th.
+[38:06.000 --> 38:12.000]  That means this is term 7th, term 7, which is second year.
+[38:12.000 --> 38:17.000]  It starts on 3rd of January and goes on until 3rd of March.
+[38:17.000 --> 38:23.000]  And you will have a mock exam window for 15 days here.
+[38:23.000 --> 38:27.000]  And then mock exam final results and then you have the DP exams here starting from here.
+[38:27.000 --> 38:34.000]  So essentially you won't have anything in the last term because that is your DP exams.
+[38:34.000 --> 38:37.000]  You will have the studies only until 3rd of March.
+[38:37.000 --> 38:38.000]  This is the calendar.
+[38:38.000 --> 38:44.000]  I will make a student friendly version where you will be able to see only the things that.
+[38:44.000 --> 38:47.000]  It relates to you remove the rest of the things.
+[38:47.000 --> 38:55.000]  So this is what so far we have end of year one exam only after the first year and one mock exam.
+[38:55.000 --> 38:57.000]  Those are two proctored exams.
+[38:57.000 --> 39:03.000]  But I think for us to get a more realistic view, probably we will increase the number of exams maybe once.
+[39:03.000 --> 39:09.000]  After each semester, which will give us an idea about where you stand.
+[39:09.000 --> 39:16.000]  And in terms of your performance and we can judge your predictive grades.
+[39:16.000 --> 39:25.000]  I also wanted to talk about the IA deadlines.
+[39:25.000 --> 39:28.000]  Just give me a moment.
+[39:28.000 --> 39:32.000]  Because we have to very soon start with the IA, but probably I'll talk about that next week.
+[39:32.000 --> 39:37.000]  We'll talk about the IAs as to how we are going to deal with the IA requirements.
+[39:37.000 --> 39:40.000]  You have a question.
+[39:40.000 --> 39:49.000]  So for week five, I found that some parts in the lessons and some questions in the assignment didn't make sense.
+[39:49.000 --> 39:50.000]  Yeah.
+[39:50.000 --> 39:52.000]  Yeah, that's the that's a good question.
+[39:52.000 --> 39:57.000]  I think you're referring to half adder and full adder, right?
+[39:57.000 --> 40:01.000]  No, that I think that was correct.
+[40:01.000 --> 40:09.000]  Next question asked me to simplify algebra that's already simplified.
+[40:09.000 --> 40:12.000]  So that in that case, you just write the same same expression.
+[40:12.000 --> 40:17.000]  If you think that the expression cannot further be simplified, just write the same.
+[40:17.000 --> 40:21.000]  There could be a tricky question that they may already give you a game app,
+[40:21.000 --> 40:24.000]  where there's no further possibility of making the pairs or groups.
+[40:24.000 --> 40:30.000]  So in that sense, the actual expression remains the same.
+[40:30.000 --> 40:33.000]  Without any further simplification.
+[40:33.000 --> 40:34.000]  Okay.
+[40:34.000 --> 40:41.000]  But yes, I got a few emails from some of you that they were certain things which were not part of our studies.
+[40:41.000 --> 40:43.000]  And I totally understand that.
+[40:43.000 --> 40:50.000]  But the reason we sometimes add few additional things is for you to do some personal research.
+[40:50.000 --> 40:53.000]  Even though they will not be assessed in the IBTP exams.
+[40:53.000 --> 40:58.000]  For example, the half adder, full adder, that is not very explicitly mentioned in the subject guide.
+[40:58.000 --> 41:01.000]  So you cannot expect a question in the exam coming in from that.
+[41:01.000 --> 41:08.000]  But then it will at least give you some idea about what is the practical use of of the logic gates, you know.
+[41:08.000 --> 41:14.000]  Like with the help of logic gates, how the calculations are done, how the additions are done using half adder, full adder.
+[41:14.000 --> 41:19.000]  So when you get a question like identify the applications of logic gates.
+[41:19.000 --> 41:27.000]  If you have already done some practice on half adders, full adders, you can easily write that they are used by the ALU in order to perform mathematical operations.
+[41:27.000 --> 41:33.000]  For example, the half adder, a full adder can be used to perform the calculations.
+[41:33.000 --> 41:40.000]  Right. So if ever you find anything which is not covered in the course, but still you have to do an assessment or assignment on that.
+[41:40.000 --> 41:45.000]  Just do a little bit of personal research and based on that, you can write your answers.
+[41:45.000 --> 41:50.000]  I think there are also in a crisis in the lessons.
+[41:50.000 --> 41:52.000]  Because I came as well.
+[41:53.000 --> 41:55.000]  Yeah, correct.
+[41:55.000 --> 41:59.000]  So some of you have been reporting that and it's a very good thing from your end.
+[41:59.000 --> 42:04.000]  For example, software has shared a couple of things which I've already taken a note of.
+[42:04.000 --> 42:15.000]  And I think Thomas shared about some quiz questions which were incorrect, which is a good practice because this is the first iteration of computer science course, you know.
+[42:15.000 --> 42:26.000]  So when the authoring of any course is done for this homoja, there are generally some mistakes which are to be for the next year.
+[42:26.000 --> 42:36.000]  So I'm making a note of all of them. So whenever you come across any such problems or any such mistakes in the content, feel free to write to us so that we can correct that.
+[42:36.000 --> 42:42.000]  And it's good that I mean it shows your commitment that you are going through the content that you're able to find the mistakes.
+[42:42.000 --> 42:49.000]  So as soon as you find something, just drop us an email, it will be a good indicator for us to make to correct it for the next batches.
+[42:49.000 --> 42:51.000]  Okay.
+[42:51.000 --> 42:54.000]  Yes, I'm.
+[42:54.000 --> 43:00.000]  If we get a question like long, like for example in week five, I got something wrong. Do you want me to redo it and resubmitted?
+[43:00.000 --> 43:06.000]  No, I think don't do that. I don't worry much about week five assignments because I know it was too much to be covered.
+[43:06.000 --> 43:09.000]  So it's okay. I mean, just let it be.
+[43:09.000 --> 43:17.000]  Only if you have not submitted anything at all, if any student because of time constraints, we will open the window for next 15 days.
+[43:17.000 --> 43:20.000]  So you will have time to complete them.
+[43:20.000 --> 43:26.000]  So don't worry much. We will not base much of our judgment on the basis of your week five assignments.
+[43:26.000 --> 43:32.000]  But yes, if somebody has not done at all, then obviously it will impact the grades.
+[43:32.000 --> 43:35.000]  Thomas.
+[43:35.000 --> 43:41.000]  Yeah, I was just wondering about since the meeting seems seems to have gotten longer.
+[43:41.000 --> 43:50.000]  How long do you have to stay in the meeting for two counts towards or at an engagement?
+[43:50.000 --> 43:54.000]  If you have joined and if you're leaving after a little while, that's perfectly fine. We totally understand.
+[43:54.000 --> 44:03.000]  Generally, the meetings, I mean, we plan the meetings for one and a half hours, but I know that none of the times that we have managed to finish it in one and a half hours.
+[44:03.000 --> 44:10.000]  But there is no fixed rule that you have to stay for this many minutes to be able to consider that as present.
+[44:10.000 --> 44:17.000]  If you have some engagements, you may just take an excuse, drop a message in the chat and you can leave it's perfect fine.
+[44:17.000 --> 44:22.000]  Okay, guys, so discussion answer can continue good that you have been clarifying your doubts.
+[44:22.000 --> 44:25.000]  It's something very important from you.
+[44:25.000 --> 44:31.000]  Yes, sure. In the meantime, if anybody has not yet completed the attendance, I'm sharing the link again in the chat.
+[44:31.000 --> 44:37.000]  Please go there and mark your attendance. Yes, who's that?
+[44:37.000 --> 44:46.000]  Yes, so on just to clarify, because I have kind of rushed the week five assignments a bit.
+[44:46.000 --> 44:51.000]  So the party may not be like the best.
+[44:51.000 --> 44:56.000]  Okay, but that's still fine, right?
+[44:56.000 --> 44:59.000]  It's fine. Honestly, it's fine.
+[44:59.000 --> 45:04.000]  So we know that there was so much of content for week five.
+[45:04.000 --> 45:13.000]  So honestly, I wouldn't be very serious looking at those scores in order to predict as to what you will get as a term grade.
+[45:13.000 --> 45:18.000]  So for the remaining part of it, whatever you come comes your way, please do them properly.
+[45:18.000 --> 45:31.000]  And if you have missed completely, if somebody has missed it completely, please then take this time to complete it before the term breaks.
+[45:31.000 --> 45:34.000]  Okay.
+[45:34.000 --> 45:38.000]  All right, guys, so it's pretty much half an hour since we started.
+[45:38.000 --> 45:44.000]  So let's get on to task now and in the end, if somebody has any more questions, they can stay back.
+[45:44.000 --> 45:47.000]  We'll stay here for you remaining can leave.
+[45:47.000 --> 45:55.000]  Okay, all right, so let's quickly have a look at what we have covered so far and what we are going to cover over this class and the next class.
+[45:55.000 --> 46:07.000]  But before we do that, I would like to mention, which we also announced a few days back about the need for you to start learning the programming.
+[46:07.000 --> 46:16.000]  Because some of you are new to programming, so I shared this link with you, which I'm sharing again in the chat, probably will again send it as an announcement.
+[46:16.000 --> 46:23.000]  So it will be a good idea for you to start learning programming from the scratch, either using this website.
+[46:23.000 --> 46:30.000]  I find it very useful because here everything is included in the website step by step.
+[46:30.000 --> 46:37.000]  And then there are there is a editor window where you can actually write small code of small set of codes and test outputs.
+[46:37.000 --> 46:42.000]  And if there are any mistakes, it then prompts you that what the mistakes are and how you can correct them.
+[46:42.000 --> 46:49.000]  So those who are very new to programming, who are going to do it for the first time, or even those who know little bit of programming.
+[46:49.000 --> 47:01.000]  It would be a good idea if you can start learning at least until the I wouldn't say that you have to learn everything, but if you can learn at least until Java arrays.
+[47:01.000 --> 47:07.000]  And even if not Java arrays, if you can learn everything until for loop, that would be great.
+[47:07.000 --> 47:18.000]  You know, it will it will help you to pick up the pace of the class when we will actually start with the programming because it won't give us lot of window to discuss very basics of the programming.
+[47:18.000 --> 47:29.000]  Although we will try our best to discuss with you everything right from scratch, but then we have to pick up certain pace because I be recommend certain number of hours for programming.
+[47:29.000 --> 47:42.000]  And we have to make sure that we stick to that, for example, if we go to B2, okay, you see here number of hours are given here like B2 programming 40 hours for SL and 42 hours for HL.
+[47:42.000 --> 47:47.000]  So we have to stick to these this duration, which is given to us.
+[47:47.000 --> 47:53.000]  So if you are very new to programming, my strong recommendation is that you must start learning programming.
+[47:53.000 --> 48:02.000]  There are a lot of good YouTube tutorials. This website in particular is very good. Then there is one Greek for Greeks.
+[48:02.000 --> 48:10.000]  Java programming tutorial.
+[48:10.000 --> 48:20.000]  So if you look at this website, which is called Greek for Greeks, this is also very good website for learning Java programming.
+[48:20.000 --> 48:25.000]  While in Java basics, so introduction, download and install Java.
+[48:25.000 --> 48:31.000]  In fact, this is also something we should start doing it on your computers. Could you write in the chat.
+[48:32.000 --> 48:41.000]  The opportunity of you have JDK and netbeats. I'm writing here JDK and netbeats.
+[48:41.000 --> 48:55.000]  This is a platform, which we have mentioned in the canvas, but that will come little later, but does anyone have this installed on your computer JDK and netbeats.
+[48:55.000 --> 49:04.000]  IntelliJ is fine for the time being number, but eventually we will move to netbeats because that will be helpful for the aid also.
+[49:04.000 --> 49:10.000]  VS code is also fine, but we want to have a uniformity so that we can troubleshoot your problems on the same platform.
+[49:10.000 --> 49:15.000]  If you are using many different platforms, then it will be difficult for us to guide you.
+[49:15.000 --> 49:23.000]  So I would recommend that you should download JDK and netbeats, but we will tell you which version, because for Windows, there is no problem.
+[49:23.000 --> 49:26.000]  Your pie charm is also good, but we'll use netbeats.
+[49:26.000 --> 49:43.000]  For Windows, there is no problem installing netbeats and netbeats and JDK, but for Mac, there are a lot of issues, especially with the Apple chipset M1M2, if you're using M1M2M3, then it has to be installed in a very specific way.
+[49:44.000 --> 49:55.000]  So we will do one session where we will only talk to you about installation of netbeats and JDK so that we all are ready for our programming practices as soon as it begins.
+[49:55.000 --> 50:07.000]  I will create a short tutorial, probably you record it and share it with you so that at least you can give it a try yourself first, try to install it if you're able to install it, otherwise it will help you install it.
+[50:07.000 --> 50:14.000]  Linux OS, yes, I think you will have problems.
+[50:14.000 --> 50:30.000]  Can you Google if there is netbeats and JDK for Linux, I seriously doubt I don't think because on Linux, you have to do command line compilation, which will be very difficult.
+[50:30.000 --> 50:41.000]  So if possible, then please install either Windows or Mac because that will be even helpful for your internal assessment.
+[50:41.000 --> 50:51.000]  If you laptop has a dual board facility, maybe you can do a partition and download something like Windows or Mac.
+[50:52.000 --> 50:57.000]  Okay, if it's available in the GUI format, then it's okay.
+[50:57.000 --> 51:02.000]  Yeah, that's right. I understand as the W3 school is really good for the beginning purpose.
+[51:02.000 --> 51:08.000]  It goes in a very sequential way from the lowest level of complexity to the higher level.
+[51:08.000 --> 51:13.000]  So even if you have studied until the loops, that will give you a good idea about how to use Java.
+[51:14.000 --> 51:16.000]  Alright, so that's what I wanted to share with you.
+[51:16.000 --> 51:25.000]  So it's a good time to start because the moment we come in the next term, we will be starting with the programming and I will also tell you about the IA.
+[51:25.000 --> 51:34.000]  So we are planning to start IA in the month of November, so which means next month itself will introduce IA to you because the programming will be needed much later.
+[51:34.000 --> 51:42.000]  Initially, it is just about the documentation of the requirement analysis and designing, which you can do even without the knowledge of programming.
+[51:42.000 --> 51:46.000]  So we'll start Java, we'll start the IAs in the next month.
+[51:46.000 --> 51:52.000]  I will share with you the timeline that we have created for the IAs very soon.
+[51:52.000 --> 51:59.000]  Alright, so now let's have a look at what we have covered so far and what we are going to cover now.
+[51:59.000 --> 52:06.000]  So a one point a one is fully done a one point one point six.
+[52:07.000 --> 52:24.000]  So we have done this pipelining, we have done the internal and external type of memory concept of compression, all this is done data representation is done purpose and use of logic gates is done concept and analyze to tables is done logic diagrams is done.
+[52:24.000 --> 52:30.000]  Now today we are going to start a one point three.
+[52:30.000 --> 52:38.000]  Some of you mentioned that you are still facing trouble with the with the K map.
+[52:38.000 --> 52:42.000]  So considering that we have already spent almost 45 minutes.
+[52:42.000 --> 52:49.000]  I think we will go ahead with the toppings which are to be covered today and the review of K map etc.
+[52:49.000 --> 52:54.000]  Maybe we will take up in the next class, which is the last class of this quarter.
+[52:54.000 --> 52:56.000]  I think so.
+[52:56.000 --> 53:01.000]  So that time we will just revise everything that we have done and during that time will take up the K map.
+[53:01.000 --> 53:10.000]  But in the meantime, the YouTube video which I have shared with you please find some time to go through that so that you will learn what K map is all about and how to solve it.
+[53:10.000 --> 53:24.000]  So today we are going to talk about operating system, which is a one point three point one until a one point three point four pipelining and the use of polling and interrupt handling.
+[53:24.000 --> 53:26.000]  So this is what we are going to cover.
+[53:26.000 --> 53:31.000]  Okay, so before we talk further, anybody would like to share with us.
+[53:31.000 --> 53:37.000]  What do you think about operating system? What is an operating system?
+[53:37.000 --> 53:52.000]  It is a software that acts as an entry in between hardware and you offering way to manage hardware as well as an interactable.
+[53:52.000 --> 53:54.000]  Yeah, great.
+[53:54.000 --> 54:00.000]  So it's a platform which gives you the opportunity to interact between the hardware and software.
+[54:00.000 --> 54:05.000]  Yeah, so that's the most fundamental definition of an operating system.
+[54:05.000 --> 54:21.000]  It's a platform which actually enables the user to use the hardware and different software that they wish to use anything else that you want to talk about or you want to share about operating system.
+[54:21.000 --> 54:30.000]  What are the different tasks that an operating system does?
+[54:30.000 --> 54:40.000]  It does the memory management. Fine. Okay, so it does the memory management. You can type in the chat also if something comes to your mind.
+[54:40.000 --> 54:43.000]  Okay, so.
+[54:43.000 --> 54:46.000]  Abdul.
+[54:46.000 --> 54:49.000]  Abdul, I will answer your question about Java and Python.
+[54:49.000 --> 54:56.000]  That's something we need to discuss in detail. So probably just remind me next week. We'll talk about it.
+[54:56.000 --> 55:06.000]  Is that a kernel? Yeah, it's a kernel. The hardware to software functionality. Yeah, that's correct. It handles inputs are inputs and outputs that's correct.
+[55:06.000 --> 55:09.000]  It's a user interface. That's correct. Yes.
+[55:09.000 --> 55:16.000]  So we use spoke about memory management. You spoke about an interface which connects software applications and the hardware.
+[55:16.000 --> 55:26.000]  You talked about overall file management organizing and storing data. Yeah, that's correct. So file management is one of the roles of operating system.
+[55:26.000 --> 55:36.000]  Okay, can you now use the chat to write on the names of few operating systems that you have heard about?
+[55:36.000 --> 55:46.000]  Keep an eye if it has already been mentioned and you don't have to rewrite, but windows linux windows macOS X.
+[55:46.000 --> 55:58.000]  Okay. N I X O X open to. Yeah. Is it N I X or UNIX? What did you mean to say? I went out to N I X.
+[55:58.000 --> 56:04.000]  Chrome OS. Okay, macOS.
+[56:04.000 --> 56:16.000]  Android. Very good. Linux iOS. Yeah, all right. So these are some of the examples of operating systems that you have mentioned.
+[56:16.000 --> 56:27.000]  Now my question is why do we have so many different operating systems? Why can't we have just one operating system so that it brings more standardization and more uniformity across the globe?
+[56:27.000 --> 56:32.000]  Why do we need to have like for example, you just saw some practical problems that.
+[56:32.000 --> 56:39.000]  Wriggle mentioned that he's using. So we'll be able to use netbeams and JDK.
+[56:39.000 --> 56:47.000]  But if that case was not there, if we all had uniform operating system, then that problem won't be there because we already using the same kind of platform.
+[56:47.000 --> 56:52.000]  So why do you think that we have so many different operating systems?
+[56:52.000 --> 56:56.000]  Feel free to just unmute your mic and. Yeah.
+[56:56.000 --> 57:04.000]  So they have their own advantages and disadvantages. It's on their efficiency. Okay, so.
+[57:04.000 --> 57:12.000]  Right. So every operating system you're seeing has its own benefits and its own limitations, right?
+[57:12.000 --> 57:21.000]  Any example to elaborate your point is absolutely correct. Any example to illustrate more on this.
+[57:21.000 --> 57:32.000]  For example, for Linux operating system, like there's a high level of cost of my ability, like down to like high like software very.
+[57:32.000 --> 57:41.000]  I'll say low level software and cost of my station, but they want to come something like mark is very like.
+[57:41.000 --> 57:49.000]  It's a strange and when it comes to cost of my ability and the market is more on like the protection side.
+[57:49.000 --> 57:57.000]  When it comes like this security and stuff like that, but then Linux, there's more customized with any source.
+[57:57.000 --> 58:08.000]  Yeah, correct. So you use a very right term that Linux is an open source operating system, which means that you can actually customize the Linux OS to meet your organizational requirements.
+[58:08.000 --> 58:15.000]  Mac OS X, which is not an open source and you have to deal with whatever they are offering, right?
+[58:15.000 --> 58:21.000]  And Linux is basically.
+[58:21.000 --> 58:26.000]  Very I would say very strong when it comes to be the safety and security of the resources.
+[58:26.000 --> 58:33.000]  So therefore any organization for which safety security reliability, stability of the network is important.
+[58:33.000 --> 58:40.000]  And they tend to use Unix or Linux. It's more secured. There are less viruses attacks on the Linux and Unix system.
+[58:40.000 --> 58:49.000]  Mac on the other hand is good for the day to day use for the people like us because it has a lot of inbuilt applications.
+[58:49.000 --> 58:55.000]  Like when you install Mac or you buy a Mac machine, it comes with it comes loaded with a lot of applications, which are beneficial for us.
+[58:55.000 --> 59:01.000]  For example, it has I I movies, it has pages, it has photo editing applications.
+[59:01.000 --> 59:06.000]  So a lot of applications are there, which could be very beneficial for us as the users, right?
+[59:06.000 --> 59:17.000]  So depending on depending on the nature of tasks that you are performing on your computer, there could be an operating system, which may be closest to your needs.
+[59:17.000 --> 59:20.000]  And this is what differentiates the nature of each operating system.
+[59:20.000 --> 59:25.000]  And we pick up the one that is actually most useful for us, isn't that?
+[59:25.000 --> 59:33.000]  But ultimately, I mean, if you look at the code level, the purpose of every operating system is absolutely the same.
+[59:33.000 --> 59:44.000]  That it lets it gives you an interface wherein you are able to run your applications or your operating system is to is able to manage the overall infrastructure or the resources within your computer system.
+[59:44.000 --> 59:53.000]  So today we are going to discuss in depth as to what each of these features are of the operating system and how the tasks are managed.
+[59:53.000 --> 59:58.000]  So I've created this document once again. So we'll put it in the shade folder.
+[59:58.000 --> 01:00:04.000]  Sorry, not this.
+[01:00:04.000 --> 01:00:12.000]  This is week seven, right? I don't know why I'm thinking always it's week six this week seven.
+[01:00:12.000 --> 01:00:26.000]  So if you could just spend 30 seconds time to read through what an operating system is, nothing different than what you just mentioned.
+[01:00:26.000 --> 01:00:30.000]  It provides a bridge between the user and the hardware. That's the key term.
+[01:00:30.000 --> 01:00:37.000]  Ensuring that all components of the computer work together efficiently, securely and reliably. So there has to be a control.
+[01:00:37.000 --> 01:00:45.000]  There has to be a control system within your computer, which could actually oversee all the functionality of your computer that the resources are properly utilized.
+[01:00:45.000 --> 01:00:48.000]  They are shared between different applications.
+[01:00:48.000 --> 01:00:51.000]  The user is able to run the applications which they want.
+[01:00:51.000 --> 01:00:56.000]  There is enough memory available to store all those applications. So there has to be a control.
+[01:00:56.000 --> 01:01:10.000]  There has to be a supervision of all these tasks and that supervision and that monitoring and that allocations is basically the role of the operating system and operating system is not just for computers operating system could be for mobile phones.
+[01:01:10.000 --> 01:01:21.000]  It could be in your smartwatch any digital device essentially has an operating system, which actually does that work either for the computer or other digital devices.
+[01:01:21.000 --> 01:01:30.000]  So without an operating system, users would not be able to interact directly with the hardware using complex machine code instructions.
+[01:01:30.000 --> 01:01:36.000]  The OS hides the complexity by providing a user friendly interface and standardized service for applications.
+[01:01:36.000 --> 01:01:45.000]  What is this term called an object oriented approach when the non-essential parts are hidden and we only see the things that we want to see.
+[01:01:45.000 --> 01:01:53.000]  There is a term which you will study about when we will start computational thinking, but can somebody recall that word.
+[01:01:53.000 --> 01:01:56.000]  Abstractation.
+[01:01:56.000 --> 01:01:58.000]  Yeah, absolutely.
+[01:01:58.000 --> 01:02:10.000]  So data abstraction is the one of the features of object oriented programming, which gives you the flexibility to hide on essential things and should be able to see only what you want to see.
+[01:02:10.000 --> 01:02:23.000]  So when I'm looking at my screen right now, there is a lot of things which is working the background, but it is hidden from me and that who is doing that actually the operating system is doing that.
+[01:02:23.000 --> 01:02:29.000]  So these are some very basic things about OS.
+[01:02:29.000 --> 01:02:34.000]  It provides you a simplified environment for users and software developers.
+[01:02:34.000 --> 01:02:38.000]  Okay, key roles of the operating system, CPU management.
+[01:02:38.000 --> 01:02:45.000]  Now in the previous units, we studied about the CPU and how it works.
+[01:02:45.000 --> 01:02:52.000]  CPU may be working independently, the work of CPUs to get the instructions decoded, executed and then give the results back.
+[01:02:52.000 --> 01:02:54.000]  That is the whole work of CPU.
+[01:02:54.000 --> 01:02:56.000]  Now, how is that CPU going to work?
+[01:02:56.000 --> 01:03:04.000]  The CPU is controlled by the operating system in the sense that operating system will decide which task is to be given to the CPU.
+[01:03:04.000 --> 01:03:10.000]  What amount of what size of data needs to be given to the CPU?
+[01:03:10.000 --> 01:03:13.000]  What sequence it is to be given to the CPU?
+[01:03:13.000 --> 01:03:16.000]  All that will be decided by the operating system through its architecture.
+[01:03:16.000 --> 01:03:19.000]  And CPU role is not to decide what should come next and what should go next.
+[01:03:19.000 --> 01:03:23.000]  The role of CPU is to just get the data executed and give the results.
+[01:03:23.000 --> 01:03:33.000]  But that transaction of data between the hardware between the storage device and the CPU that is taken care by the operating system.
+[01:03:33.000 --> 01:03:35.000]  Somebody's microphone is on.
+[01:03:35.000 --> 01:03:39.000]  Could you please turn off your microphone?
+[01:03:39.000 --> 01:03:45.000]  The one who is typing right now your microphone is on.
+[01:03:45.000 --> 01:03:48.000]  Martin, who is that? Can you identify?
+[01:03:48.000 --> 01:03:53.000]  I don't know. I'm trying to give access to some of the kids today.
+[01:03:53.000 --> 01:03:58.000]  Share folder. They're just in texting me.
+[01:03:58.000 --> 01:03:59.000]  Okay.
+[01:03:59.000 --> 01:04:00.000]  Okay.
+[01:04:00.000 --> 01:04:10.000]  So the OS decide which processes use the CPU and for how long it manages process scheduling, ensuring fair and efficient CPU time distribution among running applications.
+[01:04:10.000 --> 01:04:21.000]  So we saw in the previous class about the pipelining process wherein how best the time of the CPU can be utilized with an intent to reduce the ideal time.
+[01:04:21.000 --> 01:04:25.000]  The more ideal time CPU gets, the slower the processes would be.
+[01:04:25.000 --> 01:04:28.000]  So operating system.
+[01:04:28.000 --> 01:04:38.000]  Plans the task allocation in such a way that it gives least ideal time to the CPU so that even while one instruction is getting executed.
+[01:04:38.000 --> 01:04:45.000]  The operating system will make sure that the next instruction should immediately be ready in the instruction register IR so that the moment first is done.
+[01:04:45.000 --> 01:04:48.000]  The next instruction goes for the processing.
+[01:04:48.000 --> 01:04:52.000]  So all the scheduling is done by the operating systems.
+[01:04:52.000 --> 01:04:58.000]  It handles context switching allowing multiple programs to appear as if they run simultaneously, which is multitasking.
+[01:04:58.000 --> 01:05:01.000]  Can somebody tell me what multitasking is?
+[01:05:01.000 --> 01:05:08.000]  That is one of the strongest features of a good operating system that it facilitates multitasking.
+[01:05:08.000 --> 01:05:11.000]  Could somebody explain what this means?
+[01:05:11.000 --> 01:05:14.000]  It's doing more completing work.
+[01:05:14.000 --> 01:05:16.000]  Yeah.
+[01:05:16.000 --> 01:05:19.000]  Yeah, multiple tasks at the.
+[01:05:19.000 --> 01:05:26.000]  Yes, so it's kind of simultaneous execution of applications at the same time.
+[01:05:26.000 --> 01:05:32.000]  Although it may look like we are running multiple applications together.
+[01:05:32.000 --> 01:05:36.000]  Like for example, right now my laptop is doing so many different processes.
+[01:05:36.000 --> 01:05:38.000]  It is capturing my voice.
+[01:05:38.000 --> 01:05:40.000]  It is capturing my video.
+[01:05:40.000 --> 01:05:44.000]  It is running browser with the so many tabs open.
+[01:05:44.000 --> 01:05:49.000]  So many things are going on and it may look as if every application is running independently, but it's not so.
+[01:05:49.000 --> 01:05:51.000]  It's the process of scheduling.
+[01:05:51.000 --> 01:06:01.000]  The CPU using one of the algorithms would dedicate time to each application in a sequential way in such a way that it will give some time to my voice.
+[01:06:01.000 --> 01:06:06.000]  Sometime to my video sometime to the application and then it will return to the first application.
+[01:06:06.000 --> 01:06:11.000]  But that circulation is so fast that we feel that everything is going together.
+[01:06:11.000 --> 01:06:20.000]  So this is another feature of an operating system that it is able to run multiple applications or depending on what capacity of computer you have.
+[01:06:20.000 --> 01:06:23.000]  What is the memory size? What is the CPU capacity?
+[01:06:23.000 --> 01:06:30.000]  Accordingly, the operating system decides how many applications it would like to give to the CPU so that user gets uninterrupted experience.
+[01:06:30.000 --> 01:06:32.000]  Like here is an example.
+[01:06:32.000 --> 01:06:39.000]  When you listen to music while browsing the web, the OAS locates short time slices to each process so that both of them run smoothly.
+[01:06:39.000 --> 01:06:43.000]  So this is example of just two, but it is actually doing a lot of other things.
+[01:06:43.000 --> 01:06:47.000]  Few things which we are doing and few things which are running in the background.
+[01:06:47.000 --> 01:06:55.000]  For example, running anti-virus, making a backup and many different things which are going in the background, which we don't even know and it's not meant for us.
+[01:06:55.000 --> 01:07:03.000]  But the operating system actually keeps track of all those processes and is giving time to them so that everything runs smoothly.
+[01:07:03.000 --> 01:07:14.000]  Now, also there's a priority allocation. For example, if there's a background work which is not directly meant for the user, the operating system based on its architecture may give that least priority.
+[01:07:14.000 --> 01:07:25.000]  That is a background work which may continue even later, but right now the more priority should be given to the ongoing call so that there's least interruption between what I'm talking and how you're able to listen to me.
+[01:07:25.000 --> 01:07:32.000]  So we'll study about that prioritization and many different approaches that operating system use.
+[01:07:32.000 --> 01:07:43.000]  Now, memory management is one of the most important features of operating system and it's important in the sense that the modern day computers are able to run many different applications because the CPUs are very powerful.
+[01:07:43.000 --> 01:07:52.000]  There is a lot of storage available, so which means the operating system needs to be more efficient when it comes to be to the memory management.
+[01:07:52.000 --> 01:08:10.000]  Now, depending on the memory size that you have in your computer, if you're running the number of applications which can be accommodated easily within the primary memory like your RAM, then it will not require any kind of virtual memory because your primary memory is big enough to hold all the applications which you're running.
+[01:08:10.000 --> 01:08:28.000]  But then if you talk about the old computers or even in the new computers, let's say you're running some application which requires more memory than what you already have, then the CPU will not just crash your laptop or close the application, but it will use a virtual memory which is part of your hard desk.
+[01:08:28.000 --> 01:08:40.000]  So it will allocate some fixed space on your hard desk which will be dedicated to the operating system for switching any task which is beyond the size of your RAM.
+[01:08:40.000 --> 01:08:48.000]  So imagine your RAM is let's say 120 GB, 28 GB and you're running an application which is which requires 300 GB every cycle.
+[01:08:48.000 --> 01:08:54.000]  Now, operating system cannot say that no, I will not run this application because you don't have even enough memory.
+[01:08:54.000 --> 01:09:08.000]  So what it will do after those 128 GB is filled, it will then shift rest part of it to the virtual memory which is the part of your hard desk and it will then RAM plus virtual memory on your hard desk will work as a cohesive unit.
+[01:09:08.000 --> 01:09:14.000]  So collectively it may become 128 plus let's say one TB there so one TB and 128 GB becomes one primary memory.
+[01:09:14.000 --> 01:09:24.000]  But the virtual memory control goes under certain circumstances like when the RAM is not able to fulfill or there is something called.
+[01:09:24.000 --> 01:09:36.000]  There's a term it starts with P I'm not able to remember that proximity it's something like that.
+[01:09:36.000 --> 01:09:48.000]  That is the process wherein if you're running some sort of application let's say you're doing some research on genetic data which has millions and millions of records.
+[01:09:48.000 --> 01:09:52.000]  Now none of the RAM can actually complete that process in one cycle.
+[01:09:52.000 --> 01:10:04.000]  So which means in that case this virtual memory plays a very important role so it will process some part of the data and it will extract the result out of it and keep it in the virtual memory safe.
+[01:10:04.000 --> 01:10:15.000]  So that even if you turn off your computer next time when you turn it on and your process starts from that point onwards it will still be able to fetch that information from the virtual memory.
+[01:10:15.000 --> 01:10:27.000]  So essentially we say that the primary memory is temporary but in that particular scenario your virtual memory will be able to retain the data until it is until that application completes its whole process.
+[01:10:27.000 --> 01:10:40.000]  Otherwise what will happen is let's say you have spent three hours running some application okay it has given you some result that result is needed for the next process and if you turn off your computer then everything is gone.
+[01:10:40.000 --> 01:10:53.000]  So in those scenarios that result is kept comfortably in the in the virtual memory which stays there even if you turn off the computer and that will be erased only when your entire processing is done.
+[01:10:53.000 --> 01:11:03.000]  So all these kind of arrangements are actually taken care by the operating system.
+[01:11:03.000 --> 01:11:13.000]  So this is same when many tabs are open the memory separately preventing one tab from crashing others storage management.
+[01:11:13.000 --> 01:11:26.000]  So every operating system maintains a specific kind of file system file system is nothing but it's kind of indexing and the way the files are stored on the secondary storage device.
+[01:11:26.000 --> 01:11:33.000]  Like for example this NTFS does anyone know what is the full form of NTFS?
+[01:11:33.000 --> 01:11:36.000]  It's Windows perhaps.
+[01:11:36.000 --> 01:11:41.000]  Yeah so what is the full form the full form is?
+[01:11:41.000 --> 01:11:43.000]  What is the full form?
+[01:11:43.000 --> 01:11:45.000]  Good question.
+[01:11:46.000 --> 01:11:48.000]  Anybody else know this Windows?
+[01:11:48.000 --> 01:11:50.000]  Your file.
+[01:11:50.000 --> 01:11:52.000]  Yeah technology file system.
+[01:11:52.000 --> 01:11:55.000]  Yeah correct new technology file system.
+[01:11:55.000 --> 01:12:05.000]  This was launched much later before this was called FAT file allocation table which was used again in the windows which is also used in the in the Mac operating system.
+[01:12:05.000 --> 01:12:08.000]  So if you actually go to the.
+[01:12:08.000 --> 01:12:13.000]  What is the command in Mac where we can see the partitions?
+[01:12:13.000 --> 01:12:15.000]  What is that called?
+[01:12:15.000 --> 01:12:18.000]  Not terminal.
+[01:12:23.000 --> 01:12:25.000]  Not good campus.
+[01:12:25.000 --> 01:12:28.000]  Where do we see the partitions in Mac?
+[01:12:28.000 --> 01:12:31.000]  There's a command for that.
+[01:12:31.000 --> 01:12:33.000]  Disk utility.
+[01:12:33.000 --> 01:12:38.000]  Yeah if you go to desk utility utility here you can see.
+[01:12:38.000 --> 01:12:47.000]  Like for example if you want to look at the partition.
+[01:12:47.000 --> 01:12:59.000]  If for example I want to.
+[01:12:59.000 --> 01:13:07.000]  Somebody's a microphone is on could you please turn off could you please check your microphone it's very irritating.
+[01:13:07.000 --> 01:13:13.000]  So basically I'm what I'm looking for is which I'm not able to find that if you try to.
+[01:13:13.000 --> 01:13:22.000]  Format your PC or you want to make for the partitions it tells you what kind of.
+[01:13:22.000 --> 01:13:27.000]  Partition you want to make is it FAT or.
+[01:13:27.000 --> 01:13:30.000]  And.
+[01:13:30.000 --> 01:13:37.000]  F S.
+[01:13:37.000 --> 01:13:41.000]  Geo ID partition map.
+[01:13:41.000 --> 01:13:45.000]  Okay so it's showing here some partition APFS.
+[01:13:45.000 --> 01:13:47.000]  This is probably the one which is used by the Mac.
+[01:13:47.000 --> 01:13:52.000]  So if you do further research about it APFS that is a partition which this is using.
+[01:13:52.000 --> 01:13:58.000]  But I know that it also uses FAT is so file a location table is one also one of the.
+[01:13:58.000 --> 01:14:02.000]  Partitions that was used by the Intel chipset I'm not sure about the Apple because I've never tried it.
+[01:14:02.000 --> 01:14:07.000]  So if you try and insert a pen drive and you try to format it using this disk utility.
+[01:14:07.000 --> 01:14:14.000]  It will show you different formats in which you can format it using FAT and anti FS etc.
+[01:14:14.000 --> 01:14:19.000]  So these are different file systems which are used by different operating systems to basically organize the.
+[01:14:19.000 --> 01:14:25.000]  Files how they are placed in the desk and how the system can retrieve them whenever they are to be retrieved at a later stage.
+[01:14:25.000 --> 01:14:33.000]  It handles file creation relation reading and writing keeps directory structure and metadata like file size creation date etc.
+[01:14:33.000 --> 01:14:40.000]  So whenever you create any folder and you try to save them on your desk it will always keep you.
+[01:14:40.000 --> 01:14:43.000]  It will always give you the flexibility to.
+[01:14:44.000 --> 01:14:50.000]  We able to see the info about them for example if you go to info.
+[01:14:50.000 --> 01:14:56.000]  Get info it is able to show all the details about this file what is the size how many.
+[01:14:56.000 --> 01:15:01.000]  Files are there within this folder when was the when was this created what date what time.
+[01:15:01.000 --> 01:15:07.000]  And besides that also there are a lot of other things like metadata name of the author and many different things.
+[01:15:07.000 --> 01:15:17.000]  So for every file these details are maintained by the operating system and it is done for a simple reason that whenever you want to retrieve the data.
+[01:15:17.000 --> 01:15:25.000]  It works like a it works like an index page like how you have index page in the beginning of every textbook.
+[01:15:25.000 --> 01:15:30.000]  It helps you to jump to a lesson by looking at the page number that okay page 78 is chapter number seven.
+[01:15:30.000 --> 01:15:32.000]  So you can directly jump to chapter number seven.
+[01:15:32.000 --> 01:15:41.000]  So similarly operating system also when it stores some file it stores its identity into file a location table or an TFS or whichever format it is using.
+[01:15:41.000 --> 01:15:48.000]  So the next time when you try to open that file it will go to that index and it will try to retrieve the data.
+[01:15:48.000 --> 01:15:53.000]  So when you store a word document it decides where on the disk it is going to be stored.
+[01:15:53.000 --> 01:16:00.000]  Then the device management this is the next feature about the of the operating system that any device that you connect to your computer.
+[01:16:00.000 --> 01:16:05.000]  Your operating system is the one which is going to utilize that okay.
+[01:16:05.000 --> 01:16:17.000]  Now in the new computers we don't require installation of drivers because the new operating systems are well equipped with many different devices which you connect to them.
+[01:16:17.000 --> 01:16:23.000]  So the moment you connect it's called plug and play like let's say you connect a external web camera.
+[01:16:23.000 --> 01:16:31.000]  You don't really have to install it because the moment you connected it will be able to plug and play but in the old computers like you can talk to your parents if they use computers before.
+[01:16:31.000 --> 01:16:38.000]  Every time that we bought a new device for our computer it used to come with the device driver in the form of a CD.
+[01:16:38.000 --> 01:16:47.000]  So whenever you buy a new device a webcam or an external keyboard or anything which was not part of the computer or a sound card graphics card.
+[01:16:47.000 --> 01:16:57.000]  We had to install the driver with it and that driver would indicate to the operating system as to how that device is to be used.
+[01:16:57.000 --> 01:17:03.000]  So if you just plug in a device it will show an exclamation sign in the device manager that this device is not recognized.
+[01:17:03.000 --> 01:17:10.000]  The operating system knows that there's an external device which is connected but will not be able to understand what it is meant for.
+[01:17:10.000 --> 01:17:18.000]  When you install the device driver that will indicate to the operating system that what this device is and how it is to be used and then you will be able to use it.
+[01:17:18.000 --> 01:17:23.000]  So even if you connect a new printer it won't print until you install the driver.
+[01:17:23.000 --> 01:17:29.000]  That is the role of operating system to manage all the devices which are connected into the computer.
+[01:17:29.000 --> 01:17:35.000]  It coordinates communication between hardware, printers, keyboards, USBs and other applications.
+[01:17:35.000 --> 01:17:43.000]  And then it uses techniques like spooling, buffering and interrupt handling. Could somebody tell what spooling means?
+[01:17:43.000 --> 01:17:45.000]  What is spooling?
+[01:17:45.000 --> 01:17:49.000]  It's the Q in. Yes or data?
+[01:17:49.000 --> 01:18:00.000]  Is the Q of your correct any example where you can say that the work is getting spooled?
+[01:18:00.000 --> 01:18:06.000]  Can you give an example of spooling?
+[01:18:06.000 --> 01:18:09.000]  Maybe.
+[01:18:09.000 --> 01:18:15.000]  Maybe one we in the printer example.
+[01:18:15.000 --> 01:18:21.000]  Yeah, one particular sequence of pages.
+[01:18:21.000 --> 01:18:23.000]  Well, it's being cute.
+[01:18:23.000 --> 01:18:26.000]  And one page brings after another.
+[01:18:26.000 --> 01:18:33.000]  That's a good example of spooling wherein if let's say you give a command of a PDF document which is 20 pages in size.
+[01:18:33.000 --> 01:18:40.000]  So when you give the command from your laptop and it goes to the printer in the printer printer's memory, it is pulled.
+[01:18:40.000 --> 01:18:42.000]  And it will start printing page after page.
+[01:18:42.000 --> 01:18:49.000]  So it prints first page and then the spooler will release the next page and that process will continue to go until all the pages are printed.
+[01:18:49.000 --> 01:18:52.000]  This is also something called a Q.
+[01:18:52.000 --> 01:18:55.000]  There's a very thin line difference between a Q and a spooling.
+[01:18:55.000 --> 01:19:02.000]  Spooling is basically storing the data until it is completely executed for example printing 20 page document.
+[01:19:02.000 --> 01:19:05.000]  There's another thing which is called Q for example.
+[01:19:05.000 --> 01:19:10.000]  Let's say there's a network printer and three different people have given the print commands.
+[01:19:10.000 --> 01:19:15.000]  So while the first person's printing is happening through the spooling, the other two will be in the queue.
+[01:19:16.000 --> 01:19:26.000]  So only when your first printer first person print is completed, then the queue will be released and next person's turn will come that is called a queue during of the applications.
+[01:19:26.000 --> 01:19:27.000]  The next is buffering.
+[01:19:27.000 --> 01:19:29.000]  What is buffering actually?
+[01:19:29.000 --> 01:19:31.000]  We often use the term buffering.
+[01:19:31.000 --> 01:19:32.000]  Yes.
+[01:19:32.000 --> 01:19:38.000]  It's storing data in a temporary storage called buffer.
+[01:19:38.000 --> 01:19:40.000]  It's storing data temporarily.
+[01:19:40.000 --> 01:19:41.000]  Okay.
+[01:19:41.000 --> 01:19:42.000]  Let's.
+[01:19:42.000 --> 01:19:45.000]  You said it's storing data temporarily.
+[01:19:45.000 --> 01:19:51.000]  And then while transferring the data from last page to another.
+[01:19:57.000 --> 01:19:59.000]  I mean.
+[01:19:59.000 --> 01:20:03.000]  This definition could actually be applied to other areas also.
+[01:20:03.000 --> 01:20:06.000]  It's a it's a very generic response.
+[01:20:06.000 --> 01:20:08.000]  Then I can see what you mean to say.
+[01:20:08.000 --> 01:20:16.000]  But then this is not a unique characteristics of what buffering means.
+[01:20:16.000 --> 01:20:25.000]  Anybody would like to add to what Namu said?
+[01:20:25.000 --> 01:20:26.000]  Anyone else?
+[01:20:26.000 --> 01:20:27.000]  What is the buffering?
+[01:20:27.000 --> 01:20:29.000]  It's like pre-loading data.
+[01:20:29.000 --> 01:20:32.000]  And like allow me to play like in the future.
+[01:20:32.000 --> 01:20:33.000]  Yeah.
+[01:20:33.000 --> 01:20:36.000]  Like pre-loading part of video.
+[01:20:36.000 --> 01:20:42.000]  In future means like if you want to play tomorrow like that.
+[01:20:42.000 --> 01:20:48.000]  Like if you lose connection, the video can still load because it was pre loaded.
+[01:20:48.000 --> 01:20:49.000]  Yeah.
+[01:20:49.000 --> 01:20:50.000]  Right.
+[01:20:50.000 --> 01:20:51.000]  You're you're very close.
+[01:20:51.000 --> 01:20:54.000]  Anyone else want to add anything more to what Alexandra said.
+[01:20:54.000 --> 01:20:55.000]  Sorry.
+[01:20:55.000 --> 01:20:56.000]  I'm just naming you through the voice.
+[01:20:56.000 --> 01:20:57.000]  I cannot see who is talking.
+[01:20:57.000 --> 01:20:59.000]  But I hope I'm naming correctly.
+[01:20:59.000 --> 01:21:00.000]  Was it Alexandra?
+[01:21:04.000 --> 01:21:06.000]  Anyone else?
+[01:21:06.000 --> 01:21:15.000]  Is it one like the computer fetches more things in the queue when I put them on hold to do other things first?
+[01:21:15.000 --> 01:21:17.000]  No, that's a different thing.
+[01:21:17.000 --> 01:21:19.000]  That's a different thing what you said.
+[01:21:19.000 --> 01:21:24.000]  That's called scheduling task scheduling that it's putting something on hold.
+[01:21:24.000 --> 01:21:26.000]  And in that meanwhile, it is doing something else.
+[01:21:26.000 --> 01:21:29.000]  That is actually interrupt handling what you said.
+[01:21:29.000 --> 01:21:32.000]  We're talking about buffering.
+[01:21:32.000 --> 01:21:34.000]  I think Alexandra was more.
+[01:21:34.000 --> 01:21:35.000]  Yeah.
+[01:21:35.000 --> 01:21:42.000]  We mean in the case of temporary storing memory in between two places.
+[01:21:42.000 --> 01:21:43.000]  No.
+[01:21:43.000 --> 01:21:44.000]  No.
+[01:21:44.000 --> 01:21:46.000]  Not done.
+[01:21:46.000 --> 01:21:52.000]  What do you what comes to mind when you say, oh, I have a slow internet connection and my video is getting buffered.
+[01:21:52.000 --> 01:21:54.000]  What is the meaning of that?
+[01:21:54.000 --> 01:21:55.000]  I'm watching your video.
+[01:21:55.000 --> 01:21:57.000]  A long time to load.
+[01:21:58.000 --> 01:21:59.000]  It takes.
+[01:21:59.000 --> 01:22:02.000]  It takes more time to load is not exactly buffering.
+[01:22:02.000 --> 01:22:07.000]  I mean, it could be indirectly related to buffering, but buffering is something else.
+[01:22:07.000 --> 01:22:08.000]  Sorry.
+[01:22:08.000 --> 01:22:10.000]  The video.
+[01:22:10.000 --> 01:22:12.000]  Yes, again, in the video.
+[01:22:12.000 --> 01:22:15.000]  Is it preloading data?
+[01:22:15.000 --> 01:22:18.000]  Yeah, it's it's kind of preloading data.
+[01:22:18.000 --> 01:22:28.000]  Is it like doing data on like a high speed memory location, something?
+[01:22:28.000 --> 01:22:29.000]  No, no.
+[01:22:29.000 --> 01:22:33.000]  It's not like storing data on a high.
+[01:22:33.000 --> 01:22:35.000]  No, no.
+[01:22:35.000 --> 01:22:36.000]  Okay.
+[01:22:36.000 --> 01:22:47.000]  So see buffering is when does buffering happens buffering happens when you are trying to retrieve some information beyond the capacity or the resources that you currently have.
+[01:22:47.000 --> 01:22:48.000]  Let me repeat.
+[01:22:48.000 --> 01:22:54.000]  You're trying to retrieve information beyond the capacity of your computer.
+[01:22:54.000 --> 01:22:56.000]  That is when the buffering happens.
+[01:22:56.000 --> 01:23:11.000]  For example, you may have let's say one MBPS internet speed bandwidth, but the video that you're playing on the YouTube is high definition, which may let's say required two MB per second of internet speed.
+[01:23:11.000 --> 01:23:13.000]  Now, in that case, there are two options.
+[01:23:13.000 --> 01:23:21.000]  One is that it plays for a second stops again plays for a second stops again plays for a second because it is not able to meet the requirements of the bandwidth.
+[01:23:21.000 --> 01:23:30.000]  So it has to it has to pause and play pause and play, but that will be that will look very, you know, disturbing that your video is not playing smoothly.
+[01:23:30.000 --> 01:23:34.000]  So instead of playing and pausing at regular intervals, what's system will do?
+[01:23:34.000 --> 01:23:40.000]  It will pause it for a while and it will try to retrieve information for at least next 10 to 15 seconds.
+[01:23:40.000 --> 01:23:41.000]  Okay.
+[01:23:41.000 --> 01:23:44.000]  Once it has 15 seconds of content that then it will play.
+[01:23:44.000 --> 01:23:48.000]  So you get uninterrupted play of the video at least for 15 seconds.
+[01:23:48.000 --> 01:23:55.000]  And then in during those 15 seconds, it's also fetching the video content for next 15 seconds.
+[01:23:55.000 --> 01:23:59.000]  So it tries to minimize the interruption while you are playing the video.
+[01:23:59.000 --> 01:24:03.000]  That is what is called buffering. That means temporarily storing the data.
+[01:24:03.000 --> 01:24:04.000]  Okay.
+[01:24:04.000 --> 01:24:11.000]  To make the user's experience more convenient or more less interrupted.
+[01:24:11.000 --> 01:24:13.000]  That is when the buffering happens.
+[01:24:13.000 --> 01:24:14.000]  Right.
+[01:24:14.000 --> 01:24:16.000]  The next one is interrupt handling.
+[01:24:16.000 --> 01:24:18.000]  What is interrupt handling?
+[01:24:19.000 --> 01:24:24.000]  It's a signal to how to start current process.
+[01:24:24.000 --> 01:24:25.000]  Yeah, correct.
+[01:24:25.000 --> 01:24:33.000]  Whenever the CPU is trying to process something and it says that the device is not functioning or there's a defect in the device.
+[01:24:33.000 --> 01:24:39.000]  Or it requires some inputs or it requires something to be done, which is not being done.
+[01:24:39.000 --> 01:24:43.000]  That is one when the interrupt handler comes into existence.
+[01:24:43.000 --> 01:24:45.000]  Any example of interrupt handling?
+[01:24:45.000 --> 01:24:52.000]  Like passing a video.
+[01:24:52.000 --> 01:24:54.000]  That's playing.
+[01:24:54.000 --> 01:25:00.000]  No, that's not interrupt handling because when you're playing a video.
+[01:25:00.000 --> 01:25:09.000]  It's not an interrupt unless you're playing a video where speaker is an important component of your computer.
+[01:25:09.000 --> 01:25:12.000]  And you're if your speaker is not there, the YouTube will not not play.
+[01:25:12.000 --> 01:25:14.000]  That is an interrupt.
+[01:25:14.000 --> 01:25:20.000]  But tell me some other example interrupt handling.
+[01:25:20.000 --> 01:25:21.000]  Come on.
+[01:25:21.000 --> 01:25:22.000]  We have 20 couple of students.
+[01:25:22.000 --> 01:25:24.000]  We have about how many?
+[01:25:24.000 --> 01:25:32.000]  Like example when your laptop has low charging, it displays a message warning you.
+[01:25:32.000 --> 01:25:34.000]  No, that is an alert.
+[01:25:34.000 --> 01:25:35.000]  That is not interrupt handling.
+[01:25:35.000 --> 01:25:38.000]  That is an alert.
+[01:25:38.000 --> 01:25:45.000]  Interrupt handling is when the process is stopped because it needs something which is not there.
+[01:25:45.000 --> 01:25:50.000]  Like when the printer runs out of paper.
+[01:25:50.000 --> 01:25:51.000]  Very good.
+[01:25:51.000 --> 01:25:53.000]  That's one of the best examples.
+[01:25:53.000 --> 01:25:56.000]  And whenever you have a question about interrupt handling, which often comes in the exam,
+[01:25:56.000 --> 01:25:59.000]  they always ask you that support your answer with an example.
+[01:25:59.000 --> 01:26:05.000]  So printer running out of papers is one of the best examples for the interrupt handling in the sense that you have given a print command.
+[01:26:05.000 --> 01:26:07.000]  But then your printer doesn't have papers.
+[01:26:07.000 --> 01:26:14.000]  Now the CPU cannot the operating system cannot hold other applications because the printer is running out of papers.
+[01:26:14.000 --> 01:26:19.000]  So it will just throw a message on your screen saying that the please the printer is out of paper.
+[01:26:19.000 --> 01:26:20.000]  So please refill.
+[01:26:20.000 --> 01:26:25.000]  And then it will just disregard that application temporarily from the primary memory.
+[01:26:25.000 --> 01:26:28.000]  And it will give a location to the other applications which are running.
+[01:26:28.000 --> 01:26:33.000]  As soon as you feed the paper and you press the print button on the printer.
+[01:26:33.000 --> 01:26:38.000]  Can I ask a question?
+[01:26:38.000 --> 01:26:45.000]  Can somebody's microphone is on?
+[01:26:45.000 --> 01:26:46.000]  Can I ask something?
+[01:26:46.000 --> 01:26:47.000]  Wait a minute.
+[01:26:47.000 --> 01:26:49.000]  Is this your microphone?
+[01:26:49.000 --> 01:26:50.000]  Yes.
+[01:26:50.000 --> 01:26:51.000]  Can I have a question?
+[01:26:51.000 --> 01:26:52.000]  Yes.
+[01:26:52.000 --> 01:26:53.000]  Please ask.
+[01:26:53.000 --> 01:26:54.000]  Okay.
+[01:26:54.000 --> 01:26:56.000]  Is interrupt handling a type of error handling?
+[01:26:56.000 --> 01:27:02.000]  Like if I'm running a piece of code, but I'm trying to reference a program that doesn't exist.
+[01:27:02.000 --> 01:27:03.000]  And then it exits.
+[01:27:03.000 --> 01:27:04.000]  Yes.
+[01:27:04.000 --> 01:27:05.000]  Absolutely.
+[01:27:05.000 --> 01:27:06.000]  Absolutely.
+[01:27:06.000 --> 01:27:07.000]  The easiest.
+[01:27:07.000 --> 01:27:08.000]  Yeah.
+[01:27:08.000 --> 01:27:09.000]  Absolutely.
+[01:27:09.000 --> 01:27:10.000]  That's a good example.
+[01:27:10.000 --> 01:27:12.000]  Any scenario.
+[01:27:12.000 --> 01:27:20.000]  Any scenario wherein your program has stopped in the process of expecting something from the user.
+[01:27:20.000 --> 01:27:22.000]  That is called interrupt handling.
+[01:27:22.000 --> 01:27:26.000]  It could even be that you have written a program to take an input from the user.
+[01:27:26.000 --> 01:27:28.000]  And when you run your program.
+[01:27:28.000 --> 01:27:30.000]  And let's say you go away from the computer.
+[01:27:30.000 --> 01:27:35.000]  Your program will stand still there until you feed some data and press enter key.
+[01:27:35.000 --> 01:27:36.000]  Right.
+[01:27:36.000 --> 01:27:40.000]  So that is also a kind of interrupt handling that you your computer is expecting you to do something.
+[01:27:40.000 --> 01:27:43.000]  But that is not being done in such scenarios.
+[01:27:43.000 --> 01:27:48.000]  The system will disregard that application for the time being to make efficient use of the CPU.
+[01:27:48.000 --> 01:27:50.000]  Instead of CPU sitting idle that.
+[01:27:50.000 --> 01:27:52.000]  Oh, I'm waiting for the data to come.
+[01:27:52.000 --> 01:27:54.000]  Then only I can do other work now.
+[01:27:54.000 --> 01:27:58.000]  So that is called an interrupt handling with the CPU temporarily disregards that work.
+[01:27:58.000 --> 01:28:02.000]  I think that requirement is fulfilled and allocates that time to the other applications.
+[01:28:02.000 --> 01:28:05.000]  So if you have given a print command and your printer is out of the paper.
+[01:28:05.000 --> 01:28:09.000]  Only when you put the papers back in and you press that go ahead.
+[01:28:09.000 --> 01:28:13.000]  That the signal will come back to the CPU and it will allocate printing of paper process.
+[01:28:13.000 --> 01:28:16.000]  Till that time, it will consider that work to be a sideline.
+[01:28:16.000 --> 01:28:19.000]  So that the memory allocation cannot be done for that.
+[01:28:19.000 --> 01:28:21.000]  And CPU time is not allocated.
+[01:28:21.000 --> 01:28:27.000]  So the best way to judge about interrupt handling is that is the computer waiting for something as an actionable item.
+[01:28:27.000 --> 01:28:31.000]  If that is the case, then that's an interrupt handling.
+[01:28:31.000 --> 01:28:34.000]  That's the best way to judge.
+[01:28:34.000 --> 01:28:37.000]  Okay.
+[01:28:37.000 --> 01:28:44.000]  Then moving on.
+[01:28:44.000 --> 01:28:46.000]  So different types of operating system.
+[01:28:46.000 --> 01:28:48.000]  What is a CLI command line interface?
+[01:28:48.000 --> 01:28:49.000]  Any examples?
+[01:28:49.000 --> 01:28:51.000]  I can see that examples are there.
+[01:28:51.000 --> 01:28:53.000]  But what is CLI?
+[01:28:53.000 --> 01:29:02.000]  What are characteristics of CLI?
+[01:29:02.000 --> 01:29:07.000]  So let's use us directly.
+[01:29:07.000 --> 01:29:09.000]  Command us.
+[01:29:09.000 --> 01:29:10.000]  Okay.
+[01:29:10.000 --> 01:29:11.000]  So there are two types of OS.
+[01:29:11.000 --> 01:29:16.000]  One is of GUI and one is CUI command user interface or command line interface.
+[01:29:16.000 --> 01:29:18.000]  Any which way you can use it.
+[01:29:18.000 --> 01:29:22.000]  So what is the difference between GUI and CUI?
+[01:29:22.000 --> 01:29:29.000]  So I think the command line interface is like a layer of abstraction that stays inside the terminal.
+[01:29:29.000 --> 01:29:32.000]  So you're still interacting through the terminal.
+[01:29:32.000 --> 01:29:34.000]  You're like Frank commands.
+[01:29:34.000 --> 01:29:38.000]  Whereas a GUI would have like buttons or sliders or something.
+[01:29:38.000 --> 01:29:44.000]  Yeah, so see the core principle is that both CUI and GUI operating systems are meant for users to interact with the computer.
+[01:29:44.000 --> 01:29:48.000]  Now, how do we interact with it in the graphical format or in the text format?
+[01:29:49.000 --> 01:29:53.000]  That is what distinguishes between a command line interface and the graphical user interface.
+[01:29:53.000 --> 01:29:55.000]  A command line interface.
+[01:29:55.000 --> 01:30:00.000]  For example, in the old days, like when I studied, I have used command line interface.
+[01:30:00.000 --> 01:30:03.000]  I have seen when the computers did not have GUI.
+[01:30:03.000 --> 01:30:11.000]  The first operating system which came into existence during my school days, which was GUI was Windows 3.1.
+[01:30:11.000 --> 01:30:15.000]  You can actually search that was the first time when we saw graphical things on the screen.
+[01:30:15.000 --> 01:30:20.000]  And before that, all the computers that we saw, Martin, maybe you can also share your experience.
+[01:30:20.000 --> 01:30:26.000]  All the computers that we saw had only this screen available.
+[01:30:26.000 --> 01:30:30.000]  And it used to be a black screen with white blinking cursor.
+[01:30:30.000 --> 01:30:37.000]  And we used to do all the work writing programs running very small games, everything on the screen.
+[01:30:37.000 --> 01:30:42.000]  So everything used to be done using the command line.
+[01:30:43.000 --> 01:30:47.000]  My first experience was using those.
+[01:30:47.000 --> 01:30:54.000]  This operation, which is the earliest version of what later on became Windows.
+[01:30:54.000 --> 01:31:00.000]  Or I'll leave the first and everything to be able to see the instruction.
+[01:31:00.000 --> 01:31:05.000]  I'm sure every instruction for the computer needed to be typed was a command.
+[01:31:05.000 --> 01:31:07.000]  There was no graphical interface.
+[01:31:07.000 --> 01:31:14.000]  You needed to really learn all these commands to be able to see the files execute the programs on and so forth.
+[01:31:14.000 --> 01:31:19.000]  Later on, I used the first versions of the Mac, the Mac E2.
+[01:31:19.000 --> 01:31:21.000]  And it was similar.
+[01:31:21.000 --> 01:31:25.000]  It was just a command line version of it.
+[01:31:25.000 --> 01:31:26.000]  Absolutely.
+[01:31:26.000 --> 01:31:34.000]  So you can see here that if you get a computer which has this kind of interface where you are able to run your applications only in the command form.
+[01:31:34.000 --> 01:31:35.000]  It's also difficult.
+[01:31:35.000 --> 01:31:38.000]  I mean, you have to memorize literally every command that you could use.
+[01:31:38.000 --> 01:31:39.000]  Right?
+[01:31:39.000 --> 01:31:42.000]  Like see, if I want to see the date, the command I type is date.
+[01:31:42.000 --> 01:31:44.000]  If I have to see the time, I type the command time.
+[01:31:44.000 --> 01:31:47.000]  If you have to copy something, you use a copy command.
+[01:31:47.000 --> 01:31:49.000]  If you have to delete something, you use delete command.
+[01:31:49.000 --> 01:31:54.000]  If you have to clear screen, it used to be CLR SCR in Windows.
+[01:31:54.000 --> 01:31:55.000]  Now it's clear.
+[01:31:55.000 --> 01:31:58.000]  So everything would be done.
+[01:31:58.000 --> 01:32:02.000]  There was not so many things that we could do with the command line interface.
+[01:32:02.000 --> 01:32:03.000]  There was no word processor.
+[01:32:03.000 --> 01:32:05.000]  There was no PowerPoint.
+[01:32:05.000 --> 01:32:07.000]  And I'm not talking about too long ago.
+[01:32:07.000 --> 01:32:14.000]  It was it was the time I'm talking about is maybe 1980s.
+[01:32:14.000 --> 01:32:22.000]  The first time I saw Windows based systems was around 1994, 1995.
+[01:32:22.000 --> 01:32:28.000]  That's the time when I actually saw the Windows based system for the first time before that it was all command line interface.
+[01:32:28.000 --> 01:32:31.000]  So this is one of the like linux or units.
+[01:32:31.000 --> 01:32:35.000]  If you use it's very commonly used by the system engineers.
+[01:32:35.000 --> 01:32:42.000]  They tend to go on the command line interface to interact with the computer rather than a GUI version.
+[01:32:42.000 --> 01:32:44.000]  Can I ask another question?
+[01:32:44.000 --> 01:32:45.000]  Yeah.
+[01:32:45.000 --> 01:32:51.000]  What's the difference between a command line interface and a terminal user interface?
+[01:32:51.000 --> 01:32:53.000]  So CLI versus D1.
+[01:32:53.000 --> 01:32:58.000]  So so see in in Mac, we call it a terminal screen.
+[01:32:58.000 --> 01:33:02.000]  The command is terminal right in Windows based system.
+[01:33:02.000 --> 01:33:11.000]  It is more commonly named as like as Martin said, it was called DOS disk operating system, which is again a command line interface.
+[01:33:11.000 --> 01:33:18.000]  But it gives you the flexibility to directly speak to your computer at the lower level.
+[01:33:18.000 --> 01:33:26.000]  Right, which gives you more control and more power to actually go into the depth of your hardware, which may not be possible because of abstraction on the GUI.
+[01:33:26.000 --> 01:33:35.000]  So any system engineer, for example, if you want to do a low level formatting or you have lost your files, which are to be retrieved back after it is deleted.
+[01:33:35.000 --> 01:33:46.000]  The system engineers would generally use the command line interface or the terminal screen in order to go into the depth because that there are certain commands which may not be available in the GUI version.
+[01:33:46.000 --> 01:33:55.000]  But they are available on the on the command line interface or on the terminal window, which they use in order to write the commands and get the work done.
+[01:33:55.000 --> 01:34:03.000]  So it's a more it gives more more control on your computer, but then you need to be knowledgeable in order to make efficient use of the command lines.
+[01:34:03.000 --> 01:34:13.000]  If you know the commands, then only it's useful to use them otherwise you will struggle, but essentially there is absolutely no difference between using a terminal window or using a command line interface.
+[01:34:13.000 --> 01:34:22.000]  The terminal window is just a name on that every command that you write is actually a command line interface. That's it.
+[01:34:22.000 --> 01:34:25.000]  Mister, I have a question. Yeah.
+[01:34:25.000 --> 01:34:33.000]  So did the people switch to like GUI because like the command line could entangle like those type of programs.
+[01:34:33.000 --> 01:34:41.000]  Yes, and also to make it more user friendly. Now think about somebody whom you give a computer which can only do this.
+[01:34:41.000 --> 01:34:49.000]  Like like think about your grandfather. OK, you have given him a computer that OK, I'm giving good. I'm gifting you a laptop and this is what they see.
+[01:34:49.000 --> 01:34:59.000]  Will they be able to do even slightest of things into into this even let's say it supports let's say word in a different way where everything comes in the black and white screen.
+[01:34:59.000 --> 01:35:03.000]  Will they be able to handle it or if you give them a GUI version with a mouse.
+[01:35:03.000 --> 01:35:08.000]  At least they will be able to run the mouse go to a particular icon click it right.
+[01:35:08.000 --> 01:35:13.000]  They want to play a video that if you have the icon of video available, they can double click and open it.
+[01:35:13.000 --> 01:35:24.000]  So the shift from command line interface to the graphical user interface was mainly for the convenience of the users so that people people can start using things more conveniently.
+[01:35:24.000 --> 01:35:30.000]  And then was also many different types of applications, which was only possible in the GUI.
+[01:35:30.000 --> 01:35:38.000]  I wouldn't say that on the command line interface, we did not have the ways to type a document like how we do in word, but not with so many features.
+[01:35:38.000 --> 01:35:44.000]  Like we had something called text editor, which is still there in the in the windows day.
+[01:35:44.000 --> 01:35:52.000]  It's called notepad and here it is called text editor where it's not very user friendly, but at least you can do some work into it.
+[01:35:52.000 --> 01:35:55.000]  So this was possible even in the command line interface.
+[01:35:55.000 --> 01:36:01.000]  You can't do much with the font size, you can't do much with the images, but at least you can type a letter and you can take a print.
+[01:36:01.000 --> 01:36:12.000]  But then the shift was taking into account the changing needs of the people to make computers use expanded to different variety of people for different kind of tasks.
+[01:36:12.000 --> 01:36:16.000]  And that is why they were shipped from this to that and this is an ongoing process.
+[01:36:16.000 --> 01:36:22.000]  It never stopped there because even after the GUI, we have the third type, which is touch interface.
+[01:36:22.000 --> 01:36:26.000]  So we have the command line interface, we have the GUI and then now we have the touch interface.
+[01:36:26.000 --> 01:36:38.000]  So the new operating systems gives you the flexibility to use your fingers to tap on the icons or do many different things like on your mobile phones, some laptops or the tabs.
+[01:36:39.000 --> 01:36:53.000]  And even this is not the end in future, you never know. I mean, there has been already in use a few operating systems, which can use a laser to project the screen in front of you virtual screen and you're able to type and do all those things.
+[01:36:53.000 --> 01:37:02.000]  So this is how the technology in ham sing and we cannot actually predict what kind of systems we will have five years from now.
+[01:37:02.000 --> 01:37:13.000]  So depending on our use, the way we have started using technology, things are evolving and they will continue to evolve you a time will come when you will not actually literally need to carry a laptop.
+[01:37:13.000 --> 01:37:20.000]  Probably you can create a virtual screen right in front of you from your smartwatch and you can type and do everything.
+[01:37:20.000 --> 01:37:29.000]  So this is how things are changing depending on how we have started using technology and what more features we are looking forward to have in the way we use the computer systems.
+[01:37:29.000 --> 01:37:35.000]  So far, these are commonly used. I mean, see why nobody uses now, honestly, except for the system engineers.
+[01:37:35.000 --> 01:37:47.000]  GUI is very much in use in all domains, like earlier, even Unix used to be just command line interface and then came the GUI version of Unix and Linux, red hat linux and all that.
+[01:37:47.000 --> 01:37:57.000]  Ubuntu, which is an operating system, which is also produced from linux. It's an extended form of linux, which looks very much like Mac operating system, but it's free.
+[01:37:57.000 --> 01:38:00.000]  It's an open source operating system.
+[01:38:00.000 --> 01:38:12.000]  We have the touch interface, which is also becoming a little bit popular, not so much also retouch interface, which is used by the mobile devices and later we may have virtual screens also coming up very soon.
+[01:38:12.000 --> 01:38:26.000]  So this is the best advantage. Then instead of typing commands, like in the command line interface, you literally have to type the command copy, see colon slash folder name slash file name, space destination decolon slash.
+[01:38:26.000 --> 01:38:32.000]  So you have to literally type the whole command to move one file from one folder to another folder, but not so simple.
+[01:38:32.000 --> 01:38:37.000]  You drag and drop and it goes everything, but it's not that we cannot do all these commands still.
+[01:38:37.000 --> 01:38:53.000]  If you're using a windows laptop, you can you can go to the run and write cmd there cmd is the command you can actually try when you click on start and run right cmd and enter it will give you that black screen, which will look like this.
+[01:38:53.000 --> 01:39:05.000]  cmd that will give you this kind of screen where you can type actually the commands, like copy.
+[01:39:05.000 --> 01:39:11.000]  If you want to go to the root folder CD slash DIR will give you the list of directories.
+[01:39:11.000 --> 01:39:20.000]  So you can still try that on the windows platform, but generally we don't use it because we have better option in the form of graphical user interface abstraction of hardware.
+[01:39:20.000 --> 01:39:27.000]  This we have already talked about that it hides an essential parts and shows us only the things that we want to see.
+[01:39:27.000 --> 01:39:34.000]  And the OS also provides high level APIs application programming interfaces that extracts this complexity.
+[01:39:34.000 --> 01:39:38.000]  So which means for example, if you want to read a file, you can just use a command.
+[01:39:38.000 --> 01:39:46.000]  It gives you the operating system gives you an extracted function, which you can use in your programming to read the content of a file.
+[01:39:46.000 --> 01:39:53.000]  It's all the complexity which goes in the background as to how it is doing the indexing how it is reading the file that is all hidden.
+[01:39:53.000 --> 01:40:07.000]  So one of the features of operating system is to give you an API for your program wherein you can use those extracted modules in order to get your work done without going into the details.
+[01:40:07.000 --> 01:40:16.000]  So examples of modern operating system. So we have PCs where we are Microsoft Windows Apple Mac OS X linux multipurpose GUI based mobile devices.
+[01:40:16.000 --> 01:40:26.000]  We have Android. We have windows also. I don't think it's available anymore Android is there iOS is there touch optimized power efficient.
+[01:40:26.000 --> 01:40:33.000]  The servers when it comes to servers. There are trusted trusted server operating systems.
+[01:40:33.000 --> 01:40:44.000]  For example, windows servers or linux linux is very common in most of the organizations where they are concerned about the safety and security of the documents.
+[01:40:44.000 --> 01:40:57.000]  And also at the same time give them convenient way of communicating with each other within the network linux is very popular in that windows is also good, but then windows is prone to as you know viruses and other kind of attacks.
+[01:40:57.000 --> 01:41:08.000]  So most of the organizations they depend on the linux design for performance and scalability embedded systems real time operating systems use in IoT devices.
+[01:41:08.000 --> 01:41:19.000]  For example, cars medical instruments etc. So we will study about embedded system as a full unit that time will talk little more about how the embedded system works what they are what are the benefits of embedded systems etc.
+[01:41:19.000 --> 01:41:27.000]  But essentially these are the different types of computers that actually uses different kind of operating systems.
+[01:41:28.000 --> 01:41:40.000]  Now, here is a table which may be used by self reading as to what are the different components which are managed by the OS and in what different ways.
+[01:41:40.000 --> 01:41:49.000]  For example, operating system manages CPU for scheduling and process control, which means running multiple apps together simultaneously.
+[01:41:49.000 --> 01:41:56.000]  It does the memory management, it does the storage management, for example, file organization and TFS FAT etc.
+[01:41:56.000 --> 01:42:06.000]  It manages the devices and it gives you an interface where you are able to run your own applications on the operating system resource.
+[01:42:06.000 --> 01:42:12.000]  So this again repeat of the same thing.
+[01:42:12.000 --> 01:42:14.000]  And these are the questions.
+[01:42:14.000 --> 01:42:20.000]  Functions of operating system memory management we have just talked about so this is just a further reading of that.
+[01:42:20.000 --> 01:42:25.000]  The OS loads the program from secondary storage like SSD or HDD into the RAM.
+[01:42:25.000 --> 01:42:37.000]  It divides memory into different sections which are called pages and within those pages the information is told so that multiple applications can run simultaneously.
+[01:42:38.000 --> 01:42:42.000]  As programs run the OS re-allocates and free memory dynamically.
+[01:42:42.000 --> 01:42:47.000]  So since the size of memory is static, it cannot hold n number of programs.
+[01:42:47.000 --> 01:42:55.000]  So it is the role of the operating system to do proper memory management in the sense that if some application is already completed.
+[01:42:55.000 --> 01:43:01.000]  It will remove that application from the memory so that space can be freed up for other applications to run.
+[01:43:01.000 --> 01:43:07.000]  Also if it sees that there is some application which is running but it is in the passive mode which the user is not currently running.
+[01:43:07.000 --> 01:43:13.000]  Probably in order to accommodate other applications it will push that from primary memory and keep it temporarily in the virtual space.
+[01:43:13.000 --> 01:43:18.000]  Because it has to keep the memory free as much as possible for the active programs.
+[01:43:18.000 --> 01:43:26.000]  So if I have my so many tabs open which I have not opened for last one week probably then it will push those into the virtual memory and free up that space.
+[01:43:26.000 --> 01:43:34.000]  But those applications are not yet closed it will continue to remain there as soon as I click on them it will bring it into the active active mode.
+[01:43:34.000 --> 01:43:43.000]  So this is whole this is all the work which computer operating system does in order to make efficient use of the computer system.
+[01:43:43.000 --> 01:43:48.000]  This keeps the computer running through server slower and storage access is slower than RAM.
+[01:43:48.000 --> 01:44:04.000]  We have RAM which we have done in the previous chapter which is main memory fast virtual memory which is made in the hard drive in order to substitute not substitute in order to work as an add on to the existing primary memory.
+[01:44:04.000 --> 01:44:12.000]  And this is slow because it is in the hard disk but it is used only when it is needed otherwise it doesn't use that is an extension to the primary memory.
+[01:44:12.000 --> 01:44:25.000]  File management so it does the file management it the operating system helps to read write rename copy and delete files those are some of the basic file operations which are done.
+[01:44:25.000 --> 01:44:37.000]  It maintains a hierarchical structure for example you can have a main folder within that main folder you can have sub folders and within the sub folders you can have further sub folders.
+[01:44:37.000 --> 01:44:42.000]  So this hierarchy is completely maintained by the computer system.
+[01:44:42.000 --> 01:44:53.000]  It shows unique file naming and managing extension so within a folder if you have a file with the name ABC dot DUX you cannot create another file with the same name within the same folder.
+[01:44:53.000 --> 01:45:02.000]  So that is taken care those checks are taken care by the operating system you can have the file name same file name in another folder but not within the same folder.
+[01:45:02.000 --> 01:45:14.000]  It also maintains the extensions for each file so if you're save a dog file it will give us give it the extension DOC or DOC X image file JPEG or any executable file and windows as EXC.
+[01:45:14.000 --> 01:45:26.000]  It also controls the access permissions like I can make a file read only and I can share that with you but you will not be able to make any editing so those things are also taken care by the operating system.
+[01:45:26.000 --> 01:45:36.000]  This is a very important feature of operating system does anyone know what is the fragmentation.
+[01:45:36.000 --> 01:45:55.000]  I think it's because when a computer stores a file or something it stores each byte or each couple of bytes into a separate memory address and then when you de fragment it kind of brings that data closer and like to close memory addresses so it's easier to find.
+[01:45:55.000 --> 01:46:11.000]  So what happens when we studied about the hard disk you you learned about the rotating magnetic disk and there was a head so if you're trying to write it some data and let's say it is writing currently one MP data.
+[01:46:11.000 --> 01:46:28.000]  So wherever the head strikes it will write the first 10 MP data one MP there then the next one MP can go somewhere else so that mean all the files are scattered so when you look at the disk structure you will have all data scattered here and there very unorganized way.
+[01:46:28.000 --> 01:46:40.000]  Now that makes very difficult for the hardest to find the empty space because it may be rotating very fast when it is trying to write something it will see this already has some data because everything is scattered.
+[01:46:40.000 --> 01:46:50.000]  So deep fragmentation is a process of bringing all the scattered data together into one side so that a large part of the secondary storage device can be a vacated.
+[01:46:50.000 --> 01:47:03.000]  So it's just a reorganization of data to bring everything together so that a chunk of data can be brought together and the other space can be freed up so it will be faster for the head to find a space where the data can be written.
+[01:47:03.000 --> 01:47:25.000]  For example this could be a scattered data everything is just all scattered but when you run the deep fragmentation it will bring the data together so that the space will be freed up for example this one so you can see here this white area in this figure that is resulted after the deep fragmentation so it will try to bring together all the data so that some space can be freed up.
+[01:47:25.000 --> 01:47:41.000]  This is all scattered but after the defragmentation you can see that the chunk of data has gone on the top and there is a free space on the bottom this is what the defragmentation is it doesn't do it automatically you will have to run the defragmentation command in order to bring the data to a specific place.
+[01:47:41.000 --> 01:48:00.000]  So create rename move copy defragmentation these are the parts of operating system device management we already mentioned that we need to have device drivers for the operating system to recognize it buffering cash spooling plug and play this we already know it would be good if you can go through this reading.
+[01:48:00.000 --> 01:48:15.000]  Now scheduling is a very important topic scheduling is nothing different than what we have been talking about that when you're running multiple programs then the system has to find a way to accommodate all of them.
+[01:48:15.000 --> 01:48:30.000]  So one of the ways is to create a queue or processes waiting for the CPU time if I look at CPU time using algorithms like first come first serve round robin etc so depending on what kind of queue or processing algorithm that you are writing.
+[01:48:30.000 --> 01:48:38.000]  You can actually run a particular algorithm depending on the nature of project or program or how the operating system is meant to operate.
+[01:48:38.000 --> 01:48:43.000]  Now first come first service like if you are done applications running let's a printer.
+[01:48:43.000 --> 01:48:56.000]  So you have given the first print command and there are three more people who are waiting in the queue and if your printer is meant to be running on first come first serve only after the first person's job is released that the second person will get a chance.
+[01:48:56.000 --> 01:49:09.000]  But in other case you may have the flexibility to change the sequence that even the first person gave the first command but you can have a feature in the printer where you bring other tasks up higher on the order so that that print spurts.
+[01:49:09.000 --> 01:49:19.000]  So depending on the algorithm you can actually have which how it is executed round robin is something where equal amount of time is given to let's say there are 10 processes running.
+[01:49:19.000 --> 01:49:32.000]  It will give some amount of time to one then to two then three then all the way to 10 again it will come back to one so it will be doing in a round robin method but the processing speed is generally so fast that it doesn't take much time.
+[01:49:32.000 --> 01:49:47.000]  Obviously it cannot run in the printers that it will print half the page and then give to another half no these are kind of processes for example applications where round robin can be done which balances performance responsiveness and fairness.
+[01:49:47.000 --> 01:50:07.000]  Security management this is another way important feature of operating system can you give me some ways that system provides you security I mean any example where you see operating system giving you giving you some security features.
+[01:50:07.000 --> 01:50:12.000]  When you run on it when you run on application.
+[01:50:12.000 --> 01:50:20.000]  The OS provides virtual space for it's.
+[01:50:20.000 --> 01:50:26.000]  That's a different thing altogether that's a storage management.
+[01:50:26.000 --> 01:50:35.000]  Yes, some of the operating systems for example windows defender it comes pre loaded with windows unfortunately math doesn't have any such thing.
+[01:50:35.000 --> 01:50:53.000]  At least I don't know about that but windows has windows defender which actually protects your computer from it's like a firewall for you computer right any other example of security that your operating system provides will enter class in next 10 minutes so if you can state it will be good.
+[01:50:53.000 --> 01:50:58.000]  Any other example of security that your operating system provides.
+[01:50:58.000 --> 01:51:16.000]  That's also the encrypt certain personal information which it will not it will not encrypt on its own and it's not the feature of operating system to encrypt that will require another application which can run on your OS OS in itself does not encrypt information.
+[01:51:16.000 --> 01:51:18.000]  Any other example.
+[01:51:18.000 --> 01:51:29.000]  Also, there's like certain batteries with like such folders and windows that no one's allowed to like access or modify because they're so important so it's like lock behind the password.
+[01:51:29.000 --> 01:51:32.000]  That is again an additional application.
+[01:51:32.000 --> 01:51:37.000]  I don't think windows in itself provides a feature where you can actually you can hide a folder.
+[01:51:37.000 --> 01:51:44.000]  You can hide definitely can hide a folder which will not be visible to others but I have not used windows for a very long time.
+[01:51:44.000 --> 01:51:50.000]  But I don't know if new windows if that feature is there but I don't think you can make password protected using operating system features.
+[01:51:50.000 --> 01:51:58.000]  You can have third party applications which can help you to password protect your folders but I don't think it comes by default with windows.
+[01:51:58.000 --> 01:52:04.000]  No, I meant like if you access like a system 32 folder then it's not password protected.
+[01:52:04.000 --> 01:52:09.000]  It's just like that you can't access it because it's like a user.
+[01:52:09.000 --> 01:52:21.000]  Okay fine so any of the windows related files and folders they are protected by the system so that accidentally if you delete it then it will completely crash your computer because OS is gone.
+[01:52:21.000 --> 01:52:27.000]  So that's a kind of way it's not I mean I would say that it's a safety for the users.
+[01:52:27.000 --> 01:52:35.000]  I'm more particular about how is your computer protecting the safety and security of the data that you have on the computer system.
+[01:52:35.000 --> 01:52:38.000]  Any other example.
+[01:52:38.000 --> 01:52:44.000]  The use firewalls and other viruses or like security systems to check for like malware.
+[01:52:44.000 --> 01:52:48.000]  But that is again a third party apps like in windows.
+[01:52:48.000 --> 01:52:57.000]  I know that there's windows defender but on Mac I don't think there's any so you can install third party Mac has something to end up like security system.
+[01:52:57.000 --> 01:53:02.000]  Like it says like even install an app for them from the internet they will check it.
+[01:53:03.000 --> 01:53:15.000]  Yeah you're right so Mac has that system where when you try to download something from the third party apps and you try to install it then it stops it until you go to the settings and you actually activate that I'm allowing third party apps to be installed very good.
+[01:53:15.000 --> 01:53:20.000]  That's a good example of the protection of your computer from possibility of viruses.
+[01:53:20.000 --> 01:53:22.000]  Yeah that's a good example.
+[01:53:22.000 --> 01:53:32.000]  Another example is for example let's say when you start your computer do you get that screen where you have to type the password to go further into the operating system.
+[01:53:32.000 --> 01:53:40.000]  It says shows your username right and then you have to type your password correct.
+[01:53:40.000 --> 01:53:48.000]  Yes isn't it so there you can have biometric there you can have type password or many different ways of login into the system.
+[01:53:48.000 --> 01:53:57.000]  That is the feature of operating system which actually is meant to protect your data so that unauthorized people cannot get access to your computer.
+[01:53:57.000 --> 01:54:03.000]  So those are that is how the computer provides you with the security so that is called authentication confirms identity.
+[01:54:03.000 --> 01:54:11.000]  It could be IR I guess it could be I mean the webcam related the authentication it can be biometric which you have on your Mac and windows.
+[01:54:11.000 --> 01:54:14.000]  It can be typed password any which ways.
+[01:54:18.000 --> 01:54:24.000]  Sir there is also that thing that when you're downloading something it shows a message which says.
+[01:54:24.000 --> 01:54:38.000]  This could harm your computer it would be easier to your computer correctly you correct that yeah yeah absolutely so that alert is coming from the operating system when it recognizes that you are trying to download something which may have malicious.
+[01:54:38.000 --> 01:54:49.000]  Component for example a virus or malware it alerts that yeah that's also one of the features of operating system that is able to alert you.
+[01:54:49.000 --> 01:54:56.000]  Accounting the OS keeps track of how systems resources are used by the users and processes.
+[01:54:56.000 --> 01:54:58.000]  So that's another thing.
+[01:54:58.000 --> 01:55:10.000]  So this this topic is not so difficult because it's more of learning unlike the previous topics that we started where it was logic gates and calculations and came up this is more about self reading.
+[01:55:10.000 --> 01:55:21.000]  I'm sure that if you go through this document you will easily understand what the features are of operating system so we are going from one to seven or eight but for the from the exam point of view you will even if you.
+[01:55:21.000 --> 01:55:42.000]  If you are proficient with two to three features of operating system I think that will be good and unless they ask you very specific question that how does computer manage memory for multiple tasks processing then you have to talk about the memory management but otherwise if they just say that identify three features of operating system you can just pick up anything.
+[01:55:42.000 --> 01:55:55.000]  Virtualization and networking allowing multiple virtual machines to run on one physical stream and this is becoming quite common in today's time like you learned about this in the previous topics.
+[01:55:55.000 --> 01:56:09.000]  Infrastructure as a service that uses virtualization so it splits the CPU power into many different parts and each application can use that part of CPU as if it is using full potential of the CPU.
+[01:56:09.000 --> 01:56:25.000]  That is the virtualization and this is becoming quite common because the speed of computer is going higher and higher so why not the CPU power can be split virtually into many parts so that it can process more data that is what is called virtualization.
+[01:56:25.000 --> 01:56:53.000]  For example running windows and linux simultaneously on Mac using software like parallel parallettes or VMware so there are a lot of virtualization applications available nowadays for example some of you may have used Android virtual machine on your Mac like if you are trying to do some sort of mobile applications development you can have virtualization of your mobile operating system on your phone on your laptop so that you get the Android screen on your mobile on your laptop.
+[01:56:53.000 --> 01:57:03.000]  Those are the virtualization that when using your CPU resources in such a way that it is running to or more unidentical system unidentical systems simultaneously.
+[01:57:03.000 --> 01:57:19.000]  Network connections so you are able to connect for example if you are trying to share files between two maps you can use a drop right so those kind of networking related features are provided by the operating system.
+[01:57:19.000 --> 01:57:47.000]  The scheduling approaches I think it will be not possible today because this is an important topic and I want to give it some time so probably we will take up this topic in the next week because we have to go a little bit into details and it will be good if you can come in fact I have to add more content to this about the scheduling because this is very important topic and you can definitely expect some questions coming in from this as to how does paging works.
+[01:57:47.000 --> 01:57:59.000]  What are the different ways that the scheduling is done by the computer system right so I will add little more content to it and probably will cover it in the next class.
+[01:57:59.000 --> 01:58:16.000]  All right in the meantime before we meet for the next class I will share with you some instructions about how to install netbeams and JDK on your computer so just follow those steps and try to install it yourself if you are stuck or if you are not able to do.
+[01:58:16.000 --> 01:58:26.000]  Then probably we'll solve it next time so in order to understand your systems better I will share a Google Doc with you where you can mention which.
+[01:58:26.000 --> 01:58:41.000]  Operating system you are using with a Mac or windows okay and if it is Mac or windows and which version of windows you are using which you can find from here go to the Apple symbol and click on system sorry.
+[01:58:42.000 --> 01:58:53.000]  Go to about this Mac and you can copy it is data from here like minus chip Apple M4 so similarly you may also have some mac OS.
+[01:58:53.000 --> 01:59:10.000]  So put that into the Google Doc so that I will see that what are different versions you will be needing for your netbeams and JDK is a little complicated process in the beginning especially for the Mac but once it is installed then it will be convenient.
+[01:59:10.000 --> 01:59:20.000]  So let's try and complete this over the next couple of days so that you all are ready with the apps installed on your machine when we start with the programming.
+[01:59:20.000 --> 01:59:36.000]  All right so that's it for today's class is anybody who has not yet filled the utterness if not I'm putting the link again so that you can.
+[01:59:36.000 --> 01:59:43.000]  Fill the utterness in the meantime if you have any questions feel free to ask.
+[01:59:43.000 --> 01:59:50.000]  Martin sorry you wanted to add anything further.
+[01:59:58.000 --> 02:00:01.000]  Your mute your muted Martin.
+[02:00:02.000 --> 02:00:21.000]  Just just to make sure that next class we take a few minutes to revisit the K maps as we said earlier yeah sure yes in addition with with maybe whatever questions they might have if they try to install netbeams or JDK that's it absolutely yeah.
+[02:00:21.000 --> 02:00:39.000]  I will review and revise the K map logic gate diagrams truth table and simplification of Boolean expressions using the Boolean laws these are the four things that we will cover in the next class I kept it for today but I'm sure it will not be possible today.
+[02:00:39.000 --> 02:00:45.000]  Does anyone have any questions.
+[02:00:45.000 --> 02:00:48.000]  Is there about the Python and Java.
+[02:00:48.000 --> 02:01:01.000]  Yeah right so see IP has given the flexibility for students to use anything between Python and Java but we at Pamoja have decided to go ahead with Java because it provides better.
+[02:01:01.000 --> 02:01:14.000]  Features to not only learn object oriented approaches but also from the I point of view right and in terms of complexity it might Python might look little easy at this stage but then actually let me tell you.
+[02:01:14.000 --> 02:01:43.000]  That from the examinations point of view the level of complexity requirement will be absolutely same between Java and Python which means the question paper will very explicitly say explicitly say that don't use job Python functions right so therefore we as a group have decided to go ahead with Java and if you have already done Python that will be an added advantage because most of the syntax is between Python and Java they are similar.
+[02:01:43.000 --> 02:01:53.000]  I have a question regarding the I.A.
+[02:01:53.000 --> 02:01:56.000]  We are expected to start it in November.
+[02:01:56.000 --> 02:02:05.000]  Yeah let me see if I have the timeline.
+[02:02:05.000 --> 02:02:25.000]  Yeah we want to start early because we want to finish early and computer science I.A.s are much more difficult than other subjects this is not to scare you but that's a reality and we have to accept that it's much more difficult than other subject it's very time consuming so we want to start early so that it doesn't run for a very long time so.
+[02:02:25.000 --> 02:02:32.000]  Yes so we essentially we start I.A. on have a shade my screen.
+[02:02:32.000 --> 02:02:42.000]  So we start introduction to I.A. on 5th of November and then you will make your proposals in the next week.
+[02:02:42.000 --> 02:02:48.000]  Then you will get a feedback about your proposal and then we'll introduce you criteria A and B of the I.A.
+[02:02:48.000 --> 02:02:54.000]  So I would strongly recommend that you should start thinking about what kind of project that you will develop.
+[02:02:54.000 --> 02:03:00.000]  Probably next week we'll talk about what could be the possible projects in the computer science I.A.
+[02:03:00.000 --> 02:03:04.000]  So that you can start thinking about what you would like to develop.
+[02:03:04.000 --> 02:03:14.000]  So 26 November introduction to our criteria A and B and then your criteria A and B will be due by February 18th.
+[02:03:14.000 --> 02:03:22.000]  Sorry by 11th of February criteria B and A which does not require programming skills until this point.
+[02:03:22.000 --> 02:03:26.000]  You don't need any programming skills it's more about designing.
+[02:03:26.000 --> 02:03:33.000]  This is the point from where your programming will be started from the second February 18th of February.
+[02:03:33.000 --> 02:03:41.000]  So introduction to I.A. criteria C which is about the coding of your product no sorry see in the new in the new I.A.
+[02:03:41.000 --> 02:03:48.000]  Criteria C is also documentation so this is even here you don't need programming skills until here.
+[02:03:48.000 --> 02:03:53.000]  So criteria C is done in April 25th April.
+[02:03:53.000 --> 02:03:56.000]  This is where your programming will start.
+[02:03:56.000 --> 02:04:01.000]  9th of September introduction to I.A. criteria D.
+[02:04:01.000 --> 02:04:10.000]  So this is where your programming will start that is the next year when when the term starts.
+[02:04:10.000 --> 02:04:17.000]  And then you have criteria D first draft in November because this is where you will be coding the product.
+[02:04:17.000 --> 02:04:24.000]  And then these are easy ones criteria is very easy that will take just about a day or two to complete.
+[02:04:24.000 --> 02:04:30.000]  So this is essentially the plan we want to finish I.A. by January 27th of January.
+[02:04:30.000 --> 02:04:39.000]  No not 24 January sorry by 24th of February everything is to be finished because after this you will have the mock exams.
+[02:04:39.000 --> 02:04:44.000]  So we want to finish everything before mock.
+[02:04:44.000 --> 02:04:50.000]  Now ask your question this was the calendar.
+[02:04:50.000 --> 02:04:57.000]  What was the question related to I.A.
+[02:04:57.000 --> 02:05:01.000]  What is the question that what is the calendar look like?
+[02:05:01.000 --> 02:05:05.000]  Yeah that was the question.
+[02:05:05.000 --> 02:05:08.000]  Thomas.
+[02:05:08.000 --> 02:05:13.000]  I was just wondering about what knowledge is expected.
+[02:05:13.000 --> 02:05:16.000]  We haven't had that on computer science.
+[02:05:16.000 --> 02:05:18.000]  Yeah so that's a good question.
+[02:05:18.000 --> 02:05:26.000]  So computer science I.A. is the solution developed using any of the computer tools which showcases your algorithmic thinking skills.
+[02:05:26.000 --> 02:05:31.000]  So it has to be a coding based solution which could be anything.
+[02:05:31.000 --> 02:05:37.000]  For example, let's you make an interactive quiz system where you have a dashboard where the questions are popping up.
+[02:05:37.000 --> 02:05:43.000]  You choose the answer and it creates a profile as to what is your competency level right.
+[02:05:43.000 --> 02:05:50.000]  So you have to think about any problem which could easily be solved using technology and then you have to develop a product for that.
+[02:05:50.000 --> 02:05:54.000]  So generally it's a GUI program.
+[02:05:54.000 --> 02:06:00.000]  I have couple of samples I can show you next week or otherwise week after next when we'll introduce the I.A.
+[02:06:00.000 --> 02:06:06.000]  But essentially it's a it's a it's a GUI application which is to be developed using any of the tools.
+[02:06:06.000 --> 02:06:20.000]  So if you're good at programming, even if you are never done programming, it doesn't mean that you cannot develop them because it's more about designing a system and running some SQL advanced in the background for the transaction of data back and forth.
+[02:06:20.000 --> 02:06:27.000]  So don't worry about that. We will teach you a few mini projects which will help you to understand what should be there.
+[02:06:27.000 --> 02:06:31.000]  How the project is to be developed.
+[02:06:31.000 --> 02:06:45.000]  So just say I'm not a big way this is signed by the idea of what your project and the thing behind it or more than your coding skills and complexity of it.
+[02:06:45.000 --> 02:06:50.000]  So there used to be complexity in the previous guide but now they have removed the term complexity.
+[02:06:50.000 --> 02:06:56.000]  It is justification of what techniques you have used to solve a problem.
+[02:06:56.000 --> 02:07:00.000]  Okay, it should have a genuine it should have an authentic.
+[02:07:00.000 --> 02:07:09.000]  I mean, let me put it this way that you're developing something not just for the sake of developing, but you're justifying why this product could be beneficial to somewhat.
+[02:07:09.000 --> 02:07:17.000]  So as long as there's a justification to the solution that you have developed, it will be considered to be an appropriate I.A.
+[02:07:17.000 --> 02:07:31.000]  In the previous guide, it used to be a complexity that you have to show how your project is very complex, which to me doesn't make any sense because then students putting the complexity unnecessarily, which is not even needed.
+[02:07:31.000 --> 02:07:41.000]  So now they have removed the complexity term and I just about justification of how you think that this project will have some significance or some relevance from the users point of view.
+[02:07:41.000 --> 02:07:44.000]  Also now there is no need of client in the previous guide.
+[02:07:44.000 --> 02:07:52.000]  You had to find a client who is struggling to run their their business and then you would develop something for them, but now it's completely your choice.
+[02:07:52.000 --> 02:07:58.000]  What you want to develop and even if it is not meant for anybody else, it's perfectly fine.
+[02:07:58.000 --> 02:08:01.000]  You can develop something for yourself also.
+[02:08:02.000 --> 02:08:06.000]  Maybe your question is done.
+[02:08:06.000 --> 02:08:09.000]  Yeah, that was the question that I had.
+[02:08:09.000 --> 02:08:14.000]  It's something that I can, that only addresses a specific issue that I have I can make.
+[02:08:14.000 --> 02:08:16.000]  That was just the question I had.
+[02:08:16.000 --> 02:08:19.000]  Okay, no, you can develop something for your own use also.
+[02:08:19.000 --> 02:08:22.000]  Like you want to make an expense tracking system, right?
+[02:08:22.000 --> 02:08:29.000]  Your father gives you money every month and then you have to manage your budget because you have to show it to your father month end of the month.
+[02:08:29.000 --> 02:08:32.000]  How you spend the money that was given to you, right?
+[02:08:32.000 --> 02:08:35.000]  So you can create a expense tracking system for yourself.
+[02:08:35.000 --> 02:08:36.000]  That's it.
+[02:08:36.000 --> 02:08:39.000]  Any other question?
+[02:08:39.000 --> 02:08:43.000]  Do we need to use the specific program specified by the I.B.
+[02:08:43.000 --> 02:08:44.000]  No, no, no.
+[02:08:44.000 --> 02:08:45.000]  No, no.
+[02:08:45.000 --> 02:08:46.000]  No, no.
+[02:08:46.000 --> 02:08:47.000]  I.B.
+[02:08:47.000 --> 02:08:48.000]  It does not specify any program.
+[02:08:48.000 --> 02:08:50.000]  The choice of program can be completely yours.
+[02:08:50.000 --> 02:08:53.000]  For example, you may end up making a game using unity.
+[02:08:53.000 --> 02:08:58.000]  Which could be a product which may be beneficial to let's say primary school students to learn mathematics.
+[02:08:58.000 --> 02:09:02.000]  So it can be completely your choice what you want to use.
+[02:09:02.000 --> 02:09:03.000]  Okay.
+[02:09:03.000 --> 02:09:04.000]  Yeah, I.B.
+[02:09:04.000 --> 02:09:06.000]  Is that complex and real?
+[02:09:06.000 --> 02:09:10.000]  Yeah, you can use any application, but you have to show the algorithmic thinking.
+[02:09:10.000 --> 02:09:18.000]  It's not just drag and drop that you ended up making a fancy game just by dragging and dropping the gadgets.
+[02:09:18.000 --> 02:09:22.000]  Or applying physics, which is all inbuilt into the game development tool.
+[02:09:22.000 --> 02:09:23.000]  That will not fit your score.
+[02:09:23.000 --> 02:09:29.000]  You have to show the coding that you have done to make that work.
+[02:09:29.000 --> 02:09:32.000]  Abdul.
+[02:09:32.000 --> 02:09:36.000]  I wanted to confirm so basically our I.A.
+[02:09:36.000 --> 02:09:42.000]  Will be a program that we write to solve a problem in the Java language.
+[02:09:42.000 --> 02:09:44.000]  No, that's what I'm saying.
+[02:09:44.000 --> 02:09:45.000]  It can be any language.
+[02:09:45.000 --> 02:09:46.000]  It can be Java.
+[02:09:46.000 --> 02:09:47.000]  It can be Python.
+[02:09:47.000 --> 02:09:48.000]  It can be.
+[02:09:48.000 --> 02:09:50.000]  It can be visual basic.
+[02:09:50.000 --> 02:09:52.000]  It can be PHP.
+[02:09:52.000 --> 02:09:54.000]  It can be HTML anything that you feel like using.
+[02:09:54.000 --> 02:09:57.000]  We should have a potential usage.
+[02:09:57.000 --> 02:10:02.000]  Whatever you develop that would have a potential usage.
+[02:10:02.000 --> 02:10:07.000]  But majority of students choose net Java in the front end and SQL in the back end.
+[02:10:07.000 --> 02:10:09.000]  But you are not restricted to that.
+[02:10:09.000 --> 02:10:12.000]  I mean you can use anything probably next week.
+[02:10:12.000 --> 02:10:16.000]  I'll show you one sample project which was developed in php and my as well.
+[02:10:16.000 --> 02:10:18.000]  That could be seen as one sample.
+[02:10:18.000 --> 02:10:20.000]  But you don't really have to develop in the same way.
+[02:10:20.000 --> 02:10:21.000]  Next.
+[02:10:21.000 --> 02:10:22.000]  Okay.
+[02:10:22.000 --> 02:10:24.000]  We were basically learning Java for the I.A.
+[02:10:24.000 --> 02:10:27.000]  Or will it have some other use in the syllabus?
+[02:10:27.000 --> 02:10:28.000]  No.
+[02:10:28.000 --> 02:10:32.000]  No, we are learning Java to meet the paper to requirements from the I.D.
+[02:10:32.000 --> 02:10:33.000]  Point of view.
+[02:10:33.000 --> 02:10:35.000]  And we are learning Java.
+[02:10:35.000 --> 02:10:38.000]  So that you become eligible to pursue computer science in the university.
+[02:10:38.000 --> 02:10:41.000]  Just in case if you want to study computer science.
+[02:10:41.000 --> 02:10:42.000]  Right.
+[02:10:42.000 --> 02:10:44.000]  So it's not just for I.A.
+[02:10:44.000 --> 02:10:46.000]  It can be it can be helpful in your I.A.
+[02:10:46.000 --> 02:10:48.000]  But the core objective is not I.A.
+[02:10:48.000 --> 02:10:51.000]  Because Java may not necessarily be used for your I.A.
+[02:10:51.000 --> 02:10:53.000]  You may use something else.
+[02:10:53.000 --> 02:10:56.000]  It's mainly for paper to.
+[02:10:56.000 --> 02:10:57.000]  Okay.
+[02:10:57.000 --> 02:11:00.000]  Thank you, sir.
+[02:11:00.000 --> 02:11:02.000]  You're welcome.
+[02:11:02.000 --> 02:11:06.000]  Any other question, guys?
+[02:11:06.000 --> 02:11:09.000]  All good?
+[02:11:09.000 --> 02:11:10.000]  Okay.
+[02:11:10.000 --> 02:11:11.000]  So.
+[02:11:11.000 --> 02:11:12.000]  Yeah.
+[02:11:12.000 --> 02:11:13.000]  Yeah.
+[02:11:13.000 --> 02:11:14.000]  Please.
+[02:11:14.000 --> 02:11:15.000]  Go ahead.
+[02:11:15.000 --> 02:11:16.000]  The first phase.
+[02:11:16.000 --> 02:11:17.000]  What.
+[02:11:17.000 --> 02:11:18.000]  Are there.
+[02:11:18.000 --> 02:11:19.000]  A.
+[02:11:19.000 --> 02:11:22.000]  What will you do now?
+[02:11:22.000 --> 02:11:23.000]  Sorry.
+[02:11:23.000 --> 02:11:24.000]  Say again.
+[02:11:24.000 --> 02:11:26.000]  I didn't get your question.
+[02:11:26.000 --> 02:11:27.000]  At.
+[02:11:27.000 --> 02:11:29.000]  At a part of the I.A.
+[02:11:29.000 --> 02:11:30.000]  What.
+[02:11:30.000 --> 02:11:31.000]  Yeah.
+[02:11:31.000 --> 02:11:32.000]  Yeah.
+[02:11:32.000 --> 02:11:33.000]  Okay.
+[02:11:33.000 --> 02:11:34.000]  Okay.
+[02:11:34.000 --> 02:11:35.000]  So see.
+[02:11:35.000 --> 02:11:36.000]  When I say I.A.
+[02:11:36.000 --> 02:11:40.000]  I.A.
+[02:11:40.000 --> 02:11:42.000]  I.A.
+[02:11:42.000 --> 02:11:43.000]  Right.
+[02:11:43.000 --> 02:11:44.000]  I.A.
+[02:11:44.000 --> 02:11:46.000]  I.A.
+[02:11:46.000 --> 02:11:47.000]  I.A.
+[02:11:47.000 --> 02:11:49.000]  I.A.
+[02:11:49.000 --> 02:11:50.000]  I.A.
+[02:11:50.000 --> 02:11:52.000]  I.A.
+[02:11:52.000 --> 02:11:53.000]  I.A.
+[02:11:53.000 --> 02:11:54.000]  Our.
+[02:11:54.000 --> 02:11:55.000]  I.A.
+[02:11:55.000 --> 02:11:56.000]  A.
+[02:11:56.000 --> 02:12:00.000]  In the end product which you will write using some programming language.
+[02:12:00.000 --> 02:12:01.000]  It's not just that.
+[02:12:01.000 --> 02:12:02.000]  It's the whole design cycle.
+[02:12:02.000 --> 02:12:03.000]  So criteria.
+[02:12:03.000 --> 02:12:04.000]  A is problem specification, which means what is the problem that you are trying to solve?
+[02:12:04.000 --> 02:12:05.000]  So you will write it in two paragraphs,
+[02:12:05.000 --> 02:12:10.720]  going to develop, you will identify the major parts of that project, that is called decomposition,
+[02:12:10.720 --> 02:12:19.760]  which will study in B, B1, the computational thinking, data composition, the algorithm,
+[02:12:19.760 --> 02:12:24.680]  the abstraction, all that will be part of section B. But anyway, for criteria B, you
+[02:12:24.680 --> 02:12:28.400]  are decomposing the system, that means you are dividing your larger system into many
+[02:12:28.400 --> 02:12:34.400]  different achievable parts. Criteria C is designing the system. For example, how your
+[02:12:34.400 --> 02:12:39.480]  screen will look like. So you will use some UI designs, software to design. My login screen
+[02:12:39.480 --> 02:12:45.760]  will look like this. My dashboard will look like this. Okay. And then also the algorithm
+[02:12:45.760 --> 02:12:51.720]  or the flowcharts as to how your system will work. That is criteria C. Criteria D is actual
+[02:12:51.720 --> 02:12:56.840]  development of the product and then showcasing in about thousand words, how your product
+[02:12:56.840 --> 02:13:00.400]  is working, like how your login screen is working. So you will show the screenshot of
+[02:13:00.400 --> 02:13:06.600]  login screen from your actual product. You will show the code of this area in your project
+[02:13:06.600 --> 02:13:12.280]  where it is doing the login part. Right. So the functionality of your product in the written
+[02:13:12.280 --> 02:13:18.240]  format in about thousand words, that is criteria D. Criteria and also the video. So you will record
+[02:13:18.240 --> 02:13:23.640]  a five minute screencast of your product, like you will you will run your project and you
+[02:13:23.640 --> 02:13:28.280]  will do a screencast. So that will also go in criteria D. So it has two components. One is
+[02:13:28.280 --> 02:13:34.800]  the 1000 words explanation to your project and one is the five minute video. And criteria
+[02:13:34.800 --> 02:13:40.600]  E is the future evaluation. I mean the evaluation and future recommendations. You will judge
+[02:13:40.600 --> 02:13:45.160]  what are the components that you were able to achieve and what are the areas you were
+[02:13:45.160 --> 02:13:49.200]  not able to achieve and how you can make your product better in the future. So that goes
+[02:13:49.200 --> 02:13:57.800]  in the criteria E. So collectively all these criteria contribute to the score of 30 out
+[02:13:57.800 --> 02:14:06.760]  of which it will be decided what grade you get into. So just having, just having, just
+[02:14:06.760 --> 02:14:15.760]  having complete. Sorry Thomas. What's the question? We'll all that be achievable when the
+[02:14:15.760 --> 02:14:21.480]  curriculum that we have learned during the time we're doing this. So we'll part A, B,
+[02:14:21.480 --> 02:14:30.960]  B and C. We are the information already have. Yes. A, B and C. All three will be achievable
+[02:14:30.960 --> 02:14:37.080]  by the information that we have so far. So no programming knowledge is needed. No. In
+[02:14:37.080 --> 02:14:43.440]  Criteria C algorithm, the some part of Criteria C you can do, but there is something called
+[02:14:43.440 --> 02:14:48.080]  like flow charts that we haven't learned yet. So flow chart part you will have to learn.
+[02:14:48.080 --> 02:14:53.000]  Then data dictionary like what your database will look like that we haven't done yet. So
+[02:14:53.000 --> 02:14:57.400]  that's why the dates are split in such a way that by the time we reach to that level,
+[02:14:57.400 --> 02:15:04.200]  you will already have done that content part to meet the requirements of that particular
+[02:15:04.200 --> 02:15:11.400]  that particular criteria. Okay. But then the what is most essential is that you should
+[02:15:11.400 --> 02:15:16.520]  start working on the programming. If you haven't done it before just to develop the algorithmic
+[02:15:16.520 --> 02:15:22.000]  technique skills and just to learn the basics of how the programs work. So go to the W3 schools
+[02:15:22.000 --> 02:15:26.080]  and start learning Java if you haven't done already. And for learning on that platform,
+[02:15:26.080 --> 02:15:32.120]  you don't really need netbeams or JD to install. You can run it online on that same
+[02:15:32.120 --> 02:15:49.040]  portal. Abdul, you have one more question? All right. Okay. So if there are no more questions,
+[02:15:49.040 --> 02:15:58.280]  then you may leave now. And we'll meet next week to discuss further on the course. Stay
+[02:15:58.280 --> 02:16:03.480]  engaged. I know there's a lot of content at least at this moment. Some of the chapters are
+[02:16:03.480 --> 02:16:10.840]  very content heavy. And theme A chapter one is one of them. Then if we go a little lighter as we
+[02:16:10.840 --> 02:16:17.040]  proceed. Database chapters would be an interesting one where you will learn the SQL commands, how
+[02:16:17.040 --> 02:16:21.680]  the tables are made, how the data is stored, how the data is retrieved. That is more hands-on.
+[02:16:21.680 --> 02:16:27.040]  You will enjoy that network will again be a little theoretical chapter and same with the machine
+[02:16:27.040 --> 02:16:32.160]  learning. But then we have split it in such a way that we have the mix of programming and theory,
+[02:16:32.160 --> 02:16:36.320]  so it will both will go simultaneously. So after this unit, we are going to jump on to the
+[02:16:36.320 --> 02:16:41.680]  computational thinking topic and the programming program development, which you will find interesting,
+[02:16:41.680 --> 02:16:50.800]  I'm sure. All right, guys. So if no other questions, we are done with the class.
+[02:16:50.800 --> 02:17:02.480]  Can I have the questions? You're welcome, software. Good. Bye, everyone.
+[02:17:02.480 --> 02:17:11.840]  Hi. Hi, guys. Bye, bye, everyone. You asked your question before U.S.D.
+[02:17:11.840 --> 02:17:20.480]  Yeah, yeah, I see. Some of the, like, on my assignment review thingy, you wrote that I
+[02:17:20.480 --> 02:17:26.960]  haven't completed all my questions. Yeah, yeah, yeah. I just want to know where that is.
+[02:17:27.600 --> 02:17:32.560]  I will go. I will check that I answered all the questions. I don't understand how I didn't
+[02:17:32.560 --> 02:17:38.720]  answer all the questions. Yours is the one where you made all the drawings on same page, right? With
+[02:17:38.720 --> 02:17:45.680]  the pencil. All the logic. Did you use pen and pencil to draw? Yeah, so that may have kind of
+[02:17:45.680 --> 02:17:52.640]  got mixed up. I will have a look at it again to see maybe I miss interpreted because all the
+[02:17:52.640 --> 02:17:56.720]  all the logic diagrams are made on the same page. Probably the question numbers may have been
+[02:17:56.720 --> 02:18:02.160]  mixed or something. So I will look at that again. Don't worry. Yeah, I tried to like organize this.
+[02:18:02.160 --> 02:18:09.440]  So it's easy to understand. Yeah, sure. I can come back to that because I was kind of surprised,
+[02:18:09.440 --> 02:18:14.480]  it's like kind of like see my grade and then they kind of wanted to know how I can
+[02:18:14.640 --> 02:18:21.280]  move on the next. Yeah, that's right. So next time onwards, don't use the same page to draw so many
+[02:18:21.280 --> 02:18:28.080]  drawing, so many images, you know, just draw one after another in a sequential order of the
+[02:18:28.080 --> 02:18:36.560]  questions so that it's easier for us to understand. I think I did. I just like.
+[02:18:37.040 --> 02:18:46.480]  Was it your one image per question? No, not one image per question. Was it your work or somebody
+[02:18:46.480 --> 02:18:52.960]  else where you had about six or seven logic diagrams on one page, one besides another,
+[02:18:52.960 --> 02:18:58.320]  like that format? Was it yours or somebody else? It's okay. I will go through your work again.
+[02:18:58.320 --> 02:19:02.480]  I'm see if I missed any question. I will regraded and updated in the score sheet.
+[02:19:03.440 --> 02:19:05.840]  Okay, thank you. All right.
+[02:19:09.840 --> 02:19:17.120]  Yeah, I was wondering where you sent the links for the videos because I did have them. I just
+[02:19:17.120 --> 02:19:26.160]  can't seem to find them right now. Okay, so you don't have the, you're in HL or SL, I'm
+[02:19:26.400 --> 02:19:33.280]  HL. So for HL, you don't have to go to the folder to view the videos, what you can do is
+[02:19:34.720 --> 02:19:43.840]  within the canvas itself. Let me share my screen. I'll show you. So within the, I don't know if I can
+[02:19:43.840 --> 02:19:50.800]  go to that page now. When you go to the online classes, there's the online classes link, right?
+[02:19:56.880 --> 02:20:03.200]  I'm on your canvas platform. We have an on, okay, I think I can show you.
+[02:20:03.200 --> 02:20:08.640]  Yeah, I can see ideas. When you go to the online classroom and then go to the main class.
+[02:20:10.000 --> 02:20:15.520]  Yeah. And in the main class, there's a recording tab on the right.
+[02:20:16.720 --> 02:20:21.680]  So when you click on the recording, it will show you all past recordings and you can directly
+[02:20:21.760 --> 02:20:28.480]  it just says there are no recordings for this meeting. Are you looking, are you looking into
+[02:20:28.480 --> 02:20:37.760]  a main class? Yes. See, here is the recording tab. See, what do you have to do is?
+[02:20:37.920 --> 02:20:51.360]  So when you go to the online class, you may see one class with the name main class.
+[02:20:54.720 --> 02:20:59.040]  And when you go to the main class, there is this recording tab and within recording tab,
+[02:20:59.040 --> 02:21:04.880]  you have all the previous recordings available. Like today's recording is still going on,
+[02:21:04.880 --> 02:21:12.080]  so it will be available in an hour or so from now. Okay, I will let you know if I
+[02:21:12.080 --> 02:21:17.280]  so I'm able to find it later on. Thank you so much. Or you can, or you can share your screen.
+[02:21:17.280 --> 02:21:23.760]  I can show you right away. Okay, how do I share my screen? On the top. Okay, once I can
+[02:21:23.760 --> 02:21:36.160]  I'll give you the right. Can you see here? Okay. Can you see my keyboard? Not yet. It may take
+[02:21:36.160 --> 02:21:45.760]  some time to load. Once I can. You click on share and then entire screen and then
+[02:21:46.560 --> 02:21:57.840]  click on that window and then share. I don't think it works. When you click on share,
+[02:21:58.480 --> 02:22:08.000]  okay, maybe you're using my, is it asking me? No, I think it's yeah, the permissions. I don't
+[02:22:08.000 --> 02:22:14.560]  have any. Okay, no problem. So you try that in the recording folders, but we'll also share with
+[02:22:14.560 --> 02:22:21.040]  you one link in your email using which you can access the folder also. Okay, thank you so much,
+[02:22:21.040 --> 02:22:27.760]  sir, for your time. No problem. You're welcome. Also, you Mr. Martin. Thank you.
+[02:22:31.760 --> 02:22:39.200]  Bye. Bye. Have a good day. Thank you. Yeah. Same to you. No, no, you can leave. I was talking to
+[02:22:39.200 --> 02:22:49.280]  you, Aiza. Aiza, you have a question? No, that's it. I was the one talking. I don't think you
+[02:22:49.680 --> 02:22:56.320]  okay. Okay. Okay. Sorry. I thought it was. Okay, Aiza. Fine. All right. Bye. Bye. I have a good
+[02:22:56.320 --> 02:23:05.520]  speaker. Bye. Bye. Bye. Bye. Okay, Martin. Thank you.
+[02:23:09.200 --> 02:23:13.600]  We'll, I think next week is the last one before the break for the turn break, right?
+[02:23:13.600 --> 02:23:31.280]  You're muted. How are you feeling? I mean, for me, it's been a very taxing semester in my
+[02:23:31.280 --> 02:23:39.040]  school and everything that I'm doing, you know. I know. Yeah, it takes a lot of efforts, but that's
+[02:23:39.040 --> 02:23:47.120]  life. True. Thank you for clarifying the questions about the gradients and everything,
+[02:23:47.120 --> 02:23:53.680]  because the kids really were, I got like four emails from, from my SL kids, because
+[02:23:55.200 --> 02:24:02.880]  but I'm, I'm, yeah, we still have no a lot of attendance, you know. We have like maybe 30%
+[02:24:02.880 --> 02:24:09.440]  of attendance. We have like 60% students and we only get like, you have to identify those
+[02:24:09.440 --> 02:24:14.080]  students and then reach out to the SPC's. At least they should know that some students are not
+[02:24:14.080 --> 02:24:23.040]  attending. Yeah. All right. Well, Raj, thank you for everything, man. Okay. Oh, you're welcome. Thank
+[02:24:23.040 --> 02:24:29.120]  you for being there, Martin. Seriously, I mean, we don't have to be there for each class, both of us.
+[02:24:30.000 --> 02:24:34.880]  Once it is settled, then maybe we'll split between us like one week, you can go next week,
+[02:24:34.880 --> 02:24:42.400]  I can go. So like that, you know, so yeah, we'll, we'll, we'll meet and then discuss what's the best
+[02:24:42.960 --> 02:24:48.480]  sure. Okay. Okay. Okay. All right. They can't have a good rest of the weekend. Bye.
+[02:24:50.080 --> 02:24:52.080]  Same to you. Bye. Bye.

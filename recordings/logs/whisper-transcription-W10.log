@@ -1,0 +1,1827 @@
+/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+[00:00.000 --> 00:02.000]  You
+[00:30.000 --> 00:32.000]  You
+[01:00.000 --> 01:02.000]  You
+[01:30.000 --> 01:32.000]  You
+[02:00.000 --> 02:02.000]  You
+[02:30.000 --> 02:32.000]  You
+[03:00.000 --> 03:02.000]  You
+[03:30.000 --> 03:32.000]  You
+[04:00.000 --> 04:02.000]  You
+[04:30.000 --> 04:32.000]  You
+[05:00.000 --> 05:02.000]  You
+[05:30.000 --> 05:32.000]  You
+[06:00.000 --> 06:02.000]  You
+[06:30.000 --> 06:32.000]  You
+[07:00.000 --> 07:02.000]  You
+[07:30.000 --> 07:32.000]  You
+[08:00.000 --> 08:02.000]  You
+[08:30.000 --> 08:32.000]  You
+[09:00.000 --> 09:02.000]  You
+[09:30.000 --> 09:32.000]  You
+[10:00.000 --> 10:02.000]  You
+[10:30.000 --> 10:32.000]  You
+[11:00.000 --> 11:02.000]  You
+[11:30.000 --> 11:32.000]  You
+[12:00.000 --> 12:02.000]  You
+[12:30.000 --> 12:32.000]  You
+[13:00.000 --> 13:02.000]  You
+[13:30.000 --> 13:32.000]  You
+[14:00.000 --> 14:02.000]  You
+[14:30.000 --> 14:32.000]  You
+[15:00.000 --> 15:02.000]  You
+[15:30.000 --> 15:32.000]  You
+[16:00.000 --> 16:02.000]  You
+[16:30.000 --> 16:32.000]  You
+[17:00.000 --> 17:02.000]  You
+[17:30.000 --> 17:32.000]  You
+[18:00.000 --> 18:02.000]  You
+[18:30.000 --> 18:32.000]  You
+[19:00.000 --> 19:02.000]  You
+[19:30.000 --> 19:32.000]  You
+[20:00.000 --> 20:02.000]  You
+[20:30.000 --> 20:32.000]  You
+[21:00.000 --> 21:02.000]  You
+[21:30.000 --> 21:32.000]  You
+[22:00.000 --> 22:02.000]  You
+[22:30.000 --> 22:32.000]  You
+[23:00.000 --> 23:02.000]  You
+[23:30.000 --> 23:32.000]  You
+[24:00.000 --> 24:02.000]  You
+[24:30.000 --> 24:32.000]  You
+[25:00.000 --> 25:02.000]  You
+[25:30.000 --> 25:32.000]  You
+[25:32.000 --> 25:34.000]  You
+[26:00.000 --> 26:02.000]  You
+[26:02.000 --> 26:10.000]  You
+[26:30.000 --> 26:54.000]  That's okay Thomas. Thank you. Thank you for letting me know what you're doing.
+[26:54.800 --> 27:06.480]  That's okay Thomas. Thank you. Thank you for letting me know. Give me one second here.
+[27:13.200 --> 27:18.320]  I prepare all the top comments. We're going to be using the top comment we're going to be using.
+[27:18.800 --> 27:24.160]  All right. So once again, good morning everybody.
+[27:28.720 --> 27:35.360]  We are all rash. He's going to be able to join. It looks like he's going to be with us.
+[27:35.360 --> 27:41.040]  Initially, the plan was that I was going to go as I was going to be with you guys.
+[27:41.840 --> 27:50.560]  He is traveling, so he might have some issues connecting. So I'm going to give him a few minutes
+[27:50.560 --> 27:58.640]  or seconds and see if he's able to join. And if he's not, then I'll start the class.
+[28:00.080 --> 28:08.880]  I haven't had a chance yet to look at the proposals for the IA, but I just before we start,
+[28:09.200 --> 28:21.840]  I just want to see how that process of writing your idea, your proposal went. I just look over
+[28:22.720 --> 28:29.920]  really quick, but I haven't had the chance to really read in detail what you have in mind.
+[28:29.920 --> 28:37.280]  Anybody wants to share the idea that you have for your internal assessment?
+[28:39.040 --> 28:40.080]  Any volunteers?
+[28:42.560 --> 28:43.520]  Namo, go ahead.
+[28:47.680 --> 28:53.600]  So currently, my hobby is playing chess on the site chess.com.
+[28:54.480 --> 29:04.640]  Okay. And I'm managing a club there. So one of my tasks is to update a forum where I record
+[29:05.600 --> 29:15.680]  the points of each member accumulated from arenas. And I manually by searching all the pages.
+[29:17.120 --> 29:26.640]  So the event pages. And now I want to automate it because it's time consuming and has can have some
+[29:26.640 --> 29:36.720]  errors. Okay, cool. That involves managing a little bit of a database. So are you going to try to
+[29:36.720 --> 29:47.040]  do this kind of a standalone app or just with environment? Probably it will be a Chrome extension.
+[29:47.920 --> 29:55.840]  Okay. Okay, cool. All right. Nice. Interesting. Anybody else want to share your idea?
+[29:56.880 --> 30:06.000]  crucial. Go ahead. Oh, me? Yes. Yes. I might mispronounce some of your names, but it's not in
+[30:06.960 --> 30:09.280]  because I just know the no better. Go ahead.
+[30:11.120 --> 30:18.720]  Yeah. So my idea is like, I'm a designer. So I make rings and stuff. And the kids like a ring I made.
+[30:19.680 --> 30:27.600]  And like, I'm going to my idea for my IA is to make a add-on for Brenda, which is like a 3D
+[30:27.600 --> 30:36.640]  modern software where some but where people can input like an image of like a vector image of their
+[30:37.920 --> 30:46.640]  of a shape. And then they can input a ring size. And then the add-on can automatically turn that
+[30:47.200 --> 30:55.920]  vector for image into the a 3D ring ready for 3D printing. And it's all like smoothed out and
+[30:55.920 --> 31:01.760]  everything. And it could be instantly printed off. So you can like test a bunch of you can make
+[31:01.760 --> 31:08.560]  a bunch of rings take refast automated. Because right now I found that like it was really difficult
+[31:08.560 --> 31:16.080]  to make my personal ring with this with in 3D because it's right now making rings takes a lot of
+[31:16.080 --> 31:23.520]  time both digitally and physically. So automating the entire process of making a ring thought I was
+[31:23.520 --> 31:34.240]  I thought was an interesting idea. Okay. Yeah. So you're going to combine I mean looking at it,
+[31:34.240 --> 31:39.600]  you're going to combine a little bit of your graphic design with the computer science that you're
+[31:39.600 --> 31:44.640]  learning. That's pretty cool. Okay. Because it's going to have for both of you it's going to have
+[31:44.640 --> 31:52.800]  a lot of personal engagement. Right. So which is it's an important part of your internal assessment.
+[31:52.800 --> 31:59.040]  All right. Anybody else just one more. Remember that the link for the attendance is on the chat if
+[31:59.040 --> 32:07.760]  you just joined. So make sure that just go and check the attendance. Anybody else has
+[32:08.480 --> 32:14.800]  wants to share with us what you are your proposal for your internal assessment.
+[32:18.160 --> 32:19.280]  Alexandra, go ahead.
+[32:25.120 --> 32:33.920]  So my project is about designing a system to help a necessary doctors manage patient
+[32:34.000 --> 32:40.320]  desire. So it's that they can be able to access patient files easily and then edit their documents
+[32:40.320 --> 32:45.840]  instead of with being stored like on files people files. Okay. Yes.
+[32:45.840 --> 32:55.360]  All right. Pretty good. Again, I have to me and and Rajesh, we need to meet and start looking at
+[32:55.360 --> 33:02.640]  your proposals and just go through the process of approving or not, you know most most of the time
+[33:04.480 --> 33:11.840]  the ideas are Aisa, go ahead and then I'll continue in a second. Aisa?
+[33:12.800 --> 33:19.040]  Yes, sir. Hi. I just wanted to ask how we're going to measure our grades because we didn't do
+[33:19.040 --> 33:31.600]  a midterm exam or anything to give a grade for. So what we do and when I said we is
+[33:31.680 --> 33:41.440]  is Pamoia, what we do is we report to your sites. Right. And in your sites, they coordinate those
+[33:41.440 --> 33:47.920]  things. We, this is my first year working with Pamoia. So I don't have a clear picture of how
+[33:47.920 --> 33:57.040]  they actually do it. Right. I think that will be a question that Raj should answer because he's
+[33:57.040 --> 34:03.600]  the coordinator and I really don't have an exact answer for that. I know what I just said that we do
+[34:05.520 --> 34:13.200]  pass information into your site and the assessment that we need like monitoring and that
+[34:13.200 --> 34:19.200]  somebody needs to be with you guys are just coordinated in your home school.
+[34:20.080 --> 34:25.600]  But I really don't know or don't have an answer to your question. So that would be something I
+[34:25.600 --> 34:32.800]  have to to ask myself. Okay. That's okay. Sorry. Thank you so much. No, thank you. All right.
+[34:32.800 --> 34:39.280]  Anybody else? Okay. I think we, if you guys don't have any questions, any more questions or
+[34:40.160 --> 34:46.480]  just make sure that you take attendance and we are, we're ready to start. Okay. So let me share
+[34:46.640 --> 34:56.160]  my screen. Alma, do you have a question? Yes. For this week's like assignments, I know we were
+[34:56.160 --> 35:01.440]  like supposed to download like Java. But for me, I couldn't figure it out. So I didn't end up
+[35:01.440 --> 35:10.880]  downloading it. So I wanted to ask if you can just quickly help with that. Okay. Let's stay then
+[35:11.600 --> 35:17.440]  at the end of the meeting and then I'll try to see how can I help you. Okay. Okay. Okay. Thank you
+[35:17.440 --> 35:26.800]  so much. You're welcome. All right. So let me share my screen. Let me set this up for us.
+[35:29.120 --> 35:38.240]  All right. So today we are basically going over some basic information about
+[35:38.240 --> 35:47.680]  programming and Java in a specific, right? So let me, let me try to
+[36:08.240 --> 36:09.440]  do it.
+[36:22.480 --> 36:32.160]  One second. One second because this, I opened the file on a different, and it just
+[36:32.480 --> 36:34.080]  doesn't want to see it.
+[36:43.600 --> 36:44.880]  Give me a minute. Please.
+[37:32.160 --> 37:55.200]  I just lost the document. Okay.
+[38:02.160 --> 38:20.720]  All right. Looks like I found it. Give me one second.
+[38:32.160 --> 38:47.920]  Instead, the document is not opening on a tap. It's opening as an individual document, and it
+[38:47.920 --> 39:00.640]  doesn't give me the option to actually show it.
+[39:17.920 --> 39:24.320]  Where is this? Give me one minute.
+[40:17.920 --> 40:29.840]  You see the document now. Yes. Yes. Okay. Yes. Awesome. Give me a second here. All right.
+[40:29.840 --> 40:44.080]  So these are the topics for our class today. So we go into a little bit of what is needed for us
+[40:44.080 --> 40:54.880]  to create our progress in Java, what the IB requires. Okay. So here we're going to see the
+[40:54.880 --> 41:05.280]  definitions of local variables and the different data types that are used in Java, which are the same
+[41:05.280 --> 41:14.720]  data types that we see in other languages. So if you are familiar with Python or C or C++,
+[41:14.720 --> 41:23.040]  those are basically a standard data types that we see. Right. Now we're going to look at local
+[41:23.040 --> 41:32.400]  variables in Java, a field, and when we're able to share variables through different methods on
+[41:33.040 --> 41:43.440]  our program and how to trace the state of a variable as we move through our program in Java.
+[41:43.440 --> 41:47.600]  Right. And then we're going to look at constructing programs that extract
+[41:47.600 --> 41:55.520]  and manipulate strings or substrings how to look into the index position or a particular
+[41:55.520 --> 42:02.080]  character in a string, extracting substrings, finding positions on
+[42:03.920 --> 42:11.520]  of a particular character that we might be looking for in a string, and a common task that
+[42:12.800 --> 42:19.760]  you are probably assessed on during the IB is extract domain name from a running email or
+[42:19.760 --> 42:28.640]  extract a particular substring of a given string. And how to manipulate substring replace
+[42:28.640 --> 42:36.880]  part of a string, concatenate, etc. And then this is a very a section that I find really interesting
+[42:36.880 --> 42:43.680]  because a lot of you probably are going to work with databases or are going to reach some kind of
+[42:43.680 --> 42:54.800]  file. So we need to learn how to manage exceptions, especially when we are reading files.
+[42:54.800 --> 43:00.800]  Obviously there are other exceptions that can happen, especially when there are in unexpected
+[43:00.800 --> 43:12.480]  inputs from either a resource or from the users. Okay. And how to avoid, not necessarily avoid,
+[43:12.480 --> 43:19.680]  but how to manage logic errors if there are logic errors in our code. Okay. And then we're going
+[43:19.680 --> 43:29.520]  to look at some debugging techniques that we use to revise our code. And then at the end,
+[43:29.520 --> 43:38.000]  there are some questions that I intend to ask you a couple of those so we can have a practice.
+[43:38.000 --> 43:48.640]  Okay. Can I have some practice? Okay. All right. So let's start. All right. So in Java,
+[43:50.160 --> 43:56.640]  so a variable is just a placeholder, right? A placeholder to a store's own some value. That what
+[43:58.240 --> 44:06.080]  a variable is. The definition here is like a name box in the sense that we do when we declare a
+[44:06.080 --> 44:16.160]  variable as a part of memory is selected to hold that particular value and the size of that
+[44:16.160 --> 44:24.800]  depends on the type of variable that we are defining. Here are some examples.
+[44:26.800 --> 44:34.400]  When we define a variable in Java, we variables in Java are static, which means that we have to
+[44:34.400 --> 44:43.760]  define a type. And that type stays with the variable throughout the whole program. So we can
+[44:43.760 --> 44:53.280]  not change the data that that particular variable stores, right? So it has, it requires a type,
+[44:53.280 --> 45:01.040]  which in this case will be the integer, a name for the variable and then a value. For those of you
+[45:01.120 --> 45:10.800]  that are new to coding, the equal sign is the assignment operator. And assignments in Java,
+[45:10.800 --> 45:20.400]  we always read them from from right to left. Okay. So these are the clear as a variable name age,
+[45:21.120 --> 45:30.720]  whose value is going to be 16, which is an integer. So in Java, for us to store a decimal
+[45:30.720 --> 45:37.440]  numbers, we can use a double or float, but most of the time for what the applications that we
+[45:37.440 --> 45:42.640]  are going to develop in this course, we're going to use a double variables. Okay.
+[45:44.720 --> 45:50.720]  Float variables will be used if we need like a bigger precision. And for that is like
+[45:52.320 --> 45:58.880]  flow variables have between 15 to 16 decimal places for precision while doubles have between
+[45:59.360 --> 46:06.400]  seven and eight, but that's probably more than enough for what we will be doing. The other type of
+[46:06.400 --> 46:15.600]  variable is a chart character variable. Characters are defined in Java between single quotes.
+[46:15.600 --> 46:25.760]  And Boolean variables, those are variables that take either a true or false value. And then a string,
+[46:25.760 --> 46:32.480]  a string is just a collection of characters in double quotes. And that's what a string is. Okay.
+[46:32.480 --> 46:40.880]  As I mentioned earlier, Java is a statistical type. We have to declare and that type is fixed
+[46:40.880 --> 46:50.960]  throughout the life of the through the program. Okay. Now I be required you guys to focus on these
+[46:50.960 --> 46:59.440]  types of variable, right? Boolean character integer string decimal. All right. Obviously,
+[47:00.080 --> 47:07.360]  they're going to be some data types that we might need, especially depending on the type of
+[47:07.360 --> 47:13.040]  internal assessment that you might end up developing. All right. So here we have a
+[47:13.360 --> 47:23.360]  a small piece of code. A Boolean variable is logged in is the clear and is set to false.
+[47:25.120 --> 47:32.640]  So this if statement is going to check if it's login the state of that variable if it's false or
+[47:33.680 --> 47:39.360]  true. And then if it is true, so if the person is logged in, then it's going to
+[47:40.000 --> 47:45.680]  present to the screen this test. Welcome back. And if it's not, then it's going to say,
+[47:45.680 --> 47:51.920]  please login, right? So that will be an use of that particular variable. So most of the use of
+[47:51.920 --> 48:00.240]  Boolean variables is in conditional statements. And conditional statements in this case, most
+[48:00.240 --> 48:06.320]  of them are if statements, right? All right. So characters, these are different types of characters.
+[48:06.320 --> 48:14.880]  Variables that we can define, letters, digits, symbols, all we need is just then in a single
+[48:14.880 --> 48:25.600]  quote, okay? In reality, the way Java actually stores the character is actually stored in a
+[48:25.600 --> 48:31.600]  medical code that represents that character. Remember when we discuss about data representation,
+[48:31.600 --> 48:37.120]  the ASCII code, the Unicode. So that code will be the one that actually says store, all right?
+[48:38.400 --> 48:46.720]  So integers, positive or negative integers, and most of the time we use them for counting,
+[48:46.720 --> 48:55.200]  for indexing arrays, for loops, things of that nature. And then decimal, which is double,
+[48:55.920 --> 49:04.080]  right? And decimal for IB in level program. So again, as I said earlier, I don't think we
+[49:04.080 --> 49:12.320]  will have the need to use float type variables. But the case, my arrive that we do. And in that case,
+[49:12.320 --> 49:19.040]  well, we'll just use that. All right. So decimal values are useful fractions, like average distance
+[49:19.040 --> 49:24.960]  at percent. And then we have a string, which is just a collection of characters of sequence of
+[49:24.960 --> 49:35.920]  characters. These are two examples of them. And one particular difference between the previous
+[49:35.920 --> 49:43.520]  type of variables and the string is that the string is actually an object in Java. And also,
+[49:43.520 --> 49:49.200]  there are going to be some methods that are going to be associated with that, okay? All right.
+[49:49.200 --> 49:59.840]  So local variables, local variables are either the clear, inside a method, a constructor of a blog,
+[50:00.400 --> 50:11.200]  like for example, on an if, or a loop. So when we start a loop like four, and four in I equal
+[50:11.200 --> 50:19.760]  to zero, so on, that I on that for loop becomes a local variable, and always going to exist during
+[50:19.760 --> 50:28.000]  the execution of that particular for loop or the blog, okay? So it's called local, because they only
+[50:28.000 --> 50:34.640]  access bit within the method or the blog that is running, right? So that is this scope. The scope
+[50:34.720 --> 50:41.200]  of the variable is where the variable actually is alive. And after that execution of the blog,
+[50:41.200 --> 50:48.000]  the variable stops existing, which means that it's not the longer of kind any memory.
+[50:49.200 --> 50:58.720]  Okay? So here we have a small example. So we have this method. And for those of you that are
+[50:58.720 --> 51:05.520]  new to Java, then this is what we call the signature of the method, right? And then we have
+[51:07.360 --> 51:17.360]  methods are similar to functions in Python in the sense that you have a beginning and at n.
+[51:17.360 --> 51:24.000]  In this case, this is the name of the variable message. It's been initialized to this string.
+[51:24.720 --> 51:31.680]  So it's local because it's in within this method. So here we have
+[51:35.120 --> 51:44.640]  the main method that is trying to that is calling this particular method, right? So notice the
+[51:44.640 --> 51:54.000]  variable message was defined locally inside these brackets, right? From here to there. That's
+[51:54.000 --> 52:03.760]  where this variable message exists. When we go into the main method, which is this, there is
+[52:03.760 --> 52:11.360]  no problem calling the method and the method what is going to do is going to or the compiler is
+[52:11.360 --> 52:17.280]  going to do is going to go to where the instructions of that method is and execute the statements.
+[52:18.480 --> 52:26.960]  The variable message leaves there. So this is completely valid. However, when we go to outside
+[52:27.440 --> 52:35.200]  that method, like here, right now that's a comment, right? But if we were to compile and run this
+[52:36.160 --> 52:44.240]  a small program, then this will give us an error. And the error will be running time error because
+[52:44.240 --> 52:53.120]  there is no logic error in what is written here only that we are not using the variable message
+[52:53.120 --> 53:01.840]  in the correct scope. So that will create a runtime error when we run the program. So message is
+[53:01.840 --> 53:07.200]  local to grid. It is created when grid is called and this appears when it's finished. So that's
+[53:07.200 --> 53:16.800]  why calling it here will create a compile runtime error. All right. So here we have, is there any
+[53:16.800 --> 53:26.640]  particular question up to this point? Anybody? We're good? All right. So if we are less,
+[53:26.640 --> 53:31.840]  let's keep working on this. All right. So feels and share variables. A question? Yes. Go ahead.
+[53:32.720 --> 53:40.480]  So it needs a compile timer, not runtime error. Right. It's when you compile.
+[53:40.480 --> 53:46.320]  You just mentioned. Right. Right. I'm sorry. Yes. It's compile. Well, it won't compile. The
+[53:46.320 --> 53:52.160]  program won't compile, right? Because it's going to say, right, in order on time error. Thank you
+[53:52.960 --> 53:58.720]  for clarifying that. That is correct. It's not going to compile because the scope of the variable
+[53:58.720 --> 54:07.760]  is not the correct one. Yeah. All right. So feels and share variables in Java.
+[54:09.120 --> 54:16.560]  So one characteristic of Java is that we really don't have global variables. But I guess there is
+[54:16.560 --> 54:24.400]  a workaround for that. And is if that you declare a variable at the class level.
+[54:25.280 --> 54:32.160]  Okay. So for example, if you look at this piece of code, here is the signature of the class.
+[54:32.160 --> 54:40.080]  And here we are declaring a variable that is, it doesn't belong to any particular method.
+[54:40.080 --> 54:50.640]  Not the main, no, any other method. Right. That variable count that is declared as
+[54:50.640 --> 54:59.440]  a static is going to be accessible to all the methods in the class. All right. So in that sense,
+[54:59.440 --> 55:07.360]  that becomes a global variable. All right. Because has access or this scope of the variable is
+[55:07.360 --> 55:14.000]  any, any part of the class because right now is being declared as a class variable. Right.
+[55:14.000 --> 55:21.840]  So it's accessible for all the methods in the class. So this variable count will be changed
+[55:22.800 --> 55:30.880]  if we call the method increment. That will change the value of the variable count. So notice
+[55:30.960 --> 55:38.160]  count is not defined inside increment. So it's not a local variable is actually, in this case,
+[55:38.160 --> 55:45.040]  a global one, right. Or it's acting as a global bar. Right. So here we have kind of the whole
+[55:46.400 --> 55:57.920]  program. So in the main method, we call increment twice. So since the variable count is a field
+[55:57.920 --> 56:03.520]  variable. So the first time we call increment is just going to increment the value by one.
+[56:04.960 --> 56:13.840]  And then here, it will be incremented by one also. Now notice that count to print the value of
+[56:13.840 --> 56:21.440]  count is actually called in the main outside the two inside outside. I'm sorry, the method.
+[56:22.080 --> 56:30.560]  But since it's a field that is accepted everywhere, then this won't be an issue. Right. Then it can be
+[56:30.560 --> 56:40.560]  there. Now, so note for us as programmers, even though that's feasible to do is in reality,
+[56:40.560 --> 56:47.440]  not a really good practice to do to have a bunch of global variables because it's going to be
+[56:48.160 --> 56:56.880]  at some point cumbersome to actually be able to follow the program. Okay. So can you have some?
+[56:56.880 --> 57:02.160]  Yes, of course, you can have some. Right. And the nature of the task that you're going to do,
+[57:02.160 --> 57:09.040]  the nature of the problem, you're developing probably are going to require one or two global variables.
+[57:09.600 --> 57:15.200]  But we don't want too many of them. It's going to cost probably a lot of methods,
+[57:15.280 --> 57:22.080]  problems later on to follow the state of that variable. Since it's chair and can be changed for
+[57:22.080 --> 57:32.160]  different methods. Okay. All right. So something that you are going to be for sure as during your
+[57:32.160 --> 57:40.720]  assessment is tracing a piece of code somehow. Right. So let's consider this code.
+[57:40.720 --> 57:46.960]  Give me one second. I have prepared another document where you can see the whole.
+[57:50.000 --> 57:57.200]  You can see the whole document together. All right. So give me one second. Let me see if I'm able to
+[58:01.280 --> 58:09.680]  to actually do that. So let me stop chairing this document and then I'll change to another.
+[58:10.720 --> 58:25.520]  Give me one second and I'll share something else. This one. Okay.
+[58:30.640 --> 58:38.640]  All right. Here here it is. So here is the whole document. So this is what I would like you to do.
+[58:40.960 --> 58:49.680]  Tracing a document is keeping track of the values of the different variables.
+[58:50.240 --> 58:58.400]  Right. So in this case, we want to see what the output will be. So in this particular case,
+[58:58.400 --> 59:07.680]  we have a static variable total that is going to be a share field because it's at the level of
+[59:07.680 --> 59:18.080]  the scope is the whole class. Right. And then inside this update, we also have a local variable
+[59:18.080 --> 59:27.760]  whole value. And then total, which is the scope is the whole class, then total is updated inside
+[59:27.760 --> 59:37.040]  this. Right. And then this particular method update is called twice during the domain method.
+[59:37.040 --> 59:49.360]  All right. So go ahead and try it on your own to trace this particular program. And I will
+[59:49.360 --> 59:56.880]  like for you guys to type the answer that you believe on the chat. Just wait a second. Hold it
+[59:56.880 --> 01:00:01.760]  in your mind for a second so we can give the chance to other people to kind of trace
+[01:00:02.560 --> 01:00:05.360]  this particular program. Okay.
+[01:00:10.960 --> 01:00:21.600]  And then in a second, in a minute, I'll tell you or we can just look at it. Okay.
+[01:00:22.080 --> 01:00:45.840]  So when you're ready, go ahead and type your answer but on a private chat to me because I don't
+[01:00:45.840 --> 01:00:53.360]  want anybody to see the actual value. Right. I want to see what you guys get on your own.
+[01:00:54.480 --> 01:01:02.080]  Okay. So on a private chat to me answer what will be the output of this program.
+[01:01:16.640 --> 01:01:29.360]  All right. That's fine. We're
+[01:01:29.680 --> 01:01:38.800]  know you're good. Good, good. All right.
+[01:01:44.240 --> 01:01:51.440]  I'm waiting. Sophia, you're good. No, you're correct.
+[01:01:52.400 --> 01:01:59.920]  Jason, go try one more time. Go back and try one more time. Okay. Marco, you're good.
+[01:02:04.320 --> 01:02:17.280]  Oh, um, value, value implies what is past. I'll explain that in detail. So value is what is past
+[01:02:18.000 --> 01:02:24.800]  to the update method. So for example, when we call update the first time with a three,
+[01:02:26.160 --> 01:02:40.160]  right. So this value gets the value three. So on the first call, this line is three times two
+[01:02:40.240 --> 01:02:46.400]  because the value that is past the argument that is given was three. Okay.
+[01:02:47.760 --> 01:02:52.240]  So let's see. Alma, yes, that's, that's, that's correct.
+[01:02:53.840 --> 01:03:04.400]  Jason, try to take a look again. Marco, we're good. Ricardo, yes. Thomas, correct.
+[01:03:05.680 --> 01:03:06.800]  Tyler, correct.
+[01:03:10.480 --> 01:03:13.280]  All right. Pretty good.
+[01:03:15.680 --> 01:03:23.840]  Julia, yes. That is correct. All right. So, um, almost, uh, everybody, just a couple of you,
+[01:03:23.840 --> 01:03:30.640]  I would like Jason to give it a, uh, one more try. Okay.
+[01:03:30.720 --> 01:03:31.680]  Yeah.
+[01:03:33.760 --> 01:03:41.360]  Yeah. See that take your time. We're, we're not in a hurry. Okay. This is a skill that, uh, is very,
+[01:03:41.360 --> 01:03:49.360]  very, uh, common to be assessed during, um, attest. Okay. And this is just, uh, one example.
+[01:03:51.600 --> 01:03:59.280]  All right. So I'm going to pick on, on somebody to actually explain it instead of me. Okay.
+[01:04:01.040 --> 01:04:04.000]  So who wants to volunteer to, um, to explain it?
+[01:04:07.120 --> 01:04:10.960]  All right. There are people, uh, raise their hand, give me a second. Okay.
+[01:04:12.080 --> 01:04:18.480]  Uh, all right. So Marco, go ahead. Okay. Go ahead and explain. So,
+[01:04:23.680 --> 01:04:25.040]  how do we trade this program?
+[01:04:30.800 --> 01:04:41.840]  Marco, we, uh, I cannot hear you. I don't know. Yes. Now I can hear you. Yes. Yeah. So, um,
+[01:04:43.120 --> 01:04:48.880]  we have that the total is declared, uh, firstly as five and it's, that's our start value.
+[01:04:49.920 --> 01:04:58.960]  Then, um, without the directly looking at the, um, function, we know that the, um, entered
+[01:04:58.960 --> 01:05:06.080]  value is three. So, um, then locally is the grade declared as three times two.
+[01:05:06.960 --> 01:05:15.360]  So six. So we do total, which is five plus six, which is 12, 11, sorry.
+[01:05:16.560 --> 01:05:24.320]  And then we do it again, but for, uh, one, so we have a local, which is equal to one times two.
+[01:05:24.720 --> 01:05:30.960]  Give me one second, uh, Marco. Give me one. All right. So, so Marco was saying, okay, the first time
+[01:05:30.960 --> 01:05:42.400]  the update, um, method is called three. This value is the argument that receives. So in this line,
+[01:05:43.040 --> 01:05:54.640]  value becomes three and then value is multiplied by two and that is assigned to local. So in
+[01:05:54.640 --> 01:06:08.560]  this case, local is six plus total. So this 11 is total that was five plus the six that comes from
+[01:06:08.560 --> 01:06:20.960]  value times two. So at this point, total is 11, correct? Okay, keep going, uh, Marco.
+[01:06:20.960 --> 01:06:28.000]  Okay, so then we do the same thing, but for one and we have that local is equal to one.
+[01:06:28.880 --> 01:06:33.920]  Sorry, a value is equal to one. Then we do times two. So it's two.
+[01:06:34.160 --> 01:06:43.120]  And then, um, we added to the total we have, so 11 plus two, so 13.
+[01:06:44.160 --> 01:06:51.680]  All right, so at the end, uh, that is 13. So the, the function without good assist, uh,
+[01:06:51.680 --> 01:06:57.520]  final total is 13. Right, correct. So the final total is 13.
+[01:06:58.160 --> 01:07:12.240]  Um, so somebody was asking, um, to clarify what was value. Okay, so let me, uh, clarify that
+[01:07:13.360 --> 01:07:19.520]  in a sec. All right, so in this, and I'm looking at this because I have the document here and
+[01:07:19.520 --> 01:07:24.960]  over there. So if I don't look at the front place, excuse me. So, uh, this is what's going on,
+[01:07:24.960 --> 01:07:35.840]  right? This is the signature of the method, okay? This variable that is defined inside the
+[01:07:35.840 --> 01:07:42.640]  parenthesis is what we call the parameter of the method and what that is is going to receive
+[01:07:44.080 --> 01:07:49.040]  information, the method receive information. In this case, the type of information that the method
+[01:07:49.040 --> 01:08:04.000]  receive is an integer value. Now that value variable receives the value three. When we pass
+[01:08:04.000 --> 01:08:09.680]  information to a method, then this three becomes what we call the argument. So the argument is
+[01:08:09.680 --> 01:08:17.840]  the value that the parameter is going to receive. So the variable value becomes three.
+[01:08:18.640 --> 01:08:27.600]  So on this first line, then that's, this value in reality is the number three three times
+[01:08:27.600 --> 01:08:37.040]  two six and that is assigned to the variable local. And then here we add, as we explain already,
+[01:08:37.040 --> 01:08:46.560]  that value six to the total. Okay, now every time we call that method, then if we call it with a
+[01:08:46.560 --> 01:08:54.480]  different argument, the value of the parameter would change. Okay? So that will be that particular
+[01:08:56.880 --> 01:09:00.080]  example. Any, any question on that?
+[01:09:03.680 --> 01:09:09.280]  Anybody? We're good. Is that a little bit more clear than it was?
+[01:09:09.680 --> 01:09:18.960]  Give me thumbs up so I can, I can determine if you guys are good. All right? Excellent.
+[01:09:21.120 --> 01:09:30.640]  All right, so let's continue. All right. I'm going to change to the previous document.
+[01:09:31.440 --> 01:09:39.120]  So we can continue with that. Okay? All right. So we just trace this
+[01:09:42.480 --> 01:09:48.720]  this document. And here is the trace. Here is the actual trace. In the main
+[01:09:48.880 --> 01:10:00.160]  total before any of the calls is five. Right? When we call update with the value of three,
+[01:10:00.720 --> 01:10:10.160]  the local variable becomes six, total is still five has not been changed. But after they call to the
+[01:10:10.160 --> 01:10:20.000]  method update, then that variable, total becomes 11. So when the update method is called one more time
+[01:10:20.000 --> 01:10:28.800]  with the value of one, then now the local variable is going to become two because it's two times one.
+[01:10:28.800 --> 01:10:36.960]  And then total before the end of that is 11, but then we add two more, then it becomes 13. So at the
+[01:10:36.960 --> 01:10:48.080]  end, the output is 13. All right. So local variable is recreated each time the method update
+[01:10:48.080 --> 01:10:56.240]  is called and runs, right? And it stops existence outside that method. But total since it's a
+[01:10:56.240 --> 01:11:02.560]  field, it's going to maintain the value between the calls of the methods. So that's what makes it
+[01:11:03.520 --> 01:11:11.600]  acting like a global variable. Okay? So this is style of tracing is what the students are
+[01:11:11.600 --> 01:11:18.960]  expected to do for IB questions. Okay? So you might be given in this case, what I share with
+[01:11:18.960 --> 01:11:27.680]  you a second ago was a whole program. It could be that you just are given a segment of code. Okay?
+[01:11:27.760 --> 01:11:35.840]  But we have to get used to trace programs and what we're doing is really looking at the state
+[01:11:35.840 --> 01:11:41.120]  of a variable. The state of a variable is nothing else that the value of the variable,
+[01:11:43.840 --> 01:11:51.280]  the value of the variable as we go through the program itself. Okay? But that's a very common
+[01:11:51.280 --> 01:11:55.760]  aspect of those type of questions definitely on the assessment.
+[01:11:57.680 --> 01:12:03.680]  All right. So here are a couple of examples of constructing programs that extract and
+[01:12:03.680 --> 01:12:10.000]  eliminate super strings in Java, right? As I mentioned earlier, strings are objects.
+[01:12:11.440 --> 01:12:20.240]  And that means that they're going to be some methods associated with those strings. So here we have
+[01:12:20.240 --> 01:12:31.760]  an example, right? Extrines are indexing. In this case, from zero to the length of the string,
+[01:12:31.760 --> 01:12:39.760]  right? So the string here is hello. In the zero is the first h or the h on the work hello,
+[01:12:39.760 --> 01:12:49.920]  index one is e and then you go two, three, four. So in reality, the length of this string is five,
+[01:12:50.400 --> 01:13:00.080]  but the index indexing, I'm sorry, started zero all the way to four. All right. So one of the
+[01:13:00.080 --> 01:13:09.280]  methods that we can use for strings is char add. And what that is is we're able to get a particular
+[01:13:09.280 --> 01:13:18.080]  character of the string depending on the position that we supply. So in this case, char add is a method
+[01:13:18.080 --> 01:13:27.520]  that requires an integer and that integer is in the index or represents the index that we want to
+[01:13:27.520 --> 01:13:35.600]  access on the string. All right. So for example, here last, notice I want you to look at the syntax,
+[01:13:35.600 --> 01:13:42.080]  right? We're looking at let's go from the inside out right here. Let's start with this, right?
+[01:13:42.080 --> 01:13:52.000]  So we declare a variable hello, right, which is of type string. So this statement inside the
+[01:13:52.000 --> 01:13:58.560]  parenthesis, this statement by itself, the one I just highlighted is just going to get the length
+[01:13:58.560 --> 01:14:06.320]  of the string. So in this case, the length of the string should be five, correct? Because that's how
+[01:14:06.320 --> 01:14:15.440]  long it is. We're subtracting one from it. So this becomes four. So we're saying that the last
+[01:14:15.440 --> 01:14:26.080]  character of this string is the character at position four. And then the output or the not the output
+[01:14:26.080 --> 01:14:32.160]  because we're not printing this anywhere. But the the result of this statement will be that we
+[01:14:32.640 --> 01:14:39.680]  are accessing the character in position four on the string, which in this case is
+[01:14:41.280 --> 01:14:48.640]  oh, all right. So that's just to access one particular character. Obviously we will need the
+[01:14:48.640 --> 01:14:54.880]  position, right? All right. So how can I get super strings from a particular string? There are
+[01:14:54.880 --> 01:15:01.440]  two ways to do that. So here we're defining a string that is super string one.
+[01:15:02.960 --> 01:15:11.440]  And we are assuming that the arguments or the parameters of this method are two of them.
+[01:15:12.160 --> 01:15:20.080]  The initial is where we want the super string to that we want to extract extract starts and
+[01:15:20.080 --> 01:15:28.320]  where that super string ends. Okay. So this one requires both these other one.
+[01:15:30.320 --> 01:15:36.320]  Another the other method is that you just give them the star index and it will go from that
+[01:15:36.320 --> 01:15:43.520]  all the way to the end of the string. Okay. So two things to take into account the star index is
+[01:15:43.520 --> 01:15:51.840]  inclusive. But the end index is exclusive. So the character that is at the end index is not
+[01:15:53.200 --> 01:16:03.200]  taken when we take the super strings. Okay. And indices must go from zero to the length of the string.
+[01:16:03.200 --> 01:16:11.840]  A very common mistake sometimes is to pass over the length of the string and trying to access
+[01:16:12.720 --> 01:16:21.120]  a character. That's a very common mistake that sometimes we do. All right. Okay. So let's take a look
+[01:16:21.120 --> 01:16:29.200]  at this. So let's look at this example. So here we have the string text which is computer science.
+[01:16:30.560 --> 01:16:38.240]  So word number one will go from zero which will be the character Z in this case all the way to
+[01:16:39.200 --> 01:16:46.560]  the character eight. But remember that the eighth character is not inclusive. So the eighth
+[01:16:46.560 --> 01:16:53.600]  character goes up to there or he reads up to there but it doesn't include that character. So that's
+[01:16:53.600 --> 01:17:03.600]  why the only super string or the characters of the super string that we will be able to get is just
+[01:17:03.600 --> 01:17:12.160]  computer. Right. The eighth index is just the space. But that is not included. And then from
+[01:17:12.160 --> 01:17:19.200]  nine which is the S, we will go all the way to the end of the string and then capture that particular
+[01:17:19.200 --> 01:17:24.160]  super string. All right. So those two ways to obtain something for a string.
+[01:17:26.160 --> 01:17:33.120]  Finding positions with index of of the last index of. So let's look at this particular example.
+[01:17:33.840 --> 01:17:42.720]  So index of finds the first position where a super string occurs. So if you look at the email
+[01:17:42.720 --> 01:17:54.080]  string, it has the student and the student name at and the school organization or the domain.
+[01:17:54.080 --> 01:18:02.800]  Right. So in this case, this is going to return. It's going to give us a position
+[01:18:02.800 --> 01:18:09.120]  and index number where this will be. So what would be the answer of this particular
+[01:18:10.080 --> 01:18:20.320]  statement? What will be what is the index value of the symbol add in this string? What it will be?
+[01:18:21.040 --> 01:18:35.280]  You can just say seven. Which one is it? Seven. Seven. Right. Remember that the index is
+[01:18:35.280 --> 01:18:41.520]  started zero. So the return value will be seven. All right. On the last index of find the last
+[01:18:41.520 --> 01:18:49.840]  appearance. Right. And that is useful for file extensions. So if we look at this example.
+[01:18:51.040 --> 01:18:57.360]  Right. So we have no dot final dot version dot dot dot. Right. So if
+[01:18:58.560 --> 01:19:05.680]  lacks in this off, we want to know where is for what is the index of this particular point,
+[01:19:05.760 --> 01:19:14.080]  but is the last one. So if we know that particular index number, so now we can take the
+[01:19:14.080 --> 01:19:19.200]  service stream that is going to give us just the extension of the document because we're going
+[01:19:19.200 --> 01:19:26.080]  to go from that position plus one. Right. Because they we don't want to include the dot. So we have
+[01:19:26.080 --> 01:19:32.720]  to go one more. So this will return this particular service string. Does it that may sense?
+[01:19:33.680 --> 01:19:46.960]  We're good. All right. So let me see. So this is a common service string task that you might
+[01:19:46.960 --> 01:19:54.800]  be asked on an assessment. I mean, not exactly that, but something similar to it. So let's see.
+[01:19:55.760 --> 01:20:04.320]  Let me one second. Okay. This is the whole thing. So yeah. So that is the whole program.
+[01:20:04.320 --> 01:20:14.000]  Take a look at it. Kind of trace it and tell me what will be the output of this.
+[01:20:24.800 --> 01:20:41.360]  It'll be school dot org. So the output should be O R G school dot org school dot org the whole
+[01:20:41.360 --> 01:20:46.800]  thing, right? The whole domain. All right. So let's take a look at that is correct. Let's look
+[01:20:47.280 --> 01:20:56.960]  what this is done, right? So we have a method that is called get domain. The parameter of that
+[01:20:56.960 --> 01:21:04.560]  method is a string. In this case, the string is going to be the email that we passed on.
+[01:21:06.240 --> 01:21:08.560]  And that method get domain
+[01:21:09.040 --> 01:21:19.920]  has a local variable that is going to give me the position of the character at, right? It's
+[01:21:19.920 --> 01:21:26.560]  going to give me that position. But it's not it's going to return. It's going to give me back
+[01:21:27.360 --> 01:21:33.440]  that position plus one. So let's look at this in more detail. Okay.
+[01:21:33.600 --> 01:21:44.560]  Let's go back to this line. This is the signature of the method. Okay. Let's take a look at that
+[01:21:44.560 --> 01:21:57.200]  for a second. So the name of the method is get domain. This string here is telling us the type
+[01:21:57.280 --> 01:22:08.160]  of information that this method is going to return. All right. So we'll go into more detail
+[01:22:08.160 --> 01:22:16.000]  with the public study as we as we learn more Java. But right now, this is saying that the result
+[01:22:16.000 --> 01:22:23.120]  of calling this method is to provide us with a string. That's what it says, right? So here we get
+[01:22:23.200 --> 01:22:31.840]  the position of the ad symbol through the index of, as we saw in the previous example,
+[01:22:31.840 --> 01:22:40.720]  but what are we returning? So we are returning a sub-strain. What sub-strain? The string,
+[01:22:40.720 --> 01:22:47.680]  the sub-strain that starts one more than the position where this symbol is at.
+[01:22:48.560 --> 01:22:54.320]  All right. So when this method is called in the main, which is called right here,
+[01:22:54.960 --> 01:23:03.760]  right? It's called right there. Sorry. I don't know why you did that. All right. So,
+[01:23:03.760 --> 01:23:10.720]  oh, because it thinks it's at a real email. So that's why it's right to do that. All right. So
+[01:23:10.720 --> 01:23:20.080]  when we call this as to an at a school dot org is the argument that is passed to the method.
+[01:23:21.360 --> 01:23:31.920]  Right. We find the index of ad. We added one to it. And here we are returning that. So that
+[01:23:31.920 --> 01:23:40.160]  means that we go from a school dot org all the way. And that's what is, that's what is return.
+[01:23:40.880 --> 01:23:48.080]  All right. So that also is tracing the program. What is the program doing? Any questions on that
+[01:23:48.080 --> 01:23:55.520]  anybody on how this particular program will work? All right. So remember, you will have access
+[01:23:55.520 --> 01:24:00.720]  to this to go on when we share it on the documents folder. All right. So here is the explanation,
+[01:24:00.720 --> 01:24:08.160]  right? We find the index of that. And then this takes everything after that position.
+[01:24:09.120 --> 01:24:21.360]  All right. All right. So, um, less, less, less, less, let me see. What would be the result
+[01:24:23.840 --> 01:24:30.400]  of this particular program there? Well, actually the answer is on your screen. So,
+[01:24:31.280 --> 01:24:36.320]  so I guess I don't need to ask that. But let's take an analysis of this, right? We have
+[01:24:38.400 --> 01:24:45.520]  a method called invert name is going to return meaning it's going to produce a string.
+[01:24:46.480 --> 01:24:53.120]  Right. And the parameter is another string. It receives something from us which has to be a
+[01:24:53.120 --> 01:25:03.760]  string. Right. So what is it going to do? So it's going to find where a space, the index where a
+[01:25:03.760 --> 01:25:11.200]  space is and is going to store that position into the space position variable, which is an integer.
+[01:25:12.080 --> 01:25:20.800]  And then since we are calling the input is at a low place. So that means that is actually
+[01:25:20.800 --> 01:25:28.000]  finding this position, the position of the space and that position will be what position?
+[01:25:28.960 --> 01:25:38.960]  What is the exposition of the space should be three should be three, right? So the position here is
+[01:25:38.960 --> 01:25:46.480]  three and then it's going to take the first name from position zero all the way to three. Remember,
+[01:25:46.480 --> 01:25:53.840]  this is not inclusive. So we don't take the space. So this first name now has the value of add
+[01:25:54.160 --> 01:26:01.920]  or the string add in it. Right. And then the last name from the space plus one, it would be
+[01:26:01.920 --> 01:26:13.600]  low place. And then all we do here is print in reverse order. This line, we haven't talked about
+[01:26:13.600 --> 01:26:22.000]  it, but this line, if you see, do you see the plus signs plus implies that is called concatenation
+[01:26:22.000 --> 01:26:28.640]  of strings. Basically, we're putting those strings together. And there are actually three
+[01:26:28.640 --> 01:26:38.000]  strings in this statement. The last name, the space and the comma and the last name. So the output
+[01:26:38.000 --> 01:26:47.600]  is going to be this. That will be the output of this particular program. Questions, comments,
+[01:26:48.400 --> 01:26:56.240]  anybody? We're good. All right. If I'm going too fast, let me know. All right. Or too slow,
+[01:26:56.960 --> 01:27:06.240]  also. All right. So manipulating service strings, we can use replace to alter part of a string.
+[01:27:07.680 --> 01:27:13.200]  So for example, here we have the sentence of the variable sentence, which is a string I love
+[01:27:13.280 --> 01:27:22.560]  math. So the new sentence, we're going to replace a sewer string by another. So you just give them
+[01:27:23.760 --> 01:27:29.280]  what you want to replace and what you want to replace by. That's all the arguments that you need.
+[01:27:30.720 --> 01:27:37.520]  So when you use, when you print that particular new sentence, then it will become I love computer
+[01:27:37.520 --> 01:27:45.520]  signs. All right. So as I mentioned earlier, concatenating strings is just adding them this particular
+[01:27:45.520 --> 01:27:55.360]  way. So you can add that information and produce one string. You could ask in this example, just
+[01:27:55.360 --> 01:28:06.080]  concatenate them and assign to another variable string. Okay. And we can also build service strings
+[01:28:06.080 --> 01:28:14.560]  from from different pieces. All right. So for example, we have this code. We can get the
+[01:28:14.560 --> 01:28:20.320]  service string that goes from five to seven, which is computer science, the code of the class.
+[01:28:20.320 --> 01:28:28.080]  We can take the service string from the eighth position all the way to the end, 2027. And then now,
+[01:28:28.080 --> 01:28:34.960]  I can build a new string just by concatenating those two pieces of information. Okay.
+[01:28:35.680 --> 01:28:43.760]  So that is build them a string from other pieces. Right. This is a very important for us to
+[01:28:43.760 --> 01:28:49.760]  understand because this will be something that eventually you're going to be using
+[01:28:51.440 --> 01:29:00.240]  to make sure that your program works properly in case the user inputs the wrong type of
+[01:29:00.240 --> 01:29:08.480]  information. Right. We need to handle that. And what that is is called handling exceptions.
+[01:29:08.480 --> 01:29:14.000]  When we're running the program and maybe we want to access a file that is not there.
+[01:29:14.880 --> 01:29:20.320]  We don't want the program to crash. We actually want the program to be able to handle that situation.
+[01:29:20.320 --> 01:29:28.080]  It's looking for a resource. It's not there. What happens? Or if we ask for a particular type of
+[01:29:28.080 --> 01:29:34.240]  information and the user by mistake or whatever just provides something that is not the type of
+[01:29:34.240 --> 01:29:40.880]  information that we need, then we need to handle that. We don't want the program or program to crash
+[01:29:40.880 --> 01:29:45.680]  just because it's not receiving the correct input. All right. So the syllabus
+[01:29:46.960 --> 01:29:55.040]  asks us to know to handle unexpected inputs. Right. And determine if a resource is available or
+[01:29:55.040 --> 01:30:01.200]  not available. That means if we're going to open a file or is the file that's the file access.
+[01:30:01.200 --> 01:30:08.080]  What we're looking for it or not with the program should handle that and managing some logic errors,
+[01:30:08.080 --> 01:30:14.640]  possible logic errors. Okay. So unexpected inputs happens when the user enters information that is
+[01:30:14.640 --> 01:30:23.680]  different from what we're asking. And when that happens, usually what happens is if like in this case,
+[01:30:23.680 --> 01:30:33.280]  right, the user enter a letter instead of numerical value, then that's going to give you a number
+[01:30:33.280 --> 01:30:38.480]  form and exception or something similar. And what the compiler is going to tell you is like look
+[01:30:40.960 --> 01:30:48.800]  wrong information, right. And if you're expecting an numerical value and you are going to manipulate
+[01:30:48.800 --> 01:30:54.160]  that value to do some kind of arithmetic, then obviously if it's not an numerical value,
+[01:30:54.160 --> 01:31:01.040]  the arithmetic won't be able to be performed. Correct. So we need to handle that. So here we have
+[01:31:01.040 --> 01:31:07.280]  a variable called input ABC, which is obviously it's a string. But here we're trying to
+[01:31:08.800 --> 01:31:18.560]  make that variable converted or parsed that variable into an integer. Right. And as
+[01:31:18.560 --> 01:31:26.800]  signed that to this variable, this will give us a number formal exception, right. It's an error
+[01:31:26.800 --> 01:31:31.520]  that we will probably need to handle. Let's say that we are asking for, I don't know,
+[01:31:32.240 --> 01:31:40.960]  the course code. And instead of a numerical value of five, seven, two, the user enter five,
+[01:31:41.760 --> 01:31:51.200]  by mistake, it type a letter in between the characters of the numbers that represent the code.
+[01:31:51.200 --> 01:31:58.080]  Well, that will create an error on that input. So we need to handle that. Okay. When we look for
+[01:31:58.080 --> 01:32:05.440]  resources, one very common is when the file does not exist and cannot be opened. All right.
+[01:32:06.240 --> 01:32:12.080]  All when we're trying to connect to a network or use a printer and the printer is offline or the
+[01:32:12.080 --> 01:32:21.200]  printer is no longer there for some reason, right. Or the database is not available right now. So
+[01:32:21.200 --> 01:32:26.640]  instead of our program crashing, we need to handle that. We need to know, okay, in this case,
+[01:32:26.640 --> 01:32:34.960]  what are we supposed to do? All right. So since this is to either read for a file or access
+[01:32:35.840 --> 01:32:41.680]  a resource, there are called input, output exceptions, right. Or something that is related to input
+[01:32:41.680 --> 01:32:49.120]  to our program. Logic errors might be something like divided by zero that will cause an
+[01:32:49.120 --> 01:32:56.320]  arithmetic reception and array that we are trying to access outside the length of the array.
+[01:32:57.760 --> 01:33:06.640]  That will create an exception also or using reference that is null that will cause a null point
+[01:33:06.640 --> 01:33:12.640]  exception. That means that we're trying to access that something that is empty or we're trying to
+[01:33:12.640 --> 01:33:17.440]  manipulate the value something that is empty and obviously if there is no value, then we can
+[01:33:17.440 --> 01:33:23.200]  no manipulate that. So those are going to be errors that might happen. All right. So where is the
+[01:33:23.200 --> 01:33:32.000]  purpose handled this? Right. We want to catch up runtime errors. We want to respond in a
+[01:33:32.000 --> 01:33:38.880]  control way. We don't want our program to crash because of that. Right. Avoid complete program
+[01:33:38.880 --> 01:33:45.840]  crashes, show helpful messages to users, prompt users to please input the proper
+[01:33:47.040 --> 01:33:53.440]  information, clean resources like closing files. Every time we access files, we need to close because
+[01:33:53.440 --> 01:34:08.080]  otherwise the files might be corrupted. Okay. All right. So here is a common way that we manage
+[01:34:08.080 --> 01:34:17.440]  these exceptions. Right. Is the is the try cache final structure? So the try cache final structure,
+[01:34:17.440 --> 01:34:27.360]  as you can see, each each part has its own blog of code. And this the code on the try is code
+[01:34:27.360 --> 01:34:34.560]  that might throw an exception. So email may not actually throw the exception, but we are anticipating
+[01:34:34.560 --> 01:34:42.800]  that the user may not enter the proper input. We might anticipate that the file is no longer there
+[01:34:42.800 --> 01:34:48.960]  because it was removed or that the resource may not be available. So we are anticipating that
+[01:34:48.960 --> 01:34:57.840]  as a possible scenario. Right. So the catch is going to specify what type of error happened.
+[01:34:58.560 --> 01:35:05.280]  And then based on the type of exception that happened, we are going to determine what to do.
+[01:35:06.320 --> 01:35:14.160]  Right. We might decide to prompt the user for the correct information. We can decide to tell the
+[01:35:14.160 --> 01:35:20.160]  user the file is no longer there or the printer is not available or there is no network connection
+[01:35:20.160 --> 01:35:27.360]  or the database is is not available so on and so forth. Okay. One second.
+[01:35:31.840 --> 01:35:39.440]  Yes. This document will be in the in the share folder. Okay. Okay. Somebody was asking that. And
+[01:35:39.440 --> 01:35:48.720]  yes, it will be it will be there. All right. Okay. So we can have, I'm sorry, the finally, the
+[01:35:48.720 --> 01:35:58.000]  finally is code that always runs. Always this piece of code is going to run. Now you can have
+[01:35:59.200 --> 01:36:06.400]  but you can handle exceptions just having that try and catch. You don't necessarily have to have
+[01:36:06.400 --> 01:36:13.600]  the final but it's a good practice to have it. Okay. And I'll explain why that is a different.
+[01:36:13.600 --> 01:36:21.600]  Now move. Do you have a question? Yeah. I was going to ask why we need finally.
+[01:36:22.560 --> 01:36:30.640]  I can't. Finally, finally, you want to have it there because usually you want to close any files
+[01:36:30.640 --> 01:36:39.040]  or any resources that that were open. Okay. So that's why it's always it's always there to
+[01:36:41.120 --> 01:36:44.480]  to guarantee or make sure that we
+[01:37:00.640 --> 01:37:03.120]  you
+[01:37:30.640 --> 01:37:33.120]  you
+[01:38:00.800 --> 01:38:17.520]  okay, I'm back is raining over here and I just lost connection. Right now I'm working with my
+[01:38:17.520 --> 01:38:22.160]  the hotspot of my phone. So I don't know how good the connection is going to be but I'm going to
+[01:38:22.160 --> 01:38:32.000]  try to continue. Okay. So if he incase the power goes off, I still have connection with my phone.
+[01:38:32.000 --> 01:38:34.720]  All right. So let me share again the document.
+[01:38:41.360 --> 01:38:48.080]  Okay. So I was saying that the final is if you don't have to, the final is optional. Okay.
+[01:38:48.080 --> 01:38:54.080]  It's a good practice because it's where you want to close any resources that you have
+[01:38:54.960 --> 01:38:59.840]  maybe open or try to open. Clean up a little bit. Okay. But it doesn't have to.
+[01:39:00.560 --> 01:39:04.400]  All right. Okay. So you can have multiple cash
+[01:39:05.680 --> 01:39:10.480]  blocks. It depends on the type of handling errors that you're trying to
+[01:39:11.440 --> 01:39:17.920]  to manage. Right. So for example, here, you might want to handle an input output exception.
+[01:39:17.920 --> 01:39:27.680]  Here, you can just ask me. I'm sorry. I can't see the screen. Oh, you cannot. Maybe we can
+[01:39:27.680 --> 01:39:33.680]  reconnect. Say it works. You need to refresh the page. It works for me. No, I would.
+[01:39:33.680 --> 01:39:43.520]  Okay. You guys can see it. Can you see them? I refresh the page and now I can't see it.
+[01:39:44.240 --> 01:39:51.680]  Okay. Thank you for that. Okay. So just do that, please. Just refresh.
+[01:39:53.840 --> 01:39:59.680]  All right. Where was I? Okay. Right here. So I was saying that we can have different
+[01:39:59.680 --> 01:40:12.160]  different or more than one catch block. Okay. All right. So here we are going to
+[01:40:14.960 --> 01:40:27.120]  look at this example. It's kind of long. So I'm going to try to feed it.
+[01:40:30.240 --> 01:40:36.080]  All right. Let's let's try to look at here because I modify this program to actually work.
+[01:40:36.080 --> 01:40:44.480]  This one is the one that will will create an input output error or handling exception.
+[01:40:44.480 --> 01:40:51.360]  Right. So let's look at this. All right. So these are Java classes that we need when we are
+[01:40:51.920 --> 01:40:59.360]  managing files. Okay. The buffer reader, the file reader, and input output exception,
+[01:40:59.360 --> 01:41:05.200]  which is the one that manage any possible error. Let's plane this a little bit in a second. Okay.
+[01:41:05.200 --> 01:41:13.120]  But those are classes that we're going to need when we manage files. Right. So here we have
+[01:41:13.120 --> 01:41:18.640]  a class, which is the class file. Right. And here we have the main method.
+[01:41:20.080 --> 01:41:27.280]  So the first thing we it is that we declare a buffer reader and that the name of that reader
+[01:41:27.280 --> 01:41:38.560]  is reader and is null just to start and notice that then we go into the tried catch exception.
+[01:41:38.560 --> 01:41:50.080]  Right. So this let's go from the inside out. Right. Let's try to explain this. So here the file reader
+[01:41:52.880 --> 01:42:00.800]  is an argument of the buffer reader. Okay. So the file reader is kind of the actual connection
+[01:42:00.800 --> 01:42:07.520]  of the physical connection between the file and our program. Okay. The file reader is going to
+[01:42:07.520 --> 01:42:15.920]  read the information on the file byte by byte. What the buffer reader does is actually
+[01:42:16.880 --> 01:42:25.520]  instead of reading one byte at a time, he just buffer an amount of bytes. It makes the reading,
+[01:42:25.520 --> 01:42:32.640]  I will say, faster. Okay. So it's kind of establishing the connection here with the file. And
+[01:42:32.640 --> 01:42:42.560]  this allows to read a buffer of bytes, which help us read the file faster. So here we have a
+[01:42:43.600 --> 01:42:51.360]  variable call line is of type a string. And what we're going to do is use this reader to read
+[01:42:51.360 --> 01:42:58.400]  line by line. So when we read a line, we're not reading one character at a time. We'll just
+[01:42:58.400 --> 01:43:04.000]  buffering the whole line. Okay. So that's basically what's happening there. And then here,
+[01:43:05.120 --> 01:43:17.680]  we're going to print the first line. Okay. If we try to open this file data and data.text does not
+[01:43:17.680 --> 01:43:23.680]  access, then we're actually going to jump or the execution of the program is going to jump to the
+[01:43:24.480 --> 01:43:37.600]  cache. And it's going to say error in the file. This is where the message that the compiler generates
+[01:43:37.600 --> 01:43:51.760]  is stored. Okay. And this is us managing the exception. Right. And we're managing the exception by
+[01:43:51.760 --> 01:43:57.760]  using what the compiler is throwing at us. And that is called a throw an exception. Right. Throw a
+[01:43:57.760 --> 01:44:04.400]  message because something happened. And then we just captured that here. And then that information
+[01:44:04.400 --> 01:44:11.920]  is printed. I'm going to give you an example in a second. So here we have the final part. Right.
+[01:44:12.080 --> 01:44:27.360]  In the in the try, we attempt to open and read the file. Right. If that didn't happen, correct.
+[01:44:30.960 --> 01:44:40.000]  And I'm sorry, you know, if if that was successful, the file now is open. Right. We read all the
+[01:44:40.000 --> 01:44:46.720]  information. And now if the reader is not is different than null, that means that we did have
+[01:44:46.720 --> 01:44:51.840]  access to the file and we read the file, the information, the file now the file is open.
+[01:44:52.400 --> 01:45:00.400]  So namo, why do I need this? Well, now here we is a good part where I close the resource.
+[01:45:00.400 --> 01:45:08.000]  In this case, I close the file. There is no more access to that particular file. Now I know
+[01:45:08.560 --> 01:45:14.800]  finally, I'm sorry. I can't just move that reader that close into the try block.
+[01:45:16.560 --> 01:45:26.480]  Yeah. So, so that is that this, well, in the final, we have a try cache, right. Yeah.
+[01:45:27.200 --> 01:45:34.160]  Because something might happen during reading the file, the information can, it depends.
+[01:45:34.400 --> 01:45:40.800]  Let me put this section, it could be possible that more than one application is trying to access that file.
+[01:45:41.760 --> 01:45:48.240]  So if the file remains open, if there is the chance that the file might get corrupted.
+[01:45:48.240 --> 01:45:52.240]  So what we want to do is make sure that if we use a resource, once we
+[01:45:54.080 --> 01:46:00.320]  we will not use the resource anymore, we release it. In this case, the way to release it will be to close
+[01:46:00.800 --> 01:46:11.360]  the file, in a sense. And we check if releasing that file here with this particular cache inside
+[01:46:11.360 --> 01:46:18.240]  the final was successful or not, right. If we couldn't close for any risk on the file, then now we
+[01:46:18.240 --> 01:46:25.680]  are also handling that exception, that positivity. All right. We are already handling the session
+[01:46:25.680 --> 01:46:31.680]  before. So I don't remove that reader that close into the try block before.
+[01:46:32.960 --> 01:46:41.200]  We could try to add that in there. And I don't think there would be any issue with it.
+[01:46:42.080 --> 01:46:49.360]  What we're trying to do is organize our code in a way that here we know that, okay, here I'm reading
+[01:46:49.360 --> 01:46:57.760]  the file, right. I finished with that. And we're just guaranteeing that this
+[01:46:58.960 --> 01:47:04.960]  closed the file. Remember what I said earlier? Do I have to find a final? No, I don't, right. So
+[01:47:06.080 --> 01:47:13.040]  I could take this action there. What this does is give a better organization of the code,
+[01:47:13.680 --> 01:47:20.960]  because you're like decomposing what you're doing with the resources and how you handle in the
+[01:47:21.600 --> 01:47:32.240]  exceptions. Okay. All right. So now I'm going to show you how this works. Okay. So I'm going to
+[01:47:32.240 --> 01:47:43.440]  actually share my netbeams with you guys. Let me see if I can do that. Let me see if this
+[01:47:43.440 --> 01:47:50.240]  allows me to, it should, it should allow me to do that because I think that power is interesting.
+[01:47:50.240 --> 01:47:56.640]  Okay. So let me stop sharing this. And let's see if I can
+[01:47:56.640 --> 01:48:04.720]  do it again. You want one? I can't put this here.
+[01:48:06.720 --> 01:48:15.760]  File reader is some power. Let me put that up there. Okay. Netbeams. Netbeams.
+[01:48:26.640 --> 01:48:50.560]  Let's try to set this up. So I can share that.
+[01:48:56.640 --> 01:49:01.600]  with you guys.
+[01:49:08.960 --> 01:49:10.640]  Window.
+[01:49:17.600 --> 01:49:20.480]  One second, I need to change my settings. Looks like
+[01:49:56.640 --> 01:49:58.640]  You
+[01:50:26.640 --> 01:50:28.640]  You
+[01:50:56.640 --> 01:50:58.640]  You
+[01:51:26.640 --> 01:51:28.640]  You
+[01:51:56.640 --> 01:51:58.640]  You
+[01:52:26.640 --> 01:52:34.640]  You
+[01:52:34.640 --> 01:52:50.640]  Look at the I don't have in this particular example, not the final so this is just a try and cash all right so
+[01:52:50.640 --> 01:52:54.640]  There is
+[01:52:54.640 --> 01:53:01.240]  this file that I'm going to attempt to read.
+[01:53:01.240 --> 01:53:07.640]  If you look on the panel to the left of the screen right here,
+[01:53:07.640 --> 01:53:18.640]  this is the, yes, this is the fiber in example, this one.
+[01:53:19.140 --> 01:53:27.640]  So in net bins, in order for us to be able to read a particular file,
+[01:53:27.640 --> 01:53:36.640]  that file, at least in this example, needs to be where my code is.
+[01:53:36.640 --> 01:53:43.640]  So here I have, I'm sorry, that's not it.
+[01:53:44.140 --> 01:53:45.640]  One second.
+[01:53:45.640 --> 01:53:46.640]  See, it's so small.
+[01:53:46.640 --> 01:53:48.640]  File reading example, this one.
+[01:53:48.640 --> 01:53:52.640]  Source package.
+[01:53:52.640 --> 01:53:53.640]  All right, here.
+[01:53:53.640 --> 01:53:54.640]  That's what I wanted to show you.
+[01:53:54.640 --> 01:53:57.640]  So here is my project of the file reading example.
+[01:53:57.640 --> 01:53:59.640]  And here is the file.
+[01:53:59.640 --> 01:54:04.640]  It's called today that I'm going to to read.
+[01:54:04.640 --> 01:54:06.640]  Okay.
+[01:54:06.640 --> 01:54:11.640]  So I was saying that in net bins, in order for me to be able to do this example
+[01:54:11.640 --> 01:54:22.640]  is I need this text file to be in the same folder where my dot Java file is.
+[01:54:22.640 --> 01:54:23.640]  Okay.
+[01:54:23.640 --> 01:54:27.640]  And in order to be able to read it,
+[01:54:27.640 --> 01:54:35.640]  I'll have to provide the path where that particular file is.
+[01:54:35.640 --> 01:54:36.640]  Okay.
+[01:54:36.640 --> 01:54:39.640]  So let's look at this for a second.
+[01:54:39.640 --> 01:54:42.640]  We're going to do two things with this file.
+[01:54:42.640 --> 01:54:44.640]  One is see how it works.
+[01:54:44.640 --> 01:54:49.640]  And second, we're going to do the next section of the file of the of today's class,
+[01:54:49.640 --> 01:54:51.640]  which is kind of debugging.
+[01:54:51.640 --> 01:54:52.640]  All right.
+[01:54:52.640 --> 01:54:57.640]  I'm going to show you what you can do to kind of debug this type of files or any other file.
+[01:54:57.640 --> 01:55:04.640]  Okay.
+[01:55:04.640 --> 01:55:05.640]  All right.
+[01:55:05.640 --> 01:55:14.640]  So the tried, as I said, in the previous example, right.
+[01:55:14.640 --> 01:55:19.640]  We define first the path of the file, right.
+[01:55:19.640 --> 01:55:26.640]  It's a string, which is going to have where the file is located.
+[01:55:26.640 --> 01:55:28.640]  We define a buffer reader.
+[01:55:28.640 --> 01:55:30.640]  In this case, the reader.
+[01:55:30.640 --> 01:55:35.640]  Then a file reader is declared.
+[01:55:35.640 --> 01:55:41.640]  Remember, that's the physical connection between the program and the file reader and the file.
+[01:55:41.640 --> 01:55:49.640]  We just create the object in which you're going to read with the clear string variable call line,
+[01:55:49.640 --> 01:55:57.640]  which is what we are going to use to store the lines that we read from the file.
+[01:55:57.640 --> 01:55:59.640]  Okay.
+[01:55:59.640 --> 01:56:00.640]  All right.
+[01:56:00.640 --> 01:56:07.640]  So introducing line debugging.
+[01:56:07.640 --> 01:56:18.640]  Line debugging is a method in which you can debug your programs using the environment that your IDE,
+[01:56:18.640 --> 01:56:20.640]  in this case, the Japanese.
+[01:56:20.640 --> 01:56:35.640]  For example, I'm going to double click on this and notice that I double click on the number of the line where I am.
+[01:56:35.640 --> 01:56:39.640]  Or where I want to start the debugging process.
+[01:56:40.640 --> 01:56:55.640]  And if you look at the top navigation bar of netbeens, this is where you can debug your program line by line.
+[01:56:55.640 --> 01:56:56.640]  Okay.
+[01:56:56.640 --> 01:57:01.640]  So first, I'm going to run the program without doing the debugging and see how it works.
+[01:57:01.640 --> 01:57:07.640]  And then we'll do a little bit of debugging just to see how actually they go from the try to the catch.
+[01:57:07.640 --> 01:57:11.640]  So let's do that.
+[01:57:11.640 --> 01:57:18.640]  So I'm going to run this program is just going to read that file and print it on the screen,
+[01:57:18.640 --> 01:57:20.640]  hopefully, without any issues.
+[01:57:20.640 --> 01:57:24.640]  And this is the file, right?
+[01:57:24.640 --> 01:57:27.640]  Is this little point?
+[01:57:27.640 --> 01:57:28.640]  Okay.
+[01:57:28.640 --> 01:57:29.640]  All right.
+[01:57:29.640 --> 01:57:32.640]  So it works.
+[01:57:32.640 --> 01:57:33.640]  Open the file.
+[01:57:33.640 --> 01:57:34.640]  No problem.
+[01:57:34.640 --> 01:57:35.640]  Right. Everything works.
+[01:57:35.640 --> 01:57:36.640]  All right.
+[01:57:36.640 --> 01:57:42.640]  So I'm going to make this a comment.
+[01:57:42.640 --> 01:57:48.640]  And then I'm going to use this, which is not existing.
+[01:57:48.640 --> 01:57:49.640]  Okay.
+[01:57:49.640 --> 01:57:58.640]  So I'm going to try to open that particular file.
+[01:57:58.640 --> 01:57:59.640]  Okay.
+[01:57:59.640 --> 01:58:09.640]  So now we are going to run the program again.
+[01:58:09.640 --> 01:58:13.640]  And then now there is an error, right?
+[01:58:13.640 --> 01:58:20.640]  There is an error because it's telling me that an input output exception just occur.
+[01:58:20.640 --> 01:58:24.640]  Because this file doesn't exist.
+[01:58:24.640 --> 01:58:29.640]  There is no such file of or a directory, right?
+[01:58:29.640 --> 01:58:30.640]  Okay.
+[01:58:30.640 --> 01:58:31.640]  So let's take a look.
+[01:58:31.640 --> 01:58:35.640]  We're going to then try to run this.
+[01:58:35.640 --> 01:58:36.640]  Of the bug.
+[01:58:36.640 --> 01:58:37.640]  Right.
+[01:58:37.640 --> 01:58:38.640]  We're going to see what's going on.
+[01:58:38.640 --> 01:58:40.640]  At least see how actually works.
+[01:58:40.640 --> 01:58:42.640]  Does it make sense?
+[01:58:42.640 --> 01:58:47.640]  So we're going to run the debugging line by line.
+[01:58:47.640 --> 01:58:57.640]  And then notice that is this windows to on the left panel, open.
+[01:58:57.640 --> 01:58:58.640]  Right.
+[01:58:58.640 --> 01:59:00.640]  This one's right here.
+[01:59:00.640 --> 01:59:02.640]  We are going to be debugging.
+[01:59:02.640 --> 01:59:06.640]  Here are some evaluation of expressions.
+[01:59:06.640 --> 01:59:11.640]  And here we're saying that we're using the line reading the file that we're using.
+[01:59:11.640 --> 01:59:12.640]  Okay.
+[01:59:12.640 --> 01:59:19.640]  So this icon here allows you to step over the line that you are at.
+[01:59:19.640 --> 01:59:20.640]  Okay.
+[01:59:20.640 --> 01:59:25.640]  So let me move this down so we can see how it moves from one line to the next.
+[01:59:25.640 --> 01:59:35.640]  So we click on it and then you jump from this line, line 20 to line 24.
+[01:59:35.640 --> 01:59:36.640]  Right.
+[01:59:36.640 --> 01:59:39.640]  Buffering reading this one.
+[01:59:39.640 --> 01:59:45.640]  So if I step to that and we're trying to open a file that does not exist.
+[01:59:45.640 --> 01:59:51.640]  Then the execution of the program should jump from there to the catch.
+[01:59:51.640 --> 01:59:55.640]  Okay.
+[01:59:55.640 --> 02:00:01.640]  So notice that the when is straight to that.
+[02:00:01.640 --> 02:00:03.640]  Do you see that?
+[02:00:03.640 --> 02:00:08.640]  Because so he catch the exception.
+[02:00:08.640 --> 02:00:13.640]  It never went over this block of code.
+[02:00:13.640 --> 02:00:15.640]  He jumped directly to there.
+[02:00:15.640 --> 02:00:20.640]  If we go over, then it's going to print here.
+[02:00:20.640 --> 02:00:22.640]  What happens?
+[02:00:22.640 --> 02:00:23.640]  Right.
+[02:00:23.640 --> 02:00:25.640]  Right there.
+[02:00:25.640 --> 02:00:31.640]  And if we stop over that, then.
+[02:00:31.640 --> 02:00:37.640]  All the stack print the stack trace is all this that is just printed there.
+[02:00:37.640 --> 02:00:42.640]  And the execution of the program ends.
+[02:00:42.640 --> 02:00:43.640]  Right.
+[02:00:43.640 --> 02:00:47.640]  So this is what is called line the bugging.
+[02:00:47.640 --> 02:00:49.640]  Right. And it's done.
+[02:00:49.640 --> 02:00:51.640]  Uh, directly on your IDE.
+[02:00:51.640 --> 02:00:58.640]  Most ideas have this option for us to, uh, to be able to.
+[02:00:58.640 --> 02:01:01.640]  To what to debug the problem.
+[02:01:01.640 --> 02:01:08.640]  Now, let's change it, change this back.
+[02:01:08.640 --> 02:01:15.640]  And let's look at one more time when there is no.
+[02:01:15.640 --> 02:01:17.640]  Uh, error.
+[02:01:17.640 --> 02:01:22.640]  Okay.
+[02:01:22.640 --> 02:01:23.640]  All right.
+[02:01:23.640 --> 02:01:26.640]  So we're going to do exactly the same thing.
+[02:01:26.640 --> 02:01:29.640]  We're going to go to the bug.
+[02:01:29.640 --> 02:01:32.640]  This right there.
+[02:01:32.640 --> 02:01:36.640]  And hopefully we'll be able to see.
+[02:01:36.640 --> 02:01:38.640]  That this time around.
+[02:01:38.640 --> 02:01:42.640]  Instead of jumping from the tried.
+[02:01:42.640 --> 02:01:45.640]  To issue go to the next.
+[02:01:45.640 --> 02:01:47.640]  Instead of jumping to the catch.
+[02:01:47.640 --> 02:01:51.640]  I'm sorry, it should go inside the tri block of code.
+[02:01:51.640 --> 02:01:52.640]  Okay.
+[02:01:52.640 --> 02:02:00.640]  What is where the green line is is going to read that.
+[02:02:00.640 --> 02:02:01.640]  What happened?
+[02:02:01.640 --> 02:02:02.640]  I did something.
+[02:02:02.640 --> 02:02:04.640]  Let me do it again.
+[02:02:04.640 --> 02:02:06.640]  Okay.
+[02:02:06.640 --> 02:02:08.640]  There you go.
+[02:02:08.640 --> 02:02:10.640]  I stopped here.
+[02:02:10.640 --> 02:02:11.640]  Okay.
+[02:02:11.640 --> 02:02:16.640]  So it gets to the tri block of code.
+[02:02:16.640 --> 02:02:19.640]  Prince that notice at the bottom.
+[02:02:19.640 --> 02:02:24.640]  That line of code just was printed.
+[02:02:24.640 --> 02:02:27.640]  Now we're on the while.
+[02:02:27.640 --> 02:02:29.640]  It reads the first line.
+[02:02:29.640 --> 02:02:32.640]  And it prints the first line.
+[02:02:32.640 --> 02:02:33.640]  Right.
+[02:02:33.640 --> 02:02:35.640]  So right now we are on that.
+[02:02:35.640 --> 02:02:36.640]  Code.
+[02:02:36.640 --> 02:02:37.640]  Right.
+[02:02:37.640 --> 02:02:40.640]  And that code in this case is a is a while loop.
+[02:02:40.640 --> 02:02:44.640]  So we're going to stay there until we read.
+[02:02:44.640 --> 02:02:48.640]  The whole file.
+[02:02:48.640 --> 02:02:54.640]  Okay.
+[02:02:54.640 --> 02:02:58.640]  Almost done with that.
+[02:02:58.640 --> 02:03:02.640]  And then there is no catch exceptions to happen.
+[02:03:02.640 --> 02:03:04.640]  And with that, we're done.
+[02:03:04.640 --> 02:03:05.640]  Right.
+[02:03:05.640 --> 02:03:06.640]  Okay.
+[02:03:06.640 --> 02:03:13.640]  So that is something that I wanted you guys to see because you are going to be managing files.
+[02:03:13.640 --> 02:03:16.640]  Right.
+[02:03:16.640 --> 02:03:23.640]  And then there is only through your eye right either text files where you're going to either.
+[02:03:23.640 --> 02:03:25.640]  As in the most project.
+[02:03:25.640 --> 02:03:33.640]  I don't know how he's intent to handle that, but he might create text files with the information, the organization, so on and so forth.
+[02:03:33.640 --> 02:03:34.640]  Right.
+[02:03:34.640 --> 02:03:36.640]  So I wanted you to see that.
+[02:03:36.640 --> 02:03:39.640]  Let me stop sharing.
+[02:03:39.640 --> 02:03:44.640]  Let me see.
+[02:03:44.640 --> 02:03:45.640]  Or this one.
+[02:03:45.640 --> 02:03:48.640]  This is another exception handling.
+[02:03:48.640 --> 02:03:52.640]  Take a look for a moment to that.
+[02:03:52.640 --> 02:04:01.640]  To that example, this one has a final and see where a mistake might happen.
+[02:04:01.640 --> 02:04:11.640]  And then raise your hand and and and share with us what where do you think the error is.
+[02:04:11.640 --> 02:04:15.640]  Is happening.
+[02:04:15.640 --> 02:04:21.640]  Anybody other than then the move.
+[02:04:21.640 --> 02:04:26.640]  Any other brave soul.
+[02:04:26.640 --> 02:04:28.640]  Yes, I guess maybe no.
+[02:04:28.640 --> 02:04:29.640]  Okay, now move.
+[02:04:29.640 --> 02:04:31.640]  So what's going on here?
+[02:04:31.640 --> 02:04:39.640]  So first it will define try to define in an entire array.
+[02:04:39.640 --> 02:04:42.640]  Then it will run successfully.
+[02:04:42.640 --> 02:04:50.640]  Then for the next line, it will try to access the index 10.
+[02:04:50.640 --> 02:04:53.640]  But the length of the array is only three.
+[02:04:53.640 --> 02:04:54.640]  That's correct.
+[02:04:54.640 --> 02:04:56.640]  It will create a letter.
+[02:04:56.640 --> 02:04:57.640]  That's going to be.
+[02:04:57.640 --> 02:04:59.640]  All right, so let's.
+[02:04:59.640 --> 02:05:00.640]  Let's run it.
+[02:05:00.640 --> 02:05:07.640]  Right.
+[02:05:07.640 --> 02:05:10.640]  So.
+[02:05:10.640 --> 02:05:11.640]  Here is the error.
+[02:05:11.640 --> 02:05:12.640]  Right.
+[02:05:12.640 --> 02:05:13.640]  See.
+[02:05:13.640 --> 02:05:16.640]  A rate index does not exist.
+[02:05:16.640 --> 02:05:20.640]  Index 10 is out of bounds for length three.
+[02:05:21.640 --> 02:05:26.640]  Notice that all we have in.
+[02:05:26.640 --> 02:05:30.640]  In the print line is array index that not at six.
+[02:05:30.640 --> 02:05:37.640]  Everything else from then on is what the compiler actually produces is the is the exception is the throne exception.
+[02:05:37.640 --> 02:05:39.640]  Okay.
+[02:05:39.640 --> 02:05:42.640]  All right, so.
+[02:05:42.640 --> 02:05:46.640]  Is there any other example that I have.
+[02:05:46.640 --> 02:05:55.640]  Okay, yes, I do have this one, which is another way to debug our programs, you know, is debugging using print lines.
+[02:05:55.640 --> 02:06:00.640]  So for example, in this particular code.
+[02:06:00.640 --> 02:06:05.640]  We're trying to find the maximum of an array of integers.
+[02:06:05.640 --> 02:06:07.640]  Okay.
+[02:06:07.640 --> 02:06:13.640]  And sometimes it's difficult to follow that.
+[02:06:13.640 --> 02:06:16.640]  When especially when you have a loop.
+[02:06:16.640 --> 02:06:17.640]  All right.
+[02:06:17.640 --> 02:06:28.640]  So sometimes you want to add print statements embed temporary print statements inside your code to see what is the program producing.
+[02:06:28.640 --> 02:06:29.640]  Right.
+[02:06:29.640 --> 02:06:31.640]  Is a way to debug.
+[02:06:31.640 --> 02:06:41.640]  Obviously you will remove those print statements afterwards after you have check and debug your program is just this is just an example of how to do it.
+[02:06:41.640 --> 02:06:42.640]  Right.
+[02:06:42.640 --> 02:06:44.640]  So here we have.
+[02:06:44.640 --> 02:06:54.640]  A method called find maximum find max has a parameter, which is an array of integer values.
+[02:06:54.640 --> 02:07:00.640]  What it does is the first element of the array, we define that to be the max.
+[02:07:00.640 --> 02:07:07.640]  And what we're going to do inside this loop really is compare that value.
+[02:07:07.640 --> 02:07:10.640]  With the other elements of the array.
+[02:07:10.640 --> 02:07:18.640]  And if one element of the array is bigger than max, then we swap the values, we change the maximum right.
+[02:07:18.640 --> 02:07:29.640]  So I'm going to run this again, and I'm going to do the line debugging here one more time.
+[02:07:29.640 --> 02:07:31.640]  And.
+[02:07:31.640 --> 02:07:32.640]  All right.
+[02:07:32.640 --> 02:07:34.640]  So here we are on the loop, right.
+[02:07:34.640 --> 02:07:40.640]  Nothing has been produced here on the output.
+[02:07:40.640 --> 02:07:43.640]  And then we stop over that.
+[02:07:43.640 --> 02:07:49.640]  And this is the nice feature for debugging notice where we just jump.
+[02:07:49.640 --> 02:07:58.640]  So it's telling me, OK, I started at zero and it goes after length six because that's the length of the array.
+[02:07:58.640 --> 02:08:00.640]  OK.
+[02:08:00.640 --> 02:08:06.640]  If you look at the line where the green is highlight the green, it tells you the value of I.
+[02:08:06.640 --> 02:08:08.640]  And what is the maximum at that point.
+[02:08:08.640 --> 02:08:13.640]  So it provides you information so you can follow or trace the program.
+[02:08:13.640 --> 02:08:15.640]  All right.
+[02:08:15.640 --> 02:08:23.640]  From there, it's just going to compare is the value.
+[02:08:23.640 --> 02:08:34.640]  Is the maximum right, which is five is that still higher than the value at index zero.
+[02:08:34.640 --> 02:08:37.640]  If it is, then you're going to change it.
+[02:08:37.640 --> 02:08:39.640]  If it's not, it won't change it.
+[02:08:39.640 --> 02:08:43.640]  So notice that the first value of the following value is three.
+[02:08:43.640 --> 02:08:46.640]  So five is still the maximum value.
+[02:08:46.640 --> 02:08:49.640]  So it shouldn't change, right.
+[02:08:49.640 --> 02:08:54.640]  So.
+[02:08:54.640 --> 02:09:00.640]  Here, current value is still what five because five is still bigger than three.
+[02:09:00.640 --> 02:09:02.640]  The maximum doesn't change.
+[02:09:02.640 --> 02:09:06.640]  Same thing happens with the following, which is four.
+[02:09:06.640 --> 02:09:12.640]  So we check the value is is not the maximum.
+[02:09:12.640 --> 02:09:18.640]  And it's going to go through this for every index in the array.
+[02:09:18.640 --> 02:09:21.640]  OK.
+[02:09:21.640 --> 02:09:25.640]  So it finds a value of seven.
+[02:09:25.640 --> 02:09:30.640]  And now the maximum value is going to be updated.
+[02:09:30.640 --> 02:09:31.640]  All right.
+[02:09:31.640 --> 02:09:34.640]  So new maximum is seven.
+[02:09:34.640 --> 02:09:40.640]  And it will continue to do so until we get to the end of the.
+[02:09:40.640 --> 02:09:42.640]  D array.
+[02:09:42.640 --> 02:09:44.640]  OK.
+[02:09:44.640 --> 02:09:47.640]  And so here I combine two things.
+[02:09:47.640 --> 02:09:51.640]  One is the print statement, right, to debug the program.
+[02:09:51.640 --> 02:09:54.640]  And the other is using the.
+[02:09:54.640 --> 02:09:59.640]  Online debugging or the line debugging that is provided by the IDE.
+[02:09:59.640 --> 02:10:03.640]  That that may sense.
+[02:10:03.640 --> 02:10:04.640]  All right.
+[02:10:04.640 --> 02:10:06.640]  So let me stop sharing that.
+[02:10:06.640 --> 02:10:12.640]  And let's go back to the original.
+[02:10:12.640 --> 02:10:16.640]  Oh, the original file is not here.
+[02:10:16.640 --> 02:10:22.640]  So we want to second because since I lost connection, I probably.
+[02:10:46.640 --> 02:10:49.640]  You
+[02:11:17.640 --> 02:11:26.640]  All right.
+[02:11:26.640 --> 02:11:27.640]  All right.
+[02:11:27.640 --> 02:11:32.640]  So now you were asking if this file to share this file on the chair folder is already there.
+[02:11:32.640 --> 02:11:34.640]  There are now two folders.
+[02:11:34.640 --> 02:11:35.640]  Turn one.
+[02:11:35.640 --> 02:11:36.640]  Turn two.
+[02:11:36.640 --> 02:11:39.640]  The file is on their.
+[02:11:39.640 --> 02:11:40.640]  Turn two.
+[02:11:40.640 --> 02:11:42.640]  So make sure you.
+[02:11:42.640 --> 02:11:44.640]  You access it.
+[02:11:44.640 --> 02:11:46.640]  OK.
+[02:11:46.640 --> 02:11:47.640]  All right.
+[02:11:47.640 --> 02:11:48.640]  So here.
+[02:11:48.640 --> 02:11:53.640]  Here we are on the file that we started the lesson with.
+[02:11:53.640 --> 02:11:55.640]  So debugging techniques.
+[02:11:55.640 --> 02:11:57.640]  We did two.
+[02:11:57.640 --> 02:11:59.640]  One of them is tracing a table.
+[02:11:59.640 --> 02:12:00.640]  Right.
+[02:12:00.640 --> 02:12:08.640]  And for trace a table, basically, you are creating a record of the state of the variable.
+[02:12:08.640 --> 02:12:14.640]  The values that the variable takes to.
+[02:12:14.640 --> 02:12:19.640]  Determine what will be the final value of the value variable or variable that you're interested in.
+[02:12:19.640 --> 02:12:20.640]  Right.
+[02:12:20.640 --> 02:12:22.640]  So that's a trace table.
+[02:12:22.640 --> 02:12:24.640]  You look at the steps.
+[02:12:24.640 --> 02:12:26.640]  In this case, there are three steps.
+[02:12:26.640 --> 02:12:28.640]  And notice that.
+[02:12:28.640 --> 02:12:33.640]  What I have shown you is we usually trace a stuff that.
+[02:12:33.640 --> 02:12:34.640]  Well, we can trace anything.
+[02:12:34.640 --> 02:12:46.640]  But usually when we have loops and we want to keep track of what the loop is doing.
+[02:12:46.640 --> 02:12:48.640]  Abdul, give me a second.
+[02:12:48.640 --> 02:12:51.640]  And then I'll try to share the folder with you again.
+[02:12:51.640 --> 02:12:52.640]  OK.
+[02:12:52.640 --> 02:12:53.640]  All right.
+[02:12:53.640 --> 02:12:55.640]  So.
+[02:12:55.640 --> 02:12:57.640]  That's what we will do.
+[02:12:57.640 --> 02:12:59.640]  The other is using the print statements.
+[02:12:59.640 --> 02:13:03.640]  This is what I just show you there.
+[02:13:04.640 --> 02:13:05.640]  Break point.
+[02:13:05.640 --> 02:13:09.640]  The bugging is what I show you on also on netbeams, right?
+[02:13:09.640 --> 02:13:11.640]  Clicking on one particular line.
+[02:13:11.640 --> 02:13:13.640]  The program.
+[02:13:13.640 --> 02:13:18.640]  You execute the program one line by line.
+[02:13:18.640 --> 02:13:20.640]  And that's what we're.
+[02:13:20.640 --> 02:13:21.640]  All right.
+[02:13:21.640 --> 02:13:28.640]  What most common is to use is a combination of all those techniques, depending on how big.
+[02:13:29.640 --> 02:13:33.640]  The issue is with the program and what you are trying to.
+[02:13:33.640 --> 02:13:34.640]  The bug.
+[02:13:34.640 --> 02:13:35.640]  OK.
+[02:13:35.640 --> 02:13:39.640]  So here I'm going to ask you a couple of I be questions.
+[02:13:39.640 --> 02:13:40.640]  OK.
+[02:13:40.640 --> 02:13:44.640]  And with that, we're going to end the.
+[02:13:44.640 --> 02:13:48.640]  We're going to end today's.
+[02:13:48.640 --> 02:13:49.640]  Today's lesson.
+[02:13:49.640 --> 02:13:50.640]  But.
+[02:13:50.640 --> 02:13:53.640]  Here's some of the questions break.
+[02:13:53.640 --> 02:13:57.640]  So I have to prepare a document for that.
+[02:13:57.640 --> 02:14:00.640]  Let me try to.
+[02:14:00.640 --> 02:14:08.640]  To find that document.
+[02:14:08.640 --> 02:14:11.640]  We try to find that document first.
+[02:14:11.640 --> 02:14:14.640]  OK.
+[02:14:14.640 --> 02:14:17.640]  And then with that, we'll, we'll finish.
+[02:14:27.640 --> 02:14:29.640]  Thank you.
+[02:14:58.640 --> 02:15:00.640]  All right.
+[02:15:00.640 --> 02:15:01.640]  I found it.
+[02:15:01.640 --> 02:15:04.640]  So just give me a second here.
+[02:15:04.640 --> 02:15:07.640]  All right.
+[02:15:07.640 --> 02:15:10.640]  Can you see that?
+[02:15:10.640 --> 02:15:11.640]  Everybody.
+[02:15:11.640 --> 02:15:12.640]  All right.
+[02:15:12.640 --> 02:15:17.640]  So let's see.
+[02:15:17.640 --> 02:15:18.640]  All right.
+[02:15:18.640 --> 02:15:25.640]  I'm going to start with this.
+[02:15:25.640 --> 02:15:30.640]  As we did earlier, I want you to.
+[02:15:30.640 --> 02:15:35.640]  Trace this.
+[02:15:35.640 --> 02:15:37.640]  Document.
+[02:15:37.640 --> 02:15:40.640]  And provide.
+[02:15:40.640 --> 02:15:44.640]  And answer to the output for for a.
+[02:15:44.640 --> 02:15:46.640]  On the private chat.
+[02:15:46.640 --> 02:15:47.640]  OK.
+[02:15:55.640 --> 02:16:00.640]  Take your time.
+[02:16:26.640 --> 02:16:35.640]  When you're ready.
+[02:16:35.640 --> 02:16:44.640]  Just.
+[02:16:44.640 --> 02:17:06.640]  I see a couple of responses already.
+[02:17:06.640 --> 02:17:34.640]  So.
+[02:17:34.640 --> 02:17:44.640]  All right.
+[02:17:44.640 --> 02:17:53.640]  All right.
+[02:17:53.640 --> 02:17:54.640]  All right.
+[02:17:54.640 --> 02:18:02.640]  I see some similar answers.
+[02:18:02.640 --> 02:18:08.640]  OK.
+[02:18:08.640 --> 02:18:11.640]  Anyway, I highlighted the the count.
+[02:18:11.640 --> 02:18:16.640]  But it also would be easy to kind of keep track of what that is.
+[02:18:16.640 --> 02:18:18.640]  Sophia, you cannot paste.
+[02:18:18.640 --> 02:18:21.640]  Can you type it though?
+[02:18:21.640 --> 02:18:25.640]  It's complicated on the tablet.
+[02:18:25.640 --> 02:18:27.640]  Oh, you're not tablet.
+[02:18:27.640 --> 02:18:28.640]  OK.
+[02:18:28.640 --> 02:18:38.640]  All right.
+[02:18:38.640 --> 02:18:41.640]  OK.
+[02:18:41.640 --> 02:18:48.640]  Good, good, good work.
+[02:18:48.640 --> 02:18:58.640]  Appreciate go back and check it.
+[02:18:58.640 --> 02:19:04.640]  Yeah, Michael, you can if you want to a problem.
+[02:19:04.640 --> 02:19:08.640]  These questions are on that document that is in the share folder.
+[02:19:08.640 --> 02:19:09.640]  OK.
+[02:19:09.640 --> 02:19:13.640]  I just organized in here to be able to see the whole question in one piece.
+[02:19:13.640 --> 02:19:21.640]  Because over there it was kind of.
+[02:19:21.640 --> 02:19:24.640]  OK.
+[02:19:24.640 --> 02:19:32.640]  Akmal.
+[02:19:32.640 --> 02:19:34.640]  We're going to discuss it in a second.
+[02:19:34.640 --> 02:19:37.640]  OK.
+[02:19:37.640 --> 02:19:55.640]  But you're in the right track.
+[02:19:55.640 --> 02:19:58.640]  OK.
+[02:19:58.640 --> 02:20:01.640]  Is that the answer for par B?
+[02:20:01.640 --> 02:20:05.640]  Explain what the value count is at method eight is different.
+[02:20:05.640 --> 02:20:08.640]  Or you're referring to.
+[02:20:08.640 --> 02:20:23.640]  All right.
+[02:20:23.640 --> 02:20:25.640]  All right.
+[02:20:25.640 --> 02:20:27.640]  I'll have that into account.
+[02:20:27.640 --> 02:20:37.640]  We're going to go over it anyway.
+[02:20:37.640 --> 02:20:39.640]  What's going on, Sophia?
+[02:20:39.640 --> 02:20:40.640]  What is funny?
+[02:20:40.640 --> 02:20:41.640]  Go ahead.
+[02:20:41.640 --> 02:20:45.640]  Now, may I please tell verbally once within?
+[02:20:45.640 --> 02:20:46.640]  Yeah.
+[02:20:46.640 --> 02:20:47.640]  Because it's really.
+[02:20:47.640 --> 02:20:48.640]  No problem.
+[02:20:48.640 --> 02:20:50.640]  No problem. All right.
+[02:20:50.640 --> 02:20:59.640]  All right.
+[02:20:59.640 --> 02:21:03.640]  So let's let's start with par B.
+[02:21:03.640 --> 02:21:06.640]  OK. Let's start with par B because I think par B.
+[02:21:06.640 --> 02:21:11.640]  Give us understanding of what's going on with the actual values, my sense.
+[02:21:11.640 --> 02:21:12.640]  All right.
+[02:21:12.640 --> 02:21:13.640]  So.
+[02:21:13.640 --> 02:21:17.640]  OK, Sophia, go ahead.
+[02:21:17.640 --> 02:21:23.640]  So initial, we initialize two different methods, method A and method B.
+[02:21:23.640 --> 02:21:29.640]  Each of these methods use global variables and local variable.
+[02:21:29.640 --> 02:21:34.640]  We have one global variable, which is one and local variables.
+[02:21:34.640 --> 02:21:41.640]  Well, method A introduces the local variable count five, which is a valid only for this method.
+[02:21:41.640 --> 02:21:46.640]  And it increases this variable by two.
+[02:21:46.640 --> 02:21:51.640]  So the output of the method A is seven.
+[02:21:51.640 --> 02:22:03.640]  There is a method B calls for calls for the global variable one and.
+[02:22:03.640 --> 02:22:06.640]  F three to it.
+[02:22:06.640 --> 02:22:16.640]  And that's why we receive two separate answers because we have local variables for each separate methods and a global one.
+[02:22:16.640 --> 02:22:19.640]  Right. So here, this is local.
+[02:22:19.640 --> 02:22:23.640]  It only exists.
+[02:22:23.640 --> 02:22:26.640]  In method A, right.
+[02:22:26.640 --> 02:22:31.640]  Here, count is not defined or declared.
+[02:22:31.640 --> 02:22:41.640]  So count here is the field or global, right.
+[02:22:41.640 --> 02:22:48.640]  So in this line.
+[02:22:48.640 --> 02:22:52.640]  That refers to this count.
+[02:22:52.640 --> 02:22:53.640]  Correct.
+[02:22:53.640 --> 02:23:04.640]  The method A modifies the local variable, but it doesn't have any effect on count been equal to one.
+[02:23:04.640 --> 02:23:05.640]  Correct.
+[02:23:05.640 --> 02:23:10.640]  Method B is using the global.
+[02:23:10.640 --> 02:23:14.640]  So that is going to change this particular value.
+[02:23:14.640 --> 02:23:18.640]  So it's adding three to it.
+[02:23:18.640 --> 02:23:22.640]  So it should be so the final output should be what?
+[02:23:22.640 --> 02:23:29.640]  What should be the output here for the output that should be for, right.
+[02:23:29.640 --> 02:23:38.640]  The output that should be for because this for is the actual modification of this variable count.
+[02:23:38.640 --> 02:23:40.640]  Correct.
+[02:23:40.640 --> 02:23:49.640]  So that's a good exercise is tracing and knowing the difference between local and field variables or global variables.
+[02:23:50.640 --> 02:23:51.640]  Okay.
+[02:23:51.640 --> 02:23:59.640]  Is there anybody that has a question about what we just explained?
+[02:23:59.640 --> 02:24:08.640]  If you do Sophia is answering those questions because she's in charge right now.
+[02:24:09.640 --> 02:24:12.640]  Or Ricardo Ricardo, you got it right.
+[02:24:12.640 --> 02:24:14.640]  Almost everybody got it right.
+[02:24:14.640 --> 02:24:15.640]  Okay.
+[02:24:15.640 --> 02:24:16.640]  Okay.
+[02:24:16.640 --> 02:24:22.640]  So par B, why the value count inside method is different from the value printed in method B?
+[02:24:22.640 --> 02:24:27.640]  Because one is a local variable and the other is a field.
+[02:24:27.640 --> 02:24:30.640]  I sense that's the difference.
+[02:24:30.640 --> 02:24:36.640]  So one is modified by method B, while the other one is not.
+[02:24:36.640 --> 02:24:40.640]  Okay.
+[02:24:40.640 --> 02:24:43.640]  Let me see.
+[02:24:43.640 --> 02:24:47.640]  All right, let's.
+[02:24:47.640 --> 02:24:50.640]  Let's try problem three.
+[02:24:50.640 --> 02:24:59.640]  Let's try to read that.
+[02:24:59.640 --> 02:25:08.640]  Why would that be the case?
+[02:25:08.640 --> 02:25:23.640]  Anybody raise your hand if you want to kind of explain that?
+[02:25:23.640 --> 02:25:24.640]  Okay.
+[02:25:24.640 --> 02:25:26.640]  Namu, go ahead.
+[02:25:26.640 --> 02:25:30.640]  Namu or Sophia, you can compliment each other.
+[02:25:30.640 --> 02:25:32.640]  Namu, go ahead.
+[02:25:32.640 --> 02:25:40.640]  So first please, static means that the value of the variable is shared across all objects of the class.
+[02:25:40.640 --> 02:25:44.640]  So it belongs to the class.
+[02:25:44.640 --> 02:25:47.640]  And it's instances.
+[02:25:47.640 --> 02:25:55.640]  So you can access it inside a method without needing to pass that variable.
+[02:25:55.640 --> 02:25:57.640]  That is correct.
+[02:25:57.640 --> 02:25:59.640]  Right.
+[02:25:59.640 --> 02:26:05.640]  So it becomes a variable that can be used anywhere in the code.
+[02:26:05.640 --> 02:26:06.640]  Right.
+[02:26:06.640 --> 02:26:11.640]  So there is no need to pass it as an as an argument.
+[02:26:11.640 --> 02:26:13.640]  Right.
+[02:26:13.640 --> 02:26:15.640]  Okay.
+[02:26:16.640 --> 02:26:20.640]  This one.
+[02:26:20.640 --> 02:26:25.640]  This will be a little bit more complex because we have to do.
+[02:26:25.640 --> 02:26:27.640]  We have to write a piece of code.
+[02:26:27.640 --> 02:26:28.640]  Right.
+[02:26:28.640 --> 02:26:29.640]  It's not a whole program.
+[02:26:29.640 --> 02:26:33.640]  But I want you to think about a problem seven for a minute.
+[02:26:33.640 --> 02:26:37.640]  Okay.
+[02:26:37.640 --> 02:26:45.640]  See if you're able to kind of develop a little.
+[02:26:45.640 --> 02:26:53.640]  So lines of code that will accomplish that.
+[02:26:53.640 --> 02:26:58.640]  And obviously you don't have to write it, but you could just tell us.
+[02:26:58.640 --> 02:26:59.640]  The steps, right?
+[02:26:59.640 --> 02:27:03.640]  The steps that the program.
+[02:27:03.640 --> 02:27:16.640]  And you can make to accomplish what problem seven a is asking.
+[02:27:16.640 --> 02:27:19.640]  And with this, we're going to.
+[02:27:19.640 --> 02:27:23.640]  We're going to end the class is two hours and I.
+[02:27:23.640 --> 02:27:26.640]  I hope that it was.
+[02:27:26.640 --> 02:27:31.640]  Interesting enough for you to stay the two hours with me today.
+[02:27:31.640 --> 02:27:38.640]  So whenever.
+[02:27:38.640 --> 02:27:47.640]  You're ready, kind of to explain how you will approach seven a.
+[02:27:47.640 --> 02:27:54.640]  Let me know.
+[02:27:55.640 --> 02:28:04.640]  Okay.
+[02:28:04.640 --> 02:28:12.640]  Okay.
+[02:28:13.640 --> 02:28:22.640]  Okay.
+[02:28:22.640 --> 02:28:30.640]  Okay.
+[02:28:30.640 --> 02:28:40.640]  Okay.
+[02:28:40.640 --> 02:28:53.640]  Okay.
+[02:28:53.640 --> 02:28:54.640]  All right.
+[02:28:54.640 --> 02:28:55.640]  Anybody.
+[02:28:55.640 --> 02:28:59.640]  Anybody want to give it a shot.
+[02:28:59.640 --> 02:29:02.640]  Now, let me check if there is anybody else.
+[02:29:02.640 --> 02:29:03.640]  Okay.
+[02:29:03.640 --> 02:29:12.640]  All right.
+[02:29:12.640 --> 02:29:14.640]  So let's do this since.
+[02:29:14.640 --> 02:29:15.640]  Okay.
+[02:29:15.640 --> 02:29:17.640]  Marco also.
+[02:29:17.640 --> 02:29:18.640]  All right.
+[02:29:18.640 --> 02:29:19.640]  Let's hear it from Marco.
+[02:29:19.640 --> 02:29:20.640]  Marco, go ahead.
+[02:29:20.640 --> 02:29:22.640]  Then let's do this.
+[02:29:22.640 --> 02:29:23.640]  Now move.
+[02:29:23.640 --> 02:29:26.640]  Be ready to try to do B.
+[02:29:26.640 --> 02:29:32.640]  And Sonja, if you don't mind, see if you're able to come up with an answer for eight.
+[02:29:32.640 --> 02:29:33.640]  Okay.
+[02:29:33.640 --> 02:29:34.640]  All right.
+[02:29:34.640 --> 02:29:35.640]  Marco, go ahead.
+[02:29:35.640 --> 02:29:36.640]  Okay.
+[02:29:36.640 --> 02:29:45.640]  So my answer was that year, like I declared a variable a year to take it as the extracted
+[02:29:45.640 --> 02:29:54.640]  part equals code dot substring and the parentheses eight.
+[02:29:54.640 --> 02:30:01.640]  So that I will take the all the values after the eighth character.
+[02:30:01.640 --> 02:30:02.640]  Okay.
+[02:30:02.640 --> 02:30:03.640]  All right.
+[02:30:03.640 --> 02:30:04.640]  That.
+[02:30:04.640 --> 02:30:09.640]  So how do you know is the eighth character?
+[02:30:09.640 --> 02:30:11.640]  Because I counted it.
+[02:30:11.640 --> 02:30:12.640]  Okay.
+[02:30:12.640 --> 02:30:13.640]  So you counted.
+[02:30:13.640 --> 02:30:20.640]  Is there a way to identify where to start without counting?
+[02:30:20.640 --> 02:30:21.640]  Yeah.
+[02:30:21.640 --> 02:30:25.640]  After the using the.
+[02:30:25.640 --> 02:30:27.640]  What was it?
+[02:30:27.640 --> 02:30:33.640]  Maybe if it starts with a 20 like a.
+[02:30:33.640 --> 02:30:34.640]  All right.
+[02:30:34.640 --> 02:30:36.640]  So remember, there is one.
+[02:30:36.640 --> 02:30:38.640]  They are that I can.
+[02:30:38.640 --> 02:30:44.640]  I can help you find the last index of.
+[02:30:44.640 --> 02:30:45.640]  Right.
+[02:30:45.640 --> 02:30:50.640]  So remember the example when we use the dot.
+[02:30:50.640 --> 02:30:51.640]  I will.
+[02:30:51.640 --> 02:30:52.640]  Yeah.
+[02:30:52.640 --> 02:30:53.640]  Last of.
+[02:30:53.640 --> 02:30:54.640]  Last of.
+[02:30:54.640 --> 02:30:55.640]  All right.
+[02:30:55.640 --> 02:30:57.640]  So then you could use the last of the dash.
+[02:30:57.640 --> 02:31:02.640]  Because that will tell you the index where the 2027 starts.
+[02:31:02.640 --> 02:31:03.640]  Right.
+[02:31:03.640 --> 02:31:06.640]  And then I add one.
+[02:31:06.640 --> 02:31:07.640]  Correct.
+[02:31:07.640 --> 02:31:08.640]  And then you that add one.
+[02:31:08.640 --> 02:31:11.640]  And then with the super string, you can.
+[02:31:11.640 --> 02:31:13.640]  Extract what you need.
+[02:31:13.640 --> 02:31:16.640]  That's in my sense.
+[02:31:16.640 --> 02:31:17.640]  Namu.
+[02:31:17.640 --> 02:31:23.640]  Did you maybe thought of something different?
+[02:31:23.640 --> 02:31:26.640]  We can call index of.
+[02:31:26.640 --> 02:31:29.640]  Which argument.
+[02:31:29.640 --> 02:31:30.640]  Yes.
+[02:31:30.640 --> 02:31:31.640]  Okay.
+[02:31:31.640 --> 02:31:33.640]  And it'll.
+[02:31:33.640 --> 02:31:34.640]  Catch where.
+[02:31:34.640 --> 02:31:35.640]  Yes, it's.
+[02:31:35.640 --> 02:31:38.640]  Then we can add three.
+[02:31:38.640 --> 02:31:41.640]  So get where the ears start.
+[02:31:41.640 --> 02:31:42.640]  Where the ears start.
+[02:31:42.640 --> 02:31:43.640]  Okay.
+[02:31:43.640 --> 02:31:45.640]  That's another possibility.
+[02:31:45.640 --> 02:31:46.640]  Yes.
+[02:31:46.640 --> 02:31:47.640]  All right.
+[02:31:47.640 --> 02:31:48.640]  Son.
+[02:31:48.640 --> 02:31:49.640]  Son.
+[02:31:49.640 --> 02:31:57.640]  You did you thought of something different than those two possibilities.
+[02:31:57.640 --> 02:31:58.640]  Sophia.
+[02:31:58.640 --> 02:32:04.640]  I've been focusing on the eight, but I think it's.
+[02:32:04.640 --> 02:32:05.640]  All right.
+[02:32:05.640 --> 02:32:06.640]  All right.
+[02:32:06.640 --> 02:32:07.640]  So let's do B.
+[02:32:07.640 --> 02:32:08.640]  Let's do B.
+[02:32:08.640 --> 02:32:09.640]  Namu.
+[02:32:09.640 --> 02:32:10.640]  Let's try to do B.
+[02:32:10.640 --> 02:32:11.640]  And then we move to eight.
+[02:32:11.640 --> 02:32:12.640]  And with that.
+[02:32:12.640 --> 02:32:16.640]  I'm going to let you go to enjoy the rest of your Saturday.
+[02:32:16.640 --> 02:32:18.640]  I think it's about to start.
+[02:32:18.640 --> 02:32:20.640]  I don't know if you probably is ending.
+[02:32:20.640 --> 02:32:21.640]  So.
+[02:32:21.640 --> 02:32:22.640]  Go ahead.
+[02:32:22.640 --> 02:32:23.640]  For part B.
+[02:32:23.640 --> 02:32:27.640]  Namu.
+[02:32:27.640 --> 02:32:30.640]  So you'll define.
+[02:32:30.640 --> 02:32:32.640]  You declare a call.
+[02:32:32.640 --> 02:32:35.640]  That string code equals to IBDP.
+[02:32:35.640 --> 02:32:37.640]  Yes, 2007.
+[02:32:37.640 --> 02:32:38.640]  27.
+[02:32:38.640 --> 02:32:39.640]  Uh-huh.
+[02:32:39.640 --> 02:32:41.640]  Then.
+[02:32:41.640 --> 02:32:44.640]  We will call index of.
+[02:32:44.640 --> 02:32:46.640]  So that variable.
+[02:32:46.640 --> 02:32:47.640]  We see argument.
+[02:32:47.640 --> 02:32:48.640]  CS.
+[02:32:48.640 --> 02:32:52.640]  That's the string.
+[02:32:52.640 --> 02:32:53.640]  Okay.
+[02:32:53.640 --> 02:32:54.640]  All right.
+[02:32:54.640 --> 02:32:59.640]  Return the index where CS starts.
+[02:32:59.640 --> 02:33:04.640]  Then if you want to find the index where 2017 starts.
+[02:33:04.640 --> 02:33:06.640]  We can add three to it.
+[02:33:06.640 --> 02:33:08.640]  And then extract.
+[02:33:08.640 --> 02:33:10.640]  We will call some string.
+[02:33:10.640 --> 02:33:12.640]  Which stand up there.
+[02:33:12.640 --> 02:33:14.640]  All right.
+[02:33:14.640 --> 02:33:16.640]  Yeah, that will work.
+[02:33:16.640 --> 02:33:18.640]  All right.
+[02:33:18.640 --> 02:33:23.640]  So if you are ready for not for eight.
+[02:33:23.640 --> 02:33:24.640]  Are you?
+[02:33:24.640 --> 02:33:27.640]  I think we had this one actually as the example.
+[02:33:27.640 --> 02:33:30.640]  So basically we need to create a new method.
+[02:33:30.640 --> 02:33:32.640]  Well, public static stream.
+[02:33:32.640 --> 02:33:35.640]  It will be with the name format name.
+[02:33:35.640 --> 02:33:37.640]  And we need to accept.
+[02:33:37.640 --> 02:33:40.640]  String as a variable.
+[02:33:40.640 --> 02:33:43.640]  Well, let's say full name.
+[02:33:43.640 --> 02:33:45.640]  Well, label it full name.
+[02:33:45.640 --> 02:33:48.640]  Then the program starts and we need.
+[02:33:48.640 --> 02:33:51.640]  Not the method starts.
+[02:33:51.640 --> 02:33:55.640]  So we need to identify the space.
+[02:33:55.640 --> 02:33:58.640]  The index of space.
+[02:33:58.640 --> 02:34:00.640]  In.
+[02:34:00.640 --> 02:34:02.640]  In the input.
+[02:34:02.640 --> 02:34:03.640]  Yes.
+[02:34:03.640 --> 02:34:08.640]  And then once we have identified the index of this space.
+[02:34:08.640 --> 02:34:09.640]  We.
+[02:34:09.640 --> 02:34:14.640]  We can identify last name, which will be at the position.
+[02:34:14.640 --> 02:34:15.640]  Well, we.
+[02:34:15.640 --> 02:34:16.640]  Okay.
+[02:34:16.640 --> 02:34:18.640]  It will be.
+[02:34:18.640 --> 02:34:20.640]  Full name.
+[02:34:20.640 --> 02:34:21.640]  Some string.
+[02:34:21.640 --> 02:34:24.640]  And then space plus one.
+[02:34:24.640 --> 02:34:25.640]  Yes.
+[02:34:25.640 --> 02:34:29.640]  Then we can identify the first name.
+[02:34:29.640 --> 02:34:31.640]  In the name.
+[02:34:31.640 --> 02:34:34.640]  The first name, which will.
+[02:34:34.640 --> 02:34:36.640]  Start at the.
+[02:34:36.640 --> 02:34:37.640]  At zero.
+[02:34:37.640 --> 02:34:39.640]  And at the.
+[02:34:39.640 --> 02:34:41.640]  Space position.
+[02:34:41.640 --> 02:34:43.640]  The index of space.
+[02:34:43.640 --> 02:34:44.640]  Yes.
+[02:34:44.640 --> 02:34:45.640]  And we return.
+[02:34:45.640 --> 02:34:47.640]  We return the first name.
+[02:34:47.640 --> 02:34:49.640]  Then well, it can.
+[02:34:49.640 --> 02:34:52.640]  If we decide to go with.
+[02:34:52.640 --> 02:34:53.640]  A comma.
+[02:34:53.640 --> 02:34:54.640]  We.
+[02:34:54.640 --> 02:34:55.640]  Plus.
+[02:34:55.640 --> 02:34:57.640]  Add.
+[02:34:57.640 --> 02:34:59.640]  A string with comma.
+[02:34:59.640 --> 02:35:02.640]  And then.
+[02:35:02.640 --> 02:35:03.640]  And then.
+[02:35:03.640 --> 02:35:04.640]  And then.
+[02:35:04.640 --> 02:35:05.640]  So we had this one.
+[02:35:05.640 --> 02:35:06.640]  Yeah.
+[02:35:06.640 --> 02:35:07.640]  But.
+[02:35:07.640 --> 02:35:09.640]  I still little written it.
+[02:35:09.640 --> 02:35:10.640]  All right.
+[02:35:10.640 --> 02:35:13.640]  So I was just going back and written of your answers.
+[02:35:13.640 --> 02:35:15.640]  For the previous problems.
+[02:35:15.640 --> 02:35:16.640]  And.
+[02:35:16.640 --> 02:35:17.640]  Well.
+[02:35:17.640 --> 02:35:18.640]  That's.
+[02:35:18.640 --> 02:35:19.640]  That's all we.
+[02:35:19.640 --> 02:35:22.640]  I have for you guys today.
+[02:35:22.640 --> 02:35:25.640]  If you still don't have.
+[02:35:25.640 --> 02:35:35.640]  If you still don't have.
+[02:35:35.640 --> 02:35:36.640]  Share folder.
+[02:35:36.640 --> 02:35:37.640]  Stay with me.
+[02:35:37.640 --> 02:35:41.640]  So I can probably fix that right now that you are with me.
+[02:35:41.640 --> 02:35:42.640]  And.
+[02:35:42.640 --> 02:35:43.640]  One second.
+[02:35:43.640 --> 02:35:44.640]  And.
+[02:35:44.640 --> 02:35:48.640]  I would like for.
+[02:35:48.640 --> 02:35:52.640]  Come out to stay for a second to clarify something.
+[02:35:52.640 --> 02:35:57.640]  And.
+[02:35:57.640 --> 02:36:01.640]  What do you just share with us?
+[02:36:01.640 --> 02:36:09.640]  Please.
+[02:36:09.640 --> 02:36:20.640]  Give me one second.
+[02:36:20.640 --> 02:36:25.240]  Oh, okay, sorry, she cannot speak.
+[02:36:25.240 --> 02:36:28.940]  All right, so that's it for today for me, guys.
+[02:36:31.600 --> 02:36:33.240]  You can leave if you like.
+[02:36:33.240 --> 02:36:36.440]  If you need to stay for me to help you
+[02:36:36.440 --> 02:36:41.340]  with accessing the folder or for anything else,
+[02:36:41.340 --> 02:36:45.400]  then I can stay with you for a few minutes.
+[02:36:45.400 --> 02:36:50.400]  Akmal, please stay because I wanna clarify what you ask.
+[02:36:50.400 --> 02:36:58.560]  Okay, everybody else, then I'll, I'll see you next week.
+[02:36:58.560 --> 02:37:00.160]  Okay.
+[02:37:00.160 --> 02:37:01.400]  Thank you.
+[02:37:01.400 --> 02:37:03.520]  You're welcome. Take care, everybody.
+[02:37:03.520 --> 02:37:04.680]  Thank you.
+[02:37:04.680 --> 02:37:06.280]  Bye. Bye. Bye.
+[02:37:13.280 --> 02:37:16.760]  I just want to ask a quick question for the US
+[02:37:16.760 --> 02:37:19.240]  I meant for week 10.
+[02:37:19.240 --> 02:37:22.600]  I know that we are supposed to program and stuff.
+[02:37:22.600 --> 02:37:26.200]  And I did all the programming and it's all working properly.
+[02:37:26.200 --> 02:37:29.960]  How was it to file files that you understand?
+[02:37:29.960 --> 02:37:33.160]  Like what file format do you want us to send?
+[02:37:34.560 --> 02:37:37.000]  I'm sorry, go ahead and repeat the question.
+[02:37:37.000 --> 02:37:40.000]  I, I, there is some noise I couldn't hear you clearly.
+[02:37:41.520 --> 02:37:46.080]  So I, I finished the week 10 assignment.
+[02:37:46.080 --> 02:37:46.920]  Okay.
+[02:37:46.920 --> 02:37:50.000]  Before the code and everything in the different project files.
+[02:37:50.000 --> 02:37:53.640]  But I was just wondering, they, which file format
+[02:37:53.640 --> 02:37:58.640]  should I submit it as in the promotion program application?
+[02:38:00.640 --> 02:38:05.640]  Okay, so if it is a program, okay,
+[02:38:08.480 --> 02:38:13.000]  what I want you to do is to make sure that you,
+[02:38:14.000 --> 02:38:16.080]  Russian, I, we haven't met to decide this.
+[02:38:16.080 --> 02:38:21.080]  But I want you to save it as a text file
+[02:38:22.640 --> 02:38:26.480]  because I'm assuming that I'm going to have to try to run it
+[02:38:28.640 --> 02:38:30.240]  and check if it works.
+[02:38:30.240 --> 02:38:31.640]  Okay.
+[02:38:31.640 --> 02:38:33.200]  A text file.
+[02:38:33.200 --> 02:38:34.040]  Right.
+[02:38:34.040 --> 02:38:35.920]  Okay, let me just open it up real quick to see
+[02:38:35.920 --> 02:38:38.560]  like if you're on the same page.
+[02:38:38.560 --> 02:38:42.480]  So I go files, I file save.
+[02:38:42.480 --> 02:38:43.320]  Give me one.
+[02:38:43.320 --> 02:38:45.400]  And go ahead, keep going.
+[02:38:45.400 --> 02:38:48.400]  It only gives me the option for dot Java.
+[02:38:48.400 --> 02:38:49.600]  That's true, that's true.
+[02:38:49.600 --> 02:38:53.400]  So what you, what, what I mean is this, okay.
+[02:38:53.400 --> 02:38:58.400]  Go ahead and what are you using Windows or Mac?
+[02:38:58.840 --> 02:39:00.240]  I'm using Mac.
+[02:39:00.240 --> 02:39:01.000]  Okay.
+[02:39:01.000 --> 02:39:06.000]  So find the text editor that max brings.
+[02:39:07.040 --> 02:39:10.360]  I think it's called text edit.
+[02:39:11.360 --> 02:39:13.320]  Text edit.
+[02:39:13.320 --> 02:39:14.160]  Right.
+[02:39:14.160 --> 02:39:15.960]  And then, then do this.
+[02:39:15.960 --> 02:39:20.240]  Copy the program, copy and paste the program there
+[02:39:20.240 --> 02:39:22.120]  and save it as a text file.
+[02:39:23.480 --> 02:39:27.880]  And I need to, I need to clarify that with the other teacher
+[02:39:27.880 --> 02:39:30.240]  because in my, is the text edit?
+[02:39:31.360 --> 02:39:36.360]  Yeah, it's called text edit, correct.
+[02:39:37.080 --> 02:39:42.960]  Okay, so I'm in text at a new document.
+[02:39:42.960 --> 02:39:47.960]  So copy and paste from netbeams, copy and paste there,
+[02:39:48.840 --> 02:39:51.240]  save it as a text file.
+[02:39:51.240 --> 02:39:54.840]  Because if it's a text file, no rich text file,
+[02:39:54.840 --> 02:39:58.320]  just text file that entire everything, everything,
+[02:39:58.320 --> 02:40:02.160]  because then I will have to run it in that way.
+[02:40:02.160 --> 02:40:04.640]  I can copy and paste it and run it on my end
+[02:40:04.640 --> 02:40:06.280]  when I need to.
+[02:40:06.280 --> 02:40:10.120]  Okay, but I'm going to have to clarify with, with rash.
+[02:40:12.280 --> 02:40:13.280]  Okay.
+[02:40:13.280 --> 02:40:15.920]  It's only allowed me to export as PDF.
+[02:40:21.920 --> 02:40:23.160]  For some reason.
+[02:40:24.160 --> 02:40:25.160]  Yeah.
+[02:40:26.040 --> 02:40:28.760]  Export as PDF is the only option.
+[02:40:29.960 --> 02:40:30.960]  Aw.
+[02:40:30.960 --> 02:40:31.800]  You know what?
+[02:40:31.800 --> 02:40:32.640]  Do me a favor then.
+[02:40:32.640 --> 02:40:37.640]  Cause then, then send me an email on, on canvas
+[02:40:38.640 --> 02:40:42.160]  cause I'm going to have to ask rash.
+[02:40:42.160 --> 02:40:44.440]  How, how we're going to handle that?
+[02:40:44.440 --> 02:40:45.960]  Okay.
+[02:40:45.960 --> 02:40:48.880]  Cause I don't, I don't, I don't know for sure.
+[02:40:48.880 --> 02:40:52.520]  Okay, so I know that it can't submit it.
+[02:40:52.520 --> 02:40:56.760]  They, yeah, so net, and netbeams,
+[02:40:56.760 --> 02:41:01.680]  I know we can export the file, the whole package,
+[02:41:01.680 --> 02:41:05.280]  but I don't know, let me ask,
+[02:41:05.280 --> 02:41:09.280]  cause I don't have, I really don't have a certain answer for you.
+[02:41:09.280 --> 02:41:11.240]  Okay, and yes, if you,
+[02:41:11.240 --> 02:41:16.240]  if that is an impediment for, for submitting the work,
+[02:41:16.680 --> 02:41:19.720]  then I'll, I'll have to see how we can manage that.
+[02:41:19.720 --> 02:41:20.720]  Okay.
+[02:41:21.440 --> 02:41:25.720]  Okay, so when would I expect I can update on this?
+[02:41:25.720 --> 02:41:28.680]  Because I want to, I'm going to email rash.
+[02:41:29.680 --> 02:41:32.160]  Actually email both of us.
+[02:41:32.160 --> 02:41:35.520]  Can you do that email on the, on the, on campus?
+[02:41:35.520 --> 02:41:36.520]  Okay.
+[02:41:36.520 --> 02:41:41.520]  And on, right, on canvas and then ask how should you submit?
+[02:41:42.680 --> 02:41:44.680]  What type of file should you submit it?
+[02:41:44.680 --> 02:41:46.760]  Because I don't have an answer for it really.
+[02:41:46.760 --> 02:41:47.280]  Okay.
+[02:41:47.280 --> 02:41:50.000]  So in that way, he will, he will see it.
+[02:41:50.000 --> 02:41:52.240]  And should I specify the problems I'm facing
+[02:41:52.240 --> 02:41:54.920]  with the file formats for each application?
+[02:41:54.920 --> 02:41:55.640]  Right, right.
+[02:41:55.720 --> 02:41:59.520]  And then in that way, he can help both of us,
+[02:41:59.520 --> 02:42:02.440]  because as I said, I don't really know
+[02:42:02.440 --> 02:42:03.680]  how that's going to work.
+[02:42:03.680 --> 02:42:05.000]  Okay.
+[02:42:05.000 --> 02:42:06.240]  Okay.
+[02:42:06.240 --> 02:42:07.200]  Thank you.
+[02:42:07.200 --> 02:42:08.040]  You're welcome.
+[02:42:08.040 --> 02:42:09.720]  Have a great rest of the day.
+[02:42:10.680 --> 02:42:11.680]  You too.
+[02:42:12.960 --> 02:42:15.480]  Sarah, what's going on?
+[02:42:17.560 --> 02:42:19.160]  Hi, Mr. Martin.
+[02:42:19.160 --> 02:42:20.320]  Can you hear me?
+[02:42:20.320 --> 02:42:21.440]  Yes, I can hear you.
+[02:42:22.280 --> 02:42:26.800]  Regarding what we, I had asked you about last week,
+[02:42:26.800 --> 02:42:30.680]  my school still wants me to do like a mock exam
+[02:42:30.680 --> 02:42:32.040]  for computer science.
+[02:42:32.040 --> 02:42:37.040]  And they said that if you guys aren't able to make an exam,
+[02:42:37.760 --> 02:42:42.760]  is it possible for you guys to provide topics to them
+[02:42:43.000 --> 02:42:47.360]  for them at the school to make the exam on their end?
+[02:42:48.840 --> 02:42:49.680]  Okay.
+[02:42:49.680 --> 02:42:52.320]  Let me, I'm going to make, I'm going to take,
+[02:42:52.320 --> 02:42:53.640]  make notes of that.
+[02:42:55.720 --> 02:43:00.120]  And I know it sounds like I repaired it stuff,
+[02:43:00.120 --> 02:43:04.800]  but I, I am new at this with Pamolia.
+[02:43:04.880 --> 02:43:09.200]  And I don't know what they, what the policies are for that.
+[02:43:09.200 --> 02:43:14.200]  So I'm going to say mock exam or provide a mock
+[02:43:14.280 --> 02:43:15.520]  is done for you guys.
+[02:43:15.520 --> 02:43:17.320]  That's basically the question, right?
+[02:43:20.000 --> 02:43:25.240]  Provide a mock exam for Sarah.
+[02:43:30.320 --> 02:43:33.160]  Provide either a develop one
+[02:43:35.880 --> 02:43:40.320]  or provide topics
+[02:43:43.080 --> 02:43:48.080]  for this school to create one.
+[02:43:48.200 --> 02:43:49.280]  Am I right on that?
+[02:43:49.960 --> 02:43:50.960]  Yeah.
+[02:43:50.960 --> 02:43:51.960]  Okay.
+[02:43:53.960 --> 02:43:54.960]  Yes.
+[02:43:56.280 --> 02:43:58.480]  Yes, I have the same thing as well.
+[02:43:58.480 --> 02:44:02.200]  So like, I'm like, on January, I have the mock exam.
+[02:44:02.200 --> 02:44:04.360]  And then like, I don't know, like, how would it work
+[02:44:04.360 --> 02:44:05.760]  because I'm doing a chill.
+[02:44:05.760 --> 02:44:07.640]  And I'm like, only the one in the class.
+[02:44:07.640 --> 02:44:09.880]  So I don't know how would it work for me as well
+[02:44:09.880 --> 02:44:11.880]  because I have a mock exam as well.
+[02:44:11.880 --> 02:44:12.880]  All right.
+[02:44:13.600 --> 02:44:16.440]  What, what day do you have that program?
+[02:44:17.280 --> 02:44:21.160]  It's on January more, I'll check now.
+[02:44:21.160 --> 02:44:26.960]  It's like from, I think so on the 15th of January,
+[02:44:26.960 --> 02:44:28.360]  something like that.
+[02:44:28.360 --> 02:44:29.360]  Okay.
+[02:44:29.360 --> 02:44:30.360]  All right.
+[02:44:30.360 --> 02:44:32.360]  Well, again, then I'm going to,
+[02:44:32.360 --> 02:44:35.240]  I'm going to try to find out an answer for that.
+[02:44:35.240 --> 02:44:38.560]  And I'll be emailing you this coming week.
+[02:44:38.560 --> 02:44:40.440]  Both of you, Sarah and you.
+[02:44:40.440 --> 02:44:41.240]  Thank you, Sarah.
+[02:44:41.240 --> 02:44:42.240]  Okay.
+[02:44:43.040 --> 02:44:44.040]  Thank you.
+[02:44:44.040 --> 02:44:45.040]  Thank you so much.
+[02:44:45.040 --> 02:44:45.880]  You're welcome, Sarah.
+[02:44:45.880 --> 02:44:47.240]  I have a good rest of the day.
+[02:44:47.240 --> 02:44:48.240]  Alma.
+[02:44:51.240 --> 02:44:52.240]  Alma.
+[02:44:53.240 --> 02:44:54.720]  Hello, who are you?
+[02:44:54.720 --> 02:44:55.560]  I'm good.
+[02:44:55.560 --> 02:44:56.400]  Thank you.
+[02:44:56.400 --> 02:44:57.240]  How are you?
+[02:44:57.240 --> 02:44:58.080]  Pretty good.
+[02:44:58.080 --> 02:44:58.920]  Thanks.
+[02:44:58.920 --> 02:45:01.800]  I just wanted to quickly talk to you
+[02:45:01.800 --> 02:45:05.000]  about downloading Java since I haven't been able to do that.
+[02:45:09.520 --> 02:45:10.360]  Okay.
+[02:45:10.360 --> 02:45:14.920]  The links provided through like the tasks
+[02:45:14.920 --> 02:45:18.760]  for this week, week 10, but I entered the links
+[02:45:18.760 --> 02:45:22.320]  and then I didn't know what to press to like download it.
+[02:45:24.240 --> 02:45:26.880]  So you haven't been able to install Java?
+[02:45:26.880 --> 02:45:27.720]  Yes.
+[02:45:27.720 --> 02:45:29.160]  Same, sir.
+[02:45:29.160 --> 02:45:30.720]  Same, same with.
+[02:45:30.720 --> 02:45:32.320]  Same, yes, sir.
+[02:45:32.320 --> 02:45:33.440]  I also like it.
+[02:45:33.440 --> 02:45:36.400]  I tried to try to install with the teacher in my school.
+[02:45:36.400 --> 02:45:38.840]  And then like, we weren't able to do it.
+[02:45:38.840 --> 02:45:39.720]  I don't know why.
+[02:45:39.760 --> 02:45:42.880]  Maybe it's like something on my laptop or the website
+[02:45:42.880 --> 02:45:46.600]  that was provided on the worksheet.
+[02:45:46.600 --> 02:45:48.840]  Like we tried many times, but it didn't work.
+[02:45:48.840 --> 02:45:51.320]  So like I wasn't able to install it on time.
+[02:45:53.240 --> 02:45:54.240]  Okay.
+[02:45:55.400 --> 02:45:56.560]  Let me see.
+[02:46:00.600 --> 02:46:03.680]  So you guys were able to...
+[02:46:03.680 --> 02:46:06.640]  So you did access the...
+[02:46:06.640 --> 02:46:12.200]  You had you access the document that we have in the chair
+[02:46:12.200 --> 02:46:13.480]  of all the press?
+[02:46:13.480 --> 02:46:14.280]  Yes, sir.
+[02:46:16.440 --> 02:46:17.280]  Okay.
+[02:46:19.160 --> 02:46:22.280]  What what machine do you have?
+[02:46:23.440 --> 02:46:24.680]  I have my map.
+[02:46:24.680 --> 02:46:26.640]  I'm to enter truth, yes.
+[02:46:26.640 --> 02:46:27.880]  My empty chip.
+[02:46:29.680 --> 02:46:30.680]  Okay.
+[02:46:31.680 --> 02:46:33.680]  Did you...
+[02:46:33.680 --> 02:46:37.680]  Were you able to at least download the software?
+[02:46:39.680 --> 02:46:43.680]  I installed from the Oracle website.
+[02:46:43.680 --> 02:46:50.680]  I think it was called X64DMG, which I did that.
+[02:46:50.680 --> 02:46:54.680]  And then for the netbeans, I also downloaded,
+[02:46:54.680 --> 02:46:56.680]  I think it was 28 netbeans.
+[02:46:56.960 --> 02:47:00.200]  But then like it's like on my laptop,
+[02:47:00.200 --> 02:47:03.440]  but like I cannot access it or open it.
+[02:47:03.440 --> 02:47:06.040]  I have the netbeans 28.
+[02:47:06.040 --> 02:47:08.040]  What...
+[02:47:08.040 --> 02:47:09.720]  What message did you get?
+[02:47:11.000 --> 02:47:12.680]  Like it's not like opening.
+[02:47:12.680 --> 02:47:15.320]  I have the file, but I don't have the...
+[02:47:15.320 --> 02:47:17.080]  Yes, it has an automatic access.
+[02:47:17.080 --> 02:47:19.000]  Yes, it has an open.
+[02:47:19.000 --> 02:47:22.120]  I have the files and everything, but like it's not like opening.
+[02:47:23.160 --> 02:47:26.240]  Is this your personal computer or school computer?
+[02:47:26.240 --> 02:47:28.080]  No, no, it's my personal one.
+[02:47:28.080 --> 02:47:29.240]  It's your personal one.
+[02:47:29.240 --> 02:47:32.240]  So I would just ask him because then there is no restriction.
+[02:47:35.120 --> 02:47:37.160]  But I spoke with my school.
+[02:47:37.160 --> 02:47:42.880]  If you guys are happy to do it, then they will like let me use the school laptop,
+[02:47:42.880 --> 02:47:44.760]  like the PC to access it.
+[02:47:44.760 --> 02:47:48.800]  If you guys let me do that because I spoke with my IT in my school.
+[02:47:48.800 --> 02:47:51.880]  And then he wasn't able to install it from my laptop.
+[02:47:51.880 --> 02:47:53.400]  On your laptop?
+[02:47:53.400 --> 02:47:54.240]  Yeah.
+[02:47:54.280 --> 02:48:00.200]  So they said if you guys let me, then they will like do it for the school's PC,
+[02:48:00.200 --> 02:48:03.960]  then I will be able to let code and do the programming over there.
+[02:48:03.960 --> 02:48:04.480]  Right.
+[02:48:04.480 --> 02:48:06.680]  Look, I don't have an issue with that.
+[02:48:06.680 --> 02:48:14.000]  I mean, I don't see why using netbeans in one computer or other is an issue.
+[02:48:14.000 --> 02:48:16.040]  I don't see that.
+[02:48:16.040 --> 02:48:21.160]  So if that solves your problem, I will tell you, go ahead and do that.
+[02:48:21.160 --> 02:48:22.560]  You know what?
+[02:48:22.560 --> 02:48:25.840]  I would like to have it on my laptop so I can do it like whatever.
+[02:48:25.840 --> 02:48:30.640]  And whenever I want to, obviously that will be the best option.
+[02:48:30.640 --> 02:48:37.080]  But yeah, so to avoid for you to probably be behind, right?
+[02:48:39.080 --> 02:48:43.760]  At least get the school computer and try to do that there.
+[02:48:43.760 --> 02:48:51.360]  Because I will have to probably be with you like make an individual appointment
+[02:48:51.360 --> 02:48:54.960]  and try to try to do it together.
+[02:48:54.960 --> 02:48:56.520]  Do you understand what I'm saying?
+[02:48:56.520 --> 02:48:57.200]  Yes, right.
+[02:48:57.200 --> 02:49:00.200]  So you will have to share this one, right?
+[02:49:00.200 --> 02:49:05.440]  Share your screen and everything and then try to do that.
+[02:49:05.440 --> 02:49:11.320]  Because otherwise, we will have to go.
+[02:49:11.320 --> 02:49:16.920]  I will, what I will do really is going through all these documents step by step,
+[02:49:16.920 --> 02:49:24.920]  okay, and see where the process kind of fails if it does, okay?
+[02:49:24.920 --> 02:49:25.920]  Okay.
+[02:49:25.920 --> 02:49:29.000]  Yes, ma'am.
+[02:49:29.000 --> 02:49:30.840]  For me, I'm able to open it.
+[02:49:30.840 --> 02:49:35.720]  It's just I'm confused on like what to do if that makes sense.
+[02:49:35.720 --> 02:49:37.720]  So for me, it's not really a software issue.
+[02:49:37.720 --> 02:49:40.560]  It's more of like confusion.
+[02:49:40.560 --> 02:49:42.880]  Confusion.
+[02:49:42.880 --> 02:49:44.560]  All right, well, let's, let's do this.
+[02:49:44.560 --> 02:49:48.680]  Alma Goharan, I just allow you to share.
+[02:49:48.680 --> 02:49:51.480]  Is in this machine that you have it?
+[02:49:51.480 --> 02:49:57.480]  Share my screen, okay, wait, let me see.
+[02:49:57.480 --> 02:50:03.600]  And we'll see Abdul, do you have any question?
+[02:50:03.600 --> 02:50:04.600]  Abdul?
+[02:50:04.600 --> 02:50:10.160]  Sir, no, I'm just here because I'm having an issue with the share folder.
+[02:50:10.160 --> 02:50:17.160]  Whenever I try to log in, it says that there's some issue that prevents you and you don't
+[02:50:17.160 --> 02:50:18.160]  have access.
+[02:50:18.160 --> 02:50:21.160]  Okay, do me a favor on a private chat.
+[02:50:21.160 --> 02:50:36.160]  Share your email with me, please, okay, I'm doing it right now.
+[02:50:36.160 --> 02:50:43.160]  So I'm going to try it again.
+[02:50:43.160 --> 02:50:56.160]  All right, let me, let me look.
+[02:50:56.160 --> 02:51:23.160]  Abdul, I just send you an email to that address, try to see if allows you to allow you
+[02:51:24.160 --> 02:51:27.160]  to get access to it.
+[02:51:27.160 --> 02:51:31.160]  All right, Alma, so what's going on?
+[02:51:31.160 --> 02:51:35.160]  So I press this, right?
+[02:51:35.160 --> 02:51:36.160]  Correct.
+[02:51:36.160 --> 02:51:41.160]  And then.
+[02:51:41.160 --> 02:51:46.160]  So I thought you said that you have the software already, so did you download it already or not?
+[02:51:46.160 --> 02:51:49.160]  No, because I get confused here.
+[02:51:49.160 --> 02:51:52.160]  I tried to ask the IT in my school and they didn't know.
+[02:51:52.160 --> 02:51:55.160]  So they told me to ask the teacher.
+[02:51:55.160 --> 02:51:58.160]  Okay, that's fine.
+[02:51:58.160 --> 02:52:07.160]  All right, so Java development kid, okay.
+[02:52:07.160 --> 02:52:11.160]  Okay, go ahead and.
+[02:52:11.160 --> 02:52:13.160]  Oh, wait, sorry.
+[02:52:13.160 --> 02:52:16.160]  Problem.
+[02:52:16.160 --> 02:52:19.160]  Access, let me know.
+[02:52:19.160 --> 02:52:23.160]  So I'm here now, which one do I press?
+[02:52:23.160 --> 02:52:31.160]  Okay, give me one second.
+[02:52:31.160 --> 02:52:32.160]  Give me one second.
+[02:52:32.160 --> 02:52:39.160]  I'm going to read that document that I was reading because.
+[02:52:39.160 --> 02:52:42.160]  I was like, install the thing from the same, the same place.
+[02:52:42.160 --> 02:52:44.160]  I went on the mark.
+[02:52:44.160 --> 02:52:52.160]  Oh, it's sad because I have a Mac and then from there and like I did the X64, the MG one.
+[02:52:52.160 --> 02:52:55.160]  Is that correct?
+[02:52:55.160 --> 02:52:57.160]  What you should have.
+[02:52:57.160 --> 02:52:58.160]  Let me see.
+[02:52:58.160 --> 02:52:59.160]  Come to Java.
+[02:52:59.160 --> 02:53:00.160]  Give me one more second.
+[02:53:00.160 --> 02:53:04.160]  So I just want to make sure that we are following steps.
+[02:53:04.160 --> 02:53:06.160]  Okay.
+[02:53:06.160 --> 02:53:16.160]  All right.
+[02:53:16.160 --> 02:53:18.160]  Windows installation.
+[02:53:18.160 --> 02:53:20.160]  Give me one second.
+[02:53:20.160 --> 02:53:23.160]  Mac.
+[02:53:23.160 --> 02:53:25.160]  All right, so.
+[02:53:25.160 --> 02:53:27.160]  Alma, what machine do you have?
+[02:53:27.160 --> 02:53:29.160]  A Mac or a.
+[02:53:29.160 --> 02:53:34.160]  All right, so then let's do this before we download anything.
+[02:53:34.160 --> 02:53:39.160]  Open the terminal.
+[02:53:39.160 --> 02:53:43.160]  Okay, just press command space.
+[02:53:43.160 --> 02:53:44.160]  Okay.
+[02:53:44.160 --> 02:53:47.160]  And then type terminal.
+[02:53:47.160 --> 02:53:49.160]  Like this.
+[02:53:49.160 --> 02:53:51.160]  Yeah.
+[02:53:51.160 --> 02:53:54.160]  And then find that application.
+[02:53:54.160 --> 02:53:55.160]  There you go.
+[02:53:55.160 --> 02:53:56.160]  Okay.
+[02:53:56.160 --> 02:53:57.160]  What access to it?
+[02:53:57.160 --> 02:53:59.160]  Mr. Martin sir.
+[02:53:59.160 --> 02:54:01.160]  You have access to it?
+[02:54:01.160 --> 02:54:02.160]  Yes, it's fine now.
+[02:54:02.160 --> 02:54:03.160]  Thank you.
+[02:54:03.160 --> 02:54:04.160]  Well, you're welcome.
+[02:54:04.160 --> 02:54:06.160]  Have a great rest of the day then.
+[02:54:06.160 --> 02:54:07.160]  Okay.
+[02:54:07.160 --> 02:54:09.160]  You do sir likewise.
+[02:54:09.160 --> 02:54:10.160]  I'll see you.
+[02:54:10.160 --> 02:54:11.160]  See you later.
+[02:54:11.160 --> 02:54:13.160]  Bye.
+[02:54:13.160 --> 02:54:14.160]  All right.
+[02:54:14.160 --> 02:54:15.160]  So Alma.
+[02:54:15.160 --> 02:54:21.160]  So now go ahead and type Java.
+[02:54:21.160 --> 02:54:25.160]  Mr, I want to me type.
+[02:54:25.160 --> 02:54:27.160]  I will now.
+[02:54:27.160 --> 02:54:28.160]  Okay.
+[02:54:28.160 --> 02:54:38.160]  Okay.
+[02:54:38.160 --> 02:54:39.160]  Okay.
+[02:54:39.160 --> 02:54:41.160]  Okay.
+[02:54:41.160 --> 02:54:44.160]  And there.
+[02:54:44.160 --> 02:54:47.160]  All right, what does he say?
+[02:54:47.160 --> 02:54:52.160]  Operation couldn't be completed unable to locate a Java runtime.
+[02:54:52.160 --> 02:54:56.160]  Please visit.
+[02:54:56.160 --> 02:54:57.160]  Okay.
+[02:54:57.160 --> 02:55:00.160]  So it looks like you don't have.
+[02:55:00.160 --> 02:55:04.160]  Java in your.
+[02:55:04.160 --> 02:55:06.160]  In your computer.
+[02:55:06.160 --> 02:55:08.160]  And it needs to be.
+[02:55:08.160 --> 02:55:10.160]  Install.
+[02:55:10.160 --> 02:55:11.160]  One sec.
+[02:55:11.160 --> 02:55:12.160]  Okay.
+[02:55:12.160 --> 02:55:22.160]  Okay.
+[02:55:22.160 --> 02:55:41.160]  Well, is giving me.
+[02:55:41.160 --> 02:55:44.160]  I'm doing the same thing.
+[02:55:44.160 --> 02:55:46.160]  But it's giving me the same message.
+[02:55:46.160 --> 02:55:50.160]  So, and I know I have.
+[02:55:50.160 --> 02:55:53.160]  So I don't know.
+[02:55:53.160 --> 02:55:56.160]  What the deal is.
+[02:55:56.160 --> 02:55:57.160]  Okay.
+[02:55:57.160 --> 02:55:58.160]  It appears.
+[02:55:58.160 --> 02:55:59.160]  Max.
+[02:55:59.160 --> 02:56:01.160]  My project to start Java.
+[02:56:01.160 --> 02:56:02.160]  You can skip that.
+[02:56:02.160 --> 02:56:03.160]  Okay.
+[02:56:03.160 --> 02:56:04.160]  So we're not.
+[02:56:04.160 --> 02:56:05.160]  Okay.
+[02:56:05.160 --> 02:56:08.160]  So.
+[02:56:08.160 --> 02:56:09.160]  Let me see.
+[02:56:09.160 --> 02:56:10.160]  I'm going to.
+[02:56:10.160 --> 02:56:12.160]  I'm going to type something on the chat.
+[02:56:12.160 --> 02:56:18.160]  So you can do that.
+[02:56:18.160 --> 02:56:27.160]  So.
+[02:56:27.160 --> 02:56:34.160]  So right there on the terminal.
+[02:56:34.160 --> 02:56:38.160]  Try to.
+[02:56:38.160 --> 02:56:39.160]  Right.
+[02:56:39.160 --> 02:56:42.160]  This is a command.
+[02:56:42.160 --> 02:56:47.160]  I just pasted on the chat.
+[02:56:47.160 --> 02:56:50.160]  Okay.
+[02:56:50.160 --> 02:56:53.160]  Should I share my screen as well?
+[02:56:53.160 --> 02:56:54.160]  Yeah.
+[02:56:54.160 --> 02:56:55.160]  Because I want to.
+[02:56:55.160 --> 02:56:59.160]  I want to see what's going on.
+[02:56:59.160 --> 02:57:02.160]  Act mal.
+[02:57:02.160 --> 02:57:05.160]  You still there.
+[02:57:05.160 --> 02:57:08.160]  So you also have a Mac.
+[02:57:08.160 --> 02:57:09.160]  Correct.
+[02:57:09.160 --> 02:57:10.160]  Yes.
+[02:57:10.160 --> 02:57:13.160]  Well, let's try to.
+[02:57:13.160 --> 02:57:16.160]  Let's see if you're able to follow what we're doing with.
+[02:57:16.160 --> 02:57:18.160]  I did the same thing.
+[02:57:18.160 --> 02:57:22.160]  And it said that I have the version.
+[02:57:22.160 --> 02:57:25.160]  25.0.1.
+[02:57:25.160 --> 02:57:27.160]  I put on my terminal.
+[02:57:27.160 --> 02:57:28.160]  I wrote Java.
+[02:57:28.160 --> 02:57:30.160]  It's the version.
+[02:57:30.160 --> 02:57:32.160]  Any game in Java version.
+[02:57:32.160 --> 02:57:34.160]  25.0.1.
+[02:57:34.160 --> 02:57:37.160]  Okay.
+[02:57:37.160 --> 02:57:38.160]  So.
+[02:57:38.160 --> 02:57:40.160]  I already have the files and everything.
+[02:57:40.160 --> 02:57:42.160]  But like, I just going to open the.
+[02:57:42.160 --> 02:57:43.160]  Like the.
+[02:57:43.160 --> 02:57:45.160]  I don't know why it's not.
+[02:57:45.160 --> 02:57:46.160]  It's not opening for me.
+[02:57:46.160 --> 02:57:48.160]  I have the Java.
+[02:57:48.160 --> 02:57:50.160]  And then the.
+[02:57:50.160 --> 02:57:53.160]  It means as well.
+[02:57:53.160 --> 02:57:54.160]  Okay.
+[02:57:54.160 --> 02:57:55.160]  Give me one second.
+[02:57:55.160 --> 02:57:58.160]  So, Alma, you say that no much found.
+[02:57:58.160 --> 02:57:59.160]  Right.
+[02:57:59.160 --> 02:58:00.160]  Yeah.
+[02:58:00.160 --> 02:58:01.160]  Okay.
+[02:58:01.160 --> 02:58:03.160]  One more try.
+[02:58:03.160 --> 02:58:05.160]  Or something here.
+[02:58:05.160 --> 02:58:08.160]  I think just to install the ARM.
+[02:58:08.160 --> 02:58:11.160]  One of the 64 one because I had the same issue.
+[02:58:11.160 --> 02:58:14.160]  And then when I did the ARM 64.
+[02:58:14.160 --> 02:58:16.160]  From the Mac OS version.
+[02:58:16.160 --> 02:58:18.160]  And then it worked for me.
+[02:58:18.160 --> 02:58:19.160]  Which one?
+[02:58:19.160 --> 02:58:22.160]  You go to the Mac OS there.
+[02:58:22.160 --> 02:58:24.160]  And top left.
+[02:58:24.160 --> 02:58:25.160]  So.
+[02:58:25.160 --> 02:58:27.160]  You see what it says.
+[02:58:27.160 --> 02:58:28.160]  Alma, you see that?
+[02:58:28.160 --> 02:58:29.160]  No, go back.
+[02:58:29.160 --> 02:58:30.160]  Okay.
+[02:58:30.160 --> 02:58:34.160]  You see at the top says Linus max and window.
+[02:58:34.160 --> 02:58:35.160]  Oh, yes.
+[02:58:35.160 --> 02:58:36.160]  Yeah, there.
+[02:58:36.160 --> 02:58:40.160]  And then you go to the RARM 64 DNG.
+[02:58:40.160 --> 02:58:42.160]  This one, right?
+[02:58:42.160 --> 02:58:44.160]  No, I know this.
+[02:58:44.160 --> 02:58:46.160]  It depends which.
+[02:58:46.160 --> 02:58:48.160]  Which Mac will you have?
+[02:58:48.160 --> 02:58:51.160]  Which I'm like what should you have?
+[02:58:51.160 --> 02:58:53.160]  Yeah, depends on your machine.
+[02:58:53.160 --> 02:58:54.160]  But.
+[02:58:54.160 --> 02:58:56.160]  The one she's he stole is the last one.
+[02:58:56.160 --> 02:58:57.160]  Am I right?
+[02:58:57.160 --> 02:58:58.160]  This one?
+[02:58:58.160 --> 02:58:59.160]  Yes.
+[02:58:59.160 --> 02:59:00.160]  Yeah.
+[02:59:00.160 --> 02:59:01.160]  That's what he stole.
+[02:59:01.160 --> 02:59:03.160]  So, Alma, try to.
+[02:59:03.160 --> 02:59:05.160]  To do the same.
+[02:59:05.160 --> 02:59:08.160]  Now stop sharing and.
+[02:59:08.160 --> 02:59:10.160]  I'll show me your your screen.
+[02:59:10.160 --> 02:59:12.160]  Well, you said that it doesn't open.
+[02:59:12.160 --> 02:59:21.160]  I want to see what might be.
+[02:59:21.160 --> 02:59:25.160]  How do you see my screen, sir?
+[02:59:25.160 --> 02:59:28.160]  Yeah, share the screen.
+[02:59:28.160 --> 02:59:30.160]  Can you see my screen now?
+[02:59:30.160 --> 02:59:32.160]  Because I'm trying to.
+[02:59:32.160 --> 02:59:35.160]  Well, not really.
+[02:59:35.160 --> 02:59:45.160]  Oh, it moves.
+[02:59:45.160 --> 02:59:47.160]  How about now?
+[02:59:47.160 --> 02:59:51.160]  Is it working now?
+[02:59:51.160 --> 02:59:53.160]  No, it's not working.
+[02:59:53.160 --> 02:59:57.160]  I just see the same.
+[02:59:57.160 --> 02:59:59.160]  Oh, now it's about now.
+[02:59:59.160 --> 03:00:00.160]  Now.
+[03:00:00.160 --> 03:00:04.160]  So, like, I put the job version and it's any him in this.
+[03:00:04.160 --> 03:00:05.160]  Okay.
+[03:00:05.160 --> 03:00:14.160]  And when I go to my files to my downloads and then first search net pins.
+[03:00:14.160 --> 03:00:17.160]  Because I have the thing also the net pins here.
+[03:00:17.160 --> 03:00:24.160]  I have the file here, but like I kind of open it.
+[03:00:24.160 --> 03:00:25.160]  You can.
+[03:00:25.160 --> 03:00:27.160]  That folder.
+[03:00:27.160 --> 03:00:30.160]  No, because when I press it, it goes here.
+[03:00:30.160 --> 03:00:33.160]  So like, I don't know what to do here.
+[03:00:33.160 --> 03:00:35.160]  Wait, wait a sec.
+[03:00:35.160 --> 03:00:37.160]  It looks like.
+[03:00:37.160 --> 03:00:40.160]  Because usually.
+[03:00:40.160 --> 03:00:44.160]  Usually it becomes like.
+[03:00:44.160 --> 03:00:50.160]  Something that you need to unpack on install.
+[03:00:50.160 --> 03:00:51.160]  So let's see.
+[03:00:51.160 --> 03:00:53.160]  Let's go back to that.
+[03:00:53.160 --> 03:00:54.160]  No, no, stay there.
+[03:00:54.160 --> 03:00:55.160]  Scroll down.
+[03:00:55.160 --> 03:00:56.160]  I want to see.
+[03:00:56.160 --> 03:00:57.160]  Oh, net pins.
+[03:00:57.160 --> 03:00:58.160]  Of course.
+[03:00:58.160 --> 03:00:59.160]  Okay.
+[03:00:59.160 --> 03:01:01.160]  Do you see the third file there?
+[03:01:01.160 --> 03:01:02.160]  Go back up.
+[03:01:02.160 --> 03:01:06.160]  You see a file that one, the.
+[03:01:06.160 --> 03:01:07.160]  This one.
+[03:01:07.160 --> 03:01:08.160]  Yeah.
+[03:01:08.160 --> 03:01:09.160]  That one.
+[03:01:09.160 --> 03:01:12.160]  That's the download and a sip.
+[03:01:12.160 --> 03:01:14.160]  Click on that.
+[03:01:14.160 --> 03:01:15.160]  But says this.
+[03:01:15.160 --> 03:01:20.160]  Can resume this download this file.
+[03:01:20.160 --> 03:01:23.160]  That's how to redo it.
+[03:01:23.160 --> 03:01:24.160]  Looks like.
+[03:01:24.160 --> 03:01:30.160]  Because what you want is once you download it looks like all you got to do is.
+[03:01:31.160 --> 03:01:35.160]  You will see on your desktop something that looks like a.
+[03:01:35.160 --> 03:01:36.160]  Drive.
+[03:01:36.160 --> 03:01:43.160]  And then from there, you just click on it and ask to install to install.
+[03:01:43.160 --> 03:01:47.160]  I think I did that already when I do my first download it.
+[03:01:47.160 --> 03:01:50.160]  And then you did that and it gave you all this.
+[03:01:50.160 --> 03:01:54.160]  Yes, they gave all this like I did that and it gave all this.
+[03:01:54.160 --> 03:01:57.160]  Okay, click on your finder.
+[03:01:57.160 --> 03:01:58.160]  Oh, no, right there.
+[03:01:58.160 --> 03:01:59.160]  Click on applications.
+[03:01:59.160 --> 03:02:06.160]  Go go to applications on the right on the right panel.
+[03:02:06.160 --> 03:02:15.160]  Is net being somewhere in there?
+[03:02:15.160 --> 03:02:19.160]  No, it's not there.
+[03:02:19.160 --> 03:02:22.160]  So.
+[03:02:22.160 --> 03:02:26.160]  Well, it looks like you might want to see if you're able to remove.
+[03:02:27.160 --> 03:02:29.160]  What you have on it, beans.
+[03:02:29.160 --> 03:02:34.160]  And then try to download it again and see if that works.
+[03:02:34.160 --> 03:02:39.160]  Because when I did for the Python, like it was like fast and quick for Java.
+[03:02:39.160 --> 03:02:41.160]  I don't know.
+[03:02:41.160 --> 03:02:44.160]  Okay.
+[03:02:44.160 --> 03:02:47.160]  Well, try to do that and let me know.
+[03:02:47.160 --> 03:02:48.160]  Okay.
+[03:02:48.160 --> 03:02:49.160]  Yes, sir.
+[03:02:49.160 --> 03:02:50.160]  I would like.
+[03:02:50.160 --> 03:02:53.160]  I would like to let you know if anything goes wrong.
+[03:02:53.160 --> 03:02:54.160]  All right.
+[03:02:54.160 --> 03:02:55.160]  Thank you, Admiral.
+[03:02:55.160 --> 03:02:56.160]  Thank you, sir.
+[03:02:56.160 --> 03:02:58.160]  Thank you so much for everything.
+[03:02:58.160 --> 03:02:59.160]  You're welcome.
+[03:02:59.160 --> 03:03:01.160]  Alma, how's it going?
+[03:03:01.160 --> 03:03:03.160]  I did download the software.
+[03:03:03.160 --> 03:03:04.160]  It worked.
+[03:03:04.160 --> 03:03:07.160]  So.
+[03:03:07.160 --> 03:03:12.160]  Now I'm going to see if I can download the beans.
+[03:03:12.160 --> 03:03:13.160]  All right.
+[03:03:13.160 --> 03:03:16.160]  Go ahead and then let me know if you have issues.
+[03:03:16.160 --> 03:03:17.160]  Okay.
+[03:03:17.160 --> 03:03:18.160]  Okay.
+[03:03:18.160 --> 03:03:19.160]  All right.
+[03:03:19.160 --> 03:03:21.160]  Alma, well, then.
+[03:03:21.160 --> 03:03:23.160]  Just email me.
+[03:03:23.160 --> 03:03:24.160]  Okay.
+[03:03:24.160 --> 03:03:25.160]  Okay.
+[03:03:25.160 --> 03:03:26.160]  Thank you so much, mister.
+[03:03:26.160 --> 03:03:28.160]  Have a good day or night.
+[03:03:28.160 --> 03:03:29.160]  You too.
+[03:03:29.160 --> 03:03:30.160]  Thank you.
+[03:03:30.160 --> 03:03:31.160]  Thank you.
+[03:03:31.160 --> 03:03:32.160]  Bye.
+[03:03:32.160 --> 03:03:33.160]  Bye.
+[03:03:33.160 --> 03:03:34.160]  Bye.
+[03:03:34.160 --> 03:03:35.160]  Bye.

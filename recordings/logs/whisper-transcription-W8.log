@@ -1,0 +1,1275 @@
+/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+[00:00.000 --> 00:02.000]  You
+[00:30.000 --> 00:32.000]  You
+[01:00.000 --> 01:02.000]  You
+[01:30.000 --> 01:32.000]  You
+[02:00.000 --> 02:02.000]  You
+[02:30.000 --> 02:32.000]  You
+[03:00.000 --> 03:02.000]  You
+[03:30.000 --> 03:32.000]  You
+[04:00.000 --> 04:02.000]  You
+[04:30.000 --> 04:32.000]  You
+[05:00.000 --> 05:02.000]  You
+[05:30.000 --> 05:32.000]  You
+[05:32.000 --> 05:34.000]  You
+[05:52.000 --> 05:54.000]  You
+[06:00.000 --> 06:07.000]  Good morning from me, maybe it's good evening or good night for some of you.
+[06:07.000 --> 06:10.000]  Yeah, that's true.
+[06:10.000 --> 06:13.000]  For me it's 6.30 p.m.
+[06:13.000 --> 06:17.000]  So here is about to be 6 a.m.
+[06:17.000 --> 06:19.000]  Good evening.
+[06:19.000 --> 06:23.000]  Good evening, everyone.
+[06:23.000 --> 06:52.000]  Do we have anyone from SL class here?
+[06:53.000 --> 07:04.000]  Martin, I got an email from Misha and she's saying that she's already in some room.
+[07:04.000 --> 07:09.000]  Could you just drop her the correct link?
+[07:09.000 --> 07:17.000]  Probably she has gone into some other room.
+[07:17.000 --> 07:20.000]  Misha.
+[07:20.000 --> 07:25.000]  She usually emails me, she has troubles.
+[07:25.000 --> 07:29.000]  Yeah, she may have connecting.
+[07:29.000 --> 07:36.000]  Do we have anyone from SL class here?
+[07:36.000 --> 07:41.000]  I just want to be sure that we have shared the correct link for SL.
+[07:41.000 --> 07:43.000]  Okay, yeah, fine.
+[07:43.000 --> 07:50.000]  So at least we have one person so that means the link is correct.
+[07:50.000 --> 07:55.000]  All right, she, she mail us.
+[07:55.000 --> 08:04.000]  She says that if she can get a new canvas account because she's always using having issues with.
+[08:04.000 --> 08:06.000]  I don't think it's up.
+[08:06.000 --> 08:20.000]  If she can log into the canvas, so that means she can access.
+[08:20.000 --> 08:25.000]  And she's also mentioning she has issues of accessing the recordings.
+[08:25.000 --> 08:28.000]  I don't know what the issue might be.
+[08:28.000 --> 08:36.000]  Does anybody else have any problems accessing the recorded recordings?
+[08:36.000 --> 08:37.000]  No.
+[08:37.000 --> 08:39.000]  So for actual, it is straightforward.
+[08:39.000 --> 08:42.000]  You don't even have to go into the shared folder.
+[08:42.000 --> 08:46.000]  You can look into the online classes and then select.
+[08:46.000 --> 08:51.000]  Main class and recording tab so you can find all the recordings there.
+[08:51.000 --> 08:56.000]  For SL, yes, it's required that they must go to the shared folder.
+[08:56.000 --> 09:08.000]  Access to recording from there.
+[09:08.000 --> 09:15.000]  So we have 11 students so far, which is far less than what we expect.
+[09:15.000 --> 09:20.000]  And could everyone please turn on the camera?
+[09:20.000 --> 09:34.000]  Yeah, we were reaching around 27 or so students last time.
+[09:34.000 --> 09:49.000]  If possible, you could turn on the camera guys so that we can have an interactive talk.
+[09:49.000 --> 09:52.000]  All right, guys, so welcome to second term.
+[09:52.000 --> 09:54.000]  So we are starting.
+[09:54.000 --> 09:57.000]  In fact, we have already started term two.
+[09:57.000 --> 10:03.000]  And this term is going to be more focused on theme B.
+[10:03.000 --> 10:10.000]  So in the first term, we mainly focus on theme a 1.1 computer fundamental chapter,
+[10:10.000 --> 10:13.000]  which is very content heavy.
+[10:13.000 --> 10:18.000]  You may have realized that there are so many things which are covered in that chapter.
+[10:18.000 --> 10:24.000]  But I could say with confidence that the kind of responses that you gave during the online webinars.
+[10:24.000 --> 10:31.000]  And also the way you took the discussion and assignments that shows that you have understood the concepts.
+[10:31.000 --> 10:37.000]  But that is one of the chapters where you need to keep revising.
+[10:37.000 --> 10:42.000]  Otherwise, if you look at it after six months, probably you may have forgotten everything already.
+[10:42.000 --> 10:45.000]  So since we have covered everything at least once.
+[10:45.000 --> 10:48.000]  So it would be a good idea for you to keep revising.
+[10:48.000 --> 10:52.000]  I mean, just glance through the content once in a while.
+[10:52.000 --> 10:57.000]  So that you know, you still remember everything that's in that chapter.
+[10:57.000 --> 11:03.000]  So chapter one that we have covered contributes to 14 marks in your paper one.
+[11:03.000 --> 11:08.000]  So you will have questions but 14 from that first chapter.
+[11:08.000 --> 11:12.000]  And while there will be some theoretical concepts which will be tested.
+[11:12.000 --> 11:17.000]  But you will also be tested on the Boolean algebra and logic gates and so table, etc.
+[11:17.000 --> 11:25.000]  So keeping a check on what's been covered during term one would really be beneficial for you.
+[11:25.000 --> 11:28.000]  To see that you don't forget things.
+[11:28.000 --> 11:33.000]  Now this term is going to be as I said more focus around theme B.
+[11:33.000 --> 11:38.000]  So we are starting off with the theme B topics, which is paper two.
+[11:38.000 --> 11:49.000]  And as a part of this theme, we will be learning computational thinking skills and program development in Java language.
+[11:49.000 --> 11:54.000]  So you may you may have seen in the content for this week.
+[11:54.000 --> 12:01.000]  In fact, for the next couple of weeks that we are also introducing the IA in this very week.
+[12:01.000 --> 12:05.000]  So even though there is no written curriculum or there is no written assignment for the IA,
+[12:05.000 --> 12:11.000]  but it's a good starting point for you to get start getting familiar with the IA requirements.
+[12:11.000 --> 12:20.000]  Right. So just before we move, let's have a look at the subject guide once as to what all is coming up in the next couple of weeks.
+[12:20.000 --> 12:22.000]  And this.
+[12:22.000 --> 12:28.000]  The term in particular is very, very important because since you're studying computer science at SL or HL level.
+[12:28.000 --> 12:36.000]  So some of you may be likely pursuing computer science as majors in your university and.
+[12:36.000 --> 12:42.000]  Having a good grasp on the programming skills is something which every university expects you to do.
+[12:42.000 --> 12:50.000]  So it will be an opportunity for you to understand basic programming concepts and then later move on to the complex developments.
+[12:50.000 --> 12:59.000]  So let's have a look at the subject guide first just to get familiar with what's coming up during this term.
+[12:59.000 --> 13:04.000]  And by the time I do that, let's do a quick reflection about the first term.
+[13:04.000 --> 13:16.000]  So I would like each one of you to at least say something about how you found the first term to be in particular chapter one, which is a computer fundamentals.
+[13:16.000 --> 13:24.000]  I think that that would be good if they can actually just put something on the chat so we can.
+[13:24.000 --> 13:27.000]  Yeah, sure. Right. Yeah.
+[13:27.000 --> 13:30.000]  So just add onto the sentence or something there.
+[13:30.000 --> 13:31.000]  Okay.
+[13:31.000 --> 13:34.000]  I mean, you don't have to say just the good things.
+[13:34.000 --> 13:44.000]  We would be mainly interested in any difficulties that you faced or any other support that you are looking forward to because we are here to support you in your learning process.
+[13:44.000 --> 13:51.000]  So anything that you have, I mean, I'm not saying that don't write good things because that's a point of motivation for us as teachers.
+[13:51.000 --> 13:57.000]  But then in particular, we would be interested in reading your comments with regard to how things are going.
+[13:57.000 --> 14:02.000]  How do you find the content? How do you find the online webinars?
+[14:02.000 --> 14:05.000]  Is there any scope of improvement? Yes.
+[14:05.000 --> 14:13.000]  The mistakes we're making or how to rule your experience through the course, you know, right, right.
+[14:13.000 --> 14:19.000]  Because even though this is a completely urgent, cronest course, but we are trying our best to make it a good learning experience for you.
+[14:19.000 --> 14:28.000]  And that's why we have brought the concept of weekly lessons, which is not a routine concept of parmaja curriculum delivery.
+[14:28.000 --> 14:36.000]  So it's something beyond that we are doing that we want to help you really with proper understanding of everything that you do.
+[14:36.000 --> 14:42.000]  So you just never feel that you're doing an online course, but you should feel that you're doing a face to face.
+[14:42.000 --> 14:46.000]  You know, curriculum as you do in your face to face school.
+[14:46.000 --> 14:49.000]  So you'll free to write.
+[14:49.000 --> 14:53.000]  Okay. So Martin, maybe you can read through and start answering some of them in the meantime.
+[14:53.000 --> 14:55.000]  I'll just look for the subject guide.
+[14:55.000 --> 14:59.000]  Sure, no problem.
+[14:59.000 --> 15:05.000]  So I see Alexander already gave us some information.
+[15:05.000 --> 15:10.000]  I say that she stands out to us.
+[15:10.000 --> 15:14.000]  And the other process of the presentation.
+[15:14.000 --> 15:18.000]  Alexander, I didn't mean that you have each.
+[15:18.000 --> 15:23.000]  Visualization distinguish production.
+[15:23.000 --> 15:31.000]  Are you referring the ray and.
+[15:31.000 --> 15:34.280]  Well, um.
+[15:34.280 --> 15:40.800]  Thinking, thinking.
+[15:40.800 --> 15:42.200]  It's breaking.
+[15:42.200 --> 16:00.820]  So, it is specific to the topics that we have already covered or something which is coming
+[16:00.820 --> 16:08.700]  up or she is going to refresh, in the mean time somebody else can share the reflection
+[16:08.700 --> 16:18.060]  It wasn't bad the webinars did help quite a lot although it was a bit challenging at times
+[16:18.060 --> 16:23.440]  I felt a bit overwhelmed at times and I felt like there was a lot to know and something
+[16:23.440 --> 16:28.700]  it was confusing Yeah, I totally understand Ima we as teachers also
+[16:28.700 --> 16:33.780]  felt that the sessions were kind of very overwhelming but then we don't have the flexibility
+[16:33.780 --> 16:37.940]  like a face-to-face school where you will have a block lesson and teachers would be meeting
+[16:37.940 --> 16:44.900]  you four to five times in a week and divide the content we have that limitation because
+[16:44.900 --> 16:48.940]  even if we want to do more than one lesson a week that would be too much for the students
+[16:48.940 --> 16:54.220]  because you are spending your personal time out of the school hours so it will be kind
+[16:54.220 --> 17:01.740]  of challenging so that is why we have been organizing all the recordings so that you I
+[17:01.740 --> 17:05.300]  mean it's it's it's completely fine I mean you have been attending the sessions which
+[17:05.300 --> 17:10.180]  are going on for almost two hours and we are bringing in a lot of concepts into each
+[17:10.180 --> 17:15.460]  lesson which may be very overwhelming if we were students obviously we would have
+[17:15.460 --> 17:22.100]  exactly the similar you know feedback so we we will say we want we just want to say that
+[17:22.100 --> 17:27.300]  we are trying to cover as much as possible within the limited time that we get but having
+[17:27.300 --> 17:32.020]  said that you have the content ready for you you have the content on the Pamoja canvas
+[17:32.340 --> 17:37.460]  platform you have the content in the straight folder and some of you are also using the textbooks
+[17:38.180 --> 17:44.180]  and then over and above you have the recordings available so if you can just take this one
+[17:45.380 --> 17:51.700]  sessions content which is on during the Saturdays and use that for the next whole week that will
+[17:51.700 --> 17:56.500]  be very useful for you because I'm sure that most of the schools have timetables computer
+[17:56.500 --> 18:02.100]  science in their regular practice so during that time you can just revise through that content
+[18:02.100 --> 18:06.580]  and then if you have any questions which you have not which you're not clear about feel free to
+[18:06.580 --> 18:13.940]  write to us and we'll be happy to help you yeah yeah I just want to repeat that repeat that
+[18:14.500 --> 18:21.060]  you guys you guys will come on the Saturdays with the material over and over and over because
+[18:21.060 --> 18:27.540]  cause we will we will be easier easier up to all day each other we're trying to remember we're
+[18:27.540 --> 18:33.780]  trying to we're trying to try it all week all week study study into our into hours so so we
+[18:33.780 --> 18:44.740]  and so we understand become confused if you should and remember that you through the through
+[18:44.740 --> 18:51.940]  the you read the material and understand and then I can reach to reach to the one of us
+[18:51.940 --> 18:54.980]  and that's the question that's the question that's the question so when we come in the
+[18:55.380 --> 19:00.840]  space and then a
+[19:05.000 --> 19:10.980]  you are the voice
+[19:16.180 --> 19:18.100]  at the moment at the moment the
+[19:19.620 --> 19:20.560]  screen
+[19:20.560 --> 19:22.260]  Let me start
+[19:22.260 --> 19:25.380]  stop sharing this one second, yeah maybe because of that reason.
+[19:27.060 --> 19:32.180]  Is it better? Yeah, right now, I think that is better, right?
+[19:36.020 --> 19:38.580]  Somebody raise hand. Sobsha is on you?
+[19:40.260 --> 19:43.540]  Yeah, it was about the audio loop back, but it's all right.
+[19:43.540 --> 19:50.100]  Okay, thank you. Yeah, I like this, that the honesty that is one of you
+[19:50.100 --> 19:55.220]  or what's the worst scare getting into the class, you know, the unknown HL is
+[19:55.220 --> 19:59.700]  they usually very rigorous class and the online platform can be a little bit
+[19:59.700 --> 20:04.340]  scary because we have so many things moving parts to manage, right?
+[20:04.660 --> 20:12.820]  But I'm glad to to read that that fear is not what you expected, right?
+[20:12.820 --> 20:18.100]  It's just something new, but the weekly lessons really help you a lot and
+[20:18.100 --> 20:23.780]  and structure, you know, your learning. So that's that's something very positive for us.
+[20:23.780 --> 20:29.300]  Thank you. So we'll do one thing. I think we already had a reflection, did we have a
+[20:29.300 --> 20:35.460]  reflections in your quarter one? Yes, as one of the assignments? Fine, okay.
+[20:35.460 --> 20:39.140]  So we'll go through that and if there are any areas that needs to be addressed from our
+[20:39.140 --> 20:45.540]  and we'll try and try and address them. But overall, I mean, I think what
+[20:45.540 --> 20:50.100]  experimentation we are doing with your first class of computer science, I think to me it looks
+[20:50.100 --> 20:57.140]  like working fine considering that we have made it very content oriented through these webinars.
+[20:57.860 --> 21:04.180]  So I mean, those who are not attending because of any reasons, I mean,
+[21:04.900 --> 21:10.020]  if it's a time zone issue like if it's midnight or very early morning, then we can understand,
+[21:10.020 --> 21:14.500]  but if somebody is not attending just because they don't want to
+[21:15.380 --> 21:19.540]  attend it, then I would say that it's a major loss to them because watching recording
+[21:20.580 --> 21:24.340]  without attending the classes doesn't help much because when you are here,
+[21:24.340 --> 21:30.340]  you can ask questions, you can discuss with each other and so many dynamic, you know,
+[21:31.860 --> 21:36.340]  so much comes out from the interactions that we have with one another.
+[21:36.980 --> 21:41.380]  And nobody watches the recording to be honest. I mean, from my experience, I can tell you,
+[21:42.260 --> 21:50.980]  I say human tendency even when, I mean, if I attend some online sessions for my own purpose
+[21:50.980 --> 21:55.220]  during a workshop or something, then I attend it thoroughly, but if somebody says that this is
+[21:55.220 --> 22:00.420]  the recording, please watch it. Generally, we tend not to watch them. So if possible, then make
+[22:00.420 --> 22:05.460]  it a habit of attending these classes because this is what will determine your overall performance
+[22:05.460 --> 22:10.900]  in your course. And we have very high expectations from you because this is the first patch of
+[22:11.700 --> 22:16.980]  online computer science course because I be as permitted,
+[22:17.460 --> 22:22.420]  for the first time, or any agency for that reason, Pamanja is the first one to have
+[22:23.220 --> 22:28.580]  got the license to offer this as an online course. Otherwise, group four subjects were not allowed
+[22:28.580 --> 22:33.780]  by the IB like group three or other groups. So you're the first batch, you're the brand investors,
+[22:33.780 --> 22:40.020]  and we have very high hopes from you. Martin, can you take up the next one?
+[22:40.580 --> 22:47.060]  Yes. Yeah, I think that the meter says that there was a lot of work in
+[22:49.380 --> 22:54.020]  Boolean Expenses. I think that the reason for that, and I'm not making an excuse, obviously,
+[22:54.020 --> 23:01.620]  it was a lot of work on that. And the reason for that is because the IB
+[23:02.180 --> 23:09.780]  emphasized those topics when it comes to the assessment. Okay, so maybe we need to think
+[23:09.780 --> 23:18.580]  is how to distribute that load a little bit better for the next time around. But that was the
+[23:18.580 --> 23:27.140]  reason for that. You know, I know the week five, I'm sure this is a reference to week five
+[23:27.140 --> 23:33.300]  assignments. I think we realized that it was a bit too much. I mean, that's something,
+[23:35.220 --> 23:40.100]  I take the blame for that because I authored the course, and we were two authors, and we both ended
+[23:40.100 --> 23:45.380]  up making assignments for different classes, we should not have been the case. So I take that blame.
+[23:45.860 --> 23:50.500]  But I'm glad that I mean, whatever you did, at least, that may have brought you some learning,
+[23:50.500 --> 23:55.700]  but we have already instructed the course developer, not the course developer, the one who manages
+[23:55.700 --> 24:02.420]  the canvas to remove it for the next batch. So they won't have so much of content assignments on
+[24:02.420 --> 24:08.660]  any of the weeks. Yeah, and that feedback is important for us because again, what we want is to
+[24:08.660 --> 24:16.500]  improve right now only for you guys, but for future students. Okay, Alma, you had your hand rise,
+[24:16.500 --> 24:24.420]  I believe? Yes, thank you guys so much for your help. But I wanted to ask as well, if you had the
+[24:24.420 --> 24:29.140]  link to the IB textbook for computer science, because I feel like that would be useful a lot.
+[24:30.660 --> 24:36.420]  So I must see, since it is a copyrighted material, so there is no online link available
+[24:36.420 --> 24:41.460]  for the textbook. So your school can actually subscribe to the online version that comes at certain
+[24:41.460 --> 24:47.300]  cost. Or otherwise, you can procure a textbook in your library, which will stay with the school forever,
+[24:47.940 --> 24:52.260]  because the online link works only for one cohort. So it will work only for you and then the
+[24:52.260 --> 24:57.140]  license will expire. So I suggest that you can ask your DP coordinator that you need a textbook
+[24:57.780 --> 25:06.660]  and they will procure you procure it for you. Okay, thank you. Yeah. Yeah.
+[25:08.100 --> 25:12.740]  Anybody else? So Alexander, coming back to your question about computational thinking, yes,
+[25:12.740 --> 25:18.340]  the first chapter is very theoretical. It relates to computer computational thinking, what
+[25:18.980 --> 25:26.420]  all it involves and the significance of computational thinking. So honestly, there won't be many
+[25:26.420 --> 25:32.180]  questions from that chapter, except for the four or five different characteristics of computational
+[25:32.180 --> 25:38.100]  thinking, for example, decomposition abstract and all that. And so we will try and cover that in
+[25:38.100 --> 25:45.460]  today's lesson. I mean, now the lessons are going to be much smoother in terms of the content that
+[25:45.460 --> 25:52.660]  we cover. So even 1.32.1.1, which is one topic is now split into two classes today and the next class.
+[25:53.300 --> 25:58.740]  So you will see that the content will not be as much as how we did in term one, because that was
+[25:58.740 --> 26:05.860]  very content heavy chapter. But now going forward, it won't be so much. So it will be less. However,
+[26:05.860 --> 26:12.180]  having said that, it will be a lot of practice which will be required from your end because we are
+[26:12.260 --> 26:17.220]  now starting to get into the programming. So programming is just like mathematics where the more you
+[26:17.220 --> 26:22.980]  practice, the better you will become with the skills related to the coding, because coding is not
+[26:22.980 --> 26:28.260]  something that you can memorize. It is something which you have to develop. And for that development,
+[26:28.260 --> 26:34.100]  you need to be clear with the programming concepts. So in today's lesson, we'll kick start with the
+[26:35.220 --> 26:40.260]  B1.1.1, which is computational thinking first part. Next week, it will be the next part of
+[26:41.140 --> 26:47.060]  B1.1.2. So that will be next week. But in the meantime, because the content is very light for
+[26:47.060 --> 26:53.700]  these two weeks, we will also focus on the IA, because your proposal will be submitted next week.
+[26:53.700 --> 26:58.340]  I mean, you have to start looking at the ideas related to the IA. So a large part of today's lesson
+[26:58.340 --> 27:04.580]  is going to be dedicated to the IA talk. That's why we have kept the content for first week very
+[27:04.660 --> 27:11.540]  little, because computer science IA requires you to learn certain skills in terms of development.
+[27:11.540 --> 27:16.020]  So we are there to support you, but there'll be a lot of work which needs to be done from your end.
+[27:16.020 --> 27:21.460]  So without any further delay, I mean, thanks for posting all your reflections. We will read
+[27:21.460 --> 27:26.500]  on the canvas also where you have posted as a part of your assignment. So let's quickly have a
+[27:26.500 --> 27:32.180]  look at the subject guide first so that you are clear what all topics we are going to cover as a part
+[27:32.180 --> 27:42.980]  of this term. Do you guys have access to that guide? Have you been able to download it?
+[27:45.940 --> 27:50.900]  Please respond, let me know, because otherwise we can maybe share a link to that.
+[27:51.940 --> 27:58.660]  Have we kept the guide in the in the straight folder or not yet? I think we have kept it in the,
+[27:58.660 --> 28:03.860]  I will post it in the content folder just in case if it is not there. Let me show you where you can
+[28:03.860 --> 28:14.100]  find all the information. So for us, it is all embedded into Microsoft Teams, but then we have
+[28:14.100 --> 28:18.740]  given you the direct access so that you can easily access them.
+[28:27.140 --> 28:30.900]  In case if somebody still does not have access to this folder,
+[28:31.780 --> 28:37.300]  please let us know and we will make sure that you get it. So we have shared this particular folder
+[28:37.300 --> 28:44.900]  with each one of you, May 2027. Here we have, okay, so this is one new tab I have added,
+[28:44.900 --> 28:51.700]  which is IA samples. So IB has released seven different examples, which are not actually students
+[28:51.700 --> 29:01.060]  work. It is developed by some of the IB teachers and most of them, because they were just asked to
+[29:01.060 --> 29:06.580]  create a standard for what kind of IA is required. So you will see that most of the IAs are created
+[29:06.580 --> 29:12.420]  using AI, including the product development, but this will be a good way for you to understand
+[29:12.420 --> 29:18.180]  what all different sections are there in the IA. What is needed for each criteria? How does the
+[29:18.180 --> 29:24.820]  product video look like and many other things? And then we have shared this IB time tables IA with you
+[29:24.820 --> 29:30.420]  over the canvas platform. I will show you where you can find that and a lot of your discussion will
+[29:30.420 --> 29:37.460]  revolve around this particular IA. So as a part of your requirement, you will have to go through
+[29:37.460 --> 29:45.780]  this IA, which is here, which is the actual work created by somebody for you to understand what is
+[29:45.780 --> 29:52.340]  needed for each of the criteria. So there's a title page, there's a title page, then there is a
+[29:52.340 --> 29:59.060]  table of contents, and then there's criteria A, which comprises of problem scenario and computational
+[29:59.060 --> 30:03.780]  context, and we'll be talking about each one of them. So I'm just glancing through the whole IA
+[30:03.780 --> 30:09.540]  document. So up to here is criteria A, which comprises of three sections, problem scenario,
+[30:09.540 --> 30:16.820]  computational context, and the criteria for success CFS. Then comes criteria B, which is a planning,
+[30:17.620 --> 30:22.580]  which comprises of first decomposition. That is one of the computational thinking, you can now
+[30:22.580 --> 30:30.500]  start making a connection between what's there in the IA and how that links to the curriculum
+[30:30.500 --> 30:35.940]  for computer science. So decomposition is one of the computational thinking characteristics.
+[30:36.820 --> 30:40.420]  So when we will be dealing with that chapter, you will know what exactly decomposition is.
+[30:41.060 --> 30:45.460]  So this is part of criteria B decomposition. That means breaking up your large problem into many
+[30:45.460 --> 30:51.540]  different small sections for a better understanding. And this is all part of decomposition where you draw
+[30:51.540 --> 30:57.700]  the flow chart for the major program functionality. Then you have the test plan, and that test plan
+[30:57.700 --> 31:03.300]  will be based on your criteria for success points. So these are your criteria for success.
+[31:04.580 --> 31:09.380]  And in order to test them, you will create a test plan as to how you're going to test each one of them.
+[31:11.540 --> 31:18.980]  Not sorry, not test plan, the plan of the whole IA journey. So this is kind of timeline that what
+[31:19.060 --> 31:26.420]  part of the IA will be done when. So we have the system models. So these are all designs. So we'll
+[31:26.420 --> 31:35.860]  be talking about that. Then the algorithms in the pseudo code. And then finally the test plan.
+[31:35.860 --> 31:39.780]  And this is what I was talking about that the test plan is related to the criteria for success
+[31:39.780 --> 31:50.740]  that you have created. So that was criteria C. Then comes criteria D which is the program development.
+[31:50.740 --> 31:55.460]  So this is where after you have developed the program up to criteria C is all about
+[31:55.460 --> 32:01.380]  theoretical aspects in terms of your planning and design, what the system is, what were the problems,
+[32:02.740 --> 32:08.020]  what are the computational context of that problem. Then the design in the form of decomposition
+[32:08.020 --> 32:13.540]  and then the actual design through the UI design, how the interface will look like,
+[32:13.540 --> 32:17.380]  what will be the front end, what will be the backend, what will your database look like,
+[32:18.340 --> 32:23.380]  what will be the screens in your project. So those things will be part of design.
+[32:24.260 --> 32:28.420]  And up to criteria C, there is no coding required. It's all about design aspect.
+[32:30.100 --> 32:35.300]  Then comes criteria D which is actually your project after it is being developed.
+[32:36.100 --> 32:40.260]  So you will bring your actual source code and you will explain what each part of this code is doing.
+[32:42.260 --> 32:46.740]  That is criteria D. And as a part of criteria D, you will also create a video screencast
+[32:47.460 --> 32:50.500]  which will demonstrate what the project, how the project works.
+[32:52.500 --> 32:58.100]  And then criteria E is evaluation of the success criteria. So you can see this is about 22 page
+[32:58.260 --> 33:03.620]  IA which is much smaller than what it used to be in the previous curriculum.
+[33:04.340 --> 33:10.100]  So the IA expectations are actually lower down to a great extent. And IB is now emphasizing that
+[33:10.100 --> 33:14.020]  the students should use the skills that they have learned as a part of IB diploma program,
+[33:14.660 --> 33:19.700]  rather than picking up something which is very ambitious and which may require a lot of time and
+[33:19.700 --> 33:26.100]  efforts. But having said that, you are free to choose any platform for the IA. You may be good at
+[33:26.100 --> 33:32.020]  something. For example, you may be good at web development, you may be good at game development,
+[33:32.020 --> 33:37.380]  you may be good at mobile app development and you may not be good at anything. So if you are not
+[33:37.380 --> 33:44.020]  good at anything, then you have to learn little bit of skills in order to develop the IA product.
+[33:44.740 --> 33:48.900]  So development of product will come much later. I think it starts towards the end of year one.
+[33:49.700 --> 33:51.860]  But before that, you have to work with the planning.
+[33:52.500 --> 33:58.500]  So this we have shared with you in the Thermoja Canvas which you can download and
+[33:59.700 --> 34:04.900]  lead your discussions. And there are many other IA. So it will be good idea for you to go through each
+[34:04.900 --> 34:11.140]  one of them. Try to see what is good, what is not so good. There is also teachers comments given
+[34:11.140 --> 34:17.220]  in each of the IA. So if you for example go to IB timetable, there is moderators comment.
+[34:17.300 --> 34:23.140]  See the examiner comment. So if you go into this, you will see that the examiner has given
+[34:23.780 --> 34:29.380]  score for each criteria with a justification of why they think that this score is the best.
+[34:30.420 --> 34:35.220]  So I wouldn't say that you should look at that in the initial phase. First you see the IA.
+[34:36.260 --> 34:42.180]  Go through it. Make up your make up your mind with regard to what that IA looks like. How much
+[34:42.180 --> 34:47.620]  would be the score for each criteria. And once you have a clear idea about it,
+[34:47.620 --> 34:53.300]  then you look at the examiners or the moderators scores. So these are some good examples which
+[34:53.300 --> 35:02.580]  you can have a look at. Okay, what I was talking to you about was the availability of recordings.
+[35:02.580 --> 35:09.620]  So in May 2027, if you go to the recordings folder, this has term one recording, all the lessons.
+[35:10.420 --> 35:15.940]  Meet your teacher, week two, week three, week four, week five, week seven, six and seven. So all
+[35:15.940 --> 35:21.700]  the recordings are available here. For the HL students, you don't have to access recording from here.
+[35:21.700 --> 35:29.140]  You can directly go to your own class and then online recordings. And in the main class,
+[35:29.140 --> 35:32.420]  you will see one tab with the name recordings. And when you go to recording, you will see all
+[35:32.420 --> 35:38.660]  the recordings in the sequential order and you can access them. And then we have the content folder
+[35:38.660 --> 35:48.740]  which has all the PDFs that we have been using week after week. So just now I have added B 1.1.1
+[35:48.740 --> 35:53.700]  which we are going to cover today. And also I have added one more file which is Java installation
+[35:53.700 --> 35:58.420]  which we will talk about today because you need to be ready with the installation of Java on your
+[35:58.420 --> 36:04.340]  computers because we'll soon be starting with the programming. So this has guidelines for both
+[36:04.340 --> 36:09.460]  windows. In fact, three categories are there. One is for windows. So those who are using windows will
+[36:09.460 --> 36:16.260]  use the windows guidelines. And then those who are using Mac machines. If you are using Intel
+[36:16.260 --> 36:25.940]  a based system, which is the old Mac probably before 2018, which is Intel based. Then you can
+[36:26.580 --> 36:32.740]  follow the instructions for Intel based Mac. And if you're using the recent Mac machines starting
+[36:32.740 --> 36:41.780]  from M1, M2, M3, M4 processor which is Apple based, Apple chipset. Then you have to follow the
+[36:41.780 --> 36:50.020]  guidelines for you have to follow the guidelines for the Apple based system. So three categories are
+[36:50.020 --> 36:54.740]  there. You have to see which category you fall into. And accordingly you will pick up a installation.
+[36:54.740 --> 36:57.700]  So we'll we'll also explain this to you so that you don't suffer.
+[36:59.540 --> 37:04.340]  Okay. So any questions about access to these resources?
+[37:12.660 --> 37:15.060]  Any questions about these resources or the
+[37:17.300 --> 37:21.460]  Abdullah's asking how to get in access. I'm just asking him if he
+[37:22.020 --> 37:26.900]  have access before them before at any point. If not, maybe he doesn't have access to it.
+[37:27.700 --> 37:29.300]  Okay. So Abdullah will share the
+[37:30.340 --> 37:38.260]  if you do. If you don't have access, Abdullah please share your email to me on a private chat.
+[37:38.260 --> 37:42.660]  So I can can provide access to you. Okay. Yeah.
+[37:44.740 --> 37:48.180]  Okay. So let's begin with the attendance first because this is the first class for us
+[37:48.180 --> 37:52.340]  during this term. So I'm sharing with you the link to attendance form.
+[37:55.140 --> 37:59.220]  We we have had a couple of new students. Do we have any student who is attending for the first
+[37:59.220 --> 38:05.060]  time who has joined quite recently? It will be good for you to introduce yourself to the class.
+[38:06.980 --> 38:10.900]  We have had we have had about seven to eight students who joined quite recently.
+[38:10.900 --> 38:20.660]  Okay. Anyone who is new although I all the names look familiar to me so I don't think any new student
+[38:21.380 --> 38:37.140]  is attending the class. Yes, it's okay. Yes, it's your new. Could you introduce yourself quickly?
+[38:41.220 --> 38:47.220]  Yes, it's okay.
+[38:47.220 --> 38:53.380]  Yes, it is. Can she hear us?
+[38:59.060 --> 39:02.900]  Yes, it is. If you can hear us, maybe quick introduction. Otherwise it's okay. If you can
+[39:03.300 --> 39:07.060]  type in the chat also that's fine. Where you are from.
+[39:16.660 --> 39:20.820]  I'm not sure if she's able to hear me. Yes, it's already there.
+[39:20.820 --> 39:28.340]  Yeah, hi. Yes, it is.
+[39:39.860 --> 39:43.540]  Yeah, no issues. Yes, it is. If you can just mention where you are from,
+[39:43.540 --> 39:47.780]  that should be okay for now. Maybe we'll talk to you later when you have better connectivity.
+[39:48.340 --> 39:53.540]  Okay. Martin, were you able to connect with the Misha?
+[39:56.820 --> 40:05.220]  I just look, no, really, no, really. Maybe you can drop her a message. Let me see if I can.
+[40:05.220 --> 40:13.780]  And the link. Yeah. All right, let me see. Okay, from India where you are currently starting in
+[40:13.780 --> 40:18.900]  you a good, good to know that I think we have many students from UAE. So probably you all can make
+[40:18.900 --> 40:26.820]  a small group and interact with each other. All right, so guys, so let's get on to task now.
+[40:26.820 --> 40:32.260]  So I will reshare my screen and have a look at the things that we are going to cover during this term.
+[40:32.260 --> 40:39.700]  So over to the subject guide. So we are officially starting with, okay, let me go to the first page
+[40:40.660 --> 40:48.420]  where we have the distribution of topics. Theme A and theme B.
+[40:58.180 --> 41:03.620]  Okay, so as you can see here that we have syllabus component divided into two different themes.
+[41:03.620 --> 41:08.740]  One is concepts of computer science, which is mainly the theoretical aspects related to
+[41:08.740 --> 41:15.460]  computer science, which has essentially four different units. One is A1 computer fundamentals,
+[41:15.460 --> 41:22.580]  which we have just completed in the first term. And then we have A2, which is computer networks,
+[41:23.460 --> 41:29.620]  A3, which is databases and A4 machine learning. So these three units are going to come later.
+[41:30.740 --> 41:34.180]  So we are starting with, we started with computer fundamentals.
+[41:34.660 --> 41:39.780]  The next theoretical chapter that we are going to cover is databases, because we think that
+[41:39.780 --> 41:44.740]  database knowledge and programming knowledge would be essential for you to work on your IA.
+[41:45.620 --> 41:50.660]  So sequence would be computational computer fundamentals, which is already done. Then we'll do A3 databases.
+[41:51.620 --> 41:58.340]  And then side by side, we will also be covering theme B topics. So the idea is that you should learn
+[41:58.420 --> 42:03.940]  enough skills so that you can start working on your IA. And then after that we will have networks
+[42:03.940 --> 42:07.380]  and finally machine learning. So machine learning will be taught in the second year.
+[42:07.940 --> 42:13.220]  These three we will cover in the first year. Then if you look at theme B, which contributes
+[42:13.220 --> 42:19.540]  to paper two, by the way, this theme A is for paper one. Then theme B, which is computational
+[42:19.540 --> 42:25.380]  thinking and problem solving, which comprises of four different units, B1 computational thinking,
+[42:25.380 --> 42:30.980]  which is theoretical aspect related to the programming. B2 is programming where you will
+[42:30.980 --> 42:36.020]  be learning basic concepts of programming and also program development using basic core Java
+[42:36.820 --> 42:44.500]  features. For example, simple variables, constants, arithmetic operators, relational operators,
+[42:45.940 --> 42:53.220]  decision making statements, looping statements, functions, although that will be covered under B2.
+[42:53.300 --> 42:59.380]  So the core Java language is going to take 40 hours for SL and 42 hours for excel, which is more or
+[42:59.380 --> 43:05.540]  less the same content. Then comes B3 object oriented programming. So all the skills that you develop
+[43:05.540 --> 43:10.020]  as a part of B2 general programming, where the focus will also be on the skills development,
+[43:10.660 --> 43:15.140]  will be tried and tested using a difference approach, which is object oriented programming,
+[43:15.940 --> 43:21.940]  where we will bring in the concepts of classes and objects. So while the solutions will
+[43:22.420 --> 43:26.500]  the scope to or the approaches to solution will be same what we have studied in B2,
+[43:27.060 --> 43:31.460]  but here we will learn it to apply those skills in a slightly different way.
+[43:32.500 --> 43:37.540]  Here you can see a major difference between SL and excel. So, excel will go into more details
+[43:37.540 --> 43:44.820]  because for SL it is a single class concept. So one class, everything within one class,
+[43:44.820 --> 43:49.540]  but for excel it is multiple classes. So you will learn about inheritance and encapsulation,
+[43:50.500 --> 43:55.540]  polymorphism and many different characteristics of object oriented programming. So that's why the
+[43:55.540 --> 44:01.140]  number of hours for excel is more. And then we have B4, which is abstract data structure,
+[44:02.260 --> 44:07.140]  which is only for excel. And that will include a lot of complex
+[44:10.100 --> 44:14.260]  complex things related to the programming. For example, binary search tree,
+[44:14.820 --> 44:19.380]  stack, skews and all those things, linked list, that will be covered as a part of B4,
+[44:19.380 --> 44:24.980]  abstract data structure. Now in the whole curriculum, this is the only topic which
+[44:24.980 --> 44:30.420]  SL will not study. This is the only topic in the whole curriculum. Apart from this topic,
+[44:30.420 --> 44:37.700]  SL will also have everything covered, but slightly in a little lower level as compared to excel,
+[44:37.700 --> 44:43.220]  but they have everything common between excel and excel. This is the only topic with an exception,
+[44:43.220 --> 44:50.980]  which is only for excel. And that is theme B. And this theme we will continue at least until
+[44:50.980 --> 44:59.060]  November next year. So we will do in phases. So we will continue to learn about programming right
+[44:59.060 --> 45:06.820]  from now until the next year's November. And then we have case study, which is tested as a part
+[45:06.820 --> 45:14.740]  of paper one. Last time I think I have shown you the sample paper one. In paper one, we have topics
+[45:14.740 --> 45:21.940]  from these four topics plus the case study. So case study is section B of paper one. This case study
+[45:21.940 --> 45:30.740]  is released in the month of in the month of July next year. So once once you are in the next year,
+[45:31.220 --> 45:37.060]  you will have access to the case study, which is 15 hours for excel and 30 hours for excel,
+[45:37.060 --> 45:42.020]  because in the case study there is one specific section, which is only to be studied by the
+[45:42.020 --> 45:47.780]  excel students, not by the excel, but the case study will be same for both. And then we have the
+[45:47.780 --> 45:53.300]  fourth component, which is the internal assessment. The number of hours for excel and excel is exactly
+[45:53.300 --> 45:58.020]  the same, because there is no difference between excel and excel when it comes to internal assessment.
+[45:58.900 --> 46:03.300]  And the examinism will not even now, if the internal assessment work is from the
+[46:03.300 --> 46:08.660]  excel students or from the excel students. So the level of complexity is going to be same for both
+[46:08.660 --> 46:13.300]  of them. And then there is this collaborative science project, which your DPC will talk to you
+[46:13.300 --> 46:18.980]  about. So all the group four sciences, they work towards a common objective, which is in the
+[46:19.780 --> 46:24.980]  interest of the community. Okay, so your DPC coordinator will come up with some idea.
+[46:24.980 --> 46:30.100]  In fact, it's a student driven project. The theme will be provided by your DPC coordinator,
+[46:30.100 --> 46:35.220]  and then you will, all the students of group four physics chemistry, biology, ESS,
+[46:35.220 --> 46:40.020]  computer science, they will come together to find a solution to the problem which your DPC
+[46:40.020 --> 46:46.580]  coordinator will give. This is not assist. This is just a requirement to be fulfilled,
+[46:46.580 --> 46:52.980]  but this is you don't, you are not tested for this. So total teaching hours 150 and 240 for
+[46:52.980 --> 46:59.300]  excel and excel. Okay, any questions in particular about the curriculum overview?
+[47:02.420 --> 47:10.500]  Between theme A, theme B, case study, IA, in general, we haven't gone into the depth of what is
+[47:10.500 --> 47:18.660]  included in H, but in general, do you have any questions? If you ask questions, that will give me
+[47:18.660 --> 47:29.380]  a little break. So feel free to please ask questions. Why are you also quiet today,
+[47:29.380 --> 47:32.900]  as if we are meeting for the first time? Come on, we have met seven times before.
+[47:40.740 --> 47:45.220]  I mean, as of now, it's clear. It's clear, I guess it's a nice structure to be available here,
+[47:46.020 --> 47:50.820]  so thank you very much for sharing. I think it's important to understand the milestones
+[47:51.380 --> 48:00.740]  that we have to abide by, so thank you again. So now it's clear. I agree, because once you know
+[48:00.740 --> 48:05.220]  the overall curriculum structure, then you know what are the things coming up and what are the
+[48:05.220 --> 48:09.940]  things we are going to cover over the next 15 or 16 months of time that we are left with.
+[48:10.820 --> 48:15.620]  So it's going to be not so difficult, because we have planned the lessons in such a way that we
+[48:15.620 --> 48:22.900]  slowly take up one topic at a time, make you completely understand that, and then we move on to
+[48:22.900 --> 48:30.340]  the next one, right? Okay, so let's spend next 30 minutes over the first chapter of B1,
+[48:30.340 --> 48:35.300]  B1.1, which is about the computational thinking. So let me open the document all first,
+[48:36.260 --> 48:40.500]  and then we will go through the content so that we understand what computational thinking is
+[48:40.500 --> 48:52.340]  all about, and let me share my screen as well. Martin, you ought to add something before I share my
+[48:52.340 --> 48:59.380]  screen. Yes, I remind you, we're going to talk about the installation of the software they need,
+[48:59.460 --> 49:04.980]  netbeens and the JDK. Okay, somebody was asking and just making sure that he knows.
+[49:05.780 --> 49:12.100]  Yeah, okay. So B1.1 refers to the problem specification as to what actually it means to
+[49:13.780 --> 49:21.060]  what actually the problem means? How do we define a problem? Because that is the very starting point
+[49:21.060 --> 49:26.100]  for any computational thinking that you look at the problem and you try to devise a solution,
+[49:26.740 --> 49:31.780]  but the solution can be devised only when you have thoroughly understood what the problem is,
+[49:31.780 --> 49:35.700]  especially for computer science, which does not give you scope to keep changing the problems and
+[49:35.700 --> 49:41.220]  keep changing the solutions. So if you are a software developer or if you are a system architect,
+[49:41.220 --> 49:46.020]  it is one of the most important skills that is needed for somebody to totally understand
+[49:46.740 --> 49:52.260]  with all possible details and all possible exceptions about the problem because the software
+[49:52.260 --> 49:56.740]  changes are not made frequently. Once you have released the software to the customer,
+[49:57.700 --> 50:03.460]  you have to see that all their requirements are fulfilled and that would be possible only if you
+[50:03.460 --> 50:09.700]  have completely understood the nature of the problem that the client is facing. Right? Because
+[50:09.700 --> 50:15.300]  if you have missed even one aspect of it, it would definitely mean that at some point of time,
+[50:15.300 --> 50:21.700]  the client will struggle with meeting those objectives. So if you're working as a system architect,
+[50:21.860 --> 50:26.820]  which is the most crucial and most important jobs in the software development field,
+[50:27.460 --> 50:33.220]  is to find out each and every aspect of the problems that they are facing and what are their
+[50:33.220 --> 50:39.300]  expectations with the solution that they are going to develop. Right? Sometimes the client may not
+[50:39.300 --> 50:44.420]  be very tech savvy. So they may say, oh, I don't know much. You are a software developer. You decide
+[50:44.420 --> 50:49.700]  how it is to be done, which is fair. I mean, not everybody can explain the problem specification
+[50:49.700 --> 50:57.140]  in the most organized way. So it is your role as a software architect to find out each and every
+[50:57.140 --> 51:04.260]  minute details about how that the system within their organization is working so that when you complete
+[51:04.260 --> 51:08.340]  the development, the client never feels that I wanted this feature, but it is not available.
+[51:09.060 --> 51:14.820]  Obviously, you will have to have details about what client wants at least at a superficial level.
+[51:15.460 --> 51:20.820]  But then a lot of other minute details, you have to identify yourself and that is what is called
+[51:20.820 --> 51:26.420]  problem specification. Right? It's a very important part. I mean, in the software development field,
+[51:26.420 --> 51:33.780]  this is one of the most highly paid jobs, which is the software architects who go to the organizations
+[51:33.780 --> 51:39.700]  and using many different data collection tools, they try to identify the problems, which comprises of
+[51:40.660 --> 51:47.380]  four major different ways, four different ways which they use. One is interviews with the interview,
+[51:47.380 --> 51:53.460]  the top management, middle management and the employees to identify what are the requirements.
+[51:54.100 --> 51:58.260]  The other one is questionnaires. So they prepare a questionnaire with all possible questions and
+[51:58.260 --> 52:05.140]  distribute it to the employees and other stakeholders for them to fill in to gain a deeper understanding
+[52:05.220 --> 52:10.900]  of what the requirements are. Third is referring to the existing documents. So they go to the organization
+[52:10.900 --> 52:16.260]  and they look at their other reports, like what kind of reports they are generating. If the company
+[52:16.260 --> 52:20.820]  is still paper based, then they look at the recipe books, they look at the reports, they look at the
+[52:20.820 --> 52:26.260]  log file, how the records are being maintained, just to gain a deeper understanding of how the
+[52:26.260 --> 52:33.860]  organization is working. And the fourth one is minute observation. So they do disturb people working.
+[52:33.860 --> 52:39.060]  They will just go and stand in one corner and see how each employee within the organization is
+[52:39.060 --> 52:44.500]  working, just to understand the workflow and what kind of operations are happening and how they are
+[52:44.500 --> 52:50.420]  dealing with those operations. So these are the four different ways that the employees, the software
+[52:50.420 --> 52:55.140]  developer architect actually goes and collects the information. And once they have done this,
+[52:55.140 --> 52:59.860]  then they pass on that information to the developers that, okay, these are the requirements. They
+[52:59.860 --> 53:05.620]  prepare a blueprint and then they get the agreement signed from the client that these are the
+[53:05.620 --> 53:09.940]  features we are going to include. If there is anything more, please let us know otherwise we
+[53:09.940 --> 53:16.100]  sign off the start of the work. So this is the process which starts much before actual
+[53:16.100 --> 53:24.180]  production of the product starts. And this is what is going to be included in your internal
+[53:24.180 --> 53:31.460]  assessment. Criteria A, B and C is all about this problem specification. Then what the problem is,
+[53:32.420 --> 53:37.460]  what are the computational think computational context in that problem, like how the technology
+[53:37.460 --> 53:43.860]  can help you overcome that problem and then design of the system. So even before you start coding,
+[53:43.860 --> 53:49.060]  you have to prepare a design layout as to this is what your software will look like. So that when
+[53:49.620 --> 53:56.900]  when the client looks at those designs, they may give some advises that, okay, this can be like this,
+[53:56.900 --> 54:02.580]  that can be like that so that you can make changes at the design level. It becomes very difficult
+[54:02.580 --> 54:06.980]  after creating the product that the client is coming with the requirements that, oh, can you move
+[54:06.980 --> 54:12.100]  the logo here? Can you change the color of the screen to this? Can you change the font size?
+[54:12.100 --> 54:15.780]  That will be extremely difficult for the company to go back and make all the changes in the
+[54:15.780 --> 54:20.660]  actual product. So that's why all these decisions are made during the design process so that
+[54:20.660 --> 54:27.140]  everything is clear between the two parties, the service provider and the main stakeholder,
+[54:27.140 --> 54:32.180]  which is the company for which the problem is getting developed, okay.
+[54:34.340 --> 54:38.740]  Take a little time to read through this first paragraph and tell me what you understand from here,
+[54:39.540 --> 54:43.140]  especially the overview and the significance of problem statement.
+[55:16.180 --> 55:22.260]  Okay, over to you, who would like to talk about what's the significance of
+[55:23.700 --> 55:24.820]  problem specification?
+[55:28.740 --> 55:29.380]  I like to answer.
+[55:32.100 --> 55:38.500]  I must say, problem specification helps identify what the problem is and also other factors
+[55:39.380 --> 55:43.940]  that will help shape what the solution can be so that maybe they're constraints and the
+[55:43.940 --> 55:48.820]  rules and what we want to achieve from the problem.
+[55:49.780 --> 55:52.580]  Absolutely. Yeah, I'll come back to that, Alexandra. Next,
+[55:52.580 --> 55:54.020]  uh, uh, RIOC.
+[55:57.700 --> 55:58.420]  You raised your hand?
+[55:59.300 --> 56:04.100]  Yeah, uh, I was just saying, it's kind of similar to what Alex and Georgia said, uh,
+[56:04.100 --> 56:09.300]  problem solving makes it so we can easily understand the problem the client is facing
+[56:10.020 --> 56:14.260]  and then easily identify the possible solutions to take to, uh,
+[56:14.260 --> 56:18.100]  solve that problem. They're in the most effective and efficient way possible.
+[56:18.900 --> 56:20.500]  Yeah, perfect.
+[56:25.140 --> 56:30.100]  I would say that it, like, um, it gives the things that you're making a direction,
+[56:30.740 --> 56:34.580]  because if you haven't identified a problem to solve, then you're kind of just making things
+[56:34.580 --> 56:37.220]  without a purpose, but it gives you a part of the purpose.
+[56:38.180 --> 56:43.460]  Right. So it may still be, uh, to meet a purpose, but that purpose is not clearly defined.
+[56:43.460 --> 56:46.180]  So that means the whole objective cannot be met.
+[56:46.740 --> 56:50.100]  So you have understood the problem that the client is facing, but probably you have not
+[56:50.100 --> 56:54.260]  understood fully, which means after the product development, the client will come back to you,
+[56:54.260 --> 56:57.620]  say, oh, come on, you developed a product for me, but I'm not able to do this.
+[56:58.260 --> 57:02.740]  And that will be possible only when, as you three of you said, and thanks for your inputs,
+[57:02.740 --> 57:06.500]  which is perfect. Uh, it's very important for you to understand what the,
+[57:06.580 --> 57:11.060]  what the problem is so that the product can, uh, can take care of all those.
+[57:11.060 --> 57:16.580]  So it ensures clarity. It helps determine constraints and limitations before development.
+[57:16.580 --> 57:20.580]  What kind of constraints and limitations do you think could be, uh, encountered
+[57:21.620 --> 57:24.980]  while developing the product? What constraints and limitations?
+[57:25.460 --> 57:28.980]  Yes, officer.
+[57:32.100 --> 57:39.700]  Well, uh, there may be technical constraints or budget constraints, which is usually the case.
+[57:40.580 --> 57:49.460]  Um, well, there may also be, um, like if we design a particular solution and the
+[57:50.020 --> 57:58.980]  users are not very, um, how would I say, tax savvy. Uh, we need to, um, there is actually specific
+[57:58.980 --> 58:09.540]  term, uh, user training, perhaps an user, um, experience, I think, which is a part of the overall
+[58:09.540 --> 58:17.780]  design. Yeah, so we have to take these also into the accounts. Yeah, I agree. And thanks for those
+[58:18.500 --> 58:24.180]  inputs, uh, software. Uh, so there could be many different challenges, uh, that the developer may
+[58:24.180 --> 58:30.420]  encounter and it's always a good idea to get a clarity on those, uh, challenges or those limitations.
+[58:30.420 --> 58:35.380]  For example, number one, what is the budget? Because the developer may propose a system which
+[58:35.380 --> 58:40.340]  may be very expensive for the organization to be here. So which means if they start developing,
+[58:40.340 --> 58:44.580]  it would definitely result in a disaster because the company will know where, be close to paying
+[58:45.220 --> 58:50.100]  what the, uh, developer is actually proposing that there has to be a clarity about the budget
+[58:50.100 --> 58:56.020]  constraint that the company may have, right? Uh, that, that, that needs to be clarified. Second
+[58:56.020 --> 59:01.140]  is, uh, what, uh, I would like to add further to what's obvious that could be the timeline.
+[59:01.700 --> 59:07.380]  The company may be in need for, let's say, uh, start of the product, let the company is launching
+[59:07.380 --> 59:13.620]  a product and they want operations to go live within a month from now. And, uh, when they discuss
+[59:13.620 --> 59:17.380]  that with the, with the developer, they say there is no way that the product can be made
+[59:17.380 --> 59:22.100]  within one month. So that could be another constraint which could actually impact the designing of
+[59:22.100 --> 59:29.140]  the system, uh, employ a preparedness to take up the, uh, new system which is coming up because
+[59:29.140 --> 59:34.260]  most of the employees, they get used to the ongoing way of handling operations, whether it's a
+[59:34.260 --> 59:40.500]  paper-based system or it's a existing, uh, uh, technological solution. They're quite used to it,
+[59:40.500 --> 59:45.620]  but when you try to bring a new system, they would be kind of, uh, they will be reluctant to move
+[59:45.620 --> 59:50.340]  because they have to learn, uh, new skills. They have to spend time learning. It may bring a lot
+[59:50.340 --> 59:55.300]  of frustration because they may not be able to do something because it's an entirely new system.
+[59:55.300 --> 59:58.980]  So that may be another constraint which the company has to think about in order to train
+[59:58.980 --> 01:00:05.220]  the employees so that they start using it. So, um, these could be some of the possible challenges
+[01:00:05.300 --> 01:00:11.940]  which, uh, basically may pop up when the new system is planned. So it will be very important for
+[01:00:11.940 --> 01:00:17.460]  the companies who are developing, uh, the software needs to get a clear picture about, uh,
+[01:00:17.460 --> 01:00:22.420]  budget constraints, employee training, timeline, etc. So that once the agreement is signed,
+[01:00:22.420 --> 01:00:28.420]  there are no conflicts between what's been agreed upon upon. Define objective and success
+[01:00:28.420 --> 01:00:33.700]  criteria for evaluation, that whenever you start developing a software, you create your own
+[01:00:33.700 --> 01:00:39.940]  success criteria that when would you consider your, uh, project to be successfully completed.
+[01:00:39.940 --> 01:00:44.660]  So you come up with your success own success criteria and later you do the evaluation of those
+[01:00:44.660 --> 01:00:49.620]  success criteria and then ensures that the final product meets those stakeholders need.
+[01:00:50.500 --> 01:00:54.260]  Like for example, a school attendant system, if the specification does not include
+[01:00:54.260 --> 01:01:00.340]  how teaches input data or how parents access reports, the system may not serve all the users
+[01:01:00.340 --> 01:01:06.100]  efficiently. So these, these all should be the part of planning after the problem specification
+[01:01:06.100 --> 01:01:14.180]  has been identified to be able to, to, it's properly. So this is a short, the description of each
+[01:01:14.180 --> 01:01:20.740]  of the things, what each component means, uh, stakeholders. Could you tell me, um,
+[01:01:22.660 --> 01:01:26.100]  who all will be the stakeholders if you are developing a school-based system?
+[01:01:26.500 --> 01:01:32.660]  Um, who will be the stakeholders? Yes, Alexandra?
+[01:01:32.660 --> 01:01:42.900]  Um, so maybe the administrative staff of the school, okay. Okay, so one, one from each student.
+[01:01:42.900 --> 01:01:47.940]  Next is the teacher. Students themselves.
+[01:01:48.500 --> 01:01:57.220]  Who? The students themselves. Okay, students, okay, okay, the end users, uh, which are the
+[01:01:57.220 --> 01:02:01.140]  students. Okay, so we talked about the school administration. We talked about the student.
+[01:02:01.140 --> 01:02:07.220]  Next, anybody else? Because it's important to involve all the stakeholders' inputs while
+[01:02:07.220 --> 01:02:13.220]  developing a software. So as a, as a, as somebody who is looking at the problem specification,
+[01:02:13.220 --> 01:02:17.860]  it will be your role to also identify the stakeholders within that system because everybody
+[01:02:17.860 --> 01:02:23.780]  is input is needed. So we have talked about two. Who's the third one? Parents, uh, of students,
+[01:02:23.780 --> 01:02:30.820]  yeah, perfect. Uh, yes. So parents of students, up them, the teachers, yes, the teaching staff.
+[01:02:30.820 --> 01:02:35.300]  So we have covered teaching staff, non-teaching staff. We have covered students. We have covered
+[01:02:35.300 --> 01:02:38.580]  parents. Who else could be the possible stakeholder?
+[01:02:38.900 --> 01:02:48.580]  So non-teaching would include everybody from admin to cleaning staff, everybody in one go.
+[01:02:48.580 --> 01:02:55.940]  Teachers would be all the teachers. Parents, students, who else could be the stakeholders?
+[01:02:55.940 --> 01:03:01.700]  Feel free to type in the chat. Let's say you are developing a software for a company or school.
+[01:03:02.340 --> 01:03:03.780]  Who are the other state stakeholders?
+[01:03:08.900 --> 01:03:09.460]  Any other?
+[01:03:14.260 --> 01:03:17.940]  You're missing one major stakeholder in this whole process.
+[01:03:21.620 --> 01:03:26.580]  Because of whom, successful development of product cannot be done.
+[01:03:31.460 --> 01:03:36.660]  The government, if it's a public funded year, of course, uh, yeah. So we'll keep government also
+[01:03:36.660 --> 01:03:40.820]  on the non-academic side, that initiative, that includes government also, let's say.
+[01:03:41.540 --> 01:03:46.420]  Perhaps the school is backed up by the government. Okay, yeah, it's not a bad, uh, input.
+[01:03:46.980 --> 01:03:50.820]  The government, yeah. But that can be taken as school administration in a way.
+[01:03:52.820 --> 01:03:53.380]  Any other?
+[01:03:56.260 --> 01:03:57.700]  You yourself, what does that mean?
+[01:03:59.540 --> 01:04:02.020]  Who is you here? Me?
+[01:04:02.500 --> 01:04:09.940]  Very good, Andrew, yes. Uh, I was looking for that developer.
+[01:04:09.940 --> 01:04:16.420]  The developer is also one of the most major stakeholders. So stakeholders doesn't mean that people
+[01:04:16.420 --> 01:04:21.540]  who are getting the services. People who are providing the services are also part of stakeholders,
+[01:04:21.540 --> 01:04:26.980]  that entire ecosystem. So when you're talking about a school management system, it's not just
+[01:04:27.140 --> 01:04:32.660]  the school-related people, but it's also the company, which is actually helping in development of the
+[01:04:34.420 --> 01:04:40.580]  system. So that is what stakeholders means. People or group of people affected or interested
+[01:04:40.580 --> 01:04:45.380]  in the solution. Teachers, students, school, admin, parents, I can add here, developers also.
+[01:04:47.300 --> 01:04:51.460]  Constraints and limitations. What could be the possible constraints? We also already talked about
+[01:04:52.260 --> 01:04:58.020]  objectives and goals. So that needs to be very clearly defined as to what the solution aims to achieve
+[01:04:58.740 --> 01:05:02.980]  input specification. Now, this is a new thing coming up. What are the different ways that the
+[01:05:02.980 --> 01:05:09.460]  inputs will be provided into the system? It could be, uh, the input could be in many different ways.
+[01:05:09.460 --> 01:05:14.100]  It could be through, uh, automated sensors. It could be from the keyboard. It could be from a
+[01:05:14.100 --> 01:05:18.660]  joystick. There could be many different ways that the input can be provided. So how the input is
+[01:05:18.660 --> 01:05:28.740]  going to be fitted into the system? Then output specification expected results. So what input is
+[01:05:28.740 --> 01:05:33.300]  going using different input devices and what kind of output is expected in the form of reports?
+[01:05:34.340 --> 01:05:40.340]  And then finally, evaluation criteria standards used to judge the success. Like we had a test plan in
+[01:05:40.340 --> 01:05:45.460]  the internal assessment document, which you saw. So you need to have some sort of evaluation
+[01:05:45.540 --> 01:05:52.020]  criteria to judge the success of the product overall. So we'll be studying about what kind of
+[01:05:52.020 --> 01:05:59.140]  different evaluation are done like alpha test beta test user agreement test user acceptance
+[01:05:59.140 --> 01:06:04.500]  text test. So there are many different ways that the evaluation is done. So we'll study about them
+[01:06:05.300 --> 01:06:11.540]  in details. Now, stakeholders and their roles. So that is basically we just discussed about that
+[01:06:11.540 --> 01:06:17.860]  everybody has some role to play within the system. It can either be end users. It can be those
+[01:06:17.860 --> 01:06:24.340]  who make the decisions. It could be the developers. So everybody has certain roles. For example,
+[01:06:24.340 --> 01:06:29.940]  in hospital management system, it could be doctors, nurses, patients, IT support, online stores,
+[01:06:29.940 --> 01:06:35.940]  could be customers, developers, delivery partners, etc. And we discussed already why stakeholders
+[01:06:36.420 --> 01:06:41.700]  are important because they ensure that the product addresses real word needs, not just technical
+[01:06:41.700 --> 01:06:46.980]  requirements. Then we talked about constraints and limitations. There could be technical constraint,
+[01:06:47.700 --> 01:06:52.820]  hardware or software limitation that the company is not in a position to buy a new hardware.
+[01:06:53.460 --> 01:06:59.380]  So they have to deal with the existing hardware, which may not support very high end systems.
+[01:07:00.340 --> 01:07:05.220]  So if you're running a company where you only have old machines and you want to get a new software
+[01:07:05.220 --> 01:07:10.900]  developed, the developer has to be mindful about what technical support you have or what kind of
+[01:07:10.900 --> 01:07:15.940]  hardware your company has. And accordingly, they have to develop the software. If the company
+[01:07:15.940 --> 01:07:21.300]  says that we don't have the budget to go in for another set of hardware, it could be economical
+[01:07:22.260 --> 01:07:26.820]  constraint that company doesn't have enough budget. So you have to see that what best can be done
+[01:07:26.820 --> 01:07:32.740]  in order to meet those budget constraints. Legal requirements. Sometimes you also have to
+[01:07:33.460 --> 01:07:39.860]  get the approvals from the local government or the governing body so that the software that you
+[01:07:39.860 --> 01:07:46.660]  are developing does not, okay, you tell me what could be possible legal challenges for a company
+[01:07:47.620 --> 01:07:53.220]  which is in the process of getting a new system developed. So there's one legal constraint,
+[01:07:53.220 --> 01:07:56.980]  software. You're in Europe, so you should know this well.
+[01:07:58.180 --> 01:08:07.140]  Collection data. Collection on managing data. It's a big issue, usually.
+[01:08:08.180 --> 01:08:13.060]  Yes. So one of the legal constraints could be to make sure that you are
+[01:08:14.500 --> 01:08:19.300]  adhering to the policies set in by the local government where the data is stored.
+[01:08:20.100 --> 01:08:27.060]  Like in Europe, there is a GDPR, right? GDPR, right? So you have to make sure that if you are storing
+[01:08:27.060 --> 01:08:32.180]  the data within that region, then you have to adhere to those requirements that the data cannot
+[01:08:32.180 --> 01:08:37.300]  be kept in the database once the work is completed. For example, if the patient is gone from the hospital,
+[01:08:37.860 --> 01:08:42.500]  there is no reason why their data needs to be retained in the hospital. So it needs to be freed up,
+[01:08:43.460 --> 01:08:49.860]  right? For will, yeah. For will us, you have some input?
+[01:08:56.100 --> 01:09:00.420]  Can we mention something? I think he just joined the meeting, actually.
+[01:09:00.420 --> 01:09:06.420]  Okay, okay, all right. Just share the attendance link once again so that if anybody has joined
+[01:09:06.420 --> 01:09:12.020]  recently, you could fill the attendance. Okay, so that is a legal aspect because as a developer,
+[01:09:12.020 --> 01:09:18.100]  you have to be mindful about the policies which are in place and you have to adhere by that.
+[01:09:18.100 --> 01:09:22.340]  Otherwise, the company, not only the company which has developed the system, but also the
+[01:09:22.340 --> 01:09:26.740]  company for which you have developed the system could actually get into the legal implications
+[01:09:26.740 --> 01:09:33.540]  and you would like to avoid that, right? So privacy of the data, anonymity of the data,
+[01:09:33.620 --> 01:09:42.100]  data sharing policies, they are all well to be well defined so that the data privacy can be
+[01:09:42.100 --> 01:09:49.380]  maintained. Operational, for example, as the software said that the staff training could be one
+[01:09:49.380 --> 01:09:54.420]  of the important factors, which could be a constraint and then the timeline, the deadline for
+[01:09:54.420 --> 01:09:59.460]  the delivery. So this is all in one place constraints and limitations. So you may have a possible
+[01:09:59.540 --> 01:10:08.020]  question in the exam that identify three constraints in the software development process, right?
+[01:10:08.740 --> 01:10:13.620]  So if it is identified, you can just name them like technical, economical and legal. If they say
+[01:10:13.620 --> 01:10:22.340]  explain three constraints or limitations in the process of software development, then possibly
+[01:10:22.340 --> 01:10:28.660]  you have to find this, you have to name it description and then example, that will complete your
+[01:10:28.660 --> 01:10:33.380]  answer. So remember, some of these constraints so that you can easily answer it, there's a question
+[01:10:33.380 --> 01:10:38.500]  like that. Now, input and output identification, the data that enters into the system
+[01:10:40.020 --> 01:10:44.980]  and how it is entered into the system. So there can be many different ways that the data is entered.
+[01:10:44.980 --> 01:10:53.620]  As I said, it could be sensors, it could be keyboard, it could be joystick, it could be input from
+[01:10:53.620 --> 01:10:58.260]  some online sources, which becomes the source of your information for the further processing.
+[01:10:58.260 --> 01:11:02.660]  So there can be many different ways, but most importantly, what kind of data is actually entering
+[01:11:02.660 --> 01:11:08.580]  into the system? Process how the data is handled and finally the output, the information which is
+[01:11:08.580 --> 01:11:15.060]  produced. Some of the input methods in the new system or the system that you develop, it could be
+[01:11:15.060 --> 01:11:21.460]  manual entry. So there is a operator which is actually typing the data to enter it, keyboard, mouse,
+[01:11:21.460 --> 01:11:26.980]  touchscreen, etc. Then there could be a direct entry. For example, it could be you may have seen in
+[01:11:26.980 --> 01:11:32.660]  the shops that they read the information using barcodes, QR code, etc. So that's a direct entry,
+[01:11:33.380 --> 01:11:37.460]  where after reading the barcode, it goes to the database, picks the details of that product,
+[01:11:37.460 --> 01:11:41.700]  and then that pops up on your screen. That's a direct entry where keyboard is not needed.
+[01:11:42.500 --> 01:11:47.540]  And then automatic entry, for example, sensor-based entries. So these are the three different
+[01:11:47.540 --> 01:11:55.780]  input methods which are basically used in any system that you are using. Can you think of any other
+[01:11:55.780 --> 01:12:01.220]  input method other than these three? I can think of it. Can you think of something?
+[01:12:04.980 --> 01:12:10.500]  Other than manual entry, direct input and automatic entry, is there anything else that comes to your
+[01:12:10.500 --> 01:12:21.620]  mind? No? All right, output types. Now when you have entered the data into the system, for
+[01:12:21.620 --> 01:12:28.020]  example, let's say it's an attendance-based system. What would be the input? Let's talk about that.
+[01:12:28.020 --> 01:12:32.580]  Let's say you have created your creating an attendance-based attendance system for our school.
+[01:12:33.140 --> 01:12:36.260]  What would be the data that will be entered into the system?
+[01:12:38.580 --> 01:12:42.820]  I'm throwing these questions so that you can start thinking beyond the basic level.
+[01:12:42.820 --> 01:12:46.500]  There is something which is on the top of the mind and there is something which requires
+[01:12:46.500 --> 01:12:51.220]  little more critical thinking to go beyond that. So to develop that, I'm throwing these questions
+[01:12:51.220 --> 01:12:58.340]  to you. Name of the students. Okay, so that will be one input. So for the attendance system,
+[01:12:58.340 --> 01:13:03.700]  we need to have the name of the students, their class and all that. So let's say all the personal
+[01:13:03.700 --> 01:13:12.420]  information about the students, that is one input. Then you are the developer for the attendance
+[01:13:12.660 --> 01:13:17.540]  system. So what else will you enter into the system? So that it works perfectly.
+[01:13:19.220 --> 01:13:24.340]  First is all the details about the student, their name, data birth, class, they are in,
+[01:13:24.340 --> 01:13:29.780]  what subjects they are studying, that becomes one input. What else will be the input?
+[01:13:31.380 --> 01:13:35.060]  Come on, we fast. It's something that you experience every day.
+[01:13:35.140 --> 01:13:44.420]  Okay, their actual attendance like present or absent, yes, that's correct. So on a day to day
+[01:13:44.420 --> 01:13:48.820]  basis, the input will be their actual attendance, whether they are present or they are absent.
+[01:13:48.820 --> 01:13:55.060]  What else? You are developing the attendance system. What are the things you will
+[01:13:55.060 --> 01:14:00.340]  consider in the problem? Okay, so name is already done. Probably you would disconnect it for a while.
+[01:14:01.060 --> 01:14:06.980]  Name and other personal details is already done. The day of the attendance, okay, the date is
+[01:14:06.980 --> 01:14:12.500]  important that the attendance is forward date. Okay, you are a developer for the attendance system
+[01:14:12.500 --> 01:14:15.780]  and you are thinking about what all things you will consider. What else?
+[01:14:20.100 --> 01:14:25.780]  What's the next thing that comes to your mind? Martin, I believe one more student has joined.
+[01:14:25.780 --> 01:14:30.500]  So probably you can share the attendance in the main chat. Anybody who has joined?
+[01:14:32.020 --> 01:14:34.660]  Please mark the attendance. Yeah, what else?
+[01:14:37.060 --> 01:14:41.220]  Their grade. In the attendance, will you give the grades?
+[01:14:42.260 --> 01:14:47.060]  Wait, am I attendance? I need to give out my grade before I can select my name.
+[01:14:48.500 --> 01:14:51.860]  Oh, grade you mean to say which class you are in, right?
+[01:14:52.820 --> 01:14:57.460]  Okay, so that all is in one category. Let's say name of the student and all their personal
+[01:14:57.460 --> 01:15:02.740]  details, their subject choices, their grade level, everything is one thing. Second is the date for
+[01:15:02.740 --> 01:15:08.420]  which the attendance has been marked. Martin has just shared the attendance link. So
+[01:15:08.420 --> 01:15:17.300]  although we have just joined, please mark your attendance. Can anyone think? Can anyone think about
+[01:15:17.300 --> 01:15:22.580]  any other thing, any other input to the attendance system? You're missing one very important thing.
+[01:15:29.300 --> 01:15:36.180]  Can you think of? I want you to think like a software developer. This is what is problem
+[01:15:36.180 --> 01:15:42.260]  specification that you need to identify all possible inputs so that no exceptions are left,
+[01:15:42.980 --> 01:15:48.580]  which are not well defined. Can somebody think of anything?
+[01:15:48.580 --> 01:15:52.900]  Alexander, can you think of any other field that we have missed?
+[01:15:59.700 --> 01:16:07.060]  Anyone? Software? Other than present and action, we could also have others like
+[01:16:07.140 --> 01:16:12.100]  excused or something else. Yeah, perfect. Yes, that's a good input. So it's not just present or
+[01:16:12.100 --> 01:16:16.740]  absent, but you need to have the exception for somebody who may be absent, but they are excused
+[01:16:16.740 --> 01:16:23.460]  from the class because of some reason. Fine. It could also be late coming. Somebody came late,
+[01:16:23.460 --> 01:16:30.580]  so there is a checkbox. They they are present, but they are they came late. Anything else that comes
+[01:16:30.580 --> 01:16:38.580]  to your mind, which you will input in your system? Maybe parents can also participate
+[01:16:39.300 --> 01:16:47.300]  because they they can provide and they will be some data for the students being excused
+[01:16:47.300 --> 01:16:56.420]  moreover they can see. Yes, the attendance. Yeah, so visibility is one thing that is output,
+[01:16:56.420 --> 01:17:01.220]  that is part of output that the reports can be made visible to the parents, but yes, from your
+[01:17:01.780 --> 01:17:06.660]  input, I can make out one thing that there could be a field for description, short description,
+[01:17:06.660 --> 01:17:10.900]  that if somebody has been excused, then what is the reason for that excuse or if somebody's
+[01:17:10.900 --> 01:17:15.860]  absent, then what could be the reason for absentism? Right. Yeah, so that could be input. Anything else?
+[01:17:20.580 --> 01:17:24.020]  Think about it. I mean, you are developing the software, so you want to make sure that everything
+[01:17:24.020 --> 01:17:27.460]  that is needed for us, attendance system is actually their part of it.
+[01:17:32.980 --> 01:17:40.260]  While building a system, you will provide a few other inputs. There is one of them, which is very
+[01:17:40.260 --> 01:17:40.820]  important.
+[01:17:49.860 --> 01:17:50.260]  Anyone?
+[01:17:53.140 --> 01:18:01.220]  Okay. Maybe it's nice for these staff members. I mean, the login information and the dashboard for
+[01:18:01.860 --> 01:18:09.860]  for staff. Yeah, so that is so we are assuming that we are already on the dashboard of
+[01:18:09.860 --> 01:18:15.460]  a tenant system, right? We are already there. A login system for a teacher. Yeah, that's okay.
+[01:18:15.460 --> 01:18:19.540]  I mean, but that is not exclusively part of our tenant system. The login is a different module
+[01:18:19.540 --> 01:18:23.780]  altogether. It's giving you the accessibility. I'm assuming that we are already on the tenant
+[01:18:23.780 --> 01:18:28.260]  system and we talked about everything, which is related to the attendance dashboard.
+[01:18:29.220 --> 01:18:35.300]  So, one of the since we have to move to the next topic, so I'll just if I was a developer,
+[01:18:35.780 --> 01:18:42.500]  I would also feed in the list of holidays in the attendance system so that none of the days within
+[01:18:42.500 --> 01:18:49.140]  a particular week or month goes as attendance not taken by the teacher. So for the weekends,
+[01:18:49.140 --> 01:18:53.860]  like Saturday and Sunday, I will already mark that these are the off days or if there are some
+[01:18:53.860 --> 01:18:58.980]  local festivals, then I will mark that already as I'll give an input that those days are not to
+[01:18:58.980 --> 01:19:03.940]  be counted towards the attendance. So it will be how it will be helpful. It will be helpful in
+[01:19:03.940 --> 01:19:09.540]  calculating the percent of attendance for the students because if you haven't marked some days as
+[01:19:10.340 --> 01:19:16.900]  off weekly off or some festival off, then your calculation of percentage would be wrong.
+[01:19:17.780 --> 01:19:22.180]  Your number of days will come out to be 30 even though the school did not work for 30.
+[01:19:22.260 --> 01:19:27.780]  So these are very minute details which you have to be very mindful about in order to have
+[01:19:29.140 --> 01:19:34.660]  meaningful input for meaningful output. Otherwise it becomes garbage input, garbage output.
+[01:19:35.860 --> 01:19:42.340]  We call it GIGO, garbage input for garbage output. So when you will start developing your product
+[01:19:43.060 --> 01:19:46.980]  and when you will make your proposal and then you will start designing, you have to think about
+[01:19:46.980 --> 01:19:52.500]  each module as to what could be the possibilities within that module. So the better is the design,
+[01:19:52.500 --> 01:19:56.260]  the more effective will be your development. So you have to be mindful about all that and that's
+[01:19:56.260 --> 01:20:03.300]  why I'm spending little extra time here for you to be to understand the importance and significance
+[01:20:03.300 --> 01:20:09.460]  of problem specification. Martin, you would like to add something here? I was just thinking in terms
+[01:20:09.540 --> 01:20:18.340]  for this particular example that have the ability to make changes to the attendance. If
+[01:20:18.340 --> 01:20:24.180]  let's say you mark a teacher marker student absent during the first period and he came late
+[01:20:24.180 --> 01:20:33.620]  later on and that ability should be there or also if this absent is an excuse absent or is
+[01:20:34.100 --> 01:20:40.500]  an excuse absent, that's part of the specifications for these particular examples.
+[01:20:41.380 --> 01:20:50.740]  Absolutely and thanks for that's a very good input from Martin and this is where comes the
+[01:20:50.740 --> 01:20:55.940]  level of accessibility. Like in some of the schools, like in my school, if I have marked somebody
+[01:20:55.940 --> 01:21:02.980]  absent for the day, then I don't have the rights to change it because then it will be problematic to
+[01:21:02.980 --> 01:21:07.220]  maintain a standard approach across the school because the teachers may be marking and then unmarking
+[01:21:07.220 --> 01:21:13.380]  and all that. So it would not be clear as to which student came, if the attendance is changing
+[01:21:13.380 --> 01:21:19.940]  dynamically in every lesson. So once I have marked somebody as absent and somebody has come late,
+[01:21:19.940 --> 01:21:27.780]  then I pass on that information to the admin, the middle school high school admin and they have
+[01:21:27.860 --> 01:21:34.980]  the rights to change the attendance. So that one person at least is aware of who came late or why
+[01:21:34.980 --> 01:21:39.780]  somebody was marked absent and later they are to be marked as present and that is where the level
+[01:21:39.780 --> 01:21:43.620]  of accessibility comes into picture. So I as a teacher lose the rights to change the attendance
+[01:21:43.620 --> 01:21:47.860]  but once I have submitted it, then it goes to the second level which is the admin manager.
+[01:21:47.860 --> 01:21:51.860]  So admin manager wouldn't make the changes and when you are thinking about the development of
+[01:21:51.940 --> 01:21:56.900]  your solution, you will also have to make different levels of access. That if you are developing
+[01:22:06.180 --> 01:22:11.460]  I'm sorry, I cannot hear you, there is an interference, huge one.
+[01:22:11.620 --> 01:22:25.860]  There is only the features that are prescribed for that. We will ask you for a minute there,
+[01:22:25.860 --> 01:22:31.140]  there was some background noise that interferes with your sound. So you might want to
+[01:22:31.140 --> 01:22:38.500]  say that. Yeah, so I was talking about different levels of accessibility. For example,
+[01:22:38.500 --> 01:22:42.820]  if you are developing a system, you will have different types of users within that system. For
+[01:22:42.820 --> 01:22:48.820]  example, it may be an end user who will have limited rights. Let's say for example from a hospital's
+[01:22:48.820 --> 01:22:56.020]  point of view, one of the users would be let's say the nurses, okay, nurse or I don't know
+[01:22:56.020 --> 01:22:59.300]  in different region, they are called something else, some places they are called sisters, some are
+[01:22:59.300 --> 01:23:04.500]  called nurses. So they will have the minimum level of rights where they will only be able to view
+[01:23:04.580 --> 01:23:09.860]  the data. So doctor has entered some reports about the patient, they can only view it, they
+[01:23:09.860 --> 01:23:14.820]  cannot change anything. So their accessibility is restricted. Then goes the next level which is
+[01:23:14.820 --> 01:23:21.460]  the doctors. So doctors may be able to add the reports into the system, they may be able to upload
+[01:23:21.460 --> 01:23:27.060]  the patient reports, but they may not have the rights to delete anything. As a doctor, they will
+[01:23:27.060 --> 01:23:32.180]  not have the rights to delete anything. Then comes the next level, let's say the hospitals admin
+[01:23:32.740 --> 01:23:37.380]  staff, those who are managers or administrators, they will have more rights in order to add new
+[01:23:37.380 --> 01:23:43.620]  records, delete records, modify records, right. So this level of accessibility makes sure that your
+[01:23:43.620 --> 01:23:52.020]  system is stable and it maintains the data integrity and data security that if I'm at a certain level,
+[01:23:52.020 --> 01:23:58.580]  I will only have the rights which are limited to myself, right. So when you're thinking about your
+[01:23:58.580 --> 01:24:02.980]  IR project, please think from different levels point of view as to how many levels you are
+[01:24:02.980 --> 01:24:07.780]  granting. So as soon as somebody logs in with their user credentials, they should be able to only
+[01:24:07.780 --> 01:24:16.100]  access the information which is prescribed for them so that you will be sure that the data
+[01:24:16.100 --> 01:24:20.820]  integrity could be maintained, right. And that is what I was talking about with regard to different
+[01:24:20.820 --> 01:24:27.460]  levels of accessibility. Then comes the evaluation criteria. So as a software developer, not only that
+[01:24:27.460 --> 01:24:33.220]  you're responsible for developing a full-proof system to meet the objectives of the organization,
+[01:24:33.940 --> 01:24:39.140]  but you should also have the evaluation criteria in place so that before the product is released
+[01:24:39.140 --> 01:24:44.420]  to the customers, you have to make sure that all the testing with regard to the functionality
+[01:24:44.420 --> 01:24:49.780]  has been completed. Because it doesn't give a good picture to the company which has developed
+[01:24:49.780 --> 01:24:56.740]  the software. If you have developed something with some limitations, that will be a very bad name
+[01:24:56.740 --> 01:25:01.060]  to the company. That this company was trusted to develop something but they were not able to
+[01:25:01.060 --> 01:25:05.380]  meet all the objectives. So you want to make sure that your credibility remains intact in the
+[01:25:05.380 --> 01:25:10.820]  market and that will require you to make sure that you have all the evaluations done, okay.
+[01:25:10.820 --> 01:25:15.860]  And there are different types of testings which to even the companies like Microsoft and Oracle
+[01:25:15.860 --> 01:25:21.460]  and Apple, even after releasing the product, they first release the beta version. They give the
+[01:25:21.460 --> 01:25:26.900]  product free of cost to some customers. They ask them to try it and then if there are any errors,
+[01:25:26.900 --> 01:25:33.300]  then report that back to the company so that they can modify those mistakes so that when the product
+[01:25:33.300 --> 01:25:40.660]  is all set for release, then it should go with minimum possible errors in it. It is not that somebody
+[01:25:40.660 --> 01:25:45.940]  can say that my product is 100% accurate. Even Microsoft never claims that. And that is why you
+[01:25:45.940 --> 01:25:50.340]  may have seen that sometimes you get a pop-up message that an error is encountered. Would you
+[01:25:50.340 --> 01:25:54.500]  like to report it to the developers? And when you click it, it's a contribution to the community
+[01:25:54.500 --> 01:25:58.820]  because you are making the company aware of some problems which they did not notice while
+[01:25:58.820 --> 01:26:03.220]  testing it. But when you started using it, you encountered that problem and you noticed it.
+[01:26:03.220 --> 01:26:09.380]  So it's an ongoing process but the effort is always that those problems should be minimized
+[01:26:09.380 --> 01:26:15.060]  to the best extent possible. And that's why you need to have a good evaluation criteria in place.
+[01:26:15.060 --> 01:26:22.180]  Now from your IS point of view, this contributes to criteria E. So criteria E is all about evaluating
+[01:26:22.180 --> 01:26:28.340]  your product based on the success criteria that you made in criteria A. I'm trying to link
+[01:26:28.900 --> 01:26:34.820]  this chapter with the actual IA because this has a great significance from the IS point of view.
+[01:26:34.820 --> 01:26:39.940]  You need to identify the problem first. You need to look at the technical aspects in terms of
+[01:26:40.340 --> 01:26:47.860]  computational connections. You have to come up with a success criteria which is criteria A altogether.
+[01:26:47.860 --> 01:26:52.660]  Then you have to come up with a design overview which is about decomposition, abstraction,
+[01:26:52.660 --> 01:27:00.020]  polymorphism, encapsulation and all that which will study later next week. That is criteria B.
+[01:27:00.020 --> 01:27:05.380]  And then you come to the development where you have the input, process and output. So this topic
+[01:27:05.380 --> 01:27:10.500]  that we are starting currently has great significance. Not just from paper two point of view
+[01:27:10.500 --> 01:27:16.820]  but more importantly from the IA's point of view. So your evaluation should be very specific,
+[01:27:16.820 --> 01:27:25.060]  clear and precise. If I write this, let's say my first success criteria is my dashboard should be
+[01:27:27.220 --> 01:27:33.860]  well designed with attractive color combinations.
+[01:27:35.700 --> 01:27:44.500]  What do you think about this success criteria? Is it specific, measurable, relevant,
+[01:27:44.500 --> 01:27:52.820]  achievable and time bound? Let me have your views. This is one of my success criteria for the product.
+[01:27:54.260 --> 01:27:59.060]  My dashboard should be well designed with attractive color combination. Is this a good success
+[01:27:59.220 --> 01:28:09.620]  criteria? Not really. Okay. And what's the reason that it's not a very good success criteria?
+[01:28:10.740 --> 01:28:19.460]  That's not really specific. Not really measurable. I mean yes, it is achievable but it's not
+[01:28:19.460 --> 01:28:31.220]  constrained by time again. So to make it perhaps more the bad batter, let's say we may specify
+[01:28:34.180 --> 01:28:42.900]  at the very least we may specify the timelines, we may specify the perhaps this style if we don't
+[01:28:42.900 --> 01:28:50.180]  want to be extremely precise or we can even mention colors. The entire
+[01:28:53.380 --> 01:29:00.180]  comments as to the layout. It's actually interesting because the design can go very deep.
+[01:29:01.220 --> 01:29:08.500]  I mean do we need to mention like the specific fonts in this success criteria?
+[01:29:13.620 --> 01:29:16.180]  Yes.
+[01:29:20.580 --> 01:29:30.980]  I think that it's more about if the product that we are developing actually does what we are
+[01:29:30.980 --> 01:29:39.700]  seek out to do. Because in this case just is in terms of the layout and colors and the
+[01:29:39.700 --> 01:29:44.660]  font is more what is it will make the product user friendly or not. And I think that that's
+[01:29:45.300 --> 01:29:49.300]  more measurable, right? It's easier to interact with it.
+[01:29:50.900 --> 01:29:58.980]  Does the user have to scroll all the way down to choose an option or not? So it has to be more
+[01:30:00.100 --> 01:30:07.460]  to that the actual peak of colors. Obviously that is important because you don't want a screen
+[01:30:07.460 --> 01:30:13.460]  that is too VC or too bright or whatever that is actually not inviting to use.
+[01:30:14.900 --> 01:30:21.300]  Absolutely. Yeah. So as the software said that your success criteria should be
+[01:30:21.300 --> 01:30:26.980]  measurable. That means you should be able to demonstrate that okay this is my success criteria
+[01:30:26.980 --> 01:30:32.180]  and see I can demonstrate this as a part of the evaluation. If I just end up saying that my
+[01:30:32.180 --> 01:30:36.580]  dashboard should be well designed with an attractive color combination, this is very,
+[01:30:36.660 --> 01:30:44.100]  very subjective. This is subjective because something which is attractive color for you may not
+[01:30:44.100 --> 01:30:51.140]  necessarily be attractive color for others. So how do you measure it? You may say that I have
+[01:30:51.140 --> 01:30:55.140]  used this color combination because to me it looks very attractive but examiner will say come on
+[01:30:55.140 --> 01:31:01.140]  this looks yuck. It doesn't look good at all. I don't like it, right? So it's very subjective.
+[01:31:01.140 --> 01:31:05.940]  So this is one of the common mistakes which students do they end up with the success
+[01:31:05.940 --> 01:31:12.340]  criteria in criteria A which are not measurable. They are very subjective and you should avoid
+[01:31:12.340 --> 01:31:17.700]  any such thing when you are coming up with the success criteria. So this is one of the key
+[01:31:17.700 --> 01:31:23.860]  requirements for any product problem specification phase that you must come up with the evaluation
+[01:31:23.860 --> 01:31:28.740]  criteria which could be tested. You should be able to show that on the screen and the person
+[01:31:28.740 --> 01:31:33.380]  who is looking at it should be convinced with what you are saying. So the same thing I have
+[01:31:33.380 --> 01:31:39.780]  written here with some measurable aspects. For example, my dashboard should be well designed in terms
+[01:31:39.780 --> 01:31:46.820]  of placement of text boxes and labels. Now this may also be subjective. So you may go a little
+[01:31:46.820 --> 01:31:51.060]  further into the details that it should be placed in the center of the screen or on the top of the
+[01:31:51.060 --> 01:31:56.580]  screen. Is that measurable? Yes, that is measurable. So that you can show. Color should match with the
+[01:31:56.580 --> 01:32:02.500]  company theme which is green and orange. So is this measurable? Yes, it is measurable that the
+[01:32:02.500 --> 01:32:08.580]  company follows a color code which is green and orange as a part of their company policy and
+[01:32:08.580 --> 01:32:12.660]  that you are showcasing in the product. So can you show green and orange combination? Yes,
+[01:32:12.660 --> 01:32:18.020]  you can show it. Text boxes should be small in size. Now this is to an extent subjective that
+[01:32:18.020 --> 01:32:22.420]  what do you mean by small? So you can be more precise here as to what you mean by small.
+[01:32:23.300 --> 01:32:28.740]  Logos should be on the top right. So instead of just saying that well designed with attractive
+[01:32:28.740 --> 01:32:32.900]  color, you are telling what do you mean by well designed. So logo should be on the top right.
+[01:32:32.900 --> 01:32:39.780]  These are mostly measurable. So this should be a point for you to remember always that when you
+[01:32:39.780 --> 01:32:46.660]  are coming with the success criteria, you will not get the score in criteria A. If even couple of
+[01:32:46.660 --> 01:32:53.780]  your couple of your success criteria are subjective and they are non-mancerable.
+[01:32:54.500 --> 01:33:00.900]  So when you pick up a success criteria, ask yourself, can I test this? Can I demonstrate this?
+[01:33:01.540 --> 01:33:08.260]  Which is universally true? If that is a case, that is okay. But if it is your opinion that I think
+[01:33:08.260 --> 01:33:14.180]  it should look like good like in this particular combination, that is subjective. That may not be
+[01:33:14.340 --> 01:33:18.820]  the true case for others as well. So this is very important. This is one of the common mistakes which
+[01:33:18.820 --> 01:33:27.060]  many students do when they are writing the success criteria. So it should be specific. Yeah, I'm sorry.
+[01:33:28.020 --> 01:33:30.820]  Has a question to you? Yeah, please go ahead.
+[01:33:33.300 --> 01:33:37.780]  So yeah, I was just like about to like make the comment about like user friendliness,
+[01:33:37.860 --> 01:33:41.940]  but then Mr. Martin just said it. Bye. I forgot to take it over my hand.
+[01:33:42.820 --> 01:33:48.580]  Yeah. So user friendliness should not be the correct success criteria because in user friendliness,
+[01:33:48.580 --> 01:33:56.020]  you have to be very specific about what makes user friendly, right? Like larger fonts or click
+[01:33:56.020 --> 01:34:02.980]  clickable items or clear distinction between the text boxes and the labels. So you have to be very
+[01:34:02.980 --> 01:34:08.500]  precise, which you can showcase to make it user friendly. It should not be too cluttered. That
+[01:34:08.500 --> 01:34:14.180]  means there should be gaps between each text boxes, which you can showcase. If you just use a
+[01:34:14.180 --> 01:34:18.180]  friendly, that is not enough because what do you mean by user friendly? So that has to be very
+[01:34:18.180 --> 01:34:25.220]  clearly specified. And that is why we have eight example, eight example IAs in the folder.
+[01:34:25.220 --> 01:34:30.500]  It would be good to go through each one of them, read the success criteria and you will see that
+[01:34:30.580 --> 01:34:37.940]  those scoring low will have very generic success criteria. So if you read the success criteria of
+[01:34:37.940 --> 01:34:42.740]  each of the eight samples, you will get a better understanding. Most importantly, it should be
+[01:34:42.740 --> 01:34:47.380]  measurable. It should be relevant, not that something which you are not developing, you have made
+[01:34:47.380 --> 01:34:53.220]  that as a part of success criteria. It should be achievable, not that you end up writing something
+[01:34:53.220 --> 01:34:58.820]  which is a very ambitious to impress the moderator, but actually it is not achievable.
+[01:34:59.300 --> 01:35:05.780]  So you don't have to show like you are a professional software developer. The main objective of IA
+[01:35:05.780 --> 01:35:11.780]  is to show your understanding of the entire design cycle even through a small project that you
+[01:35:11.780 --> 01:35:16.020]  develop. It's not that you're developing something at a professional level. You have your life,
+[01:35:16.580 --> 01:35:21.220]  whole life available for that. At this stage, you're just showing your computational
+[01:35:21.220 --> 01:35:26.580]  thinking skills through the IA. So it should be achievable. I should be time bound because you
+[01:35:26.580 --> 01:35:32.900]  have 30 hours, 35 hours for the IA. If you end up making something very, very ambitious,
+[01:35:32.900 --> 01:35:37.940]  which unfortunately some students do, they end up spending too much time on the IA. You are actually
+[01:35:37.940 --> 01:35:43.300]  penalized for that. They say that it is not possible to complete this IA in 35 hours. So you get
+[01:35:43.300 --> 01:35:50.740]  penalized for all that extra efforts that you put in. And then the tennis system should mark
+[01:35:50.740 --> 01:35:58.020]  attendance within 10 seconds first class with 99% accuracy. Okay. Then computational thinking
+[01:35:58.020 --> 01:36:02.580]  connection. So this is something which we have been talking about decomposition, which is breaking
+[01:36:02.580 --> 01:36:08.740]  down the problem into several achievable smaller steps. You may be looking at school management
+[01:36:08.740 --> 01:36:14.980]  system as a whole. That is the whole software. Now you have to decompose that within the school
+[01:36:14.980 --> 01:36:21.220]  management software. First, you find out what are the different modules. For example,
+[01:36:21.220 --> 01:36:26.660]  one could be attendance, one could be library, one could be transport, one could be state department,
+[01:36:26.660 --> 01:36:31.780]  one could be academics, one could be its payroll. So that is called decomposition. So you have this
+[01:36:31.780 --> 01:36:37.460]  many different components in that larger system. And then within each feature also, you have to
+[01:36:37.460 --> 01:36:41.700]  further decompose that what does attendance comprise of? What are the different sections of
+[01:36:41.700 --> 01:36:47.860]  attendance? What are the different components of HR payroll, right? Now you as a student don't
+[01:36:47.860 --> 01:36:53.860]  have to make all the modules. It will be too much of an expectation. So find out what a problem
+[01:36:53.860 --> 01:36:59.060]  area, which probably is Martin will share with us some of the examples of the IA as to what could
+[01:36:59.060 --> 01:37:07.060]  be possible IA ideas for understanding purpose. So think about a small area for which you can
+[01:37:07.060 --> 01:37:12.260]  develop something, which is meaningful and which has its relevance. That is what decomposition
+[01:37:12.260 --> 01:37:17.940]  means breaking down your larger problems into smaller problems. Extraction. So this is something
+[01:37:17.940 --> 01:37:23.140]  which is very much talked about in the object oriented programming. Extraction is the process of
+[01:37:23.140 --> 01:37:28.900]  hiding on essential parts and showcasing only the things that you are supposed to be seeing.
+[01:37:30.020 --> 01:37:35.380]  Like for example, when you drive the car, you don't see how the engines work, how the fueling is
+[01:37:35.460 --> 01:37:40.740]  done. You don't see the digital circuits which are running within the bonnet of the car, right?
+[01:37:40.740 --> 01:37:46.500]  What you'll see is just a steering gear in case if you have the gear system and the brake
+[01:37:46.500 --> 01:37:52.900]  and the escalator, etc. You only see those parts. You see the meter. How the meter is working?
+[01:37:52.900 --> 01:37:57.300]  How the pulley is working in the meter to make it work? All those things you don't see, right?
+[01:37:57.300 --> 01:38:00.900]  That is called extraction. Similarly, in a software development field,
+[01:38:01.620 --> 01:38:08.100]  what user see is only the end result on the screen. Like right now, I'm only seeing the Google
+[01:38:08.100 --> 01:38:13.060]  Doc on my screen. I don't see that how these are stored in bits and bytes in the background,
+[01:38:13.060 --> 01:38:18.180]  what registers are doing, what RAM is doing, what processor is doing, what operating system is doing.
+[01:38:18.180 --> 01:38:22.180]  All those components are hidden from me because as a user, I just want to see my screen,
+[01:38:22.180 --> 01:38:27.700]  which is just the Google Doc input of me, right? That is called abstraction. That means hiding all
+[01:38:27.700 --> 01:38:33.140]  the unessential components, which are not directly helping us for the knowledge domain,
+[01:38:33.140 --> 01:38:36.580]  but only looking at those things which are relevant to me. That is abstraction.
+[01:38:37.700 --> 01:38:41.620]  Pattern recognition. Now, this is something very important in the computer science and you
+[01:38:41.620 --> 01:38:48.260]  studied in the first chapter also that like in the processing, processing time when you were
+[01:38:48.260 --> 01:38:54.660]  studying different kinds of talent processing and pipeline and all that, that this is a pattern
+[01:38:54.660 --> 01:38:59.380]  which is recognized during the processing of the information. We will study more about the pattern
+[01:38:59.380 --> 01:39:04.260]  recognition when we will actually go into the details of object oriented concepts, but pattern
+[01:39:04.260 --> 01:39:10.260]  recognition is basically identifying the patterns which could actually help you to avoid repetitive
+[01:39:10.260 --> 01:39:17.300]  task. And this is quite relevant to the functions. We will study about the functions in the programming,
+[01:39:18.180 --> 01:39:23.700]  wherein you will not only do the decomposition, but you will also create different modules for
+[01:39:23.700 --> 01:39:29.380]  the tasks which are repeated in your software again and again, so that you don't have to repeat
+[01:39:29.380 --> 01:39:34.100]  writing the whole instructions again and again. Whenever you are in need of that particular section
+[01:39:34.100 --> 01:39:40.260]  of the programming, for example, let's say finding the square root of a number. Now, you may be
+[01:39:40.260 --> 01:39:44.500]  developing a mathematical problem where you have to find out the square root many times.
+[01:39:46.100 --> 01:39:50.260]  Now, one way is that wherever you need to write the square root function, you just repeat the code
+[01:39:50.260 --> 01:39:54.900]  again and again. Another way could be that because it's a pattern which is repeating again and
+[01:39:54.900 --> 01:40:00.340]  again in your project. So, you make one module as square root where you will pass a parameter
+[01:40:00.340 --> 01:40:04.900]  of the number which for which square root is needed and that module will reactivate it will
+[01:40:04.900 --> 01:40:10.900]  calculate the square root and give you the square root back to you. So, pattern recognition is
+[01:40:10.900 --> 01:40:15.620]  basically identifying the repeated elements within your development of the software,
+[01:40:15.620 --> 01:40:20.180]  which instead of writing again and again, you can actually make a module for it and then
+[01:40:20.340 --> 01:40:25.620]  make it work whenever needed. Rash, I would like to give an example of that. For example,
+[01:40:26.980 --> 01:40:32.500]  you want to validate data. You want to make sure that whatever the input of the user is provided
+[01:40:32.500 --> 01:40:39.460]  is the correct input, right? So, you probably are going to develop a method because that is going
+[01:40:39.460 --> 01:40:44.180]  to validate that data and you're going to use that method in different places of your program.
+[01:40:44.180 --> 01:40:49.220]  You don't want to rewrite the code every single time you want to validate if the input of the
+[01:40:49.220 --> 01:40:55.780]  user is is appropriately for the application or not. Absolutely. Yeah, correct. Yeah, that's
+[01:40:55.780 --> 01:41:00.820]  a very good example that you know very very user authentication is happening. That may be repeated
+[01:41:00.820 --> 01:41:04.500]  at many different places and you don't want to repeat that whole set of instructions again and
+[01:41:04.500 --> 01:41:08.740]  again. So, you just make up a module which is responsible for checking the authenticity of the
+[01:41:08.740 --> 01:41:13.460]  information and it will return you true or false. If it is true, that means the information
+[01:41:13.460 --> 01:41:18.180]  is correct and if it is false, then you ask the user to reenter. So, which is going to be repeated
+[01:41:18.180 --> 01:41:23.300]  many times and by making a module, you can take care of that easily. Algorithmic design,
+[01:41:23.300 --> 01:41:28.900]  developing a clear step-by-step process in the development process. So, as you saw pseudo code in
+[01:41:28.900 --> 01:41:34.340]  the sample example that I showed you of the eye, there was a pseudo code section and pseudo code
+[01:41:34.340 --> 01:41:39.140]  is quite important from the technical documentation point of view. So, that let's say you are a
+[01:41:39.140 --> 01:41:43.460]  software developer in a company and after a while you leave the company and you may have developed
+[01:41:43.460 --> 01:41:48.180]  a lot of modules, right, which is obvious. When the new person joins, they want to understand,
+[01:41:48.180 --> 01:41:52.580]  let's say there's a troubleshooting to be done in part of the system. By looking at the code
+[01:41:52.580 --> 01:41:56.260]  alone, they will not be able to understand what each part of the code is doing because it's very
+[01:41:56.260 --> 01:42:01.140]  technical. I mean, it's written in syntaxes using a programming language and they may not be
+[01:42:01.140 --> 01:42:05.700]  able to actually understand what's going on. But if you have the pseudo code or the algorithm
+[01:42:05.700 --> 01:42:11.380]  written where you have made description of each module in simple English language, which is not
+[01:42:11.380 --> 01:42:16.180]  language dependent. So, somebody frets it, they will be easily be able to understand what the
+[01:42:16.180 --> 01:42:21.060]  application is doing and how it is developed. That is what is algorithmic design. So, these are the
+[01:42:21.060 --> 01:42:27.220]  four different components of the computational thinking, decomposition, abstraction, pattern
+[01:42:27.220 --> 01:42:33.460]  recognition, and algorithmic design. And this could be a possible question in your exam with
+[01:42:33.460 --> 01:42:37.140]  regard to computational thinking that what are the different components or elements of
+[01:42:37.300 --> 01:42:44.980]  of the computational thinking and what they mean or they may ask you very specifically that
+[01:42:44.980 --> 01:42:52.580]  explain the decomposition process in the computational thinking process. So, this is something which
+[01:42:52.580 --> 01:42:56.660]  will be covered in more details in the next class. This is just for the listing purpose.
+[01:42:58.660 --> 01:43:02.340]  Designing a global online learning platform requires abstraction of details like
+[01:43:02.900 --> 01:43:08.660]  regional settings, for example, language, currency, date format, legal compliance, GDPR in Europe,
+[01:43:08.660 --> 01:43:12.100]  cultural adaptation, for example, UI direction, color, meaning and all that.
+[01:43:15.780 --> 01:43:21.220]  And then we have these IB style quotients, which you might find useful to address in order to
+[01:43:22.180 --> 01:43:28.420]  use it as a revision. So, this is the first part of B1.1.1. The second part will be covered in the
+[01:43:28.420 --> 01:43:35.860]  next class, next Saturday. I wanted to keep it a little light. It's 8.6. So, technically we
+[01:43:35.860 --> 01:43:39.380]  have spent an hour and a half. So, we still have about half an hour where we want to talk a little
+[01:43:39.380 --> 01:43:47.540]  more about the IA. So, Martin, would you like to take over? Yes. Actually, I prepare a couple of
+[01:43:47.620 --> 01:43:56.420]  scenarios. And I would like to go and exercise in, I'm going to present these to you guys and
+[01:43:56.420 --> 01:44:04.580]  going to use breakout rooms. And I want you just through, I want you on your breakout room to
+[01:44:04.580 --> 01:44:14.420]  discuss the scenarios. And then I want you to go to the processes trying to develop the problem
+[01:44:14.420 --> 01:44:19.140]  statement. So, I'll give you the X scenario. I'm going to give you some guiding questions.
+[01:44:19.780 --> 01:44:25.780]  And then you discuss in your group. And then I want you to come up with an specific,
+[01:44:25.780 --> 01:44:31.060]  or not an specific, but with a problem statement for that X scenario. And if we have time,
+[01:44:31.060 --> 01:44:38.180]  we'll discuss your solution approach. And if not, then we can try to do that next class like
+[01:44:38.260 --> 01:44:43.540]  at the beginning of class. Okay. So, how much time do they have in the breakout room?
+[01:44:44.820 --> 01:44:50.660]  I'm going to give them around five minutes. So, you will be that much. Okay.
+[01:44:50.660 --> 01:44:55.620]  Okay. It's just an exercise because we need you to start thinking about, okay, I have this
+[01:44:55.620 --> 01:45:03.700]  X scenario, what things do I need to take into account to try to establish and proper problem
+[01:45:03.700 --> 01:45:10.980]  statement. Okay. So, let me share my screen. And then I'll tell you exactly what
+[01:45:11.620 --> 01:45:28.260]  the X scenarios are. Okay. So, give me one second here. Share.
+[01:45:28.260 --> 01:45:48.260]  Please, let me know if you're able to see it. Do you see it? Yes. You see my camera, everybody?
+[01:45:48.260 --> 01:45:51.220]  Yes. Slightly enlarged us.
+[01:45:52.180 --> 01:45:58.980]  All right. You can take a screenshot of this so that you may be needing it in your breakout room.
+[01:46:00.660 --> 01:46:08.180]  All right. So, here is the what the tags at hand, right? So, you're going to select one of the
+[01:46:08.180 --> 01:46:14.900]  X scenarios. I'm going to present them. And then I'm going to provide some guided questions,
+[01:46:14.900 --> 01:46:19.300]  as I said. And you're going to try to come up with the problem statement, right?
+[01:46:20.260 --> 01:46:25.700]  If we have time, then we can go into the describing the users and the partners.
+[01:46:25.700 --> 01:46:31.460]  All right. So, we'll see how that goes with everybody. All right. Here is the first X scenario.
+[01:46:32.180 --> 01:46:40.100]  The guiding questions are similar for every X scenario, right? So, the context is as follows.
+[01:46:40.100 --> 01:46:43.540]  As students often struggle to manage multiple assignments leading to
+[01:46:44.260 --> 01:46:50.580]  misled lines and disorganization, a program that helps prioritize and schedule tasks based on
+[01:46:50.580 --> 01:46:58.420]  urgency. And today's can improve the time management, right? Is the first time I'm going to use
+[01:46:58.420 --> 01:47:05.700]  the breakout? So, just take a screenshot of every X scenario presented. I'm just going to present
+[01:47:05.700 --> 01:47:11.860]  four. And then once you are on the breakout, then just decide what X scenario you want to tackle.
+[01:47:12.340 --> 01:47:18.820]  Okay. So, that's the first X scenario. And those are the guiding questions for it.
+[01:47:21.140 --> 01:47:25.700]  Let me know if I can move out of it. So, I can present the second X scenario.
+[01:47:27.140 --> 01:47:31.780]  Okay. So, second X scenario.
+[01:47:35.220 --> 01:47:37.220]  Will you have access to this document, Martin?
+[01:47:38.180 --> 01:47:42.340]  I can, yeah, I can give you access to this. I can share it with you in a second.
+[01:47:43.780 --> 01:47:48.580]  All right. So, X scenario number two, keyword density analysis for easy writing,
+[01:47:48.580 --> 01:47:54.340]  students writing essays often over use certain words or lose focus on the main topic,
+[01:47:54.340 --> 01:48:01.540]  a keyword analysis of mental focus and coherence in the writing. So, some of the guiding
+[01:48:01.700 --> 01:48:06.740]  questions is those that you see there, how can the computer help write improves the focus of
+[01:48:06.740 --> 01:48:12.500]  under essays, what kind of feedback would you make this program most useful? So, what output you
+[01:48:12.500 --> 01:48:19.540]  will receive? How might you define important words mathematically or statistically? So, basically,
+[01:48:19.540 --> 01:48:25.300]  how are we going to measure those questions that are repeated throughout the essay? All right. So,
+[01:48:25.300 --> 01:48:34.900]  make sure you take a screenshot of that. The third X scenario is a simple expense structure and
+[01:48:34.900 --> 01:48:41.220]  budget analyzer. Students or journals often lose track of how you guys are spending your
+[01:48:41.220 --> 01:48:46.180]  money, or you're spending habits. A program that records expenses and analyzes where the
+[01:48:46.180 --> 01:48:53.060]  money is spent can help promote financial awareness. Awareness. So, here are the questions for that
+[01:48:53.140 --> 01:49:00.500]  personal social needs. What makes this solution meaningful to you, to your peers? So, again,
+[01:49:00.500 --> 01:49:10.020]  just take a screenshot of that. And the fourth X scenario is a Sudoku solver using backtracking.
+[01:49:10.020 --> 01:49:16.580]  This is a little bit more specific. Many puzzle enthusiasts enjoy Sudoku, but find complex puzzles
+[01:49:16.660 --> 01:49:23.060]  time-consuming and automatic solver could check solutions or help players learn problems
+[01:49:23.060 --> 01:49:28.500]  or bring the skills. And once again, here are the guiding questions for this X scenario.
+[01:49:29.940 --> 01:49:35.300]  So, once again, it's going to be the first time I use the breakout rooms here. Probably I'm going to
+[01:49:35.300 --> 01:49:41.620]  use you're going to be split up automatically. All right. So, that's why I need you to have
+[01:49:42.580 --> 01:49:49.620]  the the history shots of the X scenario. Take real try to choose one of them as quick as you can.
+[01:49:49.620 --> 01:49:55.860]  And let's see how this this works. Is there any particular question in terms of what is the
+[01:49:55.860 --> 01:50:06.980]  purpose of this activity? Okay. So, somebody needs to get a screenshot of...
+[01:50:07.940 --> 01:50:15.940]  I think you can share the document just in the chat. Let me get read only for everyone and
+[01:50:15.940 --> 01:50:21.940]  share the link. So, they have to as a group, they have to pick up one scenario, right? Yes.
+[01:50:23.620 --> 01:50:30.180]  So, you can choose the scenario that best suits you. And come up with a plan.
+[01:50:30.180 --> 01:50:47.540]  Let me see. I'm trying to... Yeah, we were all put it in the chat. Let's go to the chat here.
+[01:50:47.540 --> 01:50:52.260]  So, when you go to the breakout room, probably one of you can actually share the screen
+[01:50:52.980 --> 01:51:02.020]  with this document on so that you can discuss on a common scenario. You guys are...
+[01:51:06.180 --> 01:51:09.540]  So, how many groups are you making? Five or four? I'm making four.
+[01:51:10.580 --> 01:51:18.500]  Okay. I'm making four. So, there'll be five each. Yeah. Let me try to go to the breakout rooms for
+[01:51:22.740 --> 01:51:31.860]  you. I'm going to allow you to... All right. Let's see how this works. Do you probably
+[01:51:31.860 --> 01:51:44.980]  are going to be assigned to the scenarios? Raj, I just realized that I was not in my personal account.
+[01:51:44.980 --> 01:51:48.740]  I was in my school account. So, I don't know if they're going to have access to the...
+[01:51:49.540 --> 01:51:56.900]  Let me try. I think it should work. No, it's not. It's asking for access.
+[01:52:00.500 --> 01:52:07.300]  So, I'm going to try to make a copy. But then how will we share it with them now?
+[01:52:08.260 --> 01:52:14.740]  Okay, let me see. I mean, I'm going to try to... Is there a way that I could
+[01:52:15.700 --> 01:52:20.980]  create a file really quick, a Word document file and upload it here?
+[01:52:28.900 --> 01:52:33.220]  Let's do one thing. First, let's close the breakout rooms first. Let them come back here.
+[01:52:34.020 --> 01:52:41.140]  Okay. And then, because otherwise... So, everybody is typing. We need access to the document.
+[01:52:41.140 --> 01:52:55.060]  So... All right. All right. They're coming back. Let me...
+[01:53:00.100 --> 01:53:04.580]  So, you don't have personal account right now. So, you can open a new Google Doc in your personal
+[01:53:04.580 --> 01:53:10.340]  account. Yeah. And copy the content there. Yeah. Give me one check. And I change.
+[01:53:11.620 --> 01:53:20.020]  I change what the account. Sorry, guys. I realized I was in my school account. And then,
+[01:53:20.020 --> 01:53:26.340]  obviously, is... You will not have access. I'm going to try to copy the same
+[01:53:26.740 --> 01:53:43.460]  problems into a document that I can share. So, it can be open. Sure, but...
+[01:53:43.460 --> 01:54:01.860]  Let's see. I detail. All right. So, let me now share this.
+[01:54:06.580 --> 01:54:12.340]  I want to say. And by the time this is happening, I just want to remind you that in week
+[01:54:13.140 --> 01:54:20.180]  on canvas, there's a tab with the name IA introduction to IA. Please don't forget to go through
+[01:54:20.180 --> 01:54:25.460]  that information in that. And there are some things available for downloads. So, please do that.
+[01:54:26.340 --> 01:54:32.820]  And next week, you will have to submit a proposal. All right. I'm going to... Sorry.
+[01:54:32.820 --> 01:54:37.140]  I just put the link on the document. Before you go to the breakout, go ahead and try to
+[01:54:37.140 --> 01:54:42.740]  access that link. Just make sure that it works. And then, I'm going to do the breakout rooms again.
+[01:54:44.740 --> 01:54:48.660]  Yeah. This is working, Martin. I can ask. Let me get the breakout rooms.
+[01:54:51.140 --> 01:54:58.260]  All right. Here we go. So, before you go to the breakout, please open this document in the chat.
+[01:55:02.340 --> 01:55:05.460]  I don't know if they will have access to chat once they go to the breakout room.
+[01:55:07.380 --> 01:55:12.260]  I think they can... Well, I don't know. We're going to find out in a second.
+[01:55:12.900 --> 01:55:20.020]  Because I thought that that was a very good activity if we were able to make it so they can have
+[01:55:20.020 --> 01:55:24.100]  the opportunity to discuss among themselves. Absolutely.
+[01:55:24.260 --> 01:55:40.740]  So, let's take the timer. So, let's give them five minutes.
+[01:55:42.740 --> 01:55:47.540]  And even if we don't... If they're not able to finish the exercise at least,
+[01:55:48.580 --> 01:55:52.580]  they can start thinking about it. Because that's the first thing they're going to do.
+[01:55:53.380 --> 01:56:00.260]  Absolutely. Get out of here. Get the finder problem and then...
+[01:56:07.060 --> 01:56:11.140]  Yeah, that's fine. Yeah, that's fine. I say yes.
+[01:56:23.380 --> 01:56:30.020]  I see only 12 students have marked their tenants, but we had 22.
+[01:56:30.740 --> 01:56:37.380]  So, two of them have not entered. Okay, because some people join later.
+[01:56:39.220 --> 01:56:43.540]  Yeah, that's okay, but we again shared the link, right? Okay. Yeah.
+[01:56:44.980 --> 01:56:50.340]  Yeah, we still have access to the chat. That's good. I didn't know that the feature will stay
+[01:56:50.340 --> 01:56:55.300]  there during their breakout. Okay, that's good. Yeah.
+[01:57:04.900 --> 01:57:09.460]  All right. Next week, we will dedicate some more time on the IA.
+[01:57:10.420 --> 01:57:15.300]  And we'll go through some examples. Because I think the proposal is due
+[01:57:16.020 --> 01:57:20.980]  in the next week or week after next, let me check. Yeah, I think that going over the examples
+[01:57:20.980 --> 01:57:29.300]  that you placed on the folder, I was wondering, did they obtain different marks,
+[01:57:29.300 --> 01:57:33.300]  like that we have a big one. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.
+[01:57:33.300 --> 01:57:39.380]  Those are all different levels. Okay. The IB timetable, which is embedded now into the canvas,
+[01:57:39.380 --> 01:57:46.900]  is the highest that scored 26 on, I think it's scored 26 on 30. Others are kind of
+[01:57:46.900 --> 01:57:56.100]  some are mediocre, some are very low scored. So, they are all mixed.
+[01:58:09.460 --> 01:58:16.420]  That Michelle could not join, right? I really feel bad because she has been trying every week.
+[01:58:17.060 --> 01:58:22.740]  Yes, I wonder what the issue is because, you know, there are other kids when they say that are
+[01:58:22.740 --> 01:58:31.540]  able to join, but can you do one quick one to one meeting with her? And then on the spot, you can
+[01:58:31.540 --> 01:58:40.500]  create a lesson and see if she is able to join that. Okay. I'll do that. You know, this particular
+[01:58:40.500 --> 01:58:49.540]  week, man, I have so many issues with canvas, the online classroom, it took so much to load.
+[01:58:50.420 --> 01:58:56.100]  And then to create the lessons, I will lose connection. I mean, to create the meetings,
+[01:58:56.100 --> 01:59:02.500]  I will lose connections on as far as it was really not. Yeah. Sometimes it happens even in
+[01:59:02.500 --> 01:59:08.340]  Myanmar, if you Google last one week has been terrible. I mean, the whole nation's internet
+[01:59:08.340 --> 01:59:13.940]  was disrupted because of some reason. So, today it is still working, thankfully. Otherwise,
+[01:59:13.940 --> 01:59:18.340]  last three days, it wasn't working at all, people without internet, last three days.
+[01:59:18.500 --> 01:59:24.900]  They're sharing some things on the chat.
+[01:59:25.860 --> 01:59:33.300]  That they are discussing within themselves. Yeah. We have just posted the Ex scenario one.
+[01:59:35.780 --> 01:59:40.340]  And then the urgency system can be similar to the priority thing. So,
+[01:59:41.300 --> 01:59:44.180]  so we'll do one thing considering the time because it's already two hours.
+[01:59:44.900 --> 01:59:51.220]  More or less. So, we will we will give them some more time to maybe work within the same group
+[01:59:51.220 --> 01:59:56.420]  with each other. Okay. But they cannot contact each other. That's a problem.
+[01:59:58.180 --> 02:00:07.300]  Well, we have 57 minutes. I'm sorry, 55 seconds. Unless at least tell them that of these,
+[02:00:07.300 --> 02:00:10.020]  we're going to start the next lesson kind of with this activity.
+[02:00:10.980 --> 02:00:13.300]  Yeah, we'll start the next lesson with this activity.
+[02:00:13.300 --> 02:00:16.580]  Right. And at least have the feedback with it. Okay.
+[02:00:16.580 --> 02:00:20.420]  Yeah. Yeah. Yeah. And so, I'm going to close the
+[02:00:22.180 --> 02:00:26.020]  the bridge. Okay. How much time is left? 31 seconds.
+[02:00:26.660 --> 02:00:28.100]  Yeah, so let it finish on its own.
+[02:00:35.620 --> 02:00:39.780]  Yeah, because we will be right there at the two hour mark of the meeting today.
+[02:00:40.340 --> 02:00:44.260]  And that's a lot for students to be honest.
+[02:00:44.260 --> 02:00:47.620]  It is. But at least this will make it a little bit.
+[02:00:49.060 --> 02:00:54.020]  Yeah, you're right. You know, there will keep some time for the breakout room every session
+[02:00:54.020 --> 02:00:56.100]  so that they get to talk to each other. Yeah.
+[02:00:57.940 --> 02:01:04.180]  All right. My time is up. So, let me let me show the break our rooms.
+[02:01:10.180 --> 02:01:17.220]  All right. Okay. They should be coming back.
+[02:01:23.540 --> 02:01:26.580]  I'm going to stop sharing. Okay. Yeah.
+[02:01:28.580 --> 02:01:33.540]  All right, everybody. I know that was not like a lot of time. Right.
+[02:01:34.260 --> 02:01:39.700]  But at least I hope that you have a little bit of a good discussion on the
+[02:01:39.700 --> 02:01:44.100]  scenario that you pick. This is what we're going to do because we don't want to go over the two
+[02:01:44.100 --> 02:01:50.340]  hour mark. But what we're going to do is next class, we're going to start with this exercise.
+[02:01:50.980 --> 02:01:57.140]  And we are going to try to at the beginning gather who was in which breakout room.
+[02:01:57.140 --> 02:02:02.340]  So we can organize it. And then the same people can be in that group. And then you can
+[02:02:03.620 --> 02:02:10.820]  revisit the X scenario, put your ideas together, and then kind of present those ideas back to us
+[02:02:10.820 --> 02:02:17.620]  or to the whole group. And then we can discuss how you came up with your problem statement.
+[02:02:18.100 --> 02:02:19.620]  Okay. That sounds like a plan.
+[02:02:22.100 --> 02:02:28.180]  All right. Excellent. And well, rash, anything else?
+[02:02:29.140 --> 02:02:35.380]  Yes. I think that's it. So I mean, let me quickly just two to three minutes more.
+[02:02:35.380 --> 02:02:40.340]  Let me share my screen once again and share with you the IA plan that we have in place.
+[02:02:40.980 --> 02:02:47.940]  So in the canvas, if you go to
+[02:02:48.500 --> 02:03:09.780]  your lesson, this is the units units. Okay. If you go to the units within the unit, we are currently in week eight.
+[02:03:09.780 --> 02:03:18.580]  So problem specification part one. That's what we are doing today. And here,
+[02:03:24.100 --> 02:03:29.540]  here you can see the last time, the IA. This is something we want you to be start looking at.
+[02:03:30.340 --> 02:03:34.980]  So this is very basic information about what IA is, why it matters and all that.
+[02:03:35.700 --> 02:03:40.340]  What you should submit IA example ideas. Activities this week.
+[02:03:41.460 --> 02:03:47.620]  Analyze the IB timetable IA. Watch the sample video and skim the PDF. Identify where each part of
+[02:03:47.620 --> 02:03:53.700]  the same sample aligns with the rubric criteria A to E. And for the new break, you can go to the
+[02:03:53.700 --> 02:04:01.220]  subject guide. Let me show you that also. So in the subject guide, if you go to internal assessment,
+[02:04:05.060 --> 02:04:14.500]  here, it starts from page number 51 and goes all the way to page number 67. It will be good if you
+[02:04:14.500 --> 02:04:19.460]  can read through these pages because that provides all necessary information about the IA.
+[02:04:20.180 --> 02:04:26.500]  And we are interested in looking at each of the criteria, what their requirements are and what
+[02:04:26.500 --> 02:04:33.620]  the rubric looks like. For example, if you look at criteria A, the recommended word count for this
+[02:04:33.620 --> 02:04:39.860]  criteria is 300 words and for somebody to reach to level 3 to 4, the response describes the
+[02:04:39.860 --> 02:04:46.340]  problem scenario in terms of its measurable solution requirements. So if your measurable solution
+[02:04:46.340 --> 02:04:53.140]  requirements is generic, you cannot go to 3 to 4 marks because it says states limited success
+[02:04:53.140 --> 02:05:00.900]  criteria. So if it is not measurable, you will be stuck with one to two. So when you are looking
+[02:05:00.900 --> 02:05:09.300]  at the IV timetable document, see that which particular mark band does that work of student
+[02:05:09.300 --> 02:05:14.900]  goes into. Because for you to be able to justify the needs of each criteria, you have to look at
+[02:05:14.900 --> 02:05:21.460]  the top band states appropriate success criteria, explains the choice of computational context for
+[02:05:21.460 --> 02:05:26.420]  the solution. So the keyword is explain, which means you have identified and you have given a
+[02:05:26.420 --> 02:05:32.740]  justification of what you have chosen and why you have chosen. And then there is a further
+[02:05:32.740 --> 02:05:39.780]  detail about this. Similarly, criteria B, planning for you to go to the 3 to 4, the response constructs
+[02:05:39.780 --> 02:05:45.460]  a reasonable decomposition of the problem scenario. It constructs a plan that addresses the success
+[02:05:45.460 --> 02:05:51.940]  criteria of the solution. Then for criteria C, D and E. So this provides meaningful information
+[02:05:52.900 --> 02:05:58.500]  about what the IA requirements are. So you can go to page number 51 of the subject guide page 51
+[02:05:58.500 --> 02:06:05.780]  to 59. That is what talks about the IA, right. Then this week you don't have any submissions from
+[02:06:05.780 --> 02:06:10.500]  the IA point of view. So here it is timetable. So you can download from here or you can go to the
+[02:06:10.500 --> 02:06:17.940]  shared folder where you can find this. This is one thing. Now next week, let me have a look at the
+[02:06:17.940 --> 02:06:40.100]  calendar for IA. So this week is the introduction to IA. Then so this is 5 November week. In 12 November
+[02:06:40.100 --> 02:06:45.700]  week, you have the IA project proposal. So this is where by that time you have to be clear with
+[02:06:45.780 --> 02:06:50.420]  what kind of IA you are going to make. We will share with you some example IAs just for the
+[02:06:50.420 --> 02:06:56.180]  information purpose, but you can think about what IA you are going to make. And on farmer jar canvas,
+[02:06:56.820 --> 02:07:07.060]  we have added a proposal form for you. So let's go to week 8.2, problem specification part 2.
+[02:07:07.700 --> 02:07:09.940]  This also has an IA tab added.
+[02:07:15.940 --> 02:07:23.940]  Sorry, I don't see that.
+[02:07:23.940 --> 02:07:51.780]  Okay, I will check this. So we have created a, this would have been here, the IA thing.
+[02:07:52.580 --> 02:07:58.020]  So I will get that added. So we have created a proposal form for you wherein you will type about
+[02:07:58.020 --> 02:08:04.260]  title of your project, what problem you have identified, what would be the possible solution,
+[02:08:04.260 --> 02:08:09.140]  what will be the front end, what will be the back end. So that will require some sort of research
+[02:08:09.140 --> 02:08:16.260]  for you. As of now, we are mainly interested on your major idea as to what kind of solution you
+[02:08:16.260 --> 02:08:20.660]  are making. Like for example, it could be an inventory management system for your school library.
+[02:08:21.540 --> 02:08:27.940]  Or for your school clinic, right, or something like that. So we will share with you 15 to 20 project
+[02:08:27.940 --> 02:08:32.580]  ideas, which will give you some good idea about what kind of projects are expected in comparison,
+[02:08:32.580 --> 02:08:38.020]  IA. So you come up with a major plan about what your proposal is, then we will take some time to
+[02:08:38.740 --> 02:08:42.820]  go through your proposals and then we'll give you the feedback whether we are fine with your
+[02:08:42.820 --> 02:08:50.420]  proposal or we have some suggestions to be made. And then next week, I mean, this week, next
+[02:08:50.420 --> 02:08:56.580]  week, week after next, that is when we will categorically introduce IA criteria A and B to you.
+[02:08:57.780 --> 02:09:02.500]  Right. And this will be your official start of it of the IA.
+[02:09:03.780 --> 02:09:11.140]  And next submission would be 12th of October, sorry, 10th of December, your criteria A first draft
+[02:09:11.140 --> 02:09:17.940]  will be you. So we are going to follow this calendar for your IA thing. I'm sure I have already
+[02:09:17.940 --> 02:09:24.260]  shared this calendar with you. If not, I will download this as a PDF and share with you so that
+[02:09:24.260 --> 02:09:33.460]  you have everything in one place. We are aiming to finish your IA in by 24th of February, 2027.
+[02:09:33.460 --> 02:09:39.620]  So still there is a lot of time. But then let me tell you, if you don't go in a systematic way,
+[02:09:40.180 --> 02:09:44.260]  it becomes very difficult to meet the IA requirements of computer science because a lot of time will
+[02:09:44.420 --> 02:09:51.140]  be taken in criteria C and D. C and D will take the maximum time, almost six to seven months.
+[02:09:52.420 --> 02:10:00.500]  Right. So you have to be very, very alert and active with the IA requirements. And that's why we
+[02:10:00.500 --> 02:10:09.700]  have spread it over long period of time. Right. All right. Then that's all for today. It's exactly
+[02:10:09.700 --> 02:10:16.020]  two hours since we started. So just work on the problem statement activity that Martina shared
+[02:10:16.020 --> 02:10:22.580]  with you. Yeah. Before you guys go, sorry, before you go, please on the chat, just type the number
+[02:10:22.580 --> 02:10:27.780]  of the group that you were in. So next time I cannot put you in the same group. And since you have
+[02:10:27.780 --> 02:10:35.060]  access to the to the document, if you want to work on it during the week, that will be great if
+[02:10:35.060 --> 02:10:42.900]  you have the time and you can, you know, just work on some ideas. Martin, I think we can also do
+[02:10:42.900 --> 02:10:48.180]  that since we have only shared the Google Doc with them. So for each problem specification,
+[02:10:48.180 --> 02:10:54.340]  they can mention the names who are a part of yeah. I'm collecting the group names right now
+[02:10:56.820 --> 02:11:02.500]  on on on a document. So when we come back next time, we can set the same groups.
+[02:11:03.060 --> 02:11:04.900]  Okay. Yeah. Okay. Okay. Sure.
+[02:11:11.700 --> 02:11:13.940]  I believe that's all for us, correct?
+[02:11:20.340 --> 02:11:20.740]  Hello.
+[02:11:23.460 --> 02:11:27.140]  One again, did you say the deadline for the AI proposal? What?
+[02:11:28.100 --> 02:11:34.420]  AI proposal deadline would be next week. So, uh, so this week we'll end on next Wednesday.
+[02:11:35.860 --> 02:11:43.060]  So next to next Wednesday, the date is, let me check once again.
+[02:11:48.820 --> 02:11:50.980]  And you can start thinking about what would be the, uh,
+[02:11:50.980 --> 02:12:05.460]  the idea ideas that you have. So the deadline for submission of project proposal is in week that
+[02:12:05.460 --> 02:12:11.780]  is starting on 12th of November. So 18th November will be your deadline. No, not 18th November,
+[02:12:11.780 --> 02:12:18.500]  sorry. 12th November it is starting. So 12 plus seven. Your 19th November is the deadline for
+[02:12:18.500 --> 02:12:29.220]  your project proposal submission. All right, guys. So thank you so much for being here for
+[02:12:29.220 --> 02:12:35.860]  last two hours. I hope that you found the session useful. Uh, Alexandra, you had a comment that
+[02:12:35.860 --> 02:12:39.700]  you found some difficulty in understanding the digital thinking. Is it somewhat clear now
+[02:12:40.260 --> 02:12:48.100]  from what it was before? Yes, please. All right. Okay. We are glad that you found it useful.
+[02:12:48.180 --> 02:12:54.820]  So, uh, I'll see you, we'll see you next week. And please do some research about the IA.
+[02:12:55.380 --> 02:12:59.540]  Go through the subject guide page 50 to 59 to gain a deeper understanding.
+[02:13:00.340 --> 02:13:06.500]  Uh, by tomorrow, we'll share with you a list of about 15 to 20 IA ideas. Just for the reference
+[02:13:06.500 --> 02:13:10.260]  purpose, we are not saying that you have to choose one from them, but that will give you some
+[02:13:10.260 --> 02:13:14.740]  fair idea. Okay, before I go, I mean, just one last thing. Sorry, I keep saying last thing,
+[02:13:14.740 --> 02:13:19.140]  which never ends, but that's very important because before we meet next week, it's important for
+[02:13:19.140 --> 02:13:26.580]  you to understand this aspect. That is about the installation of Java. So I'll just take two more
+[02:13:26.580 --> 02:13:32.260]  minutes to let you know where you can find the details of Java. So if you go to the content,
+[02:13:33.140 --> 02:13:40.180]  I have added this file with the name, uh, javainstallation.pdf. And this has three different
+[02:13:40.180 --> 02:13:47.700]  categories, one for Windows, one for old Mac, and one for new Mac. So if you are using Windows
+[02:13:47.700 --> 02:13:58.500]  platform, then if you're using Windows platform, then this is the process, how you have to do.
+[02:14:00.980 --> 02:14:06.020]  Okay, if you're using old Mac, so this is all about Windows,
+[02:14:06.660 --> 02:14:12.340]  Windows, and then install Apache. So two, you're essentially you're installing two different
+[02:14:12.340 --> 02:14:17.140]  applications. One is JDK, which is called Java development kit, which is a compiler for Java.
+[02:14:17.140 --> 02:14:22.660]  And one is Apache netbeans, which is the front end, or we call it IDE, interactive development
+[02:14:22.660 --> 02:14:29.620]  environment, where you can type the programs and all that. And it looks like, uh, I'm sure some
+[02:14:29.620 --> 02:14:35.540]  of you may have used it before. So it looks like this. So you can see, this is the Java development
+[02:14:35.540 --> 02:14:40.180]  environment, GDE, where you can type the programs, and then you can run it to see the output.
+[02:14:41.300 --> 02:14:45.460]  And for this to work perfectly, you need to have Java installed on your computer.
+[02:14:46.820 --> 02:14:51.220]  So you see, I've run this program, and this is the output for the program. And for you to check,
+[02:14:51.220 --> 02:14:56.340]  if Java is installed or not on your computer, sometimes it is pre-installed. So you can go to
+[02:14:56.340 --> 02:15:04.660]  terminal window, if you're using, uh, uh, Mac, say Java, there's a command to check that. Let me see
+[02:15:04.660 --> 02:15:12.740]  what it is. The command is Java hyphen version. So if you type on the terminal screen,
+[02:15:14.900 --> 02:15:26.900]  sorry, Java, Java hyphen version. So it is telling me what Java is installed on my computer,
+[02:15:27.540 --> 02:15:31.460]  right? If it is coming not installed, then you may have to install it.
+[02:15:31.700 --> 02:15:38.980]  Okay. Uh, sometimes what happens that the Java that is installed on your Mac is not compatible with
+[02:15:38.980 --> 02:15:44.020]  the Apache netbeens that you have. So you can delete all the existing Java installations by
+[02:15:44.020 --> 02:15:50.020]  copying these four lines and copy pasting it on to the terminal press Enter key. All the existing
+[02:15:50.020 --> 02:15:58.100]  Java will be removed. And then to confirm the removal, you have to type this. And then when you
+[02:15:58.180 --> 02:16:04.100]  type this command, Java hyphen version, it will show no Java installed. Now there's one catch
+[02:16:04.100 --> 02:16:10.500]  about Windows is straightforward. There's no difficulty. But for the, for the Mac, new machines,
+[02:16:11.220 --> 02:16:16.900]  there's a compatibility issue. And you have to be careful about what version of JDK you are installing.
+[02:16:18.020 --> 02:16:25.460]  I put a table here somewhere which talks about which Java version works with here. So if you are
+[02:16:25.460 --> 02:16:33.620]  planning to install netbeens 12 to 13, then JDK 11 or 17 can be installed. So when you go to the
+[02:16:34.340 --> 02:16:40.660]  Java sorry JDK download page, which is here. If you go to this page, it will show you many different
+[02:16:40.660 --> 02:16:47.620]  versions of Java. So if you're installing netbeens 12 or 13 version, then you have to install JDK 11
+[02:16:47.620 --> 02:16:54.260]  or 17. If you're trying to, if you're planning to install netbeens 14 to 19, then you have to install
+[02:16:54.260 --> 02:17:02.500]  JDK 17. And if you're installing netbeens 20 to 22, then JDK 21. So if your laptop is quite new,
+[02:17:02.500 --> 02:17:10.020]  then I would recommend that you go for this one. Install JDK 21 and netbeens any version 20 to 22.
+[02:17:10.020 --> 02:17:15.060]  This will work fine. If your laptop is slightly older, for example, three years old or something,
+[02:17:15.060 --> 02:17:22.820]  then go for this one. But all the Java features are more or less same as per our needs. So anything
+[02:17:22.900 --> 02:17:29.060]  would work. Even this would work. There is no problem with this. So try to install following this
+[02:17:29.060 --> 02:17:36.420]  document, which is in the shared folder. If you have any issues, you can ask your school's IT manager
+[02:17:37.060 --> 02:17:41.780]  to help you with the installation. You may share this PDF with them that this is how our
+[02:17:41.780 --> 02:17:47.460]  teachers have instructed us to install the Java. Take their help. If it still does not work,
+[02:17:47.540 --> 02:17:51.540]  then probably we'll take up case to case basis on the next during the next class.
+[02:17:52.260 --> 02:17:57.540]  But try during this week, if you can install JDK and Java. First, you have to install JDK,
+[02:17:57.540 --> 02:18:06.020]  then you have to install netbeens, Apache netbeets. That's all. I would not say one more minute.
+[02:18:06.020 --> 02:18:07.780]  I'm done for my end for this class.
+[02:18:08.420 --> 02:18:11.540]  Okay.
+[02:18:13.620 --> 02:18:15.780]  All right, guys. Thank you so much for today.
+[02:18:19.460 --> 02:18:24.180]  Thank you. Yeah, please ask your question. Do we all need to install the different time
+[02:18:24.180 --> 02:18:30.180]  environments separately? No, no, no. Just JDK and netbeens is good enough. You don't have to
+[02:18:30.260 --> 02:18:34.660]  install any runtime environment. It is automatically installed with it.
+[02:18:43.140 --> 02:18:46.500]  Question for the IA proposal. Yeah. Yeah.
+[02:18:46.500 --> 02:18:51.460]  So like the question, where do we need to take submitter? Or are we going to find specifics
+[02:18:51.460 --> 02:18:56.100]  for like the question that we need to make? So I haven't. So I had asked the developer to add
+[02:18:56.180 --> 02:19:01.140]  that into the week eight point next week, but I don't see that there. So I will remind them.
+[02:19:01.140 --> 02:19:05.620]  So in the next lesson, you will be able to say it. But separately, we will also share a Google
+[02:19:05.620 --> 02:19:09.940]  Doc with you, where there'll be questions and you will have to fill that questionnaire.
+[02:19:09.940 --> 02:19:14.020]  Okay. That'll be sent through email through the email through the announcement.
+[02:19:14.660 --> 02:19:18.420]  Okay. Thank you. Yeah. Yes, Ima.
+[02:19:18.420 --> 02:19:26.980]  I had a question for the proposals for the IA. If we have more than one idea, is it fine if we
+[02:19:26.980 --> 02:19:31.700]  submit more than one proposal? It's perfectly fine. In fact, in the document, we have three ideas
+[02:19:31.700 --> 02:19:36.500]  from you. You're supposed to come up with three different ideas. Yeah, you're welcome.
+[02:19:36.500 --> 02:19:45.140]  Thank you so much. Bye. Bye. Bye. Yes, sorry, Elma is done.
+[02:19:45.620 --> 02:19:49.460]  Elma, do you have a question for us? I know.
+[02:19:49.460 --> 02:19:51.220]  No, no, go on. Okay.
+[02:19:52.740 --> 02:19:57.700]  All right, Martin, thank you so much. So it's start of the day for you and for me, it's time to
+[02:19:57.700 --> 02:20:03.940]  go to the bed to go to to rest. I know. I know. Yeah. Yeah. So all right.
+[02:20:03.940 --> 02:20:08.820]  So we'll talk during the week, I guess. Sure. Yeah. We'll talk about it because we need to
+[02:20:08.820 --> 02:20:14.820]  finalize how we are going to deal with the IA so that students don't suffer. And we also need
+[02:20:14.820 --> 02:20:20.980]  to look at which students are frequently missing the classes. Probably, we have to get in touch with
+[02:20:20.980 --> 02:20:26.900]  the SBC to let them know that they are missing the classes. Right? Yes. All right, then.
+[02:20:27.620 --> 02:20:33.620]  All right. Have a good day. Bye. Bye. Bye.

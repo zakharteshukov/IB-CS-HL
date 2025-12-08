@@ -1,0 +1,940 @@
+/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+[00:00.000 --> 00:02.000]  You
+[00:30.000 --> 00:32.000]  You
+[01:00.000 --> 01:02.000]  You
+[01:02.000 --> 01:04.000]  You
+[01:04.000 --> 01:06.000]  You
+[01:34.000 --> 01:36.000]  You
+[02:04.000 --> 02:06.000]  You
+[02:34.000 --> 02:36.000]  You
+[03:04.000 --> 03:06.000]  You
+[03:34.000 --> 03:36.000]  You
+[04:04.000 --> 04:08.000]  The
+[04:08.000 --> 04:11.000]  Black
+[04:16.000 --> 04:18.000]  You
+[04:18.000 --> 04:20.980]  You
+[04:24.460 --> 04:26.460]  You
+[04:26.460 --> 04:33.280]  Okay, sorry, so I was expecting this that we will have very few
+[04:33.280 --> 04:39.160]  the late information actually I was traveling and I just reached India there was a flight
+[04:39.160 --> 04:45.660]  cancellation you may have heard the news about year 320 bus year bus 320 did you hear
+[04:45.660 --> 04:53.760]  the news so there is some software glitch and it has impacted many flights across the globe
+[04:53.760 --> 04:59.440]  so it is a kind of mess right now so I was stuck in Bangkok for almost 13 hours before
+[04:59.440 --> 05:06.440]  I could get other alternate flights so yeah so that's actually you know it was terrible
+[05:06.440 --> 05:11.440]  I was not pretty sure what I was going to reach here but somehow I got a connecting flight
+[05:11.440 --> 05:16.720]  and somehow I reached here so I had to push the class a little early because I had other
+[05:16.720 --> 05:21.760]  commitments at the time that if I had come on time then I could have done it much earlier
+[05:21.760 --> 05:28.480]  but because I came late so I had to push that meeting little ahead of it so I am not sure
+[05:28.480 --> 05:34.800]  if everybody may see my message so we may find few students joining by the time either
+[05:34.800 --> 05:40.640]  we are mid way or we are finishing the class so that's why I will try to keep this class
+[05:40.640 --> 05:48.480]  short so that you know anything that is left maybe we can cover it up in the next class
+[05:48.480 --> 05:52.440]  anyways the topic is not that difficult it's quite simple for those who already know
+[05:52.440 --> 05:57.360]  the programming you may have seen the announcement that today first of all tell me is my voice
+[05:57.360 --> 06:04.960]  clear because I am not carrying my headphone is it clear okay perfect all right so today
+[06:04.960 --> 06:12.000]  we are going to cover conditional statements in Java programming language so before I do that
+[06:12.000 --> 06:17.360]  could you share with me how was the last class unfortunately I had to miss that because we had
+[06:17.360 --> 06:23.200]  some function in the school and I was I tried taking an excuse but then I was responsible for an
+[06:23.200 --> 06:28.640]  event so that got extended for which I was not able to attend how did it go last class
+[06:32.960 --> 06:43.840]  it went well yes okay Alma yeah I agree in that one and it was like interactive like you would
+[06:43.840 --> 06:48.960]  ask us questions so like it was really good yeah absolutely that's that's very good to hear
+[06:49.760 --> 06:56.560]  so I have not even seen the recording probably I'll watch it sometime just to see that what all
+[06:56.560 --> 07:04.000]  have been covered so it's too early for mr martin it should be about 5 a.m. for him so I
+[07:04.000 --> 07:09.200]  send him a message that it's okay I will manage today image join at some point but I'm not sure
+[07:10.080 --> 07:16.320]  so we have so far just seven students and I'm really sorry I mean through those who actually
+[07:16.320 --> 07:20.800]  could not even may have not even got the notification about the change because it was so sudden
+[07:21.440 --> 07:26.000]  I thought for a while that maybe I'll cancel the class but I I thought that at least let's cover
+[07:26.000 --> 07:32.000]  something and then we can continue from here next week so I'm going to keep it little light
+[07:32.000 --> 07:38.320]  at this time okay so last week what was the main thing covered about the programming
+[07:38.960 --> 07:47.280]  anybody could recall and summarize what was covered
+[07:49.360 --> 07:57.040]  well it was quite a lot I mean we've been introduced to keywords to some basics
+[07:58.000 --> 08:07.840]  primitives and then with color concatenation I think
+[08:12.240 --> 08:19.920]  how about identify as literals like using a constant using a yeah yeah yeah it's a
+[08:19.920 --> 08:24.880]  primitives yeah we've covered it's okay so primitive data types you covered some of them right
+[08:25.920 --> 08:31.120]  right I think maybe all of them like yeah at least all of them were mansions
+[08:32.400 --> 08:40.240]  they may be elaborated upon did you guys try try some programs on any tool or any programming language
+[08:40.400 --> 08:52.080]  was there any program been tried on a Java compiler yes yes we actually had the assignment
+[08:52.480 --> 09:00.160]  for the previous week yes so all right Bradley I like that background
+[09:02.160 --> 09:07.200]  was that is that some is that that doesn't look like a virtual background is it virtual
+[09:08.160 --> 09:15.600]  is real right and what's that actually no let it let it be it looks nice I didn't ask you to turn off
+[09:15.600 --> 09:27.360]  let it be very nice all right okay so I mean we will not only revise what we did last week even
+[09:27.360 --> 09:32.720]  though I don't know much as to how much was covered but anyway I'll try to revise some part of it
+[09:32.720 --> 09:38.640]  and then I'll move on to decision making statements so before we do that could you type in the
+[09:38.640 --> 09:45.600]  chat out of total eight students that we have as to how many I have you how many of you have done
+[09:45.600 --> 09:50.960]  programming in Java or even Python say yes if you have done programming in Python or Java
+[09:58.560 --> 09:59.760]  okay so I see
+[10:03.360 --> 10:10.080]  yes only the W3 school tutorial in Python yes but no Java
+[10:13.680 --> 10:20.480]  sorry Python little Java just started Python in school not much I couldn't briefly
+[10:20.480 --> 10:25.520]  another similar language okay so I can see that some of you have done it in Python but nobody has
+[10:25.520 --> 10:31.840]  said that they have done it in Java is that correct software software software have you done it in Java
+[10:33.360 --> 10:39.760]  yes okay so you should also say we covered some Java functions in similar language
+[10:39.760 --> 10:44.800]  all correctly okay all right so there comes Martin Martin we were really not
+[10:45.760 --> 10:52.720]  expecting you welcome to the room I thought you may be sleeping at this hour but glad to see you here
+[10:53.280 --> 10:59.680]  all right well I'm here hello everybody I'm an honestly Martin I know it's too a
+[10:59.680 --> 11:05.920]  little you and I could have managed but I'm glad that you're here so we'll actually you know I
+[11:05.920 --> 11:10.480]  was traveling to India from young one and then that flight thing happened you may have seen the
+[11:10.480 --> 11:16.960]  news that lot of air bus 320 are called I mean they have got the instructions not to fly because
+[11:16.960 --> 11:23.360]  there was some bug found in some software so they fear that it might impact the functionality
+[11:23.360 --> 11:30.640]  and it may end up some crashes so they have grounded all the air bus 320 that is using that system
+[11:30.640 --> 11:35.680]  so many flights got cancelled so Bank of Airport was like hell I meant so many people
+[11:36.480 --> 11:42.560]  there was no place to even sit or even stand so somehow I could manage to come to India otherwise
+[11:43.120 --> 11:47.520]  maybe maybe so no of our students can use that as an
+[11:48.000 --> 11:56.240]  absolutely it could be a very good case study actually it could be a very good case study okay so
+[11:56.240 --> 12:00.480]  we just started talking about what happened last week so I think it was a very interactive class
+[12:00.480 --> 12:05.760]  that's what skips are saying so that's really nice that you know they enjoyed the class
+[12:07.200 --> 12:11.920]  so I was expecting that we won't have any students because of this late notification
+[12:12.800 --> 12:16.640]  I could have kept it at the same time but then some prior engagement came up because of my
+[12:16.640 --> 12:24.400]  later I will do either one so I think last Martin could you just summarize what all was done
+[12:24.400 --> 12:34.560]  last week well we kind of star the groundwork for the basics for a programming in Java we discuss
+[12:34.640 --> 12:47.200]  you know all the topics that you lay down right I was able to show the students
+[12:47.920 --> 12:54.320]  how some of the programs were run in netbeens especially for the part of the debugging right
+[12:56.080 --> 13:04.320]  the breakpoint ability that they can have on netbeens and we run a couple of programs together
+[13:04.960 --> 13:14.000]  cannot see in the the throw errors they try and cache so we were able to see that and they were
+[13:14.000 --> 13:25.360]  able to go through a couple of programs to basically predict what the output of the program will be
+[13:26.000 --> 13:32.240]  so and we just work on some problems and they did really well you know on that perfect yeah that's
+[13:32.240 --> 13:39.840]  good to know were you able to touch upon this manipulating substrinks yes we did we did we went
+[13:39.840 --> 13:46.560]  over everything that was there all right perfect yeah okay so anyway it's now manipulating
+[13:46.560 --> 13:50.800]  strings is just the introductory part that you covered last week so we will have lot more to do
+[13:50.800 --> 13:57.280]  from this because the focus will be not using the end build functions but rather write our own
+[13:57.280 --> 14:03.520]  code to play around with the strings so we'll be starting that when we do the arrays so I see
+[14:03.520 --> 14:15.200]  here that b 2.1.2 is strings then b 2.1.3 is common exception handling techniques could somebody
+[14:15.200 --> 14:22.560]  just summarize what you what does it mean when we say exception handling not exactly in the
+[14:22.560 --> 14:27.840]  programming terms but just in conceptual understanding what is the significance of exception handling
+[14:27.840 --> 14:38.080]  in programming anyone to like catch errors and I can resolve them while I put error message
+[14:40.640 --> 14:46.640]  yeah it is partially correct but that is more what you're saying is more of the compiler's role is
+[14:46.720 --> 14:54.240]  to find errors in the program and display that on the screen right so compiler is slightly different
+[14:54.240 --> 15:00.080]  than exception handling although they have some correlation it's not that your answer is entirely
+[15:00.080 --> 15:05.760]  not relevant but that is more aligned towards the definition of a compiler could somebody give
+[15:05.760 --> 15:15.840]  a more precise definition of what the significance of exception handling I think it's when
+[15:17.200 --> 15:24.880]  when in your code you have like a conditional so exception handling is when what to do when none
+[15:24.880 --> 15:30.800]  of those conditions match because you can't just exit the program that is something to do with the
+[15:30.800 --> 15:38.640]  default in a switch case or the last else in a if else ladder that you have multiple conditions but
+[15:38.640 --> 15:46.480]  none of the conditions matches then it jumps to the last possible option which may be just like
+[15:46.480 --> 15:53.200]  saying that incorrect choice for example let's say there's a question input a day number between
+[15:53.200 --> 15:58.960]  one to seven and print the corresponding day so if they input one it prints one day if they input
+[15:58.960 --> 16:04.560]  two it prints Tuesday and if they print let's if they input let's say 15 so then it should go to
+[16:04.560 --> 16:09.840]  the last option saying that it's a incorrect day number so what you're saying that is more about
+[16:10.720 --> 16:16.080]  multiple conditions and then finally a default which gets executed if none of the condition matches
+[16:16.080 --> 16:21.440]  that is not exception only but it was a good try anyone else
+[16:26.640 --> 16:33.680]  well exception handling we actually we are catching and extracted errors and
+[16:33.680 --> 16:42.000]  extracted events that may occur yes so too we can program crashes for instance with it improve
+[16:42.080 --> 16:49.600]  overall experience yeah that's exactly a tons of your so that's exactly what exception handling
+[16:49.600 --> 16:56.320]  means see as a software developer whenever you write a program the last thing you would like
+[16:56.320 --> 17:02.720]  is that your program should crash under any given circumstances right so the credibility of your
+[17:02.720 --> 17:11.120]  program will you know will be least significant if your program crashes when it meets certain
+[17:11.120 --> 17:18.080]  condition could you tell me any common circumstances or scenario where your program may actually crash
+[17:18.880 --> 17:22.880]  any any common error that may actually lead to crashing your program
+[17:25.520 --> 17:30.560]  like file is not found yeah exactly for example let's say you're doing file handling
+[17:31.200 --> 17:36.880]  you try to write a command to open a file for writing or for append and there's no file
+[17:37.440 --> 17:44.160]  so if you have not written a condition beforehand that what happens if the file is not found
+[17:44.160 --> 17:49.120]  then your program will result in nothing but it will crash and that is something that you don't
+[17:49.120 --> 17:56.240]  want to do right so therefore you may have to use exception handling which we catch exception
+[17:57.120 --> 18:03.840]  is what we call in Java so what it does it looks for those kind of situations where
+[18:04.240 --> 18:11.680]  it is trying to access some value and it is not able to access that could be one scenario or
+[18:11.680 --> 18:16.240]  otherwise it gets into a situation where it is trying to do some calculation where the result may
+[18:16.240 --> 18:22.240]  be infinity right for example let's say you end up writing a program input the numerator input
+[18:22.240 --> 18:29.280]  the denominator and you say that the quotient is a divided by b now in this case if the b turns
+[18:29.280 --> 18:34.640]  out to be 0 right so your program will fail your program will crash it will not give any error
+[18:34.640 --> 18:39.840]  message but it will crash so in order to mitigate these kind of problems we do the exception handling
+[18:40.400 --> 18:45.760]  that means we try and find the most suitable alternatives that if such conditions are found
+[18:46.400 --> 18:53.360]  so which means in this case if the user inputs the denominator so there can be a check that if
+[18:53.360 --> 18:58.560]  the denominator is 0 then it should repeat the processing that denominator cannot be 0
+[18:58.560 --> 19:03.680]  so that your program will never crash for this reason so as a programmer you have to be very
+[19:03.680 --> 19:09.600]  mindful about exception handling so that the idea is that whatever program you write it should work
+[19:09.600 --> 19:14.640]  and if there are some unexceptional values then it should stop that is what exception handling is so
+[19:15.280 --> 19:19.360]  we will try to we will practice more and more this is just a conceptual understanding so
+[19:20.000 --> 19:26.240]  it is to mitigate the problems associated with incorrect kind of values which could actually impact
+[19:26.960 --> 19:31.520]  normal functioning of your program so it should be able to catch those exceptions and prompt to
+[19:31.520 --> 19:36.640]  you that this is not correct then we have the construct and used common debugging techniques
+[19:36.640 --> 19:41.920]  that you have done already so trace table is one of the best ways to do that could you tell me
+[19:41.920 --> 19:50.320]  what are the benefits of using a trace table how does trace table help you in programming
+[19:50.720 --> 20:05.600]  anyone what do you have to follow also it allows to go through the program stand-by-stab operation
+[20:05.600 --> 20:15.440]  by operation and see the outputs devalues of different variables and yeah correct so a trace
+[20:15.440 --> 20:26.320]  table is the best possible way for us to run a program okay in the same way as CPU will be doing
+[20:26.320 --> 20:32.240]  it so we go step by step that we have the set of instructions in a sequential way there may be
+[20:32.240 --> 20:37.040]  certain loops there may be certain conditional statements right which will deviate the normal flow
+[20:37.040 --> 20:43.680]  of program so trace table is the best possible way to look at how the programming program is flowing
+[20:43.680 --> 20:49.360]  from the top to the bottom and this actually helps you understand the logic of the program more
+[20:49.360 --> 20:55.760]  clearly because instead of just looking at the code sometimes it is difficult to see how the control
+[20:55.760 --> 21:00.960]  is flowing but if you have a trace table made you go step by step that the first instruction will do
+[21:00.960 --> 21:06.160]  this second instruction will do this third will do this and so on and keep filling the table with
+[21:06.160 --> 21:11.680]  the values and that will help you to know that how the program is actually running starting from
+[21:11.680 --> 21:17.840]  top to bottom and then if there are any iterations or loops how it is repeating that part so that
+[21:17.840 --> 21:27.360]  is trace table what is break point debugging this was a question in the sample paper for the computer
+[21:27.360 --> 21:35.840]  science what is that yeah sure so a break point debugging it's kind of similar sorry similar
+[21:35.840 --> 21:42.960]  functionality to trace table so a break point is like you're marking your code where you want to
+[21:42.960 --> 21:50.480]  see exactly what's happening and then you would run a debugger and that debugger when it would
+[21:50.480 --> 21:55.040]  just run through your program keeping track of all of the variables and showing you but then when
+[21:55.040 --> 21:59.760]  it reaches the break point then it will ask you what you want to do do you want to like step into
+[21:59.760 --> 22:05.040]  the condition do you want to skip it do you want to go back perfect I think that's the perfect
+[22:05.200 --> 22:12.000]  response so whenever you debug the program debugging is a process of finding bugs in the program so
+[22:12.000 --> 22:17.440]  you have written a program and you are not able to get the desired output so your next step will
+[22:17.440 --> 22:22.880]  be to find the errors because there must be some error it may be logical it may be syntax
+[22:23.520 --> 22:28.400]  it's easier to find syntax errors because the system will actually show where the syntax error is
+[22:28.400 --> 22:33.120]  and you can correct that it's really difficult sometimes to find the logical errors that your
+[22:33.120 --> 22:39.440]  program is not syntax error free it's correctly done as per the program syntax definitions but
+[22:39.440 --> 22:43.600]  then there is some logical error like for example instead of less than sign you may have ended up
+[22:43.600 --> 22:48.720]  writing greater than sign right now when you debug those kind of programs it becomes difficult for
+[22:48.720 --> 22:52.480]  you to see that where exactly is the problem because of which you are not able to get the correct
+[22:52.480 --> 22:57.360]  answer and that is where this break point debugging is very helpful in break point debugging what
+[22:57.360 --> 23:02.160]  you can do is if you don't have a break out debugging then the program will start from top it will
+[23:02.160 --> 23:07.520]  go till the bottom it will run in one go so finding error would be difficult now let us say
+[23:08.240 --> 23:14.400]  that you you are running a loop and you want to see that what's the value being generated
+[23:14.400 --> 23:21.600]  or accumulated or counted after each iteration now if you don't have a break point then the loop
+[23:21.600 --> 23:26.160]  will finish in one go it will give you all the output and you won't be able to analyze as
+[23:26.160 --> 23:31.520]  as to where the problem appeared because everything is happening so fast so if you put a break point
+[23:31.520 --> 23:35.840]  then during every iteration the moment the control goes to the break point it will stop so you
+[23:35.840 --> 23:41.120]  may then check what are the values of different what are the values for different variables right
+[23:41.120 --> 23:46.160]  and once you have understood the first step then you again run it so it will go to the second
+[23:46.160 --> 23:51.680]  second iteration and this is where you can actually put a stop at whichever point you want to
+[23:51.680 --> 23:56.240]  check your values so that's what break point debugging is generally useful for
+[23:57.200 --> 24:05.520]  I am not trying try this is netbeans but I have tried it in visual basic where if you put a break
+[24:05.520 --> 24:10.000]  point and when you run the program and the program stops there and if you bring the cursor
+[24:10.000 --> 24:15.680]  to different variables in your source code it actually shows what the value they are holding
+[24:16.560 --> 24:21.360]  I haven't tried that in netbeans maybe I will try sometime but in visual basically if you are
+[24:21.360 --> 24:26.080]  using VS code you should be able to see that when you stop it and take your cursor to any
+[24:26.080 --> 24:32.400]  variable name it will show you the current value can I ask a question yeah is there a situation
+[24:32.400 --> 24:37.120]  they're using the trace table would be more effective than using the debugger because to
+[24:37.120 --> 24:43.520]  meet their functionalities sound very similar so which one using what in place of using what
+[24:43.520 --> 24:48.560]  a trace table instead of using the debugger because both of them just keep track of the values
+[24:48.720 --> 24:55.040]  trace I mean say trace table is yeah I mean trace table is also good but then sometimes the
+[24:55.040 --> 25:00.240]  trace table becomes too much for especially when your program is very lengthy let's say you're
+[25:00.240 --> 25:05.280]  writing a 10,000 line program and you are not getting the design output now making a trace table
+[25:05.280 --> 25:13.120]  would mean that you have to write value for each row at every phase of the program right that
+[25:13.200 --> 25:19.360]  may be little too much for you as a programmer just to find the error that you are I mean computer
+[25:19.360 --> 25:24.080]  could execute execute those 10,000 lines very fast but if you have to go through line by line
+[25:24.080 --> 25:29.040]  that may actually take you a lot of time the easier way is to use the break points that you break
+[25:29.040 --> 25:33.280]  it somewhere and then you stop it and see what are the values of the variable so that would be a
+[25:33.280 --> 25:38.960]  little faster way however if it is a smaller program then obviously I would say trace table would
+[25:39.120 --> 25:45.120]  be a much beneficial way of actually finding the logical error as to why you are not getting the
+[25:45.120 --> 25:51.920]  correct answer both ways I mean it's I mean it totally depends on the description of the debugger
+[25:51.920 --> 25:57.920]  who is actually trying to find the errors to see that how best they can find out the errors
+[25:57.920 --> 26:02.880]  whether by trace table or by the but majority of programmers because they deal with larger
+[26:02.960 --> 26:08.720]  programs lengthy programs they use the break point debugging they stop the control and then see
+[26:08.720 --> 26:15.040]  the parameters and then keep moving step by step this is less of a problem in a you know this
+[26:15.040 --> 26:20.880]  less of a problem in a programming language that uses interpreter because interpreter anyways
+[26:20.880 --> 26:27.040]  goes line by line right so it's much easier to find errors in that sense as compared to the
+[26:27.040 --> 26:32.000]  compiler where it runs the whole program but I mean there is no write or wrong answer as to which
+[26:32.000 --> 26:38.800]  method is better than the other it will totally depend on the context okay so then you
+[26:40.160 --> 26:47.600]  doesn't even know what is static variable static and dynamic data structure what is static and
+[26:47.600 --> 27:03.280]  dynamic data structure well as far as I can recall in Java static can only be applied to a
+[27:03.280 --> 27:11.440]  method not to a class and can be manipulated within the method method when we create it we it's
+[27:11.440 --> 27:21.920]  usually public static what if it's not within the class yes there is dynamic but we don't usually
+[27:21.920 --> 27:31.280]  specify I think it can be applied to a method within a class and then extrapolated to the main
+[27:31.280 --> 27:40.720]  program and it will function wow okay I mean that is I won't say that it's wrong because that is
+[27:40.720 --> 27:45.280]  also one of the ways of looking at static and dynamic but that's static what you're
+[27:45.280 --> 27:51.440]  connecting it to the methods and classes that is something you know we haven't reached to that
+[27:51.440 --> 27:57.280]  level yet when we'll be talking about the dynamics of the classes as static or public class or
+[27:57.280 --> 28:03.280]  static class or private class right now what we are talking about is just the data structures right
+[28:03.280 --> 28:11.520]  so when we say static and dynamic now the variables that we use can actually be defined as a static
+[28:11.520 --> 28:17.840]  or they can be defined as dynamic now even I mean after couple of classes you will be studying
+[28:17.840 --> 28:25.520]  about arrays and the lists right now that is where the starting and dynamic concepts comes into
+[28:25.520 --> 28:30.560]  picture in terms of data structures that starting data structures are those where the size is
+[28:30.560 --> 28:35.760]  predefined so you have already said that okay I need this much of memory to store my values
+[28:36.800 --> 28:43.680]  like for example in array if you say I want an integer array of size 10 I mean for those
+[28:44.240 --> 28:48.240]  who have never done programming this may look like for something not very familiar thing but
+[28:48.240 --> 28:53.840]  just to give you ads up that when we write the program we store values and for storing values we
+[28:53.840 --> 28:59.040]  use variables which you discussed last time now one of the types of variables which is actually a
+[28:59.040 --> 29:03.360]  data structure that is called arrays which can hold more than one value so don't worry if you
+[29:03.360 --> 29:07.840]  don't understand what I'm saying right now because we will study in details what arrays are so
+[29:07.840 --> 29:13.520]  static since we are talking about the static so static is something which is fixed which cannot be
+[29:13.520 --> 29:18.320]  changed during the execution of the program so for example you said that I want to store 10 values
+[29:18.320 --> 29:24.400]  and you actually declared an array of size 10 there is no way that we can store 11th value because
+[29:24.400 --> 29:29.280]  it will crash and that is where you have to use exception handling that the moment user tries to
+[29:29.280 --> 29:34.000]  give more than 10 values the compiler will say come on you ask me for 10 values memory and you are
+[29:34.000 --> 29:39.760]  trying to store 11 so I will crash the program right so static is something where the size is
+[29:39.760 --> 29:46.480]  predefined whereas dynamic is something which is on the need basis which means you don't predefined
+[29:46.480 --> 29:54.560]  how many values you want to store it will depend on the actual requirements so initially no memory
+[29:54.560 --> 29:59.680]  is allocated as soon as you store the first value you will write the code in such a way that it will
+[29:59.680 --> 30:05.120]  occupy it will reserve the space for one variable and then you store the value as soon as you say that
+[30:05.120 --> 30:10.640]  I want next value to be stored it will then allocate memory for the second variable and third variable
+[30:10.720 --> 30:17.120]  so it will be on the need basis now both have pros and cons if I ask you now which is better
+[30:17.120 --> 30:22.960]  pre defining size or the dynamic based on the definition which I gave which one do you think is
+[30:22.960 --> 30:35.280]  better static or dynamic tell me you have to expand on the needs it depends on the task
+[30:36.080 --> 30:43.200]  okay like sometimes it's better to use the predefined set but well or keep it dynamic
+[30:43.200 --> 30:51.520]  well at least right it's as far as I can recall it depends it depends yeah it depends if you
+[30:51.520 --> 30:58.880]  already know the size that okay my class size is never going to be more than 50 okay so you can
+[31:05.280 --> 31:26.700]  know all that happened with brush
+[31:35.280 --> 31:37.280]  You
+[32:05.280 --> 32:07.280]  You
+[32:35.280 --> 32:47.280]  Give me a second. I'm going to check on him. I'm going to call him up, okay?
+[33:05.280 --> 33:08.280]  You
+[33:35.280 --> 33:38.280]  You
+[34:05.280 --> 34:08.280]  You
+[34:35.280 --> 34:38.280]  You
+[35:06.280 --> 35:08.280]  You
+[35:20.280 --> 35:22.280]  I
+[35:22.280 --> 35:28.280]  Sorry, I don't know what when I got disconnected, because I was on the other screen. What was the last thing that you heard from me?
+[35:28.280 --> 35:35.480]  that you heard from me. You were explaining the difference, I believe, between
+[35:35.480 --> 35:40.880]  aesthetic and dynamic. Yeah, exactly. So, so we will be studying more about
+[35:40.880 --> 35:43.760]  static and dynamic little later, but right now you just need to know the
+[35:43.760 --> 35:46.760]  conceptual understanding as to what is the difference between static and
+[35:46.760 --> 35:50.240]  dynamic. The other thing which I think I've got disconnected and I spoke about
+[35:50.240 --> 35:55.800]  that, that this is an incorrect sequence in the subject guide, because we cannot
+[35:55.800 --> 36:01.680]  study one dimensional and two dimensional arrays before we study these basic
+[36:01.680 --> 36:06.880]  concepts. So, I think this is misalignment. Actually, B 2.3 should have been
+[36:06.880 --> 36:13.040]  before B 2.1.1 and 2.1.2. So, we are skipping this part for now because this
+[36:13.040 --> 36:17.600]  requires much more skills for you to learn. So, we'll come back to this little
+[36:17.600 --> 36:22.360]  later. Today, today's lesson is going to be based on B 2.3 programming
+[36:22.360 --> 36:26.320]  constructs. Construct programs that implement the correct sequence of code
+[36:26.320 --> 36:32.240]  instructions to meet program. I think this, Martin, did you cover this B 2.3.1?
+[36:32.240 --> 36:38.880]  What is the topic about because I cannot see it on your screen? Oh, you
+[36:38.880 --> 36:49.440]  can see. Is it not shared? It's loading right now. It's B 2.3.1, which is
+[36:49.440 --> 36:53.440]  construct programs that implement the correct sequence of code instructions to
+[36:53.440 --> 37:02.240]  meet program objectives. No, no, no. I only cover all the way to B 2.1.4.
+[37:02.240 --> 37:10.880]  Okay, okay. So, in today's lesson, we are going to cover a few, is my screen still not visible?
+[37:10.880 --> 37:18.880]  Let me try again.
+[37:18.880 --> 37:27.880]  Rush. Yeah. Do you share the attendance link? Not yet. Not yet. Let me put it here.
+[37:27.880 --> 37:43.880]  Okay, here's the Google form. So, please go here and mark the attendance.
+[37:43.880 --> 37:54.880]  How many students do we have today? 12, 11. So, anyway, I mean, this recording will be available for those
+[37:54.880 --> 38:01.880]  who could not join because of late notification. So, please mark your attendance and then
+[38:24.880 --> 38:31.880]  it will be available for those who could not join.
+[38:31.880 --> 38:46.880]  It's Pomi Lorenzo here in the class. What is his center? I will say that he can't see this link in the main classroom.
+[38:46.880 --> 38:57.880]  It's because the link is on your announcements, but I didn't see it on the main classroom either.
+[38:57.880 --> 39:01.880]  Really? Yeah. How about the announcement?
+[39:01.880 --> 39:07.880]  How did you join from? I joined from the announcement. The link in the announcement worked for me.
+[39:07.880 --> 39:11.880]  Was it for all the same thing?
+[39:11.880 --> 39:19.880]  I just went to main class and clicked join the room, but it wasn't pre-scheduled, I think.
+[39:19.880 --> 39:32.880]  And when it is, we have the link. But one can access with a joint classroom. It's the purple botan, a little bit up.
+[39:32.880 --> 39:39.880]  Martin, can you, because I haven't sent this link to the HL class, I sent it only to the SL.
+[39:39.880 --> 39:44.880]  Can you send it email that link to the HL class also?
+[39:44.880 --> 39:48.880]  Sure. Let me do that.
+[39:48.880 --> 39:58.880]  That's very surprising because I created the class. I should have been there. Let me share my screen again.
+[39:58.880 --> 40:06.880]  That's weird. No, but actually, how did you get the link? Because I did not share the link with you.
+[40:06.880 --> 40:17.880]  I just shared the link with the SL. Where did you find the link then?
+[40:17.880 --> 40:26.880]  Well, it wasn't via the link in the main class. If we go into main class, we have joined classroom.
+[40:26.880 --> 40:37.880]  I go to online classroom. Then I go to main class. So here, it's joined classroom. So this is what you have to click.
+[40:37.880 --> 40:44.880]  You know about it should be, it should have been here that the class is running, isn't it?
+[40:44.880 --> 40:58.880]  I mean, they usually, the time is there, but in this case, it didn't show. So anyway, I tried, I click on the link that.
+[40:58.880 --> 41:02.880]  Okay. Any which basis final as long as they have access to it.
+[41:02.880 --> 41:07.880]  Just email the link to them. It's just about six minutes before that we started the class.
+[41:07.880 --> 41:12.880]  So no, not six months or I was disconnected. Half an hour more than half an hour.
+[41:12.880 --> 41:23.880]  All right. So let's get on to the task. And those who are missing, honestly, I mean, they can watch the recording because it's something which they can easily learn just by looking at the recording also.
+[41:23.880 --> 41:29.880]  Okay. So we are going to talk today about two things. One is again about the variables and how we use them.
+[41:29.880 --> 41:41.880]  And second is the decision making statements. Now, just before I share the netbeam screen, could somebody tell me what is the significance of using decision making statements in any programming language?
+[41:41.880 --> 41:49.880]  Why do we use decision making statements?
+[41:49.880 --> 41:52.880]  To handle the logic.
+[41:52.880 --> 41:55.880]  To handle the logic.
+[41:55.880 --> 42:03.880]  I mean, does it not have a particular result to feel or to.
+[42:03.880 --> 42:09.880]  For broke purposes, I think, but it's very important. Very important.
+[42:09.880 --> 42:13.880]  How it functions basically.
+[42:13.880 --> 42:20.880]  So decision making is something which is very significant. Even our day to day life because every now and then we make certain decisions.
+[42:20.880 --> 42:25.880]  Is it Sunday? Okay. I will not go to school. Is it raining? I'll take the umbrella.
+[42:25.880 --> 42:35.880]  So every now and then we make the decisions like we have couple of options in front of us and we choose one of the options based on the best match principle.
+[42:35.880 --> 42:43.880]  Right. So similarly, when you're writing a program in any programming language, there are times when you have to make a certain decision that if this is the case, then do this.
+[42:43.880 --> 42:52.880]  Otherwise, do that. And that process of deciding between two or more different codes to pick up one of them is called decision making. Right.
+[42:52.880 --> 42:59.880]  Now, I will talk to you about the net being installation, whether you have done it already or not.
+[42:59.880 --> 43:07.880]  I mean, if it is not yet installed, then I wouldn't, you know, I wouldn't expect you to be losing all your instruction times.
+[43:07.880 --> 43:13.880]  So you can actually just go to Google and look for any online Java compiler.
+[43:13.880 --> 43:22.880]  Okay. For example, let's say, I mean, I'll open any random online Java compiler and you can actually write the code and test the code here.
+[43:22.880 --> 43:28.880]  For example, this is a Java code and you can actually run it from here. So click the run button.
+[43:28.880 --> 43:32.880]  Till the time you don't successfully install Java compiler, which is netbeams.
+[43:32.880 --> 43:42.880]  You can use some of the tools like this. So just Google online Java compiler and it will take you here.
+[43:42.880 --> 43:49.880]  So for example, if I run this code, it will give me the output hello world. See, the output is coming here hello world.
+[43:49.880 --> 43:56.880]  So this can be used until you successfully install Java compiler, which is netbeams on your computer.
+[43:56.880 --> 44:06.880]  I don't mind even if you are using some other for the time being, for example, some of you use IntelliJ, some of you use VS code.
+[44:06.880 --> 44:16.880]  There are many different, some of you use IntelliJ VS code, then what are the other compilers for Python for the Java?
+[44:16.880 --> 44:28.880]  Anybody using any other tool?
+[44:28.880 --> 44:39.880]  Hello, other than IntelliJ or VS code or netbeams, I've used any other tool for the Java program writing now.
+[44:39.880 --> 44:54.880]  So use whichever you find best until you because we are emphasizing on netbeams because it will be more convenient to have a single platform to see the consistency across the whole cohort.
+[44:54.880 --> 45:00.880]  And also for the internal assessment, your Java on the netbeams will be much more useful.
+[45:00.880 --> 45:07.880]  It will be easier as compared to the other platforms. So that's why we are emphasizing that you should use netbeams.
+[45:07.880 --> 45:21.880]  All right, so now talking about conditional statements. So in Java, we can do the conditional statements in many different ways, but before we do that, let's have a look at few scenarios.
+[45:21.880 --> 45:30.880]  Let's say I want to store two numbers, what will be the data type of that?
+[45:30.880 --> 45:32.880]  Intenture.
+[45:32.880 --> 45:42.880]  Okay, what if I want to store a fractional value because I did not specify whether the number I'm going to store is fractional or non fractional?
+[45:42.880 --> 45:45.880]  The example.
+[45:45.880 --> 45:47.880]  Double.
+[45:47.880 --> 45:52.880]  So it will largely depend on the nature of operation that you're going to perform.
+[45:52.880 --> 46:03.880]  For example, if you're let's say you want to store the number of students in a class, then obviously you will take integer type because the number of students will never be in fraction that I have 6.5 students in my class.
+[46:03.880 --> 46:11.880]  So, but if you are doing any kind of calculation where the result may be fractional, then obviously you have to use a double kind of variable.
+[46:11.880 --> 46:21.880]  So two ways we store values is integer num and double, let's say radius.
+[46:21.880 --> 46:41.880]  Now, num is a variable which can only store non fractional numbers, whereas or integers, whereas double, this can store fractional values.
+[46:41.880 --> 46:55.880]  And it doesn't mean that radius cannot store value 5, like 5 is integer, but the way it will store 5 is actually 5.0, whereas num if you store 5, 5 will be stored as 5.
+[46:55.880 --> 47:08.880]  So when you define a variable as double, it can hold a fractional value and if there is no fractional value, for example, you input the values 5, it will actually add 0.0 to it.
+[47:08.880 --> 47:17.880]  Now, unlike many other programming languages, like python is very flexible, it's very, very flexible, which is not good actually as a programming language I would say.
+[47:17.880 --> 47:22.880]  The compiler should be very, very strict, it should only do what we are telling it to do.
+[47:22.880 --> 47:33.880]  Then you will never end up having logical errors in your program because sometimes python interprets your mindset and it does the calculation without pointing the mistake, which may sometimes not be correct.
+[47:33.880 --> 47:38.880]  I mean, inner way it is helping you to understand what your thoughts may be, but it may not always be accurate.
+[47:38.880 --> 47:41.880]  Now, let me give a small example.
+[47:41.880 --> 47:46.880]  If I say, how do we divide two numbers?
+[47:46.880 --> 47:49.880]  What symbol do we use for division?
+[47:49.880 --> 47:51.880]  The slash.
+[47:51.880 --> 47:53.880]  The slash forward slash.
+[47:53.880 --> 48:05.880]  Let's say I type system.out.println, 7 divided by 3. What do you think will be the output?
+[48:05.880 --> 48:08.880]  Let me simplify this.
+[48:08.880 --> 48:09.880]  Let me simplify it.
+[48:09.880 --> 48:13.880]  7 divided by 2. What will be the output?
+[48:13.880 --> 48:14.880]  3.
+[48:14.880 --> 48:20.880]  Okay. How many of you agree that the output will be 3? Could you type in the chat?
+[48:20.880 --> 48:22.880]  Yes or no?
+[48:22.880 --> 48:23.880]  In the first form.
+[48:23.880 --> 48:25.880]  What these variables are.
+[48:25.880 --> 48:31.880]  If they are a timbre, well, default, I think it will be 3. We have to specify.
+[48:31.880 --> 48:37.880]  So these are not variables. These are two direct integers. These are literals. We call them literals.
+[48:37.880 --> 48:40.880]  So.
+[48:40.880 --> 48:47.880]  Okay. Before we discuss this further, could you go to the chat each one of you and type what do you think will it print?
+[48:47.880 --> 48:52.880]  So we are trying to divide 7 by 2. This slash is used for division in Java.
+[48:52.880 --> 48:54.880]  And we are trying to print that value.
+[48:54.880 --> 48:59.880]  So system.out.println is used for providing something on the screen.
+[48:59.880 --> 49:05.880]  So when we say 7 divided by 2, what do you think will be the output?
+[49:05.880 --> 49:12.880]  What in the chat?
+[49:12.880 --> 49:20.880]  Okay. So we have 3.5 for most.
+[49:20.880 --> 49:25.880]  Yeah. Euger. Apple is good, but I think they have made it paid now. I think they have asked for money when you use it.
+[49:25.880 --> 49:34.880]  I am not sure if there was any further changes, but it was a good tool, but now they have started asking money.
+[49:34.880 --> 49:44.880]  3.5. Yes, either 3.5. 3.5. So just a 3. Euger, say 3. Yes, it is a 3. And now all corresponding.
+[49:44.880 --> 49:49.880]  Could somebody tell me except for software that why would it be 3?
+[49:49.880 --> 49:55.880]  Shouldn't be a 7. Shouldn't 7 divided by 2 should be 3.5.
+[49:55.880 --> 50:01.880]  That's what actually Python will do. So let's try simultaneously.
+[50:01.880 --> 50:08.880]  Python also. So this is a Python editor. I say print 7 divided by 2.
+[50:08.880 --> 50:10.880]  And let's see what what is it?
+[51:01.880 --> 51:28.880]  So in Java, 7 divided by 2 is an integer division. Right. So since it's an integer division, then the resolves should be 3.
+[51:28.880 --> 51:35.880]  Python for Python, the answer will be 3.5. So Python does.
+[51:35.880 --> 51:45.880]  Point flow and division or double division. So that's a that's a difference between them.
+[51:45.880 --> 51:52.880]  OK, I guess he's traveling having issues.
+[51:52.880 --> 52:04.880]  Again, Lorenzo, I know you just joined Lorenzo, were you able to join through the to the link or when do you go through the main class?
+[52:04.880 --> 52:11.880]  I worked through the main class. It worked to the main class. OK, thank you.
+[52:11.880 --> 52:29.880]  Looks like he just joined again.
+[52:29.880 --> 52:44.880]  Hi, sorry again. So I am now connected to my phone hot spot. Hope it works. Am I okay?
+[52:44.880 --> 53:02.880]  What? Have we interprets?
+[53:02.880 --> 53:09.880]  Yeah, it's breaking up for me too.
+[53:33.880 --> 53:40.880]  Rash, no sound. We don't have sound from you right now.
+[53:40.880 --> 53:47.880]  Hi, I'm so sorry. It's getting disconnected because I'm in a very remote and maybe the internet is not very good here.
+[53:47.880 --> 53:54.880]  I tried connecting using my hotspot also, but that's also not working. So I hope it doesn't go away now. I hope so.
+[53:54.880 --> 53:58.880]  Martin, if it goes, maybe you can just, you know, continue.
+[53:58.880 --> 54:02.880]  If I'm just going to for a while.
+[54:02.880 --> 54:05.880]  Share the document with me because I didn't see it in the.
+[54:05.880 --> 54:12.880]  Yeah, sure. Let me just share the document with you and everyone else.
+[54:12.880 --> 54:27.880]  OK, so.
+[54:27.880 --> 54:34.880]  I'm putting it in the chat so that it's accessible to everyone.
+[54:34.880 --> 54:46.880]  OK, there it is. OK, so we'll come to this little later, but I don't know if you saw my screen when I was sharing the python output.
+[54:46.880 --> 54:54.880]  That is just to give you a little idea about how strict Java compiler is as compared to many other programming languages.
+[54:54.880 --> 54:59.880]  So let me go back to python screen again. So this is python here.
+[54:59.880 --> 55:03.880]  I will try it again print seven divided by two.
+[55:03.880 --> 55:08.880]  And you see what do you see here coming?
+[55:08.880 --> 55:18.880]  It's lowering the screen share screen is low.
+[55:18.880 --> 55:24.880]  It shows 3.5. So that means python output.
+[55:24.880 --> 55:31.880]  OK, let's say you have been a python coder all your life and then you write a program in Java and you end up writing seven divided by two.
+[55:31.880 --> 55:38.880]  Let's see what output Java shows. So I'm going to run this program that I've just printed seven divided by two.
+[55:38.880 --> 55:41.880]  So let's run the program and see what it shows.
+[55:41.880 --> 55:46.880]  What do you see here?
+[55:46.880 --> 55:55.880]  What are three, right? Three, right? So software was correct when she said that it will actually be three.
+[55:55.880 --> 56:00.880]  Now, now let's talk about the reason I said that Java is a very, very strict language.
+[56:00.880 --> 56:12.880]  It will never assume anything on its own, right? Then what makes it give seven divided by two as three and not 3.5? Any ideas?
+[56:12.880 --> 56:20.880]  Because it just ignores the remainder in return on integer.
+[56:20.880 --> 56:24.880]  Because it always try to return.
+[56:24.880 --> 56:31.880]  So it is trying to return only the same type, which is an integer.
+[56:31.880 --> 56:33.880]  Same type like what?
+[56:33.880 --> 56:37.880]  In this case, it's integer.
+[56:37.880 --> 56:44.880]  So can you explain once more as to what you mean when you say type integer?
+[56:44.880 --> 56:47.880]  What is integer here?
+[56:47.880 --> 56:51.880]  Seven and two.
+[56:51.880 --> 56:59.880]  Exactly. So seven and two, both as you can see are integers because there is no fractional part.
+[56:59.880 --> 57:06.880]  So how compiler will interpret this is that the user is trying to divide two integer values.
+[57:06.880 --> 57:15.880]  Therefore, it will give the answer also in integer because it does not want to assume anything that one of these two are both of them are fractional.
+[57:15.880 --> 57:25.880]  So if you are giving integer inputs as the numerator and denominator, it will assume that both these values are integer so the output also should be integer, right?
+[57:25.880 --> 57:31.880]  Whereas in Python, it uses flexibility that the user is dividing seven divided by two.
+[57:31.880 --> 57:37.880]  Let me give the exact answer what it will be under mathematical conditions, right?
+[57:37.880 --> 57:39.880]  Now imagine that you have been writing program in Python.
+[57:39.880 --> 57:47.880]  So you would never even imagine in Java that seven divided by two will give you three point sorry three, right?
+[57:47.880 --> 57:54.880]  And that may mess up your complete program because your output of this expression maybe input for some other.
+[57:54.880 --> 57:59.880]  And if the mistake in the output here that will actually impact rest of your program.
+[57:59.880 --> 58:12.880]  So therefore you have to be little extra careful when you are doing the coding in Java because just you have to always keep in mind that Java will only do that much which I am asking it to do.
+[58:12.880 --> 58:14.880]  It will never do anything on its own.
+[58:14.880 --> 58:19.880]  So how what should we do here in order to get 3.5?
+[58:19.880 --> 58:24.880]  We should convert it to double first.
+[58:24.880 --> 58:26.880]  Say input.
+[58:26.880 --> 58:33.880]  Say again, you'll convert the input to double or the flow.
+[58:33.880 --> 58:35.880]  Double where should we write double?
+[58:35.880 --> 58:37.880]  So before seven.
+[58:37.880 --> 58:46.880]  Okay, this is one of the ways and this what is this called when we write double in bracket?
+[58:46.880 --> 58:48.880]  There's a term in programming for this.
+[58:48.880 --> 58:52.880]  What is it called?
+[58:52.880 --> 58:56.880]  This is called ice cascading.
+[58:56.880 --> 59:01.880]  We are cascading the actual data type to something else.
+[59:01.880 --> 59:04.880]  We are telling the compiler that treat seven as double.
+[59:04.880 --> 59:11.880]  So now when it treat seven as double, it will actually perform a actual division which will give you 3.5.
+[59:11.880 --> 59:15.880]  So let's put see the output.
+[59:15.880 --> 59:18.880]  Now here you can see that it's given 3.5.
+[59:18.880 --> 59:25.880]  So that means Java will only do that much what it is asking what you are asking it to do.
+[59:25.880 --> 59:31.880]  If you say 7 divided by 2 both 7 and 2 are integers so it will give you the answer also an integer.
+[59:31.880 --> 59:35.880]  So one way is to get the correct answer is to write double in the bracket.
+[59:35.880 --> 59:38.880]  That means we are asking the compiler to treat seven as double.
+[59:38.880 --> 59:40.880]  So it will treat seven as 7.0.
+[59:40.880 --> 59:47.880]  And when that is divided by 2 either numerator or denominator if they are double then the answer will also be double.
+[59:47.880 --> 59:51.880]  This is one way of doing which is a right which is a right way.
+[59:51.880 --> 59:58.880]  The other way to do is to tell the compiler that the numerator is fractional by writing 7.0.
+[59:58.880 --> 01:00:06.880]  Now see we are telling very clearly to the compiler that 7 is not integer but it is fractional because it carries a 0.0 after it.
+[01:00:06.880 --> 01:00:12.880]  So 7.0 divided by 2 will also give you the correct answer.
+[01:00:12.880 --> 01:00:14.880]  And here we get 3.5.
+[01:00:14.880 --> 01:00:17.880]  So these are very minute things.
+[01:00:17.880 --> 01:00:21.880]  You have to be very careful not from the IBDP assessment point of view.
+[01:00:21.880 --> 01:00:31.880]  But mainly from if you ever get into the software profession then these small things could actually lead to lot of disasters.
+[01:00:31.880 --> 01:00:35.880]  Imagine you are losing 0.5 in such a small division.
+[01:00:35.880 --> 01:00:47.880]  And if your calculation is very precise and it requires precision then it is going to just lead to disaster because your answer may actually be problematic.
+[01:00:47.880 --> 01:00:55.880]  But one thing good that Java it is good that Java only does what we are asking it to do unlike Python where it assumes certain things.
+[01:00:55.880 --> 01:01:00.880]  That even though user is saying 7 divided by 2 let me give them correct answer which Java never does.
+[01:01:00.880 --> 01:01:05.880]  Java will only do very strictly whatever you have asked to do it will never go beyond that.
+[01:01:05.880 --> 01:01:10.880]  So you have to be careful about this.
+[01:01:10.880 --> 01:01:20.880]  So this is integer this is double then we have another data type which you have seen last week that is string.
+[01:01:20.880 --> 01:01:31.880]  So string variable can actually store the sequence of characters right.
+[01:01:31.880 --> 01:01:40.880]  So this is string variable any other data type can you think of integer double string any other.
+[01:01:40.880 --> 01:01:45.880]  Char. Char. Char.
+[01:01:45.880 --> 01:01:52.880]  Let's say we have a char variable named character.
+[01:01:52.880 --> 01:01:56.880]  What can we store in this variable?
+[01:01:56.880 --> 01:01:57.880]  One letter.
+[01:01:57.880 --> 01:02:00.880]  One letter that we in the single codes.
+[01:02:00.880 --> 01:02:05.880]  A string is enclosed within double codes which can be one letter or sequence of letters.
+[01:02:05.880 --> 01:02:11.880]  But a character can be maximum one letter that within the single code.
+[01:02:11.880 --> 01:02:17.880]  Float actually.
+[01:02:17.880 --> 01:02:23.880]  I mean it may work on this compiler but float is something which doesn't work on all the compiler so I avoid using float.
+[01:02:23.880 --> 01:02:30.880]  Let's try something value equals 15.0.
+[01:02:30.880 --> 01:02:34.880]  Yeah it's working here no it's not working see there is error coming.
+[01:02:34.880 --> 01:02:37.880]  Variable values never read.
+[01:02:37.880 --> 01:02:45.880]  So you see here some error is coming so float I mean it's a it's a valid data type but I have seen problems using it.
+[01:02:45.880 --> 01:02:49.880]  I mean it often ends up giving some error I don't know why.
+[01:02:49.880 --> 01:02:56.880]  Float is used in C language and C++ language quite extensively because double takes double size than float.
+[01:02:56.880 --> 01:03:04.880]  So people use float for fractional values to save some memory but it doesn't seem to be working so I would recommend that you should always use.
+[01:03:04.880 --> 01:03:15.880]  Double let's see the subject guide if they have made a mention of float I don't think it will be there in the guide also no float is not there but if you find double.
+[01:03:15.880 --> 01:03:41.880]  I think why is double not there.
+[01:03:41.880 --> 01:03:49.880]  Intices in string characters image audio and video stored in binary form data types Boolean value care decimal.
+[01:03:49.880 --> 01:03:55.880]  Okay so they have written decimal but actually it is double it's done through double we have integer type and we have string type.
+[01:03:55.880 --> 01:04:01.880]  The one we haven't talked about is Boolean what is a Boolean variable.
+[01:04:01.880 --> 01:04:04.880]  What's a Boolean variable.
+[01:04:04.880 --> 01:04:12.880]  So at times we have scenarios where we have two possible values either true or false.
+[01:04:12.880 --> 01:04:21.880]  So in such cases we prefer using Boolean which can have the initial value true and if some condition is met you can change it to false.
+[01:04:21.880 --> 01:04:23.880]  That's the Boolean variable.
+[01:04:23.880 --> 01:04:25.880]  What is the problem here now.
+[01:04:25.880 --> 01:04:35.880]  Not a statement semicolon expected but we have put the semicolon use it and specify the identifier.
+[01:04:35.880 --> 01:04:39.880]  Oh sorry yeah identify is not specified so Boolean be equal to true.
+[01:04:39.880 --> 01:04:48.880]  So we can take two possible values either true or false right and all these values if you have stored we can print them using system or outdoor print.
+[01:04:48.880 --> 01:05:01.880]  Now in some of you may already have tried in netbeams you don't have to type the whole thing you can just type S O U T and tab character it will automatically convert that into system or outdoor print.
+[01:05:01.880 --> 01:05:14.880]  It's sometimes very irritating typing so much so just type S O U T let me do it again type S O U T and press tab key it will do it automatically for you.
+[01:05:14.880 --> 01:05:20.880]  Okay now we can print these values for example let's put some value into number number equals 10.
+[01:05:20.880 --> 01:05:33.880]  Now see if I try to give 10.0 right it will not accept it because as I said it's very it's very it's very it's a very strict language which only follows what you're asking it to do.
+[01:05:33.880 --> 01:05:43.880]  Now you said that num is initiative type and you're trying to store 10.0 so it's a violation of your own procedure so it is giving error message that incompatible data types.
+[01:05:43.880 --> 01:05:53.880]  So if you wanted to use 10.0 then this should change to double but since your intent is to just store 10 so you can just do it like this and take a num equal to 10.
+[01:05:53.880 --> 01:06:09.880]  Then we have double radius equal to 5.7 let's say as we have already stored this we have already stored these true and system or let's print all these values first we print number number right so it will print 10.
+[01:06:09.880 --> 01:06:33.880]  Let's copy this 3 4 5 num then we have radius then we have S then we have character then we have the right so it will print each one of them on the screen so let's see the output.
+[01:06:34.880 --> 01:06:45.880]  So it is printing here 10 5.7 my name is Rajesh a which is a character and true which was the value of that variable.
+[01:06:45.880 --> 01:06:51.880]  Anyone has any questions from this much that we have done so far.
+[01:06:51.880 --> 01:07:01.880]  Feel free to ask if you have not understood any part of this what we have discussed right now you don't have to really bother about what all these things are public class starting braces.
+[01:07:01.880 --> 01:07:10.880]  So you will mainly be writing the program under this public starting void main within this start and closing parenthesis.
+[01:07:10.880 --> 01:07:19.880]  Often students end up making mistakes in the parenthesis and that completely messes of the program so you have to make sure that this class which started here ends over here.
+[01:07:19.880 --> 01:07:31.880]  So when you click on any parenthesis it also highlights the ending parenthesis to that if I click here it will show this one so you have to make sure that everything that is opened should also be closed.
+[01:07:31.880 --> 01:07:40.880]  So number of opening statements should be same as number of closing statements then your program will work fine but if you make mistake in any of the braces that's going to be problem.
+[01:07:40.880 --> 01:07:55.880]  So what I generally do and recommend that you should put a comment here end of main this is end of class this is the commenting and you should develop a habit of using comments within your program it's very important.
+[01:07:55.880 --> 01:08:01.880]  I will tell you from is point of view how it is important but this is very important.
+[01:08:01.880 --> 01:08:06.880]  Anyone has any problem from what we have done so far please be honest.
+[01:08:06.880 --> 01:08:09.880]  Is fine to say that yes I have not understood.
+[01:08:09.880 --> 01:08:27.880]  Yeah I have kind of an unrelated question but how would you do like string concatenation between two different types like if I want to print in Python so I want to print like I don't know this number is and then a variable I could just do that but I don't think I can do that in Java.
+[01:08:27.880 --> 01:08:38.880]  Yeah so see when you say string concatenation Python does is quite easily that you can say this plus this and that adds the values isn't that.
+[01:08:38.880 --> 01:08:50.880]  Like for example let's say we have let me start a equals see we don't even have to tell the what is the data type of a.
+[01:08:50.880 --> 01:09:06.880]  Rajesh and B equals and I say C equals a plus B and then we say print C so it will print let me save the file and run it.
+[01:09:06.880 --> 01:09:17.880]  So it will automatically concatenate the string Rajesh are coming together as a value of C in Java language it is not as simple as this there are methods for concatenation of string.
+[01:09:17.880 --> 01:09:40.880]  For reversing a string for finding a substring in a string so those are done through the through the methods but our focus will not be to use the inbuilt methods because they will be very clear instructions in your exam that if some operation is to be performed on a string then you should not use any of the inbuilt functions.
+[01:09:40.880 --> 01:09:55.880]  So which means any of the string operations or manipulations that we are going to learn we are going to learn through the coding method through computational thinking we will not use any of the existing methods which are provided by Python or Java okay.
+[01:09:55.880 --> 01:10:06.880]  So anyway we will come to that concatenation thing and string manipulation little later since we are just covering the basic stuff anyone has any confusion from this part.
+[01:10:06.880 --> 01:10:20.880]  This is called assignment of variables that we have different variables and there are values into those variables and this system out of print is used for printing any confusion in this any question that you have from this.
+[01:10:20.880 --> 01:10:35.880]  Now if not then we can move on okay now last week the little introductory programs that you did that was just to actually declare couple of variables and do some.
+[01:10:35.880 --> 01:10:52.880]  Straight forward mathematical calculation so let's say we have three variables m1 comma m2 comma m3 which is the score for three subjects let's say you can either assign the value soon after declaration or you can do it later.
+[01:10:52.880 --> 01:11:00.880]  Make sure that there's a semicolon to end every statement that you write if you don't write semicolon it will result in an error here see it's saying.
+[01:11:00.880 --> 01:11:28.880]  So semicolon expectation except for loop and conditional statement we always use a semicolon okay now let's assign values into m1 m2 m3 m2 equals 20 and m3 equals 30 and I want to calculate the total for that again let's take a variable 3 what should we write to get the total of m1 m2 and m3.
+[01:11:29.880 --> 01:11:33.880]  It equals to m1 plus m2 plus m3.
+[01:11:33.880 --> 01:11:41.880]  T equals m1 plus m2 plus m3 let's say I also want the average what should we do.
+[01:11:41.880 --> 01:11:44.880]  Divide T by 3.
+[01:11:44.880 --> 01:11:51.880]  So let's take a variable what should be the data type of the variable we are going to store the average.
+[01:11:51.880 --> 01:12:00.880]  It can pay int or double if it is it will you get the correct will you get the correct average.
+[01:12:00.880 --> 01:12:03.880]  It will not pay decimal.
+[01:12:03.880 --> 01:12:13.880]  Yeah it will be non decimal so it will not be the correct average so let's take a double variable AVG can we say AVG equals T divided by 3.
+[01:12:13.880 --> 01:12:17.880]  You should convert it to double first.
+[01:12:17.880 --> 01:12:33.880]  See what it will do see it's not giving any error message but what it will do since T is integer 3 is also integer so it will truncate the fractional part the actual fractional part and it will substitute that by 0.0.
+[01:12:33.880 --> 01:12:43.880]  So if the average was 20.3 what it will store in average is 20.0 which is wrong so what should we change here in order to get the correct answer.
+[01:12:43.880 --> 01:12:57.880]  Either 3.0 either 3.0 or tap type concatenate type cascading which is double in the bracket can we write T.0.
+[01:12:57.880 --> 01:13:01.880]  0.0 can never be appended to an integer it can only be appended to a number.
+[01:13:01.880 --> 01:13:14.880]  So here we can say double T divided by 3 both ways it is fine and then you can print as total is okay now another thing when we print multiple values in the print statement.
+[01:13:14.880 --> 01:13:22.880]  Like I want to print this message total is after that I want to print the value of T so we use the plus as a separator.
+[01:13:22.880 --> 01:13:30.880]  So what plus does it separates this value from the value which is coming up so we want to print the value of T.
+[01:13:30.880 --> 01:13:43.880]  Similarly I want to print averages plus ABG okay let's first try with without cascading and see what the output comes.
+[01:13:43.880 --> 01:13:58.880]  So I am running this code so obviously the sum will be 30 plus 20 is 50 plus 60 so 60 is total which is correct and average is coming 20.0 right.
+[01:13:58.880 --> 01:14:06.880]  Actually I mean it is a coincidence that it is 20.0 but let's change the value to something else I will make it 15 for example.
+[01:14:06.880 --> 01:14:19.880]  Now it will not be exact decimal value so the total is 65 and average it is giving 21 whereas the actual average should not be 21 it should be actual fraction value.
+[01:14:19.880 --> 01:14:29.880]  So now let's change to type cascading double now this should give you the exact average.
+[01:14:29.880 --> 01:14:41.880]  So the average is 21.6666 so with little change here little change in our approach we are able to get the correct answer.
+[01:14:41.880 --> 01:14:54.880]  This all can be avoided if you actually declare everything as double whenever you see the possibility that the results may be fractional it's safe to be using all the variables as double.
+[01:14:54.880 --> 01:15:04.880]  It may consume some extra memory space but you don't have to worry about that from the IPDP examples point of view so this will reduce or this will minimize the number of errors that you may encounter.
+[01:15:04.880 --> 01:15:13.880]  Now since everything is already double you don't really have to do the type cascading it will work automatically.
+[01:15:13.880 --> 01:15:21.880]  So it's coming total is 65.0 and the average is 21.66 which is what we wanted to get.
+[01:15:21.880 --> 01:15:28.880]  So these are basic operations which are performed in Java language that you can store values you can do the calculations and you can print the result.
+[01:15:28.880 --> 01:15:32.880]  Now we are moving on to the next part which is the decision making.
+[01:15:32.880 --> 01:15:40.880]  Decision making is a process where we make a decision here we are not making any decision we are saying just go from top to bottom.
+[01:15:40.880 --> 01:15:49.880]  So it is going in a sequential order starting from line number 19 until line number 28 there is no deviation it's going line by line.
+[01:15:49.880 --> 01:15:55.880]  The deviation will come when you are deciding either execute this block or that block.
+[01:15:55.880 --> 01:15:59.880]  So you have two blocks and you are saying that execute either this block or that block.
+[01:15:59.880 --> 01:16:03.880]  Let's have a look at the example in the flow chart first in the document that I shared.
+[01:16:03.880 --> 01:16:16.880]  So here you can see here you can see that we start from top read the value of n which could be anything positive negative anything or 0.
+[01:16:16.880 --> 01:16:24.880]  Now it is saying if n is greater than 0 this is a decision box and we are saying that if n is greater than 0 which will give you two possible answers.
+[01:16:24.880 --> 01:16:28.880]  So one block is on the left side and the other block is on the right side.
+[01:16:28.880 --> 01:16:36.880]  If it is true then it follows the true path to the left and it says print n is positive.
+[01:16:36.880 --> 01:16:45.880]  But if it is not true that means n is definitely not positive it can now be either 0 or negative.
+[01:16:45.880 --> 01:16:52.880]  So when it follows the false part then we cannot decide whether it is 0 or negative until we check that.
+[01:16:52.880 --> 01:17:00.880]  So we are saying if n is less than 0 and the control will come to this part only when n was not already positive.
+[01:17:00.880 --> 01:17:03.880]  If it was positive print positive and stop.
+[01:17:03.880 --> 01:17:09.880]  So you see the flow of control it is following the true path printing positive and then coming to stop.
+[01:17:09.880 --> 01:17:17.880]  That ends one cycle but if it is not true then it goes to the false part in the false part we are two options now.
+[01:17:17.880 --> 01:17:22.880]  Is it less than 0? If it is true then it says print negative.
+[01:17:22.880 --> 01:17:30.880]  Can you tell me what is missing in this flow chart? There is something missing.
+[01:17:30.880 --> 01:17:32.880]  Can you see something missing?
+[01:17:32.880 --> 01:17:35.880]  If n is equal to 0.
+[01:17:35.880 --> 01:17:39.880]  If it is 0 it is actually saying print n is 0.
+[01:17:39.880 --> 01:17:45.880]  That if it is not less than 0 then it is definitely 0.
+[01:17:45.880 --> 01:17:51.880]  So that way this print n equals 0.
+[01:17:51.880 --> 01:17:55.880]  n is 0 that is fine so we just wanted to print n is 0 and that is just printing.
+[01:17:55.880 --> 01:17:58.880]  There is some are spreading everywhere.
+[01:17:58.880 --> 01:18:00.880]  Just forget about that.
+[01:18:00.880 --> 01:18:05.880]  I mean these kind of errors in your actual IB exam will be ignored.
+[01:18:05.880 --> 01:18:18.880]  I am not saying that you should deliberately make these errors but these small mistakes, spelling mistakes are ignored because it is a test of your logic not of your English language and literature.
+[01:18:18.880 --> 01:18:21.880]  Any other problem that you see in the flow chart?
+[01:18:21.880 --> 01:18:24.880]  Second decision doesn't have true or first.
+[01:18:24.880 --> 01:18:30.880]  Very good that is a problem because how do we know when will it go to left and when will it go to right.
+[01:18:30.880 --> 01:18:38.880]  So there is no true or false mention to the left or right and that actually is problematic that is where the marks will be lost.
+[01:18:38.880 --> 01:18:46.880]  From the output we can see that the left one is yes and the right one is false but unless you write that you don't get credit for this decision making box.
+[01:18:46.880 --> 01:18:48.880]  So that is the main mistake.
+[01:18:48.880 --> 01:18:50.880]  So do you see the flow of control?
+[01:18:50.880 --> 01:18:53.880]  Are we executing the whole program here? No.
+[01:18:53.880 --> 01:18:58.880]  We are executing one part of it either positive or negative or 0.
+[01:18:58.880 --> 01:19:07.880]  Out of three given options the compiler is only executing one part depending on the value of n and this is what is called decision making.
+[01:19:07.880 --> 01:19:12.880]  Now in general language I will have to end the class in next 30 minutes.
+[01:19:12.880 --> 01:19:21.880]  So let's I mean we will continue studying this in more details but just to give you heads up on how decision making stay used.
+[01:19:21.880 --> 01:19:25.880]  There are a couple of ways that decision making is used.
+[01:19:25.880 --> 01:19:33.880]  The most common is if else and one is switch case so we will learn switch case in the next class but today we are going to look at if else.
+[01:19:33.880 --> 01:19:42.880]  So let's change this program slightly I will take integer let's say age.
+[01:19:42.880 --> 01:19:48.880]  Our intent is to have some value in age we haven't learned input statement yet so I'm just assigning the values.
+[01:19:48.880 --> 01:19:56.880]  Let's say age is 10 and we are trying to check with the computer whether this person is eligible to vote or not.
+[01:19:56.880 --> 01:20:06.880]  So the condition would be if so if is the keyword then we start the bracket and then we write the condition age is greater than 10 sorry greater than 18.
+[01:20:06.880 --> 01:20:14.880]  Greater than or equal to 18 if the age is greater than or equal to 18 then we start the starting graces for F.
+[01:20:14.880 --> 01:20:24.880]  So this is starting off if this is end of it whatever you write under this will be considered as part of it can be one statement or it can be a number of statements but here we have just one statement.
+[01:20:24.880 --> 01:20:36.880]  You are eligible to vote this is the first part so this is a block which means if you go to this flow chart.
+[01:20:36.880 --> 01:20:46.880]  We are talking about if this is true then go to true part so this much we have done if this is true then go to true part.
+[01:20:46.880 --> 01:21:01.880]  But what if it is not true then it goes to the else part and in the else part we have starting braces and closing braces and here we say you are not eligible to vote.
+[01:21:01.880 --> 01:21:14.880]  Okay now let's see the format here what we are saying that there is certain age in the age variable based on this we want to print either eligible to vote or not eligible to vote.
+[01:21:14.880 --> 01:21:26.880]  So what system will do the compiler after getting to line number 20 it will store 10 into the variable age and then it is checking is age more than 18 more than or equal to 18.
+[01:21:26.880 --> 01:21:32.880]  Do you think it is true or false what do you think.
+[01:21:32.880 --> 01:21:43.880]  It is false because age is 10 it is definitely not greater than or equal to 18 if it is false it will skip whole of if statement like the way it did here.
+[01:21:43.880 --> 01:21:53.880]  If it goes to true fall part it skips everything that is in false in the fall there are so many things happening but it will skip everything if it goes to true.
+[01:21:53.880 --> 01:22:00.880]  If it doesn't go to true then it will skip the true part and do everything which is in the false and that's what will happen here.
+[01:22:00.880 --> 01:22:12.880]  If age is more than 18 then print this otherwise print this now since the value of age we have given is as 10 so when we run this code.
+[01:22:12.880 --> 01:22:29.880]  Let's say the value of age so see the output is coming you are not eligible to vote why because we gave the value of age as 10 if you change to anything equal to 18 or more than 18 for example 19.
+[01:22:30.880 --> 01:22:37.880]  Now this condition is true if age is greater than or equal to 18 this is true so it will print your eligible to vote so let's see the output now.
+[01:22:37.880 --> 01:22:47.880]  So essentially it can execute only one block in a conditional statement depending on what the value of variable is so it says your eligible to vote.
+[01:22:47.880 --> 01:22:55.880]  This is what decision making is all about we have if we have else.
+[01:22:56.880 --> 01:23:11.880]  I mean there was more to be covered but let's say in the document so these are couple of flow charts.
+[01:23:11.880 --> 01:23:23.880]  Now see this is a simple flow chart where what we have done is we have entered the day number if day number is one then print Monday and where should it go after printing Monday.
+[01:23:26.880 --> 01:23:48.880]  So you see that after printing Monday this line is going all the way to stop if it is not one then it comes to the next one then it checks is that equal to two if it is two print Tuesday and go all the way to end otherwise go to the third value which is three otherwise four otherwise five otherwise six otherwise seven.
+[01:23:49.880 --> 01:23:57.880]  So it will keep jumping to the next decision box as long as the value or the output for each condition is false.
+[01:23:57.880 --> 01:24:14.880]  In the end if it checks if the day is seven then print Sunday okay what is one shortcoming in this program can you tell me this one little problem in this flow chart not the not the spelling or format but there is one logical error.
+[01:24:14.880 --> 01:24:19.880]  So after day seven if it is no it just stops.
+[01:24:19.880 --> 01:24:39.880]  Yeah exactly so if you give some in value value for example nine there is no output so if it says that value nine it will check go all the way from one to seven none of them are going to yes so after seven if it is nine it goes to no and it stops so there is no output.
+[01:24:39.880 --> 01:24:50.880]  So ideally they should have been in the know how print message invalid day number so when it comes to final know after that it should print invalid day number and then stop it.
+[01:24:50.880 --> 01:25:07.880]  Now how do we do this this is done using something called else if ladder because because it's like a ladder you can see step one step two step three so it's like a ladder so we call it LF ladder and how we write it in the program is quite simple.
+[01:25:08.880 --> 01:25:34.880]  So let's do that day number equals one or let's say five what's the first condition we should check for the one if day number equal to okay comparison is made using equal to equal to if day number equal to one and you see here one error is coming the error says that I'm not able to know what dn is because we never defined dn so compiler is saying you're using dn which I don't know what it is.
+[01:25:34.880 --> 01:25:48.880]  So it is very strict it will not do anything until you tell it what it is so you have to say integer dn dn equals five we assume dn to be five now we are checking the first condition if d equal to one what should be print.
+[01:25:48.880 --> 01:26:17.880]  And it's Monday Monday right so first condition is done if you have only two conditions then we have if else but if you have more than two condition then we start LF ladder so we say if and after next one is also else if so this is if then else if and then the condition else if dn equal to two then print Tuesday.
+[01:26:18.880 --> 01:26:46.880]  So this is done when you have more than two conditions so we say here Tuesday this is the second condition and this will continue to go until seven so better than typing again and again is copy for seven times.
+[01:26:46.880 --> 01:27:14.880]  So this is one two three four five six seven and change the values here so first is one then is two then is three then is four then is five then six one more time seven and change them Monday Tuesday Wednesday Thursday
+[01:27:14.880 --> 01:27:32.880]  Friday Saturday so this is this is exactly same like what this flow chart is if these one print Monday LFD is two then Tuesday LFD is three then Wednesday LFD is four then Thursday and so on.
+[01:27:32.880 --> 01:28:01.880]  So we started with one yeah sorry you are saying something you put the n equals to two times it was two times okay so five so we delete this whole part five six seven okay now the problem here is the same thing so let's try and running this we have d equal to five so it should print Friday let's see if it prints Friday.
+[01:28:02.880 --> 01:28:21.880]  So you can see it is successfully printing Friday the problem will come if we give a day number which is not one to seven now there will be no output because we haven't written the last condition see there is no output.
+[01:28:21.880 --> 01:28:50.880]  So which means we have to make an exception here that if none of the values match then it should go to the final else where we don't check anything we just say invalid day name number so now it is more streamlined it is more effective program because it will not fail for any value if it is one to seven it will print the correct day otherwise it will say invalid day number.
+[01:28:50.880 --> 01:29:19.880]  So let's run it. So see it is at least saying invalid day number and this is called else if ladder and always remember we use double equal to sign for comparison we use single equal to sign for assignment if you write dn equal to 15 15 will go into dn if we say dn equal to one then we are comparing.
+[01:29:20.880 --> 01:29:38.880]  So what I would suggest that for this week because we don't have many students also Martin you can share the attendance once again maybe some more students have joined so they can mark the attendance.
+[01:29:38.880 --> 01:30:04.880]  So what I would recommend is that for those who are doing programming for the first time go to w3 school and have the Java tutorial and if else practice this if else chapter try to do everything which is given here in this if else.
+[01:30:04.880 --> 01:30:31.880]  I will put the in the chat so for those who jama is new please practice if you are not installed next week we will talk to you about who thinks one is ia at one is the net beans but if you haven't yet installed that ends successfully then go to Google and type online Java compiler.
+[01:30:31.880 --> 01:30:49.880]  I am going to this gdb online debugger and this be used so even if I copy my whole program from here for example let me copy this whole thing which is in the main and paste it into that online debugger.
+[01:30:49.880 --> 01:31:07.880]  So I I changed this to the code that and if I run this people still give me the day number as invalid and let's give some valid day number for example 12 for example 6.
+[01:31:07.880 --> 01:31:31.880]  And this is all a logical error so let's run it now.
+[01:31:31.880 --> 01:31:53.880]  So for those it could be beneficial for everyone so this document which I have shared please go through this document so I will next week we will discuss more about this because today sometimes constraint.
+[01:31:53.880 --> 01:32:13.880]  So please go through the flowcharts out of this flowing from one section to another then this is the normal sequence which does not have to be from top to bottom this is also top to bottom.
+[01:32:13.880 --> 01:32:23.880]  The actual conditional statement is a trace table you may like to see how this is working.
+[01:32:23.880 --> 01:32:52.880]  This one see 2.3.2 selection if else if possibly else these are symbols which we use for comparison let them less than equal to greater than equal to equal to and not equal to program we just did what we have not done is this and logical operator this will look next week.
+[01:32:53.880 --> 01:33:20.880]  So practice I mean go through this completely even and there is trace table example also and if else a flatter we have what we saw in the program again a trace table then selection with relational this you may skip for now this we will cover next week.
+[01:33:20.880 --> 01:33:49.880]  Don't worry about number 7 but do everything so finally we have some of them joined late so so those who joined little late so we started little early today because some prior commitments so I did not cover much it was just a revision of what we did last week and plus little bit about how to write simple programs of conditional statement.
+[01:33:50.880 --> 01:34:14.880]  So you haven't missed much the first part but I still recommend that you should watch the recording once I post it to the I mean HL can see directly for SL I'll post it on to the SharePoint from where you can see and next week we will get into little more intense programming using decision making relational operator logical operator nested decision making.
+[01:34:14.880 --> 01:34:25.880]  So it will be very useful if everybody can actually do the exercises which are on the promotion platform and also W3 school conditional statement part.
+[01:34:25.880 --> 01:34:41.880]  Now regarding the IA so thank you very much for there was a lot of issues with the uploading options as I said it's a new platform and sometimes they have to do it at the last moment so I could see that majority of you have uploaded already and I have.
+[01:34:41.880 --> 01:34:48.880]  Martin did you get a time to go through your class IA proposals.
+[01:34:48.880 --> 01:35:00.880]  I started in summer I have a finish okay same with me I think I have responded to majority of you and most of you are actually on the track.
+[01:35:00.880 --> 01:35:10.880]  Just a couple of them where I have made some comments as to further more details or sometimes I felt that it is little too ambitious and I would
+[01:35:10.880 --> 01:35:15.880]  encourage those kind of projects but otherwise most of you I have already approved it.
+[01:35:15.880 --> 01:35:26.880]  So I think next week we are going to have introduction of criteria this week 11 right.
+[01:35:26.880 --> 01:35:39.880]  Actually it was supposed to be done today introduction to criteria A but never mind we can wait next Saturday.
+[01:35:39.880 --> 01:35:51.880]  I actually forgot that we had a criteria A plan for this week but actually on the palm of your canvas have you seen criteria A description what it is all about there is right.
+[01:35:51.880 --> 01:36:04.880]  So please find some time to read through that palm of your content as to what criteria A is all about and next week we will discuss about it because you have to very soon submit your first draft of criteria A okay so.
+[01:36:05.880 --> 01:36:18.880]  Number one project proposal it should have been done by now if not then please do it immediately number to read through requirements for criteria A and based on your project maybe you can start writing the draft.
+[01:36:18.880 --> 01:36:22.880]  Make a Google Doc document and start writing the draft.
+[01:36:22.880 --> 01:36:30.880]  I have already shared samples with you so those could be good reference documents for you to know what exactly it is going to cover.
+[01:36:30.880 --> 01:36:38.880]  So take that into account and write start writing criteria A I know that in the beginning it will be totally draft format and it may require a lot of changes.
+[01:36:38.880 --> 01:36:47.880]  But then at least you will have something ready and you will have something to share with us on the basis of which we can tell you which way it should go okay.
+[01:36:47.880 --> 01:36:55.880]  So next Saturday we will start with actually criteria A and then we will do the programming in in conditional statement in Java.
+[01:36:55.880 --> 01:37:00.880]  So please practice some of them because I know that if you're doing it for the first time you may encounter a lot of errors in Java.
+[01:37:00.880 --> 01:37:11.880]  So it is very important that for you as a student that you should learn how to troubleshoot those errors and that will happen only if you try to write five to six programs every day.
+[01:37:11.880 --> 01:37:22.880]  Make it small programs it doesn't have to be very extensive once but start at some point now could you type in the chat if you haven't only installed netbeams just say.
+[01:37:22.880 --> 01:37:37.880]  Write your name if you haven't installed or made netbeams working in your computer for for those it is working no need to say anything i'm just interested in those who I have not yet installed it say no there.
+[01:37:37.880 --> 01:37:50.880]  A couple of students have asked if they can change the topic of the I am assuming right they can they can.
+[01:37:50.880 --> 01:38:06.880]  But then there has to be a timeline that it cannot go forever I mean at the most by the end of this week we must have your I is so we are going to do one thing Martin I'll change the deadline of for all the students for submission.
+[01:38:06.880 --> 01:38:24.880]  Until next Wednesday next Tuesday okay it means any kind of modifications or late submissions can be done by the next Tuesday so if you want to change your topic please upload it and please drop a message to your teacher otherwise we won't know that you have changed your topic.
+[01:38:24.880 --> 01:38:29.880]  But then after the you start with the criteria eight then there is no scope of further changes it has to be same then.
+[01:38:29.880 --> 01:38:40.880]  So that's why do some prior research about what tools will be needed how much is your awareness with regard to the usage of that tool it's okay if you don't know anything but you should be.
+[01:38:40.880 --> 01:38:53.880]  Willing to learn that that is what is most important so if you don't know anything then keep it stick to the basics just think about some basic project where you will use your Java tools that you're learning in in in in.
+[01:38:53.880 --> 01:38:58.880]  IBDP don't think about something very very ambitious.
+[01:38:58.880 --> 01:39:04.880]  Can you type in the chat please if you have not been able to install.
+[01:39:04.880 --> 01:39:08.880]  That means yet.
+[01:39:08.880 --> 01:39:16.880]  Just type your name if you haven't.
+[01:39:16.880 --> 01:39:27.880]  I can't see are you able to type in the everyone chat I can't see anybody typing have you all done it already can you type yes if you have done already.
+[01:39:27.880 --> 01:39:33.880]  Great that's good very good I'm so happy.
+[01:39:33.880 --> 01:39:42.880]  It is never so smooth believe me even in the face to face cold students keep struggling that we are not able to install but so happy to see that everybody has done it good.
+[01:39:42.880 --> 01:39:44.880]  Great work.
+[01:39:44.880 --> 01:39:47.880]  This is a good starting point.
+[01:39:47.880 --> 01:39:48.880]  Perfect.
+[01:39:48.880 --> 01:39:49.880]  Okay.
+[01:39:49.880 --> 01:39:50.880]  So please.
+[01:39:50.880 --> 01:39:56.880]  Is the programs which are there I have added some programs in the document also which I've just shared some products in that.
+[01:39:56.880 --> 01:40:04.880]  There are some programs on the palm of the platform so try to write as many as possible in the beginning it's okay to make mistakes it's okay to have errors.
+[01:40:04.880 --> 01:40:09.880]  The main thing is you should be able to correct those errors that is what is needed.
+[01:40:09.880 --> 01:40:10.880]  Okay.
+[01:40:10.880 --> 01:40:14.880]  Sorry I'm rushing through today even even then we have.
+[01:40:14.880 --> 01:40:19.880]  All spent almost one hour and forty minutes which is not bad so.
+[01:40:19.880 --> 01:40:32.880]  Next week please be prepared to come with some prior knowledge of what criteria is all about and if you can write a little bit that we can share each others work during the session to others to see how it is to be done.
+[01:40:32.880 --> 01:40:44.880]  So we'll spend some half the time in criteria a other half on the conditional statements but honestly students it will be meaningful only when you start putting in your efforts because.
+[01:40:44.880 --> 01:40:54.880]  Theory is something which you can even cover at a later stage right it is more about self learning programming you will miss the track if you don't go with the flow.
+[01:40:54.880 --> 01:41:04.880]  So as we cover some topics in programming please practice more and more questions about them is fine to make mistakes and this is where it could be very beneficial.
+[01:41:04.880 --> 01:41:13.880]  If you have written a program and if it is giving some error take a screenshot of that put that into perplexity for example and say where am I going wrong it will tell you where you are going wrong.
+[01:41:13.880 --> 01:41:22.880]  So for the initials for is that could be a very good way for you to identify the errors and slowly you will become proficient.
+[01:41:22.880 --> 01:41:28.880]  Okay please practice it's a it's a advice and it's a request from us.
+[01:41:28.880 --> 01:41:31.880]  You want to add anything before we end the session.
+[01:41:31.880 --> 01:41:39.880]  No only that if and so he's stealing the class I would like for him to stay I want to be okay.
+[01:41:39.880 --> 01:41:46.880]  Is anyone else who has quite recently joined who hasn't met the teacher yet can stay back others may leave now.
+[01:41:46.880 --> 01:41:50.880]  Thank you so much for your time and for your flexibility.
+[01:41:50.880 --> 01:42:04.880]  I hope you can mark the attendance if not please Martin can you put the attendance link once I just share it again and Charlie is telling me that there is an error so.
+[01:42:04.880 --> 01:42:12.880]  He says four or four yeah Charlie can you try now.
+[01:42:12.880 --> 01:42:16.880]  Let me share this let me share the link again.
+[01:42:16.880 --> 01:42:23.880]  Could somebody else try to open the link I mean don't mark your attendance but could you access the link and see if it is working for you.
+[01:42:23.880 --> 01:42:30.880]  Don't mark it again but okay so you just.
+[01:42:30.880 --> 01:42:35.880]  It's working for me now yeah you're not sure what happened earlier.
+[01:42:35.880 --> 01:42:43.880]  So if anybody missed marking the attendance please do that and very soon we are going to compile these attendance reports and share with the SBC because we see that some students are.
+[01:42:43.880 --> 01:42:54.880]  Have not attended even a single class now imagine how much loss they are at and there are others who have attended all classes and they deserve a lot of appreciation.
+[01:42:54.880 --> 01:43:10.880]  So we are going to write to your SBC appreciating your efforts in this program good job and your engagement for you know being active in the discussions and so meeting assignments on time thank you for that.
+[01:43:10.880 --> 01:43:20.880]  So we are going to write to each of the SBC's I mean I'm really amazed with some of you who have attended all the lessons right from beginning until now that's really amazing.
+[01:43:20.880 --> 01:43:27.880]  All right guys so thank you so much you may leave now and sir I have a question yeah please.
+[01:43:27.880 --> 01:43:42.880]  So I'm a bit confused about the meetings because I keep joining late because I think that the meeting starts earlier is there a set time or is every actually this is the only time when we have changed the timing.
+[01:43:42.880 --> 01:43:59.880]  It always used to be at 12 PM GMT time but today I have some prior engagement and sorry about that so I sent a late notification that today will start it one or early but next week onwards it's going to be 12 known GMT.
+[01:43:59.880 --> 01:44:15.880]  Okay yeah thank you I think just daylight savings I'm not used to that maybe maybe daylight saving could actually impact it but we'll go by 12 PM GMT.
+[01:44:15.880 --> 01:44:24.880]  All right then bye everyone take care bye bye thank you.
+[01:44:24.880 --> 01:44:26.880]  And so stay please.
+[01:44:26.880 --> 01:44:28.880]  Bye mister.
+[01:44:28.880 --> 01:44:30.880]  Bye bye.
+[01:44:30.880 --> 01:44:33.880]  So Martin I'll need to open and I'll just go.
+[01:44:33.880 --> 01:44:37.880]  Yeah okay yeah I need to meet with and so for a little bit.
+[01:44:37.880 --> 01:44:40.880]  Right so anybody else that might have questions.
+[01:44:40.880 --> 01:44:42.880]  Ralphie you have a question?
+[01:44:42.880 --> 01:44:45.880]  Yeah I have a question with my I.A comment.
+[01:44:45.880 --> 01:44:51.880]  I'm Sujaha you commented that like my I.A.
+[01:44:51.880 --> 01:44:55.880]  Connection to theme B is per week right now.
+[01:44:55.880 --> 01:45:02.880]  I was just wondering like specifically what is theme B is up the programming part of the I.A.
+[01:45:02.880 --> 01:45:08.880]  Yeah correct theme B is basically concepts using Java and theme A database.
+[01:45:08.880 --> 01:45:13.880]  So it would be great if you can pick up some topic which could actually be.
+[01:45:13.880 --> 01:45:16.880]  I mean what do you have what do you have used?
+[01:45:16.880 --> 01:45:21.880]  Yeah right now I have the Brenda add on add on thing that I want to create.
+[01:45:21.880 --> 01:45:28.880]  And like I thought that would be like pretty right with the level I am currently since.
+[01:45:28.880 --> 01:45:34.880]  I mean that's okay so that's why it requires me to like actually write like each of the program.
+[01:45:34.880 --> 01:45:37.880]  Like each program of actually adding like objects.
+[01:45:37.880 --> 01:45:47.880]  So like all the like it involves a lot of programming with where like I need to write specifically each step of like what the what Brenda is actually doing.
+[01:45:47.880 --> 01:45:52.880]  When it's executing that commands so I need to write the command for each thing.
+[01:45:52.880 --> 01:46:03.880]  Each step and then also like write the right commands additional commands on myself by myself where I need to like create spaces where people can input.
+[01:46:03.880 --> 01:46:13.880]  There images and then process the image and also like input the ring size and then how to convert that with the radius size and stuff.
+[01:46:13.880 --> 01:46:18.880]  So I thought that would be like to make a good level for my I.A.
+[01:46:18.880 --> 01:46:23.880]  But I was just wondering like how like it could be improved upon.
+[01:46:23.880 --> 01:46:29.880]  Okay so I can't exactly recall what your proposal was so let me go through your proposal again.
+[01:46:29.880 --> 01:46:32.880]  And probably add for the comment to it.
+[01:46:32.880 --> 01:46:33.880]  Okay.
+[01:46:33.880 --> 01:46:37.880]  Okay fine thank you all right bye.
+[01:46:53.880 --> 01:46:56.880]  I said we have any questions.
+[01:46:59.880 --> 01:47:12.880]  I said all right and so are you still there.
+[01:47:12.880 --> 01:47:13.880]  Hello.
+[01:47:13.880 --> 01:47:17.880]  Yes then so how are you could you please turn on your camera.
+[01:47:17.880 --> 01:47:20.880]  Yes let me see if it's working.
+[01:47:30.880 --> 01:47:40.880]  I know you wanted to meet with me and you can also confuse with the time in last time.
+[01:47:40.880 --> 01:47:47.880]  So I just wanted to see how can I help you.
+[01:47:47.880 --> 01:47:50.880]  Yeah so I had some questions.
+[01:47:50.880 --> 01:47:53.880]  Sorry for the confusion.
+[01:47:53.880 --> 01:47:56.880]  No problem.
+[01:47:57.880 --> 01:48:02.880]  So let me see.
+[01:48:02.880 --> 01:48:08.880]  I wanted to ask about first do we have exams in this course.
+[01:48:08.880 --> 01:48:15.880]  Well in which way I mean you do have quizzes and assessments here.
+[01:48:15.880 --> 01:48:16.880]  Yes.
+[01:48:16.880 --> 01:48:22.880]  But not in the sense not similar to I guess one in one.
+[01:48:22.880 --> 01:48:25.880]  In a regular class but there are assessments here.
+[01:48:25.880 --> 01:48:26.880]  Yes.
+[01:48:26.880 --> 01:48:29.880]  Okay.
+[01:48:29.880 --> 01:48:32.880]  Also.
+[01:48:32.880 --> 01:48:38.880]  I noticed that we will go from each criteria of DIA.
+[01:48:38.880 --> 01:48:44.880]  Like the course criteria one or criteria A, B, C.
+[01:48:44.880 --> 01:48:49.880]  Like the flow of the course will be following these criteria.
+[01:48:50.880 --> 01:49:04.880]  Now that we are on discussing the IAS, yes we're going to discuss the criteria that you need to take into account for a successful internal assessment.
+[01:49:04.880 --> 01:49:10.880]  But the curriculum itself is not just focused on that.
+[01:49:10.880 --> 01:49:11.880]  Okay.
+[01:49:11.880 --> 01:49:18.880]  We are going to cover the criteria because now we are developing the internal assessments.
+[01:49:18.880 --> 01:49:21.880]  And we want you to know exactly what is expected.
+[01:49:21.880 --> 01:49:22.880]  Correct.
+[01:49:22.880 --> 01:49:28.880]  But there is more to the curriculum than just the internal assessment.
+[01:49:28.880 --> 01:49:30.880]  Okay.
+[01:49:30.880 --> 01:49:32.880]  Also about.
+[01:49:32.880 --> 01:49:36.880]  So I arrived like two months late in this course.
+[01:49:36.880 --> 01:49:37.880]  Yes.
+[01:49:37.880 --> 01:49:38.880]  You know that.
+[01:49:38.880 --> 01:49:40.880]  And there's some latest assignments.
+[01:49:40.880 --> 01:49:44.880]  I can't do them but I just wanted to know like how.
+[01:49:44.880 --> 01:49:45.880]  All right.
+[01:49:45.880 --> 01:49:47.880]  So what have you done?
+[01:49:47.880 --> 01:49:49.880]  And so.
+[01:49:49.880 --> 01:49:54.880]  Because the idea is do you have a catch up plan with you?
+[01:49:54.880 --> 01:49:55.880]  Yes.
+[01:49:55.880 --> 01:49:58.880]  Schools about you end like this week.
+[01:49:58.880 --> 01:50:00.880]  So when school ends up, I'm starting.
+[01:50:00.880 --> 01:50:03.880]  I'm going to start your focus more on catching up.
+[01:50:03.880 --> 01:50:04.880]  Okay.
+[01:50:04.880 --> 01:50:08.880]  Do you have the document that is the catch up plan?
+[01:50:08.880 --> 01:50:11.880]  And no, I don't, I didn't create a plan.
+[01:50:11.880 --> 01:50:12.880]  No, you did.
+[01:50:12.880 --> 01:50:13.880]  Okay.
+[01:50:13.880 --> 01:50:17.880]  Let me see if I'm able to give you one second.
+[01:50:17.880 --> 01:50:19.880]  I don't know if.
+[01:50:19.880 --> 01:50:22.880]  Look at the.
+[01:50:22.880 --> 01:50:25.880]  On the chat.
+[01:50:25.880 --> 01:50:27.880]  I'm going to give this link.
+[01:50:27.880 --> 01:50:31.880]  See if you're able to open this document.
+[01:50:31.880 --> 01:50:40.880]  Okay.
+[01:50:40.880 --> 01:50:55.880]  Okay.
+[01:50:55.880 --> 01:50:58.880]  He's saying that my account doesn't.
+[01:50:58.880 --> 01:50:59.880]  That's in that out.
+[01:50:59.880 --> 01:51:00.880]  Okay.
+[01:51:00.880 --> 01:51:01.880]  And so what.
+[01:51:01.880 --> 01:51:03.880]  So do me a favor.
+[01:51:03.880 --> 01:51:06.880]  Just share with me your email.
+[01:51:06.880 --> 01:51:26.880]  I'm going to send you that document.
+[01:51:26.880 --> 01:51:32.880]  Okay.
+[01:51:32.880 --> 01:51:42.880]  Okay.
+[01:51:42.880 --> 01:52:04.880]  Okay.
+[01:52:04.880 --> 01:52:05.880]  All right.
+[01:52:06.880 --> 01:52:12.880]  I just send you an email with that document attached to it.
+[01:52:12.880 --> 01:52:18.880]  I want you to try and see if you're able to open it.
+[01:52:18.880 --> 01:52:19.880]  Okay.
+[01:52:19.880 --> 01:52:38.880]  Okay.
+[01:52:38.880 --> 01:52:44.880]  I also send you an email to have access to the chair folder.
+[01:52:44.880 --> 01:52:50.880]  The chair folder is where the recordings of the lessons are.
+[01:52:50.880 --> 01:53:01.880]  And the content, which has the different lessons that we have done throughout the year.
+[01:53:01.880 --> 01:53:04.880]  Okay.
+[01:53:04.880 --> 01:53:05.880]  I can.
+[01:53:05.880 --> 01:53:07.880]  You got the catch up plan.
+[01:53:07.880 --> 01:53:10.880]  Or the idea is.
+[01:53:10.880 --> 01:53:14.880]  This goes up to week six.
+[01:53:14.880 --> 01:53:15.880]  Week seven.
+[01:53:15.880 --> 01:53:17.880]  Let me see.
+[01:53:17.880 --> 01:53:20.880]  Yeah. Week seven.
+[01:53:20.880 --> 01:53:21.880]  I believe.
+[01:53:21.880 --> 01:53:22.880]  Anyway.
+[01:53:22.880 --> 01:53:25.880]  So to start, you need to start with this.
+[01:53:25.880 --> 01:53:27.880]  All right.
+[01:53:27.880 --> 01:53:32.880]  You let me know what.
+[01:53:32.880 --> 01:53:36.880]  Weeks you have done the ideas to do in one week, two weeks of work.
+[01:53:37.880 --> 01:53:42.880]  And I will open the assignments as you go.
+[01:53:42.880 --> 01:53:43.880]  Okay.
+[01:53:43.880 --> 01:53:51.880]  So, for example, check that.
+[01:53:51.880 --> 01:53:57.880]  Check that was checked the calendar week by week.
+[01:53:57.880 --> 01:54:01.880]  And I can open some assignments now for you.
+[01:54:01.880 --> 01:54:02.880]  Okay.
+[01:54:03.880 --> 01:54:15.880]  So, um, let's see.
+[01:54:15.880 --> 01:54:18.880]  Have you done, for example, the learner profile?
+[01:54:18.880 --> 01:54:20.880]  Have you done that?
+[01:54:20.880 --> 01:54:21.880]  Yeah, I think so.
+[01:54:21.880 --> 01:54:22.880]  All right.
+[01:54:22.880 --> 01:54:27.880]  So now these will, these will count as like meeting the teacher.
+[01:54:27.880 --> 01:54:31.880]  Have you done the academic integrity contract?
+[01:54:31.880 --> 01:54:32.880]  Yes.
+[01:54:32.880 --> 01:54:33.880]  Okay.
+[01:54:33.880 --> 01:54:38.880]  What about the CPU components and CPU and GPU?
+[01:54:38.880 --> 01:54:39.880]  No.
+[01:54:39.880 --> 01:54:40.880]  Okay.
+[01:54:40.880 --> 01:54:41.880]  All right.
+[01:54:41.880 --> 01:54:42.880]  So give me one second.
+[01:54:42.880 --> 01:54:46.880]  I'm going to try to open those things for you.
+[01:54:46.880 --> 01:54:59.880]  Okay.
+[01:54:59.880 --> 01:55:05.880]  One second.
+[01:55:05.880 --> 01:55:06.880]  Okay.
+[01:55:06.880 --> 01:55:14.880]  So, I'm going to open everything from week two and week three.
+[01:55:14.880 --> 01:55:18.880]  I'm going to keep you until a week from today.
+[01:55:18.880 --> 01:55:19.880]  Okay.
+[01:55:19.880 --> 01:55:20.880]  Okay.
+[01:55:20.880 --> 01:55:21.880]  Okay.
+[01:55:21.880 --> 01:55:22.880]  So, let me see.
+[01:55:22.880 --> 01:55:27.880]  So Saturday, the 6th of December.
+[01:55:27.880 --> 01:55:28.880]  Okay.
+[01:55:28.880 --> 01:55:32.880]  I'm going to open all that right now as we are together.
+[01:55:32.880 --> 01:55:35.880]  So, so you have that set up.
+[01:55:35.880 --> 01:55:36.880]  So I just open.
+[01:55:36.880 --> 01:55:43.880]  I'm about to open the quiz, quiz two, the CPU components.
+[01:55:43.880 --> 01:55:47.880]  All right.
+[01:55:47.880 --> 01:55:50.880]  So that's open now.
+[01:55:50.880 --> 01:55:56.880]  I'm going to open the CPU and GPU.
+[01:55:57.880 --> 01:55:59.880]  Same thing.
+[01:55:59.880 --> 01:56:04.880]  So, as I said, the idea is that in a week in order to catch up,
+[01:56:04.880 --> 01:56:09.880]  you do basically the work of two weeks.
+[01:56:09.880 --> 01:56:10.880]  Okay.
+[01:56:10.880 --> 01:56:14.880]  And just stay in communication with me.
+[01:56:14.880 --> 01:56:15.880]  Okay.
+[01:56:15.880 --> 01:56:19.880]  So, I know.
+[01:56:19.880 --> 01:56:20.880]  You progress.
+[01:56:20.880 --> 01:56:21.880]  Okay.
+[01:56:21.880 --> 01:56:22.880]  Okay.
+[01:56:22.880 --> 01:56:23.880]  Okay.
+[01:56:23.880 --> 01:56:24.880]  All right.
+[01:56:25.880 --> 01:56:32.880]  So, weeks, we took with CPU and with two CPU and GPU are open now.
+[01:56:32.880 --> 01:56:36.880]  I'm going to open the discussion.
+[01:56:36.880 --> 01:56:38.880]  I know it's late for the discussion.
+[01:56:38.880 --> 01:56:39.880]  But at least,
+[01:56:39.880 --> 01:56:42.880]  you can put some of your thoughts in there.
+[01:56:42.880 --> 01:56:43.880]  Okay.
+[01:56:43.880 --> 01:56:46.880]  I see.
+[01:56:46.880 --> 01:57:05.480]  Let me see, six, one, two, then, all right.
+[01:57:05.480 --> 01:57:10.200]  So let me see anything else from week two, CPU discussion.
+[01:57:10.200 --> 01:57:10.520]  OK.
+[01:57:10.520 --> 01:57:14.880]  And then lastly, from week two, the weekly quiz.
+[01:57:14.880 --> 01:57:16.680]  OK.
+[01:57:44.200 --> 01:57:44.720]  All right.
+[01:57:44.720 --> 01:57:47.600]  So everything from week two is open.
+[01:57:47.600 --> 01:57:51.560]  I'm going to open the weekly quiz for week three.
+[01:58:14.720 --> 01:58:43.920]  All right, the weekly quiz from week three
+[01:58:43.920 --> 01:58:48.920]  is open.
+[01:58:48.920 --> 01:58:51.840]  And lastly, the discussion.
+[01:58:51.840 --> 01:58:52.840]  OK.
+[01:58:52.840 --> 01:58:53.840]  OK.
+[01:58:53.840 --> 01:58:54.160]  All right.
+[01:58:54.160 --> 01:58:59.560]  So that is going to be what you need to do in the next week.
+[01:59:02.560 --> 01:59:10.680]  And once you are done with that, just let me know.
+[01:59:10.680 --> 01:59:15.720]  So I can open the other assignments.
+[01:59:15.720 --> 01:59:16.720]  OK.
+[01:59:16.720 --> 01:59:17.720]  OK.
+[01:59:17.720 --> 01:59:19.880]  If you finish that early, well, even better.
+[01:59:19.880 --> 01:59:24.600]  But so you have a week from now to work on week two and week three.
+[01:59:24.600 --> 01:59:24.960]  OK.
+[01:59:24.960 --> 01:59:27.720]  And so anything else?
+[01:59:31.720 --> 01:59:34.040]  No, that's it.
+[01:59:34.040 --> 01:59:34.360]  All right.
+[01:59:34.360 --> 01:59:35.720]  Well, anything else?
+[01:59:35.720 --> 01:59:38.120]  Just email me.
+[01:59:38.120 --> 01:59:38.680]  All right.
+[01:59:38.680 --> 01:59:39.680]  OK.
+[01:59:39.680 --> 01:59:42.560]  And so have a good rest of the day.
+[01:59:42.560 --> 01:59:43.800]  Thanks, it's you.
+[01:59:43.800 --> 01:59:44.560]  You're welcome.
+[01:59:44.560 --> 01:59:45.560]  Bye.
+[01:59:45.560 --> 01:59:46.560]  Bye.

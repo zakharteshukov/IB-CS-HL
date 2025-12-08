@@ -1,0 +1,1239 @@
+/Users/macbook/.local/pipx/venvs/openai-whisper/lib/python3.13/site-packages/whisper/transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+[00:00.000 --> 00:02.000]  You
+[00:30.000 --> 00:32.000]  You
+[01:00.000 --> 01:02.000]  You
+[01:30.000 --> 01:32.000]  You
+[02:00.000 --> 02:02.000]  You
+[02:30.000 --> 02:32.000]  You
+[03:00.000 --> 03:02.000]  You
+[03:30.000 --> 03:32.000]  You
+[04:00.000 --> 04:02.000]  You
+[04:30.000 --> 04:32.000]  You
+[05:00.000 --> 05:02.000]  You
+[05:30.000 --> 05:32.000]  You
+[06:00.000 --> 06:02.000]  You
+[06:30.000 --> 06:32.000]  You
+[07:00.000 --> 07:02.000]  You
+[07:30.000 --> 07:32.000]  You
+[08:00.000 --> 08:02.000]  You
+[08:30.000 --> 08:32.000]  You
+[09:00.000 --> 09:02.000]  You
+[09:30.000 --> 09:32.000]  You
+[10:00.000 --> 10:02.000]  You
+[10:30.000 --> 10:32.000]  You
+[11:00.000 --> 11:02.000]  You
+[11:30.000 --> 11:32.000]  You
+[11:32.000 --> 11:34.000]  You
+[12:00.000 --> 12:02.000]  You
+[12:02.000 --> 12:04.000]  You
+[12:04.000 --> 12:12.000]  After the week
+[12:12.000 --> 12:14.000]  How is it going?
+[12:14.000 --> 12:16.000]  How is it going?
+[12:16.000 --> 12:18.000]  How is this going?
+[12:18.000 --> 12:26.000]  How much for one more leak?
+[12:26.000 --> 12:38.000]  So three days in a row and we are getting close to December so waiting for that long three week holidays when I can go back to my home country.
+[12:38.000 --> 12:46.000]  I'm sure you all must have planned your Christmas break holidays, right?
+[12:46.000 --> 12:49.000]  Good.
+[12:49.000 --> 13:01.000]  Okay, so I can see. Hi, Martin. Welcome.
+[13:01.000 --> 13:08.000]  Hello, everyone.
+[13:08.000 --> 13:17.000]  All right. So yeah, it's good to know that some of you turn on your camera in us from thing for it.
+[13:17.000 --> 13:22.000]  That's nice. It makes class more interactive when we can see each other.
+[13:22.000 --> 13:31.000]  For those who haven't turned on, if possible, you can turn it on so that you know we will get to see each other because this is the only time during the week when we get to see each other.
+[13:31.000 --> 13:40.000]  And you'll be happy to know that our class is almost reaching a century mark. We are very close to that.
+[13:40.000 --> 13:43.000]  So we started with about.
+[13:43.000 --> 13:50.000]  Martin, it was around 50 right in the beginning when we started in September.
+[13:50.000 --> 13:53.000]  Around 50.
+[13:53.000 --> 14:01.000]  But there has been a gradual growth in the numbers. We have been getting new students almost every week.
+[14:01.000 --> 14:04.000]  So that shows the success of the program.
+[14:04.000 --> 14:14.000]  And I'm sure that a lot of muscle because of your positive feedback around which really spreads a good word around and the schools then trust us more.
+[14:14.000 --> 14:21.000]  So thank you very much if you have ever given your positive feedback to anybody.
+[14:21.000 --> 14:30.000]  So Pamoja is very happy with the way classes are going and they have shared their appreciation to each one of you who have been attending all the classes.
+[14:30.000 --> 14:38.000]  Like I can see that some of you have attended all nine classes that we have done so far and really commendable.
+[14:38.000 --> 14:41.000]  Having good attendance in Pamoja has always been challenging.
+[14:41.000 --> 14:50.000]  I've taught digital society before and it was always so difficult to get the students because the approach was slightly different there.
+[14:50.000 --> 14:56.000]  It was not content oriented. It was something different about the curriculum, about the assessments.
+[14:56.000 --> 15:04.000]  So students were not so keen to attend those, but this new approach that we have taken together with Martin.
+[15:04.000 --> 15:19.000]  It's really going on well and we feel satisfied that you know that if we are offering something to you, then we should give you enough help and support so that you can succeed in this program.
+[15:19.000 --> 15:30.000]  Not just that in an asynchronous mode where we just post the content on canvas and we wash our hands that, okay, let students do it on their own because it's an online mode of learning.
+[15:30.000 --> 15:41.000]  So that's why we keep saying that those who are missing frequently are actually at a major loss because people cannot gain so much by watching the recording.
+[15:41.000 --> 15:46.000]  And I'm sure that those who are not attending the online classes must also not be watching the recording.
+[15:46.000 --> 15:50.000]  So it's a loss to them that they have registered for a very difficult subject.
+[15:50.000 --> 15:56.000]  Computer science is one of the most difficult subjects in all six groups of IBDP program.
+[15:56.000 --> 16:15.000]  It's even more difficult than math, I would say. Sorry, Martin, if I'm not trying to undermine, you know, the level of difficulty or complexity for any subject, but then computer science is a different kind of subject where you have to apply your knowledge and understanding to solve a given problem, which may be totally unique.
+[16:15.000 --> 16:18.000]  You may have never heard about that kind of problem before.
+[16:18.000 --> 16:32.000]  So unless you spend some time, you may come some efforts to clarify your doubts on the week to week basis, you will see that it will start to become very complex for you going forward.
+[16:32.000 --> 16:45.000]  But if you have been attending the weekly classes and if you are keeping yourself prepared with whatever we are covering each week, then I think it will be not so difficult for you.
+[16:45.000 --> 16:53.000]  The results for computer science are generally very, you know, it goes very low in terms of seven.
+[16:53.000 --> 17:00.000]  So like it generally ranges between 67 to 73 or 74 for a seven, which may look very easy.
+[17:00.000 --> 17:07.000]  If you compare with other subjects, but then getting those 67 to 73 is, it requires a lot of skills.
+[17:07.000 --> 17:11.000]  It's not easy even getting 67 to 73 score to get a seven.
+[17:12.000 --> 17:20.000]  But if you are doing a justification to your own efforts in terms of covering the content and also now that we have started the IA.
+[17:20.000 --> 17:29.000]  So if you continue to learn all those skills for paper, one paper, two and the IA and the case study, I would say it's not difficult.
+[17:29.000 --> 17:36.000]  I mean, if you are planning things in a systematic way in an organized way, it's not very difficult.
+[17:36.000 --> 17:45.000]  We will help you to prepare for the DP exams, which you will take in the month of May, June, 2027.
+[17:45.000 --> 17:47.000]  We will tell you how to prepare yourself.
+[17:47.000 --> 17:53.000]  But those tips will be helpful if you are keeping yourself updated with the weekly content.
+[17:53.000 --> 17:59.000]  So it's our every week we tell you about this, the importance of keeping yourself updated.
+[17:59.000 --> 18:00.000]  So keep doing that.
+[18:00.000 --> 18:07.000]  If you look at the weekly content, we at times it is little too much, but then it's manageable.
+[18:07.000 --> 18:12.000]  I think I mean, theory chapters are manageable if you go through the content week after week.
+[18:12.000 --> 18:16.000]  Martin, you want to add anything?
+[18:16.000 --> 18:18.000]  Yes, I do.
+[18:18.000 --> 18:29.000]  I think that part of the difficulty level is that since part of the, for example, IA is something new creative.
+[18:29.000 --> 18:32.000]  I mean, just solving a real life problem.
+[18:32.000 --> 18:36.000]  That's at a degree of difficulty because it's unknown.
+[18:36.000 --> 18:41.000]  You know, it's not like, I will say, I teach IB math, it's not like math.
+[18:41.000 --> 18:45.000]  You know, you have a certain curriculum, certain things to cover.
+[18:45.000 --> 18:52.000]  And a lot of the concepts that are assessed are concepts that have been assessed in the past.
+[18:52.000 --> 18:57.000]  But for example, for the IA, something completely different that you are creating.
+[18:57.000 --> 19:02.000]  And you have to make sure to get input from from the all the stakeholders.
+[19:02.000 --> 19:06.000]  You have to make sure that your testing is correct.
+[19:06.000 --> 19:10.000]  That has a degree of difficulty that no other subjects have.
+[19:10.000 --> 19:13.000]  You know, so that makes it unique.
+[19:13.000 --> 19:15.000]  All right.
+[19:15.000 --> 19:16.000]  Yeah.
+[19:16.000 --> 19:17.000]  True.
+[19:17.000 --> 19:27.000]  So because in computer science, I mean, although we emphasize that you should use the skills that you learn as a part of IBDP computer science curriculum.
+[19:27.000 --> 19:36.000]  But then you are not restricted to just, you know, to, to those skills, which you are covering as a part of SL or HL course, but some students go beyond that.
+[19:36.000 --> 19:44.000]  So like, for example, if we are learning databases in a certain way and Java programming in a certain way.
+[19:44.000 --> 19:50.000]  There is no reason that why you should go beyond that to explore other platforms for developing your IA.
+[19:50.000 --> 19:58.000]  But then it's completely a student driven project, you know, so if you're keen in developing something where you think that.
+[19:58.000 --> 20:04.000]  The additional skills that you will learn beyond the IB curriculum will be helpful for you in the university applications.
+[20:04.000 --> 20:06.000]  I mean, you're free to do that, right?
+[20:06.000 --> 20:16.000]  But the support in that case would be minimum from our end because not because we cannot help, but it will be too much of.
+[20:16.000 --> 20:19.000]  I mean, because you have chosen some other platform.
+[20:19.000 --> 20:26.000]  So that means we assume that you're already proficient in that or you are willing to spend time to learn them, which is good.
+[20:26.000 --> 20:28.000]  I mean, we appreciate that.
+[20:28.000 --> 20:33.000]  But then if you're stuck at some point, then it will be difficult for us to troubleshoot and see what could be the possible solution.
+[20:33.000 --> 20:39.000]  So we want students in IB to be risk takers, but that should be calculated risk.
+[20:39.000 --> 20:45.000]  I mean, take looking for some new platform, which you don't have any idea about is.
+[20:45.000 --> 20:51.000]  In a way, I mean, it meets the IB learner profile of being risk taker.
+[20:51.000 --> 20:58.000]  But then it may also lead to consequences where you may be left in between where there is no further direction left.
+[20:58.000 --> 21:00.000]  So you have to come back and then restart.
+[21:00.000 --> 21:06.000]  So be very calculated about how much time you have to learn new skills and apply them into the IA.
+[21:06.000 --> 21:13.000]  Because you don't get the score for finding unique ways to solve a problem.
+[21:13.000 --> 21:18.000]  There is no rubric doesn't say that it has to be unique or very fancy tool.
+[21:18.000 --> 21:21.000]  It's just that they have a rubric criteria by criteria.
+[21:21.000 --> 21:29.000]  And as long as you have met the requirements of each criteria, you are good to get even the highest score with just using the tools that you are going to learn from now.
+[21:29.000 --> 21:32.000]  Until November December next year.
+[21:32.000 --> 21:35.000]  So I would say that there are two benefits.
+[21:35.000 --> 21:46.000]  Number one, you can spend the time that you say from IA in your remaining 80% or 70% of curriculum based on whether you are in HL or SL.
+[21:46.000 --> 21:53.000]  So I would say that if in a normal way, if you spend about 32, 40 hours on IA.
+[21:54.000 --> 22:08.000]  Even say let's say 60 hours on IA in a normal way using the skills that you learn is better than spending maybe 100 hours or 120 hours learning new skills and then applying them onto the IA.
+[22:08.000 --> 22:20.000]  Because that additional 40 50 hours that you're spending in the IA, I would prefer using that in your theme A and theme B preparation because that counts 80% and 70%.
+[22:21.000 --> 22:27.000]  And no matter how hard you try, it's it's very easy to get a six in computer science IA.
+[22:27.000 --> 22:30.000]  The only thing is you have to just stick to the basics.
+[22:30.000 --> 22:33.000]  Going from six to seven is little challenging, but you can achieve that.
+[22:33.000 --> 22:39.000]  If you're seriously looking for very high scores in computer science, then you have to make your IA very, very.
+[22:39.000 --> 22:48.000]  You know, it has to be systematic organized meeting all the top level requirements of the grade boundaries or the rubric.
+[22:48.000 --> 22:53.000]  But getting six is okay. I mean, you don't have to spend too much time if you want to get a six in the IA.
+[22:53.000 --> 22:57.000]  It's just that you have to stick to the basics, right?
+[22:57.000 --> 23:08.000]  And the time as I said, if you save over here from the I and if you spend that in theme A and theme B practice, that would help you to get maximum within the remaining 80% and that counts a lot.
+[23:08.000 --> 23:13.000]  I've seen through it scoring four in IA still getting overall a seven.
+[23:13.000 --> 23:17.000]  So I'm not saying that you should aim for four, right?
+[23:17.000 --> 23:24.000]  Minimum you should aim is six because if you just get six in IA and if you get some good score in computer science, paper one and paper two.
+[23:24.000 --> 23:27.000]  There are high chances that you can get a seven, right?
+[23:27.000 --> 23:37.000]  So going from six to seven is really difficult in IA, especially in computer science because they look for perfection in everything that you produce as a part of IA.
+[23:37.000 --> 23:42.000]  So six to seven may require a lot of time and efforts, right?
+[23:42.000 --> 23:53.000]  But keeping yourself six in IA just meeting the basic requirements and then doing best in the paper one and paper two could easily take you to a level of seven in an overall.
+[23:53.000 --> 23:59.000]  So we're just telling you a few combinations here and there because I is just 20% for HL, right?
+[23:59.000 --> 24:02.000]  So there is very marginal difference between six and seven.
+[24:02.000 --> 24:08.000]  It doesn't make much difference when it comes to overall 100% score, including paper one paper to an IA.
+[24:08.000 --> 24:14.000]  So even if you get six here and if you score high in remaining 80%, you can still get very high seven, right?
+[24:14.000 --> 24:21.000]  Even with five in IA, you can still achieve seven overall because 80% is a lot, right?
+[24:21.000 --> 24:25.000]  So it's time it carries four times more weightage than IA.
+[24:25.000 --> 24:37.000]  So obviously instead of spending too much time in IA, I would say just stick to the basics, just meet the rubric requirements, produce a fully functional product, have some good test plan, have some good amount of data in the database.
+[24:37.000 --> 24:40.000]  Show the features that you have built in the in the product.
+[24:40.000 --> 24:43.000]  That should be good enough. I mean, that is what examiners look for.
+[24:43.000 --> 24:54.000]  They know that you're a DP student. You're not a professional software developer that they would expect some real word problem to be solved, which is ready to be used, right?
+[24:54.000 --> 25:06.000]  They know that you have limitations. You have resource limitation. You have time restrictions. So they just want to see that what extent to what extent have you developed the project management skills starting from criteria A to criteria E, which is.
+[25:06.000 --> 25:12.000]  Analyzing the given problem inquiring about the requirements that design phase where you design the solution.
+[25:12.000 --> 25:16.000]  Then you develop the solution you troubleshoot and finally you evaluate the product.
+[25:16.000 --> 25:25.000]  So if you have done enough justice to these four stages of the product development, I think you will be all good to go between six and seven.
+[25:25.000 --> 25:29.000]  But then it requires commitment, right?
+[25:29.000 --> 25:40.000]  Because if you fall behind in any of the criteria, the rest of the class would already have moved to the next criteria and they would be least support available if you're lagging behind.
+[25:40.000 --> 25:43.000]  So we will then leave it on to you that you submit whatever you want to.
+[25:43.000 --> 25:49.000]  So you won't get any feedback for that because once the feedback window is gone, we will be occupied with the next phase.
+[25:49.000 --> 25:55.000]  So we won't be going back and looking at your work. So whatever you submit would be full and final, right?
+[25:55.000 --> 26:05.000]  So this week we have the project proposal and I hope that you all are working on that because if you don't submit the project proposal by this end of this week that is Tuesday.
+[26:05.000 --> 26:13.000]  Next week, Martin and myself will be going through your proposals to give you the feedback whether you can go ahead with that project or not.
+[26:13.000 --> 26:22.000]  And if you don't get your work and then probably we will just say whatever you have decided go ahead with that because we won't be giving the feedback after that.
+[26:22.000 --> 26:29.000]  Only in the exceptional conditions when you have some medical condition or you are busy with.
+[26:29.000 --> 26:34.000]  I mean, even I would not say that you are busy with the school stuff because this is also school stuff.
+[26:34.000 --> 26:40.000]  If you have a summative, if you have an internal test, right? Other subjects don't stop for that.
+[26:40.000 --> 26:45.000]  You have to study all other subjects despite how busy you're in the school.
+[26:45.000 --> 26:52.000]  So just because this is online, you cannot get an excuse for this that because I have so much to do in my regular school that I cannot spend time on computer science.
+[26:52.000 --> 26:59.000]  We are not going to entertain those kind of excuses because this is one of the six subjects that you're studying.
+[26:59.000 --> 27:06.000]  So just like how you spend time in your school for remaining five subjects, you have to keep that much time for computer science also.
+[27:06.000 --> 27:18.000]  But if you have some exceptional issues, then you have to make a request to the side base coordinator near school who will write to us mentioning that you need one or two more weeks of time to complete a work.
+[27:18.000 --> 27:24.000]  Please don't request myself or Martin for an extension because students cannot request.
+[27:24.000 --> 27:34.000]  It's only the SBC whom you have to give a justification and then they will get in touch with us through proper channel and that is recorded.
+[27:35.000 --> 27:42.000]  So we want to make this journey comfortable for you. It's not that we are trying to scare you or you know create trouble.
+[27:42.000 --> 27:46.000]  Yeah, no, no.
+[27:46.000 --> 27:50.000]  Where can they submit the proposal?
+[27:50.000 --> 27:59.000]  That's a very good question. So actually, I'm in touch with the canvas developers who are putting things together in the canvas platform.
+[27:59.000 --> 28:05.000]  So I have already communicated to them most likely on Monday because weekends, they don't work.
+[28:05.000 --> 28:28.000]  Most likely on Monday, you will have a space for uploading the work in case if it doesn't happen by Tuesday, then we will create a SharePoint folder and share that folder with you where you will put it in the PDF format.
+[28:28.000 --> 28:33.000]  Okay. Okay. So in case if it doesn't happen, then we will create a folder.
+[28:33.000 --> 28:37.000]  In fact, the IA work is to be submitted in the SharePoint folder.
+[28:37.000 --> 28:41.000]  Each criteria when you complete, you will put the document in the SharePoint folder.
+[28:41.000 --> 28:49.000]  Besides sharing it on canvas because on canvas, it goes through the turn it in check for the AI and other similarity reports.
+[28:49.000 --> 28:52.000]  That also you have to be careful about.
+[28:52.000 --> 29:03.000]  So that is one place where you will be submitting and then once we give a go ahead signal for any criteria or proposal and once that is finished, then you will also submit it in the SharePoint folder.
+[29:03.000 --> 29:14.000]  So if the upload link is not available by next Tuesday, then we will share that folder with you where you can just put the documents.
+[29:14.000 --> 29:20.000]  And for IA related task for the fairness of everybody, we will not be open to giving any extension.
+[29:20.000 --> 29:22.000]  If the time is gone, it's gone.
+[29:22.000 --> 29:32.000]  It's only for the unit tests or practice tests that you have or the quizzes or the discussion that we can give some relaxation, depending on recommendation from the SVC.
+[29:32.000 --> 29:37.000]  But for IA, we are very clear that nobody will get any extension.
+[29:37.000 --> 29:42.000]  So when there is a deadline, you have to be very mindful about that because it's for the fairness of everybody.
+[29:42.000 --> 29:55.000]  Like if we are giving somebody extension, then those who submitted in times in time, it's injustice to them because they spend time in submitting according to the deadline and then you are getting extension.
+[29:55.000 --> 29:57.000]  So why should they suffer?
+[29:57.000 --> 30:03.000]  So for that reason, anything which is to be assessed by the IB, that we will not give any further extension.
+[30:03.000 --> 30:05.000]  So if it's gone, it's gone.
+[30:05.000 --> 30:11.000]  Then when you submit, you don't get any feedback that that is taken as your final submission, right?
+[30:11.000 --> 30:12.000]  All right.
+[30:12.000 --> 30:21.000]  So does anyone have any other question?
+[30:21.000 --> 30:22.000]  Okay.
+[30:22.000 --> 30:33.000]  So you can ask questions when we will talk about IA because we have a part of today's lecture when we'll talk more about this upcoming assignment and also going forward how we are going to deal with different criteria.
+[30:33.000 --> 30:36.000]  So today we have a couple of things planned.
+[30:36.000 --> 30:40.000]  One is section B.1.2.
+[30:40.000 --> 30:42.000]  Last time we covered B1.1.1.
+[30:42.000 --> 30:49.000]  So this time we are going to cover B1.1.2 to B1.1.4.
+[30:49.000 --> 30:53.000]  So let me first open the subject guide.
+[30:53.000 --> 31:05.000]  I always focus on the subject guide because that is the main document which actually guides us how to proceed with the coverage of curriculum.
+[31:05.000 --> 31:10.000]  You may have the hatchup application or OUP book that is good as a resource.
+[31:10.000 --> 31:13.000]  You have Pamoja content and we are also week by week.
+[31:13.000 --> 31:15.000]  We are developing some additional content.
+[31:15.000 --> 31:17.000]  So those are all additional resources.
+[31:17.000 --> 31:23.000]  But the main document that we always refer to is the IB subject guide.
+[31:23.000 --> 31:28.000]  So let's have a look at this before we begin with the two other sections.
+[31:28.000 --> 31:29.000]  Okay.
+[31:29.000 --> 31:31.000]  So I'm sharing my screen.
+[31:36.000 --> 31:38.000]  So here is the subject guide.
+[31:38.000 --> 31:43.000]  Let's jump to section B1.1.2.
+[31:43.000 --> 31:44.000]  Okay.
+[31:44.000 --> 31:47.000]  Now last time we covered.
+[31:47.000 --> 31:49.000]  Martin is my screen visible.
+[31:49.000 --> 31:50.000]  Yes.
+[31:50.000 --> 31:51.000]  Okay.
+[31:51.000 --> 32:04.000]  So last time we covered that construct a problem specification as to how do we construct a problem specification and that is all about understanding the problem because unless you understand the problem you can never make a solution for that.
+[32:04.000 --> 32:11.000]  We had a short what you call it breakout room session where you may have discussed with each other.
+[32:11.000 --> 32:13.000]  So let's begin with that.
+[32:13.000 --> 32:20.000]  So let's have a quick reflection on last week's activity based on whichever room you were in.
+[32:20.000 --> 32:22.000]  I think how many rooms did we have Martin?
+[32:22.000 --> 32:25.000]  We have five rooms last time.
+[32:25.000 --> 32:26.000]  Okay.
+[32:26.000 --> 32:27.000]  Four rooms.
+[32:27.000 --> 32:28.000]  Four rooms.
+[32:28.000 --> 32:29.000]  Four rooms.
+[32:29.000 --> 32:31.000]  We were about like five students per room.
+[32:31.000 --> 32:32.000]  Okay.
+[32:32.000 --> 32:36.000]  So let's begin with the room number five.
+[32:36.000 --> 32:38.000]  Sorry for room number four.
+[32:38.000 --> 32:39.000]  Anybody.
+[32:39.000 --> 32:41.000]  Anyone from room number four.
+[32:41.000 --> 32:46.000]  Could you just share quickly in two minutes as to what was discussed?
+[32:46.000 --> 32:53.000]  What problem area that you chose and what was the outcome from your discussion?
+[32:53.000 --> 32:54.000]  Group number four.
+[32:54.000 --> 32:57.000]  Martin, you noted down the names, right?
+[32:57.000 --> 32:58.000]  Yeah.
+[32:58.000 --> 33:02.000]  I know Benjamin was in group four.
+[33:02.000 --> 33:03.000]  So was.
+[33:03.000 --> 33:04.000]  Okay.
+[33:04.000 --> 33:05.000]  Okay.
+[33:05.000 --> 33:06.000]  So.
+[33:06.000 --> 33:07.000]  Benjamin.
+[33:07.000 --> 33:09.000]  So Benjamin is here.
+[33:09.000 --> 33:16.000]  Benjamin, could you take the lead?
+[33:16.000 --> 33:17.000]  Is.
+[33:17.000 --> 33:22.000]  In the meantime, I'll share the attendance sheet also with you.
+[33:22.000 --> 33:23.000]  Let me see.
+[33:23.000 --> 33:27.000]  Is anyone there from group four?
+[33:27.000 --> 33:28.000]  Yeah.
+[33:28.000 --> 33:29.000]  Mambi is here.
+[33:29.000 --> 33:30.000]  Mambi.
+[33:30.000 --> 33:31.000]  It can be very brief.
+[33:31.000 --> 33:33.000]  I mean, we don't want you to be going.
+[33:33.000 --> 33:34.000]  Yeah.
+[33:34.000 --> 33:36.000]  I mean, we don't need a complete answer.
+[33:36.000 --> 33:37.000]  Yeah.
+[33:37.000 --> 33:40.000]  And we just want to know the interaction that you guys have.
+[33:40.000 --> 33:41.000]  I'm on.
+[33:41.000 --> 33:47.000]  Because I think that that's something we want to incorporate more into our lessons.
+[33:47.000 --> 33:48.000]  Yeah.
+[33:48.000 --> 33:53.000]  We want to give you time to discuss with each other in the breakout rooms.
+[33:53.000 --> 33:56.000]  Doing like among the four of us.
+[33:56.000 --> 34:01.000]  There was only another person I could talk to, I guess, because of technical problems.
+[34:01.000 --> 34:02.000]  Yeah.
+[34:02.000 --> 34:08.000]  And we were just trying to discuss which problem we could focus on.
+[34:08.000 --> 34:11.000]  Based on what we knew about.
+[34:11.000 --> 34:15.000]  So we chose, I think it was the something like.
+[34:15.000 --> 34:20.000]  The writing one, I forgot the problem, but we were discussing how we could solve that.
+[34:20.000 --> 34:22.000]  We just started that.
+[34:22.000 --> 34:24.000]  Okay.
+[34:24.000 --> 34:26.000]  Martin, what was that problem?
+[34:26.000 --> 34:28.000]  Could you recall from the document?
+[34:28.000 --> 34:29.000]  Yes.
+[34:29.000 --> 34:35.000]  That was the, I believe that was the, you know, one second.
+[34:35.000 --> 34:39.000]  Was the student often, I'm going to put it on the chat.
+[34:39.000 --> 34:40.000]  Yes, sure.
+[34:40.000 --> 34:41.000]  You can read it.
+[34:41.000 --> 34:45.000]  Also, I mean, I have shared the chat in the chat, the attendance link.
+[34:45.000 --> 34:47.000]  So if you could go there and mark your attendance.
+[34:47.000 --> 34:50.000]  So we have total 23 students today.
+[34:50.000 --> 34:52.000]  So if you could go.
+[34:52.000 --> 34:57.000]  That's the, that was the problem that everybody was.
+[34:57.000 --> 34:58.000]  Give it.
+[34:58.000 --> 34:59.000]  Okay.
+[34:59.000 --> 35:02.000]  Yeah.
+[35:02.000 --> 35:03.000]  Right.
+[35:03.000 --> 35:10.000]  So it was about a time management app where the students are able to manage multiple assignments.
+[35:10.000 --> 35:13.000]  Based on the priority and other factors.
+[35:13.000 --> 35:17.000]  So this was one of the problem statements.
+[35:17.000 --> 35:19.000]  So please first finish the attendance.
+[35:19.000 --> 35:23.000]  Maybe 30 seconds for you to go to the link of attendance and market.
+[35:23.000 --> 35:28.000]  And then we will discuss briefly about this particular.
+[35:28.000 --> 35:31.000]  Yeah, Namo, please ask.
+[35:31.000 --> 35:34.000]  So I wasn't here last week.
+[35:34.000 --> 35:36.000]  Yeah, that's fine.
+[35:36.000 --> 35:37.000]  That's fine.
+[35:37.000 --> 35:41.000]  So last week we discussed just about the identifying the problem.
+[35:41.000 --> 35:45.000]  So that you can, once you have a good understanding of what the problem is,
+[35:45.000 --> 35:48.000]  then you can basically think about the possible solution.
+[35:48.000 --> 35:52.000]  So we, it's, it's a failed initiative or attempt.
+[35:52.000 --> 35:55.000]  If you don't spend too much time in understanding the problem, that was,
+[35:55.000 --> 35:58.000]  that is what we emphasize upon last week.
+[35:58.000 --> 36:02.000]  So since we, we have started the working on the IA.
+[36:02.000 --> 36:05.000]  The very first step is to think about the problems.
+[36:05.000 --> 36:08.000]  Let me took a few examples last week.
+[36:08.000 --> 36:13.000]  To look at the problem from many different.
+[36:13.000 --> 36:18.000]  You know, from many different angles, because every angle could be useful.
+[36:18.000 --> 36:22.000]  So if you don't understand the problem properly, then probably you may end up making a solution,
+[36:22.000 --> 36:26.000]  which may not completely meet customers requirements.
+[36:26.000 --> 36:29.000]  And if that is the case, then they will come back to you saying that,
+[36:29.000 --> 36:32.000]  oh, you made a software, but it's not doing this, that, this, that.
+[36:32.000 --> 36:36.000]  The amount of time in the beginning and listing down what all features you want to have in the application.
+[36:36.000 --> 36:45.000]  And taking approval from the client is always beneficial.
+[36:45.000 --> 36:48.000]  All right, so yeah, Martin has shared that file also.
+[36:48.000 --> 36:53.000]  So, man, we could you please now recall what was discussed within your group,
+[36:53.000 --> 36:58.000]  with regard to this particular problem.
+[36:58.000 --> 37:03.000]  Like if this is a problem like students often struggle to manage multiple assignments,
+[37:03.000 --> 37:06.000]  leading to miss deadlines and disorganization.
+[37:06.000 --> 37:08.000]  So this is a problem statement.
+[37:08.000 --> 37:14.000]  A program that helps prioritize and schedule task based on urgency and due dates can improve the time management.
+[37:14.000 --> 37:16.000]  So let's have a quick open discussion.
+[37:16.000 --> 37:20.000]  Feel free to take part in it, right, whether you were part of group four or not.
+[37:20.000 --> 37:25.000]  What factors would you consider when you are developing a solution for this?
+[37:25.000 --> 37:30.000]  What are the primary factors that you would look at in order to create a solution,
+[37:30.000 --> 37:36.000]  which will guide the students with the time management for the upcoming assignments?
+[37:36.000 --> 37:43.000]  Tell me once we can take one factor, so let's rotate from one another, one to another.
+[37:43.000 --> 37:48.000]  What's the most important thing that you will take into account while developing this solution?
+[37:48.000 --> 37:53.000]  Being able to see like the when the task is to you.
+[37:53.000 --> 37:57.000]  So the very first thing is that every assignment comes with a deadline.
+[37:57.000 --> 38:05.000]  So you would be mindful about the task ID, task name and what is the deadline for that, right?
+[38:05.000 --> 38:06.000]  For perfect.
+[38:06.000 --> 38:09.000]  What other things that you will take into account?
+[38:09.000 --> 38:11.000]  Priority of tasks.
+[38:11.000 --> 38:12.000]  Okay, very, very good.
+[38:12.000 --> 38:14.000]  The priority of task.
+[38:14.000 --> 38:21.000]  Like for example, which task is kind of in terms of priority, can we say that this task is optional?
+[38:21.000 --> 38:23.000]  And this task is mandatory.
+[38:23.000 --> 38:27.000]  Will that be part of being priority?
+[38:27.000 --> 38:33.000]  I think all tests should be mandatory, but I have priorities.
+[38:33.000 --> 38:35.000]  Fine, all task has to be mandatory.
+[38:35.000 --> 38:37.000]  Fine, so how would you define priority?
+[38:37.000 --> 38:39.000]  How will you set the priority level?
+[38:39.000 --> 38:42.000]  Let's say you have three tasks coming up on 20th of November.
+[38:42.000 --> 38:44.000]  The deadline is 28th of November.
+[38:44.000 --> 38:50.000]  Which task would you consider more prioritized over the others?
+[38:50.000 --> 38:56.000]  One factor in my case, do you think the earliest has the most priority?
+[38:56.000 --> 39:02.000]  No, so every task is due on 28th November, all three tasks.
+[39:02.000 --> 39:04.000]  So how will you prioritize?
+[39:04.000 --> 39:09.000]  Because if you set the deadline for each task, system will automatically set the priority.
+[39:09.000 --> 39:12.000]  You can generate a report in the ascending order of dates.
+[39:12.000 --> 39:15.000]  So you don't have to separately say what is the priority, right?
+[39:15.000 --> 39:17.000]  That will be automatically done by the computer.
+[39:18.000 --> 39:22.000]  But if you have tasks coming up on the same day, how will you set the priority?
+[39:22.000 --> 39:24.000]  Okay, Sarah.
+[39:24.000 --> 39:28.000]  Could say if it was a formative or a summative?
+[39:28.000 --> 39:29.000]  Perfect.
+[39:29.000 --> 39:34.000]  So based on the formative and summative, you may set that you need to spend more time on.
+[39:34.000 --> 39:37.000]  The system will prompt that, okay, you have a math.
+[39:37.000 --> 39:40.000]  AI summative coming up on 28th November.
+[39:40.000 --> 39:43.000]  And on the same day, you also have a psychology of formative assessment,
+[39:43.000 --> 39:46.000]  which will be a class quiz, right?
+[39:46.000 --> 39:49.000]  So probably your system will say that, okay,
+[39:49.000 --> 39:53.000]  you should be spending more time on preparing yourself for the math,
+[39:53.000 --> 39:57.000]  AI summative test as compared to the quiz, right?
+[39:57.000 --> 40:01.000]  Because that score will be counted towards your grade,
+[40:01.000 --> 40:04.000]  which may contribute to the predicted grades, right?
+[40:04.000 --> 40:06.000]  Okay, so you will set the priority.
+[40:06.000 --> 40:10.000]  What other factors that you will take into account while setting up the priority list
+[40:10.000 --> 40:13.000]  or not priority in general with regard to solving this problem?
+[40:13.000 --> 40:15.000]  So priority is one timeline is one.
+[40:15.000 --> 40:16.000]  What else?
+[40:16.000 --> 40:20.000]  Priority secret also in comp and compass,
+[40:20.000 --> 40:24.000]  HL subjects, the core subjects for a student,
+[40:24.000 --> 40:29.000]  because these are the ones that they want to focus upon.
+[40:29.000 --> 40:32.000]  So it's higher priority.
+[40:32.000 --> 40:35.000]  So do you mean to, okay, so you say that,
+[40:35.000 --> 40:38.000]  if it is a HL specific assignment,
+[40:38.000 --> 40:41.000]  you will give more priority as compared to SL.
+[40:41.000 --> 40:43.000]  Is that what you said?
+[40:43.000 --> 40:49.000]  If the student selects a particular subject for themselves,
+[40:49.000 --> 40:53.000]  to be that he wants to concentrate upon.
+[40:53.000 --> 41:01.000]  So these subjects are usually have higher priority for students.
+[41:01.000 --> 41:05.000]  Okay, so can we say that a student who is struggling in some subject?
+[41:05.000 --> 41:08.000]  They will set that to be on the higher priority,
+[41:08.000 --> 41:13.000]  because even though the deadline is same for all other subjects or all other assignments,
+[41:13.000 --> 41:16.000]  but they need to spend more time on the subject where they are struggling.
+[41:16.000 --> 41:18.000]  So they will put that on the higher priority, right?
+[41:18.000 --> 41:21.000]  Irrespective of whether it is SL or HL.
+[41:21.000 --> 41:25.000]  Because they may think that, okay, I love my English language and literature course.
+[41:25.000 --> 41:26.000]  I can do that in one day.
+[41:26.000 --> 41:29.000]  So let it be pushed for a later date.
+[41:29.000 --> 41:33.000]  I can, even if I start on 18th, I can submit it on 20th.
+[41:33.000 --> 41:37.000]  But for math, HL, I need more time because I need to learn and then I have to prepare.
+[41:37.000 --> 41:39.000]  So I will set that on the higher priority, right?
+[41:39.000 --> 41:40.000]  Yeah.
+[41:40.000 --> 41:41.000]  Fine.
+[41:41.000 --> 41:42.000]  Who else?
+[41:42.000 --> 41:43.000]  Me too.
+[41:43.000 --> 41:48.000]  Yeah, I don't know if it was said or not,
+[41:48.000 --> 41:50.000]  because I have a pretty laggy connection,
+[41:50.000 --> 41:53.000]  but the difficulty of the actual task and the length of the actual task.
+[41:53.000 --> 41:55.000]  So maybe we have concurrent tasks.
+[41:55.000 --> 41:58.000]  So something started together on the same day.
+[41:58.000 --> 42:02.000]  But a longer task would need to have a higher priority.
+[42:02.000 --> 42:04.000]  So we could also have this as a minute.
+[42:04.000 --> 42:05.000]  Absolutely.
+[42:05.000 --> 42:06.000]  Absolutely.
+[42:06.000 --> 42:09.000]  So that is a very good input that depending on how much time you have to spend,
+[42:09.000 --> 42:13.000]  you have to spread your work from this date until the final submission.
+[42:13.000 --> 42:16.000]  And some of them may require more time as compared to the others.
+[42:16.000 --> 42:20.000]  So obviously you will give more priority to the task that requires higher amount of time.
+[42:20.000 --> 42:24.000]  Requirements as compared to those which can be covered maybe just in an R.
+[42:24.000 --> 42:26.000]  It can be other way around also.
+[42:26.000 --> 42:28.000]  I mean, that's where the perspective come.
+[42:28.000 --> 42:33.000]  And that is where you want to check with the client that what would they prefer?
+[42:33.000 --> 42:37.000]  Because I would say that if I if I have 20 deadlines coming up in the next one month,
+[42:37.000 --> 42:42.000]  I would like to do away with the smaller tasks so that my list is reduced.
+[42:42.000 --> 42:47.000]  And then I can focus fully on the remaining tasks where which requires more amount of time.
+[42:47.000 --> 42:50.000]  So there may be six or seven, which may just require an hour's effort.
+[42:50.000 --> 42:54.000]  So I will finish that so that my checklist goes smaller, right.
+[42:54.000 --> 42:58.000]  But it could be other way around that I can leave the smaller task for the last moment.
+[42:58.000 --> 43:00.000]  And I can finish the other ones, right.
+[43:00.000 --> 43:05.000]  So there could be when you're making a decision, there could be points where you may not take a call.
+[43:05.000 --> 43:13.000]  You will have to have clients discretion as to how they would like to have that organized, right.
+[43:13.000 --> 43:18.000]  And all this needs to be covered during the inquiring and analyzing stage of the product development.
+[43:18.000 --> 43:25.000]  You have to try and find out maximum possible options which are required to be added.
+[43:25.000 --> 43:33.000]  So let's do away with the priority. Now what's the next thing that you would consider in solving this problem?
+[43:33.000 --> 43:43.000]  Time and priority is done. What are the other factors?
+[43:44.000 --> 43:49.000]  Scheduling, scheduling itself, scheduling the task appropriately.
+[43:49.000 --> 43:54.000]  So the workload is not exceeded particular limits in a day.
+[43:54.000 --> 43:57.000]  Yeah, so that could be a validation.
+[43:57.000 --> 44:06.000]  That could be a validation as to how many assignments would you like to have on each day, right.
+[44:06.000 --> 44:12.000]  So quite recently, I mean, as the coordinator in my school for diploma program.
+[44:12.000 --> 44:17.000]  There was always a big conflict between the number of assignments the students were getting.
+[44:17.000 --> 44:22.000]  Each day, because even though we use manage back then, but it is subject specific.
+[44:22.000 --> 44:27.000]  So we were not getting a real view of what the students engagement level is.
+[44:27.000 --> 44:34.000]  So I came up with a solution, you know, to develop something, not a very difficult project, but a small.
+[44:34.000 --> 44:38.000]  I mean, just using the features of spreadsheet to come up with a calendar.
+[44:38.000 --> 44:44.000]  So let me load that in the meanwhile Martin, if you could just continue the conversation.
+[44:44.000 --> 44:56.000]  Sure. I was going to say, for example, that a factor that is important to take into account is your own or this to an ability to for certain subjects.
+[44:56.000 --> 45:01.000]  So the application is to be in a way, developing a way that.
+[45:01.000 --> 45:06.000]  For me, as a user can customize the priority level.
+[45:06.000 --> 45:18.000]  And not only the priority level, but be able to manage or change as I advance on completing certain tasks, right.
+[45:18.000 --> 45:27.000]  Because I have to be able to it cannot be something that is a state in stone, because I can probably schedule a task for a day.
+[45:27.000 --> 45:36.000]  And my ability allow me to finish it in an hour, right. So now I have some free time that I can adjust that.
+[45:36.000 --> 45:42.000]  My scheduling and the priority to change the priorities of the different tasks that I need to perform.
+[45:42.000 --> 45:56.000]  Now, the main user is the student, correct, but who are the stakeholders in developing this particular application? Can anybody help us with that?
+[45:57.000 --> 46:10.000]  I think that teachers should be also able to add deadlines.
+[46:10.000 --> 46:18.000]  If you want to give a dashboard to the teacher so that they can set up deadlines for each task, right.
+[46:18.000 --> 46:21.000]  Yes, for students in their class.
+[46:21.000 --> 46:28.000]  Yeah, absolutely. Yes. So that's what kind of requirement. So there's a real word example, which I would like to show you.
+[46:28.000 --> 46:38.000]  So we had a similar problem in our school that the we were not able to see on a common window as to how much task students will have for each day of the week.
+[46:38.000 --> 46:43.000]  So I came up with the idea of developing something or calendar, something like this.
+[46:43.000 --> 46:55.000]  So as you can see in this screen, I created a I created a sheet for the teachers as a master sheet where they would put up the deadline for submissions, right.
+[46:55.000 --> 47:09.000]  So this is the master sheet for the teachers where subject wise, they will just put the dates of submissions and these dates will automatically go into the respective calendar, for example here.
+[47:09.000 --> 47:12.000]  So it will keep the current date highlighted, which is automated.
+[47:12.000 --> 47:18.000]  And then taking from that master sheet, it will automatically bring it over here, right.
+[47:18.000 --> 47:24.000]  So so for example, let's see a 13th is econ assessment one, right.
+[47:24.000 --> 47:33.000]  So if they change over here to 14th, for example, where is it gone?
+[47:34.000 --> 47:41.000]  So econ is 13th and if I change this to let's say 14 November.
+[47:41.000 --> 47:49.000]  So when we go back to the main sheet, so you can see here that it has come automatically here on 14 November, right.
+[47:49.000 --> 48:02.000]  Now we shared this with the students so that they have a check on the upcoming deadlines and then looking at this, they can then prioritize because on 21st, let's say they have assessments for psychology, they have ESS assessment, they have Burmese literature assessment.
+[48:02.000 --> 48:08.000]  And they have schools self study taught SL assessment, so they can choose which one they want to select, right.
+[48:08.000 --> 48:11.000]  And these things would come only when the problem appears.
+[48:11.000 --> 48:20.000]  So when I saw that there's a problem, I thought that maybe I can develop a calendar like this, where students will be able to see their upcoming deadlines and then they can plan their work accordingly.
+[48:20.000 --> 48:30.000]  And this also helped me, there's a validation that as soon as for a student, if the number of assessment goes beyond three, then it prompts the teacher that it cannot be here.
+[48:30.000 --> 48:44.000]  You may see a lot of assessments, but then you see this is math AISL math AHL math AHL so these, this means these are not three, but this is just one because one student will have only one of them, right.
+[48:44.000 --> 48:51.000]  And then Spanish and Burmese, there will be only one of them and SST A, there will be only one so maximum will be three.
+[48:51.000 --> 48:59.000]  So those validation rules have been set up in the system so that the students are not over well with too many assignments.
+[48:59.000 --> 49:14.000]  Now these, this is what we have been talking about. So problem statement is basically understanding the problems surrounding you and finding a solution so that the students are able, I mean, so that the solution can be developed in order to meet that problem in a more systematic way using technology.
+[49:14.000 --> 49:17.000]  And that's a very, very important stage, right.
+[49:17.000 --> 49:29.000]  If I just created a calendar without taking into account that each day students should not have more than three major tasks, then that would be a failure because even though system may be working, but then the client will say what's the, what's the objective.
+[49:29.000 --> 49:44.000]  If the system is allowing to have more than three assignments on a single day, so then the purpose is not met. So as a software developer, you have to be very minutely looking at the problem statement in the sense that think about all possible permutations and combinations, right.
+[49:44.000 --> 49:57.000]  And when you see that, then you get a better way of developing a solution, which is meeting all the constraints, all the requirements. If you miss on something, it's going to be difficult to add them at a later stage, right.
+[49:57.000 --> 50:12.000]  So that's what we discussed last time. I know that all of group three quickly, can you talk about your problem statement, what was it.
+[50:12.000 --> 50:17.000]  Group three, any volunteer.
+[50:17.000 --> 50:21.000]  So group three, I can tell you who was in group three.
+[50:21.000 --> 50:23.000]  Yeah.
+[50:23.000 --> 50:35.000]  From Renzo, Alma, Sophia, and Julia, we're in the in group three.
+[50:35.000 --> 50:39.000]  Oh, thank you.
+[50:39.000 --> 50:52.000]  Well, actually, we've mostly been discussing, there were some connection issues and we barely started the discussion.
+[50:52.000 --> 51:00.000]  I think we focused on the first one.
+[51:00.000 --> 51:06.000]  I'm not safe.
+[51:06.000 --> 51:17.000]  So we're mostly having a discussion, we are recounted real world, real world scenarios were so similar, similar solutions were implemented.
+[51:17.000 --> 51:29.000]  And we were sharing our experience as to how the, I don't remember how particular tasks can be approached.
+[51:29.000 --> 51:33.000]  Yes.
+[51:33.000 --> 51:36.000]  Okay. How task can be approached fine. All right.
+[51:36.000 --> 51:43.000]  So what was the outcome of your discussion? If you have to summarize.
+[51:43.000 --> 51:50.000]  I think we haven't assigned any role. So it was quite a haptic discussion, which is fine. Yeah.
+[51:50.000 --> 51:59.000]  So because we had very limited time, we realized that we closed the room because of the, because of the limitation of the time.
+[51:59.000 --> 52:12.000]  But in the future classes, we will plan some good, good amount of time, maybe 10 minutes or 15 minutes for you to be staying in the breakout rooms and then have a thorough discussion and then prepare a reflection, which you will bring for sharing.
+[52:12.000 --> 52:16.000]  Eugenia, yeah, please.
+[52:16.000 --> 52:21.000]  In the breakout room, we discussed things we could have added to the outcome.
+[52:21.000 --> 52:29.000]  So we talked about small aspects, we could input into our final products in order to solve the issue.
+[52:29.000 --> 52:31.000]  Right. Okay.
+[52:31.000 --> 52:37.000]  Fine. So what is the significance of this task that we did last week?
+[52:37.000 --> 52:44.000]  What do you think it is going to be helpful in your IA?
+[52:44.000 --> 52:50.000]  And not just the IA, but even for theme B, when we'll start theme B, it is all about solving the given problem. Right.
+[52:50.000 --> 52:58.000]  So how is this problem specification going to be helpful? Sorry, I interrupted somebody started speaking. Please go ahead.
+[52:58.000 --> 53:08.000]  Okay. So it is, as you said, you apply your knowledge to a practical situation, which is exactly what I is.
+[53:08.000 --> 53:18.000]  And I think being able to voice her opinions is a very, very great way to make sure you're actually capable of applying your knowledge.
+[53:18.000 --> 53:21.000]  Right. Okay. Fine.
+[53:21.000 --> 53:37.000]  Now, just before we move to the next section, would anybody like to share the initial work that they have done in terms of IA proposal, which we will try and connect with the problem statement to show the real significance of what we are doing and why we are doing.
+[53:37.000 --> 53:41.000]  Anyone would like to share. Okay.
+[53:41.000 --> 53:45.000]  Please go ahead.
+[53:45.000 --> 53:49.000]  I mean, I just filled in.
+[53:49.000 --> 53:56.000]  So can you share the document and do you have the share rights?
+[53:56.000 --> 53:58.000]  What's your email?
+[53:58.000 --> 54:04.000]  No, not email. You can just share your screen. Go to the share option up there.
+[54:04.000 --> 54:07.000]  Right.
+[54:07.000 --> 54:10.000]  Do you see the share option?
+[54:10.000 --> 54:12.000]  Yes.
+[54:12.000 --> 54:16.000]  Yeah. Yeah. Just open the Google Doc and open your document.
+[54:16.000 --> 54:23.000]  It will be helpful for us to stay on track. Just in case if there is any misalignment from what we are expected to do.
+[54:23.000 --> 54:28.000]  Okay. So tell us about your project.
+[54:28.000 --> 54:34.000]  Right. So this is kind of a niche product.
+[54:34.000 --> 54:41.000]  But essentially, I realized that.
+[54:41.000 --> 54:49.000]  Your voice is not clear.
+[54:49.000 --> 55:01.000]  Maybe it was because you shared your screen or something, I don't know.
+[55:01.000 --> 55:02.000]  Is it better?
+[55:02.000 --> 55:04.000]  Yeah, it's a better.
+[55:04.000 --> 55:07.000]  Okay. So essentially.
+[55:07.000 --> 55:18.000]  I noticed like an increase of people wanting to rely less on like big tech companies like Google and Microsoft and touch.
+[55:18.000 --> 55:28.000]  But the issue is that they have a lot of cloud services that are really helpful.
+[55:28.000 --> 55:35.000]  I don't know. It's not clear. I'm riddled. Is it just for me or anybody else not able to hear?
+[55:35.000 --> 55:37.000]  It's hard to hear.
+[55:37.000 --> 55:39.000]  Yeah, it's hard to hear.
+[55:39.000 --> 55:44.000]  The same for me.
+[55:44.000 --> 55:46.000]  Okay, I'm ready to do one thing.
+[55:46.000 --> 55:52.000]  First, you scroll through the document so that we very quickly read it and then you can unshare and talk about it.
+[55:52.000 --> 55:54.000]  I think it is something to do with the sharing.
+[55:54.000 --> 55:58.000]  So just share your screen again. You don't have to talk while you're sharing.
+[55:58.000 --> 56:07.000]  Let's go through the document quickly.
+[56:07.000 --> 56:11.000]  Okay. Wait, not so fast. Not so fast.
+[56:11.000 --> 56:13.000]  Okay, so fine.
+[56:13.000 --> 56:17.000]  So your title of the project is Docker composer.
+[56:17.000 --> 56:19.000]  What interests you to choose this project?
+[56:19.000 --> 56:21.000]  Three hate for tech company.
+[56:21.000 --> 56:22.000]  What's that?
+[56:22.000 --> 56:29.000]  T hate for tech companies that exploit the customer for profit.
+[56:29.000 --> 56:31.000]  Okay, who is the intended user?
+[56:31.000 --> 56:34.000]  Someone trying to get into self hosting.
+[56:34.000 --> 56:36.000]  Provide.
+[56:36.000 --> 56:45.000]  Where's the product going? What is the program? Provide one click solution to deploy a home lab while being modular and customizable.
+[56:45.000 --> 56:48.000]  Program is python and backend is Docker.
+[56:48.000 --> 56:55.000]  Okay. Now, just before you talk about it, students, I would like to hear from you.
+[56:55.000 --> 56:59.000]  What are your views with regard to the problem specification that is given here?
+[56:59.000 --> 57:04.000]  Does it have enough details for you to really understand the nature of project?
+[57:04.000 --> 57:07.000]  It is not, you know, it's not a feedback.
+[57:07.000 --> 57:17.000]  It is just that we are trying to give you enough information so that your first submission itself should have enough information for us to provide you with meaningful feedback.
+[57:17.000 --> 57:20.000]  Right. Now, you have certain ideas in mind.
+[57:20.000 --> 57:23.000]  You are very clear with what you are trying to do.
+[57:23.000 --> 57:31.000]  But when you are submitting it for the feedback, we also need to have similar kind of idea that you have developed within your brain, right?
+[57:31.000 --> 57:36.000]  And for that, you have to explain it to us in such a way that we know nothing about this system.
+[57:36.000 --> 57:43.000]  So there has to be more explanation about each part for you to explain to us that what is the purpose of this project?
+[57:43.000 --> 57:48.000]  What it is doing? Who are the stakeholders and what objectives you have from this project? Right.
+[57:48.000 --> 57:54.000]  So what are your views? Like you just looked at marital, which is still draft. I know it's not a final thing.
+[57:54.000 --> 57:58.000]  But what suggestions would you give to marital?
+[57:58.000 --> 58:01.000]  Anyone?
+[58:01.000 --> 58:05.000]  And this is what is the purpose of the discussion this week.
+[58:05.000 --> 58:08.000]  We have started. We have put a new discussion in week eight.
+[58:08.000 --> 58:14.000]  Sorry, week nine, where you are going to discuss with each other as to what your project idea is and.
+[58:14.000 --> 58:20.000]  So what are the strengths and weaknesses that you find as a peer? Yes, sorry, please go ahead.
+[58:20.000 --> 58:27.000]  Yes, personally, I didn't really understand the problem perhaps in its fullest.
+[58:27.000 --> 58:38.000]  So the self interest is as far as understood the hate speech right in regard to the tech companies, big tech companies.
+[58:38.000 --> 58:44.000]  The problem I think it's not really clear perhaps.
+[58:44.000 --> 58:46.000]  Yeah.
+[58:46.000 --> 58:51.000]  Yes, maybe it can be elaborated upon so that.
+[58:51.000 --> 58:53.000]  I'm sure.
+[58:53.000 --> 58:56.000]  And the intention overall intentions.
+[58:56.000 --> 59:03.000]  Yeah, absolutely. And I'm sure Miraduley is still working on it and he was he just showed it to us as a sample.
+[59:03.000 --> 59:12.000]  It needs to be very clearly defined here for us to go through it and provide you with some feedback as to whether you should go ahead with it or you should make some changes.
+[59:12.000 --> 59:22.000]  And when you're taking a topic like this, which involves big companies like Google or Microsoft, please be little mindful that you should not end up.
+[59:22.000 --> 59:31.000]  Saying something about them, which may be subjective because when the moderators will get your project for marking, they may not agree with your point of view.
+[59:31.000 --> 59:42.000]  So even if you have some companies name in mind, please don't put them into the written document, just make a generic product that this is about some company, which.
+[59:42.000 --> 59:53.000]  Which I have read in some articles is following this kind of practices and my application would be helpful in determining those shortcomings, right.
+[59:53.000 --> 59:58.000]  So, so keep it open and there, rather than naming some specific companies, right.
+[59:58.000 --> 01:00:02.000]  Anyone else if you can.
+[01:00:02.000 --> 01:00:07.000]  Yeah, no, please go ahead. I said, yes, sure.
+[01:00:07.000 --> 01:00:16.000]  I said, you may leave, but don't forget to watch the recording later because we'll be we are going to discuss some important stuff today.
+[01:00:16.000 --> 01:00:30.000]  I hope you all have marked your attendance. I see 24 22 students. So please mark your attendance. If not already done, I'm again pasting the link to the attendance.
+[01:00:30.000 --> 01:00:35.000]  Namu, please go ahead. So I share my screen. Yeah, sure.
+[01:00:46.000 --> 01:00:55.000]  And how do I share my screen?
+[01:00:55.000 --> 01:01:04.000]  There's a share option on the top right just before leave button. Click on that and then select your whole screen.
+[01:01:04.000 --> 01:01:19.000]  On the right. So there's an option called entire screen select that and then click on the window and then share.
+[01:01:19.000 --> 01:01:26.000]  What do you see when you click on share share on this is a camera options.
+[01:01:26.000 --> 01:01:29.000]  Yeah, next.
+[01:01:29.000 --> 01:01:38.000]  Left to the left or the camera icon. Click on on and not a drop down menu, but click on the actual icon share.
+[01:01:38.000 --> 01:01:41.000]  Yes.
+[01:01:41.000 --> 01:01:49.000]  And then select entire screen and then click on that screen, which appears and then share button will be active.
+[01:01:49.000 --> 01:01:55.000]  Okay.
+[01:01:55.000 --> 01:02:05.000]  So by the time the sharing starts, this is a this is again a reminder that when you're making a problem statement in the proposal, please make sure that you give enough details.
+[01:02:05.000 --> 01:02:12.000]  Thinking that the person who are whom you are trying to explain your problem to is not a tech person, right.
+[01:02:12.000 --> 01:02:17.000]  You have a lot of ideas in your mind. Think you will think that even if you write a little bit, the person will understand now.
+[01:02:17.000 --> 01:02:23.000]  Don't keep that mindset. Think that you're writing it for your grandfather, probably who knows nothing about computers.
+[01:02:23.000 --> 01:02:28.000]  So if they can understand, we can understand as well.
+[01:02:28.000 --> 01:02:32.000]  I should restart from the share.
+[01:02:32.000 --> 01:02:35.000]  Okay, leave it. I think leave it now.
+[01:02:35.000 --> 01:02:44.000]  Anyone else. Just one example we want to see before moving on.
+[01:02:44.000 --> 01:02:50.000]  It's okay. If not, probably next week we can have a look at some because we will have the books submitted.
+[01:02:50.000 --> 01:02:55.000]  So we will find out a few good examples and we will share them with you. That's okay. It's fine.
+[01:02:55.000 --> 01:03:02.000]  Okay. So it's almost one hour and so let's get on to today's lesson content.
+[01:03:02.000 --> 01:03:04.000]  So I'm going to share my screen.
+[01:03:04.000 --> 01:03:11.000]  Rash, give me one second. I just want to make a comment about how important it is to receive feedback from each other.
+[01:03:11.000 --> 01:03:17.000]  I was reading. I was reading some of your problem specifications for the community recycle hub.
+[01:03:17.000 --> 01:03:24.000]  And it's really nice to see that some of you are communicating with each other and giving feedback in.
+[01:03:24.000 --> 01:03:30.000]  If you choose to go into a professional related with computer science, you're not going to work by yourself.
+[01:03:30.000 --> 01:03:39.000]  You usually are going to work with the team of people and that team of people are going to give you feedback about whatever task you're assigned to.
+[01:03:39.000 --> 01:03:47.000]  Okay. So this is actually a good practice. So whenever you have the chance to provide feedback or receive feedback.
+[01:03:47.000 --> 01:03:52.000]  Just make sure that you receive if you receive feedback. Just make sure that you receive with an open mind.
+[01:03:52.000 --> 01:03:57.000]  Most of the feedback that I saw is very positive and encouraging.
+[01:03:57.000 --> 01:04:00.000]  But don't be afraid to maybe critique.
+[01:04:00.000 --> 01:04:03.000]  Absolutely. Just to help and grow.
+[01:04:03.000 --> 01:04:06.000]  Okay. You would actually be helping them by doing so.
+[01:04:06.000 --> 01:04:13.000]  Yeah. Yeah. And anyway, all the interactions that I was able to read are very good interaction, very good insights.
+[01:04:13.000 --> 01:04:23.000]  So I just encourage you to to create that environment where you can, you know, share ideas and be okay with anything back that you receive.
+[01:04:23.000 --> 01:04:30.000]  Absolutely. Yeah. I mean, write the good things that you found about the project about the idea, but also at the same time as Martin said.
+[01:04:30.000 --> 01:04:39.000]  If you see some scope of improvement, do not hesitate to write that because everybody will take that very positively because just if we say just say, Oh, it's very nice idea.
+[01:04:39.000 --> 01:04:42.000]  I really liked it. That's not helping anyone. Right.
+[01:04:42.000 --> 01:04:45.000]  So it would be better if you can think about that.
+[01:04:45.000 --> 01:04:50.000]  If you were in place of that student for whom you are giving a feedback.
+[01:04:50.000 --> 01:04:55.000]  What other things you could have added to make it more intuitive and more useful.
+[01:04:55.000 --> 01:04:58.000]  Problem specification or the project proposal.
+[01:04:58.000 --> 01:05:00.000]  So be open minded.
+[01:05:00.000 --> 01:05:04.000]  Give as much as ideas as you can give and expect the same from others also.
+[01:05:04.000 --> 01:05:07.000]  Right. Okay. So now going back to the subject guide quickly.
+[01:05:07.000 --> 01:05:09.000]  So we are going to cover today.
+[01:05:09.000 --> 01:05:12.000]  Describe the fundamental concepts of computational thinking.
+[01:05:12.000 --> 01:05:15.000]  So we are talking about the importance of computational thinking.
+[01:05:15.000 --> 01:05:19.000]  What it comprises of like it's a way of it's a computer computerized way of thinking.
+[01:05:19.000 --> 01:05:24.000]  Like how a computer would solve a problem and computer solves the problems in the systematic step by step.
+[01:05:24.000 --> 01:05:30.000]  And this whole chapter is all about that thinking in the in the way that the computer would think.
+[01:05:30.000 --> 01:05:32.000]  So computational thinking.
+[01:05:32.000 --> 01:05:37.000]  And this comprises of four different steps, which is abstraction algorithmic design decomposition and pattern recognition.
+[01:05:37.000 --> 01:05:44.000]  And that's what you can find in the palm of your content as well as the document that we have created for you.
+[01:05:44.000 --> 01:05:47.000]  So I will show you that shortly.
+[01:05:47.000 --> 01:05:57.000]  And then B 1.1.3 is explain how applying computational thinking or fundamental concepts is used to approach and solve problems in computer science.
+[01:05:57.000 --> 01:06:02.000]  So it says that the computational thinking does not necessarily involve programming.
+[01:06:02.000 --> 01:06:04.000]  This is something very important.
+[01:06:04.000 --> 01:06:07.000]  Right. The programming comes much later.
+[01:06:07.000 --> 01:06:13.000]  It's much later. It's almost the last phase of this entire project development cycle.
+[01:06:13.000 --> 01:06:18.000]  A lot of time is spent in stage one stage to when you analyze a problem.
+[01:06:18.000 --> 01:06:21.000]  You think about a possible solution and your designer solution.
+[01:06:21.000 --> 01:06:24.000]  That takes majority of time in the whole project development.
+[01:06:24.000 --> 01:06:30.000]  And if you have done justification to these two steps, then the programming becomes child's game.
+[01:06:30.000 --> 01:06:32.000]  Anybody can program it.
+[01:06:32.000 --> 01:06:36.000]  Right. So therefore computational thinking does not necessarily involve programming.
+[01:06:36.000 --> 01:06:40.000]  It is toolkit of available techniques for problem solving.
+[01:06:40.000 --> 01:06:48.000]  Real word examples may include software development data analysis machine learning database design and network security.
+[01:06:48.000 --> 01:06:53.000]  So programming alone is not actually constitutes computational thinking.
+[01:06:53.000 --> 01:06:55.000]  It can be applied in many different fields.
+[01:06:55.000 --> 01:06:59.000]  For example, for the data analysis that may require computational thinking.
+[01:06:59.000 --> 01:07:01.000]  Right. Machine learning.
+[01:07:01.000 --> 01:07:05.000]  That is all about computational thinking database design and network security.
+[01:07:05.000 --> 01:07:11.000]  So these all also can contribute towards the computational thinking process.
+[01:07:11.000 --> 01:07:13.000]  And the next part is the flow chart.
+[01:07:13.000 --> 01:07:14.000]  So flow chart.
+[01:07:14.000 --> 01:07:28.000]  We will talk about it once it comes, but then this is something about showcasing your algorithmic thinking or the flow of control from one part to another in a pictorial representation form in a graphics format.
+[01:07:29.000 --> 01:07:34.000]  So you are showcasing your algorithm or the flow of control within the program in a graphical format.
+[01:07:34.000 --> 01:07:36.000]  That is what the flow chart is.
+[01:07:36.000 --> 01:07:38.000]  And for the standard flow charts, we have couple of symbols.
+[01:07:38.000 --> 01:07:47.000]  Although there are many that you will use in your IA, but for the general flow chart creation, you need couple of symbols.
+[01:07:47.000 --> 01:07:55.000]  For example, input output box process slash operation box start and decision making.
+[01:07:55.000 --> 01:07:58.000]  So these are the four majorly used.
+[01:07:58.000 --> 01:08:03.000]  Some of you have already done the flow charts in the past, but for those who are doing it for the first time.
+[01:08:03.000 --> 01:08:10.000]  It's a pictorial representation of the flow of control or the algorithmic aspect of the given problem.
+[01:08:10.000 --> 01:08:16.000]  Flow charts for execution flow to track changes in variables and to determine the output.
+[01:08:16.000 --> 01:08:18.000]  So this is something which will come in the exam.
+[01:08:18.000 --> 01:08:20.000]  They will give you a flow chart.
+[01:08:20.000 --> 01:08:21.000]  Right.
+[01:08:21.000 --> 01:08:26.000]  And then they will ask you to write the output or make a trace table.
+[01:08:26.000 --> 01:08:30.000]  So we'll have a look at the sample paper to see what kind of question comes from this.
+[01:08:30.000 --> 01:08:31.000]  Right.
+[01:08:31.000 --> 01:08:36.000]  So now going back to the to the chapter in the document.
+[01:08:36.000 --> 01:08:44.000]  It's not something very difficult because it's more theoretical section before moving on to the real programming.
+[01:08:44.000 --> 01:08:48.000]  Now this lesson explores four key concepts of the computational thinking.
+[01:08:48.000 --> 01:08:49.000]  One is abstraction.
+[01:08:49.000 --> 01:08:52.000]  I think we discussed last time very briefly about what abstraction means.
+[01:08:52.000 --> 01:08:56.000]  Can somebody recall what is abstraction?
+[01:08:56.000 --> 01:08:59.000]  Removing unnecessary details.
+[01:08:59.000 --> 01:09:06.000]  Yeah, removing unnecessary details and extracting only those that we may be concerned about.
+[01:09:06.000 --> 01:09:09.000]  Like I talked about last time that if I'm looking at my laptop,
+[01:09:09.000 --> 01:09:14.000]  I'm least concerned about how the CPU is working, how the memory is storing information,
+[01:09:14.000 --> 01:09:18.000]  how the registers are working, what the buses are doing, what operating system is doing,
+[01:09:18.000 --> 01:09:23.000]  what I'm only interested in seeing is my screen and the image on the screen.
+[01:09:23.000 --> 01:09:26.000]  Similarly, I just want to see the keyboards, how those keyboards,
+[01:09:26.000 --> 01:09:29.000]  boards are kind of sending the inputs to the system.
+[01:09:29.000 --> 01:09:30.000]  I'm least bothered about that.
+[01:09:30.000 --> 01:09:38.000]  So abstraction is a process of looking at only the necessary information and hiding the other complexities,
+[01:09:38.000 --> 01:09:42.000]  which we may not be interested in.
+[01:09:43.000 --> 01:09:46.000]  As you can see here, the example, when you use Google Maps,
+[01:09:46.000 --> 01:09:49.000]  you don't see every tree or building.
+[01:09:49.000 --> 01:09:55.000]  You can see it, but we generally hide it because our purpose is not to see the houses and trees across the streets,
+[01:09:55.000 --> 01:10:01.000]  but we want to just see a clear road map using which we can drive the vehicle.
+[01:10:01.000 --> 01:10:05.000]  So that is called abstraction that we have we we opt for a map,
+[01:10:05.000 --> 01:10:09.000]  which only shows us the streets, right, hiding the other areas.
+[01:10:09.000 --> 01:10:12.000]  So that is called abstraction.
+[01:10:12.000 --> 01:10:21.000]  Then in terms of computing, when you call a built-in function like print or system.out.println to print something,
+[01:10:21.000 --> 01:10:25.000]  you are least interested in knowing that what is there in the backend,
+[01:10:25.000 --> 01:10:29.000]  how this particular function is working to display something on the screen.
+[01:10:29.000 --> 01:10:34.000]  What we want to see is that whatever we write here within the parenthesis should come on the screen,
+[01:10:34.000 --> 01:10:36.000]  that is our objective, right.
+[01:10:36.000 --> 01:10:40.000]  So we don't really want to see that what how this function is built,
+[01:10:40.000 --> 01:10:44.000]  what are what are instructions are written in the function that remains hidden.
+[01:10:44.000 --> 01:10:50.000]  So utilizing or looking at the information which is meant for us or which is which we are interested in,
+[01:10:50.000 --> 01:10:54.000]  hiding the other complexities is called abstraction.
+[01:10:54.000 --> 01:11:01.000]  Why it matters reduces unnecessary complexity in programs, right.
+[01:11:01.000 --> 01:11:06.000]  So if we start showing everything, it's not that we cannot show everything.
+[01:11:06.000 --> 01:11:15.000]  Like if you are accessing some database, let's say you want to extract the report of your grade 11 students on the screen, right.
+[01:11:15.000 --> 01:11:19.000]  We only look at the serial number name, first name, middle name, last name, right.
+[01:11:19.000 --> 01:11:23.000]  Maybe date of birth, that's the information we are able to see.
+[01:11:23.000 --> 01:11:26.000]  It's not that we cannot show that how it is stored in the backend.
+[01:11:26.000 --> 01:11:31.000]  We can have half of the screen reserved for showcasing the data structure that,
+[01:11:31.000 --> 01:11:38.000]  okay, for the name, we have taken a text type of data type whose length is maximum 40.
+[01:11:38.000 --> 01:11:41.000]  We can display that, but is it going to help us on our screen?
+[01:11:41.000 --> 01:11:49.000]  No, it is actually occupying half of the screen which could actually be used for showcasing other parts of the data that I'm interested in.
+[01:11:49.000 --> 01:11:53.000]  So it's not that we cannot show it, but we don't show it because it's not needed.
+[01:11:53.000 --> 01:11:57.000]  And therefore it reduces unnecessary complexity in the programs.
+[01:11:57.000 --> 01:12:02.000]  Make systems easier to understand and maintain because we are not looking at the backend things.
+[01:12:02.000 --> 01:12:07.000]  We are just looking at the front saves time by focusing only on the relevant components.
+[01:12:07.000 --> 01:12:14.000]  So we are not interested in looking at unnecessary things, which means we are able to focus only on relevant components, right.
+[01:12:14.000 --> 01:12:22.000]  Imagine if you are driving a car and your Google maps start showing you every building on the sides of the road,
+[01:12:22.000 --> 01:12:26.000]  you would be inclined to read what this building is all about.
+[01:12:26.000 --> 01:12:29.000]  Let's say it shows a building and it shows the name that what this building is.
+[01:12:29.000 --> 01:12:31.000]  You may get distracted, right.
+[01:12:31.000 --> 01:12:36.000]  Whereas your focus should be completely on driving and looking at the map only for the directions.
+[01:12:36.000 --> 01:12:38.000]  So why would you be interested in looking at that?
+[01:12:38.000 --> 01:12:43.000]  What all is passing by on the road where you are traveling unless you have.
+[01:12:43.000 --> 01:12:49.000]  You have put into the Google maps that take me to the nearest federal pump or the fuel station.
+[01:12:49.000 --> 01:12:56.000]  In that case, you may like to look surrounding area because that's your objective that you want to go to the nearest fuel station.
+[01:12:56.000 --> 01:12:59.000]  But otherwise you just want to reach to the destination.
+[01:12:59.000 --> 01:13:02.000]  So you have given the route map and it just shows you the road.
+[01:13:02.000 --> 01:13:09.000]  So abstraction and computer science plays an important role because you have to be mindful about what information the user is wanting to look at.
+[01:13:09.000 --> 01:13:16.000]  So when you will prepare the reports, you will only stick to the requirements of the user, you will hide rest other things, right.
+[01:13:16.000 --> 01:13:21.000]  So whenever you are writing the SQL queries to extract information, especially when you will make the IA,
+[01:13:21.000 --> 01:13:28.000]  you will have to take into account what fields are required to be displayed hiding other parts.
+[01:13:28.000 --> 01:13:34.000]  So if I just need to display the list of students in a class, I don't need the date of birth.
+[01:13:34.000 --> 01:13:36.000]  So I can hide that I don't need their address.
+[01:13:36.000 --> 01:13:38.000]  I don't need their phone numbers, right.
+[01:13:38.000 --> 01:13:45.000]  So instead of having a generic report, which shows all fields, making a big clutter on the screen.
+[01:13:45.000 --> 01:13:48.000]  Why do I need all that information, which is not needed for my report?
+[01:13:48.000 --> 01:13:49.000]  I just need the class list.
+[01:13:49.000 --> 01:13:53.000]  Let's say I need the serial number first name, middle name, last name, that's it.
+[01:13:53.000 --> 01:13:57.000]  So I can hide rest of the things and that is what is called abstraction.
+[01:13:57.000 --> 01:13:59.000]  The exception is it just technical.
+[01:13:59.000 --> 01:14:07.000]  It's thinking skill is what allows scientists to model weather economics to predict markets or doctors to visualize bodies.
+[01:14:08.000 --> 01:14:12.000]  Systems without getting lost in microscopic details.
+[01:14:12.000 --> 01:14:17.000]  So abstraction is not just for computer science, but it can be applied to any field extracting only the information,
+[01:14:17.000 --> 01:14:20.000]  which is essential, hiding other parts.
+[01:14:20.000 --> 01:14:22.000]  Next is algorithmic design.
+[01:14:22.000 --> 01:14:30.000]  Martin, would you like to take it from algorithmic design?
+[01:14:30.000 --> 01:14:33.000]  I have taken or are taking math, right.
+[01:14:33.000 --> 01:14:42.000]  Well, every time you solve a problem, you're actually using an algorithm, right.
+[01:14:42.000 --> 01:14:46.000]  Which is what a clear step by step plan for solving a problem.
+[01:14:46.000 --> 01:14:53.000]  So in the algorithm design, you're going to break a big tax into small logical steps.
+[01:14:53.000 --> 01:14:59.000]  Same thing, making the analogy with the mathematics, right.
+[01:15:00.000 --> 01:15:04.000]  So it's like divide and conquer.
+[01:15:04.000 --> 01:15:11.000]  The smaller the task, the easier it will be, the smaller the breakdown, the easier it will be to solve a solution.
+[01:15:11.000 --> 01:15:22.000]  So every little piece of the algorithm, every little spare at the end is going to come together to create the whole solution.
+[01:15:23.000 --> 01:15:28.000]  So it is important that before you actually start trying to code,
+[01:15:28.000 --> 01:15:37.000]  you go through the process of, okay, understand what the small task is, what the requirements are going to be, and then write your code.
+[01:15:37.000 --> 01:15:46.000]  It is important when you are developing the algorithm and writing your code that you want to make your code reusable.
+[01:15:46.000 --> 01:15:55.000]  So you don't have repetitions when you're developing your code that will help you solve the problem.
+[01:15:55.000 --> 01:15:57.000]  Okay.
+[01:15:57.000 --> 01:16:05.000]  Yeah, and one of the benefits of making a pseudo code algorithm is basically to maintain a technical document,
+[01:16:05.000 --> 01:16:13.000]  which could be helpful to those who may in future be troubleshooting the program that you have created.
+[01:16:13.000 --> 01:16:23.000]  Like as Martin said in the beginning that when you work in a software firm, it's not a stand alone, you know, it's not a stand alone responsibility.
+[01:16:23.000 --> 01:16:29.000]  You work as a team, right, and when you work as a team, then your work should also be understood by the others in the team because it's a collaborative work.
+[01:16:29.000 --> 01:16:34.000]  Your ultimate objective is one, but then different people are working on meeting that objective.
+[01:16:34.000 --> 01:16:42.000]  Now, if you have just written a code for a certain module and shared with your team members, they may not be able to understand it because the coding is very complex.
+[01:16:42.000 --> 01:16:52.000]  And that is the time when the technical documentation is made so that you write in simple, simple, simple English language steps that how my program is working.
+[01:16:52.000 --> 01:17:00.000]  Now, if somebody reads that, they will easily understand and then when they look at the code, they will be able to make a meaning out of how the coding has been done, right.
+[01:17:00.000 --> 01:17:02.000]  So algorithm is very.
+[01:17:02.000 --> 01:17:03.000]  Yeah.
+[01:17:03.000 --> 01:17:12.000]  And that I was going to say is that that that goes together with being able to document and make comments on the actual code.
+[01:17:12.000 --> 01:17:13.000]  Right.
+[01:17:13.000 --> 01:17:25.000]  You don't want to maybe repeat the same thing of the technical document, but you you want to get in clear information and that will allow anybody to read your code.
+[01:17:25.000 --> 01:17:35.000]  And if it needs to be updated or do some changes, they can actually do it without breaking down the logic of the whole algorithm.
+[01:17:35.000 --> 01:17:42.000]  And it's not necessary that the person who is going to code is actually the ones who write the pseudo code, you know, it can be two different people.
+[01:17:42.000 --> 01:17:45.000]  So there may be a group of software developers in a company.
+[01:17:45.000 --> 01:17:50.000]  So my role is supposed just to go and understand what does the company requires, what are the requirements.
+[01:17:50.000 --> 01:17:55.000]  And then I break that into many different steps as to this is how the program should flow.
+[01:17:55.000 --> 01:18:02.000]  And then I handed over to the developer and developer will read my inputs and they will develop the software, right.
+[01:18:02.000 --> 01:18:07.000]  Now suppose the developer leaves after a while and there's another person who joins in and there's a bug in the program.
+[01:18:07.000 --> 01:18:14.000]  Now, it will be very difficult for them to go into the program, which may be of 50,000 lines to identify the bug, especially if it is a logic.
+[01:18:14.000 --> 01:18:26.000]  It's very difficult to find out. So what they will do is before looking into the code, they will go into the technical documentation and read the algorithm as to how each part of the program is working.
+[01:18:26.000 --> 01:18:35.000]  And once they have developed the knowledge from reading the algorithm, then they will go to the code, find that particular module and make the changes to make it work and correct the logical issues.
+[01:18:35.000 --> 01:18:53.000]  So the whole objective is algorithms is to make a program creation simplified so that once the steps are clear, then it can be given to the team of developers who are developing to follow the set pseudo code process and just coded in any programming language that is to be coded.
+[01:18:53.000 --> 01:19:06.000]  They're also helpful. For example, these are let's say there's a company which releases its application in for Mac operating system as well as for windows or let's say for Android and iOS.
+[01:19:06.000 --> 01:19:20.000]  Now, the same code cannot be used in both the platforms, right. So once the pseudo code is created, then that is given to the developer who is iOS expert and the other coder who is Android expert.
+[01:19:20.000 --> 01:19:32.000]  And they both follow the same pseudo code in order to develop the application using the programming, which is supported by each of the mobile phone, right. Now, how is this going to be helpful for you from the examinations point of view.
+[01:19:32.000 --> 01:19:42.000]  So from examinations point of view, it is not going to be any help because there is no pseudo code in your assessments, unlike the previous curriculum where there was pseudo code tested as a part of paper one.
+[01:19:42.000 --> 01:19:50.000]  However, we will be focusing on pseudo code because we want you to develop good problem solving skills, right.
+[01:19:50.000 --> 01:19:56.000]  We don't want you to be jumping directly on the coding. We want you to think about a problem, think about the possible solution.
+[01:19:56.000 --> 01:20:03.000]  And if you can write down the solution on the paper as to how you would solve it on a paper, then you can easily code it.
+[01:20:03.000 --> 01:20:12.000]  But the vice versa is not true. Many students directly jump onto the programming language and they try to write the code directly without thinking about the solution. They always struggle.
+[01:20:12.000 --> 01:20:21.000]  So I always recommend that when a problem is given, think about that if you had to do it on a piece of paper, how you would have what approach you would have followed, right.
+[01:20:21.000 --> 01:20:32.000]  Once you are clear with that, then you have to replicate on the programming. So when we'll start with the programming, we will follow this approach of first thinking about the solution on a paper and then write it as a code.
+[01:20:33.000 --> 01:20:42.000]  Now, what is the real word example? Think of a recipe. It gives exact ingredients order of steps and expected outcomes.
+[01:20:42.000 --> 01:20:54.000]  If you skip steps or do them in wrong order, the dish may fail. That's the same with algorithms. The order matters. So that's the keyword, right. So the order matters.
+[01:20:55.000 --> 01:21:07.000]  Correct. We could have done a small activity, asking you some steps for a certain problem. Let's see in the end if we get some time we can do that.
+[01:21:07.000 --> 01:21:12.000]  The third stage is decomposition, right. Does anyone know what decomposition means?
+[01:21:13.000 --> 01:21:17.000]  It's breaking down the task into smaller segments.
+[01:21:17.000 --> 01:21:26.000]  And what is the benefit? Can you give any real word example? What do you mean by breaking down, not from the coding point of view, any other example?
+[01:21:26.000 --> 01:21:29.000]  So preparing for a party.
+[01:21:29.000 --> 01:21:39.000]  So the whole, I mean the overall objective is to host a party or to organize a party, right.
+[01:21:39.000 --> 01:21:45.000]  Now, how would you decompose that into different parts to make it more manageable steps?
+[01:21:45.000 --> 01:21:48.000]  So choosing a location.
+[01:21:48.000 --> 01:21:55.000]  Perfect. So one is choosing a location, right. Because that in itself is a full task that you have to find a location.
+[01:21:56.000 --> 01:22:02.000]  Now, again, within finding a location also, it's not that just you will find a location and go there.
+[01:22:02.000 --> 01:22:07.000]  There also the problem specification will come into picture. Like how many people are going to attend?
+[01:22:07.000 --> 01:22:14.000]  What is the menu that is provided? How many seating arrangement is there? Right. Is there music available?
+[01:22:14.000 --> 01:22:22.000]  So it's not that choosing location in itself. It's a complete solution. You have to, if you're a developer, you have to go into further depth.
+[01:22:22.000 --> 01:22:27.000]  You're just branching the flow. So the on the top of the hierarchy, you have the party.
+[01:22:27.000 --> 01:22:33.000]  Then on the left, you have taken location. Now location will be subdivided into many different options. Right.
+[01:22:33.000 --> 01:22:41.000]  And if you are clear with that hierarchical chart, you will have less chances of developing a product where the client will say that,
+[01:22:41.000 --> 01:22:48.000]  Oh, my product is not working fine. You have missed certain aspects. What's the other factor in the composition?
+[01:22:49.000 --> 01:22:55.000]  So estimating the number of estimating estimating the number of people, right.
+[01:22:55.000 --> 01:23:03.000]  And within that, you will have many different factors like budgeting, right. Budgeting the time schedule, the day of the party when it is going to be,
+[01:23:03.000 --> 01:23:09.000]  because the people's arrival would largely depend on what date, what time you are doing the party. Right.
+[01:23:09.000 --> 01:23:15.000]  How far is the location? So that all will have to be considered before you float the invitation. Right.
+[01:23:15.000 --> 01:23:32.000]  Next. Next is designing, designing invitation. That in itself is again, a full module. Right.
+[01:23:32.000 --> 01:23:39.000]  Are you going to do e invitation? Are you going to print them and send them by postal services? Right.
+[01:23:39.000 --> 01:23:49.000]  So that in itself will also require further, but yes, as a part of decomposition, you identified three different major parts and then you send the invitation. Right.
+[01:23:49.000 --> 01:23:54.000]  So now what is the benefit of doing this? I want somebody else to pitch in.
+[01:23:54.000 --> 01:24:00.000]  What is the benefit of the decomposition that Namo just now mentioned?
+[01:24:00.000 --> 01:24:10.000]  It makes the task more easy to comprehend. It makes splitting up the task easier.
+[01:24:10.000 --> 01:24:21.000]  Okay. Okay. Fine. Is this riddle? No. Sorry, I can't see you. Okay.
+[01:24:21.000 --> 01:24:30.000]  So see, one thing that I would like to point over here is your answer is perfectly fine that it makes task organized and more easier.
+[01:24:30.000 --> 01:24:34.000]  But then these are considered to be very generic answer from the assessment's point of view.
+[01:24:34.000 --> 01:24:40.000]  For any question where you are saying it is very easy, very organized, very economical.
+[01:24:40.000 --> 01:24:47.000]  You have to give a justification to that. You have to give a reason for that. So when you say it becomes it makes the task more easier.
+[01:24:47.000 --> 01:24:58.000]  If you stop there, you get nothing. No credits. But if you have to just then you have to justify that. Why do you say that it makes task achievable and more easier? Why do you think it will make it easier?
+[01:24:58.000 --> 01:25:21.000]  In this case, in this case, you could, for example, decompose the problem into several multiple parts, obtain a budget from each and then a lot, I cash them to that.
+[01:25:21.000 --> 01:25:35.000]  So that will benefit of decomposing. It would also help you create a timeframe by making sure that all decomposed parts are able to be completed within a certain timeframe.
+[01:25:35.000 --> 01:25:50.000]  So, for example, if you're booking a building or something, if that lease is not available until a month later, you will have to postpone it. So why do you post it all other factors?
+[01:25:50.000 --> 01:26:01.000]  So this is a very good justification, but this is not a justification to that it will task make task easier, but it is a justification for saying that it will make task more organized.
+[01:26:01.000 --> 01:26:11.000]  So if you say it will take task more achievable and more organized because and then whatever you said will be able to justify.
+[01:26:11.000 --> 01:26:20.000]  Correct. Right. So whenever you're giving a justification for any point, just don't leave it onto the identification level.
+[01:26:20.000 --> 01:26:30.000]  At least give one pointer that why do you think it says so and this goes not just for this task, but it goes for all the tasks that you will be getting in paper one and paper two.
+[01:26:30.000 --> 01:26:38.000]  Right. Students lose marks when they just restrict the answers to saying that it will be like what is the benefit of RAM.
+[01:26:38.000 --> 01:26:43.000]  It will make the processing faster, which is not wrong, but it doesn't get you any credit.
+[01:26:43.000 --> 01:26:49.000]  Unless you say that why will it make the task execution faster, you will not get the score.
+[01:26:49.000 --> 01:26:57.000]  Right. What is the benefit of our outer over the look over the pulling up of cables, LAN cables, it will be more economical.
+[01:26:57.000 --> 01:27:03.000]  You get nothing even though it is correct answer that it will make it more economical. Why do you think it will make it more economical.
+[01:27:03.000 --> 01:27:14.000]  So make it a habit that whenever you're answering any question, you must give a reason for why you think it is so without that reason, you don't get any score.
+[01:27:14.000 --> 01:27:18.000]  They will just put a stamp of two vague. It is a stamp called TV.
+[01:27:18.000 --> 01:27:28.000]  And we love using that because we don't have to write much comments. So I just put it pick up TV and post it on your response that it's two vague in the assessment and you get zero for that.
+[01:27:28.000 --> 01:27:34.000]  So make it a habit of giving a specification of what you say, right.
+[01:27:34.000 --> 01:27:44.000]  Okay. Now, so decomposition definitely makes tasks more achievable, more organized because you have you are splitting the larger plan into multiple sub parts.
+[01:27:44.000 --> 01:27:50.000]  And then one of the best benefits of doing this is collaboration.
+[01:27:50.000 --> 01:27:55.000]  Right. Like as we said in the beginning that when you are working in a software company, you don't do everything alone.
+[01:27:55.000 --> 01:28:01.000]  It's a team of work. It's a team of people who actually work with a common objective in mind.
+[01:28:01.000 --> 01:28:09.000]  So you may be given, for example, NAMU said that one of the tasks in decomposition would be designing of invitation cards.
+[01:28:09.000 --> 01:28:15.000]  So let's say there is somebody who is good with designing in your team. You will allocate that task to that person.
+[01:28:15.000 --> 01:28:21.000]  There is somebody who is good with negotiations. Right. So let's say NAMU is good with negotiations.
+[01:28:21.000 --> 01:28:28.000]  So he will take the job of going to the location and then negotiating with the facility to get the best prizes.
+[01:28:28.000 --> 01:28:33.000]  There could be another one who may be good with music and sound.
+[01:28:33.000 --> 01:28:40.000]  So they may plan the song list. They may plan the kind of sound system that is going to be installed and all that.
+[01:28:40.000 --> 01:28:44.000]  So that collectively, you know, everybody is doing your own part.
+[01:28:44.000 --> 01:28:49.000]  And on the final day, everything would look more organized and more achievable.
+[01:28:49.000 --> 01:28:56.000]  So it will lead to less chaos as compared to one person dealing with everything.
+[01:28:56.000 --> 01:29:00.000]  So here are some examples. For example, stage setup.
+[01:29:00.000 --> 01:29:04.000]  If your goal is to organize a school festival, you might split it into smaller tasks.
+[01:29:04.000 --> 01:29:08.000]  Somebody make it take up stage setup. Somebody may take food stalls.
+[01:29:08.000 --> 01:29:12.000]  Someone may take ticket management. Somebody may take security.
+[01:29:12.000 --> 01:29:17.000]  And then within each major decomposition steps, you can have subcommittees.
+[01:29:17.000 --> 01:29:24.000]  Like for example, in food stalls, there may be one who may be going to the market to bring the ingredients.
+[01:29:24.000 --> 01:29:30.000]  There would be another who will calculate how many people are coming and how much quantity would be required.
+[01:29:30.000 --> 01:29:36.000]  There would be the third subcommittee member who would actually be cooking the food on the day of party.
+[01:29:36.000 --> 01:29:43.000]  So these are the major decompositions and within decompositions, you can have further decompositions.
+[01:29:43.000 --> 01:29:48.000]  So top hierarchy, sub hierarchy, subsection and sub subsections.
+[01:29:48.000 --> 01:29:52.000]  So this is how the tree is created for a more organized way.
+[01:29:52.000 --> 01:29:58.000]  Now this is very important from the programming point of view from whether you're developing a small project or large project.
+[01:29:58.000 --> 01:30:04.000]  Decomposition plays a very major role. For example, let's say you're working in a team which is developing an operating system.
+[01:30:04.000 --> 01:30:10.000]  Now operating system is not just bringing system into the working condition, but it has a lot of inbuilt features also.
+[01:30:10.000 --> 01:30:17.000]  For example, you have calculators, you have a small word processor, which is embedded into the operating system.
+[01:30:17.000 --> 01:30:21.000]  It has many different features, right? So every person will be given one task.
+[01:30:21.000 --> 01:30:29.000]  And then when everybody has done, then the team leader of that project or the project manager will compile them together to make it a single product.
+[01:30:29.000 --> 01:30:33.000]  So decomposition is very important in that way.
+[01:30:33.000 --> 01:30:36.000]  You see here why it matters because it enables collaboration.
+[01:30:36.000 --> 01:30:41.000]  Different programmers can work on different modules, makes debugging and testing easier.
+[01:30:41.000 --> 01:30:45.000]  Why do you think it will make debugging and testing easier?
+[01:30:45.000 --> 01:30:57.000]  Now we are talking from the programming point of view. Why do you think that if you have decomposed the problem, it will make debugging and testing easier?
+[01:30:57.000 --> 01:31:01.000]  Because you know which part to focus on.
+[01:31:01.000 --> 01:31:03.000]  Yes, many small parts.
+[01:31:03.000 --> 01:31:11.000]  Yeah, absolutely. So if you're working on the calculator module, you would only be looking at the calculator modules, logical or syntax errors.
+[01:31:11.000 --> 01:31:17.000]  If somebody else is working on finance part, you have nothing to do with that because that is their responsibility.
+[01:31:17.000 --> 01:31:21.000]  So you're looking at the smaller area, which is completely developed by you.
+[01:31:21.000 --> 01:31:27.000]  And you will have a better understanding of why the bugs are appearing and how to rectify them.
+[01:31:27.000 --> 01:31:31.000]  Encourage reusability modules can be used in other projects.
+[01:31:31.000 --> 01:31:34.000]  So let's say you created a calculator as a part of your current project.
+[01:31:34.000 --> 01:31:38.000]  And there's another app that you're developing and you want to reuse that calculator feature.
+[01:31:38.000 --> 01:31:46.000]  You don't have to recreate the whole thing. You can just import that as a package in your new project and use that feature.
+[01:31:46.000 --> 01:31:50.000]  So these are the benefits of decomposition.
+[01:31:50.000 --> 01:31:54.000]  Common misconception decomposition is about breaking down the problem, not the program.
+[01:31:54.000 --> 01:31:58.000]  You apply decomposition before coding during the planning phase.
+[01:31:58.000 --> 01:32:04.000]  Right. So decomposition is not breaking the program. It's breaking the problem.
+[01:32:04.000 --> 01:32:07.000]  So your problem was to organize a school event.
+[01:32:07.000 --> 01:32:11.000]  And then you decomposed it at the planning stage.
+[01:32:11.000 --> 01:32:15.000]  It's not that, okay, this is my problem. There are 10,000 lines.
+[01:32:15.000 --> 01:32:19.000]  You take first 2500. I will take next 2500 and then we will compile it together.
+[01:32:19.000 --> 01:32:27.000]  That is not decomposition decomposition is slippage splitting the bigger problem into smaller areas.
+[01:32:27.000 --> 01:32:30.000]  And then comes the last one pattern recognition.
+[01:32:30.000 --> 01:32:35.000]  What is pattern recognition?
+[01:32:35.000 --> 01:32:41.000]  Girls are quite today.
+[01:32:41.000 --> 01:32:46.000]  Where are the girls quite today?
+[01:32:46.000 --> 01:32:51.000]  Come on. We want girls to be tech savvy.
+[01:32:51.000 --> 01:33:03.000]  Well, pattern recognition is basically the identification of the recurring similarities within the code or within the overall task.
+[01:33:03.000 --> 01:33:06.000]  So we can.
+[01:33:06.000 --> 01:33:12.000]  It's also the identification perhaps of trans some regularities.
+[01:33:12.000 --> 01:33:23.000]  We can create a generalized solution that can be applied to different scenarios that have similar patterns follow similar patterns.
+[01:33:23.000 --> 01:33:31.000]  Absolutely. So when you start working on the coding, you will often see that there are some few things which are repeated in almost generally every program.
+[01:33:31.000 --> 01:33:33.000]  And that is called pattern.
+[01:33:33.000 --> 01:33:36.000]  The same pattern is repeated in many different programs.
+[01:33:36.000 --> 01:33:40.000]  So instead of recreating the solution again and again, I mean it.
+[01:33:40.000 --> 01:33:43.000]  This is overlap between modularity.
+[01:33:43.000 --> 01:33:50.000]  There's a little overlap between what we studied here that decomposition because that is also breaking down the problem.
+[01:33:50.000 --> 01:34:02.000]  But pattern recognition is slightly different that it's not exactly decomposition, but it's finding a kind of repeated occurrence of some aspects, which may be common in program after program.
+[01:34:02.000 --> 01:34:08.000]  For example, when you create any windows based GUI application, you will always see some of the things repeating.
+[01:34:08.000 --> 01:34:09.000]  So that's a pattern.
+[01:34:09.000 --> 01:34:13.000]  For example, everywhere you will have this green symbol with full screen button.
+[01:34:13.000 --> 01:34:16.000]  Then there's minimize maximize and there's a cross button.
+[01:34:16.000 --> 01:34:17.000]  Right.
+[01:34:17.000 --> 01:34:19.000]  There's a gray area on the top.
+[01:34:19.000 --> 01:34:21.000]  There's a scroll bar on the left.
+[01:34:21.000 --> 01:34:24.000]  Right. That is a pattern which repeats program after program.
+[01:34:24.000 --> 01:34:31.000]  So even if it is not a decomposition, it is something which you find in almost every program and that is what is called a pattern.
+[01:34:31.000 --> 01:34:38.000]  So the benefit of pattern in programming is to save your time because you don't have to recreate everything that you have already done.
+[01:34:38.000 --> 01:34:44.000]  So it is ability to identify recurring trends, similarities or structures in data or problems.
+[01:34:44.000 --> 01:34:47.000]  By recognizing these patterns, we can reuse solutions.
+[01:34:47.000 --> 01:34:48.000]  Right.
+[01:34:48.000 --> 01:34:54.000]  So instead of redesigning or recording the whole GUI application, you can create one generic.
+[01:34:55.000 --> 01:35:01.000]  Module, which is able to give you the windows kind of GUI application.
+[01:35:01.000 --> 01:35:05.000]  And then based on the requirements of the app, then you can customize rest of the things.
+[01:35:05.000 --> 01:35:10.000]  But the overall structure can be copied from the previous project to the new project.
+[01:35:10.000 --> 01:35:14.000]  When you recognize that the root to school takes longer on rainy days.
+[01:35:14.000 --> 01:35:19.000]  Right. Try to understand what the pattern recognition is here.
+[01:35:19.000 --> 01:35:26.000]  When you recognize that the root to your school takes longer on rainy days, you adjust your departure time.
+[01:35:26.000 --> 01:35:31.000]  Thus pattern recognition, identifying the relationship between weather and travel time.
+[01:35:31.000 --> 01:35:33.000]  Which is self-explanatory. Right.
+[01:35:33.000 --> 01:35:37.000]  So you may be taking 20 minutes to go to your school on a normal day.
+[01:35:37.000 --> 01:35:41.000]  But you realize that when it starts raining, it takes you 10 minutes more.
+[01:35:41.000 --> 01:35:47.000]  So next time when it rains, you ask your driver to start 30 minutes early because I mean 10 minutes early.
+[01:35:47.000 --> 01:35:49.000]  So that you spend 30 minutes in travel time.
+[01:35:49.000 --> 01:35:51.000]  That is a pattern.
+[01:35:51.000 --> 01:36:01.000]  And the benefit benefit of such recognition is that you don't end up losing anything because you already are prepared to take care of the pattern that you recognized.
+[01:36:01.000 --> 01:36:09.000]  Example in computing, when programmers notice that several problems follow a similar logic like sorting, searching or counting, they can reuse.
+[01:36:09.000 --> 01:36:13.000]  The tested code instead of starting from scratch.
+[01:36:13.000 --> 01:36:22.000]  Right. So in many applications like if you're making a database management system, you would need to arrange the data in ascending or descending order of some unique value.
+[01:36:22.000 --> 01:36:25.000]  Now, why do you want to write the code again in that case?
+[01:36:25.000 --> 01:36:28.000]  You have already written other database programs where you have sorted them.
+[01:36:28.000 --> 01:36:33.000]  So you reuse that because that is something which is a pattern in almost every database programs.
+[01:36:33.000 --> 01:36:45.000]  So by the virtue of use of pattern recognitions, what you are able to do is data analysis, sporting customer trends.
+[01:36:45.000 --> 01:36:54.000]  Right. Now, if you look at if you look at the websites, for example, any kind of according to the category.
+[01:36:54.000 --> 01:36:58.000]  So let's talk about any airline booking system.
+[01:36:58.000 --> 01:37:01.000]  Okay. So let's say trip.com.
+[01:37:01.000 --> 01:37:06.000]  Or if you look at other websites, for example, let's say a go to a.com.
+[01:37:06.000 --> 01:37:15.000]  You will see a pattern being repeated and that pattern is basically if you select flight, it asks you from which city to which city and then there's a date of travel.
+[01:37:15.000 --> 01:37:18.000]  How many people have to travel? Right.
+[01:37:18.000 --> 01:37:23.000]  Now, if you look at the other website, that will also technically have the same inputs.
+[01:37:23.000 --> 01:37:33.000]  So if you select flights, it will ask you from which country or which city to which city. Right.
+[01:37:33.000 --> 01:37:38.000]  So here you say flying from flying to departure date and passenger.
+[01:37:38.000 --> 01:37:41.000]  This is called pattern recognition.
+[01:37:41.000 --> 01:37:50.000]  So if you happen to develop a website of your own rather than reinventing the wheel, you will look at what other websites have done.
+[01:37:50.000 --> 01:38:00.000]  Right. And accordingly, you will fill your information here and you will get the same pretty much similar output as otherwise websites are giving that is pattern recognition.
+[01:38:00.000 --> 01:38:13.000]  And then you can have some additional fields depending on what other features you want to have in your product in addition to the commonly used features that are already being identified by other developers.
+[01:38:13.000 --> 01:38:19.000]  And this is what software developers do when they are given a project of a particular nature.
+[01:38:19.000 --> 01:38:30.000]  They look at the competitors as to how they have developed what all features they have put into their website and then they try to make something better taking into account all those things which are already there.
+[01:38:30.000 --> 01:38:40.000]  So they will copy everything in their own way and then they will try to add more features to make it more interactive or more useful for the customers.
+[01:38:40.000 --> 01:38:47.000]  And that is possible because of the pattern recognition. Right.
+[01:38:47.000 --> 01:38:56.000]  So these are the four essential parts of computational thinking process and you may have some cherry questions of two to four marks.
+[01:38:56.000 --> 01:39:07.000]  They may ask you any specific computational thinking stage or approach and ask you to explain what it means and what are the applications of them.
+[01:39:07.000 --> 01:39:15.000]  Okay. Any questions from this part before we move to the flow charts.
+[01:39:15.000 --> 01:39:29.000]  Do you have any questions? No. Okay. So let's get on this lesson and then we'll talk a little bit about the IA back again and also the installation.
+[01:39:29.000 --> 01:39:33.000]  Whether you have been able to do the installation of Java on your computers or not.
+[01:39:33.000 --> 01:39:39.000]  So how many of you know what flow charts are?
+[01:39:39.000 --> 01:39:44.000]  What is the flow chart? Okay. Software knows.
+[01:39:44.000 --> 01:39:50.000]  It's like a diagram to represent an algorithm.
+[01:39:50.000 --> 01:39:55.000]  Okay. It's a graphical representation of the algorithm in use.
+[01:39:55.000 --> 01:40:00.000]  It's a graphical or pictorial representation of the algorithm of a program.
+[01:40:00.000 --> 01:40:06.000]  Now algorithms are step by step process, which is written in simple English language,
+[01:40:06.000 --> 01:40:12.000]  which may not necessarily give you a true picture of how the control is flowing from one part of the program to another.
+[01:40:12.000 --> 01:40:18.000]  Right. And to elaborate or to simplify the program writing process better.
+[01:40:18.000 --> 01:40:26.000]  The technical team also develops a pictorial representation of the flow of control and that is what is called a flow chart.
+[01:40:26.000 --> 01:40:32.000]  Right. So flow chart is nothing, but it's a pictorial representation of the algorithm that you have written.
+[01:40:32.000 --> 01:40:38.000]  The first step is algorithm, second step is flow charts and the third step is writing the programs.
+[01:40:38.000 --> 01:40:46.000]  So let's have a look at I mean for those one new you may have to do a little bit of additional reading with regard to what the flow charts are.
+[01:40:46.000 --> 01:40:50.000]  So let's have a look at this.
+[01:40:50.000 --> 01:40:53.000]  A flow chart is simply a graphical representation of steps.
+[01:40:53.000 --> 01:41:01.000]  It shows steps in sequential order and is widely used in presenting the flow of algorithms work flow or processes.
+[01:41:01.000 --> 01:41:09.000]  Typically a flow chart shows the steps as boxes of various kinds and their order by connecting them with arrows.
+[01:41:09.000 --> 01:41:13.000]  Right. Let's have a look at one small example.
+[01:41:13.000 --> 01:41:17.000]  But before that there are certain symbols which are used in a flow chart.
+[01:41:17.000 --> 01:41:20.000]  This may be useful for the first timers who have never studied flow charts.
+[01:41:20.000 --> 01:41:23.000]  And I know we have we have quite a few who have never done it before.
+[01:41:23.000 --> 01:41:27.000]  Now there are certain symbols which are used in a flow chart in order to show the algorithm.
+[01:41:27.000 --> 01:41:35.000]  The first one is this one which is called the start and stop.
+[01:41:35.000 --> 01:41:43.000]  So this one the oval shape boxed or symbol the terminate symbol represents the starting or ending point of the program.
+[01:41:43.000 --> 01:41:52.000]  So wherever you start you start with this oval and you end it also with the oval and you write within this start and then in the end you write end or stop.
+[01:41:52.000 --> 01:42:11.000]  Then the process box any kind of process for example assigning a value in a variable like if you have to say X equals 10 or any kind of mathematical calculation that you are doing for example X equals a plus B plus C that is all done in this rectangular box.
+[01:42:11.000 --> 01:42:16.000]  So any kind of process which generally has an equal to sign in it.
+[01:42:16.000 --> 01:42:24.000]  So if there is an equal to sign that means you are doing some process that is typically used in the rectangular blocks.
+[01:42:24.000 --> 01:42:29.000]  The third one is we are not going to use this one.
+[01:42:29.000 --> 01:42:32.000]  This is not the one that we are going to use right now.
+[01:42:32.000 --> 01:42:38.000]  Next one is decision box. So decision box is used to make a certain decision in your program.
+[01:42:38.000 --> 01:42:48.000]  Like for example is it raining if you have a question is it raining I will start 30 10 minutes early if no I will start on our regular time.
+[01:42:48.000 --> 01:42:55.000]  So whenever you have to make a decision between two given options then we use this decision box in the flow chart.
+[01:42:55.000 --> 01:43:01.000]  So we write the decision here is it raining yes or no so it will branch to two different options.
+[01:43:01.000 --> 01:43:08.000]  One will be yes and one will be no so every decision box will give you maximum two outputs.
+[01:43:08.000 --> 01:43:14.000]  Let's say you are trying to find out if a number is positive or negative so you write is X greater than zero.
+[01:43:14.000 --> 01:43:24.000]  If it's following the yes part you will say print or output positive in the no part you will say negative.
+[01:43:24.000 --> 01:43:37.000]  And then this one is the input output so whenever you want to input something from the user or you want to display something on the screen right you use the input output box which is a parallelogram.
+[01:43:37.000 --> 01:43:42.000]  So this symbol is used for input output operations.
+[01:43:42.000 --> 01:43:52.000]  This is a connector so let's say your you are making a flow chart where as a result of for example let's say you created one flow chart for login screen.
+[01:43:52.000 --> 01:44:00.000]  So you will say is the user authenticated yes you want to send the control to another module like dashboard go to the dashboard.
+[01:44:00.000 --> 01:44:16.000]  So you will add this circle maybe you can write here a and on another page you can make the flow chart which starts with a symbol so it's kind of connector between two different flow charts which are on two different pages.
+[01:44:16.000 --> 01:44:28.000]  So these are the ones which are basically useful four of them one is start and stop one is process box one is decision making and one is this one which is for input and output.
+[01:44:28.000 --> 01:44:33.000]  Let's have a look at one example.
+[01:44:33.000 --> 01:44:44.000]  This is a little complex one will come to this little later first let's have a look at the simple one so the flow chart simple algorithm of flow chart can also be used for visualizing algorithms regardless of its complexity.
+[01:44:44.000 --> 01:44:55.000]  Here is an example that shows how flow charts can be used in showing a simple some some mission process the problem is find the sum of 529 and 256.
+[01:44:55.000 --> 01:45:03.000]  So the problem is that there are two numbers right which will be entered by the user and then it will calculate the sum and printed.
+[01:45:03.000 --> 01:45:14.000]  So as we said in the beginning we start with this start shape then input because we want to input a first number so we are using input output box.
+[01:45:14.000 --> 01:45:25.000]  If you wanted to assign a value like a equals 10 then this would change into a rectangular box right but here we are using this shape because it's an input statement for input.
+[01:45:25.000 --> 01:45:38.000]  We use this symbol so read a read B it can even be input a input B right it is even allowed to say read a comma B if you don't want to spend too much time making different boxes.
+[01:45:38.000 --> 01:45:43.000]  You can say read a comma B within the same box that's that's allowed.
+[01:45:43.000 --> 01:45:50.000]  So once the two numbers are entered one is an a one is in B now we want to calculate the sum so we are using a process box.
+[01:45:50.000 --> 01:46:00.000]  Calculate sum as a plus B or you can say some equals a plus B any which ways it is fine right.
+[01:46:00.000 --> 01:46:11.000]  Now this is wrong here print sum this is a mistake this should have been a parallelogram any kind of input or output is not a process.
+[01:46:11.000 --> 01:46:25.000]  The process is this where you're doing some sort of calculations for printing and input you must use a box like this this one so this should have been that one so print sum and then end.
+[01:46:25.000 --> 01:46:30.000]  Let's see done another one calculate profit and loss does the flow chart problem.
+[01:46:30.000 --> 01:46:41.000]  Okay could somebody tell me what would be the next step the question is to calculate profit and loss so I will scroll slowly one box at a time what would you do next.
+[01:46:41.000 --> 01:46:47.000]  Calculate profit and loss so we need inputs with the inputs.
+[01:46:47.000 --> 01:47:02.000]  Okay so we need input of income right what's the next input loss loss but why would we say why would we input loss because loss is to be calculated.
+[01:47:02.000 --> 01:47:10.000]  The question is shows how profit and loss can be calculated so we know the income.
+[01:47:10.000 --> 01:47:27.000]  With the cost input what read the cost that's the second part so now we know the income and we know the cost this may lead to either profit or loss of what will be the next thing.
+[01:47:27.000 --> 01:47:30.000]  Calculate the outcome.
+[01:47:30.000 --> 01:47:35.000]  Okay so how will the system know how do you calculate the outcome.
+[01:47:35.000 --> 01:47:46.000]  So computer will not think anything on its own you have to tell in bits and pieces that how will you get the outcome so how will you how will the system calculate the profit or loss.
+[01:47:46.000 --> 01:47:48.000]  A1 is B.
+[01:47:48.000 --> 01:47:55.000]  Okay now check if the cost is greater than the income.
+[01:47:55.000 --> 01:48:04.000]  Now before that you said B minus C but here I don't see B and C so computer will be confused I don't know which B and C you are talking about.
+[01:48:04.000 --> 01:48:09.000]  What are the variable names we are assuming here you be income minus cost.
+[01:48:09.000 --> 01:48:18.000]  Income and cost because you have told computer that we are reading the income in income variable and read in cost variable so all calculations needs to be done on these two variables.
+[01:48:18.000 --> 01:48:32.000]  If you end up taking some new variable the system won't know what those variables are so make sure that you use these two variables so next one is the decision making is income greater than or equal to cost.
+[01:48:32.000 --> 01:48:45.000]  So we are making a decision so we are taking a decision box that is our income greater than or equal to cost when will it be profit and when will it be loss.
+[01:48:45.000 --> 01:48:51.000]  Your income is greater than or equal to cost do you get profit or loss.
+[01:48:51.000 --> 01:48:54.000]  Okay the profit.
+[01:48:54.000 --> 01:49:06.000]  Okay so in that case calculate profit as income minus cost because your income is more than the cost so that means you are earning more than how much you are spending so you will have profits.
+[01:49:06.000 --> 01:49:17.000]  So if it is falling the yes path we say calculate profit as income minus cost if it is not what can you conclude if it is no cost.
+[01:49:17.000 --> 01:49:25.000]  What does it mean income so yes you may be you may be earning $100 but the cost you are spending is $120 so that means there's a loss.
+[01:49:25.000 --> 01:49:46.000]  So in the know we are calculating calculate loss as cost minus income not this decision box will transfer the flow either to yes or no and a specific calculation will be done under no circumstances it will ever execute both these parts it will be that this or that right and then what's the next thing we will do.
+[01:49:46.000 --> 01:50:14.000]  You output set calculate output the value of calculated yes so print loss or print profit if it is profit then printed again this box is wrong it should have been direct the parallelogram this is wrong so either print loss or print profit and then what should it do after printing loss or profit and it's process is done after this what should we do.
+[01:50:14.000 --> 01:50:42.000]  So terminate yeah it should go both of them should go to stop so it goes to end so that completes the entire flow right so therefore you have to make sure that no matter which pathway it is choosing it must in the end go to the end otherwise if you leave something hanging that means the program is not able to proceed from there like for example after printing profit if you don't connect you to the end then where is the control going from the profit.
+[01:50:42.000 --> 01:51:09.000]  Now if somebody looks at this flow chart they will get a very clear understanding of how the profit or loss is calculated and what all steps have been followed in order to do that right so therefore flow chart is nothing but it's a kind of pictorial representation of the flow of the program and it can go very complex for example here for example medical service this is a hospital flow chart example that shows how clinical cases shall be processed.
+[01:51:09.000 --> 01:51:19.000]  This flow chart uses decision shapes intensively in representing alternative flows so it starts the patient arrives at the reception.
+[01:51:19.000 --> 01:51:36.000]  The first thing you will do is you will register the patients is the patient registered because there may be two possibilities the patient is already registered or it's a new case if the patient is already registered then is the nurse available if yes then record the health condition.
+[01:51:36.000 --> 01:51:48.000]  Patient is registered nurse is available record the health condition patient is registered but the nurse is not available wait for the available nurse and then keep on keep this under the loop.
+[01:51:48.000 --> 01:52:01.000]  Wait for the nurse available nurse go back is the nurse available now no so keep waiting so this becomes a loop until the nurse available is available as soon as the nurse is available then they go to the next one record health conditions.
+[01:52:02.000 --> 01:52:16.000]  But if the patient is not registered already then it goes to the no part where you registered the patient first and then go back to the previous step where it will follow that registered yes or it could have gone directly to available nurse.
+[01:52:16.000 --> 01:52:28.000]  What do you want to send it back to registered patient because you already registered them so after registering patient you don't have to check is the patient registered you can directly connect it to the available nurse.
+[01:52:28.000 --> 01:52:57.000]  But even if the flow is like this it won't be wrong it will just take some extra step for the CPU to process and then record health condition is the doctor available if it is no then keep it in the loop until the doctor comes if it is yes assigned patient to the doctor once it is assigned to the doctor need follow up yes or no so it may be one time visit if no follow up needed then need medication yes or no if it is yes give patient prescription patient leaves the hospital.
+[01:52:57.000 --> 01:53:09.000]  Now if you follow this step by step process you will see that the patient once enters into the hospital goes out with some sort of prescription also a note whether he has to come back or she has to come back or not.
+[01:53:09.000 --> 01:53:23.000]  So by doing this you actually make sure that your entire program is actually written in such a way that it follows all the steps in a systematic and organized way so that under no circumstances that the program should fail.
+[01:53:23.000 --> 01:53:42.000]  And if somebody looks at this they can now code it if I give this to you you can now easily code patient arrives to input the name then check if the patient is already registered yes is the nurse available yes take the readings sent to doctor if not then keep on repeating that process right.
+[01:53:42.000 --> 01:53:54.000]  So flowcharts really help you to make a step by step process in a pictorial representation which is very easy for somebody to understand rather than reading the program directly or sometimes even the serial code.
+[01:53:54.000 --> 01:54:05.000]  So this can give you a real picture of how the program is flowing right now those who are new to flowcharts I would strongly recommend that you should.
+[01:54:05.000 --> 01:54:27.000]  Practice some flowcharts in this document or we have provided a link somewhere this one so grief or grief this has some very good examples of flowcharts please go through them read about what flowcharts are why they are beneficial why they are used what are the different boxes which are used and then take up few examples which are given there.
+[01:54:27.000 --> 01:54:37.000]  There are some examples given so please solve them this will be tested in your exam let me show you a sample how it will be tested.
+[01:54:57.000 --> 01:55:16.000]  See here is the question so they have given a flowchart state one reason why a flowchart could be used to represent an algorithm now this is a question and this carries one mark what how would you answer this.
+[01:55:16.000 --> 01:55:23.000]  State one reason why a flowchart could be used to represent an algorithm.
+[01:55:23.000 --> 01:55:32.000]  Because it represents step by step process that is algorithm also you get nothing in this.
+[01:55:32.000 --> 01:55:48.000]  Now try again something else which is unique for flowchart because if you just say that it shows step by step process you don't get any score because that is for algorithm as well what is flowchart how is flowchart different than that.
+[01:55:48.000 --> 01:55:52.000]  It's also a visual representation of the algorithm.
+[01:55:52.000 --> 01:56:02.000]  Yes the keyword is visual representation if that comes in your response then you become eligible to get this score right so you have to be very careful in your response selection.
+[01:56:02.000 --> 01:56:16.000]  You should ask yourself that the response that you have thought about is uniquely identifying the characteristics of the term used in the question or it is generic if it is generic you don't get the score so if you bring visual representation then you get the mark.
+[01:56:16.000 --> 01:56:24.000]  Because it gives a visual representation of the flow of control making it easier for anyone to understand that gets you the score.
+[01:56:24.000 --> 01:56:32.000]  Okay now the that's one mark question but there is a question which is three marks where they have given an example of a flowchart starting from start.
+[01:56:32.000 --> 01:56:45.000]  I equal to one I less than equal to and so there's a flow going from one part to another and then there is a trace table complete copy and complete the trace table formed by the processing of this flowchart.
+[01:56:45.000 --> 01:56:58.000]  Where n equals three so they have given a value of n now what you need to do is you have to go from top to bottom as if you are the CPU and you are executing the instructions in a step by step way.
+[01:56:58.000 --> 01:57:11.000]  So first thing you will do is I equal to one which is already given in the trace table with one as value of I the end they have given is three is this true or false I less than or equal to n.
+[01:57:11.000 --> 01:57:24.000]  And it's three eyes one true it's true if it is true we follow this direction which is true output I now come back to this box what will you print.
+[01:57:24.000 --> 01:57:26.000]  That's right.
+[01:57:26.000 --> 01:57:28.000]  Sorry one.
+[01:57:28.000 --> 01:57:41.000]  Output I so here in the box in the first row you will print one because the output is one then follow further so you have to go step by step don't think that you will run the whole thing and then you will come to trace table no.
+[01:57:41.000 --> 01:57:46.000]  As soon as you find something just fill the trace table and proceed so after printing one.
+[01:57:46.000 --> 01:57:50.000]  J equals I plus one what will be the value of J.
+[01:57:50.000 --> 01:58:19.000]  So here you will write to the value of J you will write as two right and then is J lesser or equal to n true or false true true because n is three and J is two so this is true it will again follow true part output J so in the next row you will print the value of in fact that J should have come in the next row because we have already printed something so next row will be J.
+[01:58:19.000 --> 01:58:30.000]  As two so you will print two so the next output will be two on your screen after that going here J equal to J plus one so J becomes three.
+[01:58:30.000 --> 01:58:45.000]  J was two J becomes three you go back here is J lesser or equal to n is three lesser or equal to n yes so it outputs J so the next output will be in J column you will write three and output will also be three.
+[01:58:45.000 --> 01:59:01.000]  That will be the third row after that J becomes four is J lesser or equal to three no so it follows the false part I becomes I plus one what was the last value of I.
+[01:59:01.000 --> 01:59:11.000]  One one so now I becomes two so you will come to the fourth row and you will write I as four right with no sorry two.
+[01:59:11.000 --> 01:59:26.000]  After taking I as two now you will check again is two lesser or equal to three yes so you will again follow true part output I so the next output in the fourth row will be two and then you will continue this to fill the trace table.
+[01:59:26.000 --> 01:59:55.000]  So that means in four to five rows you will be able to see that how the program is flowing this is very good for understanding the flow of program as to how the program runs from one part of the program one part of the section to the other part it's a very good exercise and in the exam you will be given a question like this for three to four marks right so try and practice this kind of problems to be able to understand the logical flow of control from one part to the other.
+[01:59:55.000 --> 02:00:08.000]  Okay so this is the kind of question which will come in the exam so that is about the flow chart so with this if we look at the subject guide we have pretty much covered.
+[02:00:08.000 --> 02:00:18.000]  Right me Carol I believe has a question about the flow shots alright yeah yeah please go ahead.
+[02:00:19.000 --> 02:00:28.000]  Please ask a question can you hear me yeah yeah sorry I didn't think it was on it's okay I figured it out thank you.
+[02:00:28.000 --> 02:00:42.000]  Alright great fine and whenever you have any question just unmute yourself and because I when I go to other screen I'm not able to see you when I especially when I share the screen so just unmute yourself and feel free to ask.
+[02:00:42.000 --> 02:01:10.000]  Okay so let's have a look at the subject guide all again so we have covered be 1.1.2 1.3 1.4 but covered in the sense that we have talked about it but you have to work now to practice some of the trace table problems and also draw some flow charts I think it's there as a part of the assignment in your canvas also so next week we will start programming right so before we do that.
+[02:01:11.000 --> 02:01:39.000]  First of all it's a reminder that please work on your project proposal what project you are thinking about it would be good if you can have two ideas minimum so that we can have a look at both the ideas and we can suggest which one would be good from the highest point of view but that is not a mandatory requirement if you are very particular about developing something then you can just go with the one idea that you have we may either accept or give you feedback.
+[02:01:39.000 --> 02:02:08.000]  For further improvements or reject one of the three things we will do if we reject then you will have to come up with another idea within 1 weeks of time from the rejection okay right so please make sure that Tuesday is the deadline for submission of project proposal keep your document ready because as soon as the submission link becomes available which is most likely on Monday then we will inform you and you will submit it directly to the canvas if not.
+[02:02:09.000 --> 02:02:28.000]  Then as I said we will create a shade folder for you where you can upload your work that is one thing now second thing is how are you doing with regard to installation of Java and JDK could you type in the chat how many of you have successfully installed JDK and net beans and that it is working fine.
+[02:02:30.000 --> 02:02:34.000]  So the chat is disabled.
+[02:02:34.000 --> 02:02:46.000]  You know the chat is disabled chat is disabled how come now now try can you see now.
+[02:02:50.000 --> 02:03:02.000]  I didn't even know that we can disable the chat I don't know how to but Martin do you know how to enable the chat and I'm looking to it let me see what's going on.
+[02:03:05.000 --> 02:03:17.000]  Public okay I'm about to reset all the chats okay and see if that works yeah sure.
+[02:03:19.000 --> 02:03:27.000]  All right everybody try now does it work does it work no it doesn't.
+[02:03:27.000 --> 02:03:34.000]  That's a very strange.
+[02:03:35.000 --> 02:03:42.000]  This channel is empty send a message to start this okay so I think we have to start the conversation hello everyone.
+[02:03:42.000 --> 02:03:53.000]  There no no no that's that's weird no can you can you see my message at least.
+[02:03:53.000 --> 02:04:00.000]  Yes and I replied to it I was able to reply to it but I don't know.
+[02:04:00.000 --> 02:04:11.000]  We can send texts on private chat with teachers so we can do that if you prefer that option that's very weird because.
+[02:04:12.000 --> 02:04:22.000]  I think we would need to refresh your right try now everybody you know it works okay great what was the what was the problem Martin.
+[02:04:22.000 --> 02:04:37.000]  I don't know the the the fault was to chat privately privately right I don't know okay I just end it yeah okay so could you please type if you installed and if it's working or not installed.
+[02:04:38.000 --> 02:04:50.000]  Apache netbeens does not load it's just crashes okay you do so that is because your JDK is not compatible with the version of netbeens that you have installed.
+[02:04:51.000 --> 02:05:04.000]  So which means we have shared one okay let me share the screen again I will show you how you will know which version is compatible for what netbeens version.
+[02:05:05.000 --> 02:05:14.000]  That you have to be very careful about that there must be a match in fact the document that we have kept on the content folder has a description but let me see here so.
+[02:05:14.000 --> 02:05:30.000]  Apache netbeens and JDK compatibility okay here if you go to Apache netbeens.
+[02:05:30.000 --> 02:05:52.000]  I don't know I've seen it somewhere let me let me show you the document which we have prepared in the contents folder so.
+[02:05:52.000 --> 02:06:20.000]  If you look at by the way last time spoke about the isample so which is here you can find all the is here but what I'm looking at right now is Java installation that PDF in this I have mentioned what versions are compatible with what version of netbeens so it's not that any JDK can work for any netbeens.
+[02:06:20.000 --> 02:06:49.000]  So you go to this website and this is this not here for example if you are installing netbeens 12 to 13 then JDK 11 or 17 will work so if you are planning to install netbeens 12 or 13 then make sure that you only install JDK 11 or 17 if you have installing 14 to 19 then JDK 17 would be helpful.
+[02:06:50.000 --> 02:07:18.000]  Now if you installed 12 and 13 with JDK 7 JDK 21 it will not work that's a compatibility show okay so you have to make sure that you follow the correct way now if some JDK is already installed and you're trying to install another version that will again not work so in that case you have to run this these commands in order to clear all the JDKs that you have so you copy this go to the terminal window.
+[02:07:21.000 --> 02:07:41.000]  And here you paste this and then run it I'm not going to run it otherwise it will delete my installation of Java so if you already have some version so you can at least check what version of Java you have so Java version this will show you.
+[02:07:42.000 --> 02:07:51.000]  Sorry what's the command for displaying what Java Java yeah that's the same thing so you can copy this paste it here.
+[02:07:58.000 --> 02:08:10.000]  Java hyphen Java hyphen version so it is showing me that on my computer Java 25 version is installed right so that means my netbeens will be compatible with that.
+[02:08:11.000 --> 02:08:30.000]  Let me see which netbeens I have so my netbeens version is this one 25 ID 25 so my Java and my ID version are compatible so you have to make sure that your both the things are compatible all right.
+[02:08:31.000 --> 02:08:44.000]  Okay, so let me have a look at the chat so I install netbeens number is it working for you back in front and like Java and have you checked any program yes I tested it.
+[02:08:45.000 --> 02:08:58.000]  Okay Apache netbeens doesn't load it just crashes so usually to try that installed Michael yes I have Java install I had before didn't have issues okay JDK is down low.
+[02:08:58.000 --> 02:09:10.000]  Yeah JDK you have to be you have to check that JDK should be compatible with the netbeens version that you're installing a both are compatible then only it will work.
+[02:09:12.000 --> 02:09:22.000]  So usually that's why you look at this document which I showed you it is in the content folder and you write specifically downloading that JDK which I have mentioned there for each.
+[02:09:22.000 --> 02:09:33.000]  So it will it will depend on what netbeens you are installing so take the latest one for both latest netbeens and see what JDK is compatible with done.
+[02:09:34.000 --> 02:09:48.000]  Due to ID restrictions on my school PC I cannot download it I have an appointment with my them to fix it yeah you can meet your IT team or you tell them that you download the JDK and netbeens and share it with me.
+[02:09:48.000 --> 02:09:59.000]  Okay Sarah has installed Bradley not yet I'm a this document is on SharePoint folder yeah it is on SharePoint folder under the content folder.
+[02:10:00.000 --> 02:10:16.000]  You can download net okay so now Namo has shared this link I already had Java version 23 Java runtime fine now it's not needed.
+[02:10:16.000 --> 02:10:25.000]  You just see that which netbeens Apache netbeens is compatible with this version of Java 23 and download that version of netbeens.
+[02:10:26.000 --> 02:10:36.000]  We need both right yes so yeah we need both because JDK is the Java development kit which actually is a compiler which takes the program for your netbeens and it runs it.
+[02:10:36.000 --> 02:10:48.000]  And netbeens is just a friend and it is a ID interactive development tool it doesn't have its own compiler so you write the programming netbeens and then it goes to the JDK for compilation.
+[02:10:50.000 --> 02:11:05.000]  Okay so make sure that by the end of this week you must install Apache netbeens and JDK and should be working because next week we will start with the B 1.1 that is a programming and by that time you should have this.
+[02:11:06.000 --> 02:11:21.000]  So running on your computer alright so that is all from our side for this lesson it's exactly to our since since we started so we rush I want to ask a question.
+[02:11:22.000 --> 02:11:31.000]  I just want to know how many of you have been able to start practicing coding maybe using I don't know what you already have installed or anything online.
+[02:11:36.000 --> 02:11:44.000]  I've been using the tutorial from the W3 school.
+[02:11:45.000 --> 02:11:47.000]  Great yeah that's good.
+[02:11:48.000 --> 02:12:01.000]  W3 school is good for starting the practice especially if you have never done coding and even Greek for Greeks those two are good websites where you have the step by step tutorials and so.
+[02:12:02.000 --> 02:12:06.000]  So will Java be the only language we will learn?
+[02:12:07.000 --> 02:12:16.000]  Yes Java is the only language that you will learn yes although I think I be offers Python and Java but we as a as a policy for Pamoja we are going with Java.
+[02:12:20.000 --> 02:12:22.000]  Any other questions.
+[02:12:22.000 --> 02:12:28.000]  All good.
+[02:12:29.000 --> 02:12:51.000]  All right okay so I mean you have couple of things to do now because we are now stepping into programming part so please go through the flowcharts section and try to solve some flowcharts there a lot of tutorials available and guys as an online learning mode you really have to find your own ways to look for.
+[02:12:52.000 --> 02:13:17.000]  Good resources so even if you just say that explain to me flowcharts on YouTube you will find a lot of tutorials so that's an additional responsibility for you or a requirement for you to be able to find some good resources and practice them right because if you get if you have never done programming then you really need to work little harder or little more than the others who have done it in the past.
+[02:13:18.000 --> 02:13:27.000]  Right so in the beginning we'll talk about few basic stuff of the programming for a smooth start for everyone but eventually you will see that we will get into complexity very soon.
+[02:13:28.000 --> 02:13:40.000]  So this is a very good time for you to actually start looking at the programming tutorials and start preparing yourself for the same so that you at least understand what's going on in the class and you don't struggle much on them.
+[02:13:41.000 --> 02:14:06.000]  Right if you know any of the friends who are in roll into Pamoja and they are not attending please tell them that they are losing a lot of things if they are not attending right maybe they are not even aware that we are having these classes even though we send the notifications every week but probably they don't check so please remind them in case if they are mentioned these classes and they are from your school or you know them personally.
+[02:14:07.000 --> 02:14:27.000]  Okay that is all from our side and good luck for this week please make sure that you submit the project proposals by the end of this week and next week we will look at it and we will respond to you individually about each of the project ideas and try to make it as informative as possible.
+[02:14:27.000 --> 02:14:35.000]  We need to have good clarity. We don't want to make it back and forth that we have to ask you some questions about your project it should be self explanatory.
+[02:14:38.000 --> 02:14:42.000]  All right then good night everyone and we'll see you next week.
+[02:14:45.000 --> 02:14:46.000]  Bye bye.
+[02:14:47.000 --> 02:14:49.000]  Thank you. Have a nice day.
+[02:14:50.000 --> 02:14:51.000]  You too.
+[02:14:52.000 --> 02:14:53.000]  Bye.
+[02:14:54.000 --> 02:14:58.000]  Rash Sarah wants to stay for a little bit to ask a question.
+[02:14:59.000 --> 02:15:00.000]  Yeah, yeah.
+[02:15:00.000 --> 02:15:01.000]  Yeah, please stay back.
+[02:15:11.000 --> 02:15:13.000]  Yes, Sarah go ahead.
+[02:15:17.000 --> 02:15:18.000]  Can you hear me?
+[02:15:18.000 --> 02:15:26.000]  I know there's some music in the back of it but my school wants me to do a mock exam for computer science.
+[02:15:27.000 --> 02:15:44.000]  Have they reached out to you about it because it's supposed to be like a like basically a mock version of the final exams and they want a computer science paper for me to do in class in during that time.
+[02:15:45.000 --> 02:15:52.000]  So see basically we don't do the some exams on the individual basis.
+[02:15:53.000 --> 02:15:57.000]  You can mute yourself Sarah I'm on the city of question which is mute yourself. I'll answer it.
+[02:15:58.000 --> 02:16:11.000]  Yeah, so we don't do the you know assessments on the school a specific basis we have our own calendar we have our own assessments planned in case if your school needs a score from us.
+[02:16:11.000 --> 02:16:21.000]  We can provide them with the score on the basis of your achievements so far but there will be no separate assessments just because it is in the calendar of your school right.
+[02:16:22.000 --> 02:16:26.000]  So you can let your SBC right to us and we will respond to them about this.
+[02:16:28.000 --> 02:16:40.000]  Okay, you will not have a separate assessment then what other students are doing but if in case if they need a score for you, we can definitely come to a particular score and we can pass it on to them on the basis of your accomplishments so far.
+[02:16:42.000 --> 02:16:44.000]  Any other question?
+[02:16:44.000 --> 02:16:47.000]  Could I ask you a question?
+[02:16:47.000 --> 02:16:49.000]  Your right, please.
+[02:16:50.000 --> 02:16:59.000]  I'm like I was looking at my grades and then like I've noticed that like my grade for the first one hasn't changed.
+[02:16:59.000 --> 02:17:06.000]  Although like I mean like my grade for the real long assessment we did take a little bit ago.
+[02:17:06.000 --> 02:17:11.000]  Like a little bit why I go in the last unit, you know, as semester.
+[02:17:11.000 --> 02:17:18.000]  And then like I knew that I found that like the my grade wasn't like that high.
+[02:17:18.000 --> 02:17:28.000]  Just the comment saying that like all the questions were answered and I have previously asked you guys they asked whether they.
+[02:17:28.000 --> 02:17:33.000]  If you okay guys they clarify on the okay I got you.
+[02:17:33.000 --> 02:17:40.000]  I got you question so could you just drop a message about which assessment you are talking about so you can just mention the week number and the assignment number.
+[02:17:40.000 --> 02:17:44.000]  We'll have a look at it again and if for your score higher than we'll change it in the great book.
+[02:17:44.000 --> 02:17:45.000]  Just drop us a message.
+[02:17:45.000 --> 02:17:49.000]  I just wanted to know like why like how I didn't answer your questions.
+[02:17:49.000 --> 02:17:53.000]  Yeah, okay, so just just drop us a message so that we'll have a look at that.
+[02:17:53.000 --> 02:17:55.000]  Okay, particular section.
+[02:17:55.000 --> 02:17:56.000]  Okay.
+[02:17:56.000 --> 02:18:01.000]  Yes, send us a send us an email knows here because then one email.
+[02:18:01.000 --> 02:18:03.000]  Oh email.
+[02:18:03.000 --> 02:18:06.000]  Canvas email.
+[02:18:06.000 --> 02:18:08.000]  In canvas.
+[02:18:08.000 --> 02:18:09.000]  Yes, not here.
+[02:18:09.000 --> 02:18:11.000]  Yes, in canvas.
+[02:18:11.000 --> 02:18:13.000]  Okay, thank you.
+[02:18:13.000 --> 02:18:15.000]  Mark, you have a question.
+[02:18:15.000 --> 02:18:20.000]  So I just wanted to ask you just to know.
+[02:18:20.000 --> 02:18:24.000]  You can install the netbins and the JDK.
+[02:18:24.000 --> 02:18:32.000]  But I noticed that netbins is seems similar to I don't know if you know the name visual studio code.
+[02:18:32.000 --> 02:18:33.000]  Yeah, yeah, VS code.
+[02:18:33.000 --> 02:18:34.000]  Correct.
+[02:18:34.000 --> 02:18:35.000]  Yeah.
+[02:18:35.000 --> 02:18:40.000]  And I was wondering because I used for a years a visual studio code.
+[02:18:40.000 --> 02:18:42.000]  So I find myself pretty well.
+[02:18:42.000 --> 02:18:43.000]  I mean, it's it's okay.
+[02:18:43.000 --> 02:18:45.000]  You can use VS code for the coding.
+[02:18:45.000 --> 02:18:49.000]  Only thing is when we'll start with the IAIDS.
+[02:18:49.000 --> 02:18:51.000]  For instructions will be based on netbins.
+[02:18:51.000 --> 02:18:54.000]  So as of now for the general programming.
+[02:18:54.000 --> 02:18:55.000]  VS code is fine.
+[02:18:55.000 --> 02:18:57.000]  There's no problem with that.
+[02:18:57.000 --> 02:18:59.000]  But eventually you will have to step.
+[02:18:59.000 --> 02:19:02.000]  You will have to switch to netbins.
+[02:19:02.000 --> 02:19:03.000]  Okay.
+[02:19:03.000 --> 02:19:06.000]  Yeah, thank you.
+[02:19:06.000 --> 02:19:14.000]  Isan, you have any question.
+[02:19:14.000 --> 02:19:16.000]  Okay, seems like he's honest, not sure.
+[02:19:16.000 --> 02:19:17.000]  All right.
+[02:19:17.000 --> 02:19:19.000]  So that's all.
+[02:19:19.000 --> 02:19:20.000]  Same to you.
+[02:19:20.000 --> 02:19:21.000]  Hey, Mark.
+[02:19:21.000 --> 02:19:22.000]  You too.
+[02:19:22.000 --> 02:19:23.000]  Bye.
+[02:19:23.000 --> 02:19:24.000]  Okay.
+[02:19:24.000 --> 02:19:25.000]  Bye, Martin.
+[02:19:25.000 --> 02:19:28.000]  All right.
+[02:19:28.000 --> 02:19:30.000]  I'll talk to you soon.
+[02:19:30.000 --> 02:19:31.000]  Okay.
+[02:19:31.000 --> 02:19:34.000]  Yeah, we'll speak on teams once we'll catch up with each other.
+[02:19:34.000 --> 02:19:35.000]  All right.
+[02:19:35.000 --> 02:19:36.000]  All right.
+[02:19:36.000 --> 02:19:37.000]  Thank you.
+[02:19:37.000 --> 02:19:38.000]  Bye.
+[02:19:38.000 --> 02:19:39.000]  Same to you.
+[02:19:39.000 --> 02:19:40.000]  Bye.

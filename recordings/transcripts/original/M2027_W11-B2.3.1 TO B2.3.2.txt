@@ -1,0 +1,938 @@
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+The
+Black
+You
+You
+You
+Okay, sorry, so I was expecting this that we will have very few
+the late information actually I was traveling and I just reached India there was a flight
+cancellation you may have heard the news about year 320 bus year bus 320 did you hear
+the news so there is some software glitch and it has impacted many flights across the globe
+so it is a kind of mess right now so I was stuck in Bangkok for almost 13 hours before
+I could get other alternate flights so yeah so that's actually you know it was terrible
+I was not pretty sure what I was going to reach here but somehow I got a connecting flight
+and somehow I reached here so I had to push the class a little early because I had other
+commitments at the time that if I had come on time then I could have done it much earlier
+but because I came late so I had to push that meeting little ahead of it so I am not sure
+if everybody may see my message so we may find few students joining by the time either
+we are mid way or we are finishing the class so that's why I will try to keep this class
+short so that you know anything that is left maybe we can cover it up in the next class
+anyways the topic is not that difficult it's quite simple for those who already know
+the programming you may have seen the announcement that today first of all tell me is my voice
+clear because I am not carrying my headphone is it clear okay perfect all right so today
+we are going to cover conditional statements in Java programming language so before I do that
+could you share with me how was the last class unfortunately I had to miss that because we had
+some function in the school and I was I tried taking an excuse but then I was responsible for an
+event so that got extended for which I was not able to attend how did it go last class
+it went well yes okay Alma yeah I agree in that one and it was like interactive like you would
+ask us questions so like it was really good yeah absolutely that's that's very good to hear
+so I have not even seen the recording probably I'll watch it sometime just to see that what all
+have been covered so it's too early for mr martin it should be about 5 a.m. for him so I
+send him a message that it's okay I will manage today image join at some point but I'm not sure
+so we have so far just seven students and I'm really sorry I mean through those who actually
+could not even may have not even got the notification about the change because it was so sudden
+I thought for a while that maybe I'll cancel the class but I I thought that at least let's cover
+something and then we can continue from here next week so I'm going to keep it little light
+at this time okay so last week what was the main thing covered about the programming
+anybody could recall and summarize what was covered
+well it was quite a lot I mean we've been introduced to keywords to some basics
+primitives and then with color concatenation I think
+how about identify as literals like using a constant using a yeah yeah yeah it's a
+primitives yeah we've covered it's okay so primitive data types you covered some of them right
+right I think maybe all of them like yeah at least all of them were mansions
+they may be elaborated upon did you guys try try some programs on any tool or any programming language
+was there any program been tried on a Java compiler yes yes we actually had the assignment
+for the previous week yes so all right Bradley I like that background
+was that is that some is that that doesn't look like a virtual background is it virtual
+is real right and what's that actually no let it let it be it looks nice I didn't ask you to turn off
+let it be very nice all right okay so I mean we will not only revise what we did last week even
+though I don't know much as to how much was covered but anyway I'll try to revise some part of it
+and then I'll move on to decision making statements so before we do that could you type in the
+chat out of total eight students that we have as to how many I have you how many of you have done
+programming in Java or even Python say yes if you have done programming in Python or Java
+okay so I see
+yes only the W3 school tutorial in Python yes but no Java
+sorry Python little Java just started Python in school not much I couldn't briefly
+another similar language okay so I can see that some of you have done it in Python but nobody has
+said that they have done it in Java is that correct software software software have you done it in Java
+yes okay so you should also say we covered some Java functions in similar language
+all correctly okay all right so there comes Martin Martin we were really not
+expecting you welcome to the room I thought you may be sleeping at this hour but glad to see you here
+all right well I'm here hello everybody I'm an honestly Martin I know it's too a
+little you and I could have managed but I'm glad that you're here so we'll actually you know I
+was traveling to India from young one and then that flight thing happened you may have seen the
+news that lot of air bus 320 are called I mean they have got the instructions not to fly because
+there was some bug found in some software so they fear that it might impact the functionality
+and it may end up some crashes so they have grounded all the air bus 320 that is using that system
+so many flights got cancelled so Bank of Airport was like hell I meant so many people
+there was no place to even sit or even stand so somehow I could manage to come to India otherwise
+maybe maybe so no of our students can use that as an
+absolutely it could be a very good case study actually it could be a very good case study okay so
+we just started talking about what happened last week so I think it was a very interactive class
+that's what skips are saying so that's really nice that you know they enjoyed the class
+so I was expecting that we won't have any students because of this late notification
+I could have kept it at the same time but then some prior engagement came up because of my
+later I will do either one so I think last Martin could you just summarize what all was done
+last week well we kind of star the groundwork for the basics for a programming in Java we discuss
+you know all the topics that you lay down right I was able to show the students
+how some of the programs were run in netbeens especially for the part of the debugging right
+the breakpoint ability that they can have on netbeens and we run a couple of programs together
+cannot see in the the throw errors they try and cache so we were able to see that and they were
+able to go through a couple of programs to basically predict what the output of the program will be
+so and we just work on some problems and they did really well you know on that perfect yeah that's
+good to know were you able to touch upon this manipulating substrinks yes we did we did we went
+over everything that was there all right perfect yeah okay so anyway it's now manipulating
+strings is just the introductory part that you covered last week so we will have lot more to do
+from this because the focus will be not using the end build functions but rather write our own
+code to play around with the strings so we'll be starting that when we do the arrays so I see
+here that b 2.1.2 is strings then b 2.1.3 is common exception handling techniques could somebody
+just summarize what you what does it mean when we say exception handling not exactly in the
+programming terms but just in conceptual understanding what is the significance of exception handling
+in programming anyone to like catch errors and I can resolve them while I put error message
+yeah it is partially correct but that is more what you're saying is more of the compiler's role is
+to find errors in the program and display that on the screen right so compiler is slightly different
+than exception handling although they have some correlation it's not that your answer is entirely
+not relevant but that is more aligned towards the definition of a compiler could somebody give
+a more precise definition of what the significance of exception handling I think it's when
+when in your code you have like a conditional so exception handling is when what to do when none
+of those conditions match because you can't just exit the program that is something to do with the
+default in a switch case or the last else in a if else ladder that you have multiple conditions but
+none of the conditions matches then it jumps to the last possible option which may be just like
+saying that incorrect choice for example let's say there's a question input a day number between
+one to seven and print the corresponding day so if they input one it prints one day if they input
+two it prints Tuesday and if they print let's if they input let's say 15 so then it should go to
+the last option saying that it's a incorrect day number so what you're saying that is more about
+multiple conditions and then finally a default which gets executed if none of the condition matches
+that is not exception only but it was a good try anyone else
+well exception handling we actually we are catching and extracted errors and
+extracted events that may occur yes so too we can program crashes for instance with it improve
+overall experience yeah that's exactly a tons of your so that's exactly what exception handling
+means see as a software developer whenever you write a program the last thing you would like
+is that your program should crash under any given circumstances right so the credibility of your
+program will you know will be least significant if your program crashes when it meets certain
+condition could you tell me any common circumstances or scenario where your program may actually crash
+any any common error that may actually lead to crashing your program
+like file is not found yeah exactly for example let's say you're doing file handling
+you try to write a command to open a file for writing or for append and there's no file
+so if you have not written a condition beforehand that what happens if the file is not found
+then your program will result in nothing but it will crash and that is something that you don't
+want to do right so therefore you may have to use exception handling which we catch exception
+is what we call in Java so what it does it looks for those kind of situations where
+it is trying to access some value and it is not able to access that could be one scenario or
+otherwise it gets into a situation where it is trying to do some calculation where the result may
+be infinity right for example let's say you end up writing a program input the numerator input
+the denominator and you say that the quotient is a divided by b now in this case if the b turns
+out to be 0 right so your program will fail your program will crash it will not give any error
+message but it will crash so in order to mitigate these kind of problems we do the exception handling
+that means we try and find the most suitable alternatives that if such conditions are found
+so which means in this case if the user inputs the denominator so there can be a check that if
+the denominator is 0 then it should repeat the processing that denominator cannot be 0
+so that your program will never crash for this reason so as a programmer you have to be very
+mindful about exception handling so that the idea is that whatever program you write it should work
+and if there are some unexceptional values then it should stop that is what exception handling is so
+we will try to we will practice more and more this is just a conceptual understanding so
+it is to mitigate the problems associated with incorrect kind of values which could actually impact
+normal functioning of your program so it should be able to catch those exceptions and prompt to
+you that this is not correct then we have the construct and used common debugging techniques
+that you have done already so trace table is one of the best ways to do that could you tell me
+what are the benefits of using a trace table how does trace table help you in programming
+anyone what do you have to follow also it allows to go through the program stand-by-stab operation
+by operation and see the outputs devalues of different variables and yeah correct so a trace
+table is the best possible way for us to run a program okay in the same way as CPU will be doing
+it so we go step by step that we have the set of instructions in a sequential way there may be
+certain loops there may be certain conditional statements right which will deviate the normal flow
+of program so trace table is the best possible way to look at how the programming program is flowing
+from the top to the bottom and this actually helps you understand the logic of the program more
+clearly because instead of just looking at the code sometimes it is difficult to see how the control
+is flowing but if you have a trace table made you go step by step that the first instruction will do
+this second instruction will do this third will do this and so on and keep filling the table with
+the values and that will help you to know that how the program is actually running starting from
+top to bottom and then if there are any iterations or loops how it is repeating that part so that
+is trace table what is break point debugging this was a question in the sample paper for the computer
+science what is that yeah sure so a break point debugging it's kind of similar sorry similar
+functionality to trace table so a break point is like you're marking your code where you want to
+see exactly what's happening and then you would run a debugger and that debugger when it would
+just run through your program keeping track of all of the variables and showing you but then when
+it reaches the break point then it will ask you what you want to do do you want to like step into
+the condition do you want to skip it do you want to go back perfect I think that's the perfect
+response so whenever you debug the program debugging is a process of finding bugs in the program so
+you have written a program and you are not able to get the desired output so your next step will
+be to find the errors because there must be some error it may be logical it may be syntax
+it's easier to find syntax errors because the system will actually show where the syntax error is
+and you can correct that it's really difficult sometimes to find the logical errors that your
+program is not syntax error free it's correctly done as per the program syntax definitions but
+then there is some logical error like for example instead of less than sign you may have ended up
+writing greater than sign right now when you debug those kind of programs it becomes difficult for
+you to see that where exactly is the problem because of which you are not able to get the correct
+answer and that is where this break point debugging is very helpful in break point debugging what
+you can do is if you don't have a break out debugging then the program will start from top it will
+go till the bottom it will run in one go so finding error would be difficult now let us say
+that you you are running a loop and you want to see that what's the value being generated
+or accumulated or counted after each iteration now if you don't have a break point then the loop
+will finish in one go it will give you all the output and you won't be able to analyze as
+as to where the problem appeared because everything is happening so fast so if you put a break point
+then during every iteration the moment the control goes to the break point it will stop so you
+may then check what are the values of different what are the values for different variables right
+and once you have understood the first step then you again run it so it will go to the second
+second iteration and this is where you can actually put a stop at whichever point you want to
+check your values so that's what break point debugging is generally useful for
+I am not trying try this is netbeans but I have tried it in visual basic where if you put a break
+point and when you run the program and the program stops there and if you bring the cursor
+to different variables in your source code it actually shows what the value they are holding
+I haven't tried that in netbeans maybe I will try sometime but in visual basically if you are
+using VS code you should be able to see that when you stop it and take your cursor to any
+variable name it will show you the current value can I ask a question yeah is there a situation
+they're using the trace table would be more effective than using the debugger because to
+meet their functionalities sound very similar so which one using what in place of using what
+a trace table instead of using the debugger because both of them just keep track of the values
+trace I mean say trace table is yeah I mean trace table is also good but then sometimes the
+trace table becomes too much for especially when your program is very lengthy let's say you're
+writing a 10,000 line program and you are not getting the design output now making a trace table
+would mean that you have to write value for each row at every phase of the program right that
+may be little too much for you as a programmer just to find the error that you are I mean computer
+could execute execute those 10,000 lines very fast but if you have to go through line by line
+that may actually take you a lot of time the easier way is to use the break points that you break
+it somewhere and then you stop it and see what are the values of the variable so that would be a
+little faster way however if it is a smaller program then obviously I would say trace table would
+be a much beneficial way of actually finding the logical error as to why you are not getting the
+correct answer both ways I mean it's I mean it totally depends on the description of the debugger
+who is actually trying to find the errors to see that how best they can find out the errors
+whether by trace table or by the but majority of programmers because they deal with larger
+programs lengthy programs they use the break point debugging they stop the control and then see
+the parameters and then keep moving step by step this is less of a problem in a you know this
+less of a problem in a programming language that uses interpreter because interpreter anyways
+goes line by line right so it's much easier to find errors in that sense as compared to the
+compiler where it runs the whole program but I mean there is no write or wrong answer as to which
+method is better than the other it will totally depend on the context okay so then you
+doesn't even know what is static variable static and dynamic data structure what is static and
+dynamic data structure well as far as I can recall in Java static can only be applied to a
+method not to a class and can be manipulated within the method method when we create it we it's
+usually public static what if it's not within the class yes there is dynamic but we don't usually
+specify I think it can be applied to a method within a class and then extrapolated to the main
+program and it will function wow okay I mean that is I won't say that it's wrong because that is
+also one of the ways of looking at static and dynamic but that's static what you're
+connecting it to the methods and classes that is something you know we haven't reached to that
+level yet when we'll be talking about the dynamics of the classes as static or public class or
+static class or private class right now what we are talking about is just the data structures right
+so when we say static and dynamic now the variables that we use can actually be defined as a static
+or they can be defined as dynamic now even I mean after couple of classes you will be studying
+about arrays and the lists right now that is where the starting and dynamic concepts comes into
+picture in terms of data structures that starting data structures are those where the size is
+predefined so you have already said that okay I need this much of memory to store my values
+like for example in array if you say I want an integer array of size 10 I mean for those
+who have never done programming this may look like for something not very familiar thing but
+just to give you ads up that when we write the program we store values and for storing values we
+use variables which you discussed last time now one of the types of variables which is actually a
+data structure that is called arrays which can hold more than one value so don't worry if you
+don't understand what I'm saying right now because we will study in details what arrays are so
+static since we are talking about the static so static is something which is fixed which cannot be
+changed during the execution of the program so for example you said that I want to store 10 values
+and you actually declared an array of size 10 there is no way that we can store 11th value because
+it will crash and that is where you have to use exception handling that the moment user tries to
+give more than 10 values the compiler will say come on you ask me for 10 values memory and you are
+trying to store 11 so I will crash the program right so static is something where the size is
+predefined whereas dynamic is something which is on the need basis which means you don't predefined
+how many values you want to store it will depend on the actual requirements so initially no memory
+is allocated as soon as you store the first value you will write the code in such a way that it will
+occupy it will reserve the space for one variable and then you store the value as soon as you say that
+I want next value to be stored it will then allocate memory for the second variable and third variable
+so it will be on the need basis now both have pros and cons if I ask you now which is better
+pre defining size or the dynamic based on the definition which I gave which one do you think is
+better static or dynamic tell me you have to expand on the needs it depends on the task
+okay like sometimes it's better to use the predefined set but well or keep it dynamic
+well at least right it's as far as I can recall it depends it depends yeah it depends if you
+already know the size that okay my class size is never going to be more than 50 okay so you can
+know all that happened with brush
+You
+You
+Give me a second. I'm going to check on him. I'm going to call him up, okay?
+You
+You
+You
+You
+You
+I
+Sorry, I don't know what when I got disconnected, because I was on the other screen. What was the last thing that you heard from me?
+that you heard from me. You were explaining the difference, I believe, between
+aesthetic and dynamic. Yeah, exactly. So, so we will be studying more about
+static and dynamic little later, but right now you just need to know the
+conceptual understanding as to what is the difference between static and
+dynamic. The other thing which I think I've got disconnected and I spoke about
+that, that this is an incorrect sequence in the subject guide, because we cannot
+study one dimensional and two dimensional arrays before we study these basic
+concepts. So, I think this is misalignment. Actually, B 2.3 should have been
+before B 2.1.1 and 2.1.2. So, we are skipping this part for now because this
+requires much more skills for you to learn. So, we'll come back to this little
+later. Today, today's lesson is going to be based on B 2.3 programming
+constructs. Construct programs that implement the correct sequence of code
+instructions to meet program. I think this, Martin, did you cover this B 2.3.1?
+What is the topic about because I cannot see it on your screen? Oh, you
+can see. Is it not shared? It's loading right now. It's B 2.3.1, which is
+construct programs that implement the correct sequence of code instructions to
+meet program objectives. No, no, no. I only cover all the way to B 2.1.4.
+Okay, okay. So, in today's lesson, we are going to cover a few, is my screen still not visible?
+Let me try again.
+Rush. Yeah. Do you share the attendance link? Not yet. Not yet. Let me put it here.
+Okay, here's the Google form. So, please go here and mark the attendance.
+How many students do we have today? 12, 11. So, anyway, I mean, this recording will be available for those
+who could not join because of late notification. So, please mark your attendance and then
+it will be available for those who could not join.
+It's Pomi Lorenzo here in the class. What is his center? I will say that he can't see this link in the main classroom.
+It's because the link is on your announcements, but I didn't see it on the main classroom either.
+Really? Yeah. How about the announcement?
+How did you join from? I joined from the announcement. The link in the announcement worked for me.
+Was it for all the same thing?
+I just went to main class and clicked join the room, but it wasn't pre-scheduled, I think.
+And when it is, we have the link. But one can access with a joint classroom. It's the purple botan, a little bit up.
+Martin, can you, because I haven't sent this link to the HL class, I sent it only to the SL.
+Can you send it email that link to the HL class also?
+Sure. Let me do that.
+That's very surprising because I created the class. I should have been there. Let me share my screen again.
+That's weird. No, but actually, how did you get the link? Because I did not share the link with you.
+I just shared the link with the SL. Where did you find the link then?
+Well, it wasn't via the link in the main class. If we go into main class, we have joined classroom.
+I go to online classroom. Then I go to main class. So here, it's joined classroom. So this is what you have to click.
+You know about it should be, it should have been here that the class is running, isn't it?
+I mean, they usually, the time is there, but in this case, it didn't show. So anyway, I tried, I click on the link that.
+Okay. Any which basis final as long as they have access to it.
+Just email the link to them. It's just about six minutes before that we started the class.
+So no, not six months or I was disconnected. Half an hour more than half an hour.
+All right. So let's get on to the task. And those who are missing, honestly, I mean, they can watch the recording because it's something which they can easily learn just by looking at the recording also.
+Okay. So we are going to talk today about two things. One is again about the variables and how we use them.
+And second is the decision making statements. Now, just before I share the netbeam screen, could somebody tell me what is the significance of using decision making statements in any programming language?
+Why do we use decision making statements?
+To handle the logic.
+To handle the logic.
+I mean, does it not have a particular result to feel or to.
+For broke purposes, I think, but it's very important. Very important.
+How it functions basically.
+So decision making is something which is very significant. Even our day to day life because every now and then we make certain decisions.
+Is it Sunday? Okay. I will not go to school. Is it raining? I'll take the umbrella.
+So every now and then we make the decisions like we have couple of options in front of us and we choose one of the options based on the best match principle.
+Right. So similarly, when you're writing a program in any programming language, there are times when you have to make a certain decision that if this is the case, then do this.
+Otherwise, do that. And that process of deciding between two or more different codes to pick up one of them is called decision making. Right.
+Now, I will talk to you about the net being installation, whether you have done it already or not.
+I mean, if it is not yet installed, then I wouldn't, you know, I wouldn't expect you to be losing all your instruction times.
+So you can actually just go to Google and look for any online Java compiler.
+Okay. For example, let's say, I mean, I'll open any random online Java compiler and you can actually write the code and test the code here.
+For example, this is a Java code and you can actually run it from here. So click the run button.
+Till the time you don't successfully install Java compiler, which is netbeams.
+You can use some of the tools like this. So just Google online Java compiler and it will take you here.
+So for example, if I run this code, it will give me the output hello world. See, the output is coming here hello world.
+So this can be used until you successfully install Java compiler, which is netbeams on your computer.
+I don't mind even if you are using some other for the time being, for example, some of you use IntelliJ, some of you use VS code.
+There are many different, some of you use IntelliJ VS code, then what are the other compilers for Python for the Java?
+Anybody using any other tool?
+Hello, other than IntelliJ or VS code or netbeams, I've used any other tool for the Java program writing now.
+So use whichever you find best until you because we are emphasizing on netbeams because it will be more convenient to have a single platform to see the consistency across the whole cohort.
+And also for the internal assessment, your Java on the netbeams will be much more useful.
+It will be easier as compared to the other platforms. So that's why we are emphasizing that you should use netbeams.
+All right, so now talking about conditional statements. So in Java, we can do the conditional statements in many different ways, but before we do that, let's have a look at few scenarios.
+Let's say I want to store two numbers, what will be the data type of that?
+Intenture.
+Okay, what if I want to store a fractional value because I did not specify whether the number I'm going to store is fractional or non fractional?
+The example.
+Double.
+So it will largely depend on the nature of operation that you're going to perform.
+For example, if you're let's say you want to store the number of students in a class, then obviously you will take integer type because the number of students will never be in fraction that I have 6.5 students in my class.
+So, but if you are doing any kind of calculation where the result may be fractional, then obviously you have to use a double kind of variable.
+So two ways we store values is integer num and double, let's say radius.
+Now, num is a variable which can only store non fractional numbers, whereas or integers, whereas double, this can store fractional values.
+And it doesn't mean that radius cannot store value 5, like 5 is integer, but the way it will store 5 is actually 5.0, whereas num if you store 5, 5 will be stored as 5.
+So when you define a variable as double, it can hold a fractional value and if there is no fractional value, for example, you input the values 5, it will actually add 0.0 to it.
+Now, unlike many other programming languages, like python is very flexible, it's very, very flexible, which is not good actually as a programming language I would say.
+The compiler should be very, very strict, it should only do what we are telling it to do.
+Then you will never end up having logical errors in your program because sometimes python interprets your mindset and it does the calculation without pointing the mistake, which may sometimes not be correct.
+I mean, inner way it is helping you to understand what your thoughts may be, but it may not always be accurate.
+Now, let me give a small example.
+If I say, how do we divide two numbers?
+What symbol do we use for division?
+The slash.
+The slash forward slash.
+Let's say I type system.out.println, 7 divided by 3. What do you think will be the output?
+Let me simplify this.
+Let me simplify it.
+7 divided by 2. What will be the output?
+3.
+Okay. How many of you agree that the output will be 3? Could you type in the chat?
+Yes or no?
+In the first form.
+What these variables are.
+If they are a timbre, well, default, I think it will be 3. We have to specify.
+So these are not variables. These are two direct integers. These are literals. We call them literals.
+So.
+Okay. Before we discuss this further, could you go to the chat each one of you and type what do you think will it print?
+So we are trying to divide 7 by 2. This slash is used for division in Java.
+And we are trying to print that value.
+So system.out.println is used for providing something on the screen.
+So when we say 7 divided by 2, what do you think will be the output?
+What in the chat?
+Okay. So we have 3.5 for most.
+Yeah. Euger. Apple is good, but I think they have made it paid now. I think they have asked for money when you use it.
+I am not sure if there was any further changes, but it was a good tool, but now they have started asking money.
+3.5. Yes, either 3.5. 3.5. So just a 3. Euger, say 3. Yes, it is a 3. And now all corresponding.
+Could somebody tell me except for software that why would it be 3?
+Shouldn't be a 7. Shouldn't 7 divided by 2 should be 3.5.
+That's what actually Python will do. So let's try simultaneously.
+Python also. So this is a Python editor. I say print 7 divided by 2.
+And let's see what what is it?
+So in Java, 7 divided by 2 is an integer division. Right. So since it's an integer division, then the resolves should be 3.
+Python for Python, the answer will be 3.5. So Python does.
+Point flow and division or double division. So that's a that's a difference between them.
+OK, I guess he's traveling having issues.
+Again, Lorenzo, I know you just joined Lorenzo, were you able to join through the to the link or when do you go through the main class?
+I worked through the main class. It worked to the main class. OK, thank you.
+Looks like he just joined again.
+Hi, sorry again. So I am now connected to my phone hot spot. Hope it works. Am I okay?
+What? Have we interprets?
+Yeah, it's breaking up for me too.
+Rash, no sound. We don't have sound from you right now.
+Hi, I'm so sorry. It's getting disconnected because I'm in a very remote and maybe the internet is not very good here.
+I tried connecting using my hotspot also, but that's also not working. So I hope it doesn't go away now. I hope so.
+Martin, if it goes, maybe you can just, you know, continue.
+If I'm just going to for a while.
+Share the document with me because I didn't see it in the.
+Yeah, sure. Let me just share the document with you and everyone else.
+OK, so.
+I'm putting it in the chat so that it's accessible to everyone.
+OK, there it is. OK, so we'll come to this little later, but I don't know if you saw my screen when I was sharing the python output.
+That is just to give you a little idea about how strict Java compiler is as compared to many other programming languages.
+So let me go back to python screen again. So this is python here.
+I will try it again print seven divided by two.
+And you see what do you see here coming?
+It's lowering the screen share screen is low.
+It shows 3.5. So that means python output.
+OK, let's say you have been a python coder all your life and then you write a program in Java and you end up writing seven divided by two.
+Let's see what output Java shows. So I'm going to run this program that I've just printed seven divided by two.
+So let's run the program and see what it shows.
+What do you see here?
+What are three, right? Three, right? So software was correct when she said that it will actually be three.
+Now, now let's talk about the reason I said that Java is a very, very strict language.
+It will never assume anything on its own, right? Then what makes it give seven divided by two as three and not 3.5? Any ideas?
+Because it just ignores the remainder in return on integer.
+Because it always try to return.
+So it is trying to return only the same type, which is an integer.
+Same type like what?
+In this case, it's integer.
+So can you explain once more as to what you mean when you say type integer?
+What is integer here?
+Seven and two.
+Exactly. So seven and two, both as you can see are integers because there is no fractional part.
+So how compiler will interpret this is that the user is trying to divide two integer values.
+Therefore, it will give the answer also in integer because it does not want to assume anything that one of these two are both of them are fractional.
+So if you are giving integer inputs as the numerator and denominator, it will assume that both these values are integer so the output also should be integer, right?
+Whereas in Python, it uses flexibility that the user is dividing seven divided by two.
+Let me give the exact answer what it will be under mathematical conditions, right?
+Now imagine that you have been writing program in Python.
+So you would never even imagine in Java that seven divided by two will give you three point sorry three, right?
+And that may mess up your complete program because your output of this expression maybe input for some other.
+And if the mistake in the output here that will actually impact rest of your program.
+So therefore you have to be little extra careful when you are doing the coding in Java because just you have to always keep in mind that Java will only do that much which I am asking it to do.
+It will never do anything on its own.
+So how what should we do here in order to get 3.5?
+We should convert it to double first.
+Say input.
+Say again, you'll convert the input to double or the flow.
+Double where should we write double?
+So before seven.
+Okay, this is one of the ways and this what is this called when we write double in bracket?
+There's a term in programming for this.
+What is it called?
+This is called ice cascading.
+We are cascading the actual data type to something else.
+We are telling the compiler that treat seven as double.
+So now when it treat seven as double, it will actually perform a actual division which will give you 3.5.
+So let's put see the output.
+Now here you can see that it's given 3.5.
+So that means Java will only do that much what it is asking what you are asking it to do.
+If you say 7 divided by 2 both 7 and 2 are integers so it will give you the answer also an integer.
+So one way is to get the correct answer is to write double in the bracket.
+That means we are asking the compiler to treat seven as double.
+So it will treat seven as 7.0.
+And when that is divided by 2 either numerator or denominator if they are double then the answer will also be double.
+This is one way of doing which is a right which is a right way.
+The other way to do is to tell the compiler that the numerator is fractional by writing 7.0.
+Now see we are telling very clearly to the compiler that 7 is not integer but it is fractional because it carries a 0.0 after it.
+So 7.0 divided by 2 will also give you the correct answer.
+And here we get 3.5.
+So these are very minute things.
+You have to be very careful not from the IBDP assessment point of view.
+But mainly from if you ever get into the software profession then these small things could actually lead to lot of disasters.
+Imagine you are losing 0.5 in such a small division.
+And if your calculation is very precise and it requires precision then it is going to just lead to disaster because your answer may actually be problematic.
+But one thing good that Java it is good that Java only does what we are asking it to do unlike Python where it assumes certain things.
+That even though user is saying 7 divided by 2 let me give them correct answer which Java never does.
+Java will only do very strictly whatever you have asked to do it will never go beyond that.
+So you have to be careful about this.
+So this is integer this is double then we have another data type which you have seen last week that is string.
+So string variable can actually store the sequence of characters right.
+So this is string variable any other data type can you think of integer double string any other.
+Char. Char. Char.
+Let's say we have a char variable named character.
+What can we store in this variable?
+One letter.
+One letter that we in the single codes.
+A string is enclosed within double codes which can be one letter or sequence of letters.
+But a character can be maximum one letter that within the single code.
+Float actually.
+I mean it may work on this compiler but float is something which doesn't work on all the compiler so I avoid using float.
+Let's try something value equals 15.0.
+Yeah it's working here no it's not working see there is error coming.
+Variable values never read.
+So you see here some error is coming so float I mean it's a it's a valid data type but I have seen problems using it.
+I mean it often ends up giving some error I don't know why.
+Float is used in C language and C++ language quite extensively because double takes double size than float.
+So people use float for fractional values to save some memory but it doesn't seem to be working so I would recommend that you should always use.
+Double let's see the subject guide if they have made a mention of float I don't think it will be there in the guide also no float is not there but if you find double.
+I think why is double not there.
+Intices in string characters image audio and video stored in binary form data types Boolean value care decimal.
+Okay so they have written decimal but actually it is double it's done through double we have integer type and we have string type.
+The one we haven't talked about is Boolean what is a Boolean variable.
+What's a Boolean variable.
+So at times we have scenarios where we have two possible values either true or false.
+So in such cases we prefer using Boolean which can have the initial value true and if some condition is met you can change it to false.
+That's the Boolean variable.
+What is the problem here now.
+Not a statement semicolon expected but we have put the semicolon use it and specify the identifier.
+Oh sorry yeah identify is not specified so Boolean be equal to true.
+So we can take two possible values either true or false right and all these values if you have stored we can print them using system or outdoor print.
+Now in some of you may already have tried in netbeams you don't have to type the whole thing you can just type S O U T and tab character it will automatically convert that into system or outdoor print.
+It's sometimes very irritating typing so much so just type S O U T let me do it again type S O U T and press tab key it will do it automatically for you.
+Okay now we can print these values for example let's put some value into number number equals 10.
+Now see if I try to give 10.0 right it will not accept it because as I said it's very it's very it's very it's a very strict language which only follows what you're asking it to do.
+Now you said that num is initiative type and you're trying to store 10.0 so it's a violation of your own procedure so it is giving error message that incompatible data types.
+So if you wanted to use 10.0 then this should change to double but since your intent is to just store 10 so you can just do it like this and take a num equal to 10.
+Then we have double radius equal to 5.7 let's say as we have already stored this we have already stored these true and system or let's print all these values first we print number number right so it will print 10.
+Let's copy this 3 4 5 num then we have radius then we have S then we have character then we have the right so it will print each one of them on the screen so let's see the output.
+So it is printing here 10 5.7 my name is Rajesh a which is a character and true which was the value of that variable.
+Anyone has any questions from this much that we have done so far.
+Feel free to ask if you have not understood any part of this what we have discussed right now you don't have to really bother about what all these things are public class starting braces.
+So you will mainly be writing the program under this public starting void main within this start and closing parenthesis.
+Often students end up making mistakes in the parenthesis and that completely messes of the program so you have to make sure that this class which started here ends over here.
+So when you click on any parenthesis it also highlights the ending parenthesis to that if I click here it will show this one so you have to make sure that everything that is opened should also be closed.
+So number of opening statements should be same as number of closing statements then your program will work fine but if you make mistake in any of the braces that's going to be problem.
+So what I generally do and recommend that you should put a comment here end of main this is end of class this is the commenting and you should develop a habit of using comments within your program it's very important.
+I will tell you from is point of view how it is important but this is very important.
+Anyone has any problem from what we have done so far please be honest.
+Is fine to say that yes I have not understood.
+Yeah I have kind of an unrelated question but how would you do like string concatenation between two different types like if I want to print in Python so I want to print like I don't know this number is and then a variable I could just do that but I don't think I can do that in Java.
+Yeah so see when you say string concatenation Python does is quite easily that you can say this plus this and that adds the values isn't that.
+Like for example let's say we have let me start a equals see we don't even have to tell the what is the data type of a.
+Rajesh and B equals and I say C equals a plus B and then we say print C so it will print let me save the file and run it.
+So it will automatically concatenate the string Rajesh are coming together as a value of C in Java language it is not as simple as this there are methods for concatenation of string.
+For reversing a string for finding a substring in a string so those are done through the through the methods but our focus will not be to use the inbuilt methods because they will be very clear instructions in your exam that if some operation is to be performed on a string then you should not use any of the inbuilt functions.
+So which means any of the string operations or manipulations that we are going to learn we are going to learn through the coding method through computational thinking we will not use any of the existing methods which are provided by Python or Java okay.
+So anyway we will come to that concatenation thing and string manipulation little later since we are just covering the basic stuff anyone has any confusion from this part.
+This is called assignment of variables that we have different variables and there are values into those variables and this system out of print is used for printing any confusion in this any question that you have from this.
+Now if not then we can move on okay now last week the little introductory programs that you did that was just to actually declare couple of variables and do some.
+Straight forward mathematical calculation so let's say we have three variables m1 comma m2 comma m3 which is the score for three subjects let's say you can either assign the value soon after declaration or you can do it later.
+Make sure that there's a semicolon to end every statement that you write if you don't write semicolon it will result in an error here see it's saying.
+So semicolon expectation except for loop and conditional statement we always use a semicolon okay now let's assign values into m1 m2 m3 m2 equals 20 and m3 equals 30 and I want to calculate the total for that again let's take a variable 3 what should we write to get the total of m1 m2 and m3.
+It equals to m1 plus m2 plus m3.
+T equals m1 plus m2 plus m3 let's say I also want the average what should we do.
+Divide T by 3.
+So let's take a variable what should be the data type of the variable we are going to store the average.
+It can pay int or double if it is it will you get the correct will you get the correct average.
+It will not pay decimal.
+Yeah it will be non decimal so it will not be the correct average so let's take a double variable AVG can we say AVG equals T divided by 3.
+You should convert it to double first.
+See what it will do see it's not giving any error message but what it will do since T is integer 3 is also integer so it will truncate the fractional part the actual fractional part and it will substitute that by 0.0.
+So if the average was 20.3 what it will store in average is 20.0 which is wrong so what should we change here in order to get the correct answer.
+Either 3.0 either 3.0 or tap type concatenate type cascading which is double in the bracket can we write T.0.
+0.0 can never be appended to an integer it can only be appended to a number.
+So here we can say double T divided by 3 both ways it is fine and then you can print as total is okay now another thing when we print multiple values in the print statement.
+Like I want to print this message total is after that I want to print the value of T so we use the plus as a separator.
+So what plus does it separates this value from the value which is coming up so we want to print the value of T.
+Similarly I want to print averages plus ABG okay let's first try with without cascading and see what the output comes.
+So I am running this code so obviously the sum will be 30 plus 20 is 50 plus 60 so 60 is total which is correct and average is coming 20.0 right.
+Actually I mean it is a coincidence that it is 20.0 but let's change the value to something else I will make it 15 for example.
+Now it will not be exact decimal value so the total is 65 and average it is giving 21 whereas the actual average should not be 21 it should be actual fraction value.
+So now let's change to type cascading double now this should give you the exact average.
+So the average is 21.6666 so with little change here little change in our approach we are able to get the correct answer.
+This all can be avoided if you actually declare everything as double whenever you see the possibility that the results may be fractional it's safe to be using all the variables as double.
+It may consume some extra memory space but you don't have to worry about that from the IPDP examples point of view so this will reduce or this will minimize the number of errors that you may encounter.
+Now since everything is already double you don't really have to do the type cascading it will work automatically.
+So it's coming total is 65.0 and the average is 21.66 which is what we wanted to get.
+So these are basic operations which are performed in Java language that you can store values you can do the calculations and you can print the result.
+Now we are moving on to the next part which is the decision making.
+Decision making is a process where we make a decision here we are not making any decision we are saying just go from top to bottom.
+So it is going in a sequential order starting from line number 19 until line number 28 there is no deviation it's going line by line.
+The deviation will come when you are deciding either execute this block or that block.
+So you have two blocks and you are saying that execute either this block or that block.
+Let's have a look at the example in the flow chart first in the document that I shared.
+So here you can see here you can see that we start from top read the value of n which could be anything positive negative anything or 0.
+Now it is saying if n is greater than 0 this is a decision box and we are saying that if n is greater than 0 which will give you two possible answers.
+So one block is on the left side and the other block is on the right side.
+If it is true then it follows the true path to the left and it says print n is positive.
+But if it is not true that means n is definitely not positive it can now be either 0 or negative.
+So when it follows the false part then we cannot decide whether it is 0 or negative until we check that.
+So we are saying if n is less than 0 and the control will come to this part only when n was not already positive.
+If it was positive print positive and stop.
+So you see the flow of control it is following the true path printing positive and then coming to stop.
+That ends one cycle but if it is not true then it goes to the false part in the false part we are two options now.
+Is it less than 0? If it is true then it says print negative.
+Can you tell me what is missing in this flow chart? There is something missing.
+Can you see something missing?
+If n is equal to 0.
+If it is 0 it is actually saying print n is 0.
+That if it is not less than 0 then it is definitely 0.
+So that way this print n equals 0.
+n is 0 that is fine so we just wanted to print n is 0 and that is just printing.
+There is some are spreading everywhere.
+Just forget about that.
+I mean these kind of errors in your actual IB exam will be ignored.
+I am not saying that you should deliberately make these errors but these small mistakes, spelling mistakes are ignored because it is a test of your logic not of your English language and literature.
+Any other problem that you see in the flow chart?
+Second decision doesn't have true or first.
+Very good that is a problem because how do we know when will it go to left and when will it go to right.
+So there is no true or false mention to the left or right and that actually is problematic that is where the marks will be lost.
+From the output we can see that the left one is yes and the right one is false but unless you write that you don't get credit for this decision making box.
+So that is the main mistake.
+So do you see the flow of control?
+Are we executing the whole program here? No.
+We are executing one part of it either positive or negative or 0.
+Out of three given options the compiler is only executing one part depending on the value of n and this is what is called decision making.
+Now in general language I will have to end the class in next 30 minutes.
+So let's I mean we will continue studying this in more details but just to give you heads up on how decision making stay used.
+There are a couple of ways that decision making is used.
+The most common is if else and one is switch case so we will learn switch case in the next class but today we are going to look at if else.
+So let's change this program slightly I will take integer let's say age.
+Our intent is to have some value in age we haven't learned input statement yet so I'm just assigning the values.
+Let's say age is 10 and we are trying to check with the computer whether this person is eligible to vote or not.
+So the condition would be if so if is the keyword then we start the bracket and then we write the condition age is greater than 10 sorry greater than 18.
+Greater than or equal to 18 if the age is greater than or equal to 18 then we start the starting graces for F.
+So this is starting off if this is end of it whatever you write under this will be considered as part of it can be one statement or it can be a number of statements but here we have just one statement.
+You are eligible to vote this is the first part so this is a block which means if you go to this flow chart.
+We are talking about if this is true then go to true part so this much we have done if this is true then go to true part.
+But what if it is not true then it goes to the else part and in the else part we have starting braces and closing braces and here we say you are not eligible to vote.
+Okay now let's see the format here what we are saying that there is certain age in the age variable based on this we want to print either eligible to vote or not eligible to vote.
+So what system will do the compiler after getting to line number 20 it will store 10 into the variable age and then it is checking is age more than 18 more than or equal to 18.
+Do you think it is true or false what do you think.
+It is false because age is 10 it is definitely not greater than or equal to 18 if it is false it will skip whole of if statement like the way it did here.
+If it goes to true fall part it skips everything that is in false in the fall there are so many things happening but it will skip everything if it goes to true.
+If it doesn't go to true then it will skip the true part and do everything which is in the false and that's what will happen here.
+If age is more than 18 then print this otherwise print this now since the value of age we have given is as 10 so when we run this code.
+Let's say the value of age so see the output is coming you are not eligible to vote why because we gave the value of age as 10 if you change to anything equal to 18 or more than 18 for example 19.
+Now this condition is true if age is greater than or equal to 18 this is true so it will print your eligible to vote so let's see the output now.
+So essentially it can execute only one block in a conditional statement depending on what the value of variable is so it says your eligible to vote.
+This is what decision making is all about we have if we have else.
+I mean there was more to be covered but let's say in the document so these are couple of flow charts.
+Now see this is a simple flow chart where what we have done is we have entered the day number if day number is one then print Monday and where should it go after printing Monday.
+So you see that after printing Monday this line is going all the way to stop if it is not one then it comes to the next one then it checks is that equal to two if it is two print Tuesday and go all the way to end otherwise go to the third value which is three otherwise four otherwise five otherwise six otherwise seven.
+So it will keep jumping to the next decision box as long as the value or the output for each condition is false.
+In the end if it checks if the day is seven then print Sunday okay what is one shortcoming in this program can you tell me this one little problem in this flow chart not the not the spelling or format but there is one logical error.
+So after day seven if it is no it just stops.
+Yeah exactly so if you give some in value value for example nine there is no output so if it says that value nine it will check go all the way from one to seven none of them are going to yes so after seven if it is nine it goes to no and it stops so there is no output.
+So ideally they should have been in the know how print message invalid day number so when it comes to final know after that it should print invalid day number and then stop it.
+Now how do we do this this is done using something called else if ladder because because it's like a ladder you can see step one step two step three so it's like a ladder so we call it LF ladder and how we write it in the program is quite simple.
+So let's do that day number equals one or let's say five what's the first condition we should check for the one if day number equal to okay comparison is made using equal to equal to if day number equal to one and you see here one error is coming the error says that I'm not able to know what dn is because we never defined dn so compiler is saying you're using dn which I don't know what it is.
+So it is very strict it will not do anything until you tell it what it is so you have to say integer dn dn equals five we assume dn to be five now we are checking the first condition if d equal to one what should be print.
+And it's Monday Monday right so first condition is done if you have only two conditions then we have if else but if you have more than two condition then we start LF ladder so we say if and after next one is also else if so this is if then else if and then the condition else if dn equal to two then print Tuesday.
+So this is done when you have more than two conditions so we say here Tuesday this is the second condition and this will continue to go until seven so better than typing again and again is copy for seven times.
+So this is one two three four five six seven and change the values here so first is one then is two then is three then is four then is five then six one more time seven and change them Monday Tuesday Wednesday Thursday
+Friday Saturday so this is this is exactly same like what this flow chart is if these one print Monday LFD is two then Tuesday LFD is three then Wednesday LFD is four then Thursday and so on.
+So we started with one yeah sorry you are saying something you put the n equals to two times it was two times okay so five so we delete this whole part five six seven okay now the problem here is the same thing so let's try and running this we have d equal to five so it should print Friday let's see if it prints Friday.
+So you can see it is successfully printing Friday the problem will come if we give a day number which is not one to seven now there will be no output because we haven't written the last condition see there is no output.
+So which means we have to make an exception here that if none of the values match then it should go to the final else where we don't check anything we just say invalid day name number so now it is more streamlined it is more effective program because it will not fail for any value if it is one to seven it will print the correct day otherwise it will say invalid day number.
+So let's run it. So see it is at least saying invalid day number and this is called else if ladder and always remember we use double equal to sign for comparison we use single equal to sign for assignment if you write dn equal to 15 15 will go into dn if we say dn equal to one then we are comparing.
+So what I would suggest that for this week because we don't have many students also Martin you can share the attendance once again maybe some more students have joined so they can mark the attendance.
+So what I would recommend is that for those who are doing programming for the first time go to w3 school and have the Java tutorial and if else practice this if else chapter try to do everything which is given here in this if else.
+I will put the in the chat so for those who jama is new please practice if you are not installed next week we will talk to you about who thinks one is ia at one is the net beans but if you haven't yet installed that ends successfully then go to Google and type online Java compiler.
+I am going to this gdb online debugger and this be used so even if I copy my whole program from here for example let me copy this whole thing which is in the main and paste it into that online debugger.
+So I I changed this to the code that and if I run this people still give me the day number as invalid and let's give some valid day number for example 12 for example 6.
+And this is all a logical error so let's run it now.
+So for those it could be beneficial for everyone so this document which I have shared please go through this document so I will next week we will discuss more about this because today sometimes constraint.
+So please go through the flowcharts out of this flowing from one section to another then this is the normal sequence which does not have to be from top to bottom this is also top to bottom.
+The actual conditional statement is a trace table you may like to see how this is working.
+This one see 2.3.2 selection if else if possibly else these are symbols which we use for comparison let them less than equal to greater than equal to equal to and not equal to program we just did what we have not done is this and logical operator this will look next week.
+So practice I mean go through this completely even and there is trace table example also and if else a flatter we have what we saw in the program again a trace table then selection with relational this you may skip for now this we will cover next week.
+Don't worry about number 7 but do everything so finally we have some of them joined late so so those who joined little late so we started little early today because some prior commitments so I did not cover much it was just a revision of what we did last week and plus little bit about how to write simple programs of conditional statement.
+So you haven't missed much the first part but I still recommend that you should watch the recording once I post it to the I mean HL can see directly for SL I'll post it on to the SharePoint from where you can see and next week we will get into little more intense programming using decision making relational operator logical operator nested decision making.
+So it will be very useful if everybody can actually do the exercises which are on the promotion platform and also W3 school conditional statement part.
+Now regarding the IA so thank you very much for there was a lot of issues with the uploading options as I said it's a new platform and sometimes they have to do it at the last moment so I could see that majority of you have uploaded already and I have.
+Martin did you get a time to go through your class IA proposals.
+I started in summer I have a finish okay same with me I think I have responded to majority of you and most of you are actually on the track.
+Just a couple of them where I have made some comments as to further more details or sometimes I felt that it is little too ambitious and I would
+encourage those kind of projects but otherwise most of you I have already approved it.
+So I think next week we are going to have introduction of criteria this week 11 right.
+Actually it was supposed to be done today introduction to criteria A but never mind we can wait next Saturday.
+I actually forgot that we had a criteria A plan for this week but actually on the palm of your canvas have you seen criteria A description what it is all about there is right.
+So please find some time to read through that palm of your content as to what criteria A is all about and next week we will discuss about it because you have to very soon submit your first draft of criteria A okay so.
+Number one project proposal it should have been done by now if not then please do it immediately number to read through requirements for criteria A and based on your project maybe you can start writing the draft.
+Make a Google Doc document and start writing the draft.
+I have already shared samples with you so those could be good reference documents for you to know what exactly it is going to cover.
+So take that into account and write start writing criteria A I know that in the beginning it will be totally draft format and it may require a lot of changes.
+But then at least you will have something ready and you will have something to share with us on the basis of which we can tell you which way it should go okay.
+So next Saturday we will start with actually criteria A and then we will do the programming in in conditional statement in Java.
+So please practice some of them because I know that if you're doing it for the first time you may encounter a lot of errors in Java.
+So it is very important that for you as a student that you should learn how to troubleshoot those errors and that will happen only if you try to write five to six programs every day.
+Make it small programs it doesn't have to be very extensive once but start at some point now could you type in the chat if you haven't only installed netbeams just say.
+Write your name if you haven't installed or made netbeams working in your computer for for those it is working no need to say anything i'm just interested in those who I have not yet installed it say no there.
+A couple of students have asked if they can change the topic of the I am assuming right they can they can.
+But then there has to be a timeline that it cannot go forever I mean at the most by the end of this week we must have your I is so we are going to do one thing Martin I'll change the deadline of for all the students for submission.
+Until next Wednesday next Tuesday okay it means any kind of modifications or late submissions can be done by the next Tuesday so if you want to change your topic please upload it and please drop a message to your teacher otherwise we won't know that you have changed your topic.
+But then after the you start with the criteria eight then there is no scope of further changes it has to be same then.
+So that's why do some prior research about what tools will be needed how much is your awareness with regard to the usage of that tool it's okay if you don't know anything but you should be.
+Willing to learn that that is what is most important so if you don't know anything then keep it stick to the basics just think about some basic project where you will use your Java tools that you're learning in in in in.
+IBDP don't think about something very very ambitious.
+Can you type in the chat please if you have not been able to install.
+That means yet.
+Just type your name if you haven't.
+I can't see are you able to type in the everyone chat I can't see anybody typing have you all done it already can you type yes if you have done already.
+Great that's good very good I'm so happy.
+It is never so smooth believe me even in the face to face cold students keep struggling that we are not able to install but so happy to see that everybody has done it good.
+Great work.
+This is a good starting point.
+Perfect.
+Okay.
+So please.
+Is the programs which are there I have added some programs in the document also which I've just shared some products in that.
+There are some programs on the palm of the platform so try to write as many as possible in the beginning it's okay to make mistakes it's okay to have errors.
+The main thing is you should be able to correct those errors that is what is needed.
+Okay.
+Sorry I'm rushing through today even even then we have.
+All spent almost one hour and forty minutes which is not bad so.
+Next week please be prepared to come with some prior knowledge of what criteria is all about and if you can write a little bit that we can share each others work during the session to others to see how it is to be done.
+So we'll spend some half the time in criteria a other half on the conditional statements but honestly students it will be meaningful only when you start putting in your efforts because.
+Theory is something which you can even cover at a later stage right it is more about self learning programming you will miss the track if you don't go with the flow.
+So as we cover some topics in programming please practice more and more questions about them is fine to make mistakes and this is where it could be very beneficial.
+If you have written a program and if it is giving some error take a screenshot of that put that into perplexity for example and say where am I going wrong it will tell you where you are going wrong.
+So for the initials for is that could be a very good way for you to identify the errors and slowly you will become proficient.
+Okay please practice it's a it's a advice and it's a request from us.
+You want to add anything before we end the session.
+No only that if and so he's stealing the class I would like for him to stay I want to be okay.
+Is anyone else who has quite recently joined who hasn't met the teacher yet can stay back others may leave now.
+Thank you so much for your time and for your flexibility.
+I hope you can mark the attendance if not please Martin can you put the attendance link once I just share it again and Charlie is telling me that there is an error so.
+He says four or four yeah Charlie can you try now.
+Let me share this let me share the link again.
+Could somebody else try to open the link I mean don't mark your attendance but could you access the link and see if it is working for you.
+Don't mark it again but okay so you just.
+It's working for me now yeah you're not sure what happened earlier.
+So if anybody missed marking the attendance please do that and very soon we are going to compile these attendance reports and share with the SBC because we see that some students are.
+Have not attended even a single class now imagine how much loss they are at and there are others who have attended all classes and they deserve a lot of appreciation.
+So we are going to write to your SBC appreciating your efforts in this program good job and your engagement for you know being active in the discussions and so meeting assignments on time thank you for that.
+So we are going to write to each of the SBC's I mean I'm really amazed with some of you who have attended all the lessons right from beginning until now that's really amazing.
+All right guys so thank you so much you may leave now and sir I have a question yeah please.
+So I'm a bit confused about the meetings because I keep joining late because I think that the meeting starts earlier is there a set time or is every actually this is the only time when we have changed the timing.
+It always used to be at 12 PM GMT time but today I have some prior engagement and sorry about that so I sent a late notification that today will start it one or early but next week onwards it's going to be 12 known GMT.
+Okay yeah thank you I think just daylight savings I'm not used to that maybe maybe daylight saving could actually impact it but we'll go by 12 PM GMT.
+All right then bye everyone take care bye bye thank you.
+And so stay please.
+Bye mister.
+Bye bye.
+So Martin I'll need to open and I'll just go.
+Yeah okay yeah I need to meet with and so for a little bit.
+Right so anybody else that might have questions.
+Ralphie you have a question?
+Yeah I have a question with my I.A comment.
+I'm Sujaha you commented that like my I.A.
+Connection to theme B is per week right now.
+I was just wondering like specifically what is theme B is up the programming part of the I.A.
+Yeah correct theme B is basically concepts using Java and theme A database.
+So it would be great if you can pick up some topic which could actually be.
+I mean what do you have what do you have used?
+Yeah right now I have the Brenda add on add on thing that I want to create.
+And like I thought that would be like pretty right with the level I am currently since.
+I mean that's okay so that's why it requires me to like actually write like each of the program.
+Like each program of actually adding like objects.
+So like all the like it involves a lot of programming with where like I need to write specifically each step of like what the what Brenda is actually doing.
+When it's executing that commands so I need to write the command for each thing.
+Each step and then also like write the right commands additional commands on myself by myself where I need to like create spaces where people can input.
+There images and then process the image and also like input the ring size and then how to convert that with the radius size and stuff.
+So I thought that would be like to make a good level for my I.A.
+But I was just wondering like how like it could be improved upon.
+Okay so I can't exactly recall what your proposal was so let me go through your proposal again.
+And probably add for the comment to it.
+Okay.
+Okay fine thank you all right bye.
+I said we have any questions.
+I said all right and so are you still there.
+Hello.
+Yes then so how are you could you please turn on your camera.
+Yes let me see if it's working.
+I know you wanted to meet with me and you can also confuse with the time in last time.
+So I just wanted to see how can I help you.
+Yeah so I had some questions.
+Sorry for the confusion.
+No problem.
+So let me see.
+I wanted to ask about first do we have exams in this course.
+Well in which way I mean you do have quizzes and assessments here.
+Yes.
+But not in the sense not similar to I guess one in one.
+In a regular class but there are assessments here.
+Yes.
+Okay.
+Also.
+I noticed that we will go from each criteria of DIA.
+Like the course criteria one or criteria A, B, C.
+Like the flow of the course will be following these criteria.
+Now that we are on discussing the IAS, yes we're going to discuss the criteria that you need to take into account for a successful internal assessment.
+But the curriculum itself is not just focused on that.
+Okay.
+We are going to cover the criteria because now we are developing the internal assessments.
+And we want you to know exactly what is expected.
+Correct.
+But there is more to the curriculum than just the internal assessment.
+Okay.
+Also about.
+So I arrived like two months late in this course.
+Yes.
+You know that.
+And there's some latest assignments.
+I can't do them but I just wanted to know like how.
+All right.
+So what have you done?
+And so.
+Because the idea is do you have a catch up plan with you?
+Yes.
+Schools about you end like this week.
+So when school ends up, I'm starting.
+I'm going to start your focus more on catching up.
+Okay.
+Do you have the document that is the catch up plan?
+And no, I don't, I didn't create a plan.
+No, you did.
+Okay.
+Let me see if I'm able to give you one second.
+I don't know if.
+Look at the.
+On the chat.
+I'm going to give this link.
+See if you're able to open this document.
+Okay.
+Okay.
+He's saying that my account doesn't.
+That's in that out.
+Okay.
+And so what.
+So do me a favor.
+Just share with me your email.
+I'm going to send you that document.
+Okay.
+Okay.
+Okay.
+All right.
+I just send you an email with that document attached to it.
+I want you to try and see if you're able to open it.
+Okay.
+Okay.
+I also send you an email to have access to the chair folder.
+The chair folder is where the recordings of the lessons are.
+And the content, which has the different lessons that we have done throughout the year.
+Okay.
+I can.
+You got the catch up plan.
+Or the idea is.
+This goes up to week six.
+Week seven.
+Let me see.
+Yeah. Week seven.
+I believe.
+Anyway.
+So to start, you need to start with this.
+All right.
+You let me know what.
+Weeks you have done the ideas to do in one week, two weeks of work.
+And I will open the assignments as you go.
+Okay.
+So, for example, check that.
+Check that was checked the calendar week by week.
+And I can open some assignments now for you.
+Okay.
+So, um, let's see.
+Have you done, for example, the learner profile?
+Have you done that?
+Yeah, I think so.
+All right.
+So now these will, these will count as like meeting the teacher.
+Have you done the academic integrity contract?
+Yes.
+Okay.
+What about the CPU components and CPU and GPU?
+No.
+Okay.
+All right.
+So give me one second.
+I'm going to try to open those things for you.
+Okay.
+One second.
+Okay.
+So, I'm going to open everything from week two and week three.
+I'm going to keep you until a week from today.
+Okay.
+Okay.
+Okay.
+So, let me see.
+So Saturday, the 6th of December.
+Okay.
+I'm going to open all that right now as we are together.
+So, so you have that set up.
+So I just open.
+I'm about to open the quiz, quiz two, the CPU components.
+All right.
+So that's open now.
+I'm going to open the CPU and GPU.
+Same thing.
+So, as I said, the idea is that in a week in order to catch up,
+you do basically the work of two weeks.
+Okay.
+And just stay in communication with me.
+Okay.
+So, I know.
+You progress.
+Okay.
+Okay.
+Okay.
+All right.
+So, weeks, we took with CPU and with two CPU and GPU are open now.
+I'm going to open the discussion.
+I know it's late for the discussion.
+But at least,
+you can put some of your thoughts in there.
+Okay.
+I see.
+Let me see, six, one, two, then, all right.
+So let me see anything else from week two, CPU discussion.
+OK.
+And then lastly, from week two, the weekly quiz.
+OK.
+All right.
+So everything from week two is open.
+I'm going to open the weekly quiz for week three.
+All right, the weekly quiz from week three
+is open.
+And lastly, the discussion.
+OK.
+OK.
+All right.
+So that is going to be what you need to do in the next week.
+And once you are done with that, just let me know.
+So I can open the other assignments.
+OK.
+OK.
+If you finish that early, well, even better.
+But so you have a week from now to work on week two and week three.
+OK.
+And so anything else?
+No, that's it.
+All right.
+Well, anything else?
+Just email me.
+All right.
+OK.
+And so have a good rest of the day.
+Thanks, it's you.
+You're welcome.
+Bye.
+Bye.

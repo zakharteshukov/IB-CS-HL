@@ -1,0 +1,311 @@
+IB COMPUTER SCIENCE HL - WEEK 7
+Introduction to IA & A1.2.5 (K-map Revision)
+Transcription - Formatted
+
+================================================================================
+CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+================================================================================
+
+How's everything, guys? We still have two minutes, so we can just do some informal chat. How's everything? How's studies going on? How's school going on?
+
+It's going to be great. It's going good. Good to hear that. Anyone else?
+
+Yes, this person, we have a break. Now, a week off. So this is your term break? Yes. Good.
+
+We'll have our term break next week for Pamoja. So you can have one week of time away from canvas. I don't really want you to be working anything as of now. Just enjoy your break so that once you're back, for the second quarter, we will see what we need to do for the second term and going forward.
+
+Hi, Namu. Good to see you. Hello. Hi, Ujiya. Nice background. Is that a virtual background or real? It's a virtual background. People generally put some fancy backgrounds, any reason why you have put it as black? It looks good, though. I don't have a particular reason. Yeah, but it looks nice.
+
+Hello, Sarah. Hello. And Alma, is it possible for you all to turn on your camera? Yeah. Sure. Thank you. Issa. Alma.
+
+So we have 12 members. In fact, 11, 12 including me. So total 11 members of war. It's 6.30. Maybe next couple of minutes will have few more.
+
+So welcome to today's session. So this is going to be the last lesson for topic A1. So we will be finishing this first chapter by the end of this webinar. But your week goes all the way to Tuesday. So you have your time until Tuesday. But I think you don't have much assignments for this week. I think it's just one discussion and one quiz. Is that right? Do you have any other assignment for this week? No. Okay. That's good.
+
+So if you get some time, it will be nice if you can just navigate through everything that we have done in this chapter. It's a very content heavy chapter. Lot of topics are there. And it would be great if you can after this week, if you can find some time to go through everything that we have done so that it will be a good refresher for you.
+
+So I have already updated the folder with all the content that we have covered so far. Today's content will go after the session. The videos are also available for all the webinars that we have done until the last week. This webinar will also be put there.
+
+If you visited today, you may have seen that I have created a sub folder with the name quarter one. Sorry, term one. Let me share my screen so that it's not confusing to you. Just for the better organization of content rather than having everything put together. I thought it would be nice if we can put it according to each term so that it's easier to navigate.
+
+So let me show you what it looks like now. So here we have the main folder. You have access to this mate 2027 folder. And when you go inside this, we have this recordings. And in the recording, you can see that I have created a sub folder with the name term one, which has "Meet your teacher" followed by a 1.1 until a 1.3.4. And today we are going to cover a 1.3.5, 6, 7 and a 1.3. And that's the last topic for today's session.
+
+How many of you are from SL class? Okay, so for SL class, you will get a little early release because there are only a few topics that we are going to cover for SL and then rest of them are for HL.
+
+================================================================================
+TOPIC A1.2.4 - K-MAP REVISION & BOOLEAN ALGEBRA
+================================================================================
+
+So let's have a look at the subject guide. A 1.2.4. So we have done this towards tables construct logically diagram. So for SL, what we will do is we will look into one. One is a K map because some of your old backs to us saying that you have not fully understood K map. So we will cover this K map today. It cover in the sense we'll just revise what we have done in K map so that it's more convenient for you.
+
+We'll also look at Boolean algebra rules to simplify complex logic diagrams and expressions.
+
+For the logic gates, I don't know if the time will permit us today, but I have put some good videos for you in the content folder. So you may watch that and I think that self explain lottery. Let me show you where it is.
+
+So if you go into May 2027 content, there is this word document, which is a 2.1.2 to 2.1.3, which has linked to many different YouTube videos, which are really nice, which explains all different types of conversions. It talks about how negative numbers representation work and how we do the binary addition and binary subtraction.
+
+Probably we will come back to these topics when we will learn about programming so that we will not only look at how these conversions work, but also we will learn how to write the programs to get this done using Java language. So therefore I'm not covering this now. It would be great if you can go through these videos, which are very nice videos and they explain things concepts very well.
+
+So you can find that under contents folder in May 2025. So teaching and lessons online lesson recordings. So you have access to this folder. So when you go inside this, we have this content folder in the content folder. Rest all of PDF, which are the content that we have covered so far and today's content will also go here.
+
+I have added few more things in this week. I've added little more content into this week 5. So probably you can go through this, although we'll have a look at it today, but I have you can see here it was updated to hours ago. So I've added few more good examples of a Boolean simplification and there is also an assignment in that. So if you have time, you can just do that for your own sake. It's not to be submitted.
+
+Any questions about the folder where we have the documents? Does anyone have any issues accessing those resources? And mind it, this is in addition to what we already have on palm of your canvas platform. That is sufficient in itself, but since we are covering we are doing the webinar for all these lessons. So I thought it will be good if we can make a reference document so that the video aligns with that. So if you are watching the video later, it will be good if you can open that document because my commentary or my talk will be completely be identical towards there in the document. It will be easy for you to make a connection.
+
+One thing more, for the HL students, you don't really have to access the videos from that folder. You can have access to all these folders in the recording section of online classroom. I know that some of you know it already, but if you go to the recordings tab under the online classroom. This has list of all the, sorry, this is SL class. SL doesn't have any recordings so far because we are doing all the classes in the HL Quad. So let me go to the HL class.
+
+In HL class, when you go to the online classroom and when you click on the recording tab in the main class, when you go to the recording tab, here you have list of all the recordings that we have covered so far. And you can just click on this button, start playback and it will play for you.
+
+For the SL, although we are trying that, you should get access to this folder directly, but until that provision is brought into the platform, the best way would be to just go to this folder where you have all the recordings you can just play from there. So, sorry, in the recordings folder, term one, here you have week by week division of all the recordings that we have done. Sorry, so you can go into this folder and you have everything in order so you can access from there.
+
+Okay, so that's about this thing.
+
+================================================================================
+INTERNAL ASSESSMENT (IA) INTRODUCTION
+================================================================================
+
+The other thing that I wanted to talk to you about the upcoming term when we will officially start with the IA. So let me show you what IA calendar looks like.
+
+We will officially start the IA next week, I mean week after next and it will go all the way to February 20, 20, 27. So we have stage by stage incremental development of the IA. So you will be finishing criteria A, then you will get the feedback, then you will get criteria B and feedback. So on, so let me show you what the IA deadline looks like.
+
+So it starts on 11th of, sorry, 5th of November. It starts on 5th of November, so introduction to IA. In the very next week, you will make an IA project proposal. So please take this week very seriously because we will put a discussion forum for you for this week. When you can discuss your ideas and both me and Mr Martin will be going through your discussion post. You can mention what ideas you have in your mind.
+
+We will also add one tab where we'll mention about what kind of projects can be done in computer science IA. So that you will get some basic idea and then we will also share with you a few samples. Which are just the samples, they are not students original work, but they are samples created by the IB. Because so far we don't have any IAs from the students because you are the first batch.
+
+So we have about seven or eight IA samples, which we will put in a shared folder and share with you before this week one. So that you will get a chance to look into what the IA looks like. And in the week after next, the webinar that we will have, we will also play those IAs for you so that we can discuss them together.
+
+So take this week very seriously because if your foundation is strong in terms of understanding of the IA, you will face less difficulties going forward. If you miss this, then it's going to be difficult.
+
+So based on what we discuss, you will make an IA proposal, which will be seen by both me and Mr Martin and based on the potential of the idea that you have presented in your proposal. We will either approve it or we'll ask you to refine it further. That will be on 12th of November.
+
+The 19th of November, IA project proposal teaches feedback. So I've given one week time to myself and Martin to look into your IA ideas and give you the feedback as to whether it is acceptable or you need to make some changes or you have to change it altogether.
+
+And then next week, 26th of November, we will introduce you to IA criteria A and B. So these are the two criteria, which are the starting point for your project development, which is part of inquiring and analyzing.
+
+So if you look at the design cycle, if you look at the design cycle, we have majorly four different stages. You may think why I'm showing you MVP design cycle, but this is actually the universal design principle where we have four major stages inquiring and analyzing developing ideas. So these two contribute to A and B.
+
+What comes to your mind when you see inquiring and analyzing? What do you think this stage belongs to research? About the relevance of the project about a plethora of factors that may affect the design. When we, for instance, research the needs, the potential challenges, the all everything that can contribute to the development.
+
+Okay, so what you are saying software is one step ahead of it's part of inquiring and analyzing, but it's one step ahead of that. Can somebody tell me what is the step before what software just said? When you say inquiring and analyzing, it starts with a certain stage. What is that? Like trying to find a problem to address? Yes, absolutely.
+
+So your starting point is always finding a problem for which you want to develop a solution. Only when you know what the problem is, which you would like to solve using a computational thinking skills is that you will start looking into what possible solutions could be and what could be potential challenges, which is the next step of inquiring and analyzing.
+
+Okay, so the first is knowing the problem like you may see some problems surrounding you. That okay, my cat supervisor is struggling to maintain students records because he is currently doing it in Excel file, but it's not very organized. So you think that if you can develop a centralized system wherein he can make the record tracking easily. So that is the identification of problem area for which you are trying to develop a solution.
+
+And once you have identified the problem area, that is what you will make a proposal to the teachers, either me or Ms. Martin, depending on which class you are in. And then looking into the potential of the problem that you have identified, whether it fits into the computer science, I a framework or not. So we will tell you will give you the feedback as to whether you can go ahead with that idea to explore further. Or you need some changes or if in some cases, we may ask you to completely change the whole idea itself because it may not be relevant from computer science point of view.
+
+So probably we will ask you to come up with minimum to project ideas and with your preference that which one is your first priority and which is the second priority. And then based on your priority and based on the potential of the projects, we will let you know whether you can go ahead with the first one or second one or we ask you to come up with the third and fourth options.
+
+So that is what is covered in the inquiring and analyzing the potential of what the problem area is for which you want to develop a solution and within this criteria, criteria only we also look into. What could be the possible solutions and if you have thought about a possible solution, then what are the strengths of the solution that you have thought about and what could be the possible challenges.
+
+For example, if you think that I will develop a web based solution and then you have to give a justification of why you think a web based solution could be best to solve this problem. Or if you think that I will create a mobile app, so you have to give a justification of why a mobile app and not just that, then you have to also tell that what platform you will use and what tools you will use to develop the solution.
+
+For example, somebody may say that okay, I'll use PHP and my SQL for developing a web based solution. So you have to give a justification of why you think that is the best solution to solve your problem, right.
+
+We will have one exclusive session for finding a good problem and then finding a solution and then exploring why the solution is relevant and what are the possible challenges. That all will be covered in this inquiring and analyzing.
+
+In inquiring and analyzing, you will also have something called success criteria, which is also called criteria for success. What is that? What do you mean when? Standard of whether the project was successful or not? Yes, so you will define some parameters on the basis of which you will test the overall objective of your project, whether it is met or not met.
+
+So based on the solution that you are making, you will come up with 7 to 8 success criteria points that I will consider my product to be successful. If these 8 points are met, for example, one of the success criteria could be that I will create a secured, I will add security to my product so that only the authorized users can log in, right. So which means you are going to make a log in screen for your users to access the product. Now that is one success criteria that were you able to make a log in screen through which your client or you yourself will be able to access the product that is one success criteria.
+
+Second success criteria could be, for example, that I will give different level of accessibility to two different types of users. One will be admin user and one will be end user. So the admin user will have all rights. They will be able to add delete modified data. They will be able to create new users and the second level of accessibility will be only for the end users who will only be the end users to use the platform. They will not have administrative rights. That could be your second success criteria.
+
+So this way, based on the nature of your product, you will come up with minimum seven and maximum nine success criteria. That will also be included within criteria A, which is inquiring and analyzing.
+
+This particular criteria is about 500 words in all. 500 words. Total word count. Does anyone know what is a total word count for the IA? Anyone? Any blind guess? 15,000. Wow. You are writing four extended essays. It's not so big. Come on. 15,000 words is a lot. So maybe two, three thousand to two thousand words. Yeah. Two thousand words is the upper limit for IA. And that's been split into five different criteria.
+
+Like criteria D is the longest one, which is 1,000 words. Criteria A is a recommendation is 500 words, which is split into two parts. One part is identifying the problem or about the problem. And the second to 50 words is finding justification of the solution. So what is the problem? Five to 50 words. And what's the justification of the solution that I have thought about is 250 to 50 plus 250 makes it 500. Right. So this is what will make your criteria A.
+
+And in criteria A, as you can see that there is no not much knowledge of programming is needed. It's only that the platform that you are going to use. You have to give a justification. So you need to do little research about that if you're trying to solve this kind of problem. That what could be the potential tools you may use. And why would you like to use those tools?
+
+So we'll share with you some samples of criteria A, which will give you a good overview of what criteria A looks like.
+
+Then comes yellow color, which is developing ideas. What do you mean by developing ideas? Proposing some solutions. Okay. Coming up with solutions like in what sense in what kind of so. So I'm planning how to create planning how to create. Can you elaborate little more on that? So it's like setting milestones or the solution. Okay. One second.
+
+Thomas is Thomas here. Thomas is not there. Thomas is not there. There's one student who is struggling to join in for villas. I don't know. One second. I'll drop a message. Martin is here. Okay. Sorry.
+
+Yeah. So what is criteria B? Developing ideas? What comes to your mind? You said making what? Can you repeat? Sorry. I was somewhere else. Setting milestones. Setting milestones. Okay. Also relevance. Okay. Where else? Anyone else? When we said developing ideas? What comes in between inquire? Yeah. That's right. Yeah.
+
+So you have to you have to develop a prototype of the solution in the sense that. Any software developer does not jump to this green color creating the solution. First of all, they have to make a prototype in the sense that they will create all the UI designs. Okay. Like for example. What will the login screen look like? What will be the dashboard look like?
+
+So for example, let's say you're making a mobile app. So you will just create a UI design of each and every screen that you're going to use in your project. For example, this is a UI design. Now, this is not a real product. This is a UI design. So based on the product that you have chosen, you will be making a UI design for all the screens that you are going to make.
+
+There are some free UI design applications available. For example, canva is there and there are plenty of them so you can just Google free UI design tools. And that will give you a lot of UI designs which you may use.
+
+[The teacher continues explaining criteria B, C, D, and E with examples and detailed explanations about the IA structure, deadlines, and requirements. The discussion covers UI designs, flowcharts, database designs, testing plans, code documentation, video demonstrations, and evaluation criteria.]
+
+================================================================================
+BOOLEAN ALGEBRA SIMPLIFICATION
+================================================================================
+
+So let's get on to task now. So for the SL, I will start with the Boolean simplification, which was 1.2.5 in the subject guide. So let's have a look at what kind of questions you may expect from the Boolean simplification.
+
+So what is what do you mean by Boolean expression simplification? What does it mean? Right. Reducing the number of logic gates used. Yes.
+
+So when you design a logic digital circuit, we use the logic gates to make different kind of combinations to give the input and get the output to make the digital systems work. There's a combination of many different tiny logic gates.
+
+Now, there are two ways of using the logic gates. One using too many logic gates or deriving the same output using less number of logic gates. So simplification is the process of reducing the number of logic gates so that we may achieve the same output, which may we may get even from the extended list of logic gates.
+
+Now, the simplification of logic gates can be done logic Boolean expressions can be done in two different forms. One is using the laws of Boolean algebra. One is the laws of Boolean algebra and I thought that is a little difficult task because sometimes you may not be familiar with the Boolean algebra laws. Sometimes you may not be able to know which law will be applied here. You may be stuck at certain point, but that is one of the ways of simplifying the Boolean expressions.
+
+The other which is more impactful way and the faster way of simplifying Boolean expressions is using the K maps.
+
+Now, in your IBDP exam, you may get the questions from both sites that they may ask you to do it using K map or they may ask you to do it using the simplification using the Boolean laws of Boolean algebra.
+
+So first, let's have a look at the laws of Boolean algebra. Also, in the document that I shared with you in the content folder, we have listed about 7 to 8 laws which are more than enough for you to learn. So you just have to learn how to simplify the Boolean expressions using those laws.
+
+One thing good, which IB has confirmed, always not mentioned in the subject guide, but they have confirmed that for any kind of simplification where the laws of Boolean algebra will be required, the laws will already be given in the question paper. So you don't really have to memorize those laws, but you should know how to apply them because even if the laws are given, if you don't know how to apply them, you will not be able to solve it.
+
+So that's what I was talking to you about in the content folder 1.2.5 PDF. I have added little more content into that with few additional examples of what IB questions will look like.
+
+Now these are the laws of Boolean algebra. For example, identity law, which says A plus 0 equal to A and A.1 is always equal to A. Now you can test this using a truth table. You can use a truth table. You will see that the same output will come with whether you write this or you just take A. Both will be identical.
+
+Like for example, if you take a truth table of A plus A, so A again A 0 0 take the combinations add them together. The final output will look exactly like what A was and that is called repeating same input has no effect. So A plus A is A and A dot A is A. Now these are the laws of Boolean algebra.
+
+So this one is null domination. So when we add 1 to any variable, any input the output is always 1. When we multiply 0 to any input, the output is always 0. That's called null domination.
+
+Similarly, we have inverse law law of inverse Boolean expression where A plus not A is always 1, which means if A is 1, not A will be 0. 1 plus 0 is 1 and if this is already 0, not A will be 1. So 0 plus 1 is also 1 and A dot not A is always 0. This is called law of inverse in Boolean expression.
+
+Then we have a commutative law where A plus B can also be written as B plus A and A dot B equal to B dot A.
+
+Associative law, this is important. A plus B plus C can also be written as A plus B plus C in the bracket. So the output will be unchanged. You can try this using truth table. First you add A plus B. Then you add C to it. The final output will be same as when you do A plus. First you do B plus C and add that output to A. That law is called associative law.
+
+Then we have distributive law that means A dot B plus C can also be written as A dot B plus A dot C. That's distributive law.
+
+Then we have absorption law where A plus A B A dot B equal to A because you can take A common here. So it will be 1 plus B and anything added to 1 is always 1. So A dot 1 is A. So the final output is A and that law is called absorption law.
+
+Double negation which means if you do A bar and again A bar the output will be A. Because if A is 0, inverse of A will be 1 and inverse of 1 will be 0. So A was 0 and output is also 0. So this also called law of double complement. So when you have double complement on any variables, the output is always that variable.
+
+This is most important day Morgan's law where A plus B whole bar. You can see this is not symbol, but in general you will see a bar above A plus B. A plus B whole bar equal to A bar dot B bar. This is a very important law. And 99 percent chances that any Boolean expression simplification in the exam will be based on the Morgan's law.
+
+So not A plus B equal to A bar dot B bar and similarly A plus B whole A dot B whole bar will be A bar plus B bar. So this is the second one. Let me put it in the second line. Not A dot B equal to A bar plus B bar. This is called the Morgan's law.
+
+[The teacher continues with examples of Boolean algebra simplification, showing step-by-step solutions using various laws.]
+
+================================================================================
+K-MAP (KARNAUGH MAP) SIMPLIFICATION
+================================================================================
+
+Now K map is one of the visual methods of simplifying the Boolean expressions. Where we don't need to learn any laws of Boolean algebra. That is not needed. It's very simplified. It's very simplified way of actually finding the bare minimum terms for a logic gate. Of no matter how complex your Boolean expression is.
+
+Now the K map can be done for two variables. It can be done for three variables or it can be done for four variables. Four variables mean an expression which has a bar BC for example. So we have a bar BC D. So those are four variables. But in IB exams, you will have the K map of maximum two or three, sorry, maximum three variables. I don't think they will give you very simple two variable K map, but three variable K map is good enough for you to learn.
+
+So let's have a look at this step by step. And then simultaneously I'll also explain you. And this is very good video basically to understand what the K map looks like.
+
+We can reduce the number. Is it audible? The video sound. Could someone confirm of logic gates? Okay, which is required to implement that function.
+
+For example, let's say we have this Boolean expression. And we want to implement it using the logic gates. Now this expression is in the canonical SOP form. So to implement this expression, we require three end gates and one or gate. And here we are assuming that the inputs in the true form and the complemented form are.
+
+Okay, one thing I want to tell you here that in the IB exams, you will not be allowed to use three inputs in one gate. So if it is ABC, how will you do it? If it is ABC. Like the first time gate is taking three inputs, you are not allowed to use three inputs in one gate. So how will you split it? Yeah, go ahead. We will separate will take AB and see separately will take AB with end gate and then see and unify them with end gate as well. Correct. So there will be two end gates. One will be taking inputs A and B that output will be AB and then AB and C will pass through another end gate. So that means this will have to be split into two different end gates. That's what is required. So never ever, never ever use a single gate with three inputs. That will be wrong. Really available.
+
+But if we just minimize this expression, then we can reduce the number of logic gates, which is required to implement this function. So in this way, by simplifying the Boolean expression, we can reduce the number of logic gates. And by doing so, we can reduce the total cost and the required space for that implement.
+
+So first of all, let us see how to construct the K map for two and three variables. Then after we will see that how to map the Boolean expression in this total four main terms.
+
+So this is how the two variable K map will look like. Okay. So this is the structure of two variable K map where we have the inputs as A and B and the possible combinations for A and B are 0, 0, 1, 1, 0, 1, 0, 1. The main term is basically the representation of those combinations in the form of variables. So when it is 0, 0, we say A bar B bar 0, 1 is A bar B, 1, 0 is AB bar and 1, 1 is AB.
+
+So this is just a indication of different combinations to the inputs A and B. And that they have been termed as M 0, M 1, M 2, M 3 just to give it a sequence in the ascending order of the occurrence.
+
+So here, the digit beside each row is the possible value of the A, while the digit above each column is the possible values of the B. And the combination of this A and B is represented by the each cell of this kind of map. Or in other words, we can say that the each cell of this map represents the particular main term.
+
+So whenever this A and B are 0, then it represents the A bar dot B bar and it is represented by this cell. Similarly, when this A is 0 and B is 1, then it represents the A bar dot B and the second cell represents the main term M 1. Likewise, when A is 1 and B is 0 and that represents the main term M 2 and this last cell represents the main term M 3. That means each cell of the map represents the particular main term and for simplicity, we can also denote each cell in the number where this number is the variable B and C. And this is how map.
+
+So this is how the two variable K map will look like. Similarly, now let us see the three variable K map. So for the three variables, there are total eight different combinations. Okay, so in the two variable K map, you saw that it was straightforward that. So we have a square split into four different boxes or cells because it's the two variables. So that means there are four combinations for A, the possible values are 0 and 1. Similarly, for B, there are possible values are 0 and 1.
+
+But when we talk about three variables, we will have total eight combinations to raise for three, which is eight combinations. Now, when we have eight combinations, then A is obviously two values, so 0, 1, that's straightforward. But BC, you can see that it is 0, 0, 0, 1. Ideally, it should have been 1, 0 and then 1, 1. But this has been split and we talked about this last time. Can anybody remind or recall why do we have 1, 1 before 1, 0? See, I just sent cells should only have one number difference. Yes.
+
+So this is one of the requirements for a K map that when you are moving from one cell to the adjacent cell, adjacent means next cell, the maximum number of bit changes should not exceed one. So maximum changes in the bits should be maximum one, not more than that.
+
+Now, here we have, so let's look at the left side from 0 to 1, there is only one change that 0 to 1. Now, in the top row, which is represented for BC, the first cell address is 0, 0. The second one is 0, 1, so there is only one bit which is changing. 0, 0 is common and 0, 1, so only one bit is changing. Between 0, 1 and 1, 1 also only one bit is changing. That is, first 0 and the first 1, 1, 1 is common. Between 1, 1 and 1, 0 also only one bit is changing.
+
+Now, if we suppose split, if we swap 3 and 2, making 10 here and 1, 1 here. So if 10 comes at the point of 3, then between 0, 1 and 1, 0, there are 2 bits changing. So 0 to 1 and 1 to 0, this 0 is changing into 1 and this 1 is changing into 0. That sequencing will not help you to simplify the Boolean expression. The Boolean expression simplification works only when you have maximum 1 bit changing in every adjacent cell.
+
+What are the adjacent cells for 1, 1? Can you name them? So we have the numbers for each cell 0, 1, 2, 3, 4, 5, 6, 7. Could you tell me what are the adjacent cells for 3? 0, 0, 1, 1, 1 and 0, 1, 0. So for 3, it is 0, 0, 1, this 0 and 0, 1. For this 3, this is 0, 1, 0, so this 0 and 1, 0 and that's it. How about this 1, 7? Is 7 not adjacent? It is adjacent. It is adjacent. So for 3, the adjacent cells are left, right and bottom. So adjacent cells are those which are immediately next to a given cell.
+
+What are the adjacent cells for 0? 0, 0, 0, 0. No, just tell me the number. Just tell me the minimum number for 0, 1 and 1, 1, 4 and 2, right?
+
+So now this is something you have to remember that adjacent cell is also two extreme ends of the K-map. So this 0 and this 2, if you roll the paper, like if this is a paper and if you roll it like this, then two extreme ends become one next to each other. So therefore the adjacent cells are not just next to one another, but also the extreme ends. So for 0, 2 is also adjacent cell. For 4, 6 is also adjacent cells. And if you look at any adjacent cell now, the maximum number of bits changing is only 1.
+
+So in a way, I would say that just remember this that the combination is 0, 0, 0, 1, 1, 1, 1, 0 and here it is 0, 1. So for the 3 variables, there are total 8 different combinations and this is how the 3 variable K-map will look like.
+
+So here, the numbers on the top of each column represents the possible combinations of variable B and C, while the number beside each row represents the possible values of the A and each cell represents the particular combination of A, B and C or in other words, each cell represents the particular main term.
+
+Now here in the K-map, the numbering is done in the gray code form. That means if you move from the one column to the other column, then only one bit is changing at the time. And that is why after 0, 1, we have a 1, 1 instead of 1, 0. That means between each pair of adjacent cells, only one bit is changing at the time.
+
+For example, as we move from the first cell to the second cell, then only this third bit is changing. Likewise, as we move from the 0, 0, 1 to the 0, 1, 1, then only the second bit is changing. Similarly, as we move from the 0, 0, 1 to the 1, 0, 1, then only MSB is changing. Moreover, as we move from the 0, 0, 0 to 0, 1, 0, then also only one bit is changing. That means these two corner cells are also adjacent. Because if we just wrap this map, then these two cells will be adjacent to each other. Similarly, these two cells are also adjacent to each other.
+
+So in short, in the K map, the cells are arranged such that between each pair of adjacent cells, only one bit is changing at the time.
+
+Alright, so now let us see how to map the Boolean expression in this K map. And in this video, we will assume that the Boolean expression is in the sum of product form.
+
+So first, let us take the case of two variables. So here, this f1 is the function of two variables. So to represent this function in the K map, what we will do? Whatever mean terms are present in this function, for those mean terms, we will put the one in the map. For example, in this case, the mean terms 0, 1 and 3 are present. So we will put the one in those cells.
+
+Now many times, we might be given a function in the algebraic form. So from there. Okay, so let us break this up.
+
+So here you can see that the question which is given is in the form of sigma 0, 1, 3 for a two variable K map. Now when the sigma values are given, then you just have to mark those particular cells as 1 because those are the cells which we are going to consider. The one which is not given will be left as 0.
+
+Now they are saying that cell number 0 plus cell number 1 and cell number 3, they contribute to the value 1. So we are mark them as 1, 1, 1. The one which is not given is 0. That is one form of question which you may get.
+
+Other form is that they may not give you 0, 1, 3, but they may give you a Boolean expression and they may ask you to simplify that. Could somebody tell me if we convert this sigma 0, 1, 3 into Boolean expression, what will it be? Tell me the first term only or the Boolean expression. Sorry. What will be the Boolean? Let's say the other format of this question may require you to solve a Boolean expression. A, O, B, and also we can map the functioning. Tell me the first term of the Boolean expression if we convert this into Boolean expression. Not A and not B. Yes, stay there. The first one is not A dot not B. Why? Because the first cell which is given is 0, which is this particular cell, where A is 0 and B is 0. So when A is 0 and B is 0, it will contribute to the Boolean expression A bar dot B bar. That is the first term. What will be the second term for 1? So A bar dot B bar plus not A and B. Not A and B because A is 0 for this and B is 1. So the second term will be not A and B. So the expression shows so far is A bar dot B bar plus A bar dot B. What will be the third term in the Boolean expression? Plus A and B. A and B, very good. A is 1, B is 1, so A and B. So you may be given a Boolean expression like that, where you have A bar dot B bar plus A bar dot B plus A B. If the Boolean expression is given by looking at that Boolean expression, you will plot these ones in the same way. So it is nothing different than this one. It is only that they have given you the Boolean expression and you are converting term by term a particular cell value, which is part of that Boolean expression. The K map.
+
+For example, the same function can also be given as A bar dot B bar plus A bar dot B plus A B. Both vary each other.
+
+But this group should be in the power of two. That means in case of the two variable map, we can make the group of two ones or the four ones which are adjacent. Okay, so this is another learning that you need to develop that the pairing can be done only in the power of two. That means you can make a group of two adjacent cells or the next would be four adjacent cells or next could be eight. So it has to be always in the power of two.
+
+Now, you don't need to worry about eight because you don't have four variable K map. Maximum you have three variables. So which means you are going to have two recipe are two, which is a pair of four variables. You cannot make like if you have one more one here, you cannot make one single of three. It has to be power of two. So either two or four or eight to each other. But we cannot make the group of ones, which is not in the power of two. For example, we cannot make the group of three ones.
+
+And during the grouping does ensure that all the ones in the map gets covered in the power of. Okay, can you tell me in this example? In this example, is it is it correct format like the blue line and the yellow line? Is that correct? Anyone? We say that we can do the pairing of adjacent cells. So is it correct? Yes. Is this correct? Yes. Think about it. If we have already covered the first top row. Okay, both the ones are already gone. And if both the ones are already gone, then the one which is left over that will be written in its complete form. That cannot be further paired. But the intersection is allowed. Yes. So it's not. It can provide events. It can create even simpler expression. So it can be just be not a beer and not a B. If we just left one. One second. Yeah. So, yeah. So when do we not consider? So if we have you're correct, you're right. So if we have let's say. When do we not come? When do we not consider the reputation? When those are two different pairs, which are already covered, isn't it? If there are two pairs and there's another pair. Between them, you don't consider them. If you have two pairs, which are different. And there is other pairs as one another one. So yeah, so if. Okay, so yeah, this is fine. So if you simplify this, then it will be further reduced. Correct.
+
+So we'll have a look at that example where it is not. And in this way, all the ones in the map gets covered. So in this way, by doing this grouping, we can minimize the bullet expression.
+
+And to understand that first, let us consider this first group. So this group consists of two main terms. That is A bar dot B bar and the A bar dot B. Now in this case, since the A bar is common. So we will have B bar plus B. And we know that this B bar plus B is equal to one. That means this A bar dot B bar plus A bar dot B is equal to A bar.
+
+Now, this is the simplification using the laws of Boolean algebra. So side by side, he is discussing both the options. One is laws of Boolean algebra and the second is using the K map.
+
+So here, if we are applying the laws of Boolean algebra, then this one is absorption law. And then B bar plus B, that is the B bar plus B is one A bar dot one is A bar. So we get A bar as the final outcome.
+
+So by grouping these two ones, equivalently, we will get A bar.
+
+So now, let us see how to get the same result from the K map. So if you see this group, then this variable A remains same throughout the group. On the other end, this variable B. So when you are looking at this pair, you have to see that the board value is staying identical or saying, and which variable is changing.
+
+Now, since A is zero value is running across this whole row, which means it is not changing. No matter how many rows you have here, the value of A will stay identical. So which means A will not be skipped. And then we are looking at what is the value of A. So the value of A is zero. So which means A bar is not changing across this entire row. But B is changing. The B for the first column is zero and the B for the second column is one. So we will disregard any variable or any input, which is changing its values between two different adjacent cells.
+
+So if you look at this pair, the only value which is staying intact is A as zero, because that applies to the entire row. And zero is changing. B is changing, so we'll skip the B. So the outcome from this particular pair is just A bar. It's changing over the group. So we will discard the variable, which is changing throughout the group. And we will keep the variable, which is not changing.
+
+So in this case, as you can see, this variable A is not changing. And here, the value of this variable is equal to zero. That means this group represents A bar.
+
+Similarly, let us see the second group. So this group can this stop two mean terms A bar. Okay, what is changing and what is staying intact here? Anyone who is not given any input, please look at this. Tell me what is changing, A is changing or B is changing. This is A. A. This is A is changing, right? So will we keep A or we will just discard this? Should we keep A or just let it go? It's your guard. This is your guard. And because B is constant and the value of B is one, so that means the B will be taken into the experiment. A dot B and A B. So if you simplify this expression using the Boolean laws, then we will get the B. And the same result, we can also get directly from the A map.
+
+So if you see this group, then in this group, the variable A is changing while the variable B is constant. So in this group, we will keep this variable B, and we will ignore this variable A. And here, since the value of B is equal to one, so this group represents B.
+
+That means this group represents A bar, while this group represents B. And the overall function is the summation of A bar and B.
+
+So in this way, using the K map, we can simplify the Boolean expression without using any Boolean laws.
+
+[The teacher continues with more K-map examples, showing how to simplify three-variable expressions, explaining grouping rules, and demonstrating the process step by step.]
+
+================================================================================
+CLASS CONCLUSION
+================================================================================
+
+So it you never know. I mean, your idea could become Nobel and it could actually go into the market. But anyway, you should not actually aim at that level at this stage because you have number of hours allocated for IA and ideally it's be finished within that many hours, which is 30 hours overall. So you should not aim to make something very, very ambitious try to stick to the basics.
+
+Your SBCs have already been informed about the timeline for the IA so they know which deadline is when.
+
+Passion project or some forecast maybe yeah, of course, it has to be passion project. It will be good if you can develop something which is based on a project that you may be very interested in. Because when you do something out of your passion use take more interest in solving it. So it will be good if you can and that is a good thing which they have done because earlier it used to be client based.
+
+So it used to become very difficult for students to find a client who also needs something which they like to develop. Like let's say I want to develop something in Java and I'm not able to find a client who wants a product solution in Java. So it was not in alignment with my interest but now there is no issue of client. So you can actually think about something which interests you and you there is no restriction. You are not making it for somebody else. You're making just something which could have a significance from the usage point of view.
+
+All right guys if for any questions so I'm happy to answer them otherwise we are done. It's exactly two hours since we started the class.
+
+So next week I will have to check with Pamoja that there should not be any policy that I can't call you for a class during the holidays during the break. But I think that should be okay. I mean if you are willing to come I have no problems.
+
+Okay so I will send a sign up sheet and if you're interested please sign up and I'll see that if the number is beyond 20, then we'll have a class otherwise we'll push it to the time when your Pamoja classes start officially.
+
+But this document which I have prepared for 1.3.1.2.5 to the last topic I will put that in the content folder so that you can do some pre-readable about that. It is self-explanatory and you will know what we are going to discuss in the next class.
+
+So thank you so much for being so attentive for answering all the questions. So I'm really happy with the way you are going and let's continue working together for your success in the CS course.
+
+================================================================================
+END OF TRANSCRIPTION
+================================================================================

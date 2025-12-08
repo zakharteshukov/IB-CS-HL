@@ -1,0 +1,1825 @@
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+That's okay Thomas. Thank you. Thank you for letting me know what you're doing.
+That's okay Thomas. Thank you. Thank you for letting me know. Give me one second here.
+I prepare all the top comments. We're going to be using the top comment we're going to be using.
+All right. So once again, good morning everybody.
+We are all rash. He's going to be able to join. It looks like he's going to be with us.
+Initially, the plan was that I was going to go as I was going to be with you guys.
+He is traveling, so he might have some issues connecting. So I'm going to give him a few minutes
+or seconds and see if he's able to join. And if he's not, then I'll start the class.
+I haven't had a chance yet to look at the proposals for the IA, but I just before we start,
+I just want to see how that process of writing your idea, your proposal went. I just look over
+really quick, but I haven't had the chance to really read in detail what you have in mind.
+Anybody wants to share the idea that you have for your internal assessment?
+Any volunteers?
+Namo, go ahead.
+So currently, my hobby is playing chess on the site chess.com.
+Okay. And I'm managing a club there. So one of my tasks is to update a forum where I record
+the points of each member accumulated from arenas. And I manually by searching all the pages.
+So the event pages. And now I want to automate it because it's time consuming and has can have some
+errors. Okay, cool. That involves managing a little bit of a database. So are you going to try to
+do this kind of a standalone app or just with environment? Probably it will be a Chrome extension.
+Okay. Okay, cool. All right. Nice. Interesting. Anybody else want to share your idea?
+crucial. Go ahead. Oh, me? Yes. Yes. I might mispronounce some of your names, but it's not in
+because I just know the no better. Go ahead.
+Yeah. So my idea is like, I'm a designer. So I make rings and stuff. And the kids like a ring I made.
+And like, I'm going to my idea for my IA is to make a add-on for Brenda, which is like a 3D
+modern software where some but where people can input like an image of like a vector image of their
+of a shape. And then they can input a ring size. And then the add-on can automatically turn that
+vector for image into the a 3D ring ready for 3D printing. And it's all like smoothed out and
+everything. And it could be instantly printed off. So you can like test a bunch of you can make
+a bunch of rings take refast automated. Because right now I found that like it was really difficult
+to make my personal ring with this with in 3D because it's right now making rings takes a lot of
+time both digitally and physically. So automating the entire process of making a ring thought I was
+I thought was an interesting idea. Okay. Yeah. So you're going to combine I mean looking at it,
+you're going to combine a little bit of your graphic design with the computer science that you're
+learning. That's pretty cool. Okay. Because it's going to have for both of you it's going to have
+a lot of personal engagement. Right. So which is it's an important part of your internal assessment.
+All right. Anybody else just one more. Remember that the link for the attendance is on the chat if
+you just joined. So make sure that just go and check the attendance. Anybody else has
+wants to share with us what you are your proposal for your internal assessment.
+Alexandra, go ahead.
+So my project is about designing a system to help a necessary doctors manage patient
+desire. So it's that they can be able to access patient files easily and then edit their documents
+instead of with being stored like on files people files. Okay. Yes.
+All right. Pretty good. Again, I have to me and and Rajesh, we need to meet and start looking at
+your proposals and just go through the process of approving or not, you know most most of the time
+the ideas are Aisa, go ahead and then I'll continue in a second. Aisa?
+Yes, sir. Hi. I just wanted to ask how we're going to measure our grades because we didn't do
+a midterm exam or anything to give a grade for. So what we do and when I said we is
+is Pamoia, what we do is we report to your sites. Right. And in your sites, they coordinate those
+things. We, this is my first year working with Pamoia. So I don't have a clear picture of how
+they actually do it. Right. I think that will be a question that Raj should answer because he's
+the coordinator and I really don't have an exact answer for that. I know what I just said that we do
+pass information into your site and the assessment that we need like monitoring and that
+somebody needs to be with you guys are just coordinated in your home school.
+But I really don't know or don't have an answer to your question. So that would be something I
+have to to ask myself. Okay. That's okay. Sorry. Thank you so much. No, thank you. All right.
+Anybody else? Okay. I think we, if you guys don't have any questions, any more questions or
+just make sure that you take attendance and we are, we're ready to start. Okay. So let me share
+my screen. Alma, do you have a question? Yes. For this week's like assignments, I know we were
+like supposed to download like Java. But for me, I couldn't figure it out. So I didn't end up
+downloading it. So I wanted to ask if you can just quickly help with that. Okay. Let's stay then
+at the end of the meeting and then I'll try to see how can I help you. Okay. Okay. Okay. Thank you
+so much. You're welcome. All right. So let me share my screen. Let me set this up for us.
+All right. So today we are basically going over some basic information about
+programming and Java in a specific, right? So let me, let me try to
+do it.
+One second. One second because this, I opened the file on a different, and it just
+doesn't want to see it.
+Give me a minute. Please.
+I just lost the document. Okay.
+All right. Looks like I found it. Give me one second.
+Instead, the document is not opening on a tap. It's opening as an individual document, and it
+doesn't give me the option to actually show it.
+Where is this? Give me one minute.
+You see the document now. Yes. Yes. Okay. Yes. Awesome. Give me a second here. All right.
+So these are the topics for our class today. So we go into a little bit of what is needed for us
+to create our progress in Java, what the IB requires. Okay. So here we're going to see the
+definitions of local variables and the different data types that are used in Java, which are the same
+data types that we see in other languages. So if you are familiar with Python or C or C++,
+those are basically a standard data types that we see. Right. Now we're going to look at local
+variables in Java, a field, and when we're able to share variables through different methods on
+our program and how to trace the state of a variable as we move through our program in Java.
+Right. And then we're going to look at constructing programs that extract
+and manipulate strings or substrings how to look into the index position or a particular
+character in a string, extracting substrings, finding positions on
+of a particular character that we might be looking for in a string, and a common task that
+you are probably assessed on during the IB is extract domain name from a running email or
+extract a particular substring of a given string. And how to manipulate substring replace
+part of a string, concatenate, etc. And then this is a very a section that I find really interesting
+because a lot of you probably are going to work with databases or are going to reach some kind of
+file. So we need to learn how to manage exceptions, especially when we are reading files.
+Obviously there are other exceptions that can happen, especially when there are in unexpected
+inputs from either a resource or from the users. Okay. And how to avoid, not necessarily avoid,
+but how to manage logic errors if there are logic errors in our code. Okay. And then we're going
+to look at some debugging techniques that we use to revise our code. And then at the end,
+there are some questions that I intend to ask you a couple of those so we can have a practice.
+Okay. Can I have some practice? Okay. All right. So let's start. All right. So in Java,
+so a variable is just a placeholder, right? A placeholder to a store's own some value. That what
+a variable is. The definition here is like a name box in the sense that we do when we declare a
+variable as a part of memory is selected to hold that particular value and the size of that
+depends on the type of variable that we are defining. Here are some examples.
+When we define a variable in Java, we variables in Java are static, which means that we have to
+define a type. And that type stays with the variable throughout the whole program. So we can
+not change the data that that particular variable stores, right? So it has, it requires a type,
+which in this case will be the integer, a name for the variable and then a value. For those of you
+that are new to coding, the equal sign is the assignment operator. And assignments in Java,
+we always read them from from right to left. Okay. So these are the clear as a variable name age,
+whose value is going to be 16, which is an integer. So in Java, for us to store a decimal
+numbers, we can use a double or float, but most of the time for what the applications that we
+are going to develop in this course, we're going to use a double variables. Okay.
+Float variables will be used if we need like a bigger precision. And for that is like
+flow variables have between 15 to 16 decimal places for precision while doubles have between
+seven and eight, but that's probably more than enough for what we will be doing. The other type of
+variable is a chart character variable. Characters are defined in Java between single quotes.
+And Boolean variables, those are variables that take either a true or false value. And then a string,
+a string is just a collection of characters in double quotes. And that's what a string is. Okay.
+As I mentioned earlier, Java is a statistical type. We have to declare and that type is fixed
+throughout the life of the through the program. Okay. Now I be required you guys to focus on these
+types of variable, right? Boolean character integer string decimal. All right. Obviously,
+they're going to be some data types that we might need, especially depending on the type of
+internal assessment that you might end up developing. All right. So here we have a
+a small piece of code. A Boolean variable is logged in is the clear and is set to false.
+So this if statement is going to check if it's login the state of that variable if it's false or
+true. And then if it is true, so if the person is logged in, then it's going to
+present to the screen this test. Welcome back. And if it's not, then it's going to say,
+please login, right? So that will be an use of that particular variable. So most of the use of
+Boolean variables is in conditional statements. And conditional statements in this case, most
+of them are if statements, right? All right. So characters, these are different types of characters.
+Variables that we can define, letters, digits, symbols, all we need is just then in a single
+quote, okay? In reality, the way Java actually stores the character is actually stored in a
+medical code that represents that character. Remember when we discuss about data representation,
+the ASCII code, the Unicode. So that code will be the one that actually says store, all right?
+So integers, positive or negative integers, and most of the time we use them for counting,
+for indexing arrays, for loops, things of that nature. And then decimal, which is double,
+right? And decimal for IB in level program. So again, as I said earlier, I don't think we
+will have the need to use float type variables. But the case, my arrive that we do. And in that case,
+well, we'll just use that. All right. So decimal values are useful fractions, like average distance
+at percent. And then we have a string, which is just a collection of characters of sequence of
+characters. These are two examples of them. And one particular difference between the previous
+type of variables and the string is that the string is actually an object in Java. And also,
+there are going to be some methods that are going to be associated with that, okay? All right.
+So local variables, local variables are either the clear, inside a method, a constructor of a blog,
+like for example, on an if, or a loop. So when we start a loop like four, and four in I equal
+to zero, so on, that I on that for loop becomes a local variable, and always going to exist during
+the execution of that particular for loop or the blog, okay? So it's called local, because they only
+access bit within the method or the blog that is running, right? So that is this scope. The scope
+of the variable is where the variable actually is alive. And after that execution of the blog,
+the variable stops existing, which means that it's not the longer of kind any memory.
+Okay? So here we have a small example. So we have this method. And for those of you that are
+new to Java, then this is what we call the signature of the method, right? And then we have
+methods are similar to functions in Python in the sense that you have a beginning and at n.
+In this case, this is the name of the variable message. It's been initialized to this string.
+So it's local because it's in within this method. So here we have
+the main method that is trying to that is calling this particular method, right? So notice the
+variable message was defined locally inside these brackets, right? From here to there. That's
+where this variable message exists. When we go into the main method, which is this, there is
+no problem calling the method and the method what is going to do is going to or the compiler is
+going to do is going to go to where the instructions of that method is and execute the statements.
+The variable message leaves there. So this is completely valid. However, when we go to outside
+that method, like here, right now that's a comment, right? But if we were to compile and run this
+a small program, then this will give us an error. And the error will be running time error because
+there is no logic error in what is written here only that we are not using the variable message
+in the correct scope. So that will create a runtime error when we run the program. So message is
+local to grid. It is created when grid is called and this appears when it's finished. So that's
+why calling it here will create a compile runtime error. All right. So here we have, is there any
+particular question up to this point? Anybody? We're good? All right. So if we are less,
+let's keep working on this. All right. So feels and share variables. A question? Yes. Go ahead.
+So it needs a compile timer, not runtime error. Right. It's when you compile.
+You just mentioned. Right. Right. I'm sorry. Yes. It's compile. Well, it won't compile. The
+program won't compile, right? Because it's going to say, right, in order on time error. Thank you
+for clarifying that. That is correct. It's not going to compile because the scope of the variable
+is not the correct one. Yeah. All right. So feels and share variables in Java.
+So one characteristic of Java is that we really don't have global variables. But I guess there is
+a workaround for that. And is if that you declare a variable at the class level.
+Okay. So for example, if you look at this piece of code, here is the signature of the class.
+And here we are declaring a variable that is, it doesn't belong to any particular method.
+Not the main, no, any other method. Right. That variable count that is declared as
+a static is going to be accessible to all the methods in the class. All right. So in that sense,
+that becomes a global variable. All right. Because has access or this scope of the variable is
+any, any part of the class because right now is being declared as a class variable. Right.
+So it's accessible for all the methods in the class. So this variable count will be changed
+if we call the method increment. That will change the value of the variable count. So notice
+count is not defined inside increment. So it's not a local variable is actually, in this case,
+a global one, right. Or it's acting as a global bar. Right. So here we have kind of the whole
+program. So in the main method, we call increment twice. So since the variable count is a field
+variable. So the first time we call increment is just going to increment the value by one.
+And then here, it will be incremented by one also. Now notice that count to print the value of
+count is actually called in the main outside the two inside outside. I'm sorry, the method.
+But since it's a field that is accepted everywhere, then this won't be an issue. Right. Then it can be
+there. Now, so note for us as programmers, even though that's feasible to do is in reality,
+not a really good practice to do to have a bunch of global variables because it's going to be
+at some point cumbersome to actually be able to follow the program. Okay. So can you have some?
+Yes, of course, you can have some. Right. And the nature of the task that you're going to do,
+the nature of the problem, you're developing probably are going to require one or two global variables.
+But we don't want too many of them. It's going to cost probably a lot of methods,
+problems later on to follow the state of that variable. Since it's chair and can be changed for
+different methods. Okay. All right. So something that you are going to be for sure as during your
+assessment is tracing a piece of code somehow. Right. So let's consider this code.
+Give me one second. I have prepared another document where you can see the whole.
+You can see the whole document together. All right. So give me one second. Let me see if I'm able to
+to actually do that. So let me stop chairing this document and then I'll change to another.
+Give me one second and I'll share something else. This one. Okay.
+All right. Here here it is. So here is the whole document. So this is what I would like you to do.
+Tracing a document is keeping track of the values of the different variables.
+Right. So in this case, we want to see what the output will be. So in this particular case,
+we have a static variable total that is going to be a share field because it's at the level of
+the scope is the whole class. Right. And then inside this update, we also have a local variable
+whole value. And then total, which is the scope is the whole class, then total is updated inside
+this. Right. And then this particular method update is called twice during the domain method.
+All right. So go ahead and try it on your own to trace this particular program. And I will
+like for you guys to type the answer that you believe on the chat. Just wait a second. Hold it
+in your mind for a second so we can give the chance to other people to kind of trace
+this particular program. Okay.
+And then in a second, in a minute, I'll tell you or we can just look at it. Okay.
+So when you're ready, go ahead and type your answer but on a private chat to me because I don't
+want anybody to see the actual value. Right. I want to see what you guys get on your own.
+Okay. So on a private chat to me answer what will be the output of this program.
+All right. That's fine. We're
+know you're good. Good, good. All right.
+I'm waiting. Sophia, you're good. No, you're correct.
+Jason, go try one more time. Go back and try one more time. Okay. Marco, you're good.
+Oh, um, value, value implies what is past. I'll explain that in detail. So value is what is past
+to the update method. So for example, when we call update the first time with a three,
+right. So this value gets the value three. So on the first call, this line is three times two
+because the value that is past the argument that is given was three. Okay.
+So let's see. Alma, yes, that's, that's, that's correct.
+Jason, try to take a look again. Marco, we're good. Ricardo, yes. Thomas, correct.
+Tyler, correct.
+All right. Pretty good.
+Julia, yes. That is correct. All right. So, um, almost, uh, everybody, just a couple of you,
+I would like Jason to give it a, uh, one more try. Okay.
+Yeah.
+Yeah. See that take your time. We're, we're not in a hurry. Okay. This is a skill that, uh, is very,
+very, uh, common to be assessed during, um, attest. Okay. And this is just, uh, one example.
+All right. So I'm going to pick on, on somebody to actually explain it instead of me. Okay.
+So who wants to volunteer to, um, to explain it?
+All right. There are people, uh, raise their hand, give me a second. Okay.
+Uh, all right. So Marco, go ahead. Okay. Go ahead and explain. So,
+how do we trade this program?
+Marco, we, uh, I cannot hear you. I don't know. Yes. Now I can hear you. Yes. Yeah. So, um,
+we have that the total is declared, uh, firstly as five and it's, that's our start value.
+Then, um, without the directly looking at the, um, function, we know that the, um, entered
+value is three. So, um, then locally is the grade declared as three times two.
+So six. So we do total, which is five plus six, which is 12, 11, sorry.
+And then we do it again, but for, uh, one, so we have a local, which is equal to one times two.
+Give me one second, uh, Marco. Give me one. All right. So, so Marco was saying, okay, the first time
+the update, um, method is called three. This value is the argument that receives. So in this line,
+value becomes three and then value is multiplied by two and that is assigned to local. So in
+this case, local is six plus total. So this 11 is total that was five plus the six that comes from
+value times two. So at this point, total is 11, correct? Okay, keep going, uh, Marco.
+Okay, so then we do the same thing, but for one and we have that local is equal to one.
+Sorry, a value is equal to one. Then we do times two. So it's two.
+And then, um, we added to the total we have, so 11 plus two, so 13.
+All right, so at the end, uh, that is 13. So the, the function without good assist, uh,
+final total is 13. Right, correct. So the final total is 13.
+Um, so somebody was asking, um, to clarify what was value. Okay, so let me, uh, clarify that
+in a sec. All right, so in this, and I'm looking at this because I have the document here and
+over there. So if I don't look at the front place, excuse me. So, uh, this is what's going on,
+right? This is the signature of the method, okay? This variable that is defined inside the
+parenthesis is what we call the parameter of the method and what that is is going to receive
+information, the method receive information. In this case, the type of information that the method
+receive is an integer value. Now that value variable receives the value three. When we pass
+information to a method, then this three becomes what we call the argument. So the argument is
+the value that the parameter is going to receive. So the variable value becomes three.
+So on this first line, then that's, this value in reality is the number three three times
+two six and that is assigned to the variable local. And then here we add, as we explain already,
+that value six to the total. Okay, now every time we call that method, then if we call it with a
+different argument, the value of the parameter would change. Okay? So that will be that particular
+example. Any, any question on that?
+Anybody? We're good. Is that a little bit more clear than it was?
+Give me thumbs up so I can, I can determine if you guys are good. All right? Excellent.
+All right, so let's continue. All right. I'm going to change to the previous document.
+So we can continue with that. Okay? All right. So we just trace this
+this document. And here is the trace. Here is the actual trace. In the main
+total before any of the calls is five. Right? When we call update with the value of three,
+the local variable becomes six, total is still five has not been changed. But after they call to the
+method update, then that variable, total becomes 11. So when the update method is called one more time
+with the value of one, then now the local variable is going to become two because it's two times one.
+And then total before the end of that is 11, but then we add two more, then it becomes 13. So at the
+end, the output is 13. All right. So local variable is recreated each time the method update
+is called and runs, right? And it stops existence outside that method. But total since it's a
+field, it's going to maintain the value between the calls of the methods. So that's what makes it
+acting like a global variable. Okay? So this is style of tracing is what the students are
+expected to do for IB questions. Okay? So you might be given in this case, what I share with
+you a second ago was a whole program. It could be that you just are given a segment of code. Okay?
+But we have to get used to trace programs and what we're doing is really looking at the state
+of a variable. The state of a variable is nothing else that the value of the variable,
+the value of the variable as we go through the program itself. Okay? But that's a very common
+aspect of those type of questions definitely on the assessment.
+All right. So here are a couple of examples of constructing programs that extract and
+eliminate super strings in Java, right? As I mentioned earlier, strings are objects.
+And that means that they're going to be some methods associated with those strings. So here we have
+an example, right? Extrines are indexing. In this case, from zero to the length of the string,
+right? So the string here is hello. In the zero is the first h or the h on the work hello,
+index one is e and then you go two, three, four. So in reality, the length of this string is five,
+but the index indexing, I'm sorry, started zero all the way to four. All right. So one of the
+methods that we can use for strings is char add. And what that is is we're able to get a particular
+character of the string depending on the position that we supply. So in this case, char add is a method
+that requires an integer and that integer is in the index or represents the index that we want to
+access on the string. All right. So for example, here last, notice I want you to look at the syntax,
+right? We're looking at let's go from the inside out right here. Let's start with this, right?
+So we declare a variable hello, right, which is of type string. So this statement inside the
+parenthesis, this statement by itself, the one I just highlighted is just going to get the length
+of the string. So in this case, the length of the string should be five, correct? Because that's how
+long it is. We're subtracting one from it. So this becomes four. So we're saying that the last
+character of this string is the character at position four. And then the output or the not the output
+because we're not printing this anywhere. But the the result of this statement will be that we
+are accessing the character in position four on the string, which in this case is
+oh, all right. So that's just to access one particular character. Obviously we will need the
+position, right? All right. So how can I get super strings from a particular string? There are
+two ways to do that. So here we're defining a string that is super string one.
+And we are assuming that the arguments or the parameters of this method are two of them.
+The initial is where we want the super string to that we want to extract extract starts and
+where that super string ends. Okay. So this one requires both these other one.
+Another the other method is that you just give them the star index and it will go from that
+all the way to the end of the string. Okay. So two things to take into account the star index is
+inclusive. But the end index is exclusive. So the character that is at the end index is not
+taken when we take the super strings. Okay. And indices must go from zero to the length of the string.
+A very common mistake sometimes is to pass over the length of the string and trying to access
+a character. That's a very common mistake that sometimes we do. All right. Okay. So let's take a look
+at this. So let's look at this example. So here we have the string text which is computer science.
+So word number one will go from zero which will be the character Z in this case all the way to
+the character eight. But remember that the eighth character is not inclusive. So the eighth
+character goes up to there or he reads up to there but it doesn't include that character. So that's
+why the only super string or the characters of the super string that we will be able to get is just
+computer. Right. The eighth index is just the space. But that is not included. And then from
+nine which is the S, we will go all the way to the end of the string and then capture that particular
+super string. All right. So those two ways to obtain something for a string.
+Finding positions with index of of the last index of. So let's look at this particular example.
+So index of finds the first position where a super string occurs. So if you look at the email
+string, it has the student and the student name at and the school organization or the domain.
+Right. So in this case, this is going to return. It's going to give us a position
+and index number where this will be. So what would be the answer of this particular
+statement? What will be what is the index value of the symbol add in this string? What it will be?
+You can just say seven. Which one is it? Seven. Seven. Right. Remember that the index is
+started zero. So the return value will be seven. All right. On the last index of find the last
+appearance. Right. And that is useful for file extensions. So if we look at this example.
+Right. So we have no dot final dot version dot dot dot. Right. So if
+lacks in this off, we want to know where is for what is the index of this particular point,
+but is the last one. So if we know that particular index number, so now we can take the
+service stream that is going to give us just the extension of the document because we're going
+to go from that position plus one. Right. Because they we don't want to include the dot. So we have
+to go one more. So this will return this particular service string. Does it that may sense?
+We're good. All right. So let me see. So this is a common service string task that you might
+be asked on an assessment. I mean, not exactly that, but something similar to it. So let's see.
+Let me one second. Okay. This is the whole thing. So yeah. So that is the whole program.
+Take a look at it. Kind of trace it and tell me what will be the output of this.
+It'll be school dot org. So the output should be O R G school dot org school dot org the whole
+thing, right? The whole domain. All right. So let's take a look at that is correct. Let's look
+what this is done, right? So we have a method that is called get domain. The parameter of that
+method is a string. In this case, the string is going to be the email that we passed on.
+And that method get domain
+has a local variable that is going to give me the position of the character at, right? It's
+going to give me that position. But it's not it's going to return. It's going to give me back
+that position plus one. So let's look at this in more detail. Okay.
+Let's go back to this line. This is the signature of the method. Okay. Let's take a look at that
+for a second. So the name of the method is get domain. This string here is telling us the type
+of information that this method is going to return. All right. So we'll go into more detail
+with the public study as we as we learn more Java. But right now, this is saying that the result
+of calling this method is to provide us with a string. That's what it says, right? So here we get
+the position of the ad symbol through the index of, as we saw in the previous example,
+but what are we returning? So we are returning a sub-strain. What sub-strain? The string,
+the sub-strain that starts one more than the position where this symbol is at.
+All right. So when this method is called in the main, which is called right here,
+right? It's called right there. Sorry. I don't know why you did that. All right. So,
+oh, because it thinks it's at a real email. So that's why it's right to do that. All right. So
+when we call this as to an at a school dot org is the argument that is passed to the method.
+Right. We find the index of ad. We added one to it. And here we are returning that. So that
+means that we go from a school dot org all the way. And that's what is, that's what is return.
+All right. So that also is tracing the program. What is the program doing? Any questions on that
+anybody on how this particular program will work? All right. So remember, you will have access
+to this to go on when we share it on the documents folder. All right. So here is the explanation,
+right? We find the index of that. And then this takes everything after that position.
+All right. All right. So, um, less, less, less, less, let me see. What would be the result
+of this particular program there? Well, actually the answer is on your screen. So,
+so I guess I don't need to ask that. But let's take an analysis of this, right? We have
+a method called invert name is going to return meaning it's going to produce a string.
+Right. And the parameter is another string. It receives something from us which has to be a
+string. Right. So what is it going to do? So it's going to find where a space, the index where a
+space is and is going to store that position into the space position variable, which is an integer.
+And then since we are calling the input is at a low place. So that means that is actually
+finding this position, the position of the space and that position will be what position?
+What is the exposition of the space should be three should be three, right? So the position here is
+three and then it's going to take the first name from position zero all the way to three. Remember,
+this is not inclusive. So we don't take the space. So this first name now has the value of add
+or the string add in it. Right. And then the last name from the space plus one, it would be
+low place. And then all we do here is print in reverse order. This line, we haven't talked about
+it, but this line, if you see, do you see the plus signs plus implies that is called concatenation
+of strings. Basically, we're putting those strings together. And there are actually three
+strings in this statement. The last name, the space and the comma and the last name. So the output
+is going to be this. That will be the output of this particular program. Questions, comments,
+anybody? We're good. All right. If I'm going too fast, let me know. All right. Or too slow,
+also. All right. So manipulating service strings, we can use replace to alter part of a string.
+So for example, here we have the sentence of the variable sentence, which is a string I love
+math. So the new sentence, we're going to replace a sewer string by another. So you just give them
+what you want to replace and what you want to replace by. That's all the arguments that you need.
+So when you use, when you print that particular new sentence, then it will become I love computer
+signs. All right. So as I mentioned earlier, concatenating strings is just adding them this particular
+way. So you can add that information and produce one string. You could ask in this example, just
+concatenate them and assign to another variable string. Okay. And we can also build service strings
+from from different pieces. All right. So for example, we have this code. We can get the
+service string that goes from five to seven, which is computer science, the code of the class.
+We can take the service string from the eighth position all the way to the end, 2027. And then now,
+I can build a new string just by concatenating those two pieces of information. Okay.
+So that is build them a string from other pieces. Right. This is a very important for us to
+understand because this will be something that eventually you're going to be using
+to make sure that your program works properly in case the user inputs the wrong type of
+information. Right. We need to handle that. And what that is is called handling exceptions.
+When we're running the program and maybe we want to access a file that is not there.
+We don't want the program to crash. We actually want the program to be able to handle that situation.
+It's looking for a resource. It's not there. What happens? Or if we ask for a particular type of
+information and the user by mistake or whatever just provides something that is not the type of
+information that we need, then we need to handle that. We don't want the program or program to crash
+just because it's not receiving the correct input. All right. So the syllabus
+asks us to know to handle unexpected inputs. Right. And determine if a resource is available or
+not available. That means if we're going to open a file or is the file that's the file access.
+What we're looking for it or not with the program should handle that and managing some logic errors,
+possible logic errors. Okay. So unexpected inputs happens when the user enters information that is
+different from what we're asking. And when that happens, usually what happens is if like in this case,
+right, the user enter a letter instead of numerical value, then that's going to give you a number
+form and exception or something similar. And what the compiler is going to tell you is like look
+wrong information, right. And if you're expecting an numerical value and you are going to manipulate
+that value to do some kind of arithmetic, then obviously if it's not an numerical value,
+the arithmetic won't be able to be performed. Correct. So we need to handle that. So here we have
+a variable called input ABC, which is obviously it's a string. But here we're trying to
+make that variable converted or parsed that variable into an integer. Right. And as
+signed that to this variable, this will give us a number formal exception, right. It's an error
+that we will probably need to handle. Let's say that we are asking for, I don't know,
+the course code. And instead of a numerical value of five, seven, two, the user enter five,
+by mistake, it type a letter in between the characters of the numbers that represent the code.
+Well, that will create an error on that input. So we need to handle that. Okay. When we look for
+resources, one very common is when the file does not exist and cannot be opened. All right.
+All when we're trying to connect to a network or use a printer and the printer is offline or the
+printer is no longer there for some reason, right. Or the database is not available right now. So
+instead of our program crashing, we need to handle that. We need to know, okay, in this case,
+what are we supposed to do? All right. So since this is to either read for a file or access
+a resource, there are called input, output exceptions, right. Or something that is related to input
+to our program. Logic errors might be something like divided by zero that will cause an
+arithmetic reception and array that we are trying to access outside the length of the array.
+That will create an exception also or using reference that is null that will cause a null point
+exception. That means that we're trying to access that something that is empty or we're trying to
+manipulate the value something that is empty and obviously if there is no value, then we can
+no manipulate that. So those are going to be errors that might happen. All right. So where is the
+purpose handled this? Right. We want to catch up runtime errors. We want to respond in a
+control way. We don't want our program to crash because of that. Right. Avoid complete program
+crashes, show helpful messages to users, prompt users to please input the proper
+information, clean resources like closing files. Every time we access files, we need to close because
+otherwise the files might be corrupted. Okay. All right. So here is a common way that we manage
+these exceptions. Right. Is the is the try cache final structure? So the try cache final structure,
+as you can see, each each part has its own blog of code. And this the code on the try is code
+that might throw an exception. So email may not actually throw the exception, but we are anticipating
+that the user may not enter the proper input. We might anticipate that the file is no longer there
+because it was removed or that the resource may not be available. So we are anticipating that
+as a possible scenario. Right. So the catch is going to specify what type of error happened.
+And then based on the type of exception that happened, we are going to determine what to do.
+Right. We might decide to prompt the user for the correct information. We can decide to tell the
+user the file is no longer there or the printer is not available or there is no network connection
+or the database is is not available so on and so forth. Okay. One second.
+Yes. This document will be in the in the share folder. Okay. Okay. Somebody was asking that. And
+yes, it will be it will be there. All right. Okay. So we can have, I'm sorry, the finally, the
+finally is code that always runs. Always this piece of code is going to run. Now you can have
+but you can handle exceptions just having that try and catch. You don't necessarily have to have
+the final but it's a good practice to have it. Okay. And I'll explain why that is a different.
+Now move. Do you have a question? Yeah. I was going to ask why we need finally.
+I can't. Finally, finally, you want to have it there because usually you want to close any files
+or any resources that that were open. Okay. So that's why it's always it's always there to
+to guarantee or make sure that we
+you
+you
+okay, I'm back is raining over here and I just lost connection. Right now I'm working with my
+the hotspot of my phone. So I don't know how good the connection is going to be but I'm going to
+try to continue. Okay. So if he incase the power goes off, I still have connection with my phone.
+All right. So let me share again the document.
+Okay. So I was saying that the final is if you don't have to, the final is optional. Okay.
+It's a good practice because it's where you want to close any resources that you have
+maybe open or try to open. Clean up a little bit. Okay. But it doesn't have to.
+All right. Okay. So you can have multiple cash
+blocks. It depends on the type of handling errors that you're trying to
+to manage. Right. So for example, here, you might want to handle an input output exception.
+Here, you can just ask me. I'm sorry. I can't see the screen. Oh, you cannot. Maybe we can
+reconnect. Say it works. You need to refresh the page. It works for me. No, I would.
+Okay. You guys can see it. Can you see them? I refresh the page and now I can't see it.
+Okay. Thank you for that. Okay. So just do that, please. Just refresh.
+All right. Where was I? Okay. Right here. So I was saying that we can have different
+different or more than one catch block. Okay. All right. So here we are going to
+look at this example. It's kind of long. So I'm going to try to feed it.
+All right. Let's let's try to look at here because I modify this program to actually work.
+This one is the one that will will create an input output error or handling exception.
+Right. So let's look at this. All right. So these are Java classes that we need when we are
+managing files. Okay. The buffer reader, the file reader, and input output exception,
+which is the one that manage any possible error. Let's plane this a little bit in a second. Okay.
+But those are classes that we're going to need when we manage files. Right. So here we have
+a class, which is the class file. Right. And here we have the main method.
+So the first thing we it is that we declare a buffer reader and that the name of that reader
+is reader and is null just to start and notice that then we go into the tried catch exception.
+Right. So this let's go from the inside out. Right. Let's try to explain this. So here the file reader
+is an argument of the buffer reader. Okay. So the file reader is kind of the actual connection
+of the physical connection between the file and our program. Okay. The file reader is going to
+read the information on the file byte by byte. What the buffer reader does is actually
+instead of reading one byte at a time, he just buffer an amount of bytes. It makes the reading,
+I will say, faster. Okay. So it's kind of establishing the connection here with the file. And
+this allows to read a buffer of bytes, which help us read the file faster. So here we have a
+variable call line is of type a string. And what we're going to do is use this reader to read
+line by line. So when we read a line, we're not reading one character at a time. We'll just
+buffering the whole line. Okay. So that's basically what's happening there. And then here,
+we're going to print the first line. Okay. If we try to open this file data and data.text does not
+access, then we're actually going to jump or the execution of the program is going to jump to the
+cache. And it's going to say error in the file. This is where the message that the compiler generates
+is stored. Okay. And this is us managing the exception. Right. And we're managing the exception by
+using what the compiler is throwing at us. And that is called a throw an exception. Right. Throw a
+message because something happened. And then we just captured that here. And then that information
+is printed. I'm going to give you an example in a second. So here we have the final part. Right.
+In the in the try, we attempt to open and read the file. Right. If that didn't happen, correct.
+And I'm sorry, you know, if if that was successful, the file now is open. Right. We read all the
+information. And now if the reader is not is different than null, that means that we did have
+access to the file and we read the file, the information, the file now the file is open.
+So namo, why do I need this? Well, now here we is a good part where I close the resource.
+In this case, I close the file. There is no more access to that particular file. Now I know
+finally, I'm sorry. I can't just move that reader that close into the try block.
+Yeah. So, so that is that this, well, in the final, we have a try cache, right. Yeah.
+Because something might happen during reading the file, the information can, it depends.
+Let me put this section, it could be possible that more than one application is trying to access that file.
+So if the file remains open, if there is the chance that the file might get corrupted.
+So what we want to do is make sure that if we use a resource, once we
+we will not use the resource anymore, we release it. In this case, the way to release it will be to close
+the file, in a sense. And we check if releasing that file here with this particular cache inside
+the final was successful or not, right. If we couldn't close for any risk on the file, then now we
+are also handling that exception, that positivity. All right. We are already handling the session
+before. So I don't remove that reader that close into the try block before.
+We could try to add that in there. And I don't think there would be any issue with it.
+What we're trying to do is organize our code in a way that here we know that, okay, here I'm reading
+the file, right. I finished with that. And we're just guaranteeing that this
+closed the file. Remember what I said earlier? Do I have to find a final? No, I don't, right. So
+I could take this action there. What this does is give a better organization of the code,
+because you're like decomposing what you're doing with the resources and how you handle in the
+exceptions. Okay. All right. So now I'm going to show you how this works. Okay. So I'm going to
+actually share my netbeams with you guys. Let me see if I can do that. Let me see if this
+allows me to, it should, it should allow me to do that because I think that power is interesting.
+Okay. So let me stop sharing this. And let's see if I can
+do it again. You want one? I can't put this here.
+File reader is some power. Let me put that up there. Okay. Netbeams. Netbeams.
+Let's try to set this up. So I can share that.
+with you guys.
+Window.
+One second, I need to change my settings. Looks like
+You
+You
+You
+You
+You
+You
+Look at the I don't have in this particular example, not the final so this is just a try and cash all right so
+There is
+this file that I'm going to attempt to read.
+If you look on the panel to the left of the screen right here,
+this is the, yes, this is the fiber in example, this one.
+So in net bins, in order for us to be able to read a particular file,
+that file, at least in this example, needs to be where my code is.
+So here I have, I'm sorry, that's not it.
+One second.
+See, it's so small.
+File reading example, this one.
+Source package.
+All right, here.
+That's what I wanted to show you.
+So here is my project of the file reading example.
+And here is the file.
+It's called today that I'm going to to read.
+Okay.
+So I was saying that in net bins, in order for me to be able to do this example
+is I need this text file to be in the same folder where my dot Java file is.
+Okay.
+And in order to be able to read it,
+I'll have to provide the path where that particular file is.
+Okay.
+So let's look at this for a second.
+We're going to do two things with this file.
+One is see how it works.
+And second, we're going to do the next section of the file of the of today's class,
+which is kind of debugging.
+All right.
+I'm going to show you what you can do to kind of debug this type of files or any other file.
+Okay.
+All right.
+So the tried, as I said, in the previous example, right.
+We define first the path of the file, right.
+It's a string, which is going to have where the file is located.
+We define a buffer reader.
+In this case, the reader.
+Then a file reader is declared.
+Remember, that's the physical connection between the program and the file reader and the file.
+We just create the object in which you're going to read with the clear string variable call line,
+which is what we are going to use to store the lines that we read from the file.
+Okay.
+All right.
+So introducing line debugging.
+Line debugging is a method in which you can debug your programs using the environment that your IDE,
+in this case, the Japanese.
+For example, I'm going to double click on this and notice that I double click on the number of the line where I am.
+Or where I want to start the debugging process.
+And if you look at the top navigation bar of netbeens, this is where you can debug your program line by line.
+Okay.
+So first, I'm going to run the program without doing the debugging and see how it works.
+And then we'll do a little bit of debugging just to see how actually they go from the try to the catch.
+So let's do that.
+So I'm going to run this program is just going to read that file and print it on the screen,
+hopefully, without any issues.
+And this is the file, right?
+Is this little point?
+Okay.
+All right.
+So it works.
+Open the file.
+No problem.
+Right. Everything works.
+All right.
+So I'm going to make this a comment.
+And then I'm going to use this, which is not existing.
+Okay.
+So I'm going to try to open that particular file.
+Okay.
+So now we are going to run the program again.
+And then now there is an error, right?
+There is an error because it's telling me that an input output exception just occur.
+Because this file doesn't exist.
+There is no such file of or a directory, right?
+Okay.
+So let's take a look.
+We're going to then try to run this.
+Of the bug.
+Right.
+We're going to see what's going on.
+At least see how actually works.
+Does it make sense?
+So we're going to run the debugging line by line.
+And then notice that is this windows to on the left panel, open.
+Right.
+This one's right here.
+We are going to be debugging.
+Here are some evaluation of expressions.
+And here we're saying that we're using the line reading the file that we're using.
+Okay.
+So this icon here allows you to step over the line that you are at.
+Okay.
+So let me move this down so we can see how it moves from one line to the next.
+So we click on it and then you jump from this line, line 20 to line 24.
+Right.
+Buffering reading this one.
+So if I step to that and we're trying to open a file that does not exist.
+Then the execution of the program should jump from there to the catch.
+Okay.
+So notice that the when is straight to that.
+Do you see that?
+Because so he catch the exception.
+It never went over this block of code.
+He jumped directly to there.
+If we go over, then it's going to print here.
+What happens?
+Right.
+Right there.
+And if we stop over that, then.
+All the stack print the stack trace is all this that is just printed there.
+And the execution of the program ends.
+Right.
+So this is what is called line the bugging.
+Right. And it's done.
+Uh, directly on your IDE.
+Most ideas have this option for us to, uh, to be able to.
+To what to debug the problem.
+Now, let's change it, change this back.
+And let's look at one more time when there is no.
+Uh, error.
+Okay.
+All right.
+So we're going to do exactly the same thing.
+We're going to go to the bug.
+This right there.
+And hopefully we'll be able to see.
+That this time around.
+Instead of jumping from the tried.
+To issue go to the next.
+Instead of jumping to the catch.
+I'm sorry, it should go inside the tri block of code.
+Okay.
+What is where the green line is is going to read that.
+What happened?
+I did something.
+Let me do it again.
+Okay.
+There you go.
+I stopped here.
+Okay.
+So it gets to the tri block of code.
+Prince that notice at the bottom.
+That line of code just was printed.
+Now we're on the while.
+It reads the first line.
+And it prints the first line.
+Right.
+So right now we are on that.
+Code.
+Right.
+And that code in this case is a is a while loop.
+So we're going to stay there until we read.
+The whole file.
+Okay.
+Almost done with that.
+And then there is no catch exceptions to happen.
+And with that, we're done.
+Right.
+Okay.
+So that is something that I wanted you guys to see because you are going to be managing files.
+Right.
+And then there is only through your eye right either text files where you're going to either.
+As in the most project.
+I don't know how he's intent to handle that, but he might create text files with the information, the organization, so on and so forth.
+Right.
+So I wanted you to see that.
+Let me stop sharing.
+Let me see.
+Or this one.
+This is another exception handling.
+Take a look for a moment to that.
+To that example, this one has a final and see where a mistake might happen.
+And then raise your hand and and and share with us what where do you think the error is.
+Is happening.
+Anybody other than then the move.
+Any other brave soul.
+Yes, I guess maybe no.
+Okay, now move.
+So what's going on here?
+So first it will define try to define in an entire array.
+Then it will run successfully.
+Then for the next line, it will try to access the index 10.
+But the length of the array is only three.
+That's correct.
+It will create a letter.
+That's going to be.
+All right, so let's.
+Let's run it.
+Right.
+So.
+Here is the error.
+Right.
+See.
+A rate index does not exist.
+Index 10 is out of bounds for length three.
+Notice that all we have in.
+In the print line is array index that not at six.
+Everything else from then on is what the compiler actually produces is the is the exception is the throne exception.
+Okay.
+All right, so.
+Is there any other example that I have.
+Okay, yes, I do have this one, which is another way to debug our programs, you know, is debugging using print lines.
+So for example, in this particular code.
+We're trying to find the maximum of an array of integers.
+Okay.
+And sometimes it's difficult to follow that.
+When especially when you have a loop.
+All right.
+So sometimes you want to add print statements embed temporary print statements inside your code to see what is the program producing.
+Right.
+Is a way to debug.
+Obviously you will remove those print statements afterwards after you have check and debug your program is just this is just an example of how to do it.
+Right.
+So here we have.
+A method called find maximum find max has a parameter, which is an array of integer values.
+What it does is the first element of the array, we define that to be the max.
+And what we're going to do inside this loop really is compare that value.
+With the other elements of the array.
+And if one element of the array is bigger than max, then we swap the values, we change the maximum right.
+So I'm going to run this again, and I'm going to do the line debugging here one more time.
+And.
+All right.
+So here we are on the loop, right.
+Nothing has been produced here on the output.
+And then we stop over that.
+And this is the nice feature for debugging notice where we just jump.
+So it's telling me, OK, I started at zero and it goes after length six because that's the length of the array.
+OK.
+If you look at the line where the green is highlight the green, it tells you the value of I.
+And what is the maximum at that point.
+So it provides you information so you can follow or trace the program.
+All right.
+From there, it's just going to compare is the value.
+Is the maximum right, which is five is that still higher than the value at index zero.
+If it is, then you're going to change it.
+If it's not, it won't change it.
+So notice that the first value of the following value is three.
+So five is still the maximum value.
+So it shouldn't change, right.
+So.
+Here, current value is still what five because five is still bigger than three.
+The maximum doesn't change.
+Same thing happens with the following, which is four.
+So we check the value is is not the maximum.
+And it's going to go through this for every index in the array.
+OK.
+So it finds a value of seven.
+And now the maximum value is going to be updated.
+All right.
+So new maximum is seven.
+And it will continue to do so until we get to the end of the.
+D array.
+OK.
+And so here I combine two things.
+One is the print statement, right, to debug the program.
+And the other is using the.
+Online debugging or the line debugging that is provided by the IDE.
+That that may sense.
+All right.
+So let me stop sharing that.
+And let's go back to the original.
+Oh, the original file is not here.
+So we want to second because since I lost connection, I probably.
+You
+All right.
+All right.
+So now you were asking if this file to share this file on the chair folder is already there.
+There are now two folders.
+Turn one.
+Turn two.
+The file is on their.
+Turn two.
+So make sure you.
+You access it.
+OK.
+All right.
+So here.
+Here we are on the file that we started the lesson with.
+So debugging techniques.
+We did two.
+One of them is tracing a table.
+Right.
+And for trace a table, basically, you are creating a record of the state of the variable.
+The values that the variable takes to.
+Determine what will be the final value of the value variable or variable that you're interested in.
+Right.
+So that's a trace table.
+You look at the steps.
+In this case, there are three steps.
+And notice that.
+What I have shown you is we usually trace a stuff that.
+Well, we can trace anything.
+But usually when we have loops and we want to keep track of what the loop is doing.
+Abdul, give me a second.
+And then I'll try to share the folder with you again.
+OK.
+All right.
+So.
+That's what we will do.
+The other is using the print statements.
+This is what I just show you there.
+Break point.
+The bugging is what I show you on also on netbeams, right?
+Clicking on one particular line.
+The program.
+You execute the program one line by line.
+And that's what we're.
+All right.
+What most common is to use is a combination of all those techniques, depending on how big.
+The issue is with the program and what you are trying to.
+The bug.
+OK.
+So here I'm going to ask you a couple of I be questions.
+OK.
+And with that, we're going to end the.
+We're going to end today's.
+Today's lesson.
+But.
+Here's some of the questions break.
+So I have to prepare a document for that.
+Let me try to.
+To find that document.
+We try to find that document first.
+OK.
+And then with that, we'll, we'll finish.
+Thank you.
+All right.
+I found it.
+So just give me a second here.
+All right.
+Can you see that?
+Everybody.
+All right.
+So let's see.
+All right.
+I'm going to start with this.
+As we did earlier, I want you to.
+Trace this.
+Document.
+And provide.
+And answer to the output for for a.
+On the private chat.
+OK.
+Take your time.
+When you're ready.
+Just.
+I see a couple of responses already.
+So.
+All right.
+All right.
+All right.
+I see some similar answers.
+OK.
+Anyway, I highlighted the the count.
+But it also would be easy to kind of keep track of what that is.
+Sophia, you cannot paste.
+Can you type it though?
+It's complicated on the tablet.
+Oh, you're not tablet.
+OK.
+All right.
+OK.
+Good, good, good work.
+Appreciate go back and check it.
+Yeah, Michael, you can if you want to a problem.
+These questions are on that document that is in the share folder.
+OK.
+I just organized in here to be able to see the whole question in one piece.
+Because over there it was kind of.
+OK.
+Akmal.
+We're going to discuss it in a second.
+OK.
+But you're in the right track.
+OK.
+Is that the answer for par B?
+Explain what the value count is at method eight is different.
+Or you're referring to.
+All right.
+All right.
+I'll have that into account.
+We're going to go over it anyway.
+What's going on, Sophia?
+What is funny?
+Go ahead.
+Now, may I please tell verbally once within?
+Yeah.
+Because it's really.
+No problem.
+No problem. All right.
+All right.
+So let's let's start with par B.
+OK. Let's start with par B because I think par B.
+Give us understanding of what's going on with the actual values, my sense.
+All right.
+So.
+OK, Sophia, go ahead.
+So initial, we initialize two different methods, method A and method B.
+Each of these methods use global variables and local variable.
+We have one global variable, which is one and local variables.
+Well, method A introduces the local variable count five, which is a valid only for this method.
+And it increases this variable by two.
+So the output of the method A is seven.
+There is a method B calls for calls for the global variable one and.
+F three to it.
+And that's why we receive two separate answers because we have local variables for each separate methods and a global one.
+Right. So here, this is local.
+It only exists.
+In method A, right.
+Here, count is not defined or declared.
+So count here is the field or global, right.
+So in this line.
+That refers to this count.
+Correct.
+The method A modifies the local variable, but it doesn't have any effect on count been equal to one.
+Correct.
+Method B is using the global.
+So that is going to change this particular value.
+So it's adding three to it.
+So it should be so the final output should be what?
+What should be the output here for the output that should be for, right.
+The output that should be for because this for is the actual modification of this variable count.
+Correct.
+So that's a good exercise is tracing and knowing the difference between local and field variables or global variables.
+Okay.
+Is there anybody that has a question about what we just explained?
+If you do Sophia is answering those questions because she's in charge right now.
+Or Ricardo Ricardo, you got it right.
+Almost everybody got it right.
+Okay.
+Okay.
+So par B, why the value count inside method is different from the value printed in method B?
+Because one is a local variable and the other is a field.
+I sense that's the difference.
+So one is modified by method B, while the other one is not.
+Okay.
+Let me see.
+All right, let's.
+Let's try problem three.
+Let's try to read that.
+Why would that be the case?
+Anybody raise your hand if you want to kind of explain that?
+Okay.
+Namu, go ahead.
+Namu or Sophia, you can compliment each other.
+Namu, go ahead.
+So first please, static means that the value of the variable is shared across all objects of the class.
+So it belongs to the class.
+And it's instances.
+So you can access it inside a method without needing to pass that variable.
+That is correct.
+Right.
+So it becomes a variable that can be used anywhere in the code.
+Right.
+So there is no need to pass it as an as an argument.
+Right.
+Okay.
+This one.
+This will be a little bit more complex because we have to do.
+We have to write a piece of code.
+Right.
+It's not a whole program.
+But I want you to think about a problem seven for a minute.
+Okay.
+See if you're able to kind of develop a little.
+So lines of code that will accomplish that.
+And obviously you don't have to write it, but you could just tell us.
+The steps, right?
+The steps that the program.
+And you can make to accomplish what problem seven a is asking.
+And with this, we're going to.
+We're going to end the class is two hours and I.
+I hope that it was.
+Interesting enough for you to stay the two hours with me today.
+So whenever.
+You're ready, kind of to explain how you will approach seven a.
+Let me know.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+All right.
+Anybody.
+Anybody want to give it a shot.
+Now, let me check if there is anybody else.
+Okay.
+All right.
+So let's do this since.
+Okay.
+Marco also.
+All right.
+Let's hear it from Marco.
+Marco, go ahead.
+Then let's do this.
+Now move.
+Be ready to try to do B.
+And Sonja, if you don't mind, see if you're able to come up with an answer for eight.
+Okay.
+All right.
+Marco, go ahead.
+Okay.
+So my answer was that year, like I declared a variable a year to take it as the extracted
+part equals code dot substring and the parentheses eight.
+So that I will take the all the values after the eighth character.
+Okay.
+All right.
+That.
+So how do you know is the eighth character?
+Because I counted it.
+Okay.
+So you counted.
+Is there a way to identify where to start without counting?
+Yeah.
+After the using the.
+What was it?
+Maybe if it starts with a 20 like a.
+All right.
+So remember, there is one.
+They are that I can.
+I can help you find the last index of.
+Right.
+So remember the example when we use the dot.
+I will.
+Yeah.
+Last of.
+Last of.
+All right.
+So then you could use the last of the dash.
+Because that will tell you the index where the 2027 starts.
+Right.
+And then I add one.
+Correct.
+And then you that add one.
+And then with the super string, you can.
+Extract what you need.
+That's in my sense.
+Namu.
+Did you maybe thought of something different?
+We can call index of.
+Which argument.
+Yes.
+Okay.
+And it'll.
+Catch where.
+Yes, it's.
+Then we can add three.
+So get where the ears start.
+Where the ears start.
+Okay.
+That's another possibility.
+Yes.
+All right.
+Son.
+Son.
+You did you thought of something different than those two possibilities.
+Sophia.
+I've been focusing on the eight, but I think it's.
+All right.
+All right.
+So let's do B.
+Let's do B.
+Namu.
+Let's try to do B.
+And then we move to eight.
+And with that.
+I'm going to let you go to enjoy the rest of your Saturday.
+I think it's about to start.
+I don't know if you probably is ending.
+So.
+Go ahead.
+For part B.
+Namu.
+So you'll define.
+You declare a call.
+That string code equals to IBDP.
+Yes, 2007.
+27.
+Uh-huh.
+Then.
+We will call index of.
+So that variable.
+We see argument.
+CS.
+That's the string.
+Okay.
+All right.
+Return the index where CS starts.
+Then if you want to find the index where 2017 starts.
+We can add three to it.
+And then extract.
+We will call some string.
+Which stand up there.
+All right.
+Yeah, that will work.
+All right.
+So if you are ready for not for eight.
+Are you?
+I think we had this one actually as the example.
+So basically we need to create a new method.
+Well, public static stream.
+It will be with the name format name.
+And we need to accept.
+String as a variable.
+Well, let's say full name.
+Well, label it full name.
+Then the program starts and we need.
+Not the method starts.
+So we need to identify the space.
+The index of space.
+In.
+In the input.
+Yes.
+And then once we have identified the index of this space.
+We.
+We can identify last name, which will be at the position.
+Well, we.
+Okay.
+It will be.
+Full name.
+Some string.
+And then space plus one.
+Yes.
+Then we can identify the first name.
+In the name.
+The first name, which will.
+Start at the.
+At zero.
+And at the.
+Space position.
+The index of space.
+Yes.
+And we return.
+We return the first name.
+Then well, it can.
+If we decide to go with.
+A comma.
+We.
+Plus.
+Add.
+A string with comma.
+And then.
+And then.
+And then.
+So we had this one.
+Yeah.
+But.
+I still little written it.
+All right.
+So I was just going back and written of your answers.
+For the previous problems.
+And.
+Well.
+That's.
+That's all we.
+I have for you guys today.
+If you still don't have.
+If you still don't have.
+Share folder.
+Stay with me.
+So I can probably fix that right now that you are with me.
+And.
+One second.
+And.
+I would like for.
+Come out to stay for a second to clarify something.
+And.
+What do you just share with us?
+Please.
+Give me one second.
+Oh, okay, sorry, she cannot speak.
+All right, so that's it for today for me, guys.
+You can leave if you like.
+If you need to stay for me to help you
+with accessing the folder or for anything else,
+then I can stay with you for a few minutes.
+Akmal, please stay because I wanna clarify what you ask.
+Okay, everybody else, then I'll, I'll see you next week.
+Okay.
+Thank you.
+You're welcome. Take care, everybody.
+Thank you.
+Bye. Bye. Bye.
+I just want to ask a quick question for the US
+I meant for week 10.
+I know that we are supposed to program and stuff.
+And I did all the programming and it's all working properly.
+How was it to file files that you understand?
+Like what file format do you want us to send?
+I'm sorry, go ahead and repeat the question.
+I, I, there is some noise I couldn't hear you clearly.
+So I, I finished the week 10 assignment.
+Okay.
+Before the code and everything in the different project files.
+But I was just wondering, they, which file format
+should I submit it as in the promotion program application?
+Okay, so if it is a program, okay,
+what I want you to do is to make sure that you,
+Russian, I, we haven't met to decide this.
+But I want you to save it as a text file
+because I'm assuming that I'm going to have to try to run it
+and check if it works.
+Okay.
+A text file.
+Right.
+Okay, let me just open it up real quick to see
+like if you're on the same page.
+So I go files, I file save.
+Give me one.
+And go ahead, keep going.
+It only gives me the option for dot Java.
+That's true, that's true.
+So what you, what, what I mean is this, okay.
+Go ahead and what are you using Windows or Mac?
+I'm using Mac.
+Okay.
+So find the text editor that max brings.
+I think it's called text edit.
+Text edit.
+Right.
+And then, then do this.
+Copy the program, copy and paste the program there
+and save it as a text file.
+And I need to, I need to clarify that with the other teacher
+because in my, is the text edit?
+Yeah, it's called text edit, correct.
+Okay, so I'm in text at a new document.
+So copy and paste from netbeams, copy and paste there,
+save it as a text file.
+Because if it's a text file, no rich text file,
+just text file that entire everything, everything,
+because then I will have to run it in that way.
+I can copy and paste it and run it on my end
+when I need to.
+Okay, but I'm going to have to clarify with, with rash.
+Okay.
+It's only allowed me to export as PDF.
+For some reason.
+Yeah.
+Export as PDF is the only option.
+Aw.
+You know what?
+Do me a favor then.
+Cause then, then send me an email on, on canvas
+cause I'm going to have to ask rash.
+How, how we're going to handle that?
+Okay.
+Cause I don't, I don't, I don't know for sure.
+Okay, so I know that it can't submit it.
+They, yeah, so net, and netbeams,
+I know we can export the file, the whole package,
+but I don't know, let me ask,
+cause I don't have, I really don't have a certain answer for you.
+Okay, and yes, if you,
+if that is an impediment for, for submitting the work,
+then I'll, I'll have to see how we can manage that.
+Okay.
+Okay, so when would I expect I can update on this?
+Because I want to, I'm going to email rash.
+Actually email both of us.
+Can you do that email on the, on the, on campus?
+Okay.
+And on, right, on canvas and then ask how should you submit?
+What type of file should you submit it?
+Because I don't have an answer for it really.
+Okay.
+So in that way, he will, he will see it.
+And should I specify the problems I'm facing
+with the file formats for each application?
+Right, right.
+And then in that way, he can help both of us,
+because as I said, I don't really know
+how that's going to work.
+Okay.
+Okay.
+Thank you.
+You're welcome.
+Have a great rest of the day.
+You too.
+Sarah, what's going on?
+Hi, Mr. Martin.
+Can you hear me?
+Yes, I can hear you.
+Regarding what we, I had asked you about last week,
+my school still wants me to do like a mock exam
+for computer science.
+And they said that if you guys aren't able to make an exam,
+is it possible for you guys to provide topics to them
+for them at the school to make the exam on their end?
+Okay.
+Let me, I'm going to make, I'm going to take,
+make notes of that.
+And I know it sounds like I repaired it stuff,
+but I, I am new at this with Pamolia.
+And I don't know what they, what the policies are for that.
+So I'm going to say mock exam or provide a mock
+is done for you guys.
+That's basically the question, right?
+Provide a mock exam for Sarah.
+Provide either a develop one
+or provide topics
+for this school to create one.
+Am I right on that?
+Yeah.
+Okay.
+Yes.
+Yes, I have the same thing as well.
+So like, I'm like, on January, I have the mock exam.
+And then like, I don't know, like, how would it work
+because I'm doing a chill.
+And I'm like, only the one in the class.
+So I don't know how would it work for me as well
+because I have a mock exam as well.
+All right.
+What, what day do you have that program?
+It's on January more, I'll check now.
+It's like from, I think so on the 15th of January,
+something like that.
+Okay.
+All right.
+Well, again, then I'm going to,
+I'm going to try to find out an answer for that.
+And I'll be emailing you this coming week.
+Both of you, Sarah and you.
+Thank you, Sarah.
+Okay.
+Thank you.
+Thank you so much.
+You're welcome, Sarah.
+I have a good rest of the day.
+Alma.
+Alma.
+Hello, who are you?
+I'm good.
+Thank you.
+How are you?
+Pretty good.
+Thanks.
+I just wanted to quickly talk to you
+about downloading Java since I haven't been able to do that.
+Okay.
+The links provided through like the tasks
+for this week, week 10, but I entered the links
+and then I didn't know what to press to like download it.
+So you haven't been able to install Java?
+Yes.
+Same, sir.
+Same, same with.
+Same, yes, sir.
+I also like it.
+I tried to try to install with the teacher in my school.
+And then like, we weren't able to do it.
+I don't know why.
+Maybe it's like something on my laptop or the website
+that was provided on the worksheet.
+Like we tried many times, but it didn't work.
+So like I wasn't able to install it on time.
+Okay.
+Let me see.
+So you guys were able to...
+So you did access the...
+You had you access the document that we have in the chair
+of all the press?
+Yes, sir.
+Okay.
+What what machine do you have?
+I have my map.
+I'm to enter truth, yes.
+My empty chip.
+Okay.
+Did you...
+Were you able to at least download the software?
+I installed from the Oracle website.
+I think it was called X64DMG, which I did that.
+And then for the netbeans, I also downloaded,
+I think it was 28 netbeans.
+But then like it's like on my laptop,
+but like I cannot access it or open it.
+I have the netbeans 28.
+What...
+What message did you get?
+Like it's not like opening.
+I have the file, but I don't have the...
+Yes, it has an automatic access.
+Yes, it has an open.
+I have the files and everything, but like it's not like opening.
+Is this your personal computer or school computer?
+No, no, it's my personal one.
+It's your personal one.
+So I would just ask him because then there is no restriction.
+But I spoke with my school.
+If you guys are happy to do it, then they will like let me use the school laptop,
+like the PC to access it.
+If you guys let me do that because I spoke with my IT in my school.
+And then he wasn't able to install it from my laptop.
+On your laptop?
+Yeah.
+So they said if you guys let me, then they will like do it for the school's PC,
+then I will be able to let code and do the programming over there.
+Right.
+Look, I don't have an issue with that.
+I mean, I don't see why using netbeans in one computer or other is an issue.
+I don't see that.
+So if that solves your problem, I will tell you, go ahead and do that.
+You know what?
+I would like to have it on my laptop so I can do it like whatever.
+And whenever I want to, obviously that will be the best option.
+But yeah, so to avoid for you to probably be behind, right?
+At least get the school computer and try to do that there.
+Because I will have to probably be with you like make an individual appointment
+and try to try to do it together.
+Do you understand what I'm saying?
+Yes, right.
+So you will have to share this one, right?
+Share your screen and everything and then try to do that.
+Because otherwise, we will have to go.
+I will, what I will do really is going through all these documents step by step,
+okay, and see where the process kind of fails if it does, okay?
+Okay.
+Yes, ma'am.
+For me, I'm able to open it.
+It's just I'm confused on like what to do if that makes sense.
+So for me, it's not really a software issue.
+It's more of like confusion.
+Confusion.
+All right, well, let's, let's do this.
+Alma Goharan, I just allow you to share.
+Is in this machine that you have it?
+Share my screen, okay, wait, let me see.
+And we'll see Abdul, do you have any question?
+Abdul?
+Sir, no, I'm just here because I'm having an issue with the share folder.
+Whenever I try to log in, it says that there's some issue that prevents you and you don't
+have access.
+Okay, do me a favor on a private chat.
+Share your email with me, please, okay, I'm doing it right now.
+So I'm going to try it again.
+All right, let me, let me look.
+Abdul, I just send you an email to that address, try to see if allows you to allow you
+to get access to it.
+All right, Alma, so what's going on?
+So I press this, right?
+Correct.
+And then.
+So I thought you said that you have the software already, so did you download it already or not?
+No, because I get confused here.
+I tried to ask the IT in my school and they didn't know.
+So they told me to ask the teacher.
+Okay, that's fine.
+All right, so Java development kid, okay.
+Okay, go ahead and.
+Oh, wait, sorry.
+Problem.
+Access, let me know.
+So I'm here now, which one do I press?
+Okay, give me one second.
+Give me one second.
+I'm going to read that document that I was reading because.
+I was like, install the thing from the same, the same place.
+I went on the mark.
+Oh, it's sad because I have a Mac and then from there and like I did the X64, the MG one.
+Is that correct?
+What you should have.
+Let me see.
+Come to Java.
+Give me one more second.
+So I just want to make sure that we are following steps.
+Okay.
+All right.
+Windows installation.
+Give me one second.
+Mac.
+All right, so.
+Alma, what machine do you have?
+A Mac or a.
+All right, so then let's do this before we download anything.
+Open the terminal.
+Okay, just press command space.
+Okay.
+And then type terminal.
+Like this.
+Yeah.
+And then find that application.
+There you go.
+Okay.
+What access to it?
+Mr. Martin sir.
+You have access to it?
+Yes, it's fine now.
+Thank you.
+Well, you're welcome.
+Have a great rest of the day then.
+Okay.
+You do sir likewise.
+I'll see you.
+See you later.
+Bye.
+All right.
+So Alma.
+So now go ahead and type Java.
+Mr, I want to me type.
+I will now.
+Okay.
+Okay.
+Okay.
+Okay.
+And there.
+All right, what does he say?
+Operation couldn't be completed unable to locate a Java runtime.
+Please visit.
+Okay.
+So it looks like you don't have.
+Java in your.
+In your computer.
+And it needs to be.
+Install.
+One sec.
+Okay.
+Okay.
+Well, is giving me.
+I'm doing the same thing.
+But it's giving me the same message.
+So, and I know I have.
+So I don't know.
+What the deal is.
+Okay.
+It appears.
+Max.
+My project to start Java.
+You can skip that.
+Okay.
+So we're not.
+Okay.
+So.
+Let me see.
+I'm going to.
+I'm going to type something on the chat.
+So you can do that.
+So.
+So right there on the terminal.
+Try to.
+Right.
+This is a command.
+I just pasted on the chat.
+Okay.
+Should I share my screen as well?
+Yeah.
+Because I want to.
+I want to see what's going on.
+Act mal.
+You still there.
+So you also have a Mac.
+Correct.
+Yes.
+Well, let's try to.
+Let's see if you're able to follow what we're doing with.
+I did the same thing.
+And it said that I have the version.
+25.0.1.
+I put on my terminal.
+I wrote Java.
+It's the version.
+Any game in Java version.
+25.0.1.
+Okay.
+So.
+I already have the files and everything.
+But like, I just going to open the.
+Like the.
+I don't know why it's not.
+It's not opening for me.
+I have the Java.
+And then the.
+It means as well.
+Okay.
+Give me one second.
+So, Alma, you say that no much found.
+Right.
+Yeah.
+Okay.
+One more try.
+Or something here.
+I think just to install the ARM.
+One of the 64 one because I had the same issue.
+And then when I did the ARM 64.
+From the Mac OS version.
+And then it worked for me.
+Which one?
+You go to the Mac OS there.
+And top left.
+So.
+You see what it says.
+Alma, you see that?
+No, go back.
+Okay.
+You see at the top says Linus max and window.
+Oh, yes.
+Yeah, there.
+And then you go to the RARM 64 DNG.
+This one, right?
+No, I know this.
+It depends which.
+Which Mac will you have?
+Which I'm like what should you have?
+Yeah, depends on your machine.
+But.
+The one she's he stole is the last one.
+Am I right?
+This one?
+Yes.
+Yeah.
+That's what he stole.
+So, Alma, try to.
+To do the same.
+Now stop sharing and.
+I'll show me your your screen.
+Well, you said that it doesn't open.
+I want to see what might be.
+How do you see my screen, sir?
+Yeah, share the screen.
+Can you see my screen now?
+Because I'm trying to.
+Well, not really.
+Oh, it moves.
+How about now?
+Is it working now?
+No, it's not working.
+I just see the same.
+Oh, now it's about now.
+Now.
+So, like, I put the job version and it's any him in this.
+Okay.
+And when I go to my files to my downloads and then first search net pins.
+Because I have the thing also the net pins here.
+I have the file here, but like I kind of open it.
+You can.
+That folder.
+No, because when I press it, it goes here.
+So like, I don't know what to do here.
+Wait, wait a sec.
+It looks like.
+Because usually.
+Usually it becomes like.
+Something that you need to unpack on install.
+So let's see.
+Let's go back to that.
+No, no, stay there.
+Scroll down.
+I want to see.
+Oh, net pins.
+Of course.
+Okay.
+Do you see the third file there?
+Go back up.
+You see a file that one, the.
+This one.
+Yeah.
+That one.
+That's the download and a sip.
+Click on that.
+But says this.
+Can resume this download this file.
+That's how to redo it.
+Looks like.
+Because what you want is once you download it looks like all you got to do is.
+You will see on your desktop something that looks like a.
+Drive.
+And then from there, you just click on it and ask to install to install.
+I think I did that already when I do my first download it.
+And then you did that and it gave you all this.
+Yes, they gave all this like I did that and it gave all this.
+Okay, click on your finder.
+Oh, no, right there.
+Click on applications.
+Go go to applications on the right on the right panel.
+Is net being somewhere in there?
+No, it's not there.
+So.
+Well, it looks like you might want to see if you're able to remove.
+What you have on it, beans.
+And then try to download it again and see if that works.
+Because when I did for the Python, like it was like fast and quick for Java.
+I don't know.
+Okay.
+Well, try to do that and let me know.
+Okay.
+Yes, sir.
+I would like.
+I would like to let you know if anything goes wrong.
+All right.
+Thank you, Admiral.
+Thank you, sir.
+Thank you so much for everything.
+You're welcome.
+Alma, how's it going?
+I did download the software.
+It worked.
+So.
+Now I'm going to see if I can download the beans.
+All right.
+Go ahead and then let me know if you have issues.
+Okay.
+Okay.
+All right.
+Alma, well, then.
+Just email me.
+Okay.
+Okay.
+Thank you so much, mister.
+Have a good day or night.
+You too.
+Thank you.
+Thank you.
+Bye.
+Bye.
+Bye.
+Bye.
