@@ -1,24 +1,23 @@
-IB COMPUTER SCIENCE HL - WEEK 7
-Introduction to IA & A1.2.5 (K-map Revision)
-Transcription - Formatted
+# IB COMPUTER SCIENCE HL - WEEK 7
 
-================================================================================
+## Introduction to IA & A1.2.5 (K-map Revision)
+
+*Transcription - Formatted*
+
+
 LESSON OUTLINE
-================================================================================
 
-1. CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+
+## 1. CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
+
 2. TOPIC A1.2.4 - K-MAP REVISION & BOOLEAN ALGEBRA
 3. INTERNAL ASSESSMENT (IA) INTRODUCTION
 4. BOOLEAN ALGEBRA SIMPLIFICATION
 5. K-MAP (KARNAUGH MAP) SIMPLIFICATION
 6. CLASS CONCLUSION
 
-================================================================================
 
-
-================================================================================
-CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
-================================================================================
+## CLASS INTRODUCTION & ADMINISTRATIVE MATTERS
 
 How's everything, guys? We still have two minutes, so we can just do some informal chat. How's everything? How's studies going on? How's school going on?
 
@@ -46,9 +45,8 @@ So let me show you what it looks like now. So here we have the main folder. You 
 
 How many of you are from SL class? Okay, so for SL class, you will get a little early release because there are only a few topics that we are going to cover for SL and then rest of them are for HL.
 
-================================================================================
-TOPIC A1.2.4 - K-MAP REVISION & BOOLEAN ALGEBRA
-================================================================================
+
+## TOPIC A1.2.4 - K-MAP REVISION & BOOLEAN ALGEBRA
 
 So let's have a look at the subject guide. A 1.2.4. So we have done this towards tables construct logically diagram. So for SL, what we will do is we will look into one. One is a K map because some of your old backs to us saying that you have not fully understood K map. So we will cover this K map today. It cover in the sense we'll just revise what we have done in K map so that it's more convenient for you.
 
@@ -74,9 +72,8 @@ For the SL, although we are trying that, you should get access to this folder di
 
 Okay, so that's about this thing.
 
-================================================================================
-INTERNAL ASSESSMENT (IA) INTRODUCTION
-================================================================================
+
+## INTERNAL ASSESSMENT (IA) INTRODUCTION
 
 The other thing that I wanted to talk to you about the upcoming term when we will officially start with the IA. So let me show you what IA calendar looks like.
 
@@ -148,9 +145,8 @@ There are some free UI design applications available. For example, canva is ther
 
 [The teacher continues explaining criteria B, C, D, and E with examples and detailed explanations about the IA structure, deadlines, and requirements. The discussion covers UI designs, flowcharts, database designs, testing plans, code documentation, video demonstrations, and evaluation criteria.]
 
-================================================================================
-BOOLEAN ALGEBRA SIMPLIFICATION
-================================================================================
+
+## BOOLEAN ALGEBRA SIMPLIFICATION
 
 So let's get on to task now. So for the SL, I will start with the Boolean simplification, which was 1.2.5 in the subject guide. So let's have a look at what kind of questions you may expect from the Boolean simplification.
 
@@ -196,9 +192,8 @@ So not A plus B equal to A bar dot B bar and similarly A plus B whole A dot B wh
 
 [The teacher continues with examples of Boolean algebra simplification, showing step-by-step solutions using various laws.]
 
-================================================================================
-K-MAP (KARNAUGH MAP) SIMPLIFICATION
-================================================================================
+
+## K-MAP (KARNAUGH MAP) SIMPLIFICATION
 
 Now K map is one of the visual methods of simplifying the Boolean expressions. Where we don't need to learn any laws of Boolean algebra. That is not needed. It's very simplified. It's very simplified way of actually finding the bare minimum terms for a logic gate. Of no matter how complex your Boolean expression is.
 
@@ -298,9 +293,8 @@ So in this way, using the K map, we can simplify the Boolean expression without 
 
 [The teacher continues with more K-map examples, showing how to simplify three-variable expressions, explaining grouping rules, and demonstrating the process step by step.]
 
-================================================================================
-CLASS CONCLUSION
-================================================================================
+
+## CLASS CONCLUSION
 
 So it you never know. I mean, your idea could become Nobel and it could actually go into the market. But anyway, you should not actually aim at that level at this stage because you have number of hours allocated for IA and ideally it's be finished within that many hours, which is 30 hours overall. So you should not aim to make something very, very ambitious try to stick to the basics.
 
@@ -320,6 +314,6 @@ But this document which I have prepared for 1.3.1.2.5 to the last topic I will p
 
 So thank you so much for being so attentive for answering all the questions. So I'm really happy with the way you are going and let's continue working together for your success in the CS course.
 
-================================================================================
-END OF TRANSCRIPTION
-================================================================================
+
+## END OF TRANSCRIPTION
+
